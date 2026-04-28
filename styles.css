@@ -563,3 +563,41 @@ footer {
   padding: 24px;
 }
 .feature-grid-4 .feature p { font-size: 14px; }
+
+/* LANGUAGE TOGGLE */
+html[lang="en"] [data-lang="tr"],
+html[lang="tr"] [data-lang="en"] {
+  display: none !important;
+}
+
+.lang-toggle {
+  display: inline-flex;
+  margin-left: 8px;
+  border: 1px solid var(--slate-200);
+  border-radius: 999px;
+  padding: 2px;
+  background: #fff;
+}
+.lang-toggle button {
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 999px;
+  color: var(--slate-500);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.lang-toggle button:hover { color: var(--slate-900); }
+.lang-toggle button.is-active {
+  background: var(--teal-600);
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .nav-links { gap: 12px; }
+  .lang-toggle { margin-left: 4px; }
+  .lang-toggle button { padding: 4px 8px; font-size: 11px; }
+}

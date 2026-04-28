@@ -6,214 +6,14 @@
   <title>Privacy Policy — Dozify</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
+  <script src="lang.js" defer></script>
 </head>
 <body>
-<header class="nav">
-  <div class="container nav-inner">
-    <a href="/" class="brand">
-      <span class="brand-mark" aria-hidden="true">
-        <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
-          <rect width="32" height="32" rx="8" fill="#0D9488"/>
-          <path d="M11 9h6.5c4 0 7 3 7 7s-3 7-7 7H11V9z" fill="#fff"/>
-          <circle cx="20" cy="16" r="2.2" fill="#0D9488"/>
-        </svg>
-      </span>
-      <span class="brand-name">Dozify</span>
-    </a>
-    <nav class="nav-links">
-      <a href="/#features">Features</a>
-      <a href="/#privacy">Privacy</a>
-      <a href="support.html">Support</a>
-    </nav>
-  </div>
-</header>
-<main class="legal-page">
-<a href="/" class="back-link">← Back to home</a>
-<nav><h3>Table of Contents</h3>
-    <ol>
-      <li><a href="#overview">Overview &amp; Key Principles</a></li>
-      <li><a href="#data-collected">Data We Process</a></li>
-      <li><a href="#how-processed">How Data Is Processed</a></li>
-      <li><a href="#third-parties">Third-Party Services</a></li>
-      <li><a href="#no-collection">Data We Do Not Collect</a></li>
-      <li><a href="#notifications">Push Notifications</a></li>
-      <li><a href="#iap">In-App Purchases</a></li>
-      <li><a href="#children">Children's Privacy</a></li>
-      <li><a href="#security">Security</a></li>
-      <li><a href="#retention">Data Retention &amp; Deletion</a></li>
-      <li><a href="#rights">Your Rights</a></li>
-      <li><a href="#changes">Changes to This Policy</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ol>
-  </nav>
-
-  <div>
-    <h2>🛡️ Privacy at a Glance</h2>
-    <div>
-      <div><span>📱</span><p><strong>On-device only.</strong> Every health record you enter stays exclusively on your device.</p></div>
-      <div><span>🚫</span><p><strong>No account required.</strong> We never ask for your name, email, or any identifier.</p></div>
-      <div><span>☁️</span><p><strong>No cloud sync.</strong> Nothing is transmitted to our servers — because we don't run any.</p></div>
-      <div><span>📊</span><p><strong>No analytics SDKs.</strong> No Firebase, Mixpanel, Amplitude, or crash reporters.</p></div>
-      <div><span>🎯</span><p><strong>No advertising.</strong> Zero ad networks, zero tracking pixels, zero ad IDs used.</p></div>
-      <div><span>🗑️</span><p><strong>Full deletion.</strong> Delete all data any time from Settings, with no residual copies.</p></div>
-    </div>
-  </div>
-
-  <h2 id="overview">1. Overview &amp; Key Principles</h2>
-  <p>Dozify ("we", "our", "the App") is a GLP-1 medication tracking application developed by ErmDev ("Developer"), an individual developer based in Istanbul, Turkey. The App helps patients using GLP-1 medications (Ozempic®, Wegovy®, Mounjaro®, Saxenda®, and similar) log injections, monitor side effects, manage vials, track weight, and generate reports for their healthcare providers.</p>
-  <p>This Privacy Policy describes what information the App processes, how it is handled, and what rights you have. It applies to all versions of Dozify on iOS and Android.</p>
-  <p>Our approach to privacy rests on three principles:</p>
-  <ol>
-    <li><strong>Data minimisation:</strong> We process only what is strictly necessary for the App to function.</li>
-    <li><strong>Local-first architecture:</strong> Health and personal data never leave your device unless you explicitly choose to export or share it.</li>
-    <li><strong>Transparency:</strong> We describe every data flow in plain language — no vague catch-alls.</li>
-  </ol>
-
-  <h2 id="data-collected">2. Data We Process</h2>
-
-  <h3>2.1 Health and Tracking Data (stored locally on your device)</h3>
-  <table>
-    <thead>
-      <tr><th>Category</th><th>Examples</th><th>Purpose</th><th>Storage</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Injection records</td><td>Date, time, dose (mg/units), injection site, pen/vial used</td><td>Treatment tracking, charts, PDF reports</td><td><span>Device only</span></td></tr>
-      <tr><td>Side effect diary</td><td>Symptom type, severity (1–10), notes, date</td><td>Pattern analysis, doctor reports</td><td><span>Device only</span></td></tr>
-      <tr><td>Weight &amp; nutrition</td><td>Weight entries, BMI, protein intake, meal notes</td><td>Progress tracking, muscle-loss alerts</td><td><span>Device only</span></td></tr>
-      <tr><td>Medication info</td><td>Drug name, dose tier, start date, pen/vial type</td><td>Dose escalation tracking</td><td><span>Device only</span></td></tr>
-      <tr><td>Vial management</td><td>Open date, expiry date, units remaining, storage events</td><td>Vial lifecycle, waste prevention</td><td><span>Device only</span></td></tr>
-      <tr><td>App preferences</td><td>Language selection, notification settings, units (kg/lbs)</td><td>Personalisation</td><td><span>Device only</span></td></tr>
-    </tbody>
-  </table>
-  <p>All of the above is stored in an SQLite database on your device, encrypted by the operating system's standard file-system protection (iOS Data Protection Class "Protected Until First User Authentication"; Android Encrypted Shared Storage).</p>
-
-  <h3>2.2 Purchase Verification Data</h3>
-  <p>When you subscribe to Dozify Premium, the transaction is processed exclusively by Apple (App Store) or Google (Play Store). We receive only an anonymous, non-reversible subscription receipt token — we never see your payment card details, billing address, or real name. This token is validated by RevenueCat (see §4) to determine whether your subscription is active.</p>
-
-  <h2 id="how-processed">3. How Data Is Processed</h2>
-  <p>All health data is processed <strong>locally on your device</strong> using SQLite and React Native / Expo APIs. No data is transmitted over the network during normal use. Specifically:</p>
-  <ul>
-    <li>Charts and analytics are computed on-device in real time.</li>
-    <li>PDF reports are generated on-device using expo-print and shared only when you explicitly tap "Share" or "Save".</li>
-    <li>Notification scheduling runs entirely through the OS scheduler (expo-notifications) — reminder content is never sent to a server.</li>
-    <li>Educational articles are bundled within the app binary — no network request is made to fetch them.</li>
-  </ul>
-  <p>The App has no backend server of its own. There is no API endpoint we operate that receives health data.</p>
-
-  <h2 id="third-parties">4. Third-Party Services</h2>
-  <p>Dozify uses a minimal set of platform services solely for subscription management. None of these services receive health data.</p>
-  <table>
-    <thead>
-      <tr><th>Service</th><th>Purpose</th><th>Data Shared</th><th>Privacy Policy</th></tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Apple App Store</strong></td>
-        <td>iOS distribution, IAP processing</td>
-        <td>Anonymous device/installation ID, subscription receipt</td>
-        <td><a href="https://www.apple.com/legal/privacy/" target="_blank">apple.com/legal/privacy</a></td>
-      </tr>
-      <tr>
-        <td><strong>Google Play</strong></td>
-        <td>Android distribution, IAP processing</td>
-        <td>Anonymous device/installation ID, subscription receipt</td>
-        <td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td>
-      </tr>
-      <tr>
-        <td><strong>RevenueCat</strong></td>
-        <td>Cross-platform subscription status validation</td>
-        <td>Anonymous app user ID, subscription status, platform receipt</td>
-        <td><a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <p>RevenueCat operates as a data processor on our behalf. They process no health, weight, medication, or personally identifiable information from the App. Their data processing agreement is available at <a href="https://www.revenuecat.com/dpa" target="_blank">revenuecat.com/dpa</a>.</p>
-
-  <div>
-    <strong>No other third-party SDKs are integrated.</strong> Dozify does not include analytics libraries (Firebase, Mixpanel, Amplitude, Segment), advertising SDKs (Meta, Google Ads), crash reporters (Sentry, Bugsnag), or social login providers. This is verifiable by inspecting the open-source dependencies in the app's package.json.
-  </div>
-
-  <h2 id="no-collection">5. Data We Do Not Collect</h2>
-  <ul>
-    <li>Name, email address, phone number, or any personal identifier.</li>
-    <li>Location data (GPS or IP-based).</li>
-    <li>Contacts, photos, camera, or microphone access.</li>
-    <li>Device advertising ID (IDFA/GAID).</li>
-    <li>Browsing history or cross-app tracking data.</li>
-    <li>Precise device fingerprint.</li>
-  </ul>
-  <p>App Store privacy nutrition label: <strong>Data Not Collected</strong> (with the limited purchase-validation exception described in §2.2).</p>
-
-  <h2 id="notifications">6. Push Notifications</h2>
-  <p>If you grant notification permission, the App schedules local notifications on your device for injection reminders and vial expiry alerts. These notifications are generated entirely on-device by the OS scheduler. No notification content or scheduling data is transmitted to any server. You can revoke notification permission at any time in your device Settings.</p>
-
-  <h2 id="iap">7. In-App Purchases &amp; Subscriptions</h2>
-  <p>Dozify Premium is available as a monthly or annual auto-renewing subscription. Subscriptions are managed through the platform (Apple / Google) and are subject to their respective store terms. We do not handle payment data. Cancellations must be made through your platform account settings.</p>
-  <p>The free tier remains fully functional indefinitely. Premium features are limited to advanced reporting (detailed reports, unlimited exports, custom date ranges).</p>
-
-  <h2 id="children">8. Children's Privacy</h2>
-  <p>Dozify is not directed at children under the age of 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided health data through the App, please contact us at <a href="mailto:privacy@dozify.app">privacy@dozify.app</a> and we will provide guidance on deleting it from the device.</p>
-
-  <h2 id="security">9. Security</h2>
-  <p>We take the following measures to protect your data:</p>
-  <ul>
-    <li><strong>OS-level encryption:</strong> The SQLite database benefits from iOS Data Protection and Android's encrypted storage.</li>
-    <li><strong>No network transmission:</strong> The most effective protection against data breaches is never transmitting health data over the network.</li>
-    <li><strong>No server-side storage:</strong> There is no database on our side that could be breached.</li>
-    <li><strong>Minimal permissions:</strong> The App requests only notification permission. No camera, microphone, contacts, or location permissions are requested.</li>
-  </ul>
-  <p>We cannot guarantee absolute security of the device itself. If your device is lost or compromised, we recommend using your device's screen lock and data-wipe features.</p>
-
-  <h2 id="retention">10. Data Retention &amp; Deletion</h2>
-  <p>Data is retained on your device for as long as you use the App. You have three deletion options:</p>
-  <ol>
-    <li><strong>Selective deletion:</strong> Delete individual injection records, side effect entries, or weight logs from within the App.</li>
-    <li><strong>Full data wipe:</strong> Settings → Delete Data → "Delete All Data". This irreversibly removes all health data, settings, and vial records from the device database.</li>
-    <li><strong>App uninstall:</strong> Uninstalling the App removes all local data from the device.</li>
-  </ol>
-  <p>Because we do not store data on any server, we hold no data to delete on our end. Deletion is instantaneous and complete.</p>
-
-  <h2 id="rights">11. Your Rights</h2>
-  <p>Depending on your jurisdiction, you may have the following rights regarding personal data. Because all data is local and never transmitted to us, most rights are exercisable directly within the App:</p>
-  <table>
-    <thead>
-      <tr><th>Right</th><th>How to Exercise</th></tr>
-    </thead>
-    <tbody>
-      <tr><td><strong>Access</strong></td><td>All data is visible within the App at any time.</td></tr>
-      <tr><td><strong>Portability</strong></td><td>Settings → Export Data → CSV export.</td></tr>
-      <tr><td><strong>Correction</strong></td><td>Edit any record directly within the App.</td></tr>
-      <tr><td><strong>Erasure ("right to be forgotten")</strong></td><td>Settings → Delete Data (selective or full wipe).</td></tr>
-      <tr><td><strong>Restriction of processing</strong></td><td>Stop using or delete the App; no background processing occurs.</td></tr>
-      <tr><td><strong>Objection</strong></td><td>Contact <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>.</td></tr>
-      <tr><td><strong>Withdraw consent</strong></td><td>Delete all data via Settings → Delete Data.</td></tr>
-    </tbody>
-  </table>
-  <p>For rights under Turkish law (KVKK), please see our <a href="/kvkk">KVKK Disclosure Notice</a>.</p>
-
-  <h2 id="changes">12. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. When we do, we will:</p>
-  <ul>
-    <li>Update the "Effective" date at the top of this page.</li>
-    <li>Display an in-app notice for material changes.</li>
-  </ul>
-  <p>Continued use of the App after a change constitutes acceptance of the updated policy. If you disagree with a change, you may delete your data and uninstall the App.</p>
-
-  <div id="contact">
-    <h2>13. Contact</h2>
-    <p>For privacy-related inquiries, data requests, or concerns:</p>
-    <div>📧 <a href="mailto:privacy@dozify.app">privacy@dozify.app</a> — Privacy &amp; data requests</div>
-    <div>📧 <a href="mailto:support@dozify.app">support@dozify.app</a> — General support</div>
-    <p style="margin-top:14px; font-size:14px; color:#64748B;">Developer: ErmDev · Istanbul, Turkey<br>
-    We endeavour to respond to all privacy inquiries within <strong>30 days</strong>.</p>
-  </div>
-</main>
-<footer>
-  <div class="container footer-inner">
-    <div class="footer-brand">
+  <header class="nav">
+    <div class="container nav-inner">
       <a href="/" class="brand">
         <span class="brand-mark" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
             <rect width="32" height="32" rx="8" fill="#0D9488"/>
             <path d="M11 9h6.5c4 0 7 3 7 7s-3 7-7 7H11V9z" fill="#fff"/>
             <circle cx="20" cy="16" r="2.2" fill="#0D9488"/>
@@ -221,29 +21,192 @@
         </span>
         <span class="brand-name">Dozify</span>
       </a>
-      <p class="footer-tagline">A private companion for your GLP-1 treatment.</p>
+      <nav class="nav-links">
+        <a href="/#features" data-lang="en">Features</a>
+        <a href="/#features" data-lang="tr">Özellikler</a>
+        <a href="support.html" data-lang="en">Support</a>
+        <a href="support.html" data-lang="tr">Destek</a>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" data-set-lang="en">EN</button>
+          <button type="button" data-set-lang="tr">TR</button>
+        </div>
+      </nav>
     </div>
-    <div class="footer-links">
-      <div class="footer-col">
-        <h4>Legal</h4>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="kvkk.html">KVKK Aydınlatma</a>
-        <a href="terms.html">Terms of Service</a>
+  </header>
+
+  <main class="legal-page">
+    <a href="/" class="back-link" data-lang="en">← Back to home</a>
+    <a href="/" class="back-link" data-lang="tr">← Ana sayfaya dön</a>
+
+    <h1 data-lang="en">Privacy Policy</h1>
+    <h1 data-lang="tr">Gizlilik Politikası</h1>
+    <p class="meta" data-lang="en">Last updated: April 28, 2026 · Effective: April 28, 2026</p>
+    <p class="meta" data-lang="tr">Son güncelleme: 28 Nisan 2026 · Yürürlük: 28 Nisan 2026</p>
+
+    <div data-lang="en">
+      <h2>1. Introduction</h2>
+      <p>Dozify ("we", "our") is a medication tracking application designed to help users manage GLP-1 medications such as Ozempic, Mounjaro, Wegovy, Saxenda, and similar treatments. This Privacy Policy explains how we handle information when you use the Dozify mobile application (the "App").</p>
+      <p><strong>Dozify is offline-first. We do not collect, transmit, or store any of your personal or health data on our servers.</strong> All data you enter into the App stays on your device.</p>
+
+      <h2>2. Data We Do Not Collect</h2>
+      <p>The App does <strong>not</strong> collect, transmit, or store the following on any external server:</p>
+      <ul>
+        <li>Personal identifiers (name, email, phone number, government ID)</li>
+        <li>Health data (medications, injections, weight, blood glucose, side effects)</li>
+        <li>Location data</li>
+        <li>Device identifiers used for tracking</li>
+        <li>Analytics or usage telemetry</li>
+        <li>Advertising identifiers</li>
+      </ul>
+
+      <h2>3. Data Stored Locally on Your Device</h2>
+      <p>The App stores the following information <strong>only on your device</strong>, in a local SQLite database and encrypted system storage:</p>
+      <ul>
+        <li>Medications, dosages, and injection schedules you enter</li>
+        <li>Injection history and diary entries</li>
+        <li>Weight and blood glucose measurements you log</li>
+        <li>Vial inventory and expiry dates</li>
+        <li>Notification preferences and reminders</li>
+        <li>App settings (language, theme, units)</li>
+      </ul>
+      <p>This data never leaves your device unless you explicitly export it (e.g., generating a PDF report and sharing it via email or another app of your choice). Deleting the App removes all data permanently.</p>
+
+      <h2>4. Permissions We Request</h2>
+      <ul>
+        <li><strong>Notifications:</strong> to deliver injection reminders and vial expiry alerts. You may revoke this permission at any time in your device settings.</li>
+        <li><strong>Storage (Android only):</strong> to save PDF reports you generate.</li>
+      </ul>
+      <p>The App does not request access to camera, microphone, contacts, location, or photos.</p>
+
+      <h2>5. Third-Party Services</h2>
+      <p>The App does <strong>not</strong> integrate any third-party analytics, advertising, or tracking SDKs.</p>
+      <p>The App may, in future versions, offer optional in-app purchases processed by Apple App Store or Google Play. Those transactions are governed by Apple's and Google's respective privacy policies, and we receive only anonymized purchase status (whether a subscription is active). No payment details are handled by Dozify.</p>
+
+      <h2>6. Children's Privacy</h2>
+      <p>The App is not directed to children under 13 (or 16 in the EU). We do not knowingly collect any data from children. If you believe a child has used the App, no personal data has been transmitted to us in any case, but you may delete the App from the device to remove all locally stored data.</p>
+
+      <h2>7. Your Rights</h2>
+      <p>Because we do not collect or store your data on our servers, traditional rights of access, deletion, or portability are exercised directly through the App:</p>
+      <ul>
+        <li><strong>Access:</strong> all your data is visible to you within the App.</li>
+        <li><strong>Export:</strong> you can generate PDF reports of your data at any time.</li>
+        <li><strong>Deletion:</strong> use Settings → Delete My Data to selectively or fully erase data. Uninstalling the App also deletes all local data.</li>
+      </ul>
+      <p>EU/UK residents have rights under GDPR and Turkish residents have rights under KVKK (Law No. 6698). See our <a href="kvkk.html">KVKK Aydınlatma Metni</a> for Turkish-language rights.</p>
+
+      <h2>8. Medical Disclaimer</h2>
+      <p>Dozify is not a medical device and does not provide medical advice, diagnosis, or treatment. Information in the App is for personal tracking purposes only. Always consult your doctor or a qualified healthcare provider before making medication decisions.</p>
+
+      <h2>9. Data Security</h2>
+      <p>Local data is stored in your device's protected app sandbox. We recommend enabling a device passcode, biometric lock, and full-disk encryption (enabled by default on modern iOS and Android devices).</p>
+
+      <h2>10. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Material changes will be reflected by updating the "Last updated" date above. Continued use of the App after changes means you accept the updated policy.</p>
+
+      <h2>11. Contact</h2>
+      <p>For privacy questions: <a href="mailto:privacy@dozify.app">privacy@dozify.app</a><br>For general support: <a href="mailto:support@dozify.app">support@dozify.app</a></p>
+    </div>
+
+    <div data-lang="tr">
+      <h2>1. Giriş</h2>
+      <p>Dozify ("biz", "bizim"), Ozempic, Mounjaro, Wegovy, Saxenda ve benzeri GLP-1 ilaçlarının yönetimine yardımcı olmak için tasarlanmış bir ilaç takip uygulamasıdır. Bu Gizlilik Politikası, Dozify mobil uygulamasını ("Uygulama") kullandığınızda bilgileri nasıl ele aldığımızı açıklar.</p>
+      <p><strong>Dozify çevrimdışı çalışır. Kişisel veya sağlık verilerinizi sunucularımızda toplamaz, iletmez veya saklamayız.</strong> Uygulamaya girdiğiniz tüm veriler cihazınızda kalır.</p>
+
+      <h2>2. Toplamadığımız Veriler</h2>
+      <p>Uygulama aşağıdaki verileri herhangi bir harici sunucuda <strong>toplamaz, iletmez veya saklamaz</strong>:</p>
+      <ul>
+        <li>Kişisel kimlik bilgileri (ad, e-posta, telefon numarası, T.C. kimlik no.)</li>
+        <li>Sağlık verileri (ilaçlar, enjeksiyonlar, kilo, kan şekeri, yan etkiler)</li>
+        <li>Konum bilgisi</li>
+        <li>Takip için kullanılan cihaz tanımlayıcıları</li>
+        <li>Analitik veya kullanım telemetrisi</li>
+        <li>Reklam tanımlayıcıları</li>
+      </ul>
+
+      <h2>3. Cihazınızda Yerel Olarak Saklanan Veriler</h2>
+      <p>Uygulama aşağıdaki bilgileri <strong>yalnızca cihazınızda</strong> yerel SQLite veritabanı ve şifrelenmiş sistem deposunda saklar:</p>
+      <ul>
+        <li>Girdiğiniz ilaçlar, dozlar ve enjeksiyon programları</li>
+        <li>Enjeksiyon geçmişi ve günlük girişleri</li>
+        <li>Kaydettiğiniz kilo ve kan şekeri ölçümleri</li>
+        <li>Flakon stoğu ve son kullanma tarihleri</li>
+        <li>Bildirim tercihleri ve hatırlatıcılar</li>
+        <li>Uygulama ayarları (dil, tema, birimler)</li>
+      </ul>
+      <p>Bu veriler, sizin açık tercihinizle dışa aktarmadığınız sürece (örneğin PDF rapor üretip e-posta ile paylaşma) cihazınızdan asla çıkmaz. Uygulamayı silmek tüm verileri kalıcı olarak kaldırır.</p>
+
+      <h2>4. Talep Ettiğimiz İzinler</h2>
+      <ul>
+        <li><strong>Bildirimler:</strong> enjeksiyon hatırlatıcıları ve flakon son kullanma uyarıları için. Bu izni cihaz ayarlarından istediğiniz zaman geri alabilirsiniz.</li>
+        <li><strong>Depolama (yalnızca Android):</strong> ürettiğiniz PDF raporları kaydetmek için.</li>
+      </ul>
+      <p>Uygulama kamera, mikrofon, rehber, konum veya fotoğraflara erişim talep etmez.</p>
+
+      <h2>5. Üçüncü Taraf Hizmetler</h2>
+      <p>Uygulama <strong>hiçbir</strong> üçüncü taraf analitik, reklam veya takip SDK'sı içermez.</p>
+      <p>Gelecek sürümlerde Apple App Store veya Google Play tarafından işlenen isteğe bağlı uygulama içi satın almalar sunulabilir. Bu işlemler Apple ve Google'ın gizlilik politikalarına tabidir; biz yalnızca anonim satın alma durumunu (aboneliğin aktif olup olmadığını) alırız. Hiçbir ödeme bilgisi Dozify tarafından işlenmez.</p>
+
+      <h2>6. Çocukların Gizliliği</h2>
+      <p>Uygulama 13 yaşın (AB'de 16) altındaki çocuklara yönelik değildir. Çocuklardan bilerek veri toplamayız. Bir çocuğun Uygulamayı kullandığını düşünüyorsanız, herhangi bir kişisel veri zaten bize iletilmemiştir; cihazdan uygulamayı silerek tüm yerel verileri kaldırabilirsiniz.</p>
+
+      <h2>7. Haklarınız</h2>
+      <p>Verilerinizi sunucularımızda toplamadığımız için, geleneksel erişim, silme veya taşıma hakları doğrudan Uygulama üzerinden kullanılır:</p>
+      <ul>
+        <li><strong>Erişim:</strong> tüm verileriniz Uygulama içinde size görünür.</li>
+        <li><strong>Dışa aktarma:</strong> verilerinizin PDF raporlarını istediğiniz zaman üretebilirsiniz.</li>
+        <li><strong>Silme:</strong> Ayarlar → Verilerimi Sil yolu ile seçici veya tam silme yapabilirsiniz. Uygulamayı kaldırmak da tüm yerel verileri siler.</li>
+      </ul>
+      <p>AB/Birleşik Krallık vatandaşları GDPR kapsamında, Türkiye vatandaşları KVKK (6698 sayılı Kanun) kapsamında haklara sahiptir. Detaylar için <a href="kvkk.html">KVKK Aydınlatma Metni</a>'mize bakınız.</p>
+
+      <h2>8. Tıbbi Uyarı</h2>
+      <p>Dozify bir tıbbi cihaz değildir; tıbbi tavsiye, tanı veya tedavi sunmaz. Uygulamadaki bilgiler yalnızca kişisel takip amaçlıdır. İlaç kararları vermeden önce mutlaka doktorunuza veya yetkili bir sağlık profesyoneline danışın.</p>
+
+      <h2>9. Veri Güvenliği</h2>
+      <p>Yerel veriler cihazınızın korumalı uygulama sandbox alanında saklanır. Cihaz şifresi, biyometrik kilit ve tam disk şifrelemesinin (modern iOS ve Android cihazlarda varsayılan olarak aktif) etkin olmasını öneririz.</p>
+
+      <h2>10. Bu Politikadaki Değişiklikler</h2>
+      <p>Bu Gizlilik Politikası zaman zaman güncellenebilir. Önemli değişiklikler yukarıdaki "Son güncelleme" tarihine yansıtılır. Değişikliklerden sonra Uygulamayı kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir.</p>
+
+      <h2>11. İletişim</h2>
+      <p>Gizlilik soruları için: <a href="mailto:privacy@dozify.app">privacy@dozify.app</a><br>Genel destek için: <a href="mailto:support@dozify.app">support@dozify.app</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488"/>
+              <path d="M11 9h6.5c4 0 7 3 7 7s-3 7-7 7H11V9z" fill="#fff"/>
+              <circle cx="20" cy="16" r="2.2" fill="#0D9488"/>
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
       </div>
-      <div class="footer-col">
-        <h4>Help</h4>
-        <a href="support.html">Support</a>
-        <a href="mailto:support@dozify.app">support@dozify.app</a>
-        <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4 data-lang="en">Legal</h4>
+          <h4 data-lang="tr">Yasal</h4>
+          <a href="kvkk.html">KVKK</a>
+          <a href="terms.html" data-lang="en">Terms</a>
+          <a href="terms.html" data-lang="tr">Kullanım Koşulları</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-lang="en">Help</h4>
+          <h4 data-lang="tr">Yardım</h4>
+          <a href="support.html" data-lang="en">Support</a>
+          <a href="support.html" data-lang="tr">Destek</a>
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="container footer-bottom">
-    <p>© 2026 UCE</p>
-    <p class="disclaimer">
-      Dozify is not a medical device and does not provide medical advice. Always consult your doctor.
-    </p>
-  </div>
-</footer>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  </footer>
 </body>
 </html>

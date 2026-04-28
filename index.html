@@ -14,6 +14,7 @@
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
+  <script src="lang.js" defer></script>
 </head>
 <body>
   <header class="nav">
@@ -29,68 +30,94 @@
         <span class="brand-name">Dozify</span>
       </a>
       <nav class="nav-links">
-        <a href="#how">How it works</a>
-        <a href="#features">Features</a>
-        <a href="support.html">Support</a>
+        <a href="#how" data-lang="en">How it works</a>
+        <a href="#how" data-lang="tr">Nasıl çalışır</a>
+        <a href="#features" data-lang="en">Features</a>
+        <a href="#features" data-lang="tr">Özellikler</a>
+        <a href="support.html" data-lang="en">Support</a>
+        <a href="support.html" data-lang="tr">Destek</a>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" data-set-lang="en">EN</button>
+          <button type="button" data-set-lang="tr">TR</button>
+        </div>
       </nav>
     </div>
   </header>
 
   <main>
-    <!-- HERO -->
     <section class="hero">
       <div class="container">
-        <span class="pill">For Ozempic · Mounjaro · Wegovy · Saxenda</span>
-        <h1>Track your GLP-1 treatment, <span class="accent">privately.</span></h1>
-        <p class="lede">
+        <span class="pill" data-lang="en">For Ozempic · Mounjaro · Wegovy · Saxenda</span>
+        <span class="pill" data-lang="tr">Ozempic · Mounjaro · Wegovy · Saxenda kullananlar için</span>
+
+        <h1 data-lang="en">Track your GLP-1 treatment, <span class="accent">privately.</span></h1>
+        <h1 data-lang="tr">GLP-1 tedavinizi takip edin, <span class="accent">tamamen size özel.</span></h1>
+
+        <p class="lede" data-lang="en">
           Dozify is a simple, offline app that reminds you of your weekly injections,
           tracks your vial stock and weight, and prepares a clean PDF report for your doctor.
           No accounts. No cloud. Your data stays on your phone.
         </p>
+        <p class="lede" data-lang="tr">
+          Dozify; haftalık enjeksiyonlarınızı hatırlatan, flakon stoğunuzu ve kilonuzu takip eden,
+          doktorunuz için temiz bir PDF rapor hazırlayan, tamamen çevrimdışı çalışan basit bir uygulamadır.
+          Hesap yok. Bulut yok. Veriler telefonunuzda kalır.
+        </p>
+
         <div class="cta-row">
           <span class="badge-soft">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z"/>
               <path d="m9 12 2 2 4-4"/>
             </svg>
-            100% offline · No data leaves your device
+            <span data-lang="en">100% offline · No data leaves your device</span>
+            <span data-lang="tr">%100 çevrimdışı · Veriler cihazdan çıkmaz</span>
           </span>
-          <a href="#download" class="btn btn-primary">Get the app</a>
+          <a href="#download" class="btn btn-primary" data-lang="en">Get the app</a>
+          <a href="#download" class="btn btn-primary" data-lang="tr">Uygulamayı al</a>
         </div>
       </div>
     </section>
 
-    <!-- HOW IT WORKS -->
     <section id="how" class="section">
       <div class="container">
-        <h2 class="section-title">How it works</h2>
-        <p class="section-lede">Three steps. No setup headache.</p>
+        <h2 class="section-title" data-lang="en">How it works</h2>
+        <h2 class="section-title" data-lang="tr">Nasıl çalışır</h2>
+        <p class="section-lede" data-lang="en">Three steps. No setup headache.</p>
+        <p class="section-lede" data-lang="tr">Üç adım. Karmaşık kurulum yok.</p>
 
         <div class="steps">
           <div class="step">
             <span class="step-num">1</span>
-            <h3>Add your medication</h3>
-            <p>Pick from Ozempic, Mounjaro, Wegovy, Saxenda, Zepbound, Trulicity, Victoza, or Rybelsus. Set your dose and weekly schedule.</p>
+            <h3 data-lang="en">Add your medication</h3>
+            <h3 data-lang="tr">İlacınızı ekleyin</h3>
+            <p data-lang="en">Pick from Ozempic, Mounjaro, Wegovy, Saxenda, Zepbound, Trulicity, Victoza, or Rybelsus. Set your dose and weekly schedule.</p>
+            <p data-lang="tr">Ozempic, Mounjaro, Wegovy, Saxenda, Zepbound, Trulicity, Victoza veya Rybelsus arasından seçin. Doz ve haftalık programınızı belirleyin.</p>
           </div>
           <div class="step">
             <span class="step-num">2</span>
-            <h3>Log every injection</h3>
-            <p>Tap to record the dose, time, and injection site on a body diagram. Smart rotation prevents reusing the same spot.</p>
+            <h3 data-lang="en">Log every injection</h3>
+            <h3 data-lang="tr">Her enjeksiyonu kaydedin</h3>
+            <p data-lang="en">Tap to record the dose, time, and injection site on a body diagram. Smart rotation prevents reusing the same spot.</p>
+            <p data-lang="tr">Tek dokunuşla doz, saat ve enjeksiyon bölgesini vücut diyagramına kaydedin. Akıllı rotasyon aynı bölgeye tekrar girmenizi engeller.</p>
           </div>
           <div class="step">
             <span class="step-num">3</span>
-            <h3>Share with your doctor</h3>
-            <p>Export a PDF report with your full treatment history, weight progress, and side-effect log — perfect for your next visit.</p>
+            <h3 data-lang="en">Share with your doctor</h3>
+            <h3 data-lang="tr">Doktorunuzla paylaşın</h3>
+            <p data-lang="en">Export a PDF report with your full treatment history, weight progress, and side-effect log — perfect for your next visit.</p>
+            <p data-lang="tr">Tüm tedavi geçmişi, kilo takibi ve yan etki kaydını içeren PDF rapor oluşturun — bir sonraki randevunuza hazır.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- FEATURES -->
     <section id="features" class="section section-light">
       <div class="container">
-        <h2 class="section-title">What's inside</h2>
-        <p class="section-lede">Designed for people on weekly GLP-1 medications.</p>
+        <h2 class="section-title" data-lang="en">What's inside</h2>
+        <h2 class="section-title" data-lang="tr">Neler içerir</h2>
+        <p class="section-lede" data-lang="en">Designed for people on weekly GLP-1 medications.</p>
+        <p class="section-lede" data-lang="tr">Haftalık GLP-1 ilaçları kullananlar için tasarlandı.</p>
 
         <div class="feature-grid feature-grid-4">
           <article class="feature">
@@ -99,8 +126,10 @@
                 <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>
               </svg>
             </div>
-            <h3>Smart reminders</h3>
-            <p>Weekly or daily reminders that match your medication's schedule.</p>
+            <h3 data-lang="en">Smart reminders</h3>
+            <h3 data-lang="tr">Akıllı hatırlatıcılar</h3>
+            <p data-lang="en">Weekly or daily reminders that match your medication's schedule.</p>
+            <p data-lang="tr">İlacınızın programına uygun haftalık veya günlük hatırlatıcılar.</p>
           </article>
 
           <article class="feature">
@@ -109,8 +138,10 @@
                 <path d="M10 2v7.5L4 22h16l-6-12.5V2"/><path d="M8.5 2h7"/>
               </svg>
             </div>
-            <h3>Vial stock</h3>
-            <p>Open dates, expiry countdown, and remaining doses for every vial.</p>
+            <h3 data-lang="en">Vial stock</h3>
+            <h3 data-lang="tr">Flakon stoğu</h3>
+            <p data-lang="en">Open dates, expiry countdown, and remaining doses for every vial.</p>
+            <p data-lang="tr">Açılma tarihi, son kullanma sayacı ve her flakon için kalan doz.</p>
           </article>
 
           <article class="feature">
@@ -119,8 +150,10 @@
                 <path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/>
               </svg>
             </div>
-            <h3>Progress charts</h3>
-            <p>Weight trend, dose escalation, and side-effect patterns at a glance.</p>
+            <h3 data-lang="en">Progress charts</h3>
+            <h3 data-lang="tr">İlerleme grafikleri</h3>
+            <p data-lang="en">Weight trend, dose escalation, and side-effect patterns at a glance.</p>
+            <p data-lang="tr">Kilo trendi, doz artışı ve yan etki örüntülerini tek bakışta görün.</p>
           </article>
 
           <article class="feature">
@@ -129,14 +162,15 @@
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/>
               </svg>
             </div>
-            <h3>PDF reports</h3>
-            <p>One-tap doctor-ready summaries with your full treatment timeline.</p>
+            <h3 data-lang="en">PDF reports</h3>
+            <h3 data-lang="tr">PDF raporlar</h3>
+            <p data-lang="en">One-tap doctor-ready summaries with your full treatment timeline.</p>
+            <p data-lang="tr">Tek dokunuşla doktora hazır özet, tüm tedavi zaman çizelgenizle birlikte.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- PRIVACY -->
     <section id="privacy" class="section privacy-section">
       <div class="container">
         <div class="privacy-card">
@@ -145,21 +179,28 @@
               <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z"/>
             </svg>
           </div>
-          <h2>Your data never leaves your phone</h2>
-          <p>
+          <h2 data-lang="en">Your data never leaves your phone</h2>
+          <h2 data-lang="tr">Verileriniz telefonunuzdan asla çıkmaz</h2>
+          <p data-lang="en">
             Dozify has no servers, no analytics, no advertising. Everything you log stays encrypted on your device.
             Delete the app and the data is gone.
           </p>
-          <a href="privacy.html" class="link-arrow">Read the Privacy Policy →</a>
+          <p data-lang="tr">
+            Dozify'da sunucu, analitik veya reklam yok. Kaydettiğiniz her şey cihazınızda şifreli olarak kalır.
+            Uygulamayı silerseniz veri de silinir.
+          </p>
+          <a href="privacy.html" class="link-arrow" data-lang="en">Read the Privacy Policy →</a>
+          <a href="privacy.html" class="link-arrow" data-lang="tr">Gizlilik Politikasını Oku →</a>
         </div>
       </div>
     </section>
 
-    <!-- DOWNLOAD -->
     <section id="download" class="section section-cta">
       <div class="container">
-        <h2 class="section-title">Coming soon</h2>
-        <p class="section-lede">Currently in review on App Store and Google Play.</p>
+        <h2 class="section-title" data-lang="en">Coming soon</h2>
+        <h2 class="section-title" data-lang="tr">Yakında</h2>
+        <p class="section-lede" data-lang="en">Currently in review on App Store and Google Play.</p>
+        <p class="section-lede" data-lang="tr">App Store ve Google Play'de inceleme aşamasında.</p>
         <div class="store-row">
           <div class="store-card">
             <div class="store-card-icon">
@@ -168,7 +209,8 @@
               </svg>
             </div>
             <div>
-              <span class="store-card-pretitle">Coming soon to</span>
+              <span class="store-card-pretitle" data-lang="en">Coming soon to</span>
+              <span class="store-card-pretitle" data-lang="tr">Yakında</span>
               <strong>App Store</strong>
             </div>
           </div>
@@ -179,12 +221,14 @@
               </svg>
             </div>
             <div>
-              <span class="store-card-pretitle">Coming soon to</span>
+              <span class="store-card-pretitle" data-lang="en">Coming soon to</span>
+              <span class="store-card-pretitle" data-lang="tr">Yakında</span>
               <strong>Google Play</strong>
             </div>
           </div>
         </div>
-        <p class="cta-note">QR codes will appear here once the app is approved.</p>
+        <p class="cta-note" data-lang="en">QR codes will appear here once the app is approved.</p>
+        <p class="cta-note" data-lang="tr">Onay alındıktan sonra burada QR kodları görünecek.</p>
       </div>
     </section>
   </main>
@@ -202,19 +246,25 @@
           </span>
           <span class="brand-name">Dozify</span>
         </a>
-        <p class="footer-tagline">A private companion for your GLP-1 treatment.</p>
+        <p class="footer-tagline" data-lang="en">A private companion for your GLP-1 treatment.</p>
+        <p class="footer-tagline" data-lang="tr">GLP-1 tedaviniz için özel bir yardımcı.</p>
       </div>
 
       <div class="footer-links">
         <div class="footer-col">
-          <h4>Legal</h4>
-          <a href="privacy.html">Privacy Policy</a>
+          <h4 data-lang="en">Legal</h4>
+          <h4 data-lang="tr">Yasal</h4>
+          <a href="privacy.html" data-lang="en">Privacy Policy</a>
+          <a href="privacy.html" data-lang="tr">Gizlilik Politikası</a>
           <a href="kvkk.html">KVKK Aydınlatma</a>
-          <a href="terms.html">Terms of Service</a>
+          <a href="terms.html" data-lang="en">Terms of Service</a>
+          <a href="terms.html" data-lang="tr">Kullanım Koşulları</a>
         </div>
         <div class="footer-col">
-          <h4>Help</h4>
-          <a href="support.html">Support</a>
+          <h4 data-lang="en">Help</h4>
+          <h4 data-lang="tr">Yardım</h4>
+          <a href="support.html" data-lang="en">Support</a>
+          <a href="support.html" data-lang="tr">Destek</a>
           <a href="mailto:support@dozify.app">support@dozify.app</a>
           <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
         </div>
@@ -222,10 +272,15 @@
     </div>
     <div class="container footer-bottom">
       <p>© 2026 UCE</p>
-      <p class="disclaimer">
+      <p class="disclaimer" data-lang="en">
         Dozify is not a medical device and does not provide medical advice. Always consult your doctor.
         Ozempic®, Mounjaro®, Wegovy®, Saxenda®, Zepbound®, Trulicity®, Rybelsus®, and Victoza® are trademarks of their respective owners.
         Dozify is not affiliated with these companies.
+      </p>
+      <p class="disclaimer" data-lang="tr">
+        Dozify bir tıbbi cihaz değildir ve tıbbi tavsiye sunmaz. Her zaman doktorunuza danışın.
+        Ozempic®, Mounjaro®, Wegovy®, Saxenda®, Zepbound®, Trulicity®, Rybelsus® ve Victoza® ilgili sahiplerinin tescilli markalarıdır.
+        Dozify bu firmalarla bağlantılı değildir.
       </p>
     </div>
   </footer>
