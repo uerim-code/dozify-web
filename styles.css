@@ -146,8 +146,19 @@ img, svg { display: block; max-width: 100%; }
   gap: 12px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 36px;
+  margin-bottom: 16px;
 }
+.offline-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 auto 36px;
+  color: var(--slate-500);
+  font-size: 14px;
+  font-weight: 500;
+}
+.offline-note svg { color: var(--teal-600); flex-shrink: 0; }
 .btn {
   display: inline-flex;
   align-items: center;
@@ -172,22 +183,6 @@ img, svg { display: block; max-width: 100%; }
   box-shadow: var(--shadow-lg);
   color: #fff;
 }
-.badge-soft {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  height: 48px;
-  padding: 0 18px;
-  border-radius: var(--radius-md);
-  background: #fff;
-  border: 1px solid var(--slate-200);
-  color: var(--slate-700);
-  font-size: 14px;
-  font-weight: 500;
-  box-shadow: var(--shadow-sm);
-}
-.badge-soft svg { color: var(--teal-600); }
-
 .brands {
   font-size: 13px;
   color: var(--slate-400);
