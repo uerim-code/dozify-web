@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dozify — GLP-1 Treatment Tracker</title>
-  <meta name="description" content="Track your Ozempic, Mounjaro, Wegovy or Saxenda treatment. Injection reminders, vial stock, weight &amp; body measurements, clinical-trial benchmark, Apple Health sync, and PDF reports for your doctor. Works offline; your personal data stays on your device.">
+  <title>Dozify — GLP-1 Injection &amp; Dose Tracker</title>
+  <meta name="description" content="Private GLP-1 tracker for Ozempic, Mounjaro, Wegovy &amp; Saxenda. Log injections, rotate sites, track weight trend &amp; vial stock, set dose reminders, and export PDF reports for your doctor. Works offline — your data stays on your device.">
   <meta name="theme-color" content="#0D9488">
 
-  <meta property="og:title" content="Dozify — GLP-1 Treatment Tracker">
-  <meta property="og:description" content="Private, offline tracker for Ozempic, Mounjaro, Wegovy, and Saxenda — with clinical-trial weight-loss benchmark.">
+  <meta property="og:title" content="Dozify — GLP-1 Injection &amp; Dose Tracker">
+  <meta property="og:description" content="Private, offline GLP-1 tracker for Ozempic, Mounjaro, Wegovy, and Saxenda — injection log, site rotation, weight trend, vial stock, and doctor PDF reports.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dozify.app/">
   <meta property="og:image" content="https://dozify.app/og-image.png">
@@ -22,6 +22,35 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
   <script src="lang.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MobileApplication",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/",
+        "downloadUrl": "https://apps.apple.com/app/id6764325653",
+        "description": "Private GLP-1 injection & dose tracker for Ozempic, Wegovy, Mounjaro and Saxenda — log injections, rotate sites, track weight trend and vial stock, set reminders, and export doctor PDF reports. Works offline, no account.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "Organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": "https://dozify.app/og-image.png"
+      },
+      {
+        "@type": "WebSite",
+        "name": "Dozify",
+        "url": "https://dozify.app/"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="nav">
@@ -138,10 +167,10 @@
                 <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
               </svg>
             </div>
-            <h3 data-lang="en">Clinical benchmark</h3>
-            <h3 data-lang="tr">Klinik karşılaştırma</h3>
-            <p data-lang="en">See how your weight loss compares to published GLP-1 clinical-trial averages.</p>
-            <p data-lang="tr">Kilo kaybınızı yayımlanmış GLP-1 klinik çalışma ortalamalarıyla karşılaştırın.</p>
+            <h3 data-lang="en">Weight trend &amp; projection</h3>
+            <h3 data-lang="tr">Kilo trendi ve projeksiyon</h3>
+            <p data-lang="en">See your weight on clear charts with a time-to-goal projection based on your own data.</p>
+            <p data-lang="tr">Kilonuzu net grafiklerde görün; kendi verinize dayalı hedefe kalan süre tahminiyle.</p>
           </article>
 
           <article class="feature">
@@ -354,8 +383,8 @@
           <div class="faq-item">
             <h3 data-lang="en">Can I track weight and side effects?</h3>
             <h3 data-lang="tr">Kilo ve yan etkileri takip edebilir miyim?</h3>
-            <p data-lang="en">Yes. You can record your weight, body measurements, and a side-effect diary, and see a clinical-trial-style progress view that compares your trend to published GLP-1 averages.</p>
-            <p data-lang="tr">Evet. Kilonuzu, vücut ölçülerinizi ve yan etki günlüğünüzü kaydedebilir; trendinizi yayımlanmış GLP-1 ortalamalarıyla karşılaştıran klinik çalışma tarzı bir ilerleme görünümü görebilirsiniz.</p>
+            <p data-lang="en">Yes. You can record your weight, body measurements, and a side-effect diary, and see your trend on clear charts — including a weight projection and a time-to-goal estimate based on your own data.</p>
+            <p data-lang="tr">Evet. Kilonuzu, vücut ölçülerinizi ve yan etki günlüğünüzü kaydedebilir; trendinizi net grafiklerde görebilirsiniz — kendi verinize dayalı kilo projeksiyonu ve hedefe kalan süre tahmini dahil.</p>
           </div>
 
           <div class="faq-item">
@@ -425,7 +454,7 @@
             "name": "Can I track weight and side effects?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. You can record your weight, body measurements, and a side-effect diary, and see a clinical-trial-style progress view that compares your trend to published GLP-1 averages."
+              "text": "Yes. You can record your weight, body measurements, and a side-effect diary, and see your trend on clear charts — including a weight projection and a time-to-goal estimate based on your own data."
             }
           },
           {
