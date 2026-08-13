@@ -37,8 +37,8 @@
 
     <h1 data-lang="en">Privacy Policy</h1>
     <h1 data-lang="tr">Gizlilik Politikası</h1>
-    <p class="meta" data-lang="en">Last updated: August 6, 2026 · Effective: August 6, 2026</p>
-    <p class="meta" data-lang="tr">Son güncelleme: 6 Ağustos 2026 · Yürürlük: 6 Ağustos 2026</p>
+    <p class="meta" data-lang="en">Last updated: August 13, 2026 · Effective: August 13, 2026</p>
+    <p class="meta" data-lang="tr">Son güncelleme: 13 Ağustos 2026 · Yürürlük: 13 Ağustos 2026</p>
 
     <div data-lang="en">
       <h2>1. Introduction</h2>
@@ -51,9 +51,10 @@
         <li>Personal identifiers (name, email, phone number, government ID)</li>
         <li>Health data — which medication you take, your injections, weight, blood glucose, symptoms, notes, photos, or measurements</li>
         <li>Location data</li>
-        <li>Advertising identifiers, or any identifier used for cross-app or cross-site tracking</li>
+        <li>Advertising identifiers, unless you explicitly allow tracking on Apple's App Tracking Transparency prompt — see the ad measurement paragraph in section 5</li>
       </ul>
       <p>The App does receive the anonymous identifiers described in section 5 (an analytics app-instance ID and a push token). They exist only so anonymous usage counts and your notifications work, they are not linked to your name or email, and they are not used to track you across other apps or websites.</p>
+      <p><strong>Your health data is never used for advertising.</strong> Nothing you log — medications, doses, injections, weight, blood glucose, side effects, notes, photos — is ever used for ad targeting or shared with an advertising network, whatever you answer on the tracking prompt.</p>
 
       <h2>3. Data Stored Locally on Your Device</h2>
       <p>The App stores the following information <strong>only on your device</strong>, in a local SQLite database and encrypted system storage:</p>
@@ -79,6 +80,7 @@
       <h2>5. Third-Party Services</h2>
       <p>The App uses <strong>Firebase Analytics</strong> (Google Analytics for Firebase) to collect anonymous usage statistics such as screen views, in-app actions (e.g. which features are used), and subscription conversion events. This data is tied to an anonymous app-instance identifier — not to your name, email, or any other personally identifiable information. Your health data (injection history, weight, blood glucose, side effects, diary entries) is <strong>never</strong> sent to Firebase. See <a href="https://firebase.google.com/support/privacy" rel="nofollow noopener" target="_blank">Firebase Privacy</a> for details.</p>
       <p>The App uses <strong>OneSignal</strong> to deliver push notifications (e.g. dose and refill reminders). OneSignal receives a device push token so it can deliver notifications to your device, and the language you use the App in (Turkish or English) so announcements are sent in that language; it does not receive your medication, dose, or other health data. See <a href="https://onesignal.com/privacy_policy" rel="nofollow noopener" target="_blank">OneSignal's Privacy Policy</a> for details.</p>
+      <p>The App uses the <strong>Meta (Facebook) SDK</strong> for one purpose: measuring whether an app install came from one of our ads. On iOS the App asks for your permission first, through Apple's App Tracking Transparency prompt. If you decline, or never answer, <strong>no advertising identifier (IDFA) is collected</strong> and Meta receives only Apple's privacy-preserving aggregate SKAdNetwork signal. If you allow it, your device's advertising identifier is shared with Meta so that the install can be attributed to the ad you saw. What is sent is limited to install and app-open attribution signals — your health data (medications, doses, injections, weight, blood glucose, side effects, notes) is <strong>never</strong> sent to Meta. You can change your answer at any time in iOS Settings → Privacy &amp; Security → Tracking. See <a href="https://www.facebook.com/privacy/policy" rel="nofollow noopener" target="_blank">Meta's Privacy Policy</a> for details.</p>
       <p>Dozify Premium is an optional auto-renewable subscription processed by Apple App Store or Google Play. Those transactions are governed by Apple's and Google's respective privacy policies; we (via <strong>RevenueCat</strong>, our subscription-management provider) receive only your purchase and subscription status (whether Premium is active), linked to an anonymous app user ID — not your name and not your payment details. No payment card information is ever handled by Dozify.</p>
 
       <h2>6. Children's Privacy</h2>
@@ -117,9 +119,10 @@
         <li>Kişisel kimlik bilgileri (ad, e-posta, telefon numarası, T.C. kimlik no.)</li>
         <li>Sağlık verileri — hangi ilacı kullandığınız, enjeksiyonlarınız, kilonuz, kan şekeriniz, semptomlarınız, notlarınız, fotoğraflarınız ve ölçümleriniz</li>
         <li>Konum bilgisi</li>
-        <li>Reklam tanımlayıcıları veya uygulamalar/siteler arası takip için kullanılan herhangi bir tanımlayıcı</li>
+        <li>Reklam tanımlayıcıları — Apple'ın İzleme Şeffaflığı (ATT) ekranında açıkça izin vermediğiniz sürece; bkz. 5. bölümdeki reklam ölçümü paragrafı</li>
       </ul>
       <p>Uygulama, 5. bölümde açıklanan anonim tanımlayıcıları (analitik uygulama-örneği kimliği ve bildirim anahtarı) alır. Bunlar yalnızca anonim kullanım sayımlarının ve bildirimlerinizin çalışması için vardır; adınıza veya e-postanıza bağlı değildir ve sizi başka uygulamalarda ya da sitelerde takip etmek için kullanılmaz.</p>
+      <p><strong>Sağlık verileriniz reklam için asla kullanılmaz.</strong> Kaydettiğiniz hiçbir şey — ilaçlar, dozlar, enjeksiyonlar, kilo, kan şekeri, yan etkiler, notlar, fotoğraflar — izleme ekranında ne cevap verirseniz verin reklam hedeflemesinde kullanılmaz ve bir reklam ağıyla paylaşılmaz.</p>
 
       <h2>3. Cihazınızda Yerel Olarak Saklanan Veriler</h2>
       <p>Uygulama aşağıdaki bilgileri <strong>yalnızca cihazınızda</strong> yerel SQLite veritabanı ve şifrelenmiş sistem deposunda saklar:</p>
@@ -145,6 +148,7 @@
       <h2>5. Üçüncü Taraf Hizmetler</h2>
       <p>Uygulama, anonim kullanım istatistikleri (ekran görüntülemeleri, uygulama içi etkileşimler, abonelik dönüşüm olayları) toplamak için <strong>Firebase Analytics</strong> (Google Analytics for Firebase) kullanır. Bu veriler anonim bir uygulama-örneği tanımlayıcısıyla ilişkilendirilir — adınız, e-postanız veya başka bir kişisel tanımlayıcıyla değil. Sağlık verileriniz (enjeksiyon geçmişi, kilo, kan şekeri, yan etkiler, günlük girişleri) Firebase'e <strong>asla</strong> gönderilmez. Detaylar için <a href="https://firebase.google.com/support/privacy" rel="nofollow noopener" target="_blank">Firebase Gizlilik</a> sayfasına bakın.</p>
       <p>Uygulama, push bildirimlerini (örn. doz ve yenileme hatırlatıcıları) göndermek için <strong>OneSignal</strong> kullanır. OneSignal, bildirimleri cihazınıza gönderebilmek için bir cihaz push token'ı ve duyuruların doğru dilde gitmesi için uygulamayı kullandığınız dili (Türkçe veya İngilizce) alır; ilaç, doz veya diğer sağlık verilerinizi almaz. Detaylar için <a href="https://onesignal.com/privacy_policy" rel="nofollow noopener" target="_blank">OneSignal Gizlilik Politikası</a>'na bakın.</p>
+      <p>Uygulama, <strong>Meta (Facebook) SDK</strong>'sını tek bir amaçla kullanır: bir uygulama kurulumunun bizim reklamlarımızdan gelip gelmediğini ölçmek. iOS'ta Uygulama önce Apple'ın İzleme Şeffaflığı (App Tracking Transparency) ekranıyla izninizi ister. İzin vermezseniz ya da hiç yanıtlamazsanız <strong>hiçbir reklam tanımlayıcısı (IDFA) toplanmaz</strong> ve Meta yalnızca Apple'ın gizliliği koruyan toplu SKAdNetwork sinyalini görür. İzin verirseniz, kurulumun gördüğünüz reklamla ilişkilendirilebilmesi için cihazınızın reklam tanımlayıcısı Meta ile paylaşılır. Gönderilen şey kurulum ve uygulama açılışı ilişkilendirme sinyalleriyle sınırlıdır — sağlık verileriniz (ilaçlar, dozlar, enjeksiyonlar, kilo, kan şekeri, yan etkiler, notlar) Meta'ya <strong>asla</strong> gönderilmez. Yanıtınızı istediğiniz zaman iOS Ayarlar → Gizlilik ve Güvenlik → İzleme bölümünden değiştirebilirsiniz. Detaylar için <a href="https://www.facebook.com/privacy/policy" rel="nofollow noopener" target="_blank">Meta Gizlilik Politikası</a>'na bakın.</p>
       <p>Dozify Premium, Apple App Store veya Google Play tarafından işlenen isteğe bağlı bir otomatik yenilenen abonelik hizmetidir. Bu işlemler Apple ve Google'ın ilgili gizlilik politikalarına tabidir; biz (abonelik yönetim sağlayıcımız <strong>RevenueCat</strong> aracılığıyla) yalnızca satın alma ve abonelik durumunuzu (Premium'un aktif olup olmadığını) anonim bir uygulama kullanıcı kimliğine bağlı olarak alırız; adınızı ve ödeme bilgilerinizi almayız. Hiçbir kart bilgisi Dozify tarafından işlenmez.</p>
 
       <h2>6. Çocukların Gizliliği</h2>
