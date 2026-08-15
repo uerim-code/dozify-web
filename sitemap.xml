@@ -44,19 +44,25 @@
   </url>
   <url>
     <loc>https://dozify.app/articles/what-is-glp1</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dozify.app/articles/glp1-injection-sites</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dozify.app/articles/how-to-inject-glp1</loc>
     <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dozify.app/articles/glp1-patches</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
