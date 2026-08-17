@@ -37,7 +37,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dozify.app/articles/</loc>
+    <loc>https://dozify.app/articles</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -151,7 +151,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dozify.app/articles/</loc>
+    <loc>https://dozify.app/articles</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
