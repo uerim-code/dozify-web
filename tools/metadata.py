@@ -9,6 +9,54 @@ and 140–160 for a description. Longer is not more information, it is a
 sentence cut off mid-word.
 """
 
+# What each page is for, and the query it is written to answer. This is here
+# rather than in a document because it is what keeps two pages from being
+# written against the same query: "glp1 shot tracker" and "glp1 injection sites"
+# look similar and are not, and the moment two pages chase one query they split
+# their own signal. INTENT[slug][lang] = (intent, primary query).
+INTENT: dict[str, dict[str, tuple[str, str]]] = {
+    "":                             {"en": ("app search", "glp-1 tracker app"),
+                                     "tr": ("uygulama arayışı", "glp1 takip uygulaması")},
+    "glp1-shot-tracker":            {"en": ("app search", "glp-1 shot tracker"),
+                                     "tr": ("uygulama arayışı", "glp1 iğne takip uygulaması")},
+    "injection-site-tracker":       {"en": ("app search", "injection site tracker app"),
+                                     "tr": ("uygulama arayışı", "enjeksiyon bölgesi takibi")},
+    "glp1-weight-tracker":          {"en": ("app search", "glp-1 weight tracker"),
+                                     "tr": ("uygulama arayışı", "glp1 kilo takibi")},
+    "glp1-side-effect-journal":     {"en": ("app search", "glp-1 side effect tracker"),
+                                     "tr": ("uygulama arayışı", "glp1 yan etki günlüğü")},
+    "glp1-vial-tracker":            {"en": ("app search", "glp-1 vial tracker"),
+                                     "tr": ("uygulama arayışı", "glp1 flakon takibi")},
+    "private-glp1-tracker":         {"en": ("app search", "private glp-1 tracker no account"),
+                                     "tr": ("uygulama arayışı", "gizli glp1 takip uygulaması")},
+    "glp1-appointment-report":      {"en": ("app search", "glp-1 doctor report pdf"),
+                                     "tr": ("uygulama arayışı", "glp1 doktor raporu pdf")},
+    "switch-glp1-tracker-app":      {"en": ("switching", "shotsy alternative import data"),
+                                     "tr": ("uygulama değiştirme", "shotsy yerine glp1 uygulaması")},
+    "why":                          {"en": ("evaluation", "why dozify"),
+                                     "tr": ("değerlendirme", "neden dozify")},
+    "support":                      {"en": ("support", "dozify support"),
+                                     "tr": ("destek", "dozify destek")},
+    "privacy":                      {"en": ("legal", "dozify privacy policy"),
+                                     "tr": ("hukuki", "dozify gizlilik politikası")},
+    "terms":                        {"en": ("legal", "dozify terms of service"),
+                                     "tr": ("hukuki", "dozify kullanım koşulları")},
+    "kvkk":                         {"en": ("legal", "dozify kvkk notice"),
+                                     "tr": ("hukuki", "dozify kvkk aydınlatma metni")},
+    "articles":                     {"en": ("information hub", "glp-1 guides"),
+                                     "tr": ("bilgi merkezi", "glp1 rehberleri")},
+    "articles/what-is-glp1":        {"en": ("information", "what is glp-1"),
+                                     "tr": ("bilgi", "glp1 nedir")},
+    "articles/how-to-inject-glp1":  {"en": ("information", "how to inject glp-1"),
+                                     "tr": ("bilgi", "glp1 iğnesi nasıl yapılır")},
+    "articles/glp1-injection-sites": {"en": ("information", "glp-1 injection sites"),
+                                     "tr": ("bilgi", "glp1 enjeksiyon bölgeleri")},
+    "articles/glp1-side-effects":   {"en": ("information", "glp-1 side effects"),
+                                     "tr": ("bilgi", "glp1 yan etkileri")},
+    "articles/glp1-patches":        {"en": ("information", "glp-1 patches"),
+                                     "tr": ("bilgi", "glp1 bantları")},
+}
+
 # slug (english) -> {lang: (title, description)}
 META: dict[str, dict[str, tuple[str, str]]] = {
     "": {
@@ -20,7 +68,7 @@ META: dict[str, dict[str, tuple[str, str]]] = {
     "glp1-shot-tracker": {
         "en": ("GLP-1 Shot Tracker — Never Miss Injection Day",
                "A weekly shot needs a weekly reminder. Dozify shows the next dose on the first screen, logs each one, and keeps the history you can look back at."),
-        "tr": ("GLP-1 İğne Takibi — Doz Gününü Kaçırma",
+        "tr": ("GLP-1 İğne Takibi — Doz Gününü Bir Daha Kaçırma",
                "Haftalık ilaç, haftalık hatırlatma ister. Dozify sıradaki dozu ilk ekranda gösterir, her iğneyi kaydeder ve geriye dönüp bakabileceğin bir geçmiş tutar."),
     },
     "injection-site-tracker": {
@@ -69,7 +117,7 @@ META: dict[str, dict[str, tuple[str, str]]] = {
         "en": ("Why Dozify — What It Does and What It Refuses To",
                "Built for people already prescribed a GLP-1. It records what you and your doctor decide; it does not suggest doses or interpret results."),
         "tr": ("Neden Dozify — Ne Yapar, Neyi Yapmayı Reddeder",
-               "GLP-1 reçete edilmiş kişiler için yazıldı. Senin ve doktorunun kararını kaydeder; doz önermez, sonuç yorumlamaz."),
+               "GLP-1 reçete edilmiş kişiler için yazıldı. Senin ve doktorunun kararını kaydeder; doz önermez, sonuç yorumlamaz, yerine geçmez. Ne yaptığı burada."),
     },
     "support": {
         "en": ("Dozify Support — Help, Contact and Subscriptions",
@@ -81,36 +129,36 @@ META: dict[str, dict[str, tuple[str, str]]] = {
         "en": ("Dozify Privacy Policy — What Stays on Your Phone",
                "What Dozify stores on your device, the anonymous statistics it collects, what it never collects, and how to delete everything at once."),
         "tr": ("Dozify Gizlilik Politikası — Telefonunda Ne Kalır",
-               "Dozify'ın cihazında ne sakladığı, topladığı anonim istatistikler, asla toplamadıkları ve her şeyi tek seferde nasıl sileceğin."),
+               "Dozify'ın cihazında ne sakladığı, topladığı anonim istatistikler, asla toplamadıkları ve tüm kayıtlarını tek seferde nasıl sileceğin."),
     },
     "terms": {
-        "en": ("Dozify Terms of Service",
+        "en": ("Dozify Terms of Service — Subscription and Use",
                "The terms for using Dozify, including the auto-renewable Premium subscription, cancellation, and the limits of what a tracking tool is."),
-        "tr": ("Dozify Kullanım Koşulları",
-               "Dozify'ı kullanma koşulları: otomatik yenilenen Premium aboneliği, iptal ve bir takip aracının sınırlarının ne olduğu."),
+        "tr": ("Dozify Kullanım Koşulları — Abonelik ve Kullanım",
+               "Dozify'ı kullanma koşulları: otomatik yenilenen Premium aboneliği, ücretlendirme, iptal ve bir takip aracının sınırlarının ne olduğu."),
     },
     "kvkk": {
-        "en": ("Dozify KVKK Notice",
+        "en": ("Dozify KVKK Notice — Your Data Rights in Turkey",
                "The Turkish personal data protection notice for Dozify: what is processed, on what legal basis, and the rights you hold under KVKK."),
-        "tr": ("Dozify KVKK Aydınlatma Metni",
-               "Dozify için kişisel verilerin korunması aydınlatma metni: neyin işlendiği, hangi hukuki sebeple ve KVKK kapsamındaki haklarınız."),
+        "tr": ("Dozify KVKK Aydınlatma Metni — Haklarınız",
+               "Dozify için kişisel verilerin korunması aydınlatma metni: hangi verinin işlendiği, hangi hukuki sebeple ve KVKK kapsamında haklarınızın neler olduğu."),
     },
     "articles": {
         "en": ("GLP-1 Guides — Sourced Articles for People on GLP-1s",
                "Plain guides to injection technique, side effects, storage and what the medications do, each one citing where the information came from."),
-        "tr": ("GLP-1 Rehberleri — Kaynaklı Yazılar",
+        "tr": ("GLP-1 Rehberleri — Kaynak Gösterilmiş Yazılar",
                "Enjeksiyon tekniği, yan etkiler, saklama ve ilaçların ne yaptığı üzerine sade rehberler; her biri bilginin nereden geldiğini yazıyor."),
     },
     "articles/what-is-glp1": {
         "en": ("What Is GLP-1? The Hormone and How It Works",
                "GLP-1 is a hormone your gut releases after eating. What it does, what the medications copy, and why appetite changes — with sources."),
-        "tr": ("GLP-1 Nedir? Hormon ve Nasıl Çalıştığı",
+        "tr": ("GLP-1 Nedir? Hormonun Görevi ve Nasıl Çalıştığı",
                "GLP-1, bağırsağın yemekten sonra saldığı bir hormondur. Ne yaptığı, ilaçların neyi taklit ettiği ve iştahın neden değiştiği — kaynaklarıyla."),
     },
     "articles/how-to-inject-glp1": {
-        "en": ("How to Inject a GLP-1 Pen, Step by Step",
+        "en": ("How to Inject a GLP-1 Pen: A Step-by-Step Guide",
                "Preparing the pen, choosing a site, the injection itself and what to do afterwards — following the manufacturer instructions, with sources."),
-        "tr": ("GLP-1 Kalemi Nasıl Yapılır, Adım Adım",
+        "tr": ("GLP-1 Kalemi Nasıl Yapılır? Adım Adım Anlatım",
                "Kalemi hazırlamak, bölge seçmek, enjeksiyonun kendisi ve sonrasında ne yapılacağı — üretici talimatlarına dayanarak, kaynaklarıyla."),
     },
     "articles/glp1-injection-sites": {
@@ -120,15 +168,15 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Karın, uyluk ve üst kol onaylı bölgelerdir. Hangisini seçmeli, tam noktanın neden her seferinde değişmesi gerektiği ve nelerden kaçınmalı."),
     },
     "articles/glp1-side-effects": {
-        "en": ("Managing Common GLP-1 Side Effects",
+        "en": ("Managing Common GLP-1 Side Effects: What Helps",
                "Nausea, constipation and fatigue are the common ones. What tends to help, how long they usually last, and the signs that need a doctor."),
-        "tr": ("Yaygın GLP-1 Yan Etkileriyle Baş Etmek",
+        "tr": ("Yaygın GLP-1 Yan Etkileri: Ne İşe Yarıyor?",
                "Bulantı, kabızlık ve yorgunluk en yaygın olanlar. Neyin yardımcı olduğu, genelde ne kadar sürdüğü ve doktor gerektiren belirtiler."),
     },
     "articles/glp1-patches": {
         "en": ("GLP-1 Patches: Do They Exist and Do They Work?",
                "No GLP-1 patch is approved by the FDA or EMA. What is sold under that name, what the evidence says, and why the question comes up."),
-        "tr": ("GLP-1 Bantları: Var mı, İşe Yarıyor mu?",
-               "FDA veya EMA onaylı bir GLP-1 bandı yok. Bu adla satılanlar neler, kanıtlar ne diyor ve bu soru neden bu kadar sık soruluyor."),
+        "tr": ("GLP-1 Bantları: Var mı, İşe Yarıyor mu? Kanıtlar",
+               "FDA veya EMA onaylı bir GLP-1 bandı yok. Bu adla satılanlar neler, kanıtlar ne diyor, bu soru neden sık soruluyor — kaynaklarıyla anlatılıyor."),
     },
 }

@@ -31,6 +31,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from split_languages import split  # noqa: E402
 from metadata import META  # noqa: E402
+from structured_data import build_graph, strip_jsonld  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = "https://dozify.app"
@@ -58,6 +59,15 @@ PAGES: dict[str, tuple[str, str]] = {
     "articles/glp1-side-effects.html": ("articles/glp1-side-effects", "makaleler/glp1-yan-etkileri"),
     "articles/glp1-patches.html":     ("articles/glp1-patches", "makaleler/glp1-bantlari"),
 }
+
+# The share image is the same for every page, so its description is written
+# once per language rather than faked per page.
+OG_IMAGE_ALT = {
+    "en": "Dozify — a private GLP-1 injection and weight tracker for iPhone",
+    "tr": "Dozify — iPhone için gizli GLP-1 enjeksiyon ve kilo takip uygulaması",
+}
+
+BRAND = "#0D9488"
 
 SWITCHER = {
     "en": ('<a class="lang-switch" href="{other}" hreflang="tr" lang="tr" '
@@ -134,6 +144,33 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
             html = html.replace("</head>", f'  <meta property="{prop}" content="{val}">\n</head>', 1)
     if 'name="twitter:card"' not in html:
         html = html.replace("</head>", '  <meta name="twitter:card" content="summary_large_image">\n</head>', 1)
+    # The rest of the share card. Half the pages carried none of this, so a
+    # link to them previewed as a bare URL.
+    alt = attr(OG_IMAGE_ALT[lang])
+    og_type = "article" if en_slug.startswith("articles/") else "website"
+    for tag, value in (
+        ('<meta property="og:site_name" content="{}">', "Dozify"),
+        ('<meta property="og:type" content="{}">', og_type),
+        ('<meta property="og:image" content="{}">', f"{SITE}/og-image.png"),
+        ('<meta property="og:image:width" content="{}">', "1200"),
+        ('<meta property="og:image:height" content="{}">', "630"),
+        ('<meta property="og:image:alt" content="{}">', alt),
+        ('<meta name="twitter:title" content="{}">', title_a),
+        ('<meta name="twitter:description" content="{}">', desc_a),
+        ('<meta name="twitter:image" content="{}">', f"{SITE}/og-image.png"),
+        ('<meta name="twitter:image:alt" content="{}">', alt),
+        ('<meta name="theme-color" content="{}">', BRAND),
+    ):
+        key = re.search(r'(property|name)="([^"]+)"', tag).group(2)
+        if f'"{key}"' in html:
+            html = re.sub(rf'(<meta\s+(?:property|name)="{re.escape(key)}"\s+content=")[^"]*(")',
+                          lambda m, v=value: m.group(1) + v + m.group(2), html, count=1)
+        else:
+            html = html.replace("</head>", "  " + tag.format(value) + "\n</head>", 1)
+    if "apple-touch-icon" not in html:
+        html = html.replace(
+            "</head>",
+            '  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">\n</head>', 1)
     # Drop the old canonical and any stray alternates, then add the real set.
     html = re.sub(r'\s*<link\s+rel="canonical"[^>]*>', "", html)
     html = re.sub(r'\s*<link\s+rel="alternate"[^>]*>', "", html)
@@ -165,6 +202,23 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
     # Assets are referenced relative today; the trees are one level deeper.
     html = re.sub(r'(href|src)="(styles\.css|lang\.js|favicon\.svg|og-image\.png)"',
                   r'\1="/\2"', html)
+
+    # The hand-written blocks described the English page and were copied into
+    # the Turkish one unchanged. Read the shipped page instead.
+    source_html = raw
+    html = strip_jsonld(html)
+    graph = build_graph(
+        lang=lang,
+        slug=en_slug if lang == "en" else tr_slug,
+        en_slug=en_slug,
+        url=self_url,
+        page=html,
+        source_html=source_html,
+        title=title,
+        description=desc,
+        home_description=META[""][lang][1],
+    )
+    html = html.replace("</head>", "  " + graph.replace("\n", "\n  ") + "\n</head>", 1)
     return html
 
 

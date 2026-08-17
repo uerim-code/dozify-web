@@ -14,13 +14,20 @@ Exit code 1 on any finding.
 from __future__ import annotations
 
 import glob
+import html as html_mod
+import json
 import os
 import re
 import sys
 from collections import Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SKIP_DIRS = ("chembiocalc",)
+
+# Only the generated trees are served and indexable. The dual-language files at
+# the repo root are the sources the builder reads; .vercelignore keeps them off
+# the site, so holding them to metadata rules would report findings nobody can
+# act on and nobody should.
+TREES = ("en", "tr")
 
 # Google truncates well before these; past them the tail is wasted.
 TITLE_MAX = 65
@@ -29,17 +36,22 @@ DESC_MIN, DESC_MAX = 70, 165
 
 def pages() -> list[str]:
     out = []
-    for p in glob.glob(os.path.join(ROOT, "**", "*.html"), recursive=True):
-        rel = os.path.relpath(p, ROOT)
-        if rel.split(os.sep)[0] in SKIP_DIRS:
-            continue
-        out.append(rel)
+    for tree in TREES:
+        for p in glob.glob(os.path.join(ROOT, tree, "**", "*.html"), recursive=True):
+            out.append(os.path.relpath(p, ROOT))
     return sorted(out)
 
 
 def field(src: str, pattern: str) -> str | None:
     m = re.search(pattern, src, re.I | re.S)
     return m.group(1).strip() if m else None
+
+
+def visible_text(src: str) -> str:
+    """What a reader sees — scripts, styles and markup removed."""
+    src = re.sub(r"<(script|style)\b.*?</\1>", " ", src, flags=re.S | re.I)
+    src = re.sub(r"<[^>]+>", " ", src)
+    return re.sub(r"\s+", " ", html_mod.unescape(src))
 
 
 def main() -> int:
@@ -80,12 +92,73 @@ def main() -> int:
             if canon.endswith(".html"):
                 findings.append(f"{rel}: canonical .html ile bitiyor; uzantısız biçim kullanılıyor")
 
-        # Deliberately NOT asserting a single H1 yet: both languages live in one
-        # document, so every page legitimately carries two until the /tr/ + /en/
-        # split lands. Turn this on with that change, not before — a check that
-        # is known-failing teaches people to ignore the report.
-        if not re.search(r'property="og:title"', src):
-            findings.append(f"{rel}: Open Graph başlığı yok")
+        # One H1 per page. This was two per page while both languages shared a
+        # document; the split is what made the check meaningful, so it is on.
+        h1s = re.findall(r"<h1\b", src)
+        if len(h1s) != 1:
+            findings.append(f"{rel}: {len(h1s)} adet H1 (tam olarak 1 olmalı)")
+
+        lang = rel.split(os.sep)[0]
+        declared = field(src, r'<html\s+lang="(.*?)"')
+        if declared != lang:
+            findings.append(f"{rel}: <html lang=\"{declared}\"> ama sayfa /{lang}/ altında")
+
+        # The share card. Half these tags were missing before Faz 2, so a link
+        # to the page previewed as a bare URL.
+        required = {
+            "og:title": r'property="og:title"',
+            "og:description": r'property="og:description"',
+            "og:url": r'property="og:url"',
+            "og:image": r'property="og:image"',
+            "og:locale": r'property="og:locale"',
+            "og:type": r'property="og:type"',
+            "twitter:card": r'name="twitter:card"',
+            "twitter:image": r'name="twitter:image"',
+            "theme-color": r'name="theme-color"',
+            "apple-touch-icon": r'rel="apple-touch-icon"',
+        }
+        for label, pattern in required.items():
+            if not re.search(pattern, src):
+                findings.append(f"{rel}: {label} yok")
+
+        og_url = field(src, r'<meta\s+property="og:url"\s+content="(.*?)"')
+        if canon and og_url and og_url != canon:
+            findings.append(f"{rel}: og:url ({og_url}) canonical ({canon}) ile aynı değil")
+        og_image = field(src, r'<meta\s+property="og:image"\s+content="(.*?)"')
+        if og_image and not og_image.startswith("https://"):
+            findings.append(f"{rel}: og:image mutlak URL değil: {og_image}")
+
+        # hreflang has to point both ways and name this page as one of the
+        # alternates, or Google treats the pair as unrelated duplicates.
+        alts = dict(re.findall(r'<link\s+rel="alternate"\s+hreflang="(.*?)"\s+href="(.*?)"', src))
+        for code in ("en", "tr", "x-default"):
+            if code not in alts:
+                findings.append(f"{rel}: hreflang {code} yok")
+        if canon and canon not in alts.values():
+            findings.append(f"{rel}: kendi canonical'ı hreflang kümesinde yok")
+
+        # Structured data: it must parse, and it must not describe content the
+        # visitor cannot see. The FAQ schema used to list ten English questions
+        # on the Turkish page.
+        blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', src, re.S)
+        if not blocks:
+            findings.append(f"{rel}: JSON-LD yok")
+        shown = visible_text(src)
+        for raw in blocks:
+            try:
+                data = json.loads(raw)
+            except json.JSONDecodeError as e:
+                findings.append(f"{rel}: JSON-LD ayrıştırılamadı ({e})")
+                continue
+            for node in data.get("@graph", [data]):
+                types = node.get("@type", "")
+                types = types if isinstance(types, list) else [types]
+                if "FAQPage" not in types:
+                    continue
+                for q in node.get("mainEntity", []):
+                    name = re.sub(r"\s+", " ", q.get("name", ""))
+                    if name and name not in shown:
+                        findings.append(f"{rel}: FAQ şeması sayfada olmayan soruyu içeriyor — “{name[:50]}”")
 
     for t, n in titles.items():
         if n > 1:

@@ -20,35 +20,12 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/styles.css">
   <script src="/lang.js" defer></script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MobileApplication",
-        "name": "Dozify",
-        "operatingSystem": "iOS",
-        "applicationCategory": "HealthApplication",
-        "url": "https://dozify.app/",
-        "downloadUrl": "https://apps.apple.com/app/id6764325653",
-        "description": "Private GLP-1 injection & dose tracker for Ozempic, Wegovy, Mounjaro and Saxenda — log injections, rotate sites, track weight trend and vial stock, set reminders, and export doctor PDF reports. Works offline, no account.",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-      },
-      {
-        "@type": "Organization",
-        "name": "Dozify",
-        "url": "https://dozify.app/",
-        "logo": "https://dozify.app/og-image.png"
-      },
-      {
-        "@type": "WebSite",
-        "name": "Dozify",
-        "url": "https://dozify.app/"
-      }
-    ]
-  }
-  </script>
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:alt" content="Dozify — iPhone için gizli GLP-1 enjeksiyon ve kilo takip uygulaması">
+  <meta name="twitter:title" content="GLP-1 Takip Uygulaması — İğne, Kilo, Yan Etki">
+  <meta name="twitter:description" content="GLP-1 iğnelerini kaydet, bölge değiştir, kilo ve yan etki tut, doktorun için PDF rapor çıkar. Hesap yok, çevrimdışı çalışır, iPhone.">
+  <meta name="twitter:image:alt" content="Dozify — iPhone için gizli GLP-1 enjeksiyon ve kilo takip uygulaması">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
   <link rel="canonical" href="https://dozify.app/tr">
   <link rel="alternate" hreflang="en" href="https://dozify.app/en">
@@ -56,6 +33,151 @@
   <link rel="alternate" hreflang="x-default" href="https://dozify.app/en">
   <meta property="og:locale" content="tr_TR">
   <meta property="og:locale:alternate" content="en_US">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/tr",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "tr"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/tr",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "GLP-1 iğnelerini kaydet, bölge değiştir, kilo ve yan etki tut, doktorun için PDF rapor çıkar. Hesap yok, çevrimdışı çalışır, iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "tr"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/tr#webpage",
+        "url": "https://dozify.app/tr",
+        "name": "GLP-1 Takip Uygulaması — İğne, Kilo, Yan Etki",
+        "description": "GLP-1 iğnelerini kaydet, bölge değiştir, kilo ve yan etki tut, doktorun için PDF rapor çıkar. Hesap yok, çevrimdışı çalışır, iPhone.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "tr",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Dozify ücretsiz mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. İlk hafta doz kaydı ve hatırlatıcılar tam açık. Sonrasında da istediğiniz kadar ilaç ekleyebilir, bölge rotasyonunu kullanabilir, kilo, su ve yan etki kaydı tutabilir, tüm geçmişinizi ve fotoğraflarınızı görüntüleyebilir, eğitim makalelerini okuyabilirsiniz. Premium; ilk haftadan sonraki doz kaydı ve hatırlatıcıları, tüm grafik ve trendleri, kilo tahminini, vücut kompozisyonunu, beslenmeyi, flakon yönetimini, doktor PDF raporlarını ve yeni ilerleme fotoğrafı eklemeyi kapsar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Verilerim gizli mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sağlık kayıtlarınız — dozlar, kilo, yan etkiler, fotoğraflar — cihazınızda tutulur ve hiçbir yere yüklenmez. Hesap yok, bulut senkronu yok ve uygulama hiçbir reklam göstermez. Uygulamanın geliştirilebilmesi için anonim kullanım istatistikleri toplanır; bunlar hiçbir zaman ilaç adı veya belirti taşımaz. Dozify ayrıca bir kurulumun kendi App Store veya Meta kampanyalarından gelip gelmediğini ölçer; bu ölçüm Apple'ın takip izninin arkasında çalışır ve sağlık kayıtlarınızı asla içermez. Uygulamayı silerseniz kayıtlarınız da silinir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zaten başka bir uygulamada takip ediyorum. Geçmişimi getirebilir miyim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Ayrıldığınız uygulamadan verilerinizi dışa aktarın, Dozify'da Ayarlar → İçe aktar'ı açın ve dosyayı seçin. Dozify hiçbir şey yazmadan önce ne bulduğunu gösterir — kaç enjeksiyon, kaç kilo kaydı, kaç not — ve ancak siz onayladıktan sonra yazar. Mevcut Dozify verileriniz için önce otomatik yedek alınır; dosya beklediğiniz şey çıkmazsa hiçbir şey riske girmez."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify hangi ilaçları destekler?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dozify, Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® ve Victoza® gibi popüler GLP-1 ilaçlarının yanı sıra Rybelsus® gibi oral seçenekleri takip etmenize yardımcı olur. Bu marka adları ilgili sahiplerinin tescilli markalarıdır ve Dozify bu firmalarla bağlantılı değildir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify internet olmadan çalışır mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Dozify çevrimdışı öncelikli çalışır ve internet bağlantısı olmadan tam olarak işlev görür. Kullanmak için oturum açmanız veya senkronize etmeniz gerekmez."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify enjeksiyonumu hatırlatabilir mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. İlacınızın programına uygun haftalık veya günlük bir hatırlatıcı kurabilirsiniz; böylece rutininize sadık kalmak daha kolay olur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify doktorumun yerini tutar mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hayır. Dozify bir eğitim ve takip aracıdır; tıbbi cihaz değildir ve tıbbi tavsiye sunmaz. Her zaman doktorunuza ve reçetenize uyun."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kilo ve yan etkileri takip edebilir miyim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Kilonuzu, vücut ölçülerinizi ve yan etki günlüğünüzü kaydedebilir; trendinizi net grafiklerde görebilirsiniz — kendi verinize dayalı kilo projeksiyonu ve hedefe kalan süre tahmini dahil."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Verilerimi başka bir GLP-1 uygulamasından getirebilir miyim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet, üstelik ücretsiz. Dozify; Shotsy, Glapp, GLPzy ve GlucoPal dışa aktarımlarını ve tarih sütunu olan her CSV'yi okur. Hiçbir şey yazmadan önce ne bulduğunu gösterir, sende zaten olan kayıtları atlar ve önce cihazına yedek alır. geçiş sayfasında ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify Android'de var mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Henüz yok — Dozify şimdilik yalnızca iPhone'da, App Store üzerinden."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="nav">
@@ -525,95 +647,6 @@
           </div>
         </div>
       </div>
-
-      <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Can I bring my data from another GLP-1 app?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, and it is free. Dozify reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column. It shows you what it found before writing anything, skips records you already have, and backs up your device first. More on the switching page."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Dozify free?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Your first week of dose logging and reminders is fully open. After that you can still add as many medications as you like, use injection-site rotation, log weight, water and side effects, view your whole history and photos, and read the education articles. Premium covers dose logging and reminders after the first week, all charts and trends, weight projection, body composition, nutrition, vial management, doctor PDF reports and new progress photos."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is my data private?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Your health records \u2014 doses, weight, side effects, photos \u2014 are stored on your device and never uploaded. There is no account and no cloud sync, and the app shows no advertising. Anonymous usage statistics are collected so the app can be improved, and they never carry a medication name or a symptom. Dozify also measures whether an install came from one of its own App Store or Meta campaigns; that measurement runs behind Apple's tracking permission and never includes your health records. Delete the app and your records are gone."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "I already track in another app. Can I bring my history?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Export your data from the app you are leaving, open Settings \u2192 Import in Dozify, and pick the file. Dozify shows you what it found before writing anything and only writes once you approve. A backup of your existing Dozify data is taken automatically first."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Which medications does Dozify support?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Dozify helps you track popular GLP-1 medications, including Ozempic, Wegovy, Mounjaro, Zepbound, Saxenda, Trulicity, and Victoza, plus oral options like Rybelsus. These brand names are trademarks of their respective owners, and Dozify is not affiliated with these companies."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does Dozify work without internet?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Dozify is offline-first and works fully without an internet connection. You never need to sign in or sync to use it."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can Dozify remind me of my injection?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. You can set a weekly or daily reminder that matches your medication's schedule, so it is easier to stay consistent with your routine."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does Dozify replace my doctor?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Dozify is an educational tracking tool, not a medical device, and it does not provide medical advice. Always follow your doctor and your prescription."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I track weight and side effects?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. You can record your weight, body measurements, and a side-effect diary, and see your trend on clear charts — including a weight projection and a time-to-goal estimate based on your own data."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Dozify available on Android?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Not yet — Dozify is iPhone only for now, on the App Store."
-            }
-          }
-        ]
-      }
-      </script>
     </section>
 
     <section id="download" class="section section-cta">
