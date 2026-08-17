@@ -108,6 +108,53 @@ img, svg { display: block; max-width: 100%; }
 }
 .hero .container { position: relative; max-width: 760px; text-align: center; }
 
+/* Two columns once there is room for the phone to sit beside the copy without
+   squeezing either. Below that it stacks, and the phone follows the CTA so the
+   button is not pushed under a full-height image on a small screen. */
+.hero .container.hero-grid {
+  max-width: 1120px;
+  display: grid;
+  gap: 48px;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  .hero .container.hero-grid {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    gap: 64px;
+    text-align: left;
+  }
+  .hero-grid .hero-icon { margin-left: 0; margin-right: 0; }
+  .hero-grid .lede { margin-left: 0; margin-right: 0; }
+  .hero-grid .cta-row { justify-content: flex-start; }
+  .hero-grid .offline-note { justify-content: flex-start; }
+}
+
+.hero-shot { display: flex; justify-content: center; }
+.hero-shot .device { width: min(300px, 72vw); }
+
+/* DEVICE FRAME
+   The screenshots are bare screens with square corners. Rounding them and
+   giving them a thin body is what makes a row of them read as phones instead
+   of pasted rectangles — and it is CSS, so it adds no image weight and stays
+   sharp at any pixel density. */
+.device {
+  position: relative;
+  border-radius: 30px;
+  padding: 6px;
+  background: linear-gradient(160deg, #E2E8F0 0%, #94A3B8 45%, #CBD5E1 100%);
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.16),
+    0 18px 40px -12px rgba(15, 23, 42, 0.28);
+}
+.device img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  background: #fff;
+}
+
 .hero-icon {
   display: block;
   width: 88px;
@@ -219,24 +266,58 @@ img, svg { display: block; max-width: 100%; }
 /* SCREENSHOTS */
 .screenshot-strip {
   display: flex;
-  gap: 20px;
+  gap: 28px;
   overflow-x: auto;
-  padding: 8px 4px 24px;
-  scroll-snap-type: x mandatory;
+  padding: 8px 4px 28px;
+  scroll-snap-type: x proximity;
   -webkit-overflow-scrolling: touch;
+  /* Without this the strip swallowed the page scroll: a wheel gesture over it
+     was consumed horizontally and the visitor got stuck on this section. */
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
 }
-.screenshot-strip img {
+.screenshot-strip:focus-visible {
+  outline: 2px solid var(--teal-600);
+  outline-offset: 6px;
+  border-radius: var(--radius-md);
+}
+.shot {
   flex: 0 0 auto;
-  width: 220px;
-  height: auto;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-  scroll-snap-align: start;
+  /* A 750x1630 screen is nearly 2.2x as tall as it is wide, so tile width sets
+     section height fast: at 230px each phone ran 500px and the section became
+     a wall of glass. 190px keeps the UI legible and the whole strip visible in
+     one screen alongside its captions. */
+  width: 190px;
+  margin: 0;
+  scroll-snap-align: center;
+}
+.shot figcaption {
+  margin-top: 16px;
+  text-align: center;
+}
+.shot figcaption b {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--slate-900);
+  letter-spacing: -0.01em;
+  /* Titles run to one or two lines depending on the language, which left the
+     descriptions on a ragged baseline across the row. Reserving two lines
+     keeps them aligned in both TR and EN without truncating anything. */
+  min-height: 2.6em;
+}
+.shot figcaption span {
+  display: block;
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--slate-500);
 }
 .screenshot-strip::-webkit-scrollbar { height: 8px; }
 .screenshot-strip::-webkit-scrollbar-thumb { background: var(--slate-200); border-radius: 999px; }
 @media (max-width: 600px) {
-  .screenshot-strip img { width: 168px; }
+  .shot { width: 168px; }
+  .screenshot-strip { gap: 20px; }
 }
 
 /* FEATURES */

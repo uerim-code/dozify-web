@@ -81,7 +81,8 @@
 
   <main>
     <section class="hero">
-      <div class="container">
+      <div class="container hero-grid">
+        <div class="hero-copy">
         <img class="hero-icon" src="favicon.svg" width="96" height="96" alt="Dozify" />
         <span class="pill" data-lang="en">For Ozempic · Mounjaro · Wegovy · Saxenda</span>
         <span class="pill" data-lang="tr">Ozempic · Mounjaro · Wegovy · Saxenda kullananlar için</span>
@@ -115,6 +116,21 @@
           <span data-lang="en">Offline-first · Your personal data stays on your device</span>
           <span data-lang="tr">Çevrimdışı çalışır · Kişisel verileriniz cihazınızdan çıkmaz</span>
         </p>
+        </div>
+
+        <!-- The product itself, above the fold. The page used to open on an app
+             icon and four paragraphs, which asks a visitor to take the app's
+             word for what it looks like. -->
+        <div class="hero-shot" aria-hidden="false">
+          <div class="device">
+            <img data-lang="en" src="screenshots/en/01-home.webp" width="750" height="1630"
+                 fetchpriority="high" decoding="async"
+                 alt="The Dozify home screen: next dose countdown, this week's injections, protein and water for the day, and current weight">
+            <img data-lang="tr" src="screenshots/tr/01-home.webp" width="750" height="1630"
+                 fetchpriority="high" decoding="async"
+                 alt="Dozify ana ekranı: sonraki doza kalan süre, bu haftaki enjeksiyonlar, günlük protein ve su, güncel kilo">
+          </div>
+        </div>
       </div>
     </section>
 
@@ -125,18 +141,117 @@
         <p class="section-lede" data-lang="en">A quick look at what you'll see on your phone.</p>
         <p class="section-lede" data-lang="tr">Telefonunuzda göreceklerinize hızlı bir bakış.</p>
 
-        <div class="screenshot-strip">
-          <img data-lang="en" src="screenshots/en/01-home.webp" width="750" height="1623" loading="lazy" alt="Dozify home screen — 100% private, no account, works offline, with weight-goal tracking">
-          <img data-lang="en" src="screenshots/en/02-injection.webp" width="750" height="1623" loading="lazy" alt="Logging an injection with a body-site map and rotation">
-          <img data-lang="en" src="screenshots/en/03-charts.webp" width="750" height="1623" loading="lazy" alt="Weight trend and estimated medication-level curve charts">
-          <img data-lang="en" src="screenshots/en/09-vials.webp" width="750" height="1623" loading="lazy" alt="Vial stock — remaining doses, days since opening and the expiry date">
-          <img data-lang="en" src="screenshots/en/05-water.webp" width="750" height="1623" loading="lazy" alt="Smart water tracking with a glass calculator">
+        <div class="screenshot-strip" role="group" tabindex="0"
+             aria-label="Dozify screenshots — scroll sideways">
+          <figure class="shot" data-lang="en">
+            <div class="device">
+              <img src="screenshots/en/01-home.webp" width="750" height="1630" loading="lazy" decoding="async" alt="The Dozify home screen: next dose countdown, this week's injections, protein and water for the day, and current weight">
+            </div>
+            <figcaption>
+              <b>Your day, at a glance</b>
+              <span>Next dose, this week's shots, protein, water and weight — one screen.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot" data-lang="en">
+            <div class="device">
+              <img src="screenshots/en/02-injection.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Logging an injection with a body-site map that suggests the next rotation site">
+            </div>
+            <figcaption>
+              <b>Log a shot in seconds</b>
+              <span>The body map remembers which site is next, so you don't have to.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot" data-lang="en">
+            <div class="device">
+              <img src="screenshots/en/03-charts.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Weight trend and estimated medication-level curve on the same timeline">
+            </div>
+            <figcaption>
+              <b>Weight and dose on one line</b>
+              <span>Your weight trend next to the estimated medication level.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot" data-lang="en">
+            <div class="device">
+              <img src="screenshots/en/09-vials.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Vial stock — remaining doses, days since opening and the expiry date">
+            </div>
+            <figcaption>
+              <b>Know before the vial runs out</b>
+              <span>Doses left, days since opening, expiry — counted for you.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot" data-lang="en">
+            <div class="device">
+              <img src="screenshots/en/07-reports.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Building a doctor-visit report: date range, sections to include, and the questions you want to ask">
+            </div>
+            <figcaption>
+              <b>A clean PDF for your doctor</b>
+              <span>Pick a range, pick what's included, walk in with a summary.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot" data-lang="en">
+            <div class="device">
+              <img src="screenshots/en/05-water.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Water tracking with a glass calculator and quick-add amounts">
+            </div>
+            <figcaption>
+              <b>Water, counted in glasses</b>
+              <span>Not millilitres you have to do arithmetic on.</span>
+            </figcaption>
+          </figure>
 
-          <img data-lang="tr" src="screenshots/tr/01-home.webp" width="750" height="1623" loading="lazy" alt="Dozify ana ekranı — %100 özel, hesap yok, çevrimdışı, hedef takibiyle">
-          <img data-lang="tr" src="screenshots/tr/02-injection.webp" width="750" height="1623" loading="lazy" alt="Vücut bölge haritası ile enjeksiyon kaydetme">
-          <img data-lang="tr" src="screenshots/tr/03-charts.webp" width="750" height="1623" loading="lazy" alt="Kilo trendi ve tahmini ilaç seviye eğrisi grafikleri">
-          <img data-lang="tr" src="screenshots/tr/09-vials.webp" width="750" height="1623" loading="lazy" alt="Flakon stoğu — kalan doz, açılıştan bu yana geçen gün ve son kullanma tarihi">
-          <img data-lang="tr" src="screenshots/tr/05-water.webp" width="750" height="1623" loading="lazy" alt="Bardak hesaplayıcıyla akıllı su takibi">
+          <figure class="shot" data-lang="tr">
+            <div class="device">
+              <img src="screenshots/tr/01-home.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Dozify ana ekranı: sonraki doza kalan süre, bu haftaki enjeksiyonlar, günlük protein ve su, güncel kilo">
+            </div>
+            <figcaption>
+              <b>Günün tek bakışta</b>
+              <span>Sonraki doz, bu haftaki iğneler, protein, su ve kilo — tek ekran.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot" data-lang="tr">
+            <div class="device">
+              <img src="screenshots/tr/02-injection.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Sıradaki rotasyon bölgesini öneren vücut haritasıyla enjeksiyon kaydetme">
+            </div>
+            <figcaption>
+              <b>İğneyi saniyeler içinde kaydet</b>
+              <span>Sıradaki bölgeyi vücut haritası hatırlar, siz not tutmazsınız.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot" data-lang="tr">
+            <div class="device">
+              <img src="screenshots/tr/03-charts.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Kilo trendi ve tahmini ilaç seviye eğrisi aynı zaman çizelgesinde">
+            </div>
+            <figcaption>
+              <b>Kilo ve doz aynı çizgide</b>
+              <span>Kilo trendiniz, tahmini ilaç seviyesinin yanında.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot" data-lang="tr">
+            <div class="device">
+              <img src="screenshots/tr/09-vials.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Flakon stoğu — kalan doz, açılıştan bu yana geçen gün ve son kullanma tarihi">
+            </div>
+            <figcaption>
+              <b>Flakon bitmeden haberiniz olsun</b>
+              <span>Kalan doz, açılıştan bu yana geçen gün, son kullanma — sizin yerinize sayılır.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot" data-lang="tr">
+            <div class="device">
+              <img src="screenshots/tr/07-reports.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Doktor ziyareti raporu oluşturma: tarih aralığı, dahil edilecek bölümler ve sormak istedikleriniz">
+            </div>
+            <figcaption>
+              <b>Doktorunuz için temiz bir PDF</b>
+              <span>Aralığı ve içeriği seçin, randevuya özetle gidin.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot" data-lang="tr">
+            <div class="device">
+              <img src="screenshots/tr/05-water.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Bardak hesaplayıcı ve hızlı ekleme miktarlarıyla su takibi">
+            </div>
+            <figcaption>
+              <b>Su, bardak hesabıyla</b>
+              <span>Kafadan mililitre hesabı yapmadan.</span>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>
