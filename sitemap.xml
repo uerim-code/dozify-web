@@ -44,6 +44,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/editorial-policy</loc>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/editorial-policy"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/yayin-ilkeleri"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/editorial-policy"/>
@@ -92,14 +93,14 @@
   </url>
   <url>
     <loc>https://dozify.app/en/kvkk</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/kvkk"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kvkk"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/kvkk"/>
   </url>
   <url>
     <loc>https://dozify.app/en/privacy</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/privacy"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizlilik"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/privacy"/>
@@ -113,7 +114,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/support</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/support"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/destek"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/support"/>
@@ -134,7 +135,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/why</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/why"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/neden-dozify"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/why"/>
@@ -155,7 +156,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/destek</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/support"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/destek"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/support"/>
@@ -190,7 +191,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/gizlilik</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/privacy"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizlilik"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/privacy"/>
@@ -218,7 +219,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/kvkk</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/kvkk"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kvkk"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/kvkk"/>
@@ -267,7 +268,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/neden-dozify</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/why"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/neden-dozify"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/why"/>
@@ -281,6 +282,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/yayin-ilkeleri</loc>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/editorial-policy"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/yayin-ilkeleri"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/editorial-policy"/>
