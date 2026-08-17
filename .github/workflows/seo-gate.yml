@@ -1,0 +1,31 @@
+# The publish gate, run on the branch before it becomes the site.
+#
+# Documentation-only changes are excluded: the reports under docs/ are written
+# by the tools themselves and changing one cannot break a page, so a commit
+# that only touches them should not spend a build.
+name: SEO gate
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'docs/**'
+      - '**.md'
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - 'docs/**'
+      - '**.md'
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Local checks only. The --live pass fetches dozify.app, which on a
+      # pre-merge run still serves the old pages — it would fail on exactly the
+      # pages this commit is adding. Run it after a deploy instead.
+      - run: ./check.sh
