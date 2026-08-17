@@ -37,8 +37,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a { color: var(--teal-700); text-decoration: none; }
-a:hover { color: var(--teal-600); }
+/* Links are underlined by default and un-underlined where they are already a
+   standalone control. Listing the prose selectors instead was the wrong way
+   round: every new kind of text on the site started out with links that only
+   colour distinguished, and colour alone is 1.15:1 against the body text. */
+a { color: var(--teal-700); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+.nav-links a, .brand, .btn, .store-card, .article-card, .lang-switch,
+.footer-col a, .footer-brand a, .link-arrow, .back-link, .faq-item > a {
+  text-decoration: none;
+}
+.footer-col a:hover { text-decoration: underline; }
+a:hover { color: var(--teal-700); }
 
 img, svg { display: block; max-width: 100%; }
 
@@ -282,19 +291,20 @@ img, svg { display: block; max-width: 100%; }
   border: none;
 }
 .btn-primary {
-  background: var(--teal-600);
+  /* Metin beyaz ve 15px: teal-600 üstünde 3.74:1 ile eşiğin altındaydı. */
+  background: var(--teal-700);
   color: #fff;
   box-shadow: var(--shadow-md);
 }
 .btn-primary:hover {
-  background: var(--teal-700);
+  background: var(--teal-900);
   transform: translateY(-1px);
   box-shadow: var(--shadow-lg);
   color: #fff;
 }
 .brands {
   font-size: 13px;
-  color: var(--slate-400);
+  color: var(--slate-500);
   letter-spacing: 0.02em;
 }
 
@@ -495,7 +505,7 @@ img, svg { display: block; max-width: 100%; }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: var(--teal-600);
+  color: var(--teal-700);
   font-weight: 600;
   border-bottom: 1px solid rgba(13, 148, 136, 0.35);
   padding-bottom: 2px;
@@ -592,11 +602,11 @@ footer {
   color: var(--slate-500);
   max-width: 260px;
 }
-.footer-col h4 {
+.footer-col h3 {
   font-size: 12px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--slate-400);
+  color: var(--slate-500);
   margin-bottom: 14px;
   font-weight: 700;
 }
@@ -616,7 +626,7 @@ footer {
 }
 .footer-bottom p {
   font-size: 13px;
-  color: var(--slate-400);
+  color: var(--slate-500);
 }
 .disclaimer { line-height: 1.6; }
 
@@ -691,7 +701,8 @@ footer {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: var(--teal-600);
+  /* 14px metin: teal-600 beyaz üstünde 3.74:1 ile eşiğin altında. */
+  color: var(--teal-700);
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 24px;
@@ -766,11 +777,10 @@ html[lang="tr"] [data-lang="en"] {
 /* ── Articles & FAQ (SEO content) ───────────────────────────── */
 .article-wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
 .breadcrumb { font-size: 14px; color: #64748B; margin: 24px 0 8px; }
-.breadcrumb a { color: #0D9488; text-decoration: none; }
-.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb a { color: var(--teal-700); text-decoration: underline; text-underline-offset: 2px; }
 .article-hero { padding: 16px 0 8px; }
 .article-hero h1 { font-size: clamp(28px, 4vw, 40px); line-height: 1.15; letter-spacing: -0.02em; margin: 8px 0 12px; color: #0F172A; }
-.article-meta { font-size: 13px; color: #94A3B8; margin-bottom: 8px; }
+.article-meta { font-size: 13px; color: var(--slate-500); margin-bottom: 8px; }
 .article-lede { font-size: 18px; line-height: 1.6; color: #475569; margin: 0 0 8px; }
 .prose { font-size: 16.5px; line-height: 1.72; color: #334155; }
 .prose h2 { font-size: 24px; line-height: 1.25; letter-spacing: -0.01em; color: #0F172A; margin: 36px 0 12px; }
@@ -778,7 +788,7 @@ html[lang="tr"] [data-lang="en"] {
 .prose p { margin: 0 0 16px; }
 .prose ul, .prose ol { margin: 0 0 16px; padding-left: 22px; }
 .prose li { margin: 6px 0; }
-.prose a { color: #0D9488; }
+.prose a { color: var(--teal-700); }
 .prose strong { color: #0F172A; }
 .callout { background: #F0FDFA; border: 1px solid #99F6E4; border-radius: var(--radius-md); padding: 14px 16px; margin: 20px 0; font-size: 15px; color: #115E59; }
 .disclaimer { background: #FFFBEB; border: 1px solid #FDE68A; border-radius: var(--radius-md); padding: 14px 16px; margin: 28px 0; font-size: 14px; color: #92400E; line-height: 1.6; }
@@ -786,7 +796,7 @@ html[lang="tr"] [data-lang="en"] {
 .references h2 { font-size: 18px; color: #0F172A; margin: 0 0 12px; }
 .references ol { padding-left: 20px; font-size: 14.5px; line-height: 1.6; color: #475569; }
 .references li { margin: 8px 0; }
-.references a { color: #0D9488; word-break: break-word; }
+.references a { color: var(--teal-700); word-break: break-word; }
 .article-cta { background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: var(--radius-lg); padding: 24px; margin: 36px 0 8px; text-align: center; }
 .article-cta h3 { margin: 0 0 6px; font-size: 20px; color: #0F172A; }
 .article-cta p { margin: 0 0 16px; color: #64748B; font-size: 15px; }
@@ -806,3 +816,28 @@ html[lang="tr"] [data-lang="en"] {
 .article-faq > h2 { font-size: 24px; line-height: 1.25; letter-spacing: -0.01em; color: #0F172A; margin: 0 0 8px; }
 .article-faq .faq-list { margin-top: 4px; }
 .callout-warning { background: #FFFBEB; border-color: #FDE68A; color: #92400E; }
+
+/* ACCESSIBILITY
+
+   Focus was visible only on the screenshot strip, which had been given a rule
+   of its own; everywhere else a keyboard user tabbing through the page had no
+   idea where they were. One rule, on :focus-visible so it does not draw a ring
+   around every mouse click.
+
+   Motion: the cards lift and the buttons slide. Small movements, but a visitor
+   who has asked their system for less motion has asked for a reason. */
+:focus-visible {
+  outline: 3px solid var(--teal-600);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .feature:hover, .article-card:hover, .store-card:hover { transform: none; }
+}

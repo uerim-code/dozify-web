@@ -194,6 +194,22 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
     html = html.replace(f"screenshots/{other}/", f"screenshots/{lang}/")
     html = html.replace(f'src="screenshots/', f'src="/screenshots/')
 
+    # A phone frame is 280–300 CSS pixels wide. The 750w file is the right one
+    # for a 2x screen and two and a half times too much for a 1x one, so both
+    # widths are offered and the browser picks.
+    def responsive(m: re.Match) -> str:
+        tag, path = m.group(0), m.group(1)
+        if "srcset=" in tag:
+            return tag
+        small = path.replace(".webp", "-400w.webp")
+        return tag.replace(
+            f'src="{path}"',
+            f'src="{path}" srcset="{small} 400w, {path} 750w" '
+            'sizes="(min-width: 900px) 300px, 72vw"',
+        )
+
+    html = re.sub(r'<img[^>]+src="(/screenshots/[^"]+\.webp)"[^>]*>', responsive, html)
+
     html = rewrite_links(html, lang)
 
     other_url = url_for("tr" if lang == "en" else "en",
@@ -207,6 +223,13 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
     # visitor, and it works with the tracking permission denied.
     campaign = f"web-{en_slug.replace('/', '-') or 'home'}-{lang}"[:40]
     html = html.replace(APP_STORE_URL, f"{APP_STORE_URL}?ct={campaign}")
+
+    # lang.js guessed the visitor's language from their time zone and wrote it
+    # into <html lang>. That was right when both languages shared a document;
+    # on a page whose URL already declares its language it overwrites the
+    # declaration — a Turkish visitor reading /en/… was served lang="tr", and a
+    # crawler rendering the page saw the same thing.
+    html = re.sub(r'\s*<script src="/?lang\.js"[^>]*></script>', "", html)
 
     # Assets are referenced relative today; the trees are one level deeper.
     html = re.sub(r'(href|src)="(styles\.css|lang\.js|favicon\.svg|og-image\.png)"',
