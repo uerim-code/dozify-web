@@ -76,6 +76,27 @@ def strip_noise(html: str) -> str:
     return html
 
 
+# A phrase in quotation marks, in a sentence that says we do not use it, is the
+# editorial policy promising never to claim it: «"doktor onaylı" ... hiçbir
+# yerinde görmezsiniz». Reporting that as a banned claim is the same failure as
+# the first draft matching our own disclaimers.
+DENIAL = re.compile(
+    r"\b(görmezsiniz|görmeyeceksiniz|kullanmıyoruz|kullanmaz|yazmıyoruz|yok\b|değil"
+    r"|will not see|do not use|does not use|never|nowhere|no page)",
+    re.I,
+)
+
+
+def is_quoted_denial(text: str, start: int, end: int) -> bool:
+    """True when the hit is a quoted phrase inside a sentence that rejects it."""
+    before, after = text[max(0, start - 2):start], text[end:end + 2]
+    quoted = (before.strip().endswith(('"', "“", "«", "'"))
+              and after.strip().startswith(('"', "”", "»", "'")))
+    if not quoted:
+        return False
+    return bool(DENIAL.search(text[max(0, start - 300):end + 300]))
+
+
 def files() -> list[str]:
     out = []
     for path in glob.glob(os.path.join(ROOT, "**", "*.html"), recursive=True):
@@ -96,6 +117,8 @@ def main() -> int:
 
         for pattern, why in BANNED:
             for m in re.finditer(pattern, text, re.I):
+                if is_quoted_denial(text, m.start(), m.end()):
+                    continue
                 line = text[: m.start()].count("\n") + 1
                 findings.append(f"{rel}:{line}  BANNED  “{m.group(0)}” — {why}")
 

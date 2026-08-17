@@ -31,6 +31,8 @@ SITE_ID = f"{SITE}/#website"
 APP_ID = f"{SITE}/#app"
 
 APP_STORE_URL = "https://apps.apple.com/app/dozify/id6764325653"
+AUTHOR_ID = f"{SITE}/#author"
+AUTHOR_NAME = "Ümit Can Erim"
 OG_IMAGE = f"{SITE}/og-image.png"
 
 # Slugs whose subject is the app itself rather than a topic.
@@ -119,7 +121,7 @@ def source_facts(source_html: str) -> dict:
         for node in data.get("@graph", [data]):
             if not isinstance(node, dict):
                 continue
-            for key in ("datePublished", "dateModified", "citation"):
+            for key in ("datePublished", "dateModified", "lastReviewed", "citation"):
                 if key in node and key not in facts:
                     facts[key] = node[key]
     return facts
@@ -127,6 +129,27 @@ def source_facts(source_html: str) -> dict:
 
 def strip_jsonld(page: str) -> str:
     return re.sub(r'\s*<script type="application/ld\+json">.*?</script>', "", page, flags=re.S)
+
+
+def _author(lang: str) -> dict:
+    """A named person, and what they are not.
+
+    E-E-A-T asks who wrote this. The honest answer here is one developer who
+    reads the primary sources — so the byline names him and the description
+    says he is not a clinician, which is also why no page claims a medical
+    review. The editorial policy page is where that is spelled out.
+    """
+    return {
+        "@type": "Person",
+        "@id": AUTHOR_ID,
+        "name": AUTHOR_NAME,
+        "url": f"{SITE}/{lang}/" + ("editorial-policy" if lang == "en" else "yayin-ilkeleri"),
+        "description": (
+            "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+            if lang == "en" else
+            "Dozify'ın geliştiricisi. Bu rehberleri birincil kaynaklardan yazıyor; hekim değil."
+        ),
+    }
 
 
 def _organization() -> dict:
@@ -247,16 +270,23 @@ def build_graph(
     if is_article:
         facts = source_facts(source_html)
         node["headline"] = name or title
-        node["author"] = {"@id": ORG_ID}
+        node["author"] = {"@id": AUTHOR_ID}
         node["publisher"] = {"@id": ORG_ID}
         node["image"] = OG_IMAGE
         if "datePublished" in facts:
             node["datePublished"] = facts["datePublished"]
             node["dateModified"] = facts.get("dateModified", facts["datePublished"])
+        if "lastReviewed" in facts:
+            # The date the reference list was last opened and checked. Not a
+            # clinical review: nobody has reviewed this content clinically, so
+            # reviewedBy stays absent rather than being filled with the author.
+            node["lastReviewed"] = facts["lastReviewed"]
         if "citation" in facts:
             node["citation"] = facts["citation"]
 
     graph: list[dict] = [_organization(), _website(lang)]
+    if is_article:
+        graph.append(_author(lang))
     if is_home or is_landing:
         graph.append(_application(lang, home_description))
     graph.append(node)

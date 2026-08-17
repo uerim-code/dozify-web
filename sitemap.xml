@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dozify.app/en</loc>
-    <lastmod>2026-08-18</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en"/>
-  </url>
-  <url>
-    <loc>https://dozify.app/en/articles</loc>
-    <lastmod>2026-08-18</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>
-  </url>
-  <url>
     <loc>https://dozify.app/en/articles/glp1-injection-sites</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-injection-sites"/>
@@ -48,6 +34,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/what-is-glp1"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-nedir"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/what-is-glp1"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/en/articles</loc>
+    <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/en/editorial-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/editorial-policy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/yayin-ilkeleri"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/editorial-policy"/>
   </url>
   <url>
     <loc>https://dozify.app/en/glp1-appointment-report</loc>
@@ -93,14 +92,14 @@
   </url>
   <url>
     <loc>https://dozify.app/en/kvkk</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/kvkk"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kvkk"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/kvkk"/>
   </url>
   <url>
     <loc>https://dozify.app/en/privacy</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/privacy"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizlilik"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/privacy"/>
@@ -114,7 +113,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/support</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/support"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/destek"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/support"/>
@@ -128,20 +127,20 @@
   </url>
   <url>
     <loc>https://dozify.app/en/terms</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/terms"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kullanim-kosullari"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/terms"/>
   </url>
   <url>
     <loc>https://dozify.app/en/why</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/why"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/neden-dozify"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/why"/>
   </url>
   <url>
-    <loc>https://dozify.app/tr</loc>
+    <loc>https://dozify.app/en</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr"/>
@@ -156,7 +155,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/destek</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/support"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/destek"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/support"/>
@@ -191,7 +190,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/gizlilik</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/privacy"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizlilik"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/privacy"/>
@@ -212,24 +211,17 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/kullanim-kosullari</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/terms"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kullanim-kosullari"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/terms"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/kvkk</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/kvkk"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kvkk"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/kvkk"/>
-  </url>
-  <url>
-    <loc>https://dozify.app/tr/makaleler</loc>
-    <lastmod>2026-08-18</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/glp1-bantlari</loc>
@@ -267,8 +259,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-side-effects"/>
   </url>
   <url>
-    <loc>https://dozify.app/tr/neden-dozify</loc>
+    <loc>https://dozify.app/tr/makaleler</loc>
     <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/neden-dozify</loc>
+    <lastmod>2026-08-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/why"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/neden-dozify"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/why"/>
@@ -279,5 +278,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-side-effect-journal"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/yan-etki-gunlugu"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-side-effect-journal"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/yayin-ilkeleri</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/editorial-policy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/yayin-ilkeleri"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/editorial-policy"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr</loc>
+    <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en"/>
   </url>
 </urlset>

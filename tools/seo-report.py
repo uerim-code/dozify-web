@@ -24,24 +24,18 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://dozify.app"
 
 # The English slug is the identity of a page; the Turkish one is a translation
-# of the URL, not of the page.
-EN_FOR_TR = {
-    "": "", "glp1-igne-takibi": "glp1-shot-tracker",
-    "enjeksiyon-bolgesi-takibi": "injection-site-tracker",
-    "glp1-kilo-takibi": "glp1-weight-tracker",
-    "yan-etki-gunlugu": "glp1-side-effect-journal",
-    "flakon-takibi": "glp1-vial-tracker",
-    "gizli-glp1-takibi": "private-glp1-tracker",
-    "doktor-raporu": "glp1-appointment-report",
-    "baska-uygulamadan-gecis": "switch-glp1-tracker-app",
-    "neden-dozify": "why", "destek": "support", "gizlilik": "privacy",
-    "kullanim-kosullari": "terms", "kvkk": "kvkk", "makaleler": "articles",
-    "makaleler/glp1-nedir": "articles/what-is-glp1",
-    "makaleler/glp1-nasil-yapilir": "articles/how-to-inject-glp1",
-    "makaleler/glp1-enjeksiyon-bolgeleri": "articles/glp1-injection-sites",
-    "makaleler/glp1-yan-etkileri": "articles/glp1-side-effects",
-    "makaleler/glp1-bantlari": "articles/glp1-patches",
-}
+# of the URL, not of the page. Read the pairing from the builder rather than
+# keeping a second copy — the copy went stale the first time a page was added.
+def _pages() -> dict[str, tuple[str, str]]:
+    import importlib.util
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "build-languages.py")
+    spec = importlib.util.spec_from_file_location("build_languages", path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod.PAGES
+
+
+EN_FOR_TR = {tr: en for en, tr in _pages().values()}
 
 
 def field(src: str, pattern: str) -> str:

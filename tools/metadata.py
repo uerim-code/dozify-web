@@ -35,6 +35,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("uygulama değiştirme", "shotsy yerine glp1 uygulaması")},
     "why":                          {"en": ("evaluation", "why dozify"),
                                      "tr": ("değerlendirme", "neden dozify")},
+    "editorial-policy":             {"en": ("trust", "who writes dozify health content"),
+                                     "tr": ("güven", "dozify sağlık içeriklerini kim yazıyor")},
     "support":                      {"en": ("support", "dozify support"),
                                      "tr": ("destek", "dozify destek")},
     "privacy":                      {"en": ("legal", "dozify privacy policy"),
@@ -118,6 +120,12 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Built for people already prescribed a GLP-1. It records what you and your doctor decide; it does not suggest doses or interpret results."),
         "tr": ("Neden Dozify — Ne Yapar, Neyi Yapmayı Reddeder",
                "GLP-1 reçete edilmiş kişiler için yazıldı. Senin ve doktorunun kararını kaydeder; doz önermez, sonuç yorumlamaz, yerine geçmez. Ne yaptığı burada."),
+    },
+    "editorial-policy": {
+        "en": ("Editorial Policy — Who Writes These Guides",
+               "Who writes the guides on this site, which sources are allowed, what each date on an article means, and how to report something that is wrong."),
+        "tr": ("Yayın İlkeleri — Bu Rehberleri Kim Yazıyor",
+               "Bu sitedeki rehberleri kim yazıyor, hangi kaynaklara izin var, makaledeki her tarih ne anlama geliyor ve yanlış bir şeyi nasıl bildirirsiniz."),
     },
     "support": {
         "en": ("Dozify Support — Help, Contact and Subscriptions",

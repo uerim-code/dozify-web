@@ -10,6 +10,7 @@
 | `/en/articles/glp1-side-effects` | en | information | glp-1 side effects | Managing Common GLP-1 Side Effects: What Helps | 46 | Nausea, constipation and fatigue are the common ones. What tends to help, how long they usually last, and the signs that need a doctor. | 135 |
 | `/en/articles/how-to-inject-glp1` | en | information | how to inject glp-1 | How to Inject a GLP-1 Pen: A Step-by-Step Guide | 47 | Preparing the pen, choosing a site, the injection itself and what to do afterwards — following the manufacturer instructions, with sources. | 139 |
 | `/en/articles/what-is-glp1` | en | information | what is glp-1 | What Is GLP-1? The Hormone and How It Works | 43 | GLP-1 is a hormone your gut releases after eating. What it does, what the medications copy, and why appetite changes — with sources. | 132 |
+| `/en/editorial-policy` | en | trust | who writes dozify health content | Editorial Policy — Who Writes These Guides | 42 | Who writes the guides on this site, which sources are allowed, what each date on an article means, and how to report something that is wrong. | 141 |
 | `/en/glp1-appointment-report` | en | app search | glp-1 doctor report pdf | GLP-1 Doctor Report — Walk In With a Summary | 44 | Ten minutes to explain three months. Pick a date range and what to include, and Dozify builds a clean PDF of doses, weight and side effects. | 140 |
 | `/en/glp1-shot-tracker` | en | app search | glp-1 shot tracker | GLP-1 Shot Tracker — Never Miss Injection Day | 45 | A weekly shot needs a weekly reminder. Dozify shows the next dose on the first screen, logs each one, and keeps the history you can look back at. | 145 |
 | `/en/glp1-side-effect-journal` | en | app search | glp-1 side effect tracker | GLP-1 Side-Effect Journal — See When They Happen | 48 | Telling your doctor "I had nausea" is not the same as "15 hours after the dose". Log symptoms with severity and see them against your injections. | 145 |
@@ -44,17 +45,19 @@
 | `/tr/makaleler/glp1-yan-etkileri` | tr | bilgi | glp1 yan etkileri | Yaygın GLP-1 Yan Etkileri: Ne İşe Yarıyor? | 42 | Bulantı, kabızlık ve yorgunluk en yaygın olanlar. Neyin yardımcı olduğu, genelde ne kadar sürdüğü ve doktor gerektiren belirtiler. | 130 |
 | `/tr/neden-dozify` | tr | değerlendirme | neden dozify | Neden Dozify — Ne Yapar, Neyi Yapmayı Reddeder | 46 | GLP-1 reçete edilmiş kişiler için yazıldı. Senin ve doktorunun kararını kaydeder; doz önermez, sonuç yorumlamaz, yerine geçmez. Ne yaptığı burada. | 146 |
 | `/tr/yan-etki-gunlugu` | tr | uygulama arayışı | glp1 yan etki günlüğü | GLP-1 Yan Etki Günlüğü — Ne Zaman Olduğunu Gör | 46 | Doktora "bulantı vardı" demekle "dozdan 15 saat sonra" demek aynı şey değil. Belirtileri şiddetiyle kaydet, enjeksiyonlarınla birlikte gör. | 139 |
+| `/tr/yayin-ilkeleri` | tr | güven | dozify sağlık içeriklerini kim yazıyor | Yayın İlkeleri — Bu Rehberleri Kim Yazıyor | 42 | Bu sitedeki rehberleri kim yazıyor, hangi kaynaklara izin var, makaledeki her tarih ne anlama geliyor ve yanlış bir şeyi nasıl bildirirsiniz. | 141 |
 
 # Faz 2 — URL başına structured data
 
 | URL | Dil | Schema türleri |
 |---|---|---|
 | `/en/articles` | en | Organization, WebSite, CollectionPage, BreadcrumbList |
-| `/en/articles/glp1-injection-sites` | en | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
-| `/en/articles/glp1-patches` | en | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
-| `/en/articles/glp1-side-effects` | en | Organization, WebSite, MedicalWebPage, BreadcrumbList |
-| `/en/articles/how-to-inject-glp1` | en | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
-| `/en/articles/what-is-glp1` | en | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/en/articles/glp1-injection-sites` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/en/articles/glp1-patches` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/en/articles/glp1-side-effects` | en | Organization, WebSite, Person, MedicalWebPage, BreadcrumbList |
+| `/en/articles/how-to-inject-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/en/articles/what-is-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/en/editorial-policy` | en | Organization, WebSite, WebPage, BreadcrumbList |
 | `/en/glp1-appointment-report` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/en/glp1-shot-tracker` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/en/glp1-side-effect-journal` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
@@ -82,10 +85,11 @@
 | `/tr/kullanim-kosullari` | tr | Organization, WebSite, WebPage, BreadcrumbList |
 | `/tr/kvkk` | tr | Organization, WebSite, WebPage, BreadcrumbList |
 | `/tr/makaleler` | tr | Organization, WebSite, CollectionPage, BreadcrumbList |
-| `/tr/makaleler/glp1-bantlari` | tr | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
-| `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | tr | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
-| `/tr/makaleler/glp1-nasil-yapilir` | tr | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
-| `/tr/makaleler/glp1-nedir` | tr | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
-| `/tr/makaleler/glp1-yan-etkileri` | tr | Organization, WebSite, MedicalWebPage, BreadcrumbList |
+| `/tr/makaleler/glp1-bantlari` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/tr/makaleler/glp1-nasil-yapilir` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/tr/makaleler/glp1-nedir` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/tr/makaleler/glp1-yan-etkileri` | tr | Organization, WebSite, Person, MedicalWebPage, BreadcrumbList |
 | `/tr/neden-dozify` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
 | `/tr/yan-etki-gunlugu` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
+| `/tr/yayin-ilkeleri` | tr | Organization, WebSite, WebPage, BreadcrumbList |
