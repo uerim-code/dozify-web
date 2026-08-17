@@ -509,9 +509,19 @@ footer {
 }
 .footer-inner {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
+  /* Brand, then the link columns as one block. The old rule asked for three
+     columns and the markup gives it two children — brand + .footer-links — so
+     the three lists inside the wrapper had no layout of their own and stacked
+     into one long strip. */
+  grid-template-columns: minmax(200px, 1.1fr) 3fr;
   gap: 48px;
   margin-bottom: 40px;
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+  align-items: start;
 }
 .footer-brand .brand { margin-bottom: 12px; }
 .footer-tagline {
@@ -547,12 +557,14 @@ footer {
 }
 .disclaimer { line-height: 1.6; }
 
-@media (max-width: 720px) {
-  .footer-inner { grid-template-columns: 1fr 1fr; }
-  .footer-brand { grid-column: 1 / -1; }
+@media (max-width: 860px) {
+  .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+}
+@media (max-width: 560px) {
+  /* Only here do the link columns give up and stack. */
+  .footer-links { grid-template-columns: 1fr; gap: 28px; }
 }
 @media (max-width: 480px) {
-  .footer-inner { grid-template-columns: 1fr; gap: 32px; }
   .section { padding: 64px 0; }
   .hero { padding: 56px 0 72px; }
 }
