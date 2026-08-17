@@ -88,6 +88,26 @@ def heading(page: str) -> str:
     return _text(m.group(1)) if m else ""
 
 
+def visible_breadcrumb(page: str, url: str) -> list[tuple[str, str]] | None:
+    """The trail the visitor can see, if the page draws one.
+
+    Where a page shows a breadcrumb, that is what BreadcrumbList should say.
+    Deriving it from the H1 instead put "GLP-1 nedir? Hormon, açılımı ve nasıl
+    çalıştığı" in the schema next to a crumb reading "GLP-1 nedir?".
+    """
+    m = re.search(r'<(?:div|nav) class="breadcrumb"[^>]*>(.*?)</(?:div|nav)>', page, re.S)
+    if not m:
+        return None
+    trail: list[tuple[str, str]] = []
+    for tag in re.finditer(r'<(a|span)([^>]*)>(.*?)</\1>', m.group(1), re.S):
+        attrs, name = tag.group(2), _text(tag.group(3))
+        if not name or name in {"/", "›", "»", ">"} or "aria-hidden" in attrs:
+            continue
+        href = re.search(r'href="([^"]*)"', attrs)
+        trail.append((name, SITE + href.group(1) if href else url))
+    return trail or None
+
+
 def source_facts(source_html: str) -> dict:
     """Dates and citations recorded in the source's own block."""
     facts: dict = {}
@@ -180,13 +200,15 @@ def build_graph(
     is_landing = en_slug in LANDING
 
     home_url = f"{SITE}/{lang}"
-    trail: list[tuple[str, str]] = [(LABEL["home"][lang], home_url)]
-    if is_article:
-        articles_slug = slug.rsplit("/", 1)[0]
-        trail.append((LABEL["articles"][lang], f"{SITE}/{lang}/{articles_slug}"))
     name = heading(page) or title
-    if not is_home:
-        trail.append((name, url))
+    trail = visible_breadcrumb(page, url)
+    if trail is None:
+        trail = [(LABEL["home"][lang], home_url)]
+        if is_article:
+            articles_slug = slug.rsplit("/", 1)[0]
+            trail.append((LABEL["articles"][lang], f"{SITE}/{lang}/{articles_slug}"))
+        if not is_home:
+            trail.append((name, url))
 
     if is_article:
         page_type: list[str] = ["MedicalWebPage"]

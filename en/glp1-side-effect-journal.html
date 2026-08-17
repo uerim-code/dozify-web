@@ -78,7 +78,10 @@
         "inLanguage": "en"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/en/glp1-side-effect-journal#webpage",
         "url": "https://dozify.app/en/glp1-side-effect-journal",
         "name": "GLP-1 Side-Effect Journal — See When They Happen",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/en/glp1-side-effect-journal#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which symptoms can I log?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Eleven of the common ones — nausea, vomiting, constipation, diarrhoea, reflux, fatigue, headache, dizziness, injection-site reaction, appetite change and stomach pain — each with a severity you choose. Anything else goes in the note."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it tell me whether the medication caused it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, and it should not. It shows you when your entries happened relative to your doses; what that means is a conversation with your doctor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I do about a severe symptom?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Contact your clinician or emergency services. Logging it afterwards is useful; logging it instead is not."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do the entries appear in the doctor report?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, if you include that section — with their dates, their severity and where they fell relative to your injections."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I log things that are not symptoms?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Appetite, food noise, cravings and how meals are sitting are optional fields, for the people who find them worth watching."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "See when your symptoms actually happened",
+            "name": "Side-effect journal",
             "item": "https://dozify.app/en/glp1-side-effect-journal"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/en" class="back-link">← Back to home</a>
-    
+    <div class="breadcrumb">
+      <a href="/en">Home</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Side-effect journal</span>
+      
+    </div>
     <h1>See when your symptoms actually happened</h1>
     
     <p class="meta">Telling your doctor "I had nausea" and telling them "about fifteen hours after each dose" are not the same sentence.</p>
@@ -172,6 +219,19 @@
       
     </div>
 
+
+    <h2>Who this helps</h2>
+    <p>People in the first weeks, and people who have just moved up a dose — the two points where symptoms are most worth writing down. It is also for anyone whose doctor has asked a question the memory cannot answer: how often, how bad, and how long after the injection.</p>
+
+    
+    
+
+    <h2>Where it stops</h2>
+    <p>A journal is a record, not an assessment. Dozify cannot tell you whether a symptom comes from the medication, from something you ate or from something else entirely, and it does not triage. Severe or sudden symptoms — persistent vomiting, severe abdominal pain, signs of an allergic reaction — are a reason to contact a clinician or emergency services now, not to open an app.</p>
+
+    
+    
+
     <h2>Private by default</h2>
     <p>Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/en/privacy">privacy policy</a>.</p>
 
@@ -179,9 +239,53 @@
     
 
     <p style="text-align:center;margin:32px 0">
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">Download on the App Store</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-glp1-side-effect-journal-en" class="btn btn-primary">Download on the App Store</a>
       
     </p>
+
+
+    <h2>Questions</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Which symptoms can I log?</h3>
+        
+        <p>Eleven of the common ones — nausea, vomiting, constipation, diarrhoea, reflux, fatigue, headache, dizziness, injection-site reaction, appetite change and stomach pain — each with a severity you choose. Anything else goes in the note.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Does it tell me whether the medication caused it?</h3>
+        
+        <p>No, and it should not. It shows you when your entries happened relative to your doses; what that means is a conversation with your doctor.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>What should I do about a severe symptom?</h3>
+        
+        <p>Contact your clinician or emergency services. Logging it afterwards is useful; logging it instead is not.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Do the entries appear in the doctor report?</h3>
+        
+        <p>Yes, if you include that section — with their dates, their severity and where they fell relative to your injections.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Can I log things that are not symptoms?</h3>
+        
+        <p>Yes. Appetite, food noise, cravings and how meals are sitting are optional fields, for the people who find them worth watching.</p>
+        
+      </div>
+    </div>
+
+    <h2>Read next</h2>
+    <p>Guides, with their sources named: <a href="/en/articles/glp1-side-effects">managing common side effects</a>, <a href="/en/articles/what-is-glp1">what GLP-1 actually is</a> and <a href="/en/articles/glp1-injection-sites">where to inject and how to rotate</a>.</p>
+    <p>Elsewhere in Dozify: <a href="/en/glp1-appointment-report">the doctor report</a> and <a href="/en/glp1-shot-tracker">the shot tracker</a>.</p>
+
+    
+    
+    
 
     <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

@@ -78,7 +78,10 @@
         "inLanguage": "tr"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/tr/glp1-kilo-takibi#webpage",
         "url": "https://dozify.app/tr/glp1-kilo-takibi",
         "name": "GLP-1 Kilo Takibi — Kilo ve Doz Aynı Çizgide",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/tr/glp1-kilo-takibi#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kilomu Apple Health'ten okuyor mu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "iPhone'da evet. Tartınız ya da başka bir uygulama kiloyu Health'e yazıyorsa Dozify oradan okur, siz bir şey yazmazsınız. Elle de girebilirsiniz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kilogram mı, pound mu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "İkisi de. Birim bir ayardır; değiştirmek mevcut kayıtları yeniden yorumlamaz, dönüştürür."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Projeksiyon hedefime ne zaman ulaşacağımı söyler mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kendi kayıtlarınızdaki eğilim hiç değişmeden sürseydi ne zaman ulaşacağınızı söyler. Vücutlar böyle çalışmaz ve uygulama bu tarihi bir plan gibi sunmak yerine bunu ekranda yazar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ölçüleri de kaydedebilir miyim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet — bel, kalça ve diğerleri, kiloyla aynı zaman çizelgesinde; tartının mezuradan daha az kımıldadığı aylar için."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kilom telefondan çıkıyor mu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hayır. Diğer kayıtlarınız gibi cihazda saklanır. Apple Health'ten okuma telefonda olur; hiçbir şey yüklenmez."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Kilon ve dozların aynı çizgide",
+            "name": "Kilo trendi",
             "item": "https://dozify.app/tr/glp1-kilo-takibi"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    
-    <a href="/tr" class="back-link">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      
+      <a href="/tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      
+      <span>Kilo trendi</span>
+    </div>
     
     <h1>Kilon ve dozların aynı çizgide</h1>
     
@@ -172,6 +219,19 @@
       <figure class="shot"><div class="device"><img src="/screenshots/tr/03-charts.webp" width="750" height="1630" loading="lazy" alt="Kilon ve dozların aynı çizgide"></div></figure>
     </div>
 
+
+    
+    
+
+    <h2>Kimin işine yarar</h2>
+    <p>Bu sabahki rakamı değil birkaç ayın şeklini görmek isteyenler ve kilosu zaten tartıdan Apple Health'e yazılanlar. Bir de randevuda "son doz değişikliğinden bu yana kilo nasıl gitti" diye sorulduğunda tahmin etmek zorunda kalmış olan herkes için.</p>
+
+    
+    
+
+    <h2>Nerede duruyor</h2>
+    <p>Projeksiyon, girdiğiniz kayıtlar üzerinde yapılan bir hesaptır — kendi rakamlarınızın yaptığını uzatır, fazlası değil. Vücudunuzun ne yapacağının tahmini değildir; doz değişikliğini, bir hastalığı ya da bir tatili hesaba katmaz ve kimsenin size koyduğu bir hedef değildir. Dozify kilo, kilo verme hızı ya da diyet önermez.</p>
+
     
     
 
@@ -180,8 +240,52 @@
 
     <p style="text-align:center;margin:32px 0">
       
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">App Store'dan indir</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-glp1-weight-tracker-tr" class="btn btn-primary">App Store'dan indir</a>
     </p>
+
+
+    
+    <h2>Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        
+        <h3>Kilomu Apple Health'ten okuyor mu?</h3>
+        
+        <p>iPhone'da evet. Tartınız ya da başka bir uygulama kiloyu Health'e yazıyorsa Dozify oradan okur, siz bir şey yazmazsınız. Elle de girebilirsiniz.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Kilogram mı, pound mu?</h3>
+        
+        <p>İkisi de. Birim bir ayardır; değiştirmek mevcut kayıtları yeniden yorumlamaz, dönüştürür.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Projeksiyon hedefime ne zaman ulaşacağımı söyler mi?</h3>
+        
+        <p>Kendi kayıtlarınızdaki eğilim hiç değişmeden sürseydi ne zaman ulaşacağınızı söyler. Vücutlar böyle çalışmaz ve uygulama bu tarihi bir plan gibi sunmak yerine bunu ekranda yazar.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Ölçüleri de kaydedebilir miyim?</h3>
+        
+        <p>Evet — bel, kalça ve diğerleri, kiloyla aynı zaman çizelgesinde; tartının mezuradan daha az kımıldadığı aylar için.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Kilom telefondan çıkıyor mu?</h3>
+        
+        <p>Hayır. Diğer kayıtlarınız gibi cihazda saklanır. Apple Health'ten okuma telefonda olur; hiçbir şey yüklenmez.</p>
+      </div>
+    </div>
+
+    
+    
+    
+
+    <h2>Sonra şunlar</h2>
+    <p>Kaynağı yazılı rehberler: <a href="/tr/makaleler/glp1-nedir">GLP-1'in aslında ne olduğu</a>, <a href="/tr/makaleler/glp1-yan-etkileri">yaygın yan etkilerle baş etmek</a> ve <a href="/tr/makaleler/glp1-nasil-yapilir">kalemin adım adım nasıl yapıldığı</a>.</p>
+    <p>Dozify'ın diğer yanları: <a href="/tr/doktor-raporu">doktor raporu</a> ve <a href="/tr/glp1-igne-takibi">iğne takibi</a>.</p>
 
     
 

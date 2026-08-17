@@ -32,8 +32,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/" class="back-link" data-lang="en">← Back to home</a>
-    <a href="/" class="back-link" data-lang="tr">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      <a href="/" data-lang="en">Home</a>
+      <a href="/" data-lang="tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      <span data-lang="en">Privacy</span>
+      <span data-lang="tr">Gizlilik</span>
+    </div>
     <h1 data-lang="en">No account. Nothing leaves your phone.</h1>
     <h1 data-lang="tr">Hesap yok. Telefonundan çıkmıyor.</h1>
     <p class="meta" data-lang="en">Your injection history, weight, side effects and photos are stored on your device and never uploaded.</p>
@@ -66,6 +71,19 @@
       <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/08-why.webp" width="750" height="1630" loading="lazy" alt="Hesap yok. Telefonundan çıkmıyor."></div></figure>
     </div>
 
+
+    <h2 data-lang="en">Who this helps</h2>
+    <p data-lang="en">People who are not willing to put a prescription, a weight and a symptom list behind someone else's login, and people who share a household, a phone plan or a family account and would rather this did not appear in it. Also anyone who has read what a free health app usually does with data and decided against it.</p>
+
+    <h2 data-lang="tr">Kimin işine yarar</h2>
+    <p data-lang="tr">Bir reçeteyi, bir kiloyu ve bir belirti listesini başkasının hesabının arkasına koymaya razı olmayanlar; aynı evi, aynı hat paketini ya da bir aile hesabını paylaşan ve bunun orada görünmesini istemeyenler. Bir de ücretsiz bir sağlık uygulamasının veriyle genelde ne yaptığını okuyup vazgeçmiş olan herkes.</p>
+
+    <h2 data-lang="en">Where it stops</h2>
+    <p data-lang="en">Records that only exist on one phone are lost with that phone. Dozify makes an encrypted backup file you keep yourself; there is no cloud that will quietly restore anything for you. Two things do leave the device, and the privacy policy names both: anonymous usage statistics, which never carry a medication name or a symptom, and a measurement of whether an install came from one of our own App Store or Meta campaigns, which runs behind Apple's tracking permission.</p>
+
+    <h2 data-lang="tr">Nerede duruyor</h2>
+    <p data-lang="tr">Yalnızca tek bir telefonda duran kayıtlar, o telefonla birlikte kaybolur. Dozify kendinizde tuttuğunuz şifreli bir yedek dosyası oluşturur; sizin için bir şeyi sessizce geri yükleyecek bir bulut yok. Cihazdan iki şey çıkar ve gizlilik politikası ikisini de adıyla yazar: hiçbir zaman ilaç adı veya belirti taşımayan anonim kullanım istatistikleri ve bir kurulumun kendi App Store ya da Meta kampanyalarımızdan gelip gelmediğinin ölçümü — bu ikincisi Apple'ın takip izninin arkasında çalışır.</p>
+
     <h2 data-lang="en">Private by default</h2>
     <p data-lang="en">Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/privacy">privacy policy</a>.</p>
 
@@ -76,6 +94,50 @@
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="en">Download on the App Store</a>
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
     </p>
+
+
+    <h2 data-lang="en">Questions</h2>
+    <h2 data-lang="tr">Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 data-lang="en">Is there an account?</h3>
+        <h3 data-lang="tr">Hesap var mı?</h3>
+        <p data-lang="en">No. There is nothing to sign up for and nothing to sign in to. The app opens straight into your own data.</p>
+        <p data-lang="tr">Yok. Kaydolunacak bir şey yok, oturum açılacak bir şey yok. Uygulama doğrudan kendi verinizle açılır.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">What is collected, exactly?</h3>
+        <h3 data-lang="tr">Tam olarak ne toplanıyor?</h3>
+        <p data-lang="en">Anonymous usage statistics — which screens are used, whether something crashed — with no medication name, no symptom and no weight in them. The privacy policy lists what is sent and what never is.</p>
+        <p data-lang="tr">Anonim kullanım istatistikleri — hangi ekranlar kullanılıyor, bir şey çöktü mü — içlerinde ilaç adı, belirti ve kilo olmadan. Gizlilik politikası neyin gönderildiğini ve neyin asla gönderilmediğini sayar.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Can I get my data out?</h3>
+        <h3 data-lang="tr">Verimi dışarı alabilir miyim?</h3>
+        <p data-lang="en">Yes. Backup writes an encrypted, password-protected file to your device, which you keep and restore from wherever you keep it.</p>
+        <p data-lang="tr">Evet. Yedekleme, cihazınıza şifreli ve parola korumalı bir dosya yazar; onu siz saklar, sakladığınız yerden geri yüklersiniz.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">What happens if I delete the app?</h3>
+        <h3 data-lang="tr">Uygulamayı silersem ne olur?</h3>
+        <p data-lang="en">Your records go with it. There is no copy on a server to come back later, which is the point and also the reason to take a backup first.</p>
+        <p data-lang="tr">Kayıtlarınız da gider. Sonradan geri gelecek bir sunucu kopyası yoktur; mesele budur ve önce yedek almanın sebebi de budur.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Is the data encrypted on the phone?</h3>
+        <h3 data-lang="tr">Veriler telefonda şifreli mi?</h3>
+        <p data-lang="en">It is stored in the app's own database inside iOS's app sandbox, and backup files are encrypted with the password you set.</p>
+        <p data-lang="tr">iOS'un uygulama kum havuzu içinde, uygulamanın kendi veritabanında saklanır; yedek dosyaları ise sizin belirlediğiniz parolayla şifrelenir.</p>
+      </div>
+    </div>
+
+    <h2 data-lang="en">Read next</h2>
+    <p data-lang="en">Guides, with their sources named: <a href="/articles/what-is-glp1">what GLP-1 actually is</a>, <a href="/articles/glp1-injection-sites">where to inject and how to rotate</a> and <a href="/articles/glp1-side-effects">managing common side effects</a>.</p>
+    <p data-lang="en">Elsewhere in Dozify: <a href="/switch-glp1-tracker-app">importing from another app</a> and <a href="/glp1-appointment-report">the doctor report</a>.</p>
+
+    <h2 data-lang="tr">Sonra şunlar</h2>
+    <p data-lang="tr">Kaynağı yazılı rehberler: <a href="/articles/what-is-glp1">GLP-1'in aslında ne olduğu</a>, <a href="/articles/glp1-injection-sites">nereye yapılır, rotasyon nasıl olur</a> ve <a href="/articles/glp1-side-effects">yaygın yan etkilerle baş etmek</a>.</p>
+    <p data-lang="tr">Dozify'ın diğer yanları: <a href="/switch-glp1-tracker-app">başka uygulamadan aktarma</a> ve <a href="/glp1-appointment-report">doktor raporu</a>.</p>
 
     <p class="meta" data-lang="en">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

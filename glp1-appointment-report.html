@@ -32,8 +32,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/" class="back-link" data-lang="en">← Back to home</a>
-    <a href="/" class="back-link" data-lang="tr">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      <a href="/" data-lang="en">Home</a>
+      <a href="/" data-lang="tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      <span data-lang="en">Doctor report</span>
+      <span data-lang="tr">Doktor raporu</span>
+    </div>
     <h1 data-lang="en">Walk in with a summary, not a memory</h1>
     <h1 data-lang="tr">Randevuya hatırladıklarınla değil, özetle git</h1>
     <p class="meta" data-lang="en">One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.</p>
@@ -66,6 +71,19 @@
       <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/07-reports.webp" width="750" height="1630" loading="lazy" alt="Randevuya hatırladıklarınla değil, özetle git"></div></figure>
     </div>
 
+
+    <h2 data-lang="en">Who this helps</h2>
+    <p data-lang="en">People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.</p>
+
+    <h2 data-lang="tr">Kimin işine yarar</h2>
+    <p data-lang="tr">Kısa bir kontrol randevusu ve anlatılacak uzun bir dönemi olanlar; geçmişini hiç görmemiş yeni bir hekime geçenler. Bir de doz değişikliğinin masada olduğu randevu için: kararın dayandığı şey tam olarak son sekiz haftada olanlardır.</p>
+
+    <h2 data-lang="en">Where it stops</h2>
+    <p data-lang="en">The report is your record laid out clearly. It is not a clinical assessment, it contains no interpretation, and nothing in it should be read as a recommendation — the reading is your doctor's. It also only contains what you logged: a week you did not record is a gap in the report, not a week without doses.</p>
+
+    <h2 data-lang="tr">Nerede duruyor</h2>
+    <p data-lang="tr">Rapor, kendi kaydınızın derli toplu hâlidir. Klinik bir değerlendirme değildir, içinde yorum yoktur ve hiçbir kısmı bir öneri olarak okunmamalıdır — okuma doktorunuza aittir. Ayrıca yalnızca sizin kaydettiklerinizi içerir: kayıt tutmadığınız bir hafta, dozsuz bir hafta değil raporda bir boşluktur.</p>
+
     <h2 data-lang="en">Private by default</h2>
     <p data-lang="en">Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/privacy">privacy policy</a>.</p>
 
@@ -76,6 +94,50 @@
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="en">Download on the App Store</a>
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
     </p>
+
+
+    <h2 data-lang="en">Questions</h2>
+    <h2 data-lang="tr">Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 data-lang="en">What is in the report?</h3>
+        <h3 data-lang="tr">Raporda neler var?</h3>
+        <p data-lang="en">Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down — over the range you pick.</p>
+        <p data-lang="tr">Dozlar ve aralarındaki aralıklar, kilo trendi, şiddetleriyle yan etkiler, enjeksiyon bölgeleri, açık flakonlar ve yazdığınız sorular — seçtiğiniz aralık boyunca.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Which date ranges can I choose?</h3>
+        <h3 data-lang="tr">Hangi tarih aralıklarını seçebilirim?</h3>
+        <p data-lang="en">30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician.</p>
+        <p data-lang="tr">30, 90 ya da 180 gün. Doksan genelde randevular arasındaki aralığa denk gelir; en uzunu yeni bir hekimle ilk görüşme için.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Can I leave sections out?</h3>
+        <h3 data-lang="tr">Bölümleri çıkarabilir miyim?</h3>
+        <p data-lang="en">Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about.</p>
+        <p data-lang="tr">Evet. Her bölüm bir anahtardır; randevu onunlaysa rapor yalnızca dozlar ve kilo olabilir.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Can I send it before the appointment?</h3>
+        <h3 data-lang="tr">Randevudan önce gönderebilir miyim?</h3>
+        <p data-lang="en">The PDF is a file on your phone. Print it, email it, put it in a portal — that is your decision, made after you have seen it.</p>
+        <p data-lang="tr">PDF telefonunuzdaki bir dosyadır. Yazdırmak, e-postayla göndermek, bir portala yüklemek — gördükten sonra verdiğiniz karardır.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Is anything uploaded to make it?</h3>
+        <h3 data-lang="tr">Hazırlanırken bir yere yükleme oluyor mu?</h3>
+        <p data-lang="en">No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.</p>
+        <p data-lang="tr">Hayır. Zaten cihazda olan kayıtlardan, cihaz üzerinde üretilir. Üretilmesi için hiçbir yere bir şey gönderilmez.</p>
+      </div>
+    </div>
+
+    <h2 data-lang="en">Read next</h2>
+    <p data-lang="en">Guides, with their sources named: <a href="/articles/glp1-side-effects">managing common side effects</a>, <a href="/articles/what-is-glp1">what GLP-1 actually is</a> and <a href="/articles/glp1-injection-sites">where to inject and how to rotate</a>.</p>
+    <p data-lang="en">Elsewhere in Dozify: <a href="/glp1-side-effect-journal">the side-effect journal</a> and <a href="/glp1-weight-tracker">the weight trend</a>.</p>
+
+    <h2 data-lang="tr">Sonra şunlar</h2>
+    <p data-lang="tr">Kaynağı yazılı rehberler: <a href="/articles/glp1-side-effects">yaygın yan etkilerle baş etmek</a>, <a href="/articles/what-is-glp1">GLP-1'in aslında ne olduğu</a> ve <a href="/articles/glp1-injection-sites">nereye yapılır, rotasyon nasıl olur</a>.</p>
+    <p data-lang="tr">Dozify'ın diğer yanları: <a href="/glp1-side-effect-journal">yan etki günlüğü</a> ve <a href="/glp1-weight-tracker">kilo trendi</a>.</p>
 
     <p class="meta" data-lang="en">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

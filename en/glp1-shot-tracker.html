@@ -78,7 +78,10 @@
         "inLanguage": "en"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/en/glp1-shot-tracker#webpage",
         "url": "https://dozify.app/en/glp1-shot-tracker",
         "name": "GLP-1 Shot Tracker — Never Miss Injection Day",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/en/glp1-shot-tracker#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I set the reminder for a different day than the one I started on?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The schedule is yours to set and change — weekly on any day, daily, every few days, or specific dates. Changing it does not rewrite the doses you have already logged."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if I inject a day late?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Log it on the day it happened; the entry takes the date and time you give it. Dozify shows the interval that actually occurred rather than assuming the planned one. What to do about a late or missed dose is a question for your prescriber, and the app does not answer it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do reminders work if the phone is offline?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. They are scheduled on the device, so no connection is needed for one to arrive. They do need notification permission for Dozify to be on."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I track more than one medication?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, as many as you need, each with its own schedule and dose. Every logged injection belongs to one of them."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the app tell me my next dose amount?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It shows the dose you entered for that medication and when it is next due. If your doctor changes the amount, you change it in the app — Dozify never proposes a titration."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Never wonder which day your shot is",
+            "name": "Shot tracker",
             "item": "https://dozify.app/en/glp1-shot-tracker"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/en" class="back-link">← Back to home</a>
-    
+    <div class="breadcrumb">
+      <a href="/en">Home</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Shot tracker</span>
+      
+    </div>
     <h1>Never wonder which day your shot is</h1>
     
     <p class="meta">A weekly medication asks you to remember which day of the week it is. Dozify remembers instead.</p>
@@ -172,6 +219,19 @@
       
     </div>
 
+
+    <h2>Who this helps</h2>
+    <p>Anyone whose week is not identical to the last one. A weekly medication assumes a fixed Thursday; travel, a shift pattern, a hospital appointment or a single late night all move it. It is also for the person who has stood in the kitchen trying to work out whether Tuesday was this week or last — the log answers that in one look rather than by reconstruction.</p>
+
+    
+    
+
+    <h2>Where it stops</h2>
+    <p>Dozify does not decide your schedule, your dose or what to do about a dose you missed — those are your prescriber's, and the app records the plan rather than proposing one. A reminder is an iOS notification: if notifications are off for Dozify, or the phone is in a focus mode that silences them, it will not appear. And a log is a record of what you entered, not proof of what went into your body.</p>
+
+    
+    
+
     <h2>Private by default</h2>
     <p>Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/en/privacy">privacy policy</a>.</p>
 
@@ -179,9 +239,53 @@
     
 
     <p style="text-align:center;margin:32px 0">
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">Download on the App Store</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-glp1-shot-tracker-en" class="btn btn-primary">Download on the App Store</a>
       
     </p>
+
+
+    <h2>Questions</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Can I set the reminder for a different day than the one I started on?</h3>
+        
+        <p>Yes. The schedule is yours to set and change — weekly on any day, daily, every few days, or specific dates. Changing it does not rewrite the doses you have already logged.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>What if I inject a day late?</h3>
+        
+        <p>Log it on the day it happened; the entry takes the date and time you give it. Dozify shows the interval that actually occurred rather than assuming the planned one. What to do about a late or missed dose is a question for your prescriber, and the app does not answer it.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Do reminders work if the phone is offline?</h3>
+        
+        <p>Yes. They are scheduled on the device, so no connection is needed for one to arrive. They do need notification permission for Dozify to be on.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Can I track more than one medication?</h3>
+        
+        <p>Yes, as many as you need, each with its own schedule and dose. Every logged injection belongs to one of them.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Does the app tell me my next dose amount?</h3>
+        
+        <p>No. It shows the dose you entered for that medication and when it is next due. If your doctor changes the amount, you change it in the app — Dozify never proposes a titration.</p>
+        
+      </div>
+    </div>
+
+    <h2>Read next</h2>
+    <p>Guides, with their sources named: <a href="/en/articles/how-to-inject-glp1">how to inject a pen, step by step</a>, <a href="/en/articles/glp1-injection-sites">where to inject and how to rotate</a> and <a href="/en/articles/what-is-glp1">what GLP-1 actually is</a>.</p>
+    <p>Elsewhere in Dozify: <a href="/en/injection-site-tracker">site rotation</a>, <a href="/en/glp1-vial-tracker">vial tracking</a> and <a href="/en/glp1-appointment-report">the doctor report</a>.</p>
+
+    
+    
+    
 
     <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

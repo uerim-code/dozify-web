@@ -35,6 +35,7 @@ from structured_data import build_graph, strip_jsonld  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = "https://dozify.app"
+APP_STORE_URL = "https://apps.apple.com/app/dozify/id6764325653"
 
 # source file -> (english slug, turkish slug). "" is the tree's index.
 PAGES: dict[str, tuple[str, str]] = {
@@ -198,6 +199,13 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
                         tr_slug if lang == "en" else en_slug)
     switcher = SWITCHER[lang].format(other=other_url)
     html = re.sub(r"(</nav>)", switcher + r"\1", html, count=1)
+
+    # Tag each page's App Store link with its own campaign token, so App
+    # Analytics can say which page sent the install. It is a query parameter
+    # Apple reads on its own side — no script on the page, nothing about the
+    # visitor, and it works with the tracking permission denied.
+    campaign = f"web-{en_slug.replace('/', '-') or 'home'}-{lang}"[:40]
+    html = html.replace(APP_STORE_URL, f"{APP_STORE_URL}?ct={campaign}")
 
     # Assets are referenced relative today; the trees are one level deeper.
     html = re.sub(r'(href|src)="(styles\.css|lang\.js|favicon\.svg|og-image\.png)"',

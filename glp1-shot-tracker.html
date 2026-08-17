@@ -32,8 +32,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/" class="back-link" data-lang="en">← Back to home</a>
-    <a href="/" class="back-link" data-lang="tr">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      <a href="/" data-lang="en">Home</a>
+      <a href="/" data-lang="tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      <span data-lang="en">Shot tracker</span>
+      <span data-lang="tr">İğne takibi</span>
+    </div>
     <h1 data-lang="en">Never wonder which day your shot is</h1>
     <h1 data-lang="tr">İğne günün hiç aklını kurcalamasın</h1>
     <p class="meta" data-lang="en">A weekly medication asks you to remember which day of the week it is. Dozify remembers instead.</p>
@@ -66,6 +71,19 @@
       <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/01-home.webp" width="750" height="1630" loading="lazy" alt="İğne günün hiç aklını kurcalamasın"></div></figure>
     </div>
 
+
+    <h2 data-lang="en">Who this helps</h2>
+    <p data-lang="en">Anyone whose week is not identical to the last one. A weekly medication assumes a fixed Thursday; travel, a shift pattern, a hospital appointment or a single late night all move it. It is also for the person who has stood in the kitchen trying to work out whether Tuesday was this week or last — the log answers that in one look rather than by reconstruction.</p>
+
+    <h2 data-lang="tr">Kimin işine yarar</h2>
+    <p data-lang="tr">Haftası bir öncekiyle aynı olmayan herkes. Haftalık bir ilaç sabit bir perşembe varsayar; seyahat, vardiya, bir hastane randevusu ya da tek bir geç kalınan gece bunu kaydırır. Bir de mutfakta durup salının bu hafta mı geçen hafta mı olduğunu çıkarmaya çalışan kişi için: kayıt bunu hatırlamaya çalışarak değil, tek bakışta cevaplıyor.</p>
+
+    <h2 data-lang="en">Where it stops</h2>
+    <p data-lang="en">Dozify does not decide your schedule, your dose or what to do about a dose you missed — those are your prescriber's, and the app records the plan rather than proposing one. A reminder is an iOS notification: if notifications are off for Dozify, or the phone is in a focus mode that silences them, it will not appear. And a log is a record of what you entered, not proof of what went into your body.</p>
+
+    <h2 data-lang="tr">Nerede duruyor</h2>
+    <p data-lang="tr">Dozify programınıza, dozunuza ya da kaçırdığınız bir doza ne yapılacağına karar vermez — bunlar reçeteyi yazan hekimin işidir; uygulama planı önermez, kaydeder. Hatırlatıcı bir iOS bildirimidir: Dozify için bildirimler kapalıysa ya da telefon onları susturan bir odak modundaysa görünmez. Kayıt da vücudunuza ne girdiğinin kanıtı değil, sizin girdiğinizin kaydıdır.</p>
+
     <h2 data-lang="en">Private by default</h2>
     <p data-lang="en">Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/privacy">privacy policy</a>.</p>
 
@@ -76,6 +94,50 @@
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="en">Download on the App Store</a>
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
     </p>
+
+
+    <h2 data-lang="en">Questions</h2>
+    <h2 data-lang="tr">Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 data-lang="en">Can I set the reminder for a different day than the one I started on?</h3>
+        <h3 data-lang="tr">Hatırlatıcıyı başladığım günden başka bir güne kurabilir miyim?</h3>
+        <p data-lang="en">Yes. The schedule is yours to set and change — weekly on any day, daily, every few days, or specific dates. Changing it does not rewrite the doses you have already logged.</p>
+        <p data-lang="tr">Evet. Program sizin belirlediğiniz ve değiştirebildiğiniz bir şey — haftanın herhangi bir günü, günlük, birkaç günde bir ya da belirli tarihler. Değiştirmeniz daha önce kaydettiğiniz dozları yeniden yazmaz.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">What if I inject a day late?</h3>
+        <h3 data-lang="tr">Bir gün geç yaparsam?</h3>
+        <p data-lang="en">Log it on the day it happened; the entry takes the date and time you give it. Dozify shows the interval that actually occurred rather than assuming the planned one. What to do about a late or missed dose is a question for your prescriber, and the app does not answer it.</p>
+        <p data-lang="tr">Gerçekleştiği güne kaydedin; kayıt verdiğiniz tarih ve saati alır. Dozify planlanan aralığı varsaymak yerine gerçekten oluşan aralığı gösterir. Geç kalan ya da kaçan bir dozda ne yapılacağı reçeteyi yazan hekimin sorusudur, uygulama onu cevaplamaz.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Do reminders work if the phone is offline?</h3>
+        <h3 data-lang="tr">Telefon çevrimdışıyken hatırlatıcılar çalışır mı?</h3>
+        <p data-lang="en">Yes. They are scheduled on the device, so no connection is needed for one to arrive. They do need notification permission for Dozify to be on.</p>
+        <p data-lang="tr">Evet. Cihaz üzerinde planlanırlar; birinin gelmesi için bağlantı gerekmez. Ancak Dozify için bildirim izninin açık olması gerekir.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Can I track more than one medication?</h3>
+        <h3 data-lang="tr">Birden fazla ilaç takip edebilir miyim?</h3>
+        <p data-lang="en">Yes, as many as you need, each with its own schedule and dose. Every logged injection belongs to one of them.</p>
+        <p data-lang="tr">Evet, ihtiyacınız kadar; her biri kendi programı ve doz miktarıyla. Kaydedilen her enjeksiyon bunlardan birine ait olur.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Does the app tell me my next dose amount?</h3>
+        <h3 data-lang="tr">Uygulama sıradaki doz miktarımı söyler mi?</h3>
+        <p data-lang="en">No. It shows the dose you entered for that medication and when it is next due. If your doctor changes the amount, you change it in the app — Dozify never proposes a titration.</p>
+        <p data-lang="tr">Hayır. O ilaç için sizin girdiğiniz dozu ve ne zaman geldiğini gösterir. Doktorunuz miktarı değiştirirse uygulamada siz değiştirirsiniz — Dozify asla titrasyon önermez.</p>
+      </div>
+    </div>
+
+    <h2 data-lang="en">Read next</h2>
+    <p data-lang="en">Guides, with their sources named: <a href="/articles/how-to-inject-glp1">how to inject a pen, step by step</a>, <a href="/articles/glp1-injection-sites">where to inject and how to rotate</a> and <a href="/articles/what-is-glp1">what GLP-1 actually is</a>.</p>
+    <p data-lang="en">Elsewhere in Dozify: <a href="/injection-site-tracker">site rotation</a>, <a href="/glp1-vial-tracker">vial tracking</a> and <a href="/glp1-appointment-report">the doctor report</a>.</p>
+
+    <h2 data-lang="tr">Sonra şunlar</h2>
+    <p data-lang="tr">Kaynağı yazılı rehberler: <a href="/articles/how-to-inject-glp1">kalemin adım adım nasıl yapıldığı</a>, <a href="/articles/glp1-injection-sites">nereye yapılır, rotasyon nasıl olur</a> ve <a href="/articles/what-is-glp1">GLP-1'in aslında ne olduğu</a>.</p>
+    <p data-lang="tr">Dozify'ın diğer yanları: <a href="/injection-site-tracker">bölge rotasyonu</a>, <a href="/glp1-vial-tracker">flakon takibi</a> ve <a href="/glp1-appointment-report">doktor raporu</a>.</p>
 
     <p class="meta" data-lang="en">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

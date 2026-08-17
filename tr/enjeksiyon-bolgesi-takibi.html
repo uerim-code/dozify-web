@@ -78,7 +78,10 @@
         "inLanguage": "tr"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/tr/enjeksiyon-bolgesi-takibi#webpage",
         "url": "https://dozify.app/tr/enjeksiyon-bolgesi-takibi",
         "name": "Enjeksiyon Bölgesi Takibi — Not Tutmadan Rotasyon",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/tr/enjeksiyon-bolgesi-takibi#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hangi bölgeler arasından seçebilirim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Karın, uyluk ve üst kol; sağ ve sol olarak ve her birinin içindeki alanlara ayrılmış hâlde. Bunlar üretici talimatlarının deri altı GLP-1 enjeksiyonları için tarif ettiği bölgelerdir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Öneri nasıl çalışıyor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Son enjeksiyonlarınızın nereye gittiğine bakar ve en uzun süredir kullanmadığınız bölgeyi gösterir. Ekranda bir öneridir, kural değil — gerçekten nereye yaptıysanız oraya kaydedebilirsiniz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Aynı noktayı tekrar kullanırsam uyarır mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Son kullandıklarınızı gösterir; tekrar, kaydetmeden önce görünür olur. Hiçbir şeyi engellemez — bir sebebiniz olabilir ve uygulama sizin kararınızı geçersiz kılmaz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Her seferinde aynı bölgeye yapıyorum. Sorun mu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bu, hekiminize ya da eczacınıza sorulacak bir şey. Dozify'ın yapabileceği, deseni onlara göstermek: rapor, seçtiğiniz dönemde enjeksiyonlarınızın nereye gittiğini içerir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Bu, kalemimle gelen prospektüsün yerine geçer mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hayır. Prospektüs talimattır; bu, yaptığınızın kaydıdır. İkisi çelişirse doğru olan prospektüstür."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Bölgeleri not tutmadan değiştir",
+            "name": "Bölge rotasyonu",
             "item": "https://dozify.app/tr/enjeksiyon-bolgesi-takibi"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    
-    <a href="/tr" class="back-link">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      
+      <a href="/tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      
+      <span>Bölge rotasyonu</span>
+    </div>
     
     <h1>Bölgeleri not tutmadan değiştir</h1>
     
@@ -172,6 +219,19 @@
       <figure class="shot"><div class="device"><img src="/screenshots/tr/02-injection.webp" width="750" height="1630" loading="lazy" alt="Bölgeleri not tutmadan değiştir"></div></figure>
     </div>
 
+
+    
+    
+
+    <h2>Kimin işine yarar</h2>
+    <p>Rotasyon yapması söylenmiş ama bunu nasıl takip edeceği anlatılmamış kişiler ve karnının bir bölgesinin diğerlerinden farklı hissettirdiğini fark etmeye başlayanlar. Haftada birden fazla enjeksiyon yapan herkes için de: desen, tek bir haftalık noktaya göre akılda tutması çok daha zor.</p>
+
+    
+    
+
+    <h2>Nerede duruyor</h2>
+    <p>Vücut haritası nereye yaptığınızı kaydeder ve rotasyonda sıradaki bölgeyi önerir. Bölgeyi muayene etmez: oradaki cildin bugün uygun olup olmadığını söyleyemez; şişlik ya da sertleşmiş bir alan bir uygulamanın karar vereceği değil, hekime gösterilecek bir şeydir. Onaylı bölgeler ilacınızın üretici talimatlarından gelir; farklılık varsa uyulacak olan o talimatlardır.</p>
+
     
     
 
@@ -180,8 +240,52 @@
 
     <p style="text-align:center;margin:32px 0">
       
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">App Store'dan indir</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-injection-site-tracker-tr" class="btn btn-primary">App Store'dan indir</a>
     </p>
+
+
+    
+    <h2>Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        
+        <h3>Hangi bölgeler arasından seçebilirim?</h3>
+        
+        <p>Karın, uyluk ve üst kol; sağ ve sol olarak ve her birinin içindeki alanlara ayrılmış hâlde. Bunlar üretici talimatlarının deri altı GLP-1 enjeksiyonları için tarif ettiği bölgelerdir.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Öneri nasıl çalışıyor?</h3>
+        
+        <p>Son enjeksiyonlarınızın nereye gittiğine bakar ve en uzun süredir kullanmadığınız bölgeyi gösterir. Ekranda bir öneridir, kural değil — gerçekten nereye yaptıysanız oraya kaydedebilirsiniz.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Aynı noktayı tekrar kullanırsam uyarır mı?</h3>
+        
+        <p>Son kullandıklarınızı gösterir; tekrar, kaydetmeden önce görünür olur. Hiçbir şeyi engellemez — bir sebebiniz olabilir ve uygulama sizin kararınızı geçersiz kılmaz.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Her seferinde aynı bölgeye yapıyorum. Sorun mu?</h3>
+        
+        <p>Bu, hekiminize ya da eczacınıza sorulacak bir şey. Dozify'ın yapabileceği, deseni onlara göstermek: rapor, seçtiğiniz dönemde enjeksiyonlarınızın nereye gittiğini içerir.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Bu, kalemimle gelen prospektüsün yerine geçer mi?</h3>
+        
+        <p>Hayır. Prospektüs talimattır; bu, yaptığınızın kaydıdır. İkisi çelişirse doğru olan prospektüstür.</p>
+      </div>
+    </div>
+
+    
+    
+    
+
+    <h2>Sonra şunlar</h2>
+    <p>Kaynağı yazılı rehberler: <a href="/tr/makaleler/glp1-enjeksiyon-bolgeleri">nereye yapılır, rotasyon nasıl olur</a>, <a href="/tr/makaleler/glp1-nasil-yapilir">kalemin adım adım nasıl yapıldığı</a> ve <a href="/tr/makaleler/glp1-yan-etkileri">yaygın yan etkilerle baş etmek</a>.</p>
+    <p>Dozify'ın diğer yanları: <a href="/tr/glp1-igne-takibi">iğne takibi</a> ve <a href="/tr/yan-etki-gunlugu">yan etki günlüğü</a>.</p>
 
     
 

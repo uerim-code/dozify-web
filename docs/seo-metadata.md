@@ -55,29 +55,29 @@
 | `/en/articles/glp1-side-effects` | en | Organization, WebSite, MedicalWebPage, BreadcrumbList |
 | `/en/articles/how-to-inject-glp1` | en | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/what-is-glp1` | en | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
-| `/en/glp1-appointment-report` | en | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
-| `/en/glp1-shot-tracker` | en | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
-| `/en/glp1-side-effect-journal` | en | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
-| `/en/glp1-vial-tracker` | en | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
-| `/en/glp1-weight-tracker` | en | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
+| `/en/glp1-appointment-report` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
+| `/en/glp1-shot-tracker` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
+| `/en/glp1-side-effect-journal` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
+| `/en/glp1-vial-tracker` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
+| `/en/glp1-weight-tracker` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/en` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage |
-| `/en/injection-site-tracker` | en | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
+| `/en/injection-site-tracker` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/en/kvkk` | en | Organization, WebSite, WebPage, BreadcrumbList |
 | `/en/privacy` | en | Organization, WebSite, WebPage, BreadcrumbList |
-| `/en/private-glp1-tracker` | en | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
+| `/en/private-glp1-tracker` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/en/support` | en | Organization, WebSite, WebPage, FAQPage, BreadcrumbList |
-| `/en/switch-glp1-tracker-app` | en | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
+| `/en/switch-glp1-tracker-app` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/en/terms` | en | Organization, WebSite, WebPage, BreadcrumbList |
 | `/en/why` | en | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
-| `/tr/baska-uygulamadan-gecis` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
+| `/tr/baska-uygulamadan-gecis` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/tr/destek` | tr | Organization, WebSite, WebPage, FAQPage, BreadcrumbList |
-| `/tr/doktor-raporu` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
-| `/tr/enjeksiyon-bolgesi-takibi` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
-| `/tr/flakon-takibi` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
-| `/tr/gizli-glp1-takibi` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
+| `/tr/doktor-raporu` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
+| `/tr/enjeksiyon-bolgesi-takibi` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
+| `/tr/flakon-takibi` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
+| `/tr/gizli-glp1-takibi` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/tr/gizlilik` | tr | Organization, WebSite, WebPage, BreadcrumbList |
-| `/tr/glp1-igne-takibi` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
-| `/tr/glp1-kilo-takibi` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
+| `/tr/glp1-igne-takibi` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
+| `/tr/glp1-kilo-takibi` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/tr` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage |
 | `/tr/kullanim-kosullari` | tr | Organization, WebSite, WebPage, BreadcrumbList |
 | `/tr/kvkk` | tr | Organization, WebSite, WebPage, BreadcrumbList |
@@ -88,4 +88,4 @@
 | `/tr/makaleler/glp1-nedir` | tr | Organization, WebSite, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/glp1-yan-etkileri` | tr | Organization, WebSite, MedicalWebPage, BreadcrumbList |
 | `/tr/neden-dozify` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
-| `/tr/yan-etki-gunlugu` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
+| `/tr/yan-etki-gunlugu` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |

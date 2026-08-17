@@ -78,7 +78,10 @@
         "inLanguage": "tr"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/tr/baska-uygulamadan-gecis#webpage",
         "url": "https://dozify.app/tr/baska-uygulamadan-gecis",
         "name": "Dozify'a Geç — GLP-1 Geçmişini Yanında Getir",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/tr/baska-uygulamadan-gecis#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hangi uygulamalardan aktarabilirim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Shotsy, Glapp, GLPzy ve GlucoPal dışa aktarımları tanınır; Dozify'ın kendi yedek dosyaları ve tarih sütunu olan her CSV de öyle."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Uygulamam listede yok. Şimdi ne olacak?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ondan bir CSV dışa aktarıp deneyin — tek şart bir tarih sütunu. Dosya tanınmazsa Dozify sessizce hiçbir şey aktarmak yerine bunu size söyler; Ayarlar → Özellik öner üzerinden dosyayı bize gönderebilirsiniz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "İki kez aktarırsam her şey ikilenir mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hayır. Dozify'da zaten olan bir şeyle eşleşen kayıtlar mükerrer sayılıp atlanır; aynı dosyayı tekrar çalıştırmak güvenlidir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Aktarım yarıda kalırsa ne olur?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kalamaz. Yazma tek bir işlemdir: ya tamamlanır ya geri alınır; ayrıca başlamadan hemen önce otomatik yedek alınır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dosya bir yere gidiyor mu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hayır. Telefonunuzda okunur. İçe aktarmada hesap da yok, sunucu da yok."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Geçmişini yanında getir",
+            "name": "Geçiş",
             "item": "https://dozify.app/tr/baska-uygulamadan-gecis"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    
-    <a href="/tr" class="back-link">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      
+      <a href="/tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      
+      <span>Geçiş</span>
+    </div>
     
     <h1>Geçmişini yanında getir</h1>
     
@@ -196,6 +243,19 @@
     <h2>Dosya tanınmazsa</h2>
     <p>Dozify sessizce sıfır satır aktarmak yerine bunu açıkça söyler. Tarih sütunu olan her CSV okunur; seninki okunmuyorsa Ayarlar → Özellik öner üzerinden bize gönder, biçim eklensin — okuyamadığımız bir dosya bizim eksiğimizdir, senin değil.</p>
 
+
+    
+    
+
+    <h2>Kimin işine yarar</h2>
+    <p>Shotsy, Glapp, GLPzy ya da GlucoPal'dan ayrılanlar ve mevcut uygulaması CSV üretebilen herkes. Tam da geçmişin, kişiyi artık sevmediği bir uygulamada tutan tek şey olduğu an için yazıldı.</p>
+
+    
+    
+
+    <h2>Nerede duruyor</h2>
+    <p>Kilolar, enjeksiyonlar ve yan etkiler aktarılır. Flakonlar, ilerleme fotoğrafları ve check-in'ler aktarılmaz — ya diğer uygulamada karşılığı yoktur ya da eşleştirme tahmin olur; tıbbi bir kayıtta tahmin edilmiş bir kayıt, eksik olandan kötüdür. Dozify'ın okuyamadığı satırlar sessizce düşürülmez, okunamadı diye size bildirilir; enjeksiyonların bağlanabilmesi için de Dozify'da önce bir ilaç bulunmalıdır.</p>
+
     
     
 
@@ -204,8 +264,52 @@
 
     <p style="text-align:center;margin:32px 0">
       
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">App Store'dan indir</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-switch-glp1-tracker-app-tr" class="btn btn-primary">App Store'dan indir</a>
     </p>
+
+
+    
+    <h2>Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        
+        <h3>Hangi uygulamalardan aktarabilirim?</h3>
+        
+        <p>Shotsy, Glapp, GLPzy ve GlucoPal dışa aktarımları tanınır; Dozify'ın kendi yedek dosyaları ve tarih sütunu olan her CSV de öyle.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Uygulamam listede yok. Şimdi ne olacak?</h3>
+        
+        <p>Ondan bir CSV dışa aktarıp deneyin — tek şart bir tarih sütunu. Dosya tanınmazsa Dozify sessizce hiçbir şey aktarmak yerine bunu size söyler; Ayarlar → Özellik öner üzerinden dosyayı bize gönderebilirsiniz.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>İki kez aktarırsam her şey ikilenir mi?</h3>
+        
+        <p>Hayır. Dozify'da zaten olan bir şeyle eşleşen kayıtlar mükerrer sayılıp atlanır; aynı dosyayı tekrar çalıştırmak güvenlidir.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Aktarım yarıda kalırsa ne olur?</h3>
+        
+        <p>Kalamaz. Yazma tek bir işlemdir: ya tamamlanır ya geri alınır; ayrıca başlamadan hemen önce otomatik yedek alınır.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Dosya bir yere gidiyor mu?</h3>
+        
+        <p>Hayır. Telefonunuzda okunur. İçe aktarmada hesap da yok, sunucu da yok.</p>
+      </div>
+    </div>
+
+    
+    
+    
+
+    <h2>Sonra şunlar</h2>
+    <p>Kaynağı yazılı rehberler: <a href="/tr/makaleler/glp1-nedir">GLP-1'in aslında ne olduğu</a>, <a href="/tr/makaleler/glp1-enjeksiyon-bolgeleri">nereye yapılır, rotasyon nasıl olur</a> ve <a href="/tr/makaleler/glp1-nasil-yapilir">kalemin adım adım nasıl yapıldığı</a>.</p>
+    <p>Dozify'ın diğer yanları: <a href="/tr/glp1-igne-takibi">iğne takibi</a> ve <a href="/tr/gizli-glp1-takibi">gizliliğin nasıl işlediği</a>.</p>
 
     
 

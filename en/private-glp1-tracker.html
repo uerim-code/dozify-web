@@ -78,7 +78,10 @@
         "inLanguage": "en"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/en/private-glp1-tracker#webpage",
         "url": "https://dozify.app/en/private-glp1-tracker",
         "name": "Private GLP-1 Tracker — No Account, No Cloud",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/en/private-glp1-tracker#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is there an account?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. There is nothing to sign up for and nothing to sign in to. The app opens straight into your own data."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is collected, exactly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Anonymous usage statistics — which screens are used, whether something crashed — with no medication name, no symptom and no weight in them. The privacy policy lists what is sent and what never is."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get my data out?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Backup writes an encrypted, password-protected file to your device, which you keep and restore from wherever you keep it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens if I delete the app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your records go with it. There is no copy on a server to come back later, which is the point and also the reason to take a backup first."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the data encrypted on the phone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is stored in the app's own database inside iOS's app sandbox, and backup files are encrypted with the password you set."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "No account. Nothing leaves your phone.",
+            "name": "Privacy",
             "item": "https://dozify.app/en/private-glp1-tracker"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/en" class="back-link">← Back to home</a>
-    
+    <div class="breadcrumb">
+      <a href="/en">Home</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Privacy</span>
+      
+    </div>
     <h1>No account. Nothing leaves your phone.</h1>
     
     <p class="meta">Your injection history, weight, side effects and photos are stored on your device and never uploaded.</p>
@@ -172,6 +219,19 @@
       
     </div>
 
+
+    <h2>Who this helps</h2>
+    <p>People who are not willing to put a prescription, a weight and a symptom list behind someone else's login, and people who share a household, a phone plan or a family account and would rather this did not appear in it. Also anyone who has read what a free health app usually does with data and decided against it.</p>
+
+    
+    
+
+    <h2>Where it stops</h2>
+    <p>Records that only exist on one phone are lost with that phone. Dozify makes an encrypted backup file you keep yourself; there is no cloud that will quietly restore anything for you. Two things do leave the device, and the privacy policy names both: anonymous usage statistics, which never carry a medication name or a symptom, and a measurement of whether an install came from one of our own App Store or Meta campaigns, which runs behind Apple's tracking permission.</p>
+
+    
+    
+
     <h2>Private by default</h2>
     <p>Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/en/privacy">privacy policy</a>.</p>
 
@@ -179,9 +239,53 @@
     
 
     <p style="text-align:center;margin:32px 0">
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">Download on the App Store</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-private-glp1-tracker-en" class="btn btn-primary">Download on the App Store</a>
       
     </p>
+
+
+    <h2>Questions</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Is there an account?</h3>
+        
+        <p>No. There is nothing to sign up for and nothing to sign in to. The app opens straight into your own data.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>What is collected, exactly?</h3>
+        
+        <p>Anonymous usage statistics — which screens are used, whether something crashed — with no medication name, no symptom and no weight in them. The privacy policy lists what is sent and what never is.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Can I get my data out?</h3>
+        
+        <p>Yes. Backup writes an encrypted, password-protected file to your device, which you keep and restore from wherever you keep it.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>What happens if I delete the app?</h3>
+        
+        <p>Your records go with it. There is no copy on a server to come back later, which is the point and also the reason to take a backup first.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Is the data encrypted on the phone?</h3>
+        
+        <p>It is stored in the app's own database inside iOS's app sandbox, and backup files are encrypted with the password you set.</p>
+        
+      </div>
+    </div>
+
+    <h2>Read next</h2>
+    <p>Guides, with their sources named: <a href="/en/articles/what-is-glp1">what GLP-1 actually is</a>, <a href="/en/articles/glp1-injection-sites">where to inject and how to rotate</a> and <a href="/en/articles/glp1-side-effects">managing common side effects</a>.</p>
+    <p>Elsewhere in Dozify: <a href="/en/switch-glp1-tracker-app">importing from another app</a> and <a href="/en/glp1-appointment-report">the doctor report</a>.</p>
+
+    
+    
+    
 
     <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

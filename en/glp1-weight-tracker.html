@@ -78,7 +78,10 @@
         "inLanguage": "en"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/en/glp1-weight-tracker#webpage",
         "url": "https://dozify.app/en/glp1-weight-tracker",
         "name": "GLP-1 Weight Tracker — Weight and Dose Together",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/en/glp1-weight-tracker#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does it read my weight from Apple Health?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kilograms or pounds?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the projection tell me when I will reach my goal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I log measurements as well?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does my weight leave the phone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Your weight and your doses on one line",
+            "name": "Weight trend",
             "item": "https://dozify.app/en/glp1-weight-tracker"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/en" class="back-link">← Back to home</a>
-    
+    <div class="breadcrumb">
+      <a href="/en">Home</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Weight trend</span>
+      
+    </div>
     <h1>Your weight and your doses on one line</h1>
     
     <p class="meta">Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.</p>
@@ -172,6 +219,19 @@
       
     </div>
 
+
+    <h2>Who this helps</h2>
+    <p>People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.</p>
+
+    
+    
+
+    <h2>Where it stops</h2>
+    <p>The projection is arithmetic on the entries you have made — it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.</p>
+
+    
+    
+
     <h2>Private by default</h2>
     <p>Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/en/privacy">privacy policy</a>.</p>
 
@@ -179,9 +239,53 @@
     
 
     <p style="text-align:center;margin:32px 0">
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">Download on the App Store</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-glp1-weight-tracker-en" class="btn btn-primary">Download on the App Store</a>
       
     </p>
+
+
+    <h2>Questions</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Does it read my weight from Apple Health?</h3>
+        
+        <p>On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Kilograms or pounds?</h3>
+        
+        <p>Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Does the projection tell me when I will reach my goal?</h3>
+        
+        <p>It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Can I log measurements as well?</h3>
+        
+        <p>Yes — waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Does my weight leave the phone?</h3>
+        
+        <p>No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.</p>
+        
+      </div>
+    </div>
+
+    <h2>Read next</h2>
+    <p>Guides, with their sources named: <a href="/en/articles/what-is-glp1">what GLP-1 actually is</a>, <a href="/en/articles/glp1-side-effects">managing common side effects</a> and <a href="/en/articles/how-to-inject-glp1">how to inject a pen, step by step</a>.</p>
+    <p>Elsewhere in Dozify: <a href="/en/glp1-appointment-report">the doctor report</a> and <a href="/en/glp1-shot-tracker">the shot tracker</a>.</p>
+
+    
+    
+    
 
     <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

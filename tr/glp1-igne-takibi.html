@@ -78,7 +78,10 @@
         "inLanguage": "tr"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/tr/glp1-igne-takibi#webpage",
         "url": "https://dozify.app/tr/glp1-igne-takibi",
         "name": "GLP-1 İğne Takibi — Doz Gününü Bir Daha Kaçırma",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/tr/glp1-igne-takibi#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hatırlatıcıyı başladığım günden başka bir güne kurabilir miyim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Program sizin belirlediğiniz ve değiştirebildiğiniz bir şey — haftanın herhangi bir günü, günlük, birkaç günde bir ya da belirli tarihler. Değiştirmeniz daha önce kaydettiğiniz dozları yeniden yazmaz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Bir gün geç yaparsam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gerçekleştiği güne kaydedin; kayıt verdiğiniz tarih ve saati alır. Dozify planlanan aralığı varsaymak yerine gerçekten oluşan aralığı gösterir. Geç kalan ya da kaçan bir dozda ne yapılacağı reçeteyi yazan hekimin sorusudur, uygulama onu cevaplamaz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Telefon çevrimdışıyken hatırlatıcılar çalışır mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Cihaz üzerinde planlanırlar; birinin gelmesi için bağlantı gerekmez. Ancak Dozify için bildirim izninin açık olması gerekir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Birden fazla ilaç takip edebilir miyim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet, ihtiyacınız kadar; her biri kendi programı ve doz miktarıyla. Kaydedilen her enjeksiyon bunlardan birine ait olur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Uygulama sıradaki doz miktarımı söyler mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hayır. O ilaç için sizin girdiğiniz dozu ve ne zaman geldiğini gösterir. Doktorunuz miktarı değiştirirse uygulamada siz değiştirirsiniz — Dozify asla titrasyon önermez."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "İğne günün hiç aklını kurcalamasın",
+            "name": "İğne takibi",
             "item": "https://dozify.app/tr/glp1-igne-takibi"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    
-    <a href="/tr" class="back-link">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      
+      <a href="/tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      
+      <span>İğne takibi</span>
+    </div>
     
     <h1>İğne günün hiç aklını kurcalamasın</h1>
     
@@ -172,6 +219,19 @@
       <figure class="shot"><div class="device"><img src="/screenshots/tr/01-home.webp" width="750" height="1630" loading="lazy" alt="İğne günün hiç aklını kurcalamasın"></div></figure>
     </div>
 
+
+    
+    
+
+    <h2>Kimin işine yarar</h2>
+    <p>Haftası bir öncekiyle aynı olmayan herkes. Haftalık bir ilaç sabit bir perşembe varsayar; seyahat, vardiya, bir hastane randevusu ya da tek bir geç kalınan gece bunu kaydırır. Bir de mutfakta durup salının bu hafta mı geçen hafta mı olduğunu çıkarmaya çalışan kişi için: kayıt bunu hatırlamaya çalışarak değil, tek bakışta cevaplıyor.</p>
+
+    
+    
+
+    <h2>Nerede duruyor</h2>
+    <p>Dozify programınıza, dozunuza ya da kaçırdığınız bir doza ne yapılacağına karar vermez — bunlar reçeteyi yazan hekimin işidir; uygulama planı önermez, kaydeder. Hatırlatıcı bir iOS bildirimidir: Dozify için bildirimler kapalıysa ya da telefon onları susturan bir odak modundaysa görünmez. Kayıt da vücudunuza ne girdiğinin kanıtı değil, sizin girdiğinizin kaydıdır.</p>
+
     
     
 
@@ -180,8 +240,52 @@
 
     <p style="text-align:center;margin:32px 0">
       
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">App Store'dan indir</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-glp1-shot-tracker-tr" class="btn btn-primary">App Store'dan indir</a>
     </p>
+
+
+    
+    <h2>Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        
+        <h3>Hatırlatıcıyı başladığım günden başka bir güne kurabilir miyim?</h3>
+        
+        <p>Evet. Program sizin belirlediğiniz ve değiştirebildiğiniz bir şey — haftanın herhangi bir günü, günlük, birkaç günde bir ya da belirli tarihler. Değiştirmeniz daha önce kaydettiğiniz dozları yeniden yazmaz.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Bir gün geç yaparsam?</h3>
+        
+        <p>Gerçekleştiği güne kaydedin; kayıt verdiğiniz tarih ve saati alır. Dozify planlanan aralığı varsaymak yerine gerçekten oluşan aralığı gösterir. Geç kalan ya da kaçan bir dozda ne yapılacağı reçeteyi yazan hekimin sorusudur, uygulama onu cevaplamaz.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Telefon çevrimdışıyken hatırlatıcılar çalışır mı?</h3>
+        
+        <p>Evet. Cihaz üzerinde planlanırlar; birinin gelmesi için bağlantı gerekmez. Ancak Dozify için bildirim izninin açık olması gerekir.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Birden fazla ilaç takip edebilir miyim?</h3>
+        
+        <p>Evet, ihtiyacınız kadar; her biri kendi programı ve doz miktarıyla. Kaydedilen her enjeksiyon bunlardan birine ait olur.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Uygulama sıradaki doz miktarımı söyler mi?</h3>
+        
+        <p>Hayır. O ilaç için sizin girdiğiniz dozu ve ne zaman geldiğini gösterir. Doktorunuz miktarı değiştirirse uygulamada siz değiştirirsiniz — Dozify asla titrasyon önermez.</p>
+      </div>
+    </div>
+
+    
+    
+    
+
+    <h2>Sonra şunlar</h2>
+    <p>Kaynağı yazılı rehberler: <a href="/tr/makaleler/glp1-nasil-yapilir">kalemin adım adım nasıl yapıldığı</a>, <a href="/tr/makaleler/glp1-enjeksiyon-bolgeleri">nereye yapılır, rotasyon nasıl olur</a> ve <a href="/tr/makaleler/glp1-nedir">GLP-1'in aslında ne olduğu</a>.</p>
+    <p>Dozify'ın diğer yanları: <a href="/tr/enjeksiyon-bolgesi-takibi">bölge rotasyonu</a>, <a href="/tr/flakon-takibi">flakon takibi</a> ve <a href="/tr/doktor-raporu">doktor raporu</a>.</p>
 
     
 

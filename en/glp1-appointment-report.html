@@ -78,7 +78,10 @@
         "inLanguage": "en"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/en/glp1-appointment-report#webpage",
         "url": "https://dozify.app/en/glp1-appointment-report",
         "name": "GLP-1 Doctor Report — Walk In With a Summary",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/en/glp1-appointment-report#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is in the report?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down — over the range you pick."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which date ranges can I choose?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I leave sections out?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I send it before the appointment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The PDF is a file on your phone. Print it, email it, put it in a portal — that is your decision, made after you have seen it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is anything uploaded to make it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Walk in with a summary, not a memory",
+            "name": "Doctor report",
             "item": "https://dozify.app/en/glp1-appointment-report"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/en" class="back-link">← Back to home</a>
-    
+    <div class="breadcrumb">
+      <a href="/en">Home</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Doctor report</span>
+      
+    </div>
     <h1>Walk in with a summary, not a memory</h1>
     
     <p class="meta">One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.</p>
@@ -172,6 +219,19 @@
       
     </div>
 
+
+    <h2>Who this helps</h2>
+    <p>People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.</p>
+
+    
+    
+
+    <h2>Where it stops</h2>
+    <p>The report is your record laid out clearly. It is not a clinical assessment, it contains no interpretation, and nothing in it should be read as a recommendation — the reading is your doctor's. It also only contains what you logged: a week you did not record is a gap in the report, not a week without doses.</p>
+
+    
+    
+
     <h2>Private by default</h2>
     <p>Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/en/privacy">privacy policy</a>.</p>
 
@@ -179,9 +239,53 @@
     
 
     <p style="text-align:center;margin:32px 0">
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">Download on the App Store</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-glp1-appointment-report-en" class="btn btn-primary">Download on the App Store</a>
       
     </p>
+
+
+    <h2>Questions</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>What is in the report?</h3>
+        
+        <p>Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down — over the range you pick.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Which date ranges can I choose?</h3>
+        
+        <p>30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Can I leave sections out?</h3>
+        
+        <p>Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Can I send it before the appointment?</h3>
+        
+        <p>The PDF is a file on your phone. Print it, email it, put it in a portal — that is your decision, made after you have seen it.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Is anything uploaded to make it?</h3>
+        
+        <p>No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.</p>
+        
+      </div>
+    </div>
+
+    <h2>Read next</h2>
+    <p>Guides, with their sources named: <a href="/en/articles/glp1-side-effects">managing common side effects</a>, <a href="/en/articles/what-is-glp1">what GLP-1 actually is</a> and <a href="/en/articles/glp1-injection-sites">where to inject and how to rotate</a>.</p>
+    <p>Elsewhere in Dozify: <a href="/en/glp1-side-effect-journal">the side-effect journal</a> and <a href="/en/glp1-weight-tracker">the weight trend</a>.</p>
+
+    
+    
+    
 
     <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

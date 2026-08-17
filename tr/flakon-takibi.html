@@ -78,7 +78,10 @@
         "inLanguage": "tr"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/tr/flakon-takibi#webpage",
         "url": "https://dozify.app/tr/flakon-takibi",
         "name": "GLP-1 Flakon Takibi — Bitmeden Haberin Olsun",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/tr/flakon-takibi#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Dozları otomatik sayıyor mu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kaydettiğiniz her enjeksiyonu, hangi flakona kaydettiyseniz ondan düşer; kalan miktar ayrı bir adım gerekmeden kendi kayıtlarınızı takip eder."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kullanım süresi nereden geliyor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O ilacın saklama talimatlarından — açıldıktan sonra ne kadar tutulabileceği ve hangi sıcaklıkta. Dozify geçerli olanı gösterir ve günleri sayar; bir sayı uydurmaz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kalem bir gün buzdolabı dışında kalırsa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ne kadar süre ve kabaca ne sıcaklıkta olduğuyla birlikte bir saklama olayı olarak kaydedin. Flakonun kaydında durur; karar verirken ya da eczacıya sorarken elinizde olur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Flakon bitmeden önce uyarır mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kartta kalan dozu ve kalan günü gösterir; bitiş, dozun geldiği akşam değil haftalar öncesinden görünür olur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Flakon gibi kalemler için de çalışır mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. İçinde birkaç doz olan bir kalem de aynı şekilde takip edilir: ne kaldı, ne zamandır açık ve ne zaman doluyor."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Flakon bitmeden bittiğini bil",
+            "name": "Flakon takibi",
             "item": "https://dozify.app/tr/flakon-takibi"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    
-    <a href="/tr" class="back-link">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      
+      <a href="/tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      
+      <span>Flakon takibi</span>
+    </div>
     
     <h1>Flakon bitmeden bittiğini bil</h1>
     
@@ -172,6 +219,19 @@
       <figure class="shot"><div class="device"><img src="/screenshots/tr/09-vials.webp" width="750" height="1630" loading="lazy" alt="Flakon bitmeden bittiğini bil"></div></figure>
     </div>
 
+
+    
+    
+
+    <h2>Kimin işine yarar</h2>
+    <p>Bir kabın birkaç haftayı karşıladığı ve bitişin sessizce geldiği çok dozlu kalem ve flakon kullananlar. En çok da ilacıyla seyahat edenler ya da bir pazar günü açık buzdolabının önünde durup içindekinin hâlâ iyi olup olmadığını düşünenler için.</p>
+
+    
+    
+
+    <h2>Nerede duruyor</h2>
+    <p>Dozify kendisine söylediklerinizi sayar: çekilen dozlar, flakonu açtığınız gün ve üstünde yazan son kullanma tarihi. Sıvıyı göremez; dolayısıyla belirli bir flakonun hâlâ kullanılabilir olup olmadığını söyleyemez — bu karar ilacınızın saklama talimatlarına ve şüphe varsa eczacınıza aittir. Gösterdiği kullanım süreleri o talimatlardan gelir, bizden değil.</p>
+
     
     
 
@@ -180,8 +240,52 @@
 
     <p style="text-align:center;margin:32px 0">
       
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">App Store'dan indir</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-glp1-vial-tracker-tr" class="btn btn-primary">App Store'dan indir</a>
     </p>
+
+
+    
+    <h2>Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        
+        <h3>Dozları otomatik sayıyor mu?</h3>
+        
+        <p>Kaydettiğiniz her enjeksiyonu, hangi flakona kaydettiyseniz ondan düşer; kalan miktar ayrı bir adım gerekmeden kendi kayıtlarınızı takip eder.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Kullanım süresi nereden geliyor?</h3>
+        
+        <p>O ilacın saklama talimatlarından — açıldıktan sonra ne kadar tutulabileceği ve hangi sıcaklıkta. Dozify geçerli olanı gösterir ve günleri sayar; bir sayı uydurmaz.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Kalem bir gün buzdolabı dışında kalırsa?</h3>
+        
+        <p>Ne kadar süre ve kabaca ne sıcaklıkta olduğuyla birlikte bir saklama olayı olarak kaydedin. Flakonun kaydında durur; karar verirken ya da eczacıya sorarken elinizde olur.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Flakon bitmeden önce uyarır mı?</h3>
+        
+        <p>Kartta kalan dozu ve kalan günü gösterir; bitiş, dozun geldiği akşam değil haftalar öncesinden görünür olur.</p>
+      </div>
+      <div class="faq-item">
+        
+        <h3>Flakon gibi kalemler için de çalışır mı?</h3>
+        
+        <p>Evet. İçinde birkaç doz olan bir kalem de aynı şekilde takip edilir: ne kaldı, ne zamandır açık ve ne zaman doluyor.</p>
+      </div>
+    </div>
+
+    
+    
+    
+
+    <h2>Sonra şunlar</h2>
+    <p>Kaynağı yazılı rehberler: <a href="/tr/makaleler/glp1-nasil-yapilir">kalemin adım adım nasıl yapıldığı</a>, <a href="/tr/makaleler/glp1-enjeksiyon-bolgeleri">nereye yapılır, rotasyon nasıl olur</a> ve <a href="/tr/makaleler/glp1-nedir">GLP-1'in aslında ne olduğu</a>.</p>
+    <p>Dozify'ın diğer yanları: <a href="/tr/glp1-igne-takibi">iğne takibi</a> ve <a href="/tr/doktor-raporu">doktor raporu</a>.</p>
 
     
 

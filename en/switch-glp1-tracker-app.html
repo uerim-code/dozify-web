@@ -78,7 +78,10 @@
         "inLanguage": "en"
       },
       {
-        "@type": "WebPage",
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
         "@id": "https://dozify.app/en/switch-glp1-tracker-app#webpage",
         "url": "https://dozify.app/en/switch-glp1-tracker-app",
         "name": "Switch to Dozify — Import Your GLP-1 History",
@@ -90,9 +93,48 @@
         "breadcrumb": {
           "@id": "https://dozify.app/en/switch-glp1-tracker-app#breadcrumb"
         },
-        "mainEntity": {
-          "@id": "https://dozify.app/#app"
-        }
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which apps can I import from?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Shotsy, Glapp, GLPzy and GlucoPal exports are recognised, along with Dozify's own backup files and any CSV that has a date column."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "My app is not on the list. Now what?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Export a CSV from it and try that — a date column is the only requirement. If the file is not recognised, Dozify tells you instead of importing nothing quietly, and you can send it to us from Settings → Suggest a feature."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will importing twice duplicate everything?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Records matching something already in Dozify are counted as duplicates and skipped, so running the same file again is safe."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens if the import fails halfway?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It cannot. The write is one transaction: it either completes or is rolled back, and an automatic backup is taken immediately before it starts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the file go anywhere?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It is read on your phone. There is no account and no server involved in an import."
+            }
+          }
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -107,7 +149,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Bring your history with you",
+            "name": "Switching",
             "item": "https://dozify.app/en/switch-glp1-tracker-app"
           }
         ]
@@ -138,8 +180,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/en" class="back-link">← Back to home</a>
-    
+    <div class="breadcrumb">
+      <a href="/en">Home</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Switching</span>
+      
+    </div>
     <h1>Bring your history with you</h1>
     
     <p class="meta">Import from Shotsy, Glapp, GLPzy, GlucoPal or a plain CSV. You see exactly what is about to happen before anything is written — and it is free.</p>
@@ -196,6 +243,19 @@
     
     
 
+
+    <h2>Who this helps</h2>
+    <p>People leaving Shotsy, Glapp, GLPzy or GlucoPal, and anyone whose current app can produce a CSV. It is written for the specific moment where the history is the only thing keeping someone in an app they have stopped liking.</p>
+
+    
+    
+
+    <h2>Where it stops</h2>
+    <p>Weights, injections and side effects come across. Vials, progress photos and check-ins do not — either the other app has no equivalent or the mapping would be a guess, and a guessed record in a medical log is worse than a missing one. Rows Dozify cannot read are reported back to you as unread rather than silently dropped, and a medication has to exist in Dozify before injections can be attached to it.</p>
+
+    
+    
+
     <h2>Private by default</h2>
     <p>Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/en/privacy">privacy policy</a>.</p>
 
@@ -203,9 +263,53 @@
     
 
     <p style="text-align:center;margin:32px 0">
-      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary">Download on the App Store</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653?ct=web-switch-glp1-tracker-app-en" class="btn btn-primary">Download on the App Store</a>
       
     </p>
+
+
+    <h2>Questions</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Which apps can I import from?</h3>
+        
+        <p>Shotsy, Glapp, GLPzy and GlucoPal exports are recognised, along with Dozify's own backup files and any CSV that has a date column.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>My app is not on the list. Now what?</h3>
+        
+        <p>Export a CSV from it and try that — a date column is the only requirement. If the file is not recognised, Dozify tells you instead of importing nothing quietly, and you can send it to us from Settings → Suggest a feature.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Will importing twice duplicate everything?</h3>
+        
+        <p>No. Records matching something already in Dozify are counted as duplicates and skipped, so running the same file again is safe.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>What happens if the import fails halfway?</h3>
+        
+        <p>It cannot. The write is one transaction: it either completes or is rolled back, and an automatic backup is taken immediately before it starts.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Does the file go anywhere?</h3>
+        
+        <p>No. It is read on your phone. There is no account and no server involved in an import.</p>
+        
+      </div>
+    </div>
+
+    <h2>Read next</h2>
+    <p>Guides, with their sources named: <a href="/en/articles/what-is-glp1">what GLP-1 actually is</a>, <a href="/en/articles/glp1-injection-sites">where to inject and how to rotate</a> and <a href="/en/articles/how-to-inject-glp1">how to inject a pen, step by step</a>.</p>
+    <p>Elsewhere in Dozify: <a href="/en/glp1-shot-tracker">the shot tracker</a> and <a href="/en/private-glp1-tracker">how privacy works here</a>.</p>
+
+    
+    
+    
 
     <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Shotsy, Glapp, GLPzy and GlucoPal are trademarks of their respective owners and are named here only to describe file formats Dozify can read; Dozify is not affiliated with them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

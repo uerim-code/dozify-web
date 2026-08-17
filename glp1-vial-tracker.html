@@ -32,8 +32,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/" class="back-link" data-lang="en">← Back to home</a>
-    <a href="/" class="back-link" data-lang="tr">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      <a href="/" data-lang="en">Home</a>
+      <a href="/" data-lang="tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      <span data-lang="en">Vial tracking</span>
+      <span data-lang="tr">Flakon takibi</span>
+    </div>
     <h1 data-lang="en">Know when the vial runs out before it does</h1>
     <h1 data-lang="tr">Flakon bitmeden bittiğini bil</h1>
     <p class="meta" data-lang="en">Remaining volume, doses left, and the expiry date — on one card, before the weekend the pharmacy is closed.</p>
@@ -66,6 +71,19 @@
       <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/09-vials.webp" width="750" height="1630" loading="lazy" alt="Flakon bitmeden bittiğini bil"></div></figure>
     </div>
 
+
+    <h2 data-lang="en">Who this helps</h2>
+    <p data-lang="en">People on multi-dose pens and vials, where one container covers several weeks and the end of it arrives quietly. It matters most to anyone who travels with their medication, or who has stood in front of an open fridge on a Sunday wondering whether what is in there is still good.</p>
+
+    <h2 data-lang="tr">Kimin işine yarar</h2>
+    <p data-lang="tr">Bir kabın birkaç haftayı karşıladığı ve bitişin sessizce geldiği çok dozlu kalem ve flakon kullananlar. En çok da ilacıyla seyahat edenler ya da bir pazar günü açık buzdolabının önünde durup içindekinin hâlâ iyi olup olmadığını düşünenler için.</p>
+
+    <h2 data-lang="en">Where it stops</h2>
+    <p data-lang="en">Dozify counts what you tell it: doses drawn, the day you opened the vial and the expiry printed on it. It cannot see the liquid, so it cannot tell you whether a particular vial is still fit to use — that judgement belongs to the storage instructions for your medication and, when there is any doubt, to your pharmacist. The in-use limits it shows come from those instructions, not from us.</p>
+
+    <h2 data-lang="tr">Nerede duruyor</h2>
+    <p data-lang="tr">Dozify kendisine söylediklerinizi sayar: çekilen dozlar, flakonu açtığınız gün ve üstünde yazan son kullanma tarihi. Sıvıyı göremez; dolayısıyla belirli bir flakonun hâlâ kullanılabilir olup olmadığını söyleyemez — bu karar ilacınızın saklama talimatlarına ve şüphe varsa eczacınıza aittir. Gösterdiği kullanım süreleri o talimatlardan gelir, bizden değil.</p>
+
     <h2 data-lang="en">Private by default</h2>
     <p data-lang="en">Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/privacy">privacy policy</a>.</p>
 
@@ -76,6 +94,50 @@
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="en">Download on the App Store</a>
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
     </p>
+
+
+    <h2 data-lang="en">Questions</h2>
+    <h2 data-lang="tr">Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 data-lang="en">Does it count doses automatically?</h3>
+        <h3 data-lang="tr">Dozları otomatik sayıyor mu?</h3>
+        <p data-lang="en">It subtracts each injection you log from the vial you logged it against, so the remaining amount follows your own entries without a separate step.</p>
+        <p data-lang="tr">Kaydettiğiniz her enjeksiyonu, hangi flakona kaydettiyseniz ondan düşer; kalan miktar ayrı bir adım gerekmeden kendi kayıtlarınızı takip eder.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Where does the in-use limit come from?</h3>
+        <h3 data-lang="tr">Kullanım süresi nereden geliyor?</h3>
+        <p data-lang="en">From the storage instructions for that medication — how long it may be kept once opened, and at what temperature. Dozify shows the one that applies and counts the days; it does not invent a number.</p>
+        <p data-lang="tr">O ilacın saklama talimatlarından — açıldıktan sonra ne kadar tutulabileceği ve hangi sıcaklıkta. Dozify geçerli olanı gösterir ve günleri sayar; bir sayı uydurmaz.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">What if the pen spends a day out of the fridge?</h3>
+        <h3 data-lang="tr">Kalem bir gün buzdolabı dışında kalırsa?</h3>
+        <p data-lang="en">Log it as a storage event, with how long and roughly how warm. It stays on the vial's record so it is there when you decide, or when you ask a pharmacist.</p>
+        <p data-lang="tr">Ne kadar süre ve kabaca ne sıcaklıkta olduğuyla birlikte bir saklama olayı olarak kaydedin. Flakonun kaydında durur; karar verirken ya da eczacıya sorarken elinizde olur.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Will it warn me before a vial runs out?</h3>
+        <h3 data-lang="tr">Flakon bitmeden önce uyarır mı?</h3>
+        <p data-lang="en">It shows doses remaining and days remaining on the card, so the end is visible weeks ahead rather than the evening a dose is due.</p>
+        <p data-lang="tr">Kartta kalan dozu ve kalan günü gösterir; bitiş, dozun geldiği akşam değil haftalar öncesinden görünür olur.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Does this work for pens as well as vials?</h3>
+        <h3 data-lang="tr">Flakon gibi kalemler için de çalışır mı?</h3>
+        <p data-lang="en">Yes. A pen with several doses in it is tracked the same way: what is left, how long it has been open, and when it expires.</p>
+        <p data-lang="tr">Evet. İçinde birkaç doz olan bir kalem de aynı şekilde takip edilir: ne kaldı, ne zamandır açık ve ne zaman doluyor.</p>
+      </div>
+    </div>
+
+    <h2 data-lang="en">Read next</h2>
+    <p data-lang="en">Guides, with their sources named: <a href="/articles/how-to-inject-glp1">how to inject a pen, step by step</a>, <a href="/articles/glp1-injection-sites">where to inject and how to rotate</a> and <a href="/articles/what-is-glp1">what GLP-1 actually is</a>.</p>
+    <p data-lang="en">Elsewhere in Dozify: <a href="/glp1-shot-tracker">the shot tracker</a> and <a href="/glp1-appointment-report">the doctor report</a>.</p>
+
+    <h2 data-lang="tr">Sonra şunlar</h2>
+    <p data-lang="tr">Kaynağı yazılı rehberler: <a href="/articles/how-to-inject-glp1">kalemin adım adım nasıl yapıldığı</a>, <a href="/articles/glp1-injection-sites">nereye yapılır, rotasyon nasıl olur</a> ve <a href="/articles/what-is-glp1">GLP-1'in aslında ne olduğu</a>.</p>
+    <p data-lang="tr">Dozify'ın diğer yanları: <a href="/glp1-shot-tracker">iğne takibi</a> ve <a href="/glp1-appointment-report">doktor raporu</a>.</p>
 
     <p class="meta" data-lang="en">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

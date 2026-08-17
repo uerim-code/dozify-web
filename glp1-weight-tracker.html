@@ -32,8 +32,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/" class="back-link" data-lang="en">← Back to home</a>
-    <a href="/" class="back-link" data-lang="tr">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      <a href="/" data-lang="en">Home</a>
+      <a href="/" data-lang="tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      <span data-lang="en">Weight trend</span>
+      <span data-lang="tr">Kilo trendi</span>
+    </div>
     <h1 data-lang="en">Your weight and your doses on one line</h1>
     <h1 data-lang="tr">Kilon ve dozların aynı çizgide</h1>
     <p class="meta" data-lang="en">Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.</p>
@@ -66,6 +71,19 @@
       <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/03-charts.webp" width="750" height="1630" loading="lazy" alt="Kilon ve dozların aynı çizgide"></div></figure>
     </div>
 
+
+    <h2 data-lang="en">Who this helps</h2>
+    <p data-lang="en">People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.</p>
+
+    <h2 data-lang="tr">Kimin işine yarar</h2>
+    <p data-lang="tr">Bu sabahki rakamı değil birkaç ayın şeklini görmek isteyenler ve kilosu zaten tartıdan Apple Health'e yazılanlar. Bir de randevuda "son doz değişikliğinden bu yana kilo nasıl gitti" diye sorulduğunda tahmin etmek zorunda kalmış olan herkes için.</p>
+
+    <h2 data-lang="en">Where it stops</h2>
+    <p data-lang="en">The projection is arithmetic on the entries you have made — it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.</p>
+
+    <h2 data-lang="tr">Nerede duruyor</h2>
+    <p data-lang="tr">Projeksiyon, girdiğiniz kayıtlar üzerinde yapılan bir hesaptır — kendi rakamlarınızın yaptığını uzatır, fazlası değil. Vücudunuzun ne yapacağının tahmini değildir; doz değişikliğini, bir hastalığı ya da bir tatili hesaba katmaz ve kimsenin size koyduğu bir hedef değildir. Dozify kilo, kilo verme hızı ya da diyet önermez.</p>
+
     <h2 data-lang="en">Private by default</h2>
     <p data-lang="en">Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/privacy">privacy policy</a>.</p>
 
@@ -76,6 +94,50 @@
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="en">Download on the App Store</a>
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
     </p>
+
+
+    <h2 data-lang="en">Questions</h2>
+    <h2 data-lang="tr">Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 data-lang="en">Does it read my weight from Apple Health?</h3>
+        <h3 data-lang="tr">Kilomu Apple Health'ten okuyor mu?</h3>
+        <p data-lang="en">On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.</p>
+        <p data-lang="tr">iPhone'da evet. Tartınız ya da başka bir uygulama kiloyu Health'e yazıyorsa Dozify oradan okur, siz bir şey yazmazsınız. Elle de girebilirsiniz.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Kilograms or pounds?</h3>
+        <h3 data-lang="tr">Kilogram mı, pound mu?</h3>
+        <p data-lang="en">Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.</p>
+        <p data-lang="tr">İkisi de. Birim bir ayardır; değiştirmek mevcut kayıtları yeniden yorumlamaz, dönüştürür.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Does the projection tell me when I will reach my goal?</h3>
+        <h3 data-lang="tr">Projeksiyon hedefime ne zaman ulaşacağımı söyler mi?</h3>
+        <p data-lang="en">It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.</p>
+        <p data-lang="tr">Kendi kayıtlarınızdaki eğilim hiç değişmeden sürseydi ne zaman ulaşacağınızı söyler. Vücutlar böyle çalışmaz ve uygulama bu tarihi bir plan gibi sunmak yerine bunu ekranda yazar.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Can I log measurements as well?</h3>
+        <h3 data-lang="tr">Ölçüleri de kaydedebilir miyim?</h3>
+        <p data-lang="en">Yes — waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.</p>
+        <p data-lang="tr">Evet — bel, kalça ve diğerleri, kiloyla aynı zaman çizelgesinde; tartının mezuradan daha az kımıldadığı aylar için.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Does my weight leave the phone?</h3>
+        <h3 data-lang="tr">Kilom telefondan çıkıyor mu?</h3>
+        <p data-lang="en">No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.</p>
+        <p data-lang="tr">Hayır. Diğer kayıtlarınız gibi cihazda saklanır. Apple Health'ten okuma telefonda olur; hiçbir şey yüklenmez.</p>
+      </div>
+    </div>
+
+    <h2 data-lang="en">Read next</h2>
+    <p data-lang="en">Guides, with their sources named: <a href="/articles/what-is-glp1">what GLP-1 actually is</a>, <a href="/articles/glp1-side-effects">managing common side effects</a> and <a href="/articles/how-to-inject-glp1">how to inject a pen, step by step</a>.</p>
+    <p data-lang="en">Elsewhere in Dozify: <a href="/glp1-appointment-report">the doctor report</a> and <a href="/glp1-shot-tracker">the shot tracker</a>.</p>
+
+    <h2 data-lang="tr">Sonra şunlar</h2>
+    <p data-lang="tr">Kaynağı yazılı rehberler: <a href="/articles/what-is-glp1">GLP-1'in aslında ne olduğu</a>, <a href="/articles/glp1-side-effects">yaygın yan etkilerle baş etmek</a> ve <a href="/articles/how-to-inject-glp1">kalemin adım adım nasıl yapıldığı</a>.</p>
+    <p data-lang="tr">Dozify'ın diğer yanları: <a href="/glp1-appointment-report">doktor raporu</a> ve <a href="/glp1-shot-tracker">iğne takibi</a>.</p>
 
     <p class="meta" data-lang="en">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 

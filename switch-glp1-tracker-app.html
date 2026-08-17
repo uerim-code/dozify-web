@@ -33,8 +33,13 @@
   </header>
 
   <main class="legal-page">
-    <a href="/" class="back-link" data-lang="en">← Back to home</a>
-    <a href="/" class="back-link" data-lang="tr">← Ana sayfaya dön</a>
+    <div class="breadcrumb">
+      <a href="/" data-lang="en">Home</a>
+      <a href="/" data-lang="tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      <span data-lang="en">Switching</span>
+      <span data-lang="tr">Geçiş</span>
+    </div>
     <h1 data-lang="en">Bring your history with you</h1>
     <h1 data-lang="tr">Geçmişini yanında getir</h1>
     <p class="meta" data-lang="en">Import from Shotsy, Glapp, GLPzy, GlucoPal or a plain CSV. You see exactly what is about to happen before anything is written — and it is free.</p>
@@ -91,6 +96,19 @@
     <h2 data-lang="tr">Dosya tanınmazsa</h2>
     <p data-lang="tr">Dozify sessizce sıfır satır aktarmak yerine bunu açıkça söyler. Tarih sütunu olan her CSV okunur; seninki okunmuyorsa Ayarlar → Özellik öner üzerinden bize gönder, biçim eklensin — okuyamadığımız bir dosya bizim eksiğimizdir, senin değil.</p>
 
+
+    <h2 data-lang="en">Who this helps</h2>
+    <p data-lang="en">People leaving Shotsy, Glapp, GLPzy or GlucoPal, and anyone whose current app can produce a CSV. It is written for the specific moment where the history is the only thing keeping someone in an app they have stopped liking.</p>
+
+    <h2 data-lang="tr">Kimin işine yarar</h2>
+    <p data-lang="tr">Shotsy, Glapp, GLPzy ya da GlucoPal'dan ayrılanlar ve mevcut uygulaması CSV üretebilen herkes. Tam da geçmişin, kişiyi artık sevmediği bir uygulamada tutan tek şey olduğu an için yazıldı.</p>
+
+    <h2 data-lang="en">Where it stops</h2>
+    <p data-lang="en">Weights, injections and side effects come across. Vials, progress photos and check-ins do not — either the other app has no equivalent or the mapping would be a guess, and a guessed record in a medical log is worse than a missing one. Rows Dozify cannot read are reported back to you as unread rather than silently dropped, and a medication has to exist in Dozify before injections can be attached to it.</p>
+
+    <h2 data-lang="tr">Nerede duruyor</h2>
+    <p data-lang="tr">Kilolar, enjeksiyonlar ve yan etkiler aktarılır. Flakonlar, ilerleme fotoğrafları ve check-in'ler aktarılmaz — ya diğer uygulamada karşılığı yoktur ya da eşleştirme tahmin olur; tıbbi bir kayıtta tahmin edilmiş bir kayıt, eksik olandan kötüdür. Dozify'ın okuyamadığı satırlar sessizce düşürülmez, okunamadı diye size bildirilir; enjeksiyonların bağlanabilmesi için de Dozify'da önce bir ilaç bulunmalıdır.</p>
+
     <h2 data-lang="en">Private by default</h2>
     <p data-lang="en">Your health records stay on your device and are never uploaded. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom — details in the <a href="/privacy">privacy policy</a>.</p>
 
@@ -101,6 +119,50 @@
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="en">Download on the App Store</a>
       <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
     </p>
+
+
+    <h2 data-lang="en">Questions</h2>
+    <h2 data-lang="tr">Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 data-lang="en">Which apps can I import from?</h3>
+        <h3 data-lang="tr">Hangi uygulamalardan aktarabilirim?</h3>
+        <p data-lang="en">Shotsy, Glapp, GLPzy and GlucoPal exports are recognised, along with Dozify's own backup files and any CSV that has a date column.</p>
+        <p data-lang="tr">Shotsy, Glapp, GLPzy ve GlucoPal dışa aktarımları tanınır; Dozify'ın kendi yedek dosyaları ve tarih sütunu olan her CSV de öyle.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">My app is not on the list. Now what?</h3>
+        <h3 data-lang="tr">Uygulamam listede yok. Şimdi ne olacak?</h3>
+        <p data-lang="en">Export a CSV from it and try that — a date column is the only requirement. If the file is not recognised, Dozify tells you instead of importing nothing quietly, and you can send it to us from Settings → Suggest a feature.</p>
+        <p data-lang="tr">Ondan bir CSV dışa aktarıp deneyin — tek şart bir tarih sütunu. Dosya tanınmazsa Dozify sessizce hiçbir şey aktarmak yerine bunu size söyler; Ayarlar → Özellik öner üzerinden dosyayı bize gönderebilirsiniz.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Will importing twice duplicate everything?</h3>
+        <h3 data-lang="tr">İki kez aktarırsam her şey ikilenir mi?</h3>
+        <p data-lang="en">No. Records matching something already in Dozify are counted as duplicates and skipped, so running the same file again is safe.</p>
+        <p data-lang="tr">Hayır. Dozify'da zaten olan bir şeyle eşleşen kayıtlar mükerrer sayılıp atlanır; aynı dosyayı tekrar çalıştırmak güvenlidir.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">What happens if the import fails halfway?</h3>
+        <h3 data-lang="tr">Aktarım yarıda kalırsa ne olur?</h3>
+        <p data-lang="en">It cannot. The write is one transaction: it either completes or is rolled back, and an automatic backup is taken immediately before it starts.</p>
+        <p data-lang="tr">Kalamaz. Yazma tek bir işlemdir: ya tamamlanır ya geri alınır; ayrıca başlamadan hemen önce otomatik yedek alınır.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Does the file go anywhere?</h3>
+        <h3 data-lang="tr">Dosya bir yere gidiyor mu?</h3>
+        <p data-lang="en">No. It is read on your phone. There is no account and no server involved in an import.</p>
+        <p data-lang="tr">Hayır. Telefonunuzda okunur. İçe aktarmada hesap da yok, sunucu da yok.</p>
+      </div>
+    </div>
+
+    <h2 data-lang="en">Read next</h2>
+    <p data-lang="en">Guides, with their sources named: <a href="/articles/what-is-glp1">what GLP-1 actually is</a>, <a href="/articles/glp1-injection-sites">where to inject and how to rotate</a> and <a href="/articles/how-to-inject-glp1">how to inject a pen, step by step</a>.</p>
+    <p data-lang="en">Elsewhere in Dozify: <a href="/glp1-shot-tracker">the shot tracker</a> and <a href="/private-glp1-tracker">how privacy works here</a>.</p>
+
+    <h2 data-lang="tr">Sonra şunlar</h2>
+    <p data-lang="tr">Kaynağı yazılı rehberler: <a href="/articles/what-is-glp1">GLP-1'in aslında ne olduğu</a>, <a href="/articles/glp1-injection-sites">nereye yapılır, rotasyon nasıl olur</a> ve <a href="/articles/how-to-inject-glp1">kalemin adım adım nasıl yapıldığı</a>.</p>
+    <p data-lang="tr">Dozify'ın diğer yanları: <a href="/glp1-shot-tracker">iğne takibi</a> ve <a href="/private-glp1-tracker">gizliliğin nasıl işlediği</a>.</p>
 
     <p class="meta" data-lang="en">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Shotsy, Glapp, GLPzy and GlucoPal are trademarks of their respective owners and are named here only to describe file formats Dozify can read; Dozify is not affiliated with them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
 
