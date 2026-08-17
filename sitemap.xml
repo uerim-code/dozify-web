@@ -1,281 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dozify.app/en/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/"/>
+    <loc>https://dozify.app/en</loc>
+    <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en"/>
   </url>
   <url>
     <loc>https://dozify.app/en/articles</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>
   </url>
   <url>
     <loc>https://dozify.app/en/articles/glp1-injection-sites</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-injection-sites"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-enjeksiyon-bolgeleri"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-injection-sites"/>
   </url>
   <url>
     <loc>https://dozify.app/en/articles/glp1-patches</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-patches"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-bantlari"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-patches"/>
   </url>
   <url>
     <loc>https://dozify.app/en/articles/glp1-side-effects</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-side-effects"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-yan-etkileri"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-side-effects"/>
   </url>
   <url>
     <loc>https://dozify.app/en/articles/how-to-inject-glp1</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/how-to-inject-glp1"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-nasil-yapilir"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/how-to-inject-glp1"/>
   </url>
   <url>
     <loc>https://dozify.app/en/articles/what-is-glp1</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/what-is-glp1"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-nedir"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/what-is-glp1"/>
   </url>
   <url>
     <loc>https://dozify.app/en/glp1-appointment-report</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-appointment-report"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/doktor-raporu"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-appointment-report"/>
   </url>
   <url>
     <loc>https://dozify.app/en/glp1-shot-tracker</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-shot-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-igne-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-shot-tracker"/>
   </url>
   <url>
     <loc>https://dozify.app/en/glp1-side-effect-journal</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-side-effect-journal"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/yan-etki-gunlugu"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-side-effect-journal"/>
   </url>
   <url>
     <loc>https://dozify.app/en/glp1-vial-tracker</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-vial-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/flakon-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-vial-tracker"/>
   </url>
   <url>
     <loc>https://dozify.app/en/glp1-weight-tracker</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-weight-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-kilo-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-weight-tracker"/>
   </url>
   <url>
     <loc>https://dozify.app/en/injection-site-tracker</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/injection-site-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/enjeksiyon-bolgesi-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/injection-site-tracker"/>
   </url>
   <url>
     <loc>https://dozify.app/en/kvkk</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/kvkk"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kvkk"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/kvkk"/>
   </url>
   <url>
     <loc>https://dozify.app/en/privacy</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/privacy"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizlilik"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/privacy"/>
   </url>
   <url>
     <loc>https://dozify.app/en/private-glp1-tracker</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/private-glp1-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizli-glp1-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/private-glp1-tracker"/>
   </url>
   <url>
     <loc>https://dozify.app/en/support</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/support"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/destek"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/support"/>
   </url>
   <url>
     <loc>https://dozify.app/en/switch-glp1-tracker-app</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/switch-glp1-tracker-app"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/baska-uygulamadan-gecis"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/switch-glp1-tracker-app"/>
   </url>
   <url>
     <loc>https://dozify.app/en/terms</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/terms"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kullanim-kosullari"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/terms"/>
   </url>
   <url>
     <loc>https://dozify.app/en/why</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/why"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/neden-dozify"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/why"/>
   </url>
   <url>
-    <loc>https://dozify.app/tr/</loc>
-    <lastmod>2026-08-17</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/"/>
+    <loc>https://dozify.app/tr</loc>
+    <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/baska-uygulamadan-gecis</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/switch-glp1-tracker-app"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/baska-uygulamadan-gecis"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/switch-glp1-tracker-app"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/destek</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/support"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/destek"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/support"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/doktor-raporu</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-appointment-report"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/doktor-raporu"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-appointment-report"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/enjeksiyon-bolgesi-takibi</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/injection-site-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/enjeksiyon-bolgesi-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/injection-site-tracker"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/flakon-takibi</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-vial-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/flakon-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-vial-tracker"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/gizli-glp1-takibi</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/private-glp1-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizli-glp1-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/private-glp1-tracker"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/gizlilik</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/privacy"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizlilik"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/privacy"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/glp1-igne-takibi</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-shot-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-igne-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-shot-tracker"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/glp1-kilo-takibi</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-weight-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-kilo-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-weight-tracker"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/kullanim-kosullari</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/terms"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kullanim-kosullari"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/terms"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/kvkk</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/kvkk"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kvkk"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/kvkk"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/glp1-bantlari</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-patches"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-bantlari"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-patches"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/glp1-enjeksiyon-bolgeleri</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-injection-sites"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-enjeksiyon-bolgeleri"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-injection-sites"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/glp1-nasil-yapilir</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/how-to-inject-glp1"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-nasil-yapilir"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/how-to-inject-glp1"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/glp1-nedir</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/what-is-glp1"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-nedir"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/what-is-glp1"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/glp1-yan-etkileri</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-side-effects"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-yan-etkileri"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-side-effects"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/neden-dozify</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/why"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/neden-dozify"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/why"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/yan-etki-gunlugu</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-side-effect-journal"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/yan-etki-gunlugu"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-side-effect-journal"/>

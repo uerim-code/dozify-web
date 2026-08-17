@@ -1,24 +1,27 @@
 # The dual-language sources the /en and /tr trees are generated from.
-# They stay in git so the build is reproducible, but serving them would
-# publish every page a second time, in the old two-H1 shape.
-articles/glp1-injection-sites.html
-articles/glp1-patches.html
-articles/glp1-side-effects.html
-articles/how-to-inject-glp1.html
-articles/index.html
-articles/what-is-glp1.html
-glp1-appointment-report.html
-glp1-shot-tracker.html
-glp1-side-effect-journal.html
-glp1-vial-tracker.html
-glp1-weight-tracker.html
-index.html
-injection-site-tracker.html
-kvkk.html
-privacy.html
-private-glp1-tracker.html
-support.html
-switch-glp1-tracker-app.html
-terms.html
-why.html
-tools/
+# Kept in git so the build is reproducible; not served, or every page
+# would exist twice, the second time in its old two-H1 shape.
+#
+# Leading slash matters: an unanchored pattern also matches the
+# generated en/ and tr/ copies and takes the whole tree down.
+/articles/glp1-injection-sites.html
+/articles/glp1-patches.html
+/articles/glp1-side-effects.html
+/articles/how-to-inject-glp1.html
+/articles/index.html
+/articles/what-is-glp1.html
+/glp1-appointment-report.html
+/glp1-shot-tracker.html
+/glp1-side-effect-journal.html
+/glp1-vial-tracker.html
+/glp1-weight-tracker.html
+/index.html
+/injection-site-tracker.html
+/kvkk.html
+/privacy.html
+/private-glp1-tracker.html
+/support.html
+/switch-glp1-tracker-app.html
+/terms.html
+/why.html
+/tools/

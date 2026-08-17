@@ -68,7 +68,10 @@ SWITCHER = {
 
 
 def url_for(lang: str, slug: str) -> str:
-    return f"{SITE}/{lang}/" if slug == "" else f"{SITE}/{lang}/{slug}"
+    # No trailing slash: vercel.json sets trailingSlash false, so /en/ 308s to
+    # /en. A canonical pointing at a URL that redirects is a hop Google has to
+    # follow to reach the page it was just told is canonical.
+    return f"{SITE}/{lang}" if slug == "" else f"{SITE}/{lang}/{slug}"
 
 
 def path_for(lang: str, slug: str) -> pathlib.Path:
@@ -85,7 +88,7 @@ def rewrite_links(html: str, lang: str) -> str:
             continue  # the bare "/" is handled below
         html = html.replace(f'href="{old}"', f'href="{new}"')
     # Home last, and only as an exact href, or it matches every path.
-    html = html.replace('href="/"', f'href="/{lang}/"')
+    html = html.replace('href="/"', f'href="/{lang}"')
     return html
 
 
