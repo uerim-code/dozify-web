@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1 Tracker for Shots, Weight & Side Effects</title>
+  <meta name="description" content="Track GLP-1 injections, rotate sites, log weight and side effects, and export a PDF for your doctor. No account, works offline, iPhone.">
+  <meta name="theme-color" content="#0D9488">
+
+  <meta property="og:title" content="GLP-1 Tracker for Shots, Weight &amp; Side Effects">
+  <meta property="og:description" content="Track GLP-1 injections, rotate sites, log weight and side effects, and export a PDF for your doctor. No account, works offline, iPhone.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dozify.app/en/">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/lang.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MobileApplication",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/",
+        "downloadUrl": "https://apps.apple.com/app/id6764325653",
+        "description": "Private GLP-1 injection & dose tracker for Ozempic, Wegovy, Mounjaro and Saxenda — log injections, rotate sites, track weight trend and vial stock, set reminders, and export doctor PDF reports. Works offline, no account.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "Organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": "https://dozify.app/og-image.png"
+      },
+      {
+        "@type": "WebSite",
+        "name": "Dozify",
+        "url": "https://dozify.app/"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="canonical" href="https://dozify.app/en/">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="tr_TR">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/en/" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#how">How it works</a>
+        
+        <a href="#features">Features</a>
+        
+        <a href="/#faq">FAQ</a>
+        
+        <a href="/en/articles">Articles</a>
+        
+        <a href="/en/support">Support</a>
+        
+      <a class="lang-switch" href="https://dozify.app/tr/" hreflang="tr" lang="tr" rel="alternate">Türkçe</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+        <img class="hero-icon" src="/favicon.svg" width="96" height="96" alt="Dozify" />
+        <span class="pill">For Ozempic · Mounjaro · Wegovy · Saxenda</span>
+        
+
+        <h1>Your GLP-1 routine, <span class="accent">on one screen.</span></h1>
+        
+
+        <p class="lede">
+          The next shot, your weight, your vial and the week so far — in one place.
+          Dozify reminds you, tracks your stock, and prepares a clean PDF report for
+          your doctor. Already tracking somewhere else? <a href="/en/switch-glp1-tracker-app">Bring your history with you.</a>
+          No accounts, no in-app ads, works offline.
+        </p>
+        
+
+        <div class="cta-row">
+          <a href="https://apps.apple.com/app/dozify/id6764325653" target="_blank" rel="noopener" class="btn btn-primary">Download on the App Store</a>
+          
+        </div>
+
+        <p class="offline-note">
+          <svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+          <span>Offline-first · Your personal data stays on your device</span>
+          
+        </p>
+        </div>
+
+        <!-- The product itself, above the fold. The page used to open on an app
+             icon and four paragraphs, which asks a visitor to take the app's
+             word for what it looks like. -->
+        <div class="hero-shot" aria-hidden="false">
+          <div class="device">
+            <img src="/screenshots/en/01-home.webp" width="750" height="1630" fetchpriority="high" decoding="async" alt="The Dozify home screen: next dose countdown, this week's injections, protein and water for the day, and current weight">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="section">
+      <div class="container">
+        <h2 class="section-title">See Dozify in action</h2>
+        
+        <p class="section-lede">A quick look at what you'll see on your phone.</p>
+        
+
+        <div class="screenshot-strip" role="group" tabindex="0" aria-label="Dozify screenshots — scroll sideways">
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/01-home.webp" width="750" height="1630" loading="lazy" decoding="async" alt="The Dozify home screen: next dose countdown, this week's injections, protein and water for the day, and current weight">
+            </div>
+            <figcaption>
+              <b>Your day, at a glance</b>
+              <span>Next dose, this week's shots, protein, water and weight — one screen.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/02-injection.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Logging an injection with a body-site map that suggests the next rotation site">
+            </div>
+            <figcaption>
+              <b>Log a shot in seconds</b>
+              <span>The body map remembers which site is next, so you don't have to.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/03-charts.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Weight trend and estimated medication-level curve on the same timeline">
+            </div>
+            <figcaption>
+              <b>Weight and dose on one line</b>
+              <span>Your weight trend next to the estimated medication level.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/09-vials.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Vial stock — remaining doses, days since opening and the expiry date">
+            </div>
+            <figcaption>
+              <b>Know before the vial runs out</b>
+              <span>Doses left, days since opening, expiry — counted for you.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/07-reports.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Building a doctor-visit report: date range, sections to include, and the questions you want to ask">
+            </div>
+            <figcaption>
+              <b>A clean PDF for your doctor</b>
+              <span>Pick a range, pick what's included, walk in with a summary.</span>
+            </figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/05-water.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Water tracking with a glass calculator and quick-add amounts">
+            </div>
+            <figcaption>
+              <b>Water, counted in glasses</b>
+              <span>Not millilitres you have to do arithmetic on.</span>
+            </figcaption>
+          </figure>
+
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+        
+        <p class="section-lede">Three steps. No setup headache.</p>
+        
+
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h3>Add your medication</h3>
+            
+            <p>Pick from Ozempic, Mounjaro, Wegovy, Saxenda, Zepbound, Trulicity, Victoza, or Rybelsus. Set your dose and weekly schedule.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h3>Log every injection</h3>
+            
+            <p>Tap to record the dose, time, and injection site on a body diagram. Smart rotation suggests your next site.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h3>Share with your doctor</h3>
+            
+            <p>Export a PDF report with your full treatment history, weight progress, and side-effect log — perfect for your next visit.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">What's inside</h2>
+        
+        <p class="section-lede">Designed for people on weekly GLP-1 medications.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0F2FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
+              </svg>
+            </div>
+            <h3>Weight trend &amp; projection</h3>
+            
+            <p>See your weight on clear charts with a time-to-goal projection based on your own data.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+              </svg>
+            </div>
+            <h3>Smart reminders</h3>
+            
+            <p>Weekly or daily reminders that match your medication's schedule.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EFF6FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.5L4 22h16l-6-12.5V2" /><path d="M8.5 2h7" />
+              </svg>
+            </div>
+            <h3>Vial stock</h3>
+            
+            <p>Open dates, expiry countdown, and remaining doses for every vial.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" />
+              </svg>
+            </div>
+            <h3>Progress charts</h3>
+            
+            <p>Weight trend, dose escalation, and side-effect patterns at a glance.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" />
+              </svg>
+            </div>
+            <h3>PDF reports</h3>
+            
+            <p>One-tap doctor-ready summaries with your full treatment timeline.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEE2E2">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.49 4.04 3 5.5l7 7Z" />
+              </svg>
+            </div>
+            <h3>Apple Health sync</h3>
+            
+            <p>On iPhone, weight is read from Apple Health automatically. Writing back is optional and off by default.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EDE9FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2" /><line x1="8" x2="16" y1="6" y2="6" /><line x1="16" x2="16" y1="14" y2="18" /><path d="M8 10h.01" /><path d="M12 10h.01" /><path d="M16 10h.01" /><path d="M8 14h.01" /><path d="M12 14h.01" /><path d="M8 18h.01" /><path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3>Built-in calculators</h3>
+            
+            <p>Unit conversion (mg ↔ mL ↔ U-100) and vial-duration estimates, free.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DBEAFE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" />
+              </svg>
+            </div>
+            <h3>Bring your history</h3>
+            
+            <p>Moving from another tracker? Dozify reads your exported file, shows you what it found, and writes it only once you approve — with a backup taken first.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="7" height="9" x="3" y="3" rx="1" /><rect width="7" height="5" x="14" y="3" rx="1" /><rect width="7" height="9" x="14" y="12" rx="1" /><rect width="7" height="5" x="3" y="16" rx="1" />
+              </svg>
+            </div>
+            <h3>A home screen you build</h3>
+            
+            <p>Reorder cards, hide the ones you do not use, bring them back whenever you like. If you do not track side effects, those fields never appear.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
+              </svg>
+            </div>
+            <h3>Any schedule, and your doctor&#39;s plan</h3>
+            
+            <p>Weekly, daily, every few days or specific dates. Save the dose schedule your clinician gave you and let the app remind you — Dozify never picks a dose itself.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DCFCE7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+            </div>
+            <h3>Education library</h3>
+            
+            <p>Source-cited guides on dosing, side effects, and injection technique.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" />
+              </svg>
+            </div>
+            <h3>Injection site rotation</h3>
+            
+            <p>A body diagram tracks each site and suggests where to inject next.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FFEDD5">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z" /><path d="m7.5 10.5 2 2" /><path d="m10.5 7.5 2 2" /><path d="m13.5 4.5 2 2" /><path d="m4.5 13.5 2 2" />
+              </svg>
+            </div>
+            <h3>Body measurements</h3>
+            
+            <p>Track waist, hip, body-fat and more — the progress the scale alone misses.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF9C3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>Milestones &amp; streaks</h3>
+            
+            <p>Daily streaks and achievement badges keep you consistent and motivated.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFCCB">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#65A30D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /><path d="M7 2v20" /><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+              </svg>
+            </div>
+            <h3>Food &amp; water log</h3>
+            
+            <p>Log meals, protein and hydration right alongside your treatment.</p>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-section">
+      <div class="container">
+        <div class="privacy-card">
+          <div class="privacy-icon">
+            <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
+            </svg>
+          </div>
+          <h2>Your personal data stays on your phone</h2>
+          
+          <p>
+            No account, no in-app ads, no profile. Your personal data — injections, weight, measurements — never leaves your device.
+            Delete the app and your data is gone.
+          </p>
+          
+          <a href="/en/privacy" class="link-arrow">Read the Privacy Policy →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Frequently asked questions</h2>
+        
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Is Dozify free?</h3>
+            
+            <p>Yes. Your first week of dose logging and reminders is fully open. After that you can still add as many medications as you like, use injection-site rotation, log weight, water and side effects, view your whole history and photos, and read the education articles. Premium covers dose logging and reminders after the first week, all charts and trends, weight projection, body composition, nutrition, vial management, doctor PDF reports and new progress photos.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Is my data private?</h3>
+            
+            <p>Your health records — doses, weight, side effects, photos — are stored on your device and never uploaded. There is no account and no cloud sync, and the app shows no advertising. Anonymous usage statistics are collected so the app can be improved, and they never carry a medication name or a symptom. Dozify also measures whether an install came from one of its own App Store or Meta campaigns; that measurement runs behind Apple's tracking permission and never includes your health records. Delete the app and your records are gone.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>I already track in another app. Can I bring my history?</h3>
+            
+            <p>Yes. Export your data from the app you are leaving, open Settings &rarr; Import in Dozify, and pick the file. Dozify shows you what it found before writing anything — how many injections, weights and notes — and only writes once you approve. A backup of your existing Dozify data is taken automatically first, so nothing is at risk if the file turns out to be something else.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Which medications does Dozify support?</h3>
+            
+            <p>Dozify helps you track popular GLP-1 medications, including Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity®, and Victoza®, plus oral options like Rybelsus®. These brand names are trademarks of their respective owners, and Dozify is not affiliated with these companies.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Does Dozify work without internet?</h3>
+            
+            <p>Yes. Dozify is offline-first and works fully without an internet connection. You never need to sign in or sync to use it.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Can Dozify remind me of my injection?</h3>
+            
+            <p>Yes. You can set a weekly or daily reminder that matches your medication's schedule, so it is easier to stay consistent with your routine.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Does Dozify replace my doctor?</h3>
+            
+            <p>No. Dozify is an educational tracking tool, not a medical device, and it does not provide medical advice. Always follow your doctor and your prescription.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Can I track weight and side effects?</h3>
+            
+            <p>Yes. You can record your weight, body measurements, and a side-effect diary, and see your trend on clear charts — including a weight projection and a time-to-goal estimate based on your own data.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Can I bring my data from another GLP-1 app?</h3>
+            
+            <p>Yes, and it is free. Dozify reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column. It shows you what it found before writing anything, skips records you already have, and backs up your device first. <a href="/en/switch-glp1-tracker-app">More on the switching page</a>.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Is Dozify available on Android?</h3>
+            
+            <p>Not yet — Dozify is iPhone only for now, on the App Store.</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I bring my data from another GLP-1 app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, and it is free. Dozify reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column. It shows you what it found before writing anything, skips records you already have, and backs up your device first. More on the switching page."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Dozify free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Your first week of dose logging and reminders is fully open. After that you can still add as many medications as you like, use injection-site rotation, log weight, water and side effects, view your whole history and photos, and read the education articles. Premium covers dose logging and reminders after the first week, all charts and trends, weight projection, body composition, nutrition, vial management, doctor PDF reports and new progress photos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is my data private?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your health records \u2014 doses, weight, side effects, photos \u2014 are stored on your device and never uploaded. There is no account and no cloud sync, and the app shows no advertising. Anonymous usage statistics are collected so the app can be improved, and they never carry a medication name or a symptom. Dozify also measures whether an install came from one of its own App Store or Meta campaigns; that measurement runs behind Apple's tracking permission and never includes your health records. Delete the app and your records are gone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "I already track in another app. Can I bring my history?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Export your data from the app you are leaving, open Settings \u2192 Import in Dozify, and pick the file. Dozify shows you what it found before writing anything and only writes once you approve. A backup of your existing Dozify data is taken automatically first."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which medications does Dozify support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dozify helps you track popular GLP-1 medications, including Ozempic, Wegovy, Mounjaro, Zepbound, Saxenda, Trulicity, and Victoza, plus oral options like Rybelsus. These brand names are trademarks of their respective owners, and Dozify is not affiliated with these companies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Dozify work without internet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Dozify is offline-first and works fully without an internet connection. You never need to sign in or sync to use it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Dozify remind me of my injection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can set a weekly or daily reminder that matches your medication's schedule, so it is easier to stay consistent with your routine."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Dozify replace my doctor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Dozify is an educational tracking tool, not a medical device, and it does not provide medical advice. Always follow your doctor and your prescription."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I track weight and side effects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can record your weight, body measurements, and a side-effect diary, and see your trend on clear charts — including a weight projection and a time-to-goal estimate based on your own data."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Dozify available on Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not yet — Dozify is iPhone only for now, on the App Store."
+            }
+          }
+        ]
+      }
+      </script>
+    </section>
+
+    <section id="download" class="section section-cta">
+      <div class="container">
+        <h2 class="section-title">Get the app</h2>
+        
+        <p class="section-lede">Dozify is on the App Store, for iPhone.</p>
+        
+        <div class="store-row">
+          <a class="store-card store-card--live" href="https://apps.apple.com/app/dozify/id6764325653" target="_blank" rel="noopener">
+            <div class="store-card-icon">
+              <svg viewbox="0 0 24 24" fill="currentColor">
+                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
+              </svg>
+            </div>
+            <div>
+              <span class="store-card-pretitle">Download on the</span>
+              
+              <strong>App Store</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/en/" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+        <p class="footer-tagline">A private companion for your GLP-1 treatment.</p>
+        
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Legal</h4>
+          
+          <a href="/en/privacy">Privacy Policy</a>
+          
+          <a href="/en/kvkk">KVKK Aydınlatma</a>
+          <a href="/en/terms">Terms of Service</a>
+          
+        </div>
+        <div class="footer-col">
+          <h4>Tracking</h4>
+          
+          <a href="/en/glp1-shot-tracker">GLP-1 shot tracker</a>
+          
+          <a href="/en/injection-site-tracker">Injection site tracker</a>
+          
+          <a href="/en/glp1-weight-tracker">GLP-1 weight tracker</a>
+          
+          <a href="/en/glp1-side-effect-journal">Side-effect journal</a>
+          
+          <a href="/en/glp1-vial-tracker">Vial tracker</a>
+          
+          <a href="/en/private-glp1-tracker">Private GLP-1 tracker</a>
+          
+          <a href="/en/glp1-appointment-report">Doctor report</a>
+          
+          <a href="/en/switch-glp1-tracker-app">Switch from another app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h4>Help</h4>
+          
+          <a href="/en/support">Support</a>
+          
+          <a href="/en/why">Why Dozify</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+      <p class="disclaimer">
+        Dozify is not a medical device and does not provide medical advice. Always consult your doctor.
+        Ozempic®, Mounjaro®, Wegovy®, Saxenda®, Zepbound®, Trulicity®, Rybelsus®, and Victoza® are trademarks of their respective owners.
+        Dozify is not affiliated with these companies.
+      </p>
+      
+    </div>
+  </footer>
+</body>
+</html>

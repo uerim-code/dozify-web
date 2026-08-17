@@ -1,5 +1,107 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/glp1-shot-tracker",
+      "destination": "/en/glp1-shot-tracker",
+      "permanent": true
+    },
+    {
+      "source": "/injection-site-tracker",
+      "destination": "/en/injection-site-tracker",
+      "permanent": true
+    },
+    {
+      "source": "/glp1-weight-tracker",
+      "destination": "/en/glp1-weight-tracker",
+      "permanent": true
+    },
+    {
+      "source": "/glp1-side-effect-journal",
+      "destination": "/en/glp1-side-effect-journal",
+      "permanent": true
+    },
+    {
+      "source": "/glp1-vial-tracker",
+      "destination": "/en/glp1-vial-tracker",
+      "permanent": true
+    },
+    {
+      "source": "/private-glp1-tracker",
+      "destination": "/en/private-glp1-tracker",
+      "permanent": true
+    },
+    {
+      "source": "/glp1-appointment-report",
+      "destination": "/en/glp1-appointment-report",
+      "permanent": true
+    },
+    {
+      "source": "/switch-glp1-tracker-app",
+      "destination": "/en/switch-glp1-tracker-app",
+      "permanent": true
+    },
+    {
+      "source": "/why",
+      "destination": "/en/why",
+      "permanent": true
+    },
+    {
+      "source": "/support",
+      "destination": "/en/support",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/en/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/en/terms",
+      "permanent": true
+    },
+    {
+      "source": "/kvkk",
+      "destination": "/en/kvkk",
+      "permanent": true
+    },
+    {
+      "source": "/articles",
+      "destination": "/en/articles",
+      "permanent": true
+    },
+    {
+      "source": "/articles/what-is-glp1",
+      "destination": "/en/articles/what-is-glp1",
+      "permanent": true
+    },
+    {
+      "source": "/articles/how-to-inject-glp1",
+      "destination": "/en/articles/how-to-inject-glp1",
+      "permanent": true
+    },
+    {
+      "source": "/articles/glp1-injection-sites",
+      "destination": "/en/articles/glp1-injection-sites",
+      "permanent": true
+    },
+    {
+      "source": "/articles/glp1-side-effects",
+      "destination": "/en/articles/glp1-side-effects",
+      "permanent": true
+    },
+    {
+      "source": "/articles/glp1-patches",
+      "destination": "/en/articles/glp1-patches",
+      "permanent": true
+    }
+  ]
 }
