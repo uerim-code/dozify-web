@@ -85,9 +85,18 @@ img, svg { display: block; max-width: 100%; }
 }
 .nav-links a:hover { color: var(--slate-900); }
 
-@media (max-width: 600px) {
+/* The nth-child rule this replaces was written when every link appeared twice,
+   once per language, and it hid an arbitrary item once the languages were
+   split into separate pages. Below 700px the in-page anchors come out — they
+   only jump down the page a visitor is already scrolling — and what is left is
+   the links that go somewhere else. */
+@media (max-width: 700px) {
   .nav-links { gap: 16px; }
-  .nav-links a:nth-child(2) { display: none; }
+  .nav-links .nav-anchor { display: none; }
+}
+@media (max-width: 380px) {
+  .nav-links { gap: 12px; }
+  .nav-links a { font-size: 13px; }
 }
 
 /* HERO */
@@ -128,6 +137,25 @@ img, svg { display: block; max-width: 100%; }
   .hero-grid .lede { margin-left: 0; margin-right: 0; }
   .hero-grid .cta-row { justify-content: flex-start; }
   .hero-grid .offline-note { justify-content: flex-start; }
+}
+
+/* SPLIT SECTION
+   Copy beside a phone, for the sections that are easier to believe with the
+   screen next to them — the import and the doctor report. Same stacking rule
+   as the hero: one column until there is room for both without squeezing. */
+.container.split {
+  display: grid;
+  gap: 40px;
+  align-items: center;
+}
+.split .section-title, .split .section-lede { text-align: left; margin-left: 0; margin-right: 0; }
+.split-shot { display: flex; justify-content: center; }
+.split-shot .device { width: min(280px, 68vw); }
+@media (min-width: 900px) {
+  .container.split { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 64px; }
+  /* The phone leads on alternating sections so the page does not read as one
+     column of text with pictures stuck to the right of it. */
+  .container.split.split-reverse { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); }
 }
 
 .hero-shot { display: flex; justify-content: center; }
@@ -215,6 +243,31 @@ img, svg { display: block; max-width: 100%; }
   font-weight: 500;
 }
 .offline-note svg { color: var(--teal-600); flex-shrink: 0; }
+
+/* The hero's three promises. A list rather than one run-on line: each is a
+   separate thing a visitor is checking for, and each has to survive a phone
+   width without wrapping into the next one. */
+.trust-row {
+  list-style: none;
+  margin: 0 auto 36px;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  max-width: 520px;
+  text-align: left;
+}
+.trust-row li {
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  align-items: start;
+  gap: 10px;
+  color: var(--slate-500);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+.trust-row svg { color: var(--teal-600); margin-top: 2px; }
+@media (min-width: 900px) { .hero-grid .trust-row { margin-left: 0; } }
 .btn {
   display: inline-flex;
   align-items: center;
@@ -250,6 +303,10 @@ img, svg { display: block; max-width: 100%; }
 .section-title {
   font-size: clamp(28px, 3.5vw, 40px);
   font-weight: 800;
+  /* Body line-height was being inherited: 64px of leading on a 40px heading.
+     Invisible while every title was one centred line, obvious the moment one
+     wrapped. */
+  line-height: 1.18;
   letter-spacing: -0.02em;
   text-align: center;
   margin-bottom: 12px;
@@ -430,17 +487,23 @@ img, svg { display: block; max-width: 100%; }
 @media (max-width: 540px) {
   .privacy-list { grid-template-columns: 1fr; }
 }
+/* The link only ever lived inside the dark privacy card, so it was written
+   white. On a light section that is white on white — the link is there, sized
+   and clickable, and invisible. The white version is now scoped to the card
+   that needs it. */
 .link-arrow {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #fff;
+  color: var(--teal-600);
   font-weight: 600;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(13, 148, 136, 0.35);
   padding-bottom: 2px;
   transition: border-color 0.15s ease;
 }
-.link-arrow:hover { border-color: #fff; color: #fff; }
+.link-arrow:hover { border-color: var(--teal-600); }
+.privacy-section .link-arrow { color: #fff; border-bottom-color: rgba(255, 255, 255, 0.4); }
+.privacy-section .link-arrow:hover { border-color: #fff; color: #fff; }
 
 /* DOWNLOAD CTA */
 .section-cta { padding: 96px 0 120px; background: var(--slate-50); }

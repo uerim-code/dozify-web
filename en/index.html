@@ -111,14 +111,6 @@
           },
           {
             "@type": "Question",
-            "name": "I already track in another app. Can I bring my history?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Export your data from the app you are leaving, open Settings → Import in Dozify, and pick the file. Dozify shows you what it found before writing anything — how many injections, weights and notes — and only writes once you approve. A backup of your existing Dozify data is taken automatically first, so nothing is at risk if the file turns out to be something else."
-            }
-          },
-          {
-            "@type": "Question",
             "name": "Which medications does Dozify support?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -162,7 +154,7 @@
             "name": "Can I bring my data from another GLP-1 app?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, and it is free. Dozify reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column. It shows you what it found before writing anything, skips records you already have, and backs up your device first. More on the switching page ."
+              "text": "Yes, and it is free. Export from the app you are leaving, open Settings → Import in Dozify and pick the file. It reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column, shows you what it found — how many injections, weights and notes — before writing anything, skips records you already have, and backs up your existing data first. More on the switching page ."
             }
           },
           {
@@ -192,11 +184,11 @@
         <span class="brand-name">Dozify</span>
       </a>
       <nav class="nav-links">
-        <a href="#how">How it works</a>
+        <a class="nav-anchor" href="#how">How it works</a>
         
-        <a href="#features">Features</a>
+        <a class="nav-anchor" href="#features">Features</a>
         
-        <a href="/#faq">FAQ</a>
+        <a class="nav-anchor" href="/#faq">FAQ</a>
         
         <a href="/en/articles">Articles</a>
         
@@ -218,10 +210,10 @@
         
 
         <p class="lede">
-          The next shot, your weight, your vial and the week so far — in one place.
-          Dozify reminds you, tracks your stock, and prepares a clean PDF report for
-          your doctor. Already tracking somewhere else? <a href="/en/switch-glp1-tracker-app">Bring your history with you.</a>
-          No accounts, no in-app ads, works offline.
+          For people already prescribed a GLP-1. The next shot, your weight, your vial
+          and the week so far — in one place. Dozify reminds you, tracks your stock, and
+          prepares a clean PDF report for your doctor. Already tracking somewhere else?
+          <a href="/en/switch-glp1-tracker-app">Bring your history with you.</a>
         </p>
         
 
@@ -230,14 +222,32 @@
           
         </div>
 
-        <p class="offline-note">
-          <svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-          <span>Offline-first · Your personal data stays on your device</span>
-          
-        </p>
+        <!-- The three things a visitor deciding on a health app wants settled
+             before they tap Download, said before they have to look for them. -->
+        <ul class="trust-row">
+          <li>
+            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
+              <path d="m9 12 2 2 4-4" />
+            </svg>
+            <span>No account, works offline — your health records stay on the device</span>
+            
+          </li>
+          <li>
+            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" />
+            </svg>
+            <span>No in-app ads, and your health records are never used for ad targeting</span>
+            
+          </li>
+          <li>
+            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" /><path d="M12 8h.01M11 12h1v4h1" />
+            </svg>
+            <span>A tracking tool, not a medical device — it records your plan, it never suggests one</span>
+            
+          </li>
+        </ul>
         </div>
 
         <!-- The product itself, above the fold. The page used to open on an app
@@ -246,6 +256,39 @@
         <div class="hero-shot" aria-hidden="false">
           <div class="device">
             <img src="/screenshots/en/01-home.webp" width="750" height="1630" fetchpriority="high" decoding="async" alt="The Dozify home screen: next dose countdown, this week's injections, protein and water for the day, and current weight">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+        
+        <p class="section-lede">Three steps. No setup headache.</p>
+        
+
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h3>Add your medication</h3>
+            
+            <p>Pick from Ozempic, Mounjaro, Wegovy, Saxenda, Zepbound, Trulicity, Victoza, or Rybelsus. Set your dose and weekly schedule.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h3>Log every injection</h3>
+            
+            <p>Tap to record the dose, time, and injection site on a body diagram. Smart rotation suggests your next site.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h3>Share with your doctor</h3>
+            
+            <p>Export a PDF report with your full treatment history, weight progress, and side-effect log — perfect for your next visit.</p>
             
           </div>
         </div>
@@ -325,38 +368,6 @@
       </div>
     </section>
 
-    <section id="how" class="section">
-      <div class="container">
-        <h2 class="section-title">How it works</h2>
-        
-        <p class="section-lede">Three steps. No setup headache.</p>
-        
-
-        <div class="steps">
-          <div class="step">
-            <span class="step-num">1</span>
-            <h3>Add your medication</h3>
-            
-            <p>Pick from Ozempic, Mounjaro, Wegovy, Saxenda, Zepbound, Trulicity, Victoza, or Rybelsus. Set your dose and weekly schedule.</p>
-            
-          </div>
-          <div class="step">
-            <span class="step-num">2</span>
-            <h3>Log every injection</h3>
-            
-            <p>Tap to record the dose, time, and injection site on a body diagram. Smart rotation suggests your next site.</p>
-            
-          </div>
-          <div class="step">
-            <span class="step-num">3</span>
-            <h3>Share with your doctor</h3>
-            
-            <p>Export a PDF report with your full treatment history, weight progress, and side-effect log — perfect for your next visit.</p>
-            
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section id="features" class="section section-light">
       <div class="container">
@@ -549,6 +560,27 @@
       </div>
     </section>
 
+    <!-- The differentiator a visitor who already tracks somewhere else is
+         looking for, and the one thing no competitor page tells them. -->
+    <section id="import" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 class="section-title">Already tracking somewhere else? Bring it with you.</h2>
+          
+          <p class="section-lede">Dozify reads exports from Shotsy, Glapp, GLPzy and GlucoPal, and any CSV with a date column. Nothing is written until you have seen what it found — how many injections, how many weights, how many notes — and a backup of your existing data is taken first. Importing costs nothing.</p>
+          
+          <a href="/en/switch-glp1-tracker-app" class="link-arrow">How switching works →</a>
+          
+        </div>
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/02-injection.webp" width="750" height="1630" loading="lazy" decoding="async" alt="An imported injection in the Dozify log, with its date, dose and site">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="privacy" class="section privacy-section">
       <div class="container">
         <div class="privacy-card">
@@ -566,6 +598,112 @@
           
           <a href="/en/privacy" class="link-arrow">Read the Privacy Policy →</a>
           
+        </div>
+      </div>
+    </section>
+
+    <section id="report" class="section">
+      <div class="container split split-reverse">
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/07-reports.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Building a doctor-visit report: date range, sections to include, and the questions you want to ask">
+            
+          </div>
+        </div>
+        <div class="split-copy">
+          <h2 class="section-title">Walk into the appointment with a summary</h2>
+          
+          <p class="section-lede">A visit is ten minutes and three months. Pick the date range and what goes in it — doses, weight, side effects, your own notes and the questions you meant to ask — and Dozify builds a PDF you can print or send ahead. What it contains is your record; what it means is your doctor's call.</p>
+          
+          <a href="/en/glp1-appointment-report" class="link-arrow">What the report contains →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="medications" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Medications you can track</h2>
+        
+        <p class="section-lede">Pick the one you were prescribed and Dozify sets up the schedule and dose steps for it. Anything not on the list you can add by hand.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <h3>Weekly injections</h3>
+            
+            <p>Ozempic®, Wegovy®, Mounjaro®, Zepbound® and Trulicity® — one shot a week, and one reminder a week to match.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Daily injections</h3>
+            
+            <p>Saxenda® and Victoza® — a daily schedule, at the hour you actually inject rather than a default.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Oral</h3>
+            
+            <p>Rybelsus® — a tablet, tracked the same way, with the same history and the same report.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Something else</h3>
+            
+            <p>Add a medication by name with your own dose and interval. Dozify records the plan you and your doctor agreed on; it never proposes one.</p>
+            
+          </article>
+        </div>
+
+        <p class="meta" style="text-align:center;margin-top:24px">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® and Rybelsus® are trademarks of their respective owners. Dozify is not affiliated with, endorsed by or sponsored by these companies.</p>
+        
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Guides that name their sources</h2>
+        
+        <p class="section-lede">Written for people already on a GLP-1, each one citing where the information came from — the manufacturer instructions, the FDA, MedlinePlus. None of it replaces what your own clinician tells you.</p>
+        
+
+        <div class="article-list">
+          <a class="article-card" href="/en/articles/what-is-glp1">
+            <h3>What is GLP-1?</h3>
+            
+            <p>The hormone your gut releases after eating, what the medications copy, and why appetite changes.</p>
+            
+          </a>
+          <a class="article-card" href="/en/articles/how-to-inject-glp1">
+            <h3>How to inject a GLP-1 pen</h3>
+            
+            <p>Preparing the pen, choosing a site, the injection itself, and what to do with the needle afterwards.</p>
+            
+          </a>
+          <a class="article-card" href="/en/articles/glp1-injection-sites">
+            <h3>Where to inject, and how to rotate</h3>
+            
+            <p>Abdomen, thigh and upper arm are the approved sites. Which to choose and why the spot must move.</p>
+            
+          </a>
+          <a class="article-card" href="/en/articles/glp1-side-effects">
+            <h3>Common side effects</h3>
+            
+            <p>Nausea, constipation and fatigue — what tends to help, and the signs that need a doctor now.</p>
+            
+          </a>
+          <a class="article-card" href="/en/articles/glp1-patches">
+            <h3>Do GLP-1 patches exist?</h3>
+            
+            <p>No patch is approved by the FDA or EMA. What is sold under that name, and what the evidence says.</p>
+            
+          </a>
+          <a class="article-card" href="/en/articles">
+            <h3>All guides</h3>
+            
+            <p>The full library, with the reference list at the bottom of every page.</p>
+            
+          </a>
         </div>
       </div>
     </section>
@@ -590,12 +728,6 @@
             
           </div>
 
-          <div class="faq-item">
-            <h3>I already track in another app. Can I bring my history?</h3>
-            
-            <p>Yes. Export your data from the app you are leaving, open Settings &rarr; Import in Dozify, and pick the file. Dozify shows you what it found before writing anything — how many injections, weights and notes — and only writes once you approve. A backup of your existing Dozify data is taken automatically first, so nothing is at risk if the file turns out to be something else.</p>
-            
-          </div>
 
           <div class="faq-item">
             <h3>Which medications does Dozify support?</h3>
@@ -635,7 +767,7 @@
           <div class="faq-item">
             <h3>Can I bring my data from another GLP-1 app?</h3>
             
-            <p>Yes, and it is free. Dozify reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column. It shows you what it found before writing anything, skips records you already have, and backs up your device first. <a href="/en/switch-glp1-tracker-app">More on the switching page</a>.</p>
+            <p>Yes, and it is free. Export from the app you are leaving, open Settings &rarr; Import in Dozify and pick the file. It reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column, shows you what it found — how many injections, weights and notes — before writing anything, skips records you already have, and backs up your existing data first. <a href="/en/switch-glp1-tracker-app">More on the switching page</a>.</p>
             
           </div>
 

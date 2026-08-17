@@ -36,12 +36,12 @@
         <span class="brand-name">Dozify</span>
       </a>
       <nav class="nav-links">
-        <a href="#how" data-lang="en">How it works</a>
-        <a href="#how" data-lang="tr">Nasıl çalışır</a>
-        <a href="#features" data-lang="en">Features</a>
-        <a href="#features" data-lang="tr">Özellikler</a>
-        <a href="/#faq" data-lang="en">FAQ</a>
-        <a href="/#faq" data-lang="tr">SSS</a>
+        <a class="nav-anchor" href="#how" data-lang="en">How it works</a>
+        <a class="nav-anchor" href="#how" data-lang="tr">Nasıl çalışır</a>
+        <a class="nav-anchor" href="#features" data-lang="en">Features</a>
+        <a class="nav-anchor" href="#features" data-lang="tr">Özellikler</a>
+        <a class="nav-anchor" href="/#faq" data-lang="en">FAQ</a>
+        <a class="nav-anchor" href="/#faq" data-lang="tr">SSS</a>
         <a href="/articles" data-lang="en">Articles</a>
         <a href="/articles" data-lang="tr">Makaleler</a>
         <a href="/support" data-lang="en">Support</a>
@@ -62,16 +62,16 @@
         <h1 data-lang="tr">GLP-1 rutininiz, <span class="accent">tek ekranda.</span></h1>
 
         <p class="lede" data-lang="en">
-          The next shot, your weight, your vial and the week so far — in one place.
-          Dozify reminds you, tracks your stock, and prepares a clean PDF report for
-          your doctor. Already tracking somewhere else? <a href="/switch-glp1-tracker-app">Bring your history with you.</a>
-          No accounts, no in-app ads, works offline.
+          For people already prescribed a GLP-1. The next shot, your weight, your vial
+          and the week so far — in one place. Dozify reminds you, tracks your stock, and
+          prepares a clean PDF report for your doctor. Already tracking somewhere else?
+          <a href="/switch-glp1-tracker-app">Bring your history with you.</a>
         </p>
         <p class="lede" data-lang="tr">
-          Sıradaki iğne, kilonuz, flakonunuz ve haftanın özeti — hepsi tek yerde.
-          Dozify hatırlatır, stoğunuzu takip eder, doktorunuz için temiz bir PDF rapor
-          hazırlar. Başka bir uygulamada mı takip ediyorsunuz? Geçmişinizi yanınızda
-          getirin. Hesap yok, uygulama içinde reklam yok, çevrimdışı çalışır.
+          GLP-1 reçete edilmiş kişiler için. Sıradaki iğne, kilonuz, flakonunuz ve haftanın
+          özeti — hepsi tek yerde. Dozify hatırlatır, stoğunuzu takip eder, doktorunuz için
+          temiz bir PDF rapor hazırlar. Başka bir uygulamada mı takip ediyorsunuz?
+          <a href="/switch-glp1-tracker-app">Geçmişinizi yanınızda getirin.</a>
         </p>
 
         <div class="cta-row">
@@ -79,14 +79,32 @@
           <a href="https://apps.apple.com/app/dozify/id6764325653" target="_blank" rel="noopener" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
         </div>
 
-        <p class="offline-note">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z"/>
-            <path d="m9 12 2 2 4-4"/>
-          </svg>
-          <span data-lang="en">Offline-first · Your personal data stays on your device</span>
-          <span data-lang="tr">Çevrimdışı çalışır · Kişisel verileriniz cihazınızdan çıkmaz</span>
-        </p>
+        <!-- The three things a visitor deciding on a health app wants settled
+             before they tap Download, said before they have to look for them. -->
+        <ul class="trust-row">
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+            <span data-lang="en">No account, works offline — your health records stay on the device</span>
+            <span data-lang="tr">Hesap yok, çevrimdışı çalışır — sağlık kayıtlarınız cihazda kalır</span>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/>
+            </svg>
+            <span data-lang="en">No in-app ads, and your health records are never used for ad targeting</span>
+            <span data-lang="tr">Uygulama içinde reklam yok; sağlık kayıtlarınız reklam hedeflemede kullanılmaz</span>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/>
+            </svg>
+            <span data-lang="en">A tracking tool, not a medical device — it records your plan, it never suggests one</span>
+            <span data-lang="tr">Takip aracı, tıbbi cihaz değil — planınızı kaydeder, asla plan önermez</span>
+          </li>
+        </ul>
         </div>
 
         <!-- The product itself, above the fold. The page used to open on an app
@@ -100,6 +118,39 @@
             <img data-lang="tr" src="screenshots/tr/01-home.webp" width="750" height="1630"
                  fetchpriority="high" decoding="async"
                  alt="Dozify ana ekranı: sonraki doza kalan süre, bu haftaki enjeksiyonlar, günlük protein ve su, güncel kilo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title" data-lang="en">How it works</h2>
+        <h2 class="section-title" data-lang="tr">Nasıl çalışır</h2>
+        <p class="section-lede" data-lang="en">Three steps. No setup headache.</p>
+        <p class="section-lede" data-lang="tr">Üç adım. Karmaşık kurulum yok.</p>
+
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h3 data-lang="en">Add your medication</h3>
+            <h3 data-lang="tr">İlacınızı ekleyin</h3>
+            <p data-lang="en">Pick from Ozempic, Mounjaro, Wegovy, Saxenda, Zepbound, Trulicity, Victoza, or Rybelsus. Set your dose and weekly schedule.</p>
+            <p data-lang="tr">Ozempic, Mounjaro, Wegovy, Saxenda, Zepbound, Trulicity, Victoza veya Rybelsus arasından seçin. Doz ve haftalık programınızı belirleyin.</p>
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h3 data-lang="en">Log every injection</h3>
+            <h3 data-lang="tr">Her enjeksiyonu kaydedin</h3>
+            <p data-lang="en">Tap to record the dose, time, and injection site on a body diagram. Smart rotation suggests your next site.</p>
+            <p data-lang="tr">Tek dokunuşla doz, saat ve enjeksiyon bölgesini vücut diyagramına kaydedin. Akıllı rotasyon bir sonraki bölgeyi önerir.</p>
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h3 data-lang="en">Share with your doctor</h3>
+            <h3 data-lang="tr">Doktorunuzla paylaşın</h3>
+            <p data-lang="en">Export a PDF report with your full treatment history, weight progress, and side-effect log — perfect for your next visit.</p>
+            <p data-lang="tr">Tüm tedavi geçmişi, kilo takibi ve yan etki kaydını içeren PDF rapor oluşturun — bir sonraki randevunuza hazır.</p>
           </div>
         </div>
       </div>
@@ -227,38 +278,6 @@
       </div>
     </section>
 
-    <section id="how" class="section">
-      <div class="container">
-        <h2 class="section-title" data-lang="en">How it works</h2>
-        <h2 class="section-title" data-lang="tr">Nasıl çalışır</h2>
-        <p class="section-lede" data-lang="en">Three steps. No setup headache.</p>
-        <p class="section-lede" data-lang="tr">Üç adım. Karmaşık kurulum yok.</p>
-
-        <div class="steps">
-          <div class="step">
-            <span class="step-num">1</span>
-            <h3 data-lang="en">Add your medication</h3>
-            <h3 data-lang="tr">İlacınızı ekleyin</h3>
-            <p data-lang="en">Pick from Ozempic, Mounjaro, Wegovy, Saxenda, Zepbound, Trulicity, Victoza, or Rybelsus. Set your dose and weekly schedule.</p>
-            <p data-lang="tr">Ozempic, Mounjaro, Wegovy, Saxenda, Zepbound, Trulicity, Victoza veya Rybelsus arasından seçin. Doz ve haftalık programınızı belirleyin.</p>
-          </div>
-          <div class="step">
-            <span class="step-num">2</span>
-            <h3 data-lang="en">Log every injection</h3>
-            <h3 data-lang="tr">Her enjeksiyonu kaydedin</h3>
-            <p data-lang="en">Tap to record the dose, time, and injection site on a body diagram. Smart rotation suggests your next site.</p>
-            <p data-lang="tr">Tek dokunuşla doz, saat ve enjeksiyon bölgesini vücut diyagramına kaydedin. Akıllı rotasyon bir sonraki bölgeyi önerir.</p>
-          </div>
-          <div class="step">
-            <span class="step-num">3</span>
-            <h3 data-lang="en">Share with your doctor</h3>
-            <h3 data-lang="tr">Doktorunuzla paylaşın</h3>
-            <p data-lang="en">Export a PDF report with your full treatment history, weight progress, and side-effect log — perfect for your next visit.</p>
-            <p data-lang="tr">Tüm tedavi geçmişi, kilo takibi ve yan etki kaydını içeren PDF rapor oluşturun — bir sonraki randevunuza hazır.</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section id="features" class="section section-light">
       <div class="container">
@@ -451,6 +470,27 @@
       </div>
     </section>
 
+    <!-- The differentiator a visitor who already tracks somewhere else is
+         looking for, and the one thing no competitor page tells them. -->
+    <section id="import" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 class="section-title" data-lang="en">Already tracking somewhere else? Bring it with you.</h2>
+          <h2 class="section-title" data-lang="tr">Zaten başka bir yerde mi takip ediyorsunuz? Yanınızda getirin.</h2>
+          <p class="section-lede" data-lang="en">Dozify reads exports from Shotsy, Glapp, GLPzy and GlucoPal, and any CSV with a date column. Nothing is written until you have seen what it found — how many injections, how many weights, how many notes — and a backup of your existing data is taken first. Importing costs nothing.</p>
+          <p class="section-lede" data-lang="tr">Dozify; Shotsy, Glapp, GLPzy ve GlucoPal dışa aktarımlarını ve tarih sütunu olan her CSV dosyasını okur. Ne bulduğunu — kaç enjeksiyon, kaç kilo kaydı, kaç not — görmeden hiçbir şey yazılmaz ve önce mevcut verinizin yedeği alınır. İçe aktarma ücretsizdir.</p>
+          <a href="/switch-glp1-tracker-app" class="link-arrow" data-lang="en">How switching works →</a>
+          <a href="/switch-glp1-tracker-app" class="link-arrow" data-lang="tr">Geçiş nasıl oluyor →</a>
+        </div>
+        <div class="split-shot">
+          <div class="device">
+            <img data-lang="en" src="screenshots/en/02-injection.webp" width="750" height="1630" loading="lazy" decoding="async" alt="An imported injection in the Dozify log, with its date, dose and site">
+            <img data-lang="tr" src="screenshots/tr/02-injection.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Dozify kaydında içe aktarılmış bir enjeksiyon: tarihi, dozu ve bölgesi">
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="privacy" class="section privacy-section">
       <div class="container">
         <div class="privacy-card">
@@ -475,6 +515,112 @@
       </div>
     </section>
 
+    <section id="report" class="section">
+      <div class="container split split-reverse">
+        <div class="split-shot">
+          <div class="device">
+            <img data-lang="en" src="screenshots/en/07-reports.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Building a doctor-visit report: date range, sections to include, and the questions you want to ask">
+            <img data-lang="tr" src="screenshots/tr/07-reports.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Doktor randevusu raporu hazırlama: tarih aralığı, dahil edilecek bölümler ve sormak istediğiniz sorular">
+          </div>
+        </div>
+        <div class="split-copy">
+          <h2 class="section-title" data-lang="en">Walk into the appointment with a summary</h2>
+          <h2 class="section-title" data-lang="tr">Randevuya bir özetle girin</h2>
+          <p class="section-lede" data-lang="en">A visit is ten minutes and three months. Pick the date range and what goes in it — doses, weight, side effects, your own notes and the questions you meant to ask — and Dozify builds a PDF you can print or send ahead. What it contains is your record; what it means is your doctor's call.</p>
+          <p class="section-lede" data-lang="tr">Randevu on dakika, anlatılacak üç ay. Tarih aralığını ve içine ne gireceğini seçin — dozlar, kilo, yan etkiler, kendi notlarınız ve sormayı unuttuğunuz sorular — Dozify yazdırabileceğiniz ya da önceden gönderebileceğiniz bir PDF hazırlasın. İçindekiler sizin kaydınız; ne anlama geldiği doktorunuzun değerlendirmesi.</p>
+          <a href="/glp1-appointment-report" class="link-arrow" data-lang="en">What the report contains →</a>
+          <a href="/glp1-appointment-report" class="link-arrow" data-lang="tr">Raporda neler var →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="medications" class="section section-light">
+      <div class="container">
+        <h2 class="section-title" data-lang="en">Medications you can track</h2>
+        <h2 class="section-title" data-lang="tr">Takip edebileceğiniz ilaçlar</h2>
+        <p class="section-lede" data-lang="en">Pick the one you were prescribed and Dozify sets up the schedule and dose steps for it. Anything not on the list you can add by hand.</p>
+        <p class="section-lede" data-lang="tr">Size reçete edileni seçin; Dozify programı ve doz adımlarını ona göre kursun. Listede olmayanı elle ekleyebilirsiniz.</p>
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <h3 data-lang="en">Weekly injections</h3>
+            <h3 data-lang="tr">Haftalık enjeksiyonlar</h3>
+            <p data-lang="en">Ozempic®, Wegovy®, Mounjaro®, Zepbound® and Trulicity® — one shot a week, and one reminder a week to match.</p>
+            <p data-lang="tr">Ozempic®, Wegovy®, Mounjaro®, Zepbound® ve Trulicity® — haftada bir iğne, ona uyan haftada bir hatırlatma.</p>
+          </article>
+          <article class="feature">
+            <h3 data-lang="en">Daily injections</h3>
+            <h3 data-lang="tr">Günlük enjeksiyonlar</h3>
+            <p data-lang="en">Saxenda® and Victoza® — a daily schedule, at the hour you actually inject rather than a default.</p>
+            <p data-lang="tr">Saxenda® ve Victoza® — günlük program, varsayılan bir saatte değil gerçekten iğne yaptığınız saatte.</p>
+          </article>
+          <article class="feature">
+            <h3 data-lang="en">Oral</h3>
+            <h3 data-lang="tr">Ağızdan alınanlar</h3>
+            <p data-lang="en">Rybelsus® — a tablet, tracked the same way, with the same history and the same report.</p>
+            <p data-lang="tr">Rybelsus® — tablet, aynı şekilde takip edilir; aynı geçmiş, aynı rapor.</p>
+          </article>
+          <article class="feature">
+            <h3 data-lang="en">Something else</h3>
+            <h3 data-lang="tr">Başka bir şey</h3>
+            <p data-lang="en">Add a medication by name with your own dose and interval. Dozify records the plan you and your doctor agreed on; it never proposes one.</p>
+            <p data-lang="tr">İlacı adıyla, kendi dozunuz ve aralığınızla ekleyin. Dozify sizin ve doktorunuzun üzerinde anlaştığı planı kaydeder; asla plan önermez.</p>
+          </article>
+        </div>
+
+        <p class="meta" style="text-align:center;margin-top:24px" data-lang="en">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® and Rybelsus® are trademarks of their respective owners. Dozify is not affiliated with, endorsed by or sponsored by these companies.</p>
+        <p class="meta" style="text-align:center;margin-top:24px" data-lang="tr">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® ve Rybelsus® ilgili sahiplerinin tescilli markalarıdır. Dozify bu firmalarla bağlantılı değildir, onlar tarafından onaylanmamış ve desteklenmemektedir.</p>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title" data-lang="en">Guides that name their sources</h2>
+        <h2 class="section-title" data-lang="tr">Kaynağını yazan rehberler</h2>
+        <p class="section-lede" data-lang="en">Written for people already on a GLP-1, each one citing where the information came from — the manufacturer instructions, the FDA, MedlinePlus. None of it replaces what your own clinician tells you.</p>
+        <p class="section-lede" data-lang="tr">GLP-1 kullanan kişiler için yazıldı; her biri bilginin nereden geldiğini yazıyor — üretici talimatları, FDA, MedlinePlus. Hiçbiri kendi hekiminizin söylediğinin yerine geçmez.</p>
+
+        <div class="article-list">
+          <a class="article-card" href="/articles/what-is-glp1">
+            <h3 data-lang="en">What is GLP-1?</h3>
+            <h3 data-lang="tr">GLP-1 nedir?</h3>
+            <p data-lang="en">The hormone your gut releases after eating, what the medications copy, and why appetite changes.</p>
+            <p data-lang="tr">Bağırsağınızın yemekten sonra saldığı hormon, ilaçların neyi taklit ettiği ve iştahın neden değiştiği.</p>
+          </a>
+          <a class="article-card" href="/articles/how-to-inject-glp1">
+            <h3 data-lang="en">How to inject a GLP-1 pen</h3>
+            <h3 data-lang="tr">GLP-1 kalemi nasıl yapılır</h3>
+            <p data-lang="en">Preparing the pen, choosing a site, the injection itself, and what to do with the needle afterwards.</p>
+            <p data-lang="tr">Kalemi hazırlamak, bölge seçmek, enjeksiyonun kendisi ve sonrasında iğneyle ne yapılacağı.</p>
+          </a>
+          <a class="article-card" href="/articles/glp1-injection-sites">
+            <h3 data-lang="en">Where to inject, and how to rotate</h3>
+            <h3 data-lang="tr">Nereye yapılır, rotasyon nasıl olur</h3>
+            <p data-lang="en">Abdomen, thigh and upper arm are the approved sites. Which to choose and why the spot must move.</p>
+            <p data-lang="tr">Karın, uyluk ve üst kol onaylı bölgeler. Hangisini seçmeli ve nokta neden değişmeli.</p>
+          </a>
+          <a class="article-card" href="/articles/glp1-side-effects">
+            <h3 data-lang="en">Common side effects</h3>
+            <h3 data-lang="tr">Yaygın yan etkiler</h3>
+            <p data-lang="en">Nausea, constipation and fatigue — what tends to help, and the signs that need a doctor now.</p>
+            <p data-lang="tr">Bulantı, kabızlık ve yorgunluk — neyin yardımcı olduğu ve hemen doktor gerektiren belirtiler.</p>
+          </a>
+          <a class="article-card" href="/articles/glp1-patches">
+            <h3 data-lang="en">Do GLP-1 patches exist?</h3>
+            <h3 data-lang="tr">GLP-1 bantları var mı?</h3>
+            <p data-lang="en">No patch is approved by the FDA or EMA. What is sold under that name, and what the evidence says.</p>
+            <p data-lang="tr">FDA veya EMA onaylı bant yok. Bu adla satılanlar neler ve kanıtlar ne diyor.</p>
+          </a>
+          <a class="article-card" href="/articles">
+            <h3 data-lang="en">All guides</h3>
+            <h3 data-lang="tr">Tüm rehberler</h3>
+            <p data-lang="en">The full library, with the reference list at the bottom of every page.</p>
+            <p data-lang="tr">Tüm kütüphane; her sayfanın altında kaynak listesiyle.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <section id="faq" class="section section-light">
       <div class="container">
         <h2 class="section-title" data-lang="en">Frequently asked questions</h2>
@@ -495,12 +641,6 @@
             <p data-lang="tr">Sağlık kayıtlarınız — dozlar, kilo, yan etkiler, fotoğraflar — cihazınızda tutulur ve hiçbir yere yüklenmez. Hesap yok, bulut senkronu yok ve uygulama hiçbir reklam göstermez. Uygulamanın geliştirilebilmesi için anonim kullanım istatistikleri toplanır; bunlar hiçbir zaman ilaç adı veya belirti taşımaz. Dozify ayrıca bir kurulumun kendi App Store veya Meta kampanyalarından gelip gelmediğini ölçer; bu ölçüm Apple'ın takip izninin arkasında çalışır ve sağlık kayıtlarınızı asla içermez. Uygulamayı silerseniz kayıtlarınız da silinir.</p>
           </div>
 
-          <div class="faq-item">
-            <h3 data-lang="en">I already track in another app. Can I bring my history?</h3>
-            <h3 data-lang="tr">Zaten başka bir uygulamada takip ediyorum. Geçmişimi getirebilir miyim?</h3>
-            <p data-lang="en">Yes. Export your data from the app you are leaving, open Settings &rarr; Import in Dozify, and pick the file. Dozify shows you what it found before writing anything — how many injections, weights and notes — and only writes once you approve. A backup of your existing Dozify data is taken automatically first, so nothing is at risk if the file turns out to be something else.</p>
-            <p data-lang="tr">Evet. Ayrıldığınız uygulamadan verilerinizi dışa aktarın, Dozify'da Ayarlar &rarr; İçe aktar'ı açın ve dosyayı seçin. Dozify hiçbir şey yazmadan önce ne bulduğunu gösterir — kaç enjeksiyon, kaç kilo kaydı, kaç not — ve ancak siz onayladıktan sonra yazar. Mevcut Dozify verileriniz için önce otomatik yedek alınır; dosya beklediğiniz şey çıkmazsa hiçbir şey riske girmez.</p>
-          </div>
 
           <div class="faq-item">
             <h3 data-lang="en">Which medications does Dozify support?</h3>
@@ -540,8 +680,8 @@
           <div class="faq-item">
             <h3 data-lang="en">Can I bring my data from another GLP-1 app?</h3>
             <h3 data-lang="tr">Verilerimi başka bir GLP-1 uygulamasından getirebilir miyim?</h3>
-            <p data-lang="en">Yes, and it is free. Dozify reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column. It shows you what it found before writing anything, skips records you already have, and backs up your device first. <a href="/switch-glp1-tracker-app">More on the switching page</a>.</p>
-            <p data-lang="tr">Evet, üstelik ücretsiz. Dozify; Shotsy, Glapp, GLPzy ve GlucoPal dışa aktarımlarını ve tarih sütunu olan her CSV'yi okur. Hiçbir şey yazmadan önce ne bulduğunu gösterir, sende zaten olan kayıtları atlar ve önce cihazına yedek alır. <a href="/switch-glp1-tracker-app">geçiş sayfasında</a>.</p>
+            <p data-lang="en">Yes, and it is free. Export from the app you are leaving, open Settings &rarr; Import in Dozify and pick the file. It reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column, shows you what it found — how many injections, weights and notes — before writing anything, skips records you already have, and backs up your existing data first. <a href="/switch-glp1-tracker-app">More on the switching page</a>.</p>
+            <p data-lang="tr">Evet, üstelik ücretsiz. Ayrıldığınız uygulamadan dışa aktarın, Dozify'da Ayarlar &rarr; İçe aktar'ı açıp dosyayı seçin. Shotsy, Glapp, GLPzy ve GlucoPal dışa aktarımlarını ve tarih sütunu olan her CSV'yi okur; hiçbir şey yazmadan önce ne bulduğunu — kaç enjeksiyon, kaç kilo kaydı, kaç not — gösterir, sizde zaten olan kayıtları atlar ve önce mevcut verinizin yedeğini alır. <a href="/switch-glp1-tracker-app">Ayrıntılar geçiş sayfasında</a>.</p>
           </div>
 
           <div class="faq-item">
