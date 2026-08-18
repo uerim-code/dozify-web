@@ -36,6 +36,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/how-to-inject-glp1"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/injection-site-lumps</loc>
+    <lastmod>2026-08-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/injection-site-lumps"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/enjeksiyon-bolgesi-sertlesme"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/injection-site-lumps"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/missed-glp1-dose</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/missed-glp1-dose"/>
@@ -58,7 +65,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/articles</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>
@@ -107,7 +114,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/injection-site-tracker</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/injection-site-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/enjeksiyon-bolgesi-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/injection-site-tracker"/>
@@ -191,7 +198,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/enjeksiyon-bolgesi-takibi</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/injection-site-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/enjeksiyon-bolgesi-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/injection-site-tracker"/>
@@ -244,6 +251,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/kvkk"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/kvkk"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/kvkk"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/makaleler/enjeksiyon-bolgesi-sertlesme</loc>
+    <lastmod>2026-08-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/injection-site-lumps"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/enjeksiyon-bolgesi-sertlesme"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/injection-site-lumps"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/glp1-bantlari</loc>
@@ -303,7 +317,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>

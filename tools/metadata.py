@@ -63,6 +63,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("bilgi", "ozempic kalemi nasıl saklanır")},
     "articles/glp1-appointment-checklist": {"en": ("preparation", "what to ask doctor glp-1 follow up"),
                                      "tr": ("hazırlık", "glp1 kontrol randevusunda ne sorulur")},
+    "articles/injection-site-lumps": {"en": ("information, concern", "lump at glp-1 injection site"),
+                                     "tr": ("bilgi, endişe", "enjeksiyon yerinde sertlik")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -210,5 +212,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Ten minutes to cover three months. What to have ready, the questions the NIH's own patient pages suggest asking, and what a checklist cannot decide."),
         "tr": ("GLP-1 Kontrol Randevusu İçin Kontrol Listesi",
                "Üç ayı anlatmak için on dakika. Neler hazır olmalı, NIH'in hasta sayfalarının önerdiği sorular ve bir listenin karar veremeyeceği şeyler."),
+    },
+    "articles/injection-site-lumps": {
+        "en": ("A Lump at the Injection Site: What Labels Report",
+               "Injection site reactions are listed for these medicines, and 1% of the placebo group reported them too. What the labels say, and when to show someone."),
+        "tr": ("Enjeksiyon Yerinde Sertlik: Etiketler Ne Diyor",
+               "Bölge reaksiyonları bu ilaçların etiketinde yazılı; plasebo grubunun %1'i de bildirmiş. Etiketler ne diyor ve ne zaman birine gösterilmeli."),
     },
 }

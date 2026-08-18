@@ -20,6 +20,7 @@
 | `/en` | `/en/why` | what the app refuses to do | ürün sayfaları arası — bitişik özelliğe geçiş | why dozify |
 | `/en` | `/en/switch-glp1-tracker-app` | More on the switching page | ürün sayfaları arası — bitişik özelliğe geçiş | shotsy alternative import data |
 | `/en/articles` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles` | `/en/articles/injection-site-lumps` | Injecting A lump where you injected: what the labels report The trial numbers, why the lipohypertrophy research is about a different medicine, and what belongs in front of a clinician. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | lump at glp-1 injection site |
 | `/en/articles` | `/en/articles/glp1-appointment-checklist` | Appointments A checklist for a GLP-1 follow-up appointment What to have ready, and the questions the NIH's own patient pages suggest asking about a medicine you are taking. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | what to ask doctor glp-1 follow up |
 | `/en/articles` | `/en/articles/storing-glp1-pens` | Routine Storing a GLP-1 pen: fridge, counter, day count Fifty-six days for one pen and twenty-eight for another of the same medicine — and one that must never go back in the fridge. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how to store ozempic pen fridge |
 | `/en/articles` | `/en/articles/missed-glp1-dose` | Routine Missed a GLP-1 dose? What each leaflet says Five days for one product, four for another, two for a third — and for one, skip it. Each product's own instruction, quoted, with the source. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | missed glp-1 dose what to do |
@@ -54,6 +55,11 @@
 | `/en/articles/how-to-inject-glp1` | `/en/glp1-shot-tracker` | See how injection logging works → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 shot tracker |
 | `/en/articles/how-to-inject-glp1` | `/en/articles/missed-glp1-dose` | And if a dose is late → | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | missed glp-1 dose what to do |
 | `/en/articles/how-to-inject-glp1` | `/en/articles/storing-glp1-pens` | And where the pen lives between doses → | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how to store ozempic pen fridge |
+| `/en/articles/injection-site-lumps` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles/injection-site-lumps` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
+| `/en/articles/injection-site-lumps` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
+| `/en/articles/injection-site-lumps` | `/en/articles/glp1-injection-sites` | The sites guide | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 injection sites |
+| `/en/articles/injection-site-lumps` | `/en/injection-site-tracker` | See how site rotation works → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | injection site tracker app |
 | `/en/articles/missed-glp1-dose` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
 | `/en/articles/missed-glp1-dose` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
 | `/en/articles/missed-glp1-dose` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
@@ -114,6 +120,7 @@
 | `/en/injection-site-tracker` | `/en/articles/glp1-injection-sites` | where to inject and how to rotate | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 injection sites |
 | `/en/injection-site-tracker` | `/en/articles/how-to-inject-glp1` | how to inject a pen, step by step | üründen makaleye — iddiayı kaynaklı içerikle destekler | how to inject glp-1 |
 | `/en/injection-site-tracker` | `/en/articles/glp1-side-effects` | managing common side effects | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 side effects |
+| `/en/injection-site-tracker` | `/en/articles/injection-site-lumps` | what the labels report about lumps at a site | üründen makaleye — iddiayı kaynaklı içerikle destekler | lump at glp-1 injection site |
 | `/en/injection-site-tracker` | `/en/glp1-shot-tracker` | the shot tracker | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 shot tracker |
 | `/en/injection-site-tracker` | `/en/glp1-side-effect-journal` | the side-effect journal | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 side effect tracker |
 | `/en/kvkk` | `/en` | ← Back to home | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 tracker app |
@@ -176,6 +183,7 @@
 | `/tr/enjeksiyon-bolgesi-takibi` | `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | nereye yapılır, rotasyon nasıl olur | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 enjeksiyon bölgeleri |
 | `/tr/enjeksiyon-bolgesi-takibi` | `/tr/makaleler/glp1-nasil-yapilir` | kalemin adım adım nasıl yapıldığı | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 iğnesi nasıl yapılır |
 | `/tr/enjeksiyon-bolgesi-takibi` | `/tr/makaleler/glp1-yan-etkileri` | yaygın yan etkilerle baş etmek | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 yan etkileri |
+| `/tr/enjeksiyon-bolgesi-takibi` | `/tr/makaleler/enjeksiyon-bolgesi-sertlesme` | bölgedeki sertlik hakkında etiketlerin ne dediği | üründen makaleye — iddiayı kaynaklı içerikle destekler | enjeksiyon yerinde sertlik |
 | `/tr/enjeksiyon-bolgesi-takibi` | `/tr/glp1-igne-takibi` | iğne takibi | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 iğne takip uygulaması |
 | `/tr/enjeksiyon-bolgesi-takibi` | `/tr/yan-etki-gunlugu` | yan etki günlüğü | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 yan etki günlüğü |
 | `/tr/flakon-takibi` | `/tr` | Ana sayfa | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
@@ -217,6 +225,7 @@
 | `/tr/kvkk` | `/tr` | ← Ana sayfaya dön | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
 | `/tr/kvkk` | `/tr/gizlilik` | Gizlilik Politikası | ürün sayfaları arası — bitişik özelliğe geçiş | dozify gizlilik politikası |
 | `/tr/makaleler` | `/tr` | Ana Sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler` | `/tr/makaleler/enjeksiyon-bolgesi-sertlesme` | Enjeksiyon Enjeksiyon yaptığınız yerde sertlik: etiketler ne diyor Çalışma sayıları, lipohipertrofi araştırmasının neden başka bir ilacı anlattığı ve bir hekime ne götürülmeli. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | enjeksiyon yerinde sertlik |
 | `/tr/makaleler` | `/tr/makaleler/randevu-kontrol-listesi` | Randevu GLP-1 kontrol randevusu için kontrol listesi Neler hazır olmalı ve NIH'in hasta sayfalarının, kullandığınız ilaç hakkında sormayı önerdiği sorular. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 kontrol randevusunda ne sorulur |
 | `/tr/makaleler` | `/tr/makaleler/glp1-kalemi-saklama` | Rutin GLP-1 kalemini saklamak: dolap, tezgâh, gün sayısı Aynı ilacın bir kaleminde 56 gün, ötekinde 28 — ve birinde buzdolabına geri dönüş yok. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | ozempic kalemi nasıl saklanır |
 | `/tr/makaleler` | `/tr/makaleler/kacirilan-glp1-dozu` | Rutin GLP-1 dozunu kaçırdınız mı? Prospektüsler ne diyor Bir üründe beş gün, birinde dört, birinde iki — birinde ise atla. Her ürünün kendi talimatı, alıntısıyla ve kaynağıyla. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 dozunu kaçırdım ne yapmalıyım |
@@ -225,6 +234,11 @@
 | `/tr/makaleler` | `/tr/makaleler/glp1-nasil-yapilir` | Nasıl yapılır GLP-1 kalemi nasıl enjekte edilir: adım adım Basit, genel bir anlatım — kalemi hazırlama, enjeksiyon adımları, sonrası ve kaçınılması gereken yaygın hatalar. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 iğnesi nasıl yapılır |
 | `/tr/makaleler` | `/tr/makaleler/glp1-yan-etkileri` | Yan etkiler Yaygın GLP-1 yan etkilerini yönetmek Bulantı, yorgunluk ve diğer yaygın etkiler — rahat kalmak ve doktorunuzla ne zaman konuşmanız gerektiğini bilmek için pratik ipuçları. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 yan etkileri |
 | `/tr/makaleler` | `/tr/makaleler/glp1-bantlari` | Formlar GLP-1 bantları: nereye yapıştırılır, gerçekten var mı? Onaylı hiçbir GLP-1 ilacı cilt bandı değil. Bu adla satılan ürünler gerçekte ne, bu moleküller için cilt yoluyla iletim neden işlemiyor ve reçete gerçekte hangi formda geliyor. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 bantları |
+| `/tr/makaleler/enjeksiyon-bolgesi-sertlesme` | `/tr` | Ana sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler/enjeksiyon-bolgesi-sertlesme` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
+| `/tr/makaleler/enjeksiyon-bolgesi-sertlesme` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
+| `/tr/makaleler/enjeksiyon-bolgesi-sertlesme` | `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | Bölgeler rehberi | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 enjeksiyon bölgeleri |
+| `/tr/makaleler/enjeksiyon-bolgesi-sertlesme` | `/tr/enjeksiyon-bolgesi-takibi` | Bölge rotasyonu nasıl çalışıyor → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | enjeksiyon bölgesi takibi |
 | `/tr/makaleler/glp1-bantlari` | `/tr` | Ana sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
 | `/tr/makaleler/glp1-bantlari` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
 | `/tr/makaleler/glp1-bantlari` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |

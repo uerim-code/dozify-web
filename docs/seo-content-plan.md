@@ -94,7 +94,7 @@ okuyucunun bulunduğu yere göre acil numara.
 
 ## 2. çeyrek — küme derinleştirme (5-8. hafta)
 
-### 5. hafta — Enjeksiyon bölgesinde sertleşme
+### 5. hafta — Enjeksiyon bölgesinde sertleşme ✅ YAYINLANDI (19 Ağu 2026)
 - **Niyet:** bilgi, endişe · **Küme:** injection-site rotation
 - **EN sorgu:** lump at glp-1 injection site · **TR sorgu:** enjeksiyon yerinde sertlik
 - **URL:** `/en/articles/injection-site-lumps` · `/tr/makaleler/enjeksiyon-bolgesi-sertlesme`
@@ -107,7 +107,14 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Bağlanacak ürün sayfası:** `/injection-site-tracker`
 - **Kaçınılacak iddia:** teşhis, "kendi kendine geçer", masaj/ısı önerisi
 - **Öncelik:** 5
-
+- **Sonuç:** `/en/articles/injection-site-lumps` ·
+  `/tr/makaleler/enjeksiyon-bolgesi-sertlesme`. **Planın varsayımı yanlıştı ve
+  yazı bunun üzerine kuruldu:** lipohipertrofi literatürü insüline özgü
+  lipojenik etkiyi anlatıyor, GLP-1 reseptör agonistlerinde o etki yok. Bu
+  bulguları buraya taşıyan (ve arama sonuçlarını dolduran) her metin başka bir
+  ilacı anlatıyor; yazı bunu açıkça söylüyor. Yerine etiketlerin kendi
+  bildirdiği sayılar kondu: Ozempic %0,2; Wegovy %1,4 — **plasebo grubunda %1**.
+  Rotasyon talimatı alıntılandı ama etiketlerin VERMEDİĞİ gerekçe uydurulmadı.
 ### 6. hafta — Hatırlatıcı, haftası değişen insan için
 - **Niyet:** işlemsel · **Küme:** GLP-1 reminders
 - **EN sorgu:** glp-1 weekly reminder shift work travel · **TR sorgu:** glp1 hatırlatıcı vardiya seyahat
