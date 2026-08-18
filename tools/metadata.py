@@ -59,6 +59,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("bilgi", "glp1 bantları")},
     "articles/missed-glp1-dose":    {"en": ("information, urgent", "missed glp-1 dose what to do"),
                                      "tr": ("bilgi, acil", "glp1 dozunu kaçırdım ne yapmalıyım")},
+    "articles/storing-glp1-pens":   {"en": ("information", "how to store ozempic pen fridge"),
+                                     "tr": ("bilgi", "ozempic kalemi nasıl saklanır")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -194,5 +196,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Five days for one product, four for another, two for a third — and for one, skip it. What each GLP-1's own instructions say about a late dose, quoted."),
         "tr": ("GLP-1 Dozunu Kaçırdım: Prospektüs Ne Diyor?",
                "Bir üründe beş gün, birinde dört, birinde iki — birinde ise atla. Her GLP-1'in geciken doz için kendi talimatının ne dediği, alıntılarıyla."),
+    },
+    "articles/storing-glp1-pens": {
+        "en": ("Storing a GLP-1 Pen: Fridge, Counter and Days",
+               "Fifty-six days for one pen and twenty-eight for another of the same medicine, and one that must never go back in the fridge. Each label, quoted."),
+        "tr": ("GLP-1 Kalemi Nasıl Saklanır: Dolap ve Gün",
+               "Aynı ilacın bir kaleminde 56 gün, ötekinde 28; birinde ise buzdolabına geri dönüş yok. Her etiket, alıntısıyla ve kaynağıyla."),
     },
 }

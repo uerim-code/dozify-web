@@ -34,7 +34,7 @@ okuyucunun bulunduğu yere göre acil numara.
   ara; Rybelsus'ta talimat doğrudan "atla". Hepsi MedlinePlus'tan alıntı,
   kaynakları sayfada.
 
-### 2. hafta — Kalemi nasıl saklamalı
+### 2. hafta — Kalemi nasıl saklamalı ✅ YAYINLANDI (18 Ağu 2026)
 - **Niyet:** bilgi · **Küme:** vial and pen inventory
 - **EN sorgu:** how to store ozempic pen fridge · **TR sorgu:** ozempic kalemi nasıl saklanır
 - **URL:** `/en/articles/storing-glp1-pens` · `/tr/makaleler/glp1-kalemi-saklama`
@@ -47,6 +47,15 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Kaçınılacak iddia:** "şu kadar süre dışarıda kalmışsa yine de kullanılır"
   — karar eczacıya bırakılır
 - **Öncelik:** 2 — düşük rekabet, flakon takibi sayfasına doğrudan bağlanıyor
+- **Sonuç:** `/en/articles/storing-glp1-pens` · `/tr/makaleler/glp1-kalemi-saklama`.
+  Beklenmedik bulgu: kullanım süresi ilaca göre değil **cihaza** göre değişiyor.
+  Semaglutid çok dozlu kalemde ilk kullanımdan sonra 56 gün, tek dozlukta
+  kapak açılmadan 28 gün — Ozempic de Wegovy de her iki biçimde satılıyor,
+  yani cevap markada değil kutuda. Tirzepatid 21 gün ve **tek yönlü**: oda
+  sıcaklığında durduysa buzdolabına geri konmuyor. Dulaglutid 14 gün,
+  liraglutid 30 günde at, tabletler buzdolabına hiç girmiyor. Ozempic ve
+  Wegovy rakamları FDA etiketinden (DailyMed) doğrudan alındı; gerisi
+  MedlinePlus.
 
 ### 3. hafta — Shotsy'den verini nasıl çıkarırsın
 - **Niyet:** işlemsel · **Küme:** switching from another tracking app

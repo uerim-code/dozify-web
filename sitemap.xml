@@ -36,6 +36,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/missed-glp1-dose"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/storing-glp1-pens</loc>
+    <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/storing-glp1-pens"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-kalemi-saklama"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/storing-glp1-pens"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/what-is-glp1</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/what-is-glp1"/>
@@ -244,6 +251,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-injection-sites"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-enjeksiyon-bolgeleri"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-injection-sites"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/makaleler/glp1-kalemi-saklama</loc>
+    <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/storing-glp1-pens"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-kalemi-saklama"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/storing-glp1-pens"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/glp1-nasil-yapilir</loc>

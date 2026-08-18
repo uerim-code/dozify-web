@@ -10,6 +10,7 @@
 | `/en/articles/glp1-side-effects` | en | information | glp-1 side effects | Managing Common GLP-1 Side Effects: What Helps | 46 | Nausea, constipation and fatigue are the common ones. What tends to help, how long they usually last, and the signs that need a doctor. | 135 |
 | `/en/articles/how-to-inject-glp1` | en | information | how to inject glp-1 | How to Inject a GLP-1 Pen: A Step-by-Step Guide | 47 | Preparing the pen, choosing a site, the injection itself and what to do afterwards — following the manufacturer instructions, with sources. | 139 |
 | `/en/articles/missed-glp1-dose` | en | information, urgent | missed glp-1 dose what to do | Missed a GLP-1 Dose? What Each Leaflet Says | 43 | Five days for one product, four for another, two for a third — and for one, skip it. What each GLP-1's own instructions say about a late dose, quoted. | 150 |
+| `/en/articles/storing-glp1-pens` | en | information | how to store ozempic pen fridge | Storing a GLP-1 Pen: Fridge, Counter and Days | 45 | Fifty-six days for one pen and twenty-eight for another of the same medicine, and one that must never go back in the fridge. Each label, quoted. | 144 |
 | `/en/articles/what-is-glp1` | en | information | what is glp-1 | What Is GLP-1? The Hormone and How It Works | 43 | GLP-1 is a hormone your gut releases after eating. What it does, what the medications copy, and why appetite changes — with sources. | 132 |
 | `/en/editorial-policy` | en | trust | who writes dozify health content | Editorial Policy — Who Writes These Guides | 42 | Who writes the guides on this site, which sources are allowed, what each date on an article means, and how to report something that is wrong. | 141 |
 | `/en/glp1-appointment-report` | en | app search | glp-1 doctor report pdf | GLP-1 Doctor Report — Walk In With a Summary | 44 | Ten minutes to explain three months. Pick a date range and what to include, and Dozify builds a clean PDF of doses, weight and side effects. | 140 |
@@ -41,6 +42,7 @@
 | `/tr/makaleler` | tr | bilgi merkezi | glp1 rehberleri | GLP-1 Rehberleri — Kaynak Gösterilmiş Yazılar | 45 | Enjeksiyon tekniği, yan etkiler, saklama ve ilaçların ne yaptığı üzerine sade rehberler; her biri bilginin nereden geldiğini yazıyor. | 133 |
 | `/tr/makaleler/glp1-bantlari` | tr | bilgi | glp1 bantları | GLP-1 Bantları: Var mı, İşe Yarıyor mu? Kanıtlar | 48 | FDA veya EMA onaylı bir GLP-1 bandı yok. Bu adla satılanlar neler, kanıtlar ne diyor, bu soru neden sık soruluyor — kaynaklarıyla anlatılıyor. | 142 |
 | `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | tr | bilgi | glp1 enjeksiyon bölgeleri | GLP-1 Enjeksiyon Bölgeleri: Nereye ve Nasıl Rotasyon | 52 | Karın, uyluk ve üst kol onaylı bölgelerdir. Hangisini seçmeli, tam noktanın neden her seferinde değişmesi gerektiği ve nelerden kaçınmalı. | 138 |
+| `/tr/makaleler/glp1-kalemi-saklama` | tr | bilgi | ozempic kalemi nasıl saklanır | GLP-1 Kalemi Nasıl Saklanır: Dolap ve Gün | 41 | Aynı ilacın bir kaleminde 56 gün, ötekinde 28; birinde ise buzdolabına geri dönüş yok. Her etiket, alıntısıyla ve kaynağıyla. | 125 |
 | `/tr/makaleler/glp1-nasil-yapilir` | tr | bilgi | glp1 iğnesi nasıl yapılır | GLP-1 Kalemi Nasıl Yapılır? Adım Adım Anlatım | 45 | Kalemi hazırlamak, bölge seçmek, enjeksiyonun kendisi ve sonrasında ne yapılacağı — üretici talimatlarına dayanarak, kaynaklarıyla. | 131 |
 | `/tr/makaleler/glp1-nedir` | tr | bilgi | glp1 nedir | GLP-1 Nedir? Hormonun Görevi ve Nasıl Çalıştığı | 47 | GLP-1, bağırsağın yemekten sonra saldığı bir hormondur. Ne yaptığı, ilaçların neyi taklit ettiği ve iştahın neden değiştiği — kaynaklarıyla. | 140 |
 | `/tr/makaleler/glp1-yan-etkileri` | tr | bilgi | glp1 yan etkileri | Yaygın GLP-1 Yan Etkileri: Ne İşe Yarıyor? | 42 | Bulantı, kabızlık ve yorgunluk en yaygın olanlar. Neyin yardımcı olduğu, genelde ne kadar sürdüğü ve doktor gerektiren belirtiler. | 130 |
@@ -59,6 +61,7 @@
 | `/en/articles/glp1-side-effects` | en | Organization, WebSite, Person, MedicalWebPage, BreadcrumbList |
 | `/en/articles/how-to-inject-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/missed-glp1-dose` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/en/articles/storing-glp1-pens` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/what-is-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/editorial-policy` | en | Organization, WebSite, WebPage, BreadcrumbList |
 | `/en/glp1-appointment-report` | en | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
@@ -90,6 +93,7 @@
 | `/tr/makaleler` | tr | Organization, WebSite, CollectionPage, BreadcrumbList |
 | `/tr/makaleler/glp1-bantlari` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/tr/makaleler/glp1-kalemi-saklama` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/glp1-nasil-yapilir` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/glp1-nedir` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/glp1-yan-etkileri` | tr | Organization, WebSite, Person, MedicalWebPage, BreadcrumbList |
