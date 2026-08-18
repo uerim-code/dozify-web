@@ -29,6 +29,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/how-to-inject-glp1"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/missed-glp1-dose</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/missed-glp1-dose"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/kacirilan-glp1-dozu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/missed-glp1-dose"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/what-is-glp1</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/what-is-glp1"/>
@@ -258,6 +264,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-side-effects"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-yan-etkileri"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-side-effects"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/makaleler/kacirilan-glp1-dozu</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/missed-glp1-dose"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/kacirilan-glp1-dozu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/missed-glp1-dose"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler</loc>

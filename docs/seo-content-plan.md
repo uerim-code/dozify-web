@@ -11,7 +11,7 @@ okuyucunun bulunduğu yere göre acil numara.
 
 ## 1. çeyrek — ürüne en yakın olanlar (1-4. hafta)
 
-### 1. hafta — Dozunu kaçırdığında ne oluyor
+### 1. hafta — Dozunu kaçırdığında ne oluyor ✅ YAYINLANDI (18 Ağu 2026)
 - **Niyet:** bilgi, yüksek aciliyet · **Küme:** injection routine
 - **EN sorgu:** missed glp-1 dose what to do · **TR sorgu:** glp1 dozunu kaçırdım ne yapmalıyım
 - **URL:** `/en/articles/missed-glp1-dose` · `/tr/makaleler/kacirilan-glp1-dozu`
@@ -26,6 +26,13 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Kaçınılacak iddia:** "şu kadar saat içinde yaparsan sorun olmaz",
   telafi dozu önerisi, aralık değiştirme tavsiyesi
 - **Öncelik:** 1 — arama hacmi yüksek, rakiplerin çoğu kaynaksız yazmış
+- **Sonuç:** `/en/articles/missed-glp1-dose` · `/tr/makaleler/kacirilan-glp1-dozu`.
+  Beş ürünün penceresi birbirinden farklı çıktı ve yazının omurgası bu oldu:
+  semaglutid diyabette 5 gün, kilo yönetiminde 2 gün — aynı etken madde, farklı
+  talimat; tirzepatid 4 gün + "iki dozu 3 gün içinde yapma"; dulaglutid sonraki
+  doza 3 günden az kaldıysa atla; liraglutid günlük ve 3 gün unutulursa doktoru
+  ara; Rybelsus'ta talimat doğrudan "atla". Hepsi MedlinePlus'tan alıntı,
+  kaynakları sayfada.
 
 ### 2. hafta — Kalemi nasıl saklamalı
 - **Niyet:** bilgi · **Küme:** vial and pen inventory

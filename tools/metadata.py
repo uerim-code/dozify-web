@@ -57,6 +57,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("bilgi", "glp1 yan etkileri")},
     "articles/glp1-patches":        {"en": ("information", "glp-1 patches"),
                                      "tr": ("bilgi", "glp1 bantları")},
+    "articles/missed-glp1-dose":    {"en": ("information, urgent", "missed glp-1 dose what to do"),
+                                     "tr": ("bilgi, acil", "glp1 dozunu kaçırdım ne yapmalıyım")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -186,5 +188,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "No GLP-1 patch is approved by the FDA or EMA. What is sold under that name, what the evidence says, and why the question comes up."),
         "tr": ("GLP-1 Bantları: Var mı, İşe Yarıyor mu? Kanıtlar",
                "FDA veya EMA onaylı bir GLP-1 bandı yok. Bu adla satılanlar neler, kanıtlar ne diyor, bu soru neden sık soruluyor — kaynaklarıyla anlatılıyor."),
+    },
+    "articles/missed-glp1-dose": {
+        "en": ("Missed a GLP-1 Dose? What Each Leaflet Says",
+               "Five days for one product, four for another, two for a third — and for one, skip it. What each GLP-1's own instructions say about a late dose, quoted."),
+        "tr": ("GLP-1 Dozunu Kaçırdım: Prospektüs Ne Diyor?",
+               "Bir üründe beş gün, birinde dört, birinde iki — birinde ise atla. Her GLP-1'in geciken doz için kendi talimatının ne dediği, alıntılarıyla."),
     },
 }
