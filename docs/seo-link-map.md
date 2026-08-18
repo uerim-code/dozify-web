@@ -13,6 +13,8 @@
 | `/en` | `/en/articles/glp1-injection-sites` | Where to inject, and how to rotate Abdomen, thigh and upper arm are the approved sites. Which to choose and why the spot must move. | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 injection sites |
 | `/en` | `/en/articles/glp1-side-effects` | Common side effects Nausea, constipation and fatigue — what tends to help, and the signs that need a doctor now. | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 side effects |
 | `/en` | `/en/articles/glp1-patches` | Do GLP-1 patches exist? No patch is approved by the FDA or EMA. What is sold under that name, and what the evidence says. | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 patches |
+| `/en` | `/en/articles/missed-glp1-dose` | Missed a dose? Five days for one product, two for another of the same medicine. What each leaflet says, quoted. | üründen makaleye — iddiayı kaynaklı içerikle destekler | missed glp-1 dose what to do |
+| `/en` | `/en/articles/storing-glp1-pens` | Storing a pen Fridge, counter, and the day count — which depends on the device, not only the medicine. | üründen makaleye — iddiayı kaynaklı içerikle destekler | how to store ozempic pen fridge |
 | `/en` | `/en/articles` | All guides The full library, with the reference list at the bottom of every page. | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 guides |
 | `/en` | `/en/support` | support page | ürün sayfaları arası — bitişik özelliğe geçiş | dozify support |
 | `/en` | `/en/why` | what the app refuses to do | ürün sayfaları arası — bitişik özelliğe geçiş | why dozify |
@@ -147,6 +149,8 @@
 | `/tr` | `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | Nereye yapılır, rotasyon nasıl olur Karın, uyluk ve üst kol onaylı bölgeler. Hangisini seçmeli ve nokta neden değişmeli. | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 enjeksiyon bölgeleri |
 | `/tr` | `/tr/makaleler/glp1-yan-etkileri` | Yaygın yan etkiler Bulantı, kabızlık ve yorgunluk — neyin yardımcı olduğu ve hemen doktor gerektiren belirtiler. | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 yan etkileri |
 | `/tr` | `/tr/makaleler/glp1-bantlari` | GLP-1 bantları var mı? FDA veya EMA onaylı bant yok. Bu adla satılanlar neler ve kanıtlar ne diyor. | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 bantları |
+| `/tr` | `/tr/makaleler/kacirilan-glp1-dozu` | Doz kaçtıysa Bir üründe beş gün, aynı ilacın diğerinde iki. Her prospektüsün ne dediği, alıntısıyla. | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 dozunu kaçırdım ne yapmalıyım |
+| `/tr` | `/tr/makaleler/glp1-kalemi-saklama` | Kalemi saklamak Buzdolabı, tezgâh ve gün sayısı — bu, yalnızca ilaca değil cihaza bağlı. | üründen makaleye — iddiayı kaynaklı içerikle destekler | ozempic kalemi nasıl saklanır |
 | `/tr` | `/tr/makaleler` | Tüm rehberler Tüm kütüphane; her sayfanın altında kaynak listesiyle. | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 rehberleri |
 | `/tr` | `/tr/destek` | destek sayfasında | ürün sayfaları arası — bitişik özelliğe geçiş | dozify destek |
 | `/tr` | `/tr/neden-dozify` | uygulamanın yapmayı reddettikleri | ürün sayfaları arası — bitişik özelliğe geçiş | neden dozify |
