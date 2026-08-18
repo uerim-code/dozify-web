@@ -69,12 +69,22 @@ GSC + ASC'den, her pazartesi:
 | Sayfa bazında App Store tıklaması | ASC → App Analytics → Kampanyalar | Hangi landing page kurulum getiriyor |
 | Organik → App Store oranı | GSC tıklama ÷ ASC ürün sayfası görüntülemesi | Sayfa bazında |
 
-## Yayından hemen sonra yapılacaklar
+## Yayın sonrası — 18 Ağustos 2026'da yapılanlar
 
-1. `https://dozify.app/sitemap.xml` GSC'ye gönderilir (tam URL).
-2. Şu URL'ler URL denetiminden elle indekslemeye verilir — yeni ya da ağır
-   değişmiş olanlar: `/en`, `/tr`, `/en/editorial-policy`, `/tr/yayin-ilkeleri`
-   ve sekiz landing page'in iki dili. Aralarında 20-30 saniye bırakılır.
-3. `python3 tools/seo-gate.py --live` çalıştırılır; 42 sitemap URL'sinin ve
-   hukuki bağlantıların hepsi 200 vermelidir.
-4. Bing Webmaster Tools'a GSC'den içe aktarma yapılır.
+1. ✅ `https://dozify.app/sitemap.xml` gönderildi. GSC aynı gün okudu:
+   **42 keşfedilen sayfa** (önceki gönderim 5 sayfa görüyordu).
+2. ✅ `python3 tools/seo-gate.py --live` temiz — 42 sitemap URL'si ve bütün
+   hukuki bağlantılar 200.
+3. ⚠️ **Elle indeksleme kotası doldu.** Üçü geçti: `/en`, `/tr`,
+   `/en/editorial-policy`. Dördüncüde GSC "Kota Aşıldı — yarın tekrar deneyin"
+   dedi. **Günlük kota sayfa başına değil hesap başına ve düşük**; anlaşılan
+   günde bir avuç istek.
+
+   Sırada bekleyenler (öncelik sırasıyla, yarından itibaren birkaç güne
+   yayılarak): `/tr/yayin-ilkeleri`, `/en/switch-glp1-tracker-app`,
+   `/tr/baska-uygulamadan-gecis`, `/en/glp1-shot-tracker`,
+   `/tr/glp1-igne-takibi`, sonra kalan landing page'ler.
+
+   Bu bir engel değil: sitemap okundu ve 42 URL keşfedildi, Google kendi
+   sırasında tarayacak. Elle istek yalnızca sırayı öne alıyor.
+4. ⬜ Bing Webmaster Tools'a GSC'den içe aktarma — henüz yapılmadı.
