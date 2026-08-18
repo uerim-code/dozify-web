@@ -22,6 +22,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-patches"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/glp1-reminders-that-work</loc>
+    <lastmod>2026-08-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-reminders-that-work"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/ise-yarayan-hatirlatici"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-reminders-that-work"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/glp1-side-effects</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-side-effects"/>
@@ -86,7 +93,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/glp1-shot-tracker</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-shot-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-igne-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-shot-tracker"/>
@@ -226,7 +233,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/glp1-igne-takibi</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-shot-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-igne-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-shot-tracker"/>
@@ -300,6 +307,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-side-effects"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-yan-etkileri"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-side-effects"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/makaleler/ise-yarayan-hatirlatici</loc>
+    <lastmod>2026-08-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-reminders-that-work"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/ise-yarayan-hatirlatici"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-reminders-that-work"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/kacirilan-glp1-dozu</loc>

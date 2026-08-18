@@ -65,6 +65,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("hazırlık", "glp1 kontrol randevusunda ne sorulur")},
     "articles/injection-site-lumps": {"en": ("information, concern", "lump at glp-1 injection site"),
                                      "tr": ("bilgi, endişe", "enjeksiyon yerinde sertlik")},
+    "articles/glp1-reminders-that-work": {"en": ("troubleshooting", "change glp-1 injection day reminder"),
+                                     "tr": ("sorun giderme", "glp1 iğne günü değiştirme hatırlatıcı")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -218,5 +220,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Injection site reactions are listed for these medicines, and 1% of the placebo group reported them too. What the labels say, and when to show someone."),
         "tr": ("Enjeksiyon Yerinde Sertlik: Etiketler Ne Diyor",
                "Bölge reaksiyonları bu ilaçların etiketinde yazılı; plasebo grubunun %1'i de bildirmiş. Etiketler ne diyor ve ne zaman birine gösterilmeli."),
+    },
+    "articles/glp1-reminders-that-work": {
+        "en": ("Moving Your Shot Day, and Reminders That Arrive",
+               "The labels answer \"can I change the day?\" in one conditional line. And a reminder that never appeared is almost always a phone setting, not the app."),
+        "tr": ("İğne Gününü Kaydırmak ve Gelen Hatırlatıcılar",
+               "\"Günü değiştirebilir miyim?\" sorusunu etiketler tek koşullu cümleyle cevaplıyor. Gelmeyen hatırlatıcı ise neredeyse hep telefon ayarıdır."),
     },
 }

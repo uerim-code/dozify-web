@@ -115,7 +115,7 @@ okuyucunun bulunduğu yere göre acil numara.
   ilacı anlatıyor; yazı bunu açıkça söylüyor. Yerine etiketlerin kendi
   bildirdiği sayılar kondu: Ozempic %0,2; Wegovy %1,4 — **plasebo grubunda %1**.
   Rotasyon talimatı alıntılandı ama etiketlerin VERMEDİĞİ gerekçe uydurulmadı.
-### 6. hafta — Hatırlatıcı, haftası değişen insan için
+### 6. hafta — Hatırlatıcı, haftası değişen insan için ✅ YAYINLANDI (19 Ağu 2026)
 - **Niyet:** işlemsel · **Küme:** GLP-1 reminders
 - **EN sorgu:** glp-1 weekly reminder shift work travel · **TR sorgu:** glp1 hatırlatıcı vardiya seyahat
 - **URL:** `/en/articles/glp1-reminders-that-work` · `/tr/makaleler/ise-yarayan-hatirlatici`
@@ -127,7 +127,17 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Bağlanacak ürün sayfası:** `/glp1-shot-tracker`
 - **Kaçınılacak iddia:** gün değiştirme talimatı vermek
 - **Öncelik:** 6
-
+- **Sonuç:** `/en/articles/glp1-reminders-that-work` ·
+  `/tr/makaleler/ise-yarayan-hatirlatici`. Gün değiştirme sorusunun cevabı
+  etiketlerde birebir yazılıymış: Ozempic ve Wegovy "son doz 2 veya daha fazla
+  gün önce yapıldıysa günü değiştirebilirsiniz" diyor. Trulicity'de karşılık
+  gelen madde YOK — yazı bunu da söylüyor ve boşluğu doldurmuyor. Bildirim
+  tarafı: izin, Odak ve Planlanmış Özet; üçü de Ayarlar'da, hiçbiri uygulamayı
+  silip kurmakla düzelmiyor.
+- **ÜRÜN NOTU:** Dozify'ın doz hatırlatıcıları sıradan bildirim olarak
+  planlanıyor (`interruptionLevel` ayarlanmıyor). iOS'ta `timeSensitive`
+  işaretlenirse Odak'ı aşabilir. 1.1.3 adayı — kullanıcıya sorulmadan
+  uygulanmadı.
 ### 7. hafta — Tartı durduğunda trend ne diyor
 - **Niyet:** bilgi · **Küme:** weight and body measurements
 - **EN sorgu:** glp-1 weight loss plateau · **TR sorgu:** glp1 kilo vermeme dönemi
