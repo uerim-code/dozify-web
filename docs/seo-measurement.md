@@ -75,7 +75,20 @@ GSC + ASC'den, her pazartesi:
    **42 keşfedilen sayfa** (önceki gönderim 5 sayfa görüyordu).
 2. ✅ `python3 tools/seo-gate.py --live` temiz — 42 sitemap URL'si ve bütün
    hukuki bağlantılar 200.
-3. ⚠️ **Elle indeksleme kotası doldu.** Üçü geçti: `/en`, `/tr`,
+3. **19 Ağu 2026 — yedi URL daha elle indekslemeye verildi**, kota bugün
+   dolmadı: `/tr/yayin-ilkeleri`, `/en/articles/missed-glp1-dose`,
+   `/tr/makaleler/kacirilan-glp1-dozu`, `/en/articles/storing-glp1-pens`,
+   `/tr/makaleler/glp1-kalemi-saklama`, `/en/articles/injection-site-lumps`,
+   `/tr/makaleler/enjeksiyon-bolgesi-sertlesme`. Kota günlük ve değişken
+   görünüyor — 18 Ağu'da dördüncüde durmuştu (o gün sitemap de gönderilmişti),
+   19 Ağu'da yedisi de geçti.
+
+   Hâlâ bekleyen: `/en/articles/glp1-appointment-checklist` +
+   `/tr/makaleler/randevu-kontrol-listesi` ve sekiz landing page'in iki dili.
+   GSC "Genel Bakış" 19 Ağu'da 9 sayfa dizinde / 6 sayfa dizin dışı diyor;
+   50 URL'nin tamamı sitemap üzerinden keşfedilmiş durumda.
+
+4. ⚠️ **18 Ağu'daki kota notu (referans için):** Üçü geçti: `/en`, `/tr`,
    `/en/editorial-policy`. Dördüncüde GSC "Kota Aşıldı — yarın tekrar deneyin"
    dedi. **Günlük kota sayfa başına değil hesap başına ve düşük**; anlaşılan
    günde bir avuç istek.
