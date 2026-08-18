@@ -61,6 +61,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("bilgi, acil", "glp1 dozunu kaçırdım ne yapmalıyım")},
     "articles/storing-glp1-pens":   {"en": ("information", "how to store ozempic pen fridge"),
                                      "tr": ("bilgi", "ozempic kalemi nasıl saklanır")},
+    "articles/glp1-appointment-checklist": {"en": ("preparation", "what to ask doctor glp-1 follow up"),
+                                     "tr": ("hazırlık", "glp1 kontrol randevusunda ne sorulur")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -202,5 +204,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Fifty-six days for one pen and twenty-eight for another of the same medicine, and one that must never go back in the fridge. Each label, quoted."),
         "tr": ("GLP-1 Kalemi Nasıl Saklanır: Dolap ve Gün",
                "Aynı ilacın bir kaleminde 56 gün, ötekinde 28; birinde ise buzdolabına geri dönüş yok. Her etiket, alıntısıyla ve kaynağıyla."),
+    },
+    "articles/glp1-appointment-checklist": {
+        "en": ("GLP-1 Follow-Up Appointment: A Checklist",
+               "Ten minutes to cover three months. What to have ready, the questions the NIH's own patient pages suggest asking, and what a checklist cannot decide."),
+        "tr": ("GLP-1 Kontrol Randevusu İçin Kontrol Listesi",
+               "Üç ayı anlatmak için on dakika. Neler hazır olmalı, NIH'in hasta sayfalarının önerdiği sorular ve bir listenin karar veremeyeceği şeyler."),
     },
 }

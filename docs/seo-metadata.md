@@ -5,6 +5,7 @@
 | URL | Dil | Arama niyeti | Ana sorgu | Title | Uzunluk | Description | Uzunluk |
 |---|---|---|---|---|---|---|---|
 | `/en/articles` | en | information hub | glp-1 guides | GLP-1 Guides — Sourced Articles for People on GLP-1s | 52 | Plain guides to injection technique, side effects, storage and what the medications do, each one citing where the information came from. | 136 |
+| `/en/articles/glp1-appointment-checklist` | en | preparation | what to ask doctor glp-1 follow up | GLP-1 Follow-Up Appointment: A Checklist | 40 | Ten minutes to cover three months. What to have ready, the questions the NIH's own patient pages suggest asking, and what a checklist cannot decide. | 148 |
 | `/en/articles/glp1-injection-sites` | en | information | glp-1 injection sites | GLP-1 Injection Sites: Where to Inject and Rotate | 49 | Abdomen, thigh and upper arm are the approved sites. Which to choose, why the exact spot must change each time, and what to avoid. | 130 |
 | `/en/articles/glp1-patches` | en | information | glp-1 patches | GLP-1 Patches: Do They Exist and Do They Work? | 46 | No GLP-1 patch is approved by the FDA or EMA. What is sold under that name, what the evidence says, and why the question comes up. | 130 |
 | `/en/articles/glp1-side-effects` | en | information | glp-1 side effects | Managing Common GLP-1 Side Effects: What Helps | 46 | Nausea, constipation and fatigue are the common ones. What tends to help, how long they usually last, and the signs that need a doctor. | 135 |
@@ -47,6 +48,7 @@
 | `/tr/makaleler/glp1-nedir` | tr | bilgi | glp1 nedir | GLP-1 Nedir? Hormonun Görevi ve Nasıl Çalıştığı | 47 | GLP-1, bağırsağın yemekten sonra saldığı bir hormondur. Ne yaptığı, ilaçların neyi taklit ettiği ve iştahın neden değiştiği — kaynaklarıyla. | 140 |
 | `/tr/makaleler/glp1-yan-etkileri` | tr | bilgi | glp1 yan etkileri | Yaygın GLP-1 Yan Etkileri: Ne İşe Yarıyor? | 42 | Bulantı, kabızlık ve yorgunluk en yaygın olanlar. Neyin yardımcı olduğu, genelde ne kadar sürdüğü ve doktor gerektiren belirtiler. | 130 |
 | `/tr/makaleler/kacirilan-glp1-dozu` | tr | bilgi, acil | glp1 dozunu kaçırdım ne yapmalıyım | GLP-1 Dozunu Kaçırdım: Prospektüs Ne Diyor? | 43 | Bir üründe beş gün, birinde dört, birinde iki — birinde ise atla. Her GLP-1'in geciken doz için kendi talimatının ne dediği, alıntılarıyla. | 139 |
+| `/tr/makaleler/randevu-kontrol-listesi` | tr | hazırlık | glp1 kontrol randevusunda ne sorulur | GLP-1 Kontrol Randevusu İçin Kontrol Listesi | 44 | Üç ayı anlatmak için on dakika. Neler hazır olmalı, NIH'in hasta sayfalarının önerdiği sorular ve bir listenin karar veremeyeceği şeyler. | 137 |
 | `/tr/neden-dozify` | tr | değerlendirme | neden dozify | Neden Dozify — Ne Yapar, Neyi Yapmayı Reddeder | 46 | GLP-1 reçete edilmiş kişiler için yazıldı. Senin ve doktorunun kararını kaydeder; doz önermez, sonuç yorumlamaz, yerine geçmez. Ne yaptığı burada. | 146 |
 | `/tr/yan-etki-gunlugu` | tr | uygulama arayışı | glp1 yan etki günlüğü | GLP-1 Yan Etki Günlüğü — Ne Zaman Olduğunu Gör | 46 | Doktora "bulantı vardı" demekle "dozdan 15 saat sonra" demek aynı şey değil. Belirtileri şiddetiyle kaydet, enjeksiyonlarınla birlikte gör. | 139 |
 | `/tr/yayin-ilkeleri` | tr | güven | dozify sağlık içeriklerini kim yazıyor | Yayın İlkeleri — Bu Rehberleri Kim Yazıyor | 42 | Bu sitedeki rehberleri kim yazıyor, hangi kaynaklara izin var, makaledeki her tarih ne anlama geliyor ve yanlış bir şeyi nasıl bildirirsiniz. | 141 |
@@ -56,6 +58,7 @@
 | URL | Dil | Schema türleri |
 |---|---|---|
 | `/en/articles` | en | Organization, WebSite, CollectionPage, BreadcrumbList |
+| `/en/articles/glp1-appointment-checklist` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/glp1-injection-sites` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/glp1-patches` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/glp1-side-effects` | en | Organization, WebSite, Person, MedicalWebPage, BreadcrumbList |
@@ -98,6 +101,7 @@
 | `/tr/makaleler/glp1-nedir` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/glp1-yan-etkileri` | tr | Organization, WebSite, Person, MedicalWebPage, BreadcrumbList |
 | `/tr/makaleler/kacirilan-glp1-dozu` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/tr/makaleler/randevu-kontrol-listesi` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/neden-dozify` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
 | `/tr/yan-etki-gunlugu` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/tr/yayin-ilkeleri` | tr | Organization, WebSite, WebPage, BreadcrumbList |

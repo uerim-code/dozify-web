@@ -57,7 +57,7 @@ okuyucunun bulunduğu yere göre acil numara.
   Wegovy rakamları FDA etiketinden (DailyMed) doğrudan alındı; gerisi
   MedlinePlus.
 
-### 3. hafta — Shotsy'den verini nasıl çıkarırsın
+### 3. hafta — Shotsy'den verini nasıl çıkarırsın ⏸ BEKLİYOR (adaptör doğrulaması)
 - **Niyet:** işlemsel · **Küme:** switching from another tracking app
 - **EN sorgu:** export data from shotsy · **TR sorgu:** shotsy verilerini dışa aktarma
 - **URL:** `/en/articles/export-from-shotsy` · `/tr/makaleler/shotsy-disa-aktarma`
@@ -74,7 +74,7 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Ön koşul:** adaptör profilleri gerçek dışa aktarım dosyalarıyla henüz
   doğrulanmadı; bu yazı o doğrulamadan sonra yayımlanmalı
 
-### 4. hafta — Randevuya ne götürmeli
+### 4. hafta — Randevuya ne götürmeli ✅ YAYINLANDI (18 Ağu 2026)
 - **Niyet:** bilgi + hazırlık · **Küme:** doctor appointment preparation
 - **EN sorgu:** what to ask doctor glp-1 follow up · **TR sorgu:** glp1 kontrol randevusunda ne sorulur
 - **URL:** `/en/articles/glp1-appointment-checklist` · `/tr/makaleler/randevu-kontrol-listesi`
@@ -85,6 +85,12 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Bağlanacak ürün sayfası:** `/glp1-appointment-report`
 - **Kaçınılacak iddia:** "şunu iste", "dozunun artması gerekiyorsa şunu söyle"
 - **Öncelik:** 4
+- **Sonuç:** `/en/articles/glp1-appointment-checklist` ·
+  `/tr/makaleler/randevu-kontrol-listesi`. Sorular uydurulmadı: MedlinePlus'ın
+  "ilacınız hakkında hekime sorulacaklar" listesinden ve NIDDK'nın kilo
+  sorularından birebir alındı. Yazı bilerek "şunu isteyin" demiyor —
+  "kilo durduysa doz artışı istemeli miyim" sorusu SSS'de var ve cevabı
+  "bu sayfanın cevaplayacağı bir soru değil".
 
 ## 2. çeyrek — küme derinleştirme (5-8. hafta)
 

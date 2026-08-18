@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dozify.app/en/articles/glp1-appointment-checklist</loc>
+    <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-appointment-checklist"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/randevu-kontrol-listesi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-appointment-checklist"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/glp1-injection-sites</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-injection-sites"/>
@@ -286,6 +293,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/missed-glp1-dose"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/kacirilan-glp1-dozu"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/missed-glp1-dose"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/makaleler/randevu-kontrol-listesi</loc>
+    <lastmod>2026-08-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-appointment-checklist"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/randevu-kontrol-listesi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-appointment-checklist"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler</loc>

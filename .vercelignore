@@ -6,6 +6,7 @@
 #
 # Leading slash matters: an unanchored pattern also matches the generated
 # en/ and tr/ copies and takes the whole tree down.
+/articles/glp1-appointment-checklist.html
 /articles/glp1-injection-sites.html
 /articles/glp1-patches.html
 /articles/glp1-side-effects.html
