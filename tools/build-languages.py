@@ -263,6 +263,7 @@ def write_sitemap(pages: list[tuple[str, str, str]]) -> int:
     today's date: a sitemap that claims every page changed today is a sitemap
     Google stops believing.
     """
+    import datetime
     import subprocess
 
     rows = []
@@ -271,6 +272,16 @@ def write_sitemap(pages: list[tuple[str, str, str]]) -> int:
             stamp = subprocess.run(["git", "log", "-1", "--format=%cs", "--", src],
                                    cwd=ROOT, capture_output=True, text=True,
                                    check=True).stdout.strip()
+            # A page edited but not yet committed has no commit date, or a stale
+            # one. Using today's is both true and stable: committing it today
+            # makes git agree, so the next build does not silently change the
+            # file and fail the gate over a diff nobody made. Before this it
+            # took two commits to add a page, the second one meaningless.
+            dirty = subprocess.run(["git", "status", "--porcelain", "--", src],
+                                   cwd=ROOT, capture_output=True, text=True,
+                                   check=True).stdout.strip()
+            if dirty or not stamp:
+                stamp = datetime.date.today().isoformat()
         except Exception:
             stamp = ""
         en_url, tr_url = url_for("en", en_slug), url_for("tr", tr_slug)
