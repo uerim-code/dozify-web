@@ -10,8 +10,8 @@ uzantısı; siteye analytics eklemenin kendisi de bu vaade uymak zorunda.
 | Araç | Durum | Not |
 |---|---|---|
 | Google Search Console | **kurulu** — `dozify.app` domain property (sc-domain), Google doğrulama TXT kaydı Namecheap'te duruyor | Vercel'e taşınırken TXT'ye dokunulmadı |
-| Sitemap gönderimi | **yapılacak** — yeni `sitemap.xml` 42 URL, eskisi 20 | Domain property'de "sitemap.xml" reddediliyor; tam URL gerekiyor: `https://dozify.app/sitemap.xml` |
-| URL denetimi ile yeniden indeksleme | **yapılacak** — yayından sonra | Ardışık hızlı gönderim geçici "Bir sorun oluştu" veriyor; ~20-30 sn arayla |
+| Sitemap gönderimi | **yapıldı** (18 Ağu 2026) — 42 URL, GSC aynı gün okudu | Domain property'de "sitemap.xml" reddediliyor; tam URL gerekiyor: `https://dozify.app/sitemap.xml` |
+| URL denetimi ile yeniden indeksleme | **kısmen** — 3 URL geçti, gerisi günlük kotaya takıldı | Aşağıdaki listeye bak; kota hesap başına ve günlük |
 | Bing Webmaster Tools | **kurulacak** | GSC'den içe aktarma ile; ayrı doğrulama gerekmez |
 | Core Web Vitals | GSC'nin kendi raporu | Gerçek kullanıcı verisi 28 günlük pencerede birikir; laboratuvar ölçümü `docs/seo-lighthouse.md`'de |
 | App Store tıklaması | **kurulu** — Apple kampanya jetonu | Aşağıda |
