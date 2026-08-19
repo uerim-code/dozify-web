@@ -13,6 +13,7 @@
 | `/en/articles/how-to-inject-glp1` | en | information | how to inject glp-1 | How to Inject a GLP-1 Pen: A Step-by-Step Guide | 47 | Preparing the pen, choosing a site, the injection itself and what to do afterwards — following the manufacturer instructions, with sources. | 139 |
 | `/en/articles/injection-site-lumps` | en | information, concern | lump at glp-1 injection site | A Lump at the Injection Site: What Labels Report | 48 | Injection site reactions are listed for these medicines, and 1% of the placebo group reported them too. What the labels say, and when to show someone. | 150 |
 | `/en/articles/missed-glp1-dose` | en | information, urgent | missed glp-1 dose what to do | Missed a GLP-1 Dose? What Each Leaflet Says | 43 | Five days for one product, four for another, two for a third — and for one, skip it. What each GLP-1's own instructions say about a late dose, quoted. | 150 |
+| `/en/articles/reading-a-weight-trend` | en | information | glp-1 weight loss plateau trend | Reading a Weight Trend When the Scale Stalls | 44 | Weight peaks early in the week and bottoms out around Friday — that is published, not anecdote. What a trend line answers, and what it deliberately cannot. | 155 |
 | `/en/articles/storing-glp1-pens` | en | information | how to store ozempic pen fridge | Storing a GLP-1 Pen: Fridge, Counter and Days | 45 | Fifty-six days for one pen and twenty-eight for another of the same medicine, and one that must never go back in the fridge. Each label, quoted. | 144 |
 | `/en/articles/what-is-glp1` | en | information | what is glp-1 | What Is GLP-1? The Hormone and How It Works | 43 | GLP-1 is a hormone your gut releases after eating. What it does, what the medications copy, and why appetite changes — with sources. | 132 |
 | `/en/editorial-policy` | en | trust | who writes dozify health content | Editorial Policy — Who Writes These Guides | 42 | Who writes the guides on this site, which sources are allowed, what each date on an article means, and how to report something that is wrong. | 141 |
@@ -52,6 +53,7 @@
 | `/tr/makaleler/glp1-yan-etkileri` | tr | bilgi | glp1 yan etkileri | Yaygın GLP-1 Yan Etkileri: Ne İşe Yarıyor? | 42 | Bulantı, kabızlık ve yorgunluk en yaygın olanlar. Neyin yardımcı olduğu, genelde ne kadar sürdüğü ve doktor gerektiren belirtiler. | 130 |
 | `/tr/makaleler/ise-yarayan-hatirlatici` | tr | sorun giderme | glp1 iğne günü değiştirme hatırlatıcı | İğne Gününü Kaydırmak ve Gelen Hatırlatıcılar | 45 | "Günü değiştirebilir miyim?" sorusunu etiketler tek koşullu cümleyle cevaplıyor. Gelmeyen hatırlatıcı ise neredeyse hep telefon ayarıdır. | 137 |
 | `/tr/makaleler/kacirilan-glp1-dozu` | tr | bilgi, acil | glp1 dozunu kaçırdım ne yapmalıyım | GLP-1 Dozunu Kaçırdım: Prospektüs Ne Diyor? | 43 | Bir üründe beş gün, birinde dört, birinde iki — birinde ise atla. Her GLP-1'in geciken doz için kendi talimatının ne dediği, alıntılarıyla. | 139 |
+| `/tr/makaleler/kilo-trendini-okumak` | tr | bilgi | glp1 kilo vermeme dönemi trend | Tartı Durduğunda Kilo Trendini Okumak | 37 | Kilo hafta başında en yüksek, cuma civarında en düşük — bu yayımlanmış bir bulgu. Trend çizgisi neyi cevaplar, neyi bilerek cevaplamaz. | 135 |
 | `/tr/makaleler/randevu-kontrol-listesi` | tr | hazırlık | glp1 kontrol randevusunda ne sorulur | GLP-1 Kontrol Randevusu İçin Kontrol Listesi | 44 | Üç ayı anlatmak için on dakika. Neler hazır olmalı, NIH'in hasta sayfalarının önerdiği sorular ve bir listenin karar veremeyeceği şeyler. | 137 |
 | `/tr/neden-dozify` | tr | değerlendirme | neden dozify | Neden Dozify — Ne Yapar, Neyi Yapmayı Reddeder | 46 | GLP-1 reçete edilmiş kişiler için yazıldı. Senin ve doktorunun kararını kaydeder; doz önermez, sonuç yorumlamaz, yerine geçmez. Ne yaptığı burada. | 146 |
 | `/tr/yan-etki-gunlugu` | tr | uygulama arayışı | glp1 yan etki günlüğü | GLP-1 Yan Etki Günlüğü — Ne Zaman Olduğunu Gör | 46 | Doktora "bulantı vardı" demekle "dozdan 15 saat sonra" demek aynı şey değil. Belirtileri şiddetiyle kaydet, enjeksiyonlarınla birlikte gör. | 139 |
@@ -70,6 +72,7 @@
 | `/en/articles/how-to-inject-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/injection-site-lumps` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/missed-glp1-dose` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/en/articles/reading-a-weight-trend` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/storing-glp1-pens` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/what-is-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/editorial-policy` | en | Organization, WebSite, WebPage, BreadcrumbList |
@@ -109,6 +112,7 @@
 | `/tr/makaleler/glp1-yan-etkileri` | tr | Organization, WebSite, Person, MedicalWebPage, BreadcrumbList |
 | `/tr/makaleler/ise-yarayan-hatirlatici` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/kacirilan-glp1-dozu` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/tr/makaleler/kilo-trendini-okumak` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/randevu-kontrol-listesi` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/neden-dozify` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
 | `/tr/yan-etki-gunlugu` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |

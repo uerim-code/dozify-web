@@ -67,6 +67,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("bilgi, endişe", "enjeksiyon yerinde sertlik")},
     "articles/glp1-reminders-that-work": {"en": ("troubleshooting", "change glp-1 injection day reminder"),
                                      "tr": ("sorun giderme", "glp1 iğne günü değiştirme hatırlatıcı")},
+    "articles/reading-a-weight-trend": {"en": ("information", "glp-1 weight loss plateau trend"),
+                                     "tr": ("bilgi", "glp1 kilo vermeme dönemi trend")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -226,5 +228,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "The labels answer \"can I change the day?\" in one conditional line. And a reminder that never appeared is almost always a phone setting, not the app."),
         "tr": ("İğne Gününü Kaydırmak ve Gelen Hatırlatıcılar",
                "\"Günü değiştirebilir miyim?\" sorusunu etiketler tek koşullu cümleyle cevaplıyor. Gelmeyen hatırlatıcı ise neredeyse hep telefon ayarıdır."),
+    },
+    "articles/reading-a-weight-trend": {
+        "en": ("Reading a Weight Trend When the Scale Stalls",
+               "Weight peaks early in the week and bottoms out around Friday — that is published, not anecdote. What a trend line answers, and what it deliberately cannot."),
+        "tr": ("Tartı Durduğunda Kilo Trendini Okumak",
+               "Kilo hafta başında en yüksek, cuma civarında en düşük — bu yayımlanmış bir bulgu. Trend çizgisi neyi cevaplar, neyi bilerek cevaplamaz."),
     },
 }

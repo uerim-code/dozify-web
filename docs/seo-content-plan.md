@@ -138,7 +138,7 @@ okuyucunun bulunduğu yere göre acil numara.
   planlanıyor (`interruptionLevel` ayarlanmıyor). iOS'ta `timeSensitive`
   işaretlenirse Odak'ı aşabilir. 1.1.3 adayı — kullanıcıya sorulmadan
   uygulanmadı.
-### 7. hafta — Tartı durduğunda trend ne diyor
+### 7. hafta — Tartı durduğunda trend ne diyor ✅ YAYINLANDI (19 Ağu 2026)
 - **Niyet:** bilgi · **Küme:** weight and body measurements
 - **EN sorgu:** glp-1 weight loss plateau · **TR sorgu:** glp1 kilo vermeme dönemi
 - **URL:** `/en/articles/reading-a-weight-trend` · `/tr/makaleler/kilo-trendini-okumak`
@@ -152,7 +152,14 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Kaçınılacak iddia:** platoyu aşma tavsiyesi, doz artırma imâsı, kalori
   hedefi
 - **Öncelik:** 7
-
+- **Sonuç:** `/en/articles/reading-a-weight-trend` ·
+  `/tr/makaleler/kilo-trendini-okumak`. Omurga hazır bir bulgu çıktı: hafta içi
+  kilo ritmi yayımlanmış — pazar/pazartesi en yüksek, cuma civarı en düşük,
+  cumartesi tekrar tırmanıyor; yazarlar "kilo alma işareti değil, normal" diyor.
+  Ayrıca ritim en belirgin **kilo veren** grupta. Eksik veri korkusuna da
+  cevap var: akıllı tartı çalışmasında %80 eksik veriyle bile tahminler ayakta,
+  ~10 bin kullanıcıda ortalama tartılma günlerin %40'ı. Platonun SEBEBİ ve ne
+  yapılacağı bilerek yazılmadı; kutu içinde açıkça reddediliyor.
 ### 8. hafta — Yan etki günlüğü nasıl işe yarar hâle gelir
 - **Niyet:** bilgi + işlemsel · **Küme:** side-effect journaling
 - **EN sorgu:** how to track glp-1 side effects for doctor · **TR sorgu:** yan etkileri doktora nasıl anlatmalı
