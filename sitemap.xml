@@ -64,6 +64,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/reading-a-weight-trend"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/side-effect-diary-that-helps</loc>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/side-effect-diary-that-helps"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/ise-yarayan-yan-etki-gunlugu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/side-effect-diary-that-helps"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/storing-glp1-pens</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/storing-glp1-pens"/>
@@ -79,7 +86,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/articles</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>
@@ -107,7 +114,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/glp1-side-effect-journal</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-side-effect-journal"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/yan-etki-gunlugu"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-side-effect-journal"/>
@@ -323,6 +330,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-reminders-that-work"/>
   </url>
   <url>
+    <loc>https://dozify.app/tr/makaleler/ise-yarayan-yan-etki-gunlugu</loc>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/side-effect-diary-that-helps"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/ise-yarayan-yan-etki-gunlugu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/side-effect-diary-that-helps"/>
+  </url>
+  <url>
     <loc>https://dozify.app/tr/makaleler/kacirilan-glp1-dozu</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/missed-glp1-dose"/>
@@ -345,7 +359,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>
@@ -359,7 +373,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/yan-etki-gunlugu</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-side-effect-journal"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/yan-etki-gunlugu"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-side-effect-journal"/>

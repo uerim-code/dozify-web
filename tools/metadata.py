@@ -69,6 +69,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("sorun giderme", "glp1 iğne günü değiştirme hatırlatıcı")},
     "articles/reading-a-weight-trend": {"en": ("information", "glp-1 weight loss plateau trend"),
                                      "tr": ("bilgi", "glp1 kilo vermeme dönemi trend")},
+    "articles/side-effect-diary-that-helps": {"en": ("information", "how to track glp-1 side effects for doctor"),
+                                     "tr": ("bilgi", "yan etkileri doktora nasıl anlatmalı")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -234,5 +236,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Weight peaks early in the week and bottoms out around Friday — that is published, not anecdote. What a trend line answers, and what it deliberately cannot."),
         "tr": ("Tartı Durduğunda Kilo Trendini Okumak",
                "Kilo hafta başında en yüksek, cuma civarında en düşük — bu yayımlanmış bir bulgu. Trend çizgisi neyi cevaplar, neyi bilerek cevaplamaz."),
+    },
+    "articles/side-effect-diary-that-helps": {
+        "en": ("A Side-Effect Diary Your Doctor Can Actually Use",
+               "The NIH lists six things a doctor asks about a symptom. Most diaries record one. What to write instead, plus the field that only matters on a weekly injection."),
+        "tr": ("Doktorun Kullanabileceği Bir Yan Etki Günlüğü",
+               "NIH, doktorun belirti hakkında sorduğu altı şeyi sayıyor. Çoğu günlük birini kaydeder. Onun yerine ne yazılmalı ve haftalık iğneye özel alan."),
     },
 }

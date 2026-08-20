@@ -20,6 +20,7 @@
 | `/en` | `/en/why` | what the app refuses to do | ürün sayfaları arası — bitişik özelliğe geçiş | why dozify |
 | `/en` | `/en/switch-glp1-tracker-app` | More on the switching page | ürün sayfaları arası — bitişik özelliğe geçiş | shotsy alternative import data |
 | `/en/articles` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles` | `/en/articles/side-effect-diary-that-helps` | Side effects A side-effect diary your doctor can actually use The six questions a clinician works through, quoted from the NIH — and the seventh that only matters on a weekly injection. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how to track glp-1 side effects for doctor |
 | `/en/articles` | `/en/articles/reading-a-weight-trend` | Weight Reading a weight trend when the scale has stalled The week has a documented shape — highest early, lowest around Friday. What the line answers that this morning's number cannot. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 weight loss plateau trend |
 | `/en/articles` | `/en/articles/glp1-reminders-that-work` | Routine Moving your shot day, and reminders that arrive The label's one conditional line about changing the day — and the three phone settings behind a reminder that never appeared. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | change glp-1 injection day reminder |
 | `/en/articles` | `/en/articles/injection-site-lumps` | Injecting A lump where you injected: what the labels report The trial numbers, why the lipohypertrophy research is about a different medicine, and what belongs in front of a clinician. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | lump at glp-1 injection site |
@@ -76,6 +77,11 @@
 | `/en/articles/reading-a-weight-trend` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
 | `/en/articles/reading-a-weight-trend` | `/en/articles/glp1-appointment-checklist` | the checklist | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | what to ask doctor glp-1 follow up |
 | `/en/articles/reading-a-weight-trend` | `/en/glp1-weight-tracker` | See how the weight trend works → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 weight tracker |
+| `/en/articles/side-effect-diary-that-helps` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles/side-effect-diary-that-helps` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
+| `/en/articles/side-effect-diary-that-helps` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
+| `/en/articles/side-effect-diary-that-helps` | `/en/articles/glp1-side-effects` | The side-effects guide | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 side effects |
+| `/en/articles/side-effect-diary-that-helps` | `/en/glp1-side-effect-journal` | See how the journal works → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 side effect tracker |
 | `/en/articles/storing-glp1-pens` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
 | `/en/articles/storing-glp1-pens` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
 | `/en/articles/storing-glp1-pens` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
@@ -111,6 +117,7 @@
 | `/en/glp1-side-effect-journal` | `/en/articles/glp1-side-effects` | managing common side effects | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 side effects |
 | `/en/glp1-side-effect-journal` | `/en/articles/what-is-glp1` | what GLP-1 actually is | üründen makaleye — iddiayı kaynaklı içerikle destekler | what is glp-1 |
 | `/en/glp1-side-effect-journal` | `/en/articles/glp1-injection-sites` | where to inject and how to rotate | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 injection sites |
+| `/en/glp1-side-effect-journal` | `/en/articles/side-effect-diary-that-helps` | what makes a diary useful to a clinician | üründen makaleye — iddiayı kaynaklı içerikle destekler | how to track glp-1 side effects for doctor |
 | `/en/glp1-side-effect-journal` | `/en/glp1-appointment-report` | the doctor report | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 doctor report pdf |
 | `/en/glp1-side-effect-journal` | `/en/glp1-shot-tracker` | the shot tracker | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 shot tracker |
 | `/en/glp1-vial-tracker` | `/en` | Home | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 tracker app |
@@ -241,6 +248,7 @@
 | `/tr/kvkk` | `/tr` | ← Ana sayfaya dön | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
 | `/tr/kvkk` | `/tr/gizlilik` | Gizlilik Politikası | ürün sayfaları arası — bitişik özelliğe geçiş | dozify gizlilik politikası |
 | `/tr/makaleler` | `/tr` | Ana Sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler` | `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | Yan etkiler Doktorunuzun gerçekten kullanabileceği bir yan etki günlüğü Hekimin sırayla geçtiği altı soru, NIH'ten alıntıyla — ve yalnızca haftalık iğnede önemli olan yedincisi. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | yan etkileri doktora nasıl anlatmalı |
 | `/tr/makaleler` | `/tr/makaleler/kilo-trendini-okumak` | Kilo Tartı durduğunda kilo trendini okumak Haftanın ölçülmüş bir şekli var — başta en yüksek, cuma civarı en düşük. Çizginin cevapladığı, bu sabahki rakamın cevaplayamadığı şey. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 kilo vermeme dönemi trend |
 | `/tr/makaleler` | `/tr/makaleler/ise-yarayan-hatirlatici` | Rutin İğne gününü kaydırmak ve gelen hatırlatıcılar Etiketin günü değiştirmeye dair tek koşullu cümlesi — ve gelmeyen hatırlatıcının arkasındaki üç telefon ayarı. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 iğne günü değiştirme hatırlatıcı |
 | `/tr/makaleler` | `/tr/makaleler/enjeksiyon-bolgesi-sertlesme` | Enjeksiyon Enjeksiyon yaptığınız yerde sertlik: etiketler ne diyor Çalışma sayıları, lipohipertrofi araştırmasının neden başka bir ilacı anlattığı ve bir hekime ne götürülmeli. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | enjeksiyon yerinde sertlik |
@@ -293,6 +301,11 @@
 | `/tr/makaleler/ise-yarayan-hatirlatici` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
 | `/tr/makaleler/ise-yarayan-hatirlatici` | `/tr/makaleler/kacirilan-glp1-dozu` | Doz gerçekten kaçarsa | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 dozunu kaçırdım ne yapmalıyım |
 | `/tr/makaleler/ise-yarayan-hatirlatici` | `/tr/glp1-igne-takibi` | Doz hatırlatıcıları nasıl çalışıyor → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 iğne takip uygulaması |
+| `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | `/tr` | Ana sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
+| `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
+| `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | `/tr/makaleler/glp1-yan-etkileri` | Yan etkiler rehberi | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 yan etkileri |
+| `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | `/tr/yan-etki-gunlugu` | Günlük nasıl çalışıyor → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 yan etki günlüğü |
 | `/tr/makaleler/kacirilan-glp1-dozu` | `/tr` | Ana sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
 | `/tr/makaleler/kacirilan-glp1-dozu` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
 | `/tr/makaleler/kacirilan-glp1-dozu` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
@@ -314,6 +327,7 @@
 | `/tr/yan-etki-gunlugu` | `/tr/makaleler/glp1-yan-etkileri` | yaygın yan etkilerle baş etmek | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 yan etkileri |
 | `/tr/yan-etki-gunlugu` | `/tr/makaleler/glp1-nedir` | GLP-1'in aslında ne olduğu | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 nedir |
 | `/tr/yan-etki-gunlugu` | `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | nereye yapılır, rotasyon nasıl olur | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 enjeksiyon bölgeleri |
+| `/tr/yan-etki-gunlugu` | `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | bir günlüğü hekim için işe yarar kılan nedir | üründen makaleye — iddiayı kaynaklı içerikle destekler | yan etkileri doktora nasıl anlatmalı |
 | `/tr/yan-etki-gunlugu` | `/tr/doktor-raporu` | doktor raporu | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 doktor raporu pdf |
 | `/tr/yan-etki-gunlugu` | `/tr/glp1-igne-takibi` | iğne takibi | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 iğne takip uygulaması |
 | `/tr/yayin-ilkeleri` | `/tr` | Ana sayfa | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |

@@ -160,7 +160,7 @@ okuyucunun bulunduğu yere göre acil numara.
   cevap var: akıllı tartı çalışmasında %80 eksik veriyle bile tahminler ayakta,
   ~10 bin kullanıcıda ortalama tartılma günlerin %40'ı. Platonun SEBEBİ ve ne
   yapılacağı bilerek yazılmadı; kutu içinde açıkça reddediliyor.
-### 8. hafta — Yan etki günlüğü nasıl işe yarar hâle gelir
+### 8. hafta — Yan etki günlüğü nasıl işe yarar hâle gelir ✅ YAYINLANDI (20 Ağu 2026)
 - **Niyet:** bilgi + işlemsel · **Küme:** side-effect journaling
 - **EN sorgu:** how to track glp-1 side effects for doctor · **TR sorgu:** yan etkileri doktora nasıl anlatmalı
 - **URL:** `/en/articles/side-effect-diary-that-helps` · `/tr/makaleler/ise-yarayan-yan-etki-gunlugu`
@@ -172,7 +172,16 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Bağlanacak ürün sayfası:** `/glp1-side-effect-journal`
 - **Kaçınılacak iddia:** belirti yorumu, nedensellik
 - **Öncelik:** 8
-
+- **Sonuç:** `/en/articles/side-effect-diary-that-helps` ·
+  `/tr/makaleler/ise-yarayan-yan-etki-gunlugu`. Omurga NIA'nın (NIH) hasta
+  sayfasından birebir alındı: doktorun sorduğu altı şey — ne zaman başladı,
+  günün hangi saati, ne kadar sürdü, ne sıklıkta, iyileşiyor mu kötüleşiyor mu,
+  yapacaklarınızı engelledi mi. Her biri bir alana çevrildi. Yedinci alan
+  (doza göre nereye düştüğü) GLP-1'e özgü ve genel rehberlerde yok; ama
+  "sıralama, kanıtlanmış neden değil" diye açıkça sınırlandırıldı — plasebo
+  kolunun da aynı şikâyetleri bildirdiği hatırlatıldı. FDA 3500B'den iki alan
+  eklendi: diğer bütün ilaç/takviyeler ve tedavi tarihleri.
+  8. çeyrek bitti; 2. çeyreğin tamamı yayında.
 ## 3. çeyrek — genişleme (9-12. hafta)
 
 ### 9. hafta — Kalemle seyahat
