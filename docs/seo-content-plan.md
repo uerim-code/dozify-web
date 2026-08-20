@@ -184,7 +184,7 @@ okuyucunun bulunduğu yere göre acil numara.
   8. çeyrek bitti; 2. çeyreğin tamamı yayında.
 ## 3. çeyrek — genişleme (9-12. hafta)
 
-### 9. hafta — Kalemle seyahat
+### 9. hafta — Kalemle seyahat ✅ YAYINLANDI (20 Ağu 2026)
 - **Niyet:** bilgi · **Küme:** vial and pen inventory
 - **EN sorgu:** flying with ozempic pen · **TR sorgu:** uçakta glp1 kalemi taşıma
 - **URL:** `/en/articles/travelling-with-a-glp1-pen` · `/tr/makaleler/glp1-kalemiyle-seyahat`
@@ -195,7 +195,19 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Bağlanacak ürün sayfası:** `/glp1-vial-tracker`
 - **Kaçınılacak iddia:** doz gününü kaydırma talimatı
 - **Öncelik:** 9
-
+- **Sonuç:** `/en/articles/travelling-with-a-glp1-pen` ·
+  `/tr/makaleler/glp1-kalemiyle-seyahat`. TSA'nın üç sayfası birebir alıntılandı
+  (ilaç 100 ml'den muaf, beyan şart, tıbben gerekli jel buz paketleri erimiş
+  hâlde bile geçer — sıradan donmuş eşyanın tam tersi) ve TSA'nın kendi
+  çekincesi de: "nihai karar görevliye aittir".
+- **AB/BK için özet YAZILMADI, bilerek:** gov.uk'nin ilaç alt sayfası
+  curl'e içerik vermiyor (JS), tamamını okuyamadığım mevzuatı kendi
+  cümlelerimle özetlemek yerine resmî sayfaya yönlendirdim. Yazı bunu
+  açıkça söylüyor.
+- **Asıl bulgu havaalanında değil:** tirzepatidin tek yönlü kuralı yolculukta
+  ısırıyor — 21 gün oda sıcaklığı serbest ama sonra buzdolabına geri konmuyor;
+  semaglutid kalemlerinde ikisi de serbest. Yani "yolculuk geri döndürülebilir
+  mi" sorusunu elinizdeki ürün belirliyor.
 ### 10. hafta — Su, GLP-1 kullanırken
 - **Niyet:** bilgi · **Küme:** injection routine
 - **EN sorgu:** how much water on glp-1 · **TR sorgu:** glp1 kullanırken su tüketimi

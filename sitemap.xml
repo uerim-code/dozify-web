@@ -78,6 +78,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/storing-glp1-pens"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/travelling-with-a-glp1-pen</loc>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/travelling-with-a-glp1-pen"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-kalemiyle-seyahat"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/travelling-with-a-glp1-pen"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/what-is-glp1</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/what-is-glp1"/>
@@ -121,7 +128,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/glp1-vial-tracker</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-vial-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/flakon-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-vial-tracker"/>
@@ -226,7 +233,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/flakon-takibi</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-vial-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/flakon-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-vial-tracker"/>
@@ -300,6 +307,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/storing-glp1-pens"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-kalemi-saklama"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/storing-glp1-pens"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/makaleler/glp1-kalemiyle-seyahat</loc>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/travelling-with-a-glp1-pen"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-kalemiyle-seyahat"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/travelling-with-a-glp1-pen"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/glp1-nasil-yapilir</loc>

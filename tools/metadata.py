@@ -71,6 +71,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("bilgi", "glp1 kilo vermeme dönemi trend")},
     "articles/side-effect-diary-that-helps": {"en": ("information", "how to track glp-1 side effects for doctor"),
                                      "tr": ("bilgi", "yan etkileri doktora nasıl anlatmalı")},
+    "articles/travelling-with-a-glp1-pen": {"en": ("information", "flying with ozempic pen"),
+                                     "tr": ("bilgi", "uçakta glp1 kalemi taşıma")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -242,5 +244,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "The NIH lists six things a doctor asks about a symptom. Most diaries record one. What to write instead, plus the field that only matters on a weekly injection."),
         "tr": ("Doktorun Kullanabileceği Bir Yan Etki Günlüğü",
                "NIH, doktorun belirti hakkında sorduğu altı şeyi sayıyor. Çoğu günlük birini kaydeder. Onun yerine ne yazılmalı ve haftalık iğneye özel alan."),
+    },
+    "articles/travelling-with-a-glp1-pen": {
+        "en": ("Flying With a GLP-1 Pen: What the Rules Say",
+               "Medication is exempt from the 100 ml limit and gel ice packs pass even when melted — quoted from TSA. Plus the storage rule a trip can quietly break."),
+        "tr": ("GLP-1 Kalemiyle Uçmak: Kurallar Ne Diyor",
+               "İlaç 100 ml sınırından muaf, jel buz paketleri erimişken bile geçiyor — TSA'dan alıntı. Bir de yolculuğun sessizce bozabildiği saklama kuralı."),
     },
 }

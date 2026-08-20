@@ -20,6 +20,7 @@
 | `/en` | `/en/why` | what the app refuses to do | ürün sayfaları arası — bitişik özelliğe geçiş | why dozify |
 | `/en` | `/en/switch-glp1-tracker-app` | More on the switching page | ürün sayfaları arası — bitişik özelliğe geçiş | shotsy alternative import data |
 | `/en/articles` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles` | `/en/articles/travelling-with-a-glp1-pen` | Travel Flying with a GLP-1 pen: what the rules actually say The liquids exemption and ice packs, quoted from TSA — plus the in-use clock that does not pause for a holiday. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | flying with ozempic pen |
 | `/en/articles` | `/en/articles/side-effect-diary-that-helps` | Side effects A side-effect diary your doctor can actually use The six questions a clinician works through, quoted from the NIH — and the seventh that only matters on a weekly injection. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how to track glp-1 side effects for doctor |
 | `/en/articles` | `/en/articles/reading-a-weight-trend` | Weight Reading a weight trend when the scale has stalled The week has a documented shape — highest early, lowest around Friday. What the line answers that this morning's number cannot. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 weight loss plateau trend |
 | `/en/articles` | `/en/articles/glp1-reminders-that-work` | Routine Moving your shot day, and reminders that arrive The label's one conditional line about changing the day — and the three phone settings behind a reminder that never appeared. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | change glp-1 injection day reminder |
@@ -86,6 +87,12 @@
 | `/en/articles/storing-glp1-pens` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
 | `/en/articles/storing-glp1-pens` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
 | `/en/articles/storing-glp1-pens` | `/en/glp1-vial-tracker` | See how vial tracking works → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 vial tracker |
+| `/en/articles/travelling-with-a-glp1-pen` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles/travelling-with-a-glp1-pen` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
+| `/en/articles/travelling-with-a-glp1-pen` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
+| `/en/articles/travelling-with-a-glp1-pen` | `/en/articles/storing-glp1-pens` | The storage guide | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how to store ozempic pen fridge |
+| `/en/articles/travelling-with-a-glp1-pen` | `/en/articles/glp1-reminders-that-work` | the reminders guide | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | change glp-1 injection day reminder |
+| `/en/articles/travelling-with-a-glp1-pen` | `/en/glp1-vial-tracker` | See how vial tracking works → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 vial tracker |
 | `/en/articles/what-is-glp1` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
 | `/en/articles/what-is-glp1` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
 | `/en/articles/what-is-glp1` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
@@ -126,6 +133,7 @@
 | `/en/glp1-vial-tracker` | `/en/articles/glp1-injection-sites` | where to inject and how to rotate | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 injection sites |
 | `/en/glp1-vial-tracker` | `/en/articles/what-is-glp1` | what GLP-1 actually is | üründen makaleye — iddiayı kaynaklı içerikle destekler | what is glp-1 |
 | `/en/glp1-vial-tracker` | `/en/articles/storing-glp1-pens` | what each label says about storing a pen | üründen makaleye — iddiayı kaynaklı içerikle destekler | how to store ozempic pen fridge |
+| `/en/glp1-vial-tracker` | `/en/articles/travelling-with-a-glp1-pen` | what the rules say about flying with one | üründen makaleye — iddiayı kaynaklı içerikle destekler | flying with ozempic pen |
 | `/en/glp1-vial-tracker` | `/en/glp1-shot-tracker` | the shot tracker | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 shot tracker |
 | `/en/glp1-vial-tracker` | `/en/glp1-appointment-report` | the doctor report | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 doctor report pdf |
 | `/en/glp1-weight-tracker` | `/en` | Home | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 tracker app |
@@ -213,6 +221,7 @@
 | `/tr/flakon-takibi` | `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | nereye yapılır, rotasyon nasıl olur | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 enjeksiyon bölgeleri |
 | `/tr/flakon-takibi` | `/tr/makaleler/glp1-nedir` | GLP-1'in aslında ne olduğu | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 nedir |
 | `/tr/flakon-takibi` | `/tr/makaleler/glp1-kalemi-saklama` | her etiketin kalem saklama hakkında ne dediği | üründen makaleye — iddiayı kaynaklı içerikle destekler | ozempic kalemi nasıl saklanır |
+| `/tr/flakon-takibi` | `/tr/makaleler/glp1-kalemiyle-seyahat` | kalemle uçmak hakkında kuralların ne dediği | üründen makaleye — iddiayı kaynaklı içerikle destekler | uçakta glp1 kalemi taşıma |
 | `/tr/flakon-takibi` | `/tr/glp1-igne-takibi` | iğne takibi | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 iğne takip uygulaması |
 | `/tr/flakon-takibi` | `/tr/doktor-raporu` | doktor raporu | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 doktor raporu pdf |
 | `/tr/gizli-glp1-takibi` | `/tr` | Ana sayfa | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
@@ -248,6 +257,7 @@
 | `/tr/kvkk` | `/tr` | ← Ana sayfaya dön | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
 | `/tr/kvkk` | `/tr/gizlilik` | Gizlilik Politikası | ürün sayfaları arası — bitişik özelliğe geçiş | dozify gizlilik politikası |
 | `/tr/makaleler` | `/tr` | Ana Sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler` | `/tr/makaleler/glp1-kalemiyle-seyahat` | Seyahat GLP-1 kalemiyle uçmak: kurallar tam olarak ne diyor Sıvı muafiyeti ve buz paketleri, TSA'dan alıntıyla — bir de tatilde durmayan kullanım süresi. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | uçakta glp1 kalemi taşıma |
 | `/tr/makaleler` | `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | Yan etkiler Doktorunuzun gerçekten kullanabileceği bir yan etki günlüğü Hekimin sırayla geçtiği altı soru, NIH'ten alıntıyla — ve yalnızca haftalık iğnede önemli olan yedincisi. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | yan etkileri doktora nasıl anlatmalı |
 | `/tr/makaleler` | `/tr/makaleler/kilo-trendini-okumak` | Kilo Tartı durduğunda kilo trendini okumak Haftanın ölçülmüş bir şekli var — başta en yüksek, cuma civarı en düşük. Çizginin cevapladığı, bu sabahki rakamın cevaplayamadığı şey. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 kilo vermeme dönemi trend |
 | `/tr/makaleler` | `/tr/makaleler/ise-yarayan-hatirlatici` | Rutin İğne gününü kaydırmak ve gelen hatırlatıcılar Etiketin günü değiştirmeye dair tek koşullu cümlesi — ve gelmeyen hatırlatıcının arkasındaki üç telefon ayarı. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 iğne günü değiştirme hatırlatıcı |
@@ -281,6 +291,12 @@
 | `/tr/makaleler/glp1-kalemi-saklama` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
 | `/tr/makaleler/glp1-kalemi-saklama` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
 | `/tr/makaleler/glp1-kalemi-saklama` | `/tr/flakon-takibi` | Flakon takibi nasıl çalışıyor → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 flakon takibi |
+| `/tr/makaleler/glp1-kalemiyle-seyahat` | `/tr` | Ana sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler/glp1-kalemiyle-seyahat` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
+| `/tr/makaleler/glp1-kalemiyle-seyahat` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
+| `/tr/makaleler/glp1-kalemiyle-seyahat` | `/tr/makaleler/glp1-kalemi-saklama` | Saklama rehberinde | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | ozempic kalemi nasıl saklanır |
+| `/tr/makaleler/glp1-kalemiyle-seyahat` | `/tr/makaleler/ise-yarayan-hatirlatici` | hatırlatıcılar rehberinde | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 iğne günü değiştirme hatırlatıcı |
+| `/tr/makaleler/glp1-kalemiyle-seyahat` | `/tr/flakon-takibi` | Flakon takibi nasıl çalışıyor → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 flakon takibi |
 | `/tr/makaleler/glp1-nasil-yapilir` | `/tr` | Ana Sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
 | `/tr/makaleler/glp1-nasil-yapilir` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
 | `/tr/makaleler/glp1-nasil-yapilir` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
