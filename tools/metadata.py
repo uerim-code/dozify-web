@@ -73,6 +73,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("bilgi", "yan etkileri doktora nasıl anlatmalı")},
     "articles/travelling-with-a-glp1-pen": {"en": ("information", "flying with ozempic pen"),
                                      "tr": ("bilgi", "uçakta glp1 kalemi taşıma")},
+    "articles/hydration-on-a-glp1": {"en": ("information", "how much water on glp-1"),
+                                     "tr": ("bilgi", "glp1 kullanırken su tüketimi")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -250,5 +252,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Medication is exempt from the 100 ml limit and gel ice packs pass even when melted — quoted from TSA. Plus the storage rule a trip can quietly break."),
         "tr": ("GLP-1 Kalemiyle Uçmak: Kurallar Ne Diyor",
                "İlaç 100 ml sınırından muaf, jel buz paketleri erimişken bile geçiyor — TSA'dan alıntı. Bir de yolculuğun sessizce bozabildiği saklama kuralı."),
+    },
+    "articles/hydration-on-a-glp1": {
+        "en": ("Fluids on a GLP-1: What the Label Warns About",
+               "No litre target — the label does not give one. It warns that vomiting and diarrhoea can cause dehydration and kidney problems, and says to report them."),
+        "tr": ("GLP-1 ve Sıvı: Etiket Asıl Neyi Uyarıyor",
+               "Litre hedefi yok — etiket vermiyor. Kusma ve ishalin sıvı kaybına ve böbrek sorununa yol açabileceğini uyarıyor ve bildirilmesini istiyor."),
     },
 }

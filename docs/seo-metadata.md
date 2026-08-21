@@ -11,6 +11,7 @@
 | `/en/articles/glp1-reminders-that-work` | en | troubleshooting | change glp-1 injection day reminder | Moving Your Shot Day, and Reminders That Arrive | 47 | The labels answer "can I change the day?" in one conditional line. And a reminder that never appeared is almost always a phone setting, not the app. | 148 |
 | `/en/articles/glp1-side-effects` | en | information | glp-1 side effects | Managing Common GLP-1 Side Effects: What Helps | 46 | Nausea, constipation and fatigue are the common ones. What tends to help, how long they usually last, and the signs that need a doctor. | 135 |
 | `/en/articles/how-to-inject-glp1` | en | information | how to inject glp-1 | How to Inject a GLP-1 Pen: A Step-by-Step Guide | 47 | Preparing the pen, choosing a site, the injection itself and what to do afterwards — following the manufacturer instructions, with sources. | 139 |
+| `/en/articles/hydration-on-a-glp1` | en | information | how much water on glp-1 | Fluids on a GLP-1: What the Label Warns About | 45 | No litre target — the label does not give one. It warns that vomiting and diarrhoea can cause dehydration and kidney problems, and says to report them. | 151 |
 | `/en/articles/injection-site-lumps` | en | information, concern | lump at glp-1 injection site | A Lump at the Injection Site: What Labels Report | 48 | Injection site reactions are listed for these medicines, and 1% of the placebo group reported them too. What the labels say, and when to show someone. | 150 |
 | `/en/articles/missed-glp1-dose` | en | information, urgent | missed glp-1 dose what to do | Missed a GLP-1 Dose? What Each Leaflet Says | 43 | Five days for one product, four for another, two for a third — and for one, skip it. What each GLP-1's own instructions say about a late dose, quoted. | 150 |
 | `/en/articles/reading-a-weight-trend` | en | information | glp-1 weight loss plateau trend | Reading a Weight Trend When the Scale Stalls | 44 | Weight peaks early in the week and bottoms out around Friday — that is published, not anecdote. What a trend line answers, and what it deliberately cannot. | 155 |
@@ -53,6 +54,7 @@
 | `/tr/makaleler/glp1-kalemiyle-seyahat` | tr | bilgi | uçakta glp1 kalemi taşıma | GLP-1 Kalemiyle Uçmak: Kurallar Ne Diyor | 40 | İlaç 100 ml sınırından muaf, jel buz paketleri erimişken bile geçiyor — TSA'dan alıntı. Bir de yolculuğun sessizce bozabildiği saklama kuralı. | 142 |
 | `/tr/makaleler/glp1-nasil-yapilir` | tr | bilgi | glp1 iğnesi nasıl yapılır | GLP-1 Kalemi Nasıl Yapılır? Adım Adım Anlatım | 45 | Kalemi hazırlamak, bölge seçmek, enjeksiyonun kendisi ve sonrasında ne yapılacağı — üretici talimatlarına dayanarak, kaynaklarıyla. | 131 |
 | `/tr/makaleler/glp1-nedir` | tr | bilgi | glp1 nedir | GLP-1 Nedir? Hormonun Görevi ve Nasıl Çalıştığı | 47 | GLP-1, bağırsağın yemekten sonra saldığı bir hormondur. Ne yaptığı, ilaçların neyi taklit ettiği ve iştahın neden değiştiği — kaynaklarıyla. | 140 |
+| `/tr/makaleler/glp1-ve-su-tuketimi` | tr | bilgi | glp1 kullanırken su tüketimi | GLP-1 ve Sıvı: Etiket Asıl Neyi Uyarıyor | 40 | Litre hedefi yok — etiket vermiyor. Kusma ve ishalin sıvı kaybına ve böbrek sorununa yol açabileceğini uyarıyor ve bildirilmesini istiyor. | 138 |
 | `/tr/makaleler/glp1-yan-etkileri` | tr | bilgi | glp1 yan etkileri | Yaygın GLP-1 Yan Etkileri: Ne İşe Yarıyor? | 42 | Bulantı, kabızlık ve yorgunluk en yaygın olanlar. Neyin yardımcı olduğu, genelde ne kadar sürdüğü ve doktor gerektiren belirtiler. | 130 |
 | `/tr/makaleler/ise-yarayan-hatirlatici` | tr | sorun giderme | glp1 iğne günü değiştirme hatırlatıcı | İğne Gününü Kaydırmak ve Gelen Hatırlatıcılar | 45 | "Günü değiştirebilir miyim?" sorusunu etiketler tek koşullu cümleyle cevaplıyor. Gelmeyen hatırlatıcı ise neredeyse hep telefon ayarıdır. | 137 |
 | `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | tr | bilgi | yan etkileri doktora nasıl anlatmalı | Doktorun Kullanabileceği Bir Yan Etki Günlüğü | 45 | NIH, doktorun belirti hakkında sorduğu altı şeyi sayıyor. Çoğu günlük birini kaydeder. Onun yerine ne yazılmalı ve haftalık iğneye özel alan. | 141 |
@@ -74,6 +76,7 @@
 | `/en/articles/glp1-reminders-that-work` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/glp1-side-effects` | en | Organization, WebSite, Person, MedicalWebPage, BreadcrumbList |
 | `/en/articles/how-to-inject-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/en/articles/hydration-on-a-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/injection-site-lumps` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/missed-glp1-dose` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/reading-a-weight-trend` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
@@ -116,6 +119,7 @@
 | `/tr/makaleler/glp1-kalemiyle-seyahat` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/glp1-nasil-yapilir` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/glp1-nedir` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/tr/makaleler/glp1-ve-su-tuketimi` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/glp1-yan-etkileri` | tr | Organization, WebSite, Person, MedicalWebPage, BreadcrumbList |
 | `/tr/makaleler/ise-yarayan-hatirlatici` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |

@@ -20,6 +20,7 @@
 | `/en` | `/en/why` | what the app refuses to do | ürün sayfaları arası — bitişik özelliğe geçiş | why dozify |
 | `/en` | `/en/switch-glp1-tracker-app` | More on the switching page | ürün sayfaları arası — bitişik özelliğe geçiş | shotsy alternative import data |
 | `/en/articles` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles` | `/en/articles/hydration-on-a-glp1` | Side effects Fluids on a GLP-1: what the label actually warns about Not a litre target — a named warning about dehydration from vomiting or diarrhoea, and what it says to do about it. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how much water on glp-1 |
 | `/en/articles` | `/en/articles/travelling-with-a-glp1-pen` | Travel Flying with a GLP-1 pen: what the rules actually say The liquids exemption and ice packs, quoted from TSA — plus the in-use clock that does not pause for a holiday. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | flying with ozempic pen |
 | `/en/articles` | `/en/articles/side-effect-diary-that-helps` | Side effects A side-effect diary your doctor can actually use The six questions a clinician works through, quoted from the NIH — and the seventh that only matters on a weekly injection. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how to track glp-1 side effects for doctor |
 | `/en/articles` | `/en/articles/reading-a-weight-trend` | Weight Reading a weight trend when the scale has stalled The week has a documented shape — highest early, lowest around Friday. What the line answers that this morning's number cannot. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 weight loss plateau trend |
@@ -64,6 +65,10 @@
 | `/en/articles/how-to-inject-glp1` | `/en/glp1-shot-tracker` | See how injection logging works → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 shot tracker |
 | `/en/articles/how-to-inject-glp1` | `/en/articles/missed-glp1-dose` | And if a dose is late → | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | missed glp-1 dose what to do |
 | `/en/articles/how-to-inject-glp1` | `/en/articles/storing-glp1-pens` | And where the pen lives between doses → | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how to store ozempic pen fridge |
+| `/en/articles/hydration-on-a-glp1` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles/hydration-on-a-glp1` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
+| `/en/articles/hydration-on-a-glp1` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
+| `/en/articles/hydration-on-a-glp1` | `/en/glp1-side-effect-journal` | See how the side-effect journal works → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 side effect tracker |
 | `/en/articles/injection-site-lumps` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
 | `/en/articles/injection-site-lumps` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
 | `/en/articles/injection-site-lumps` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
@@ -125,6 +130,7 @@
 | `/en/glp1-side-effect-journal` | `/en/articles/what-is-glp1` | what GLP-1 actually is | üründen makaleye — iddiayı kaynaklı içerikle destekler | what is glp-1 |
 | `/en/glp1-side-effect-journal` | `/en/articles/glp1-injection-sites` | where to inject and how to rotate | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 injection sites |
 | `/en/glp1-side-effect-journal` | `/en/articles/side-effect-diary-that-helps` | what makes a diary useful to a clinician | üründen makaleye — iddiayı kaynaklı içerikle destekler | how to track glp-1 side effects for doctor |
+| `/en/glp1-side-effect-journal` | `/en/articles/hydration-on-a-glp1` | what the label warns about fluids | üründen makaleye — iddiayı kaynaklı içerikle destekler | how much water on glp-1 |
 | `/en/glp1-side-effect-journal` | `/en/glp1-appointment-report` | the doctor report | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 doctor report pdf |
 | `/en/glp1-side-effect-journal` | `/en/glp1-shot-tracker` | the shot tracker | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 shot tracker |
 | `/en/glp1-vial-tracker` | `/en` | Home | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 tracker app |
@@ -257,6 +263,7 @@
 | `/tr/kvkk` | `/tr` | ← Ana sayfaya dön | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
 | `/tr/kvkk` | `/tr/gizlilik` | Gizlilik Politikası | ürün sayfaları arası — bitişik özelliğe geçiş | dozify gizlilik politikası |
 | `/tr/makaleler` | `/tr` | Ana Sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler` | `/tr/makaleler/glp1-ve-su-tuketimi` | Yan etkiler GLP-1 kullanırken sıvı: etiket asıl neyi uyarıyor Litre hedefi değil — kusma ya da ishalden kaynaklanan sıvı kaybına dair adı konmuş bir uyarı ve ne yapılması gerektiği. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 kullanırken su tüketimi |
 | `/tr/makaleler` | `/tr/makaleler/glp1-kalemiyle-seyahat` | Seyahat GLP-1 kalemiyle uçmak: kurallar tam olarak ne diyor Sıvı muafiyeti ve buz paketleri, TSA'dan alıntıyla — bir de tatilde durmayan kullanım süresi. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | uçakta glp1 kalemi taşıma |
 | `/tr/makaleler` | `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | Yan etkiler Doktorunuzun gerçekten kullanabileceği bir yan etki günlüğü Hekimin sırayla geçtiği altı soru, NIH'ten alıntıyla — ve yalnızca haftalık iğnede önemli olan yedincisi. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | yan etkileri doktora nasıl anlatmalı |
 | `/tr/makaleler` | `/tr/makaleler/kilo-trendini-okumak` | Kilo Tartı durduğunda kilo trendini okumak Haftanın ölçülmüş bir şekli var — başta en yüksek, cuma civarı en düşük. Çizginin cevapladığı, bu sabahki rakamın cevaplayamadığı şey. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 kilo vermeme dönemi trend |
@@ -309,6 +316,10 @@
 | `/tr/makaleler/glp1-nedir` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
 | `/tr/makaleler/glp1-nedir` | `/tr/makaleler/glp1-bantlari` | GLP-1 bantları: insanlar neyi kastediyor, gerçekte ne var | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 bantları |
 | `/tr/makaleler/glp1-nedir` | `/tr/glp1-igne-takibi` | Doz takibi nasıl çalışıyor → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 iğne takip uygulaması |
+| `/tr/makaleler/glp1-ve-su-tuketimi` | `/tr` | Ana sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler/glp1-ve-su-tuketimi` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
+| `/tr/makaleler/glp1-ve-su-tuketimi` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
+| `/tr/makaleler/glp1-ve-su-tuketimi` | `/tr/yan-etki-gunlugu` | Yan etki günlüğü nasıl çalışıyor → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 yan etki günlüğü |
 | `/tr/makaleler/glp1-yan-etkileri` | `/tr` | Ana sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
 | `/tr/makaleler/glp1-yan-etkileri` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
 | `/tr/makaleler/glp1-yan-etkileri` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
@@ -344,6 +355,7 @@
 | `/tr/yan-etki-gunlugu` | `/tr/makaleler/glp1-nedir` | GLP-1'in aslında ne olduğu | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 nedir |
 | `/tr/yan-etki-gunlugu` | `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | nereye yapılır, rotasyon nasıl olur | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 enjeksiyon bölgeleri |
 | `/tr/yan-etki-gunlugu` | `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | bir günlüğü hekim için işe yarar kılan nedir | üründen makaleye — iddiayı kaynaklı içerikle destekler | yan etkileri doktora nasıl anlatmalı |
+| `/tr/yan-etki-gunlugu` | `/tr/makaleler/glp1-ve-su-tuketimi` | etiketin sıvı konusunda ne uyardığı | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 kullanırken su tüketimi |
 | `/tr/yan-etki-gunlugu` | `/tr/doktor-raporu` | doktor raporu | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 doktor raporu pdf |
 | `/tr/yan-etki-gunlugu` | `/tr/glp1-igne-takibi` | iğne takibi | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 iğne takip uygulaması |
 | `/tr/yayin-ilkeleri` | `/tr` | Ana sayfa | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |

@@ -208,7 +208,7 @@ okuyucunun bulunduğu yere göre acil numara.
   ısırıyor — 21 gün oda sıcaklığı serbest ama sonra buzdolabına geri konmuyor;
   semaglutid kalemlerinde ikisi de serbest. Yani "yolculuk geri döndürülebilir
   mi" sorusunu elinizdeki ürün belirliyor.
-### 10. hafta — Su, GLP-1 kullanırken
+### 10. hafta — Su, GLP-1 kullanırken ✅ YAYINLANDI (20 Ağu 2026)
 - **Niyet:** bilgi · **Küme:** injection routine
 - **EN sorgu:** how much water on glp-1 · **TR sorgu:** glp1 kullanırken su tüketimi
 - **URL:** `/en/articles/hydration-on-a-glp1` · `/tr/makaleler/glp1-ve-su-tuketimi`
@@ -219,7 +219,20 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Bağlanacak ürün sayfası:** `/glp1-side-effect-journal`
 - **Kaçınılacak iddia:** günlük sıvı miktarı reçetesi
 - **Öncelik:** 10
-
+- **Sonuç:** `/en/articles/hydration-on-a-glp1` · `/tr/makaleler/glp1-ve-su-tuketimi`.
+  "Litre hedefi verme" kısıtı yazının konusu hâline geldi: **etiketin kendisi de
+  sayı vermiyor.** Verdiği şey adı konmuş bir uyarı — bölüm 5.6 "Acute Kidney
+  Injury Due to Volume Depletion": pazarlama sonrası akut böbrek hasarı
+  bildirimleri, bazıları hemodiyaliz gerektirmiş, çoğu "bulantı, kusma ya da
+  ishal gibi sıvı kaybına yol açan gastrointestinal reaksiyonlar yaşayan
+  hastalarda". Hekimlere izleme talimatı **"özellikle doza başlarken ve dozu
+  artırırken"** — yani etiket riskli dönemi kendisi işaretliyor. Hasta bilgisi
+  bölümü de sade: "sıvı almanız önemlidir" + "geçmeyen bulantı, kusma veya
+  ishali hemen söyleyin". Dehidrasyon belirtileri MedlinePlus'tan alıntı.
+- **ÜRÜN NOTU:** uygulama içindeki `lib/content/articles/nutrition.ts`
+  "kg başına 30-35 ml/gün" hedefi veriyor. Etiket böyle bir sayı vermiyor ve
+  site artık açıkça vermemeyi gerekçelendiriyor. Uygulama içi içerik
+  claims-checker kapsamında DEĞİL — gözden geçirilmeli.
 ### 11. hafta — Sağlık uygulamaları verinle ne yapıyor
 - **Niyet:** değerlendirme · **Küme:** privacy-first health tracking
 - **EN sorgu:** are health tracking apps private · **TR sorgu:** sağlık uygulamaları veri güvenliği

@@ -43,6 +43,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/how-to-inject-glp1"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/hydration-on-a-glp1</loc>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/hydration-on-a-glp1"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-ve-su-tuketimi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/hydration-on-a-glp1"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/injection-site-lumps</loc>
     <lastmod>2026-08-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/injection-site-lumps"/>
@@ -328,6 +335,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/what-is-glp1"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-nedir"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/what-is-glp1"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/makaleler/glp1-ve-su-tuketimi</loc>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/hydration-on-a-glp1"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/glp1-ve-su-tuketimi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/hydration-on-a-glp1"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/glp1-yan-etkileri</loc>
