@@ -87,12 +87,16 @@ DENIAL = re.compile(
 )
 
 
+def is_quoted(text: str, start: int, end: int) -> bool:
+    """True when the hit sits inside quotation marks — a mention, not a use."""
+    before, after = text[max(0, start - 3):start], text[end:end + 3]
+    return (before.strip().endswith(('"', "“", "«", "'", "\\"))
+            and after.strip().startswith(('"', "”", "»", "'", "\\")))
+
+
 def is_quoted_denial(text: str, start: int, end: int) -> bool:
     """True when the hit is a quoted phrase inside a sentence that rejects it."""
-    before, after = text[max(0, start - 2):start], text[end:end + 2]
-    quoted = (before.strip().endswith(('"', "“", "«", "'"))
-              and after.strip().startswith(('"', "”", "»", "'")))
-    if not quoted:
+    if not is_quoted(text, start, end):
         return False
     return bool(DENIAL.search(text[max(0, start - 300):end + 300]))
 
@@ -126,6 +130,18 @@ def main() -> int:
             for m in re.finditer(pattern, text, re.I):
                 window = text[max(0, m.start() - 120) : m.end() + 120]
                 if re.search(ok_form, window, re.I):
+                    continue
+                # A phrase in quotation marks whose own passage then supplies
+                # the precise form is a page explaining the difference, not a
+                # page making the vague claim — the privacy guide has a FAQ
+                # whose whole subject is that "no ads" says less than people
+                # read into it. The block is wider than the window above
+                # because a question and its answer are further apart than a
+                # sentence, and the precise form has to be present for the
+                # exemption to apply at all.
+                if is_quoted(text, m.start(), m.end()) and re.search(
+                    ok_form, text[max(0, m.start() - 700) : m.end() + 700], re.I
+                ):
                     continue
                 line = text[: m.start()].count("\n") + 1
                 findings.append(f"{rel}:{line}  VAGUE   “{m.group(0)}” — {guidance}")

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sağlık Uygulaması Gizliliği: Etiketin Yazmadığı</title>
+  <meta name="description" content="Çoğu sağlık uygulaması HIPAA kapsamında değil ve &quot;takip yok&quot; göründüğünden dar bir söz. Apple'ın kelimeleri ne diyor ve sorulacak beş soru.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <meta property="og:title" content="Sağlık Uygulaması Gizliliği: Etiketin Yazmadığı">
+  <meta property="og:description" content="Çoğu sağlık uygulaması HIPAA kapsamında değil ve &quot;takip yok&quot; göründüğünden dar bir söz. Apple'ın kelimeleri ne diyor ve sorulacak beş soru.">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — iPhone için gizli GLP-1 enjeksiyon ve kilo takip uygulaması">
+  <meta name="twitter:title" content="Sağlık Uygulaması Gizliliği: Etiketin Yazmadığı">
+  <meta name="twitter:description" content="Çoğu sağlık uygulaması HIPAA kapsamında değil ve &quot;takip yok&quot; göründüğünden dar bir söz. Apple'ın kelimeleri ne diyor ve sorulacak beş soru.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — iPhone için gizli GLP-1 enjeksiyon ve kilo takip uygulaması">
+  <meta name="theme-color" content="#0D9488">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/health-app-privacy">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/health-app-privacy">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:locale:alternate" content="en_US">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/tr",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "tr"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/tr/yayin-ilkeleri",
+        "description": "Dozify'ın geliştiricisi. Bu rehberleri birincil kaynaklardan yazıyor; hekim değil."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi#webpage",
+        "url": "https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi",
+        "name": "Sağlık Uygulaması Gizliliği: Etiketin Yazmadığı",
+        "description": "Çoğu sağlık uygulaması HIPAA kapsamında değil ve \"takip yok\" göründüğünden dar bir söz. Apple'ın kelimeleri ne diyor ve sorulacak beş soru.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "tr",
+        "breadcrumb": {
+          "@id": "https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Sağlık verim yasayla korunmuyor mu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bir yasa geçerli, ama muhtemelen aklınızdaki değil. FTC, pek çok sağlık uygulamasının HIPAA kapsamında olmadığını belirtiyor; ABD'de onları kapsayan şey Sağlık İhlali Bildirim Kuralı — ki bu, önceden toplamayı sınırlamakla değil, ihlalden sonra size haber verilmesiyle ilgili."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Etikette \"Veri Toplanmıyor\" yazıyor. Bu yeterli mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bir etiketin söyleyebileceği en güçlü şey ve bir denetim değil, geliştiricinin kendi beyanı. Gizlilik politikasıyla birlikte okuyun: ne toplandığını sayan bir politika ile \"hiçbir şey toplanmıyor\" diyen bir etiket uyuşmalı; uyuşmuyorlarsa daha ayrıntılı belge politikadır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Yedekleme ile senkron arasındaki fark ne?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kopyayı kimin tuttuğu. Yedek, sizin ürettiğiniz ve sakladığınız bir dosyadır; senkron ise cihazların birbiriyle uyuşabilmesi için birinin sunucusunda tutulan bir kopya. İkisi de işe yarar; yalnızca biri, kayıtlarınızın kontrol etmediğiniz bir yerde var olması demektir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "\"Reklam yok\" hiçbir reklam işi olmuyor demek mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Şart değil ve burada kesin konuşmaya değer. Bir uygulamada uygulama içinde reklam yok olabilir ve aynı anda, başka yerde yayımladığı bir reklamdan kurulum gelip gelmediğini ölçüyor olabilir. Bunlar farklı şeyler; güvenilmeye değer bir politika hangisini kastettiğini yazar. Bizimki ikisini de yazıyor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Bunları kendim nasıl kontrol ederim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "App Store sayfasını açıp gizlilik bölümünü okuyun, sonra uygulamanın gizlilik politikasını açıp ikisinin aynı uygulamayı anlatıp anlatmadığına bakın. Ardından pratik testi yapın: hesap açmadan kullanabiliyor musunuz ve silmek veriyi de götürüyor mu?"
+            }
+          }
+        ],
+        "headline": "Bir sağlık uygulaması reçetenizi görmeden önce neye bakmalı",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-20",
+        "dateModified": "2026-08-20",
+        "lastReviewed": "2026-08-20",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "Apple — App privacy details on the App Store",
+            "url": "https://developer.apple.com/app-store/app-privacy-details/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Apple — User privacy and data use (App Tracking Transparency)",
+            "url": "https://developer.apple.com/app-store/user-privacy-and-data-use/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Health Breach Notification Rule: the basics",
+            "url": "https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Updated Health Breach Notification Rule protects users of health apps",
+            "url": "https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Mobile health apps interactive tool",
+            "url": "https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Ana sayfa",
+            "item": "https://dozify.app/tr"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Makaleler",
+            "item": "https://dozify.app/tr/makaleler"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Uygulama gizliliği",
+            "item": "https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/tr" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        
+        <a href="/#features">Özellikler</a>
+        
+        <a href="/tr/destek">Destek</a>
+      <a class="lang-switch" href="https://dozify.app/en/articles/health-app-privacy" hreflang="en" lang="en" rel="alternate">English</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        
+        <a href="/tr">Ana sayfa</a>
+        <span aria-hidden="true">/</span>
+        
+        <a href="/tr/makaleler">Makaleler</a>
+        <span aria-hidden="true">/</span>
+        
+        <span>Uygulama gizliliği</span>
+      </div>
+
+      <div class="article-hero">
+        
+        <h1>Bir sağlık uygulaması reçetenizi görmeden önce neye bakmalı</h1>
+        
+        <p class="article-meta">Yazan: Ümit Can Erim · Yayın: 20 Ağustos 2026 · Güncelleme: 20 Ağustos 2026 · Kaynak kontrolü: 20 Ağustos 2026 · <a href="/tr/yayin-ilkeleri">Bu rehberler nasıl yazılıyor</a></p>
+        
+        <p class="article-lede">İnsanların bir sağlık uygulaması hakkında varsaydığı iki şey doğru değil. Birincisi, tıbbi gizlilik yasasının onu kapsadığı — uygulamaların büyük çoğunluğu için kapsamıyor ve FTC bunu açıkça söylüyor. İkincisi, App Store gizlilik etiketinin "bu uygulama gizliliğime saygı duyuyor mu" sorusunu cevapladığı — o, tanımları belirli kelimelerle daha dar bir soruyu cevaplıyor. Bu yazı, o kelimelerin ne demek olduğu ve onun yerine neye bakılacağı hakkında.</p>
+      </div>
+
+      <div class="prose">
+        
+        
+        
+        
+
+        <h2>HIPAA neredeyse kesinlikle geçerli değil</h2>
+        <p>Önce temizlenmeye değen yanlış anlama bu, çünkü üstüne çok şey biniyor. FTC'nin kendi rehberi, sağlık bilgisi toplayan pek çok şirketin — "ister bir fitness takipçisi, ister bir diyet uygulaması, ister bağlantılı bir tansiyon aleti olsun" — HIPAA kapsamında olmadığını belirtiyor. HIPAA sağlık hizmeti ilişkisini izler: kliniğiniz, hastaneniz, sigortanız. İndirdiğiniz bir uygulama genelde bunların hiçbiri değildir.</p>
+        <p>ABD'de geçerli olan şey, tam da bu boşluğu doldurmak için var olan FTC Sağlık İhlali Bildirim Kuralı. HIPAA kapsamında olmayan kuruluşların, korunmasız ve kişiyle ilişkilendirilebilir sağlık bilgisinde bir ihlal olduğunda kullanıcılarına, FTC'ye ve bazı durumlarda basına bildirmesini şart koşuyor — "makul olmayan bir gecikme olmaksızın" ve keşiften en geç 60 gün sonra.</p>
+        <p>Bunun ne olduğuna ve ne olmadığına dikkat edin. Bir şey ters gittikten sonra size haber verilmesiyle ilgili bir kural. Her şey yolunda giderken bir uygulamanın ne toplayabileceğini sınırlayan bir kural değil.</p>
+
+        
+        
+        
+        
+        
+
+        <h2>App Store etiketi aslında ne söylüyor</h2>
+        <p>Etiketin üç bölümü var ve anlam ortadakinde saklı.</p>
+        <ul>
+          <li><strong>Sizi Takip Etmek İçin Kullanılan Veriler.</strong> Apple'ın takip tanımı belirli: uygulamada bir kullanıcı ya da cihaz hakkında toplanan veriyi, geliştiricinin sahibi olmadığı uygulama, site veya çevrimdışı kaynaklardan gelen <em>üçüncü taraf verisiyle</em> hedefli reklam ya da reklam ölçümü için ilişkilendirmek, ya da bir veri simsarıyla paylaşmak.</li>
+          <li><strong>Sizinle İlişkilendirilen Veriler.</strong> Toplanmış ve bir kimliğe bağlanmış. Apple'ın kuralı şu: geliştirici toplamadan önce doğrudan tanımlayıcıları ayıklamadıysa ve sonradan yeniden bağlamıyorsa <em>dışında</em>, veri ilişkilendirilmiş sayılır. Varsayılan, ilişkilendirilmiş olmak.</li>
+          <li><strong>Sizinle İlişkilendirilmeyen Veriler.</strong> Toplanmış ama bu bağ gerçekten koparılmış.</li>
+        </ul>
+        <p>Ve bir etiketi okuma biçiminizi en çok değiştiren madde — Apple'ın "takip <em>sayılmayan</em>" listesi şöyle başlıyor: "Veri yalnızca son kullanıcının cihazında ilişkilendirildiğinde ve son kullanıcıyı ya da cihazı tanımlayabilecek şekilde cihaz dışına gönderilmediğinde."</p>
+        <p>Yani bir uygulamanın takip bölümü neredeyse boş görünürken hakkınızda bir yığın şeyi bir yerlere gönderiyor olabilir. "Takip yok", "reklam için üçüncü taraf verisiyle birleştirilmiyor ve simsara verilmiyor" demektir — "bunu toplamıyoruz"dan dar bir söz.</p>
+
+        
+        
+
+        <h2>Sorulmaya değen beş soru</h2>
+        <ol>
+          <li><strong>Hesap gerektiriyor mu?</strong> Hesap, kayıtları başkasının sunucusunda bir-kişiye-ait-kayıtlara çeviren mekanizmadır. "Hesap yok" bir özellik listesi maddesi değil, işin bütün biçimidir.</li>
+          <li><strong>Buluta senkronize ediyor mu, kapatılabiliyor mu?</strong> "Yedek" ve "senkron" farklı sözlerdir. Biri sizin tuttuğunuz bir dosya, öteki başkasının tuttuğu bir kopya.</li>
+          <li><strong>Gizlilik etiketinde Sağlık başlığı altında ne var?</strong> Apple'ın Sağlık kategorisi "kullanıcının sağladığı diğer her türlü sağlık ya da tıbbi veriyi" kapsıyor — yani uygulamaya yazılan bir ilaç adı oraya girer. Etiket Sağlık konusunda susuyorsa ve uygulama ilaç kaydediyorsa, ikisinden biri yanlıştır.</li>
+          <li><strong>Politika ne toplandığını sayıyor mu, tarif mi ediyor?</strong> "Deneyiminizi iyileştirmek için bazı bilgiler toplayabiliriz" bir liste değildir. Denetlenebilir bir politika, şeyleri adıyla sayar.</li>
+          <li><strong>Uygulamayı sildiğinizde ne oluyor?</strong> Yalnızca cihazda çalışan bir uygulamada silme işlemi budur. Sunucu varsa, uygulamayı silmek ile hesabı silmek ayrı iki eylemdir ve ana ekrandan elinizde olan yalnızca biridir.</li>
+        </ol>
+
+        <div class="callout">
+          
+          <p><strong>Dozify'ın kendi cevapları — sayfanın sorup kaçtığı soru olmasın diye.</strong> Hesap yok, bulut senkronu yok, uygulama içinde reklam yok. Sağlık kayıtları cihazda, uygulamanın kendi deposunda kalır; yedekleme sizin sakladığınız şifreli bir dosya yazar. Anonim kullanım istatistikleri toplanır — hangi ekranlar kullanılıyor, bir şey çöktü mü — ve bunlar hiçbir zaman ilaç adı, belirti ya da kilo taşımaz. Cihazdan çıkan bir şey daha var: bir kurulumun kendi App Store veya Meta kampanyalarımızdan gelip gelmediğinin ölçümü; Apple'ın takip izninin arkasında çalışır ve kayıtlarınızın hiçbirini içermez. Uygulamayı silerseniz kayıtlar da gider. Ayrıntı <a href="/tr/gizlilik">gizlilik politikasında</a> ve <a href="/tr/kvkk">KVKK metninde</a>, gerekçesi <a href="/tr/gizli-glp1-takibi">gizlilik sayfasında</a>.</p>
+        </div>
+
+        
+        
+
+        <h2>Bu sayfanın yapmayacağı</h2>
+        <p>Başka bir uygulamanın adını verip verisiyle ne yaptığına dair bir imada bulunmak. Kimsenin sunucusunu denetlemedik, denetleyemeyiz de; karşılaştırma kılığına girmiş bir suçlama bilgi değil pazarlamadır. Yukarıdaki sorular her uygulamada işler, bu uygulamada da — soru olarak yazılmalarının sebebi bu.</p>
+      </div>
+
+      <div class="article-cta">
+        
+        <h3>Açılacak hesap yok, senkronize edilecek bir şey yok</h3>
+        
+        <p>Dozlarınız, kilonuz ve belirtileriniz telefonda kalır. Uygulama doğrudan kendi verinizle açılır ve onu silmek, silme işleminin kendisidir.</p>
+        
+        <a href="/#download" class="btn btn-primary">Uygulamayı indir</a>
+        
+        <a href="/tr/gizli-glp1-takibi" class="link-arrow">Burada gizlilik nasıl işliyor →</a>
+      </div>
+
+      <div class="article-faq">
+        
+        <h2>Sorular</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            
+            <h3>Sağlık verim yasayla korunmuyor mu?</h3>
+            
+            <p>Bir yasa geçerli, ama muhtemelen aklınızdaki değil. FTC, pek çok sağlık uygulamasının HIPAA kapsamında olmadığını belirtiyor; ABD'de onları kapsayan şey Sağlık İhlali Bildirim Kuralı — ki bu, önceden toplamayı sınırlamakla değil, ihlalden sonra size haber verilmesiyle ilgili.</p>
+          </div>
+          <div class="faq-item">
+            
+            <h3>Etikette "Veri Toplanmıyor" yazıyor. Bu yeterli mi?</h3>
+            
+            <p>Bir etiketin söyleyebileceği en güçlü şey ve bir denetim değil, geliştiricinin kendi beyanı. Gizlilik politikasıyla birlikte okuyun: ne toplandığını sayan bir politika ile "hiçbir şey toplanmıyor" diyen bir etiket uyuşmalı; uyuşmuyorlarsa daha ayrıntılı belge politikadır.</p>
+          </div>
+          <div class="faq-item">
+            
+            <h3>Yedekleme ile senkron arasındaki fark ne?</h3>
+            
+            <p>Kopyayı kimin tuttuğu. Yedek, sizin ürettiğiniz ve sakladığınız bir dosyadır; senkron ise cihazların birbiriyle uyuşabilmesi için birinin sunucusunda tutulan bir kopya. İkisi de işe yarar; yalnızca biri, kayıtlarınızın kontrol etmediğiniz bir yerde var olması demektir.</p>
+          </div>
+          <div class="faq-item">
+            
+            <h3>"Reklam yok" hiçbir reklam işi olmuyor demek mi?</h3>
+            
+            <p>Şart değil ve burada kesin konuşmaya değer. Bir uygulamada uygulama içinde reklam yok olabilir ve aynı anda, başka yerde yayımladığı bir reklamdan kurulum gelip gelmediğini ölçüyor olabilir. Bunlar farklı şeyler; güvenilmeye değer bir politika hangisini kastettiğini yazar. Bizimki ikisini de yazıyor.</p>
+          </div>
+          <div class="faq-item">
+            
+            <h3>Bunları kendim nasıl kontrol ederim?</h3>
+            
+            <p>App Store sayfasını açıp gizlilik bölümünü okuyun, sonra uygulamanın gizlilik politikasını açıp ikisinin aynı uygulamayı anlatıp anlatmadığına bakın. Ardından pratik testi yapın: hesap açmadan kullanabiliyor musunuz ve silmek veriyi de götürüyor mu?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        
+        <p>Eğitim amaçlı bilgidir; hukuki ya da tıbbi tavsiye değildir. Dozify kişisel bir takip uygulamasıdır, tıbbi cihaz değildir. Gizlilik mevzuatı ülkeye göre değişir ve değişmeye devam eder; bu sayfa kamuya açık kural ve tanımları aktarır ve bu uygulama dışında hiçbir uygulama hakkında değerlendirme yapmaz.</p>
+      </div>
+
+      <div class="references">
+        <h2>References / Kaynaklar</h2>
+        <ol>
+          <li><a href="https://developer.apple.com/app-store/app-privacy-details/" rel="nofollow noopener" target="_blank">Apple — App privacy details on the App Store</a></li>
+          <li><a href="https://developer.apple.com/app-store/user-privacy-and-data-use/" rel="nofollow noopener" target="_blank">Apple — User privacy and data use (App Tracking Transparency)</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business" rel="nofollow noopener" target="_blank">FTC — Health Breach Notification Rule: the basics</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps" rel="nofollow noopener" target="_blank">FTC — Updated Health Breach Notification Rule protects users of health apps</a></li>
+          <li><a href="https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool" rel="nofollow noopener" target="_blank">FTC — Mobile health apps interactive tool</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/tr" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          
+          <h3>Yasal</h3>
+          <a href="/tr/kvkk">KVKK</a>
+          
+          <a href="/tr/kullanim-kosullari">Kullanım Koşulları</a>
+          
+          <a href="/tr/yayin-ilkeleri">Yayın ilkeleri</a>
+        </div>
+        <div class="footer-col">
+          
+          <h3>Yardım</h3>
+          
+          <a href="/tr/destek">Destek</a>
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  </footer>
+</body>
+</html>

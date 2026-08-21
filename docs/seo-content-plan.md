@@ -233,7 +233,7 @@ okuyucunun bulunduğu yere göre acil numara.
   "kg başına 30-35 ml/gün" hedefi veriyor. Etiket böyle bir sayı vermiyor ve
   site artık açıkça vermemeyi gerekçelendiriyor. Uygulama içi içerik
   claims-checker kapsamında DEĞİL — gözden geçirilmeli.
-### 11. hafta — Sağlık uygulamaları verinle ne yapıyor
+### 11. hafta — Sağlık uygulamaları verinle ne yapıyor ✅ YAYINLANDI (20 Ağu 2026)
 - **Niyet:** değerlendirme · **Küme:** privacy-first health tracking
 - **EN sorgu:** are health tracking apps private · **TR sorgu:** sağlık uygulamaları veri güvenliği
 - **URL:** `/en/articles/health-app-privacy` · `/tr/makaleler/saglik-uygulamasi-gizliligi`
@@ -245,7 +245,17 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Bağlanacak ürün sayfası:** `/private-glp1-tracker`
 - **Kaçınılacak iddia:** adı geçen bir uygulamanın veri sızdırdığı imâsı
 - **Öncelik:** 11
-
+- **Sonuç:** `/en/articles/health-app-privacy` ·
+  `/tr/makaleler/saglik-uygulamasi-gizliligi`. İki yaygın yanlış üzerine kuruldu.
+  (1) **HIPAA çoğu sağlık uygulamasını kapsamıyor** — FTC bunu açıkça yazıyor;
+  ABD'de geçerli olan Sağlık İhlali Bildirim Kuralı ve o da toplamayı
+  sınırlamıyor, ihlalden sonra 60 gün içinde haber vermeyi şart koşuyor.
+  (2) **Apple'ın "takip" tanımı dar:** üçüncü taraf verisiyle reklam için
+  ilişkilendirme ya da simsara verme. "Takip sayılmayan" listesinin ilk maddesi
+  aynen: veri yalnızca cihazda ilişkilendirilip cihaz dışına kimliklendirici
+  biçimde gönderilmiyorsa. Yani takip bölümü boş bir etiket, "hiçbir şey
+  toplanmıyor" demek değil. Beş soru + Dozify'ın kendi cevapları kutuda.
+  Rakip adı verilip ima yapılmadı; yazı bunu neden yapmadığını da söylüyor.
 ### 12. hafta — Mezura ve tartı
 - **Niyet:** bilgi · **Küme:** weight and body measurements
 - **EN sorgu:** body measurements vs scale weight loss · **TR sorgu:** vücut ölçüsü mü tartı mı

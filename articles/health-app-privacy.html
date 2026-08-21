@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Before a health app sees your prescription — Dozify</title>
+  <meta name="description" content="Most health apps are not covered by HIPAA, and the App Store privacy label means something narrower than people read into it. What to check, and what the words mean.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/articles/health-app-privacy">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://dozify.app/articles/health-app-privacy">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "headline": "What to check before a health app sees your prescription",
+    "description": "How to read an App Store privacy label, what Apple's definition of tracking does and does not cover, and which rules actually apply to a health app that is not a hospital.",
+    "datePublished": "2026-08-20",
+    "dateModified": "2026-08-20",
+    "lastReviewed": "2026-08-20",
+    "citation": [
+      { "@type": "WebPage", "name": "Apple — App privacy details on the App Store", "url": "https://developer.apple.com/app-store/app-privacy-details/" },
+      { "@type": "WebPage", "name": "Apple — User privacy and data use (App Tracking Transparency)", "url": "https://developer.apple.com/app-store/user-privacy-and-data-use/" },
+      { "@type": "WebPage", "name": "FTC — Health Breach Notification Rule: the basics", "url": "https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business" },
+      { "@type": "WebPage", "name": "FTC — Updated Health Breach Notification Rule protects users of health apps", "url": "https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps" },
+      { "@type": "WebPage", "name": "FTC — Mobile health apps interactive tool", "url": "https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488"/>
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z"/><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z"/>
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features" data-lang="en">Features</a>
+        <a href="/#features" data-lang="tr">Özellikler</a>
+        <a href="/support" data-lang="en">Support</a>
+        <a href="/support" data-lang="tr">Destek</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/" data-lang="en">Home</a>
+        <a href="/" data-lang="tr">Ana sayfa</a>
+        <span aria-hidden="true">/</span>
+        <a href="/articles" data-lang="en">Articles</a>
+        <a href="/articles" data-lang="tr">Makaleler</a>
+        <span aria-hidden="true">/</span>
+        <span data-lang="en">Health app privacy</span>
+        <span data-lang="tr">Uygulama gizliliği</span>
+      </div>
+
+      <div class="article-hero">
+        <h1 data-lang="en">What to check before a health app sees your prescription</h1>
+        <h1 data-lang="tr">Bir sağlık uygulaması reçetenizi görmeden önce neye bakmalı</h1>
+        <p class="article-meta" data-lang="en">By Ümit Can Erim · Published 20 August 2026 · Updated 20 August 2026 · Sources checked 20 August 2026 · <a href="/editorial-policy">How these guides are written</a></p>
+        <p class="article-meta" data-lang="tr">Yazan: Ümit Can Erim · Yayın: 20 Ağustos 2026 · Güncelleme: 20 Ağustos 2026 · Kaynak kontrolü: 20 Ağustos 2026 · <a href="/editorial-policy">Bu rehberler nasıl yazılıyor</a></p>
+        <p class="article-lede" data-lang="en">Two things most people assume about a health app are not true. The first is that medical privacy law covers it — for the great majority of apps it does not, and the FTC says so plainly. The second is that the App Store privacy label answers the question "does this app respect my privacy" — it answers a narrower question, in words with specific definitions. This is what those words mean and what to check instead.</p>
+        <p class="article-lede" data-lang="tr">İnsanların bir sağlık uygulaması hakkında varsaydığı iki şey doğru değil. Birincisi, tıbbi gizlilik yasasının onu kapsadığı — uygulamaların büyük çoğunluğu için kapsamıyor ve FTC bunu açıkça söylüyor. İkincisi, App Store gizlilik etiketinin "bu uygulama gizliliğime saygı duyuyor mu" sorusunu cevapladığı — o, tanımları belirli kelimelerle daha dar bir soruyu cevaplıyor. Bu yazı, o kelimelerin ne demek olduğu ve onun yerine neye bakılacağı hakkında.</p>
+      </div>
+
+      <div class="prose">
+        <h2 data-lang="en">HIPAA almost certainly does not apply</h2>
+        <p data-lang="en">This is the misconception worth clearing first, because it is load-bearing. The FTC's own guidance states that many companies collecting health information — "whether it's a fitness tracker, a diet app, a connected blood pressure cuff, or something else" — are not covered by HIPAA. HIPAA follows the healthcare relationship: your clinic, your hospital, your insurer. An app you downloaded is generally none of those.</p>
+        <p data-lang="en">What does apply, in the United States, is the FTC's Health Breach Notification Rule, which exists precisely to fill that gap. It requires organisations not covered by HIPAA to notify their users, the FTC and in some cases the media when there has been a breach of unsecured, individually identifiable health information — "without unreasonable delay" and no later than 60 days after discovery.</p>
+        <p data-lang="en">Note what that is and is not. It is a rule about telling you after something has gone wrong. It is not a rule that limits what an app may collect while everything is going right.</p>
+
+        <h2 data-lang="tr">HIPAA neredeyse kesinlikle geçerli değil</h2>
+        <p data-lang="tr">Önce temizlenmeye değen yanlış anlama bu, çünkü üstüne çok şey biniyor. FTC'nin kendi rehberi, sağlık bilgisi toplayan pek çok şirketin — "ister bir fitness takipçisi, ister bir diyet uygulaması, ister bağlantılı bir tansiyon aleti olsun" — HIPAA kapsamında olmadığını belirtiyor. HIPAA sağlık hizmeti ilişkisini izler: kliniğiniz, hastaneniz, sigortanız. İndirdiğiniz bir uygulama genelde bunların hiçbiri değildir.</p>
+        <p data-lang="tr">ABD'de geçerli olan şey, tam da bu boşluğu doldurmak için var olan FTC Sağlık İhlali Bildirim Kuralı. HIPAA kapsamında olmayan kuruluşların, korunmasız ve kişiyle ilişkilendirilebilir sağlık bilgisinde bir ihlal olduğunda kullanıcılarına, FTC'ye ve bazı durumlarda basına bildirmesini şart koşuyor — "makul olmayan bir gecikme olmaksızın" ve keşiften en geç 60 gün sonra.</p>
+        <p data-lang="tr">Bunun ne olduğuna ve ne olmadığına dikkat edin. Bir şey ters gittikten sonra size haber verilmesiyle ilgili bir kural. Her şey yolunda giderken bir uygulamanın ne toplayabileceğini sınırlayan bir kural değil.</p>
+
+        <h2 data-lang="en">What the App Store label actually says</h2>
+        <p data-lang="en">The label has three sections, and the middle one is where the meaning hides.</p>
+        <ul data-lang="en">
+          <li><strong>Data Used to Track You.</strong> Apple's definition of tracking is specific: linking data collected in the app about a user or device with <em>third-party data</em> — data from apps, websites or offline sources the developer does not own — for targeted advertising or advertising measurement, or sharing it with a data broker.</li>
+          <li><strong>Data Linked to You.</strong> Collected and tied to an identity. Apple's rule is that data is treated as linked <em>unless</em> the developer strips direct identifiers before collection and does not re-link it afterwards. The default is linked.</li>
+          <li><strong>Data Not Linked to You.</strong> Collected, but with that linkage genuinely broken.</li>
+        </ul>
+        <p data-lang="en">And the clause that most changes how you read a label — Apple's own list of what is <em>not</em> tracking begins: "When the data is linked solely on the end-user's device and is not sent off the device in a way that can identify the end-user or device."</p>
+        <p data-lang="en">So an app can show an almost empty tracking section and still send a great deal about you somewhere. "Not tracking" means "not combined with third-party data for advertising or handed to a broker" — a narrower promise than "we do not collect this".</p>
+
+        <h2 data-lang="tr">App Store etiketi aslında ne söylüyor</h2>
+        <p data-lang="tr">Etiketin üç bölümü var ve anlam ortadakinde saklı.</p>
+        <ul data-lang="tr">
+          <li><strong>Sizi Takip Etmek İçin Kullanılan Veriler.</strong> Apple'ın takip tanımı belirli: uygulamada bir kullanıcı ya da cihaz hakkında toplanan veriyi, geliştiricinin sahibi olmadığı uygulama, site veya çevrimdışı kaynaklardan gelen <em>üçüncü taraf verisiyle</em> hedefli reklam ya da reklam ölçümü için ilişkilendirmek, ya da bir veri simsarıyla paylaşmak.</li>
+          <li><strong>Sizinle İlişkilendirilen Veriler.</strong> Toplanmış ve bir kimliğe bağlanmış. Apple'ın kuralı şu: geliştirici toplamadan önce doğrudan tanımlayıcıları ayıklamadıysa ve sonradan yeniden bağlamıyorsa <em>dışında</em>, veri ilişkilendirilmiş sayılır. Varsayılan, ilişkilendirilmiş olmak.</li>
+          <li><strong>Sizinle İlişkilendirilmeyen Veriler.</strong> Toplanmış ama bu bağ gerçekten koparılmış.</li>
+        </ul>
+        <p data-lang="tr">Ve bir etiketi okuma biçiminizi en çok değiştiren madde — Apple'ın "takip <em>sayılmayan</em>" listesi şöyle başlıyor: "Veri yalnızca son kullanıcının cihazında ilişkilendirildiğinde ve son kullanıcıyı ya da cihazı tanımlayabilecek şekilde cihaz dışına gönderilmediğinde."</p>
+        <p data-lang="tr">Yani bir uygulamanın takip bölümü neredeyse boş görünürken hakkınızda bir yığın şeyi bir yerlere gönderiyor olabilir. "Takip yok", "reklam için üçüncü taraf verisiyle birleştirilmiyor ve simsara verilmiyor" demektir — "bunu toplamıyoruz"dan dar bir söz.</p>
+
+        <h2 data-lang="en">The five questions worth asking</h2>
+        <ol data-lang="en">
+          <li><strong>Does it require an account?</strong> An account is the mechanism that turns records into records-about-a-person on someone else's server. No account is not a feature list item; it is the shape of the whole thing.</li>
+          <li><strong>Does it sync to a cloud, and can that be turned off?</strong> "Backup" and "sync" are different promises. One is a file you hold; the other is a copy someone else holds.</li>
+          <li><strong>What does the privacy label list under Health?</strong> Apple's Health category covers "any other user provided health or medical data" — so a medication name typed into an app belongs there. If the label is silent on Health and the app records medications, one of the two is wrong.</li>
+          <li><strong>Does the policy name what is collected, or describe it?</strong> "We may collect certain information to improve your experience" is not a list. A policy that can be checked names things.</li>
+          <li><strong>What happens when you delete the app?</strong> On a device-only app, that is the deletion. Where there is a server, deleting the app and deleting the account are separate acts, and only one of them is in your hands from the home screen.</li>
+        </ol>
+
+        <h2 data-lang="tr">Sorulmaya değen beş soru</h2>
+        <ol data-lang="tr">
+          <li><strong>Hesap gerektiriyor mu?</strong> Hesap, kayıtları başkasının sunucusunda bir-kişiye-ait-kayıtlara çeviren mekanizmadır. "Hesap yok" bir özellik listesi maddesi değil, işin bütün biçimidir.</li>
+          <li><strong>Buluta senkronize ediyor mu, kapatılabiliyor mu?</strong> "Yedek" ve "senkron" farklı sözlerdir. Biri sizin tuttuğunuz bir dosya, öteki başkasının tuttuğu bir kopya.</li>
+          <li><strong>Gizlilik etiketinde Sağlık başlığı altında ne var?</strong> Apple'ın Sağlık kategorisi "kullanıcının sağladığı diğer her türlü sağlık ya da tıbbi veriyi" kapsıyor — yani uygulamaya yazılan bir ilaç adı oraya girer. Etiket Sağlık konusunda susuyorsa ve uygulama ilaç kaydediyorsa, ikisinden biri yanlıştır.</li>
+          <li><strong>Politika ne toplandığını sayıyor mu, tarif mi ediyor?</strong> "Deneyiminizi iyileştirmek için bazı bilgiler toplayabiliriz" bir liste değildir. Denetlenebilir bir politika, şeyleri adıyla sayar.</li>
+          <li><strong>Uygulamayı sildiğinizde ne oluyor?</strong> Yalnızca cihazda çalışan bir uygulamada silme işlemi budur. Sunucu varsa, uygulamayı silmek ile hesabı silmek ayrı iki eylemdir ve ana ekrandan elinizde olan yalnızca biridir.</li>
+        </ol>
+
+        <div class="callout">
+          <p data-lang="en"><strong>Dozify's own answers, so this page is not asking questions it dodges.</strong> No account, no cloud sync, no in-app ads. Health records stay in the app's own storage on the device; backup writes an encrypted file you keep. Anonymous usage statistics are collected — which screens are used, whether something crashed — and they never carry a medication name, a symptom or a weight. One more thing does leave: a measurement of whether an install came from one of our own App Store or Meta campaigns, which runs behind Apple's tracking permission and contains none of your records. Delete the app and the records go with it. The detail is in the <a href="/privacy">privacy policy</a> and the <a href="/kvkk">KVKK notice</a>, and the reasoning is on <a href="/private-glp1-tracker">the privacy page</a>.</p>
+          <p data-lang="tr"><strong>Dozify'ın kendi cevapları — sayfanın sorup kaçtığı soru olmasın diye.</strong> Hesap yok, bulut senkronu yok, uygulama içinde reklam yok. Sağlık kayıtları cihazda, uygulamanın kendi deposunda kalır; yedekleme sizin sakladığınız şifreli bir dosya yazar. Anonim kullanım istatistikleri toplanır — hangi ekranlar kullanılıyor, bir şey çöktü mü — ve bunlar hiçbir zaman ilaç adı, belirti ya da kilo taşımaz. Cihazdan çıkan bir şey daha var: bir kurulumun kendi App Store veya Meta kampanyalarımızdan gelip gelmediğinin ölçümü; Apple'ın takip izninin arkasında çalışır ve kayıtlarınızın hiçbirini içermez. Uygulamayı silerseniz kayıtlar da gider. Ayrıntı <a href="/privacy">gizlilik politikasında</a> ve <a href="/kvkk">KVKK metninde</a>, gerekçesi <a href="/private-glp1-tracker">gizlilik sayfasında</a>.</p>
+        </div>
+
+        <h2 data-lang="en">What this page will not do</h2>
+        <p data-lang="en">Name another app and imply something about what it does with data. We have not audited anyone else's servers, we cannot, and an accusation dressed as a comparison is marketing rather than information. The questions above work on any app, including this one — that is the point of writing them as questions.</p>
+
+        <h2 data-lang="tr">Bu sayfanın yapmayacağı</h2>
+        <p data-lang="tr">Başka bir uygulamanın adını verip verisiyle ne yaptığına dair bir imada bulunmak. Kimsenin sunucusunu denetlemedik, denetleyemeyiz de; karşılaştırma kılığına girmiş bir suçlama bilgi değil pazarlamadır. Yukarıdaki sorular her uygulamada işler, bu uygulamada da — soru olarak yazılmalarının sebebi bu.</p>
+      </div>
+
+      <div class="article-cta">
+        <h3 data-lang="en">No account to make, nothing to sync</h3>
+        <h3 data-lang="tr">Açılacak hesap yok, senkronize edilecek bir şey yok</h3>
+        <p data-lang="en">Your doses, weight and symptoms stay on the phone. The app opens straight into your own data, and deleting it is the deletion.</p>
+        <p data-lang="tr">Dozlarınız, kilonuz ve belirtileriniz telefonda kalır. Uygulama doğrudan kendi verinizle açılır ve onu silmek, silme işleminin kendisidir.</p>
+        <a href="/#download" class="btn btn-primary" data-lang="en">Download the app</a>
+        <a href="/#download" class="btn btn-primary" data-lang="tr">Uygulamayı indir</a>
+        <a href="/private-glp1-tracker" class="link-arrow" data-lang="en">How privacy works here →</a>
+        <a href="/private-glp1-tracker" class="link-arrow" data-lang="tr">Burada gizlilik nasıl işliyor →</a>
+      </div>
+
+      <div class="article-faq">
+        <h2 data-lang="en">Questions</h2>
+        <h2 data-lang="tr">Sorular</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3 data-lang="en">Isn't my health data protected by law?</h3>
+            <h3 data-lang="tr">Sağlık verim yasayla korunmuyor mu?</h3>
+            <p data-lang="en">Some law applies, but probably not the one you are thinking of. The FTC states that many health apps are not covered by HIPAA; what covers them in the US is the Health Breach Notification Rule, which is about being told after a breach rather than about limiting collection beforehand.</p>
+            <p data-lang="tr">Bir yasa geçerli, ama muhtemelen aklınızdaki değil. FTC, pek çok sağlık uygulamasının HIPAA kapsamında olmadığını belirtiyor; ABD'de onları kapsayan şey Sağlık İhlali Bildirim Kuralı — ki bu, önceden toplamayı sınırlamakla değil, ihlalden sonra size haber verilmesiyle ilgili.</p>
+          </div>
+          <div class="faq-item">
+            <h3 data-lang="en">The label says "Data Not Collected". Is that enough?</h3>
+            <h3 data-lang="tr">Etikette "Veri Toplanmıyor" yazıyor. Bu yeterli mi?</h3>
+            <p data-lang="en">It is the strongest thing a label can say, and it is a developer's own declaration rather than an audit. Read it alongside the privacy policy: a policy that names what is collected and a label that says nothing is collected should agree, and where they do not, the policy is the more detailed document.</p>
+            <p data-lang="tr">Bir etiketin söyleyebileceği en güçlü şey ve bir denetim değil, geliştiricinin kendi beyanı. Gizlilik politikasıyla birlikte okuyun: ne toplandığını sayan bir politika ile "hiçbir şey toplanmıyor" diyen bir etiket uyuşmalı; uyuşmuyorlarsa daha ayrıntılı belge politikadır.</p>
+          </div>
+          <div class="faq-item">
+            <h3 data-lang="en">What is the difference between backup and sync?</h3>
+            <h3 data-lang="tr">Yedekleme ile senkron arasındaki fark ne?</h3>
+            <p data-lang="en">Who holds the copy. A backup is a file you produce and store; sync is a copy kept on someone's server so devices can agree with each other. Both are useful; only one of them means your records exist somewhere you do not control.</p>
+            <p data-lang="tr">Kopyayı kimin tuttuğu. Yedek, sizin ürettiğiniz ve sakladığınız bir dosyadır; senkron ise cihazların birbiriyle uyuşabilmesi için birinin sunucusunda tutulan bir kopya. İkisi de işe yarar; yalnızca biri, kayıtlarınızın kontrol etmediğiniz bir yerde var olması demektir.</p>
+          </div>
+          <div class="faq-item">
+            <h3 data-lang="en">Does "no ads" mean nothing ad-related happens?</h3>
+            <h3 data-lang="tr">"Reklam yok" hiçbir reklam işi olmuyor demek mi?</h3>
+            <p data-lang="en">Not necessarily, and it is worth being precise. An app can have no in-app ads and still measure whether an install came from an ad it ran elsewhere. Those are different things; a policy worth trusting says which one it means. Ours says both, in as many words.</p>
+            <p data-lang="tr">Şart değil ve burada kesin konuşmaya değer. Bir uygulamada uygulama içinde reklam yok olabilir ve aynı anda, başka yerde yayımladığı bir reklamdan kurulum gelip gelmediğini ölçüyor olabilir. Bunlar farklı şeyler; güvenilmeye değer bir politika hangisini kastettiğini yazar. Bizimki ikisini de yazıyor.</p>
+          </div>
+          <div class="faq-item">
+            <h3 data-lang="en">How do I check any of this myself?</h3>
+            <h3 data-lang="tr">Bunları kendim nasıl kontrol ederim?</h3>
+            <p data-lang="en">Open the App Store listing and read the privacy section, then open the app's privacy policy and see whether the two describe the same app. Then try the practical test: can you use it without making an account, and does deleting it take the data with it?</p>
+            <p data-lang="tr">App Store sayfasını açıp gizlilik bölümünü okuyun, sonra uygulamanın gizlilik politikasını açıp ikisinin aynı uygulamayı anlatıp anlatmadığına bakın. Ardından pratik testi yapın: hesap açmadan kullanabiliyor musunuz ve silmek veriyi de götürüyor mu?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p data-lang="en">Educational information, not legal or medical advice. Dozify is a personal tracking app, not a medical device. Privacy law differs by country and changes; this page describes publicly published rules and definitions and does not assess any specific app other than this one.</p>
+        <p data-lang="tr">Eğitim amaçlı bilgidir; hukuki ya da tıbbi tavsiye değildir. Dozify kişisel bir takip uygulamasıdır, tıbbi cihaz değildir. Gizlilik mevzuatı ülkeye göre değişir ve değişmeye devam eder; bu sayfa kamuya açık kural ve tanımları aktarır ve bu uygulama dışında hiçbir uygulama hakkında değerlendirme yapmaz.</p>
+      </div>
+
+      <div class="references">
+        <h2>References / Kaynaklar</h2>
+        <ol>
+          <li><a href="https://developer.apple.com/app-store/app-privacy-details/" rel="nofollow noopener" target="_blank">Apple — App privacy details on the App Store</a></li>
+          <li><a href="https://developer.apple.com/app-store/user-privacy-and-data-use/" rel="nofollow noopener" target="_blank">Apple — User privacy and data use (App Tracking Transparency)</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business" rel="nofollow noopener" target="_blank">FTC — Health Breach Notification Rule: the basics</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps" rel="nofollow noopener" target="_blank">FTC — Updated Health Breach Notification Rule protects users of health apps</a></li>
+          <li><a href="https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool" rel="nofollow noopener" target="_blank">FTC — Mobile health apps interactive tool</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488"/>
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z"/><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z"/>
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3 data-lang="en">Legal</h3>
+          <h3 data-lang="tr">Yasal</h3>
+          <a href="/kvkk">KVKK</a>
+          <a href="/terms" data-lang="en">Terms</a>
+          <a href="/terms" data-lang="tr">Kullanım Koşulları</a>
+          <a href="/editorial-policy" data-lang="en">Editorial policy</a>
+          <a href="/editorial-policy" data-lang="tr">Yayın ilkeleri</a>
+        </div>
+        <div class="footer-col">
+          <h3 data-lang="en">Help</h3>
+          <h3 data-lang="tr">Yardım</h3>
+          <a href="/support" data-lang="en">Support</a>
+          <a href="/support" data-lang="tr">Destek</a>
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  </footer>
+</body>
+</html>

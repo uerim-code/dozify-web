@@ -36,6 +36,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-side-effects"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/health-app-privacy</loc>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/health-app-privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/health-app-privacy"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/how-to-inject-glp1</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/how-to-inject-glp1"/>
@@ -170,7 +177,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/private-glp1-tracker</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/private-glp1-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizli-glp1-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/private-glp1-tracker"/>
@@ -247,7 +254,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/gizli-glp1-takibi</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/private-glp1-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizli-glp1-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/private-glp1-tracker"/>
@@ -384,6 +391,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-appointment-checklist"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/randevu-kontrol-listesi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-appointment-checklist"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi</loc>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/health-app-privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/health-app-privacy"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler</loc>

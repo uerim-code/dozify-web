@@ -75,6 +75,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("bilgi", "uçakta glp1 kalemi taşıma")},
     "articles/hydration-on-a-glp1": {"en": ("information", "how much water on glp-1"),
                                      "tr": ("bilgi", "glp1 kullanırken su tüketimi")},
+    "articles/health-app-privacy": {"en": ("evaluation", "are health tracking apps private"),
+                                     "tr": ("değerlendirme", "sağlık uygulamaları veri güvenliği")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -258,5 +260,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "No litre target — the label does not give one. It warns that vomiting and diarrhoea can cause dehydration and kidney problems, and says to report them."),
         "tr": ("GLP-1 ve Sıvı: Etiket Asıl Neyi Uyarıyor",
                "Litre hedefi yok — etiket vermiyor. Kusma ve ishalin sıvı kaybına ve böbrek sorununa yol açabileceğini uyarıyor ve bildirilmesini istiyor."),
+    },
+    "articles/health-app-privacy": {
+        "en": ("Health App Privacy: What the Label Leaves Out",
+               "Most health apps are not covered by HIPAA, and \"no tracking\" means something narrower than it reads. What Apple's words mean, and five questions to ask."),
+        "tr": ("Sağlık Uygulaması Gizliliği: Etiketin Yazmadığı",
+               "Çoğu sağlık uygulaması HIPAA kapsamında değil ve \"takip yok\" göründüğünden dar bir söz. Apple'ın kelimeleri ne diyor ve sorulacak beş soru."),
     },
 }

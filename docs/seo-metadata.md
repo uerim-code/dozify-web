@@ -10,6 +10,7 @@
 | `/en/articles/glp1-patches` | en | information | glp-1 patches | GLP-1 Patches: Do They Exist and Do They Work? | 46 | No GLP-1 patch is approved by the FDA or EMA. What is sold under that name, what the evidence says, and why the question comes up. | 130 |
 | `/en/articles/glp1-reminders-that-work` | en | troubleshooting | change glp-1 injection day reminder | Moving Your Shot Day, and Reminders That Arrive | 47 | The labels answer "can I change the day?" in one conditional line. And a reminder that never appeared is almost always a phone setting, not the app. | 148 |
 | `/en/articles/glp1-side-effects` | en | information | glp-1 side effects | Managing Common GLP-1 Side Effects: What Helps | 46 | Nausea, constipation and fatigue are the common ones. What tends to help, how long they usually last, and the signs that need a doctor. | 135 |
+| `/en/articles/health-app-privacy` | en | evaluation | are health tracking apps private | Health App Privacy: What the Label Leaves Out | 45 | Most health apps are not covered by HIPAA, and "no tracking" means something narrower than it reads. What Apple's words mean, and five questions to ask. | 152 |
 | `/en/articles/how-to-inject-glp1` | en | information | how to inject glp-1 | How to Inject a GLP-1 Pen: A Step-by-Step Guide | 47 | Preparing the pen, choosing a site, the injection itself and what to do afterwards — following the manufacturer instructions, with sources. | 139 |
 | `/en/articles/hydration-on-a-glp1` | en | information | how much water on glp-1 | Fluids on a GLP-1: What the Label Warns About | 45 | No litre target — the label does not give one. It warns that vomiting and diarrhoea can cause dehydration and kidney problems, and says to report them. | 151 |
 | `/en/articles/injection-site-lumps` | en | information, concern | lump at glp-1 injection site | A Lump at the Injection Site: What Labels Report | 48 | Injection site reactions are listed for these medicines, and 1% of the placebo group reported them too. What the labels say, and when to show someone. | 150 |
@@ -61,6 +62,7 @@
 | `/tr/makaleler/kacirilan-glp1-dozu` | tr | bilgi, acil | glp1 dozunu kaçırdım ne yapmalıyım | GLP-1 Dozunu Kaçırdım: Prospektüs Ne Diyor? | 43 | Bir üründe beş gün, birinde dört, birinde iki — birinde ise atla. Her GLP-1'in geciken doz için kendi talimatının ne dediği, alıntılarıyla. | 139 |
 | `/tr/makaleler/kilo-trendini-okumak` | tr | bilgi | glp1 kilo vermeme dönemi trend | Tartı Durduğunda Kilo Trendini Okumak | 37 | Kilo hafta başında en yüksek, cuma civarında en düşük — bu yayımlanmış bir bulgu. Trend çizgisi neyi cevaplar, neyi bilerek cevaplamaz. | 135 |
 | `/tr/makaleler/randevu-kontrol-listesi` | tr | hazırlık | glp1 kontrol randevusunda ne sorulur | GLP-1 Kontrol Randevusu İçin Kontrol Listesi | 44 | Üç ayı anlatmak için on dakika. Neler hazır olmalı, NIH'in hasta sayfalarının önerdiği sorular ve bir listenin karar veremeyeceği şeyler. | 137 |
+| `/tr/makaleler/saglik-uygulamasi-gizliligi` | tr | değerlendirme | sağlık uygulamaları veri güvenliği | Sağlık Uygulaması Gizliliği: Etiketin Yazmadığı | 47 | Çoğu sağlık uygulaması HIPAA kapsamında değil ve "takip yok" göründüğünden dar bir söz. Apple'ın kelimeleri ne diyor ve sorulacak beş soru. | 139 |
 | `/tr/neden-dozify` | tr | değerlendirme | neden dozify | Neden Dozify — Ne Yapar, Neyi Yapmayı Reddeder | 46 | GLP-1 reçete edilmiş kişiler için yazıldı. Senin ve doktorunun kararını kaydeder; doz önermez, sonuç yorumlamaz, yerine geçmez. Ne yaptığı burada. | 146 |
 | `/tr/yan-etki-gunlugu` | tr | uygulama arayışı | glp1 yan etki günlüğü | GLP-1 Yan Etki Günlüğü — Ne Zaman Olduğunu Gör | 46 | Doktora "bulantı vardı" demekle "dozdan 15 saat sonra" demek aynı şey değil. Belirtileri şiddetiyle kaydet, enjeksiyonlarınla birlikte gör. | 139 |
 | `/tr/yayin-ilkeleri` | tr | güven | dozify sağlık içeriklerini kim yazıyor | Yayın İlkeleri — Bu Rehberleri Kim Yazıyor | 42 | Bu sitedeki rehberleri kim yazıyor, hangi kaynaklara izin var, makaledeki her tarih ne anlama geliyor ve yanlış bir şeyi nasıl bildirirsiniz. | 141 |
@@ -75,6 +77,7 @@
 | `/en/articles/glp1-patches` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/glp1-reminders-that-work` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/glp1-side-effects` | en | Organization, WebSite, Person, MedicalWebPage, BreadcrumbList |
+| `/en/articles/health-app-privacy` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/how-to-inject-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/hydration-on-a-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/injection-site-lumps` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
@@ -126,6 +129,7 @@
 | `/tr/makaleler/kacirilan-glp1-dozu` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/kilo-trendini-okumak` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/randevu-kontrol-listesi` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/tr/makaleler/saglik-uygulamasi-gizliligi` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/neden-dozify` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |
 | `/tr/yan-etki-gunlugu` | tr | Organization, WebSite, MobileApplication, WebPage, FAQPage, BreadcrumbList |
 | `/tr/yayin-ilkeleri` | tr | Organization, WebSite, WebPage, BreadcrumbList |

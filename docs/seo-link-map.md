@@ -20,6 +20,7 @@
 | `/en` | `/en/why` | what the app refuses to do | ürün sayfaları arası — bitişik özelliğe geçiş | why dozify |
 | `/en` | `/en/switch-glp1-tracker-app` | More on the switching page | ürün sayfaları arası — bitişik özelliğe geçiş | shotsy alternative import data |
 | `/en/articles` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles` | `/en/articles/health-app-privacy` | Privacy What to check before a health app sees your prescription Most health apps are not covered by HIPAA, and Apple's "tracking" is a narrower word than it looks. Five questions that work on any app. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | are health tracking apps private |
 | `/en/articles` | `/en/articles/hydration-on-a-glp1` | Side effects Fluids on a GLP-1: what the label actually warns about Not a litre target — a named warning about dehydration from vomiting or diarrhoea, and what it says to do about it. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how much water on glp-1 |
 | `/en/articles` | `/en/articles/travelling-with-a-glp1-pen` | Travel Flying with a GLP-1 pen: what the rules actually say The liquids exemption and ice packs, quoted from TSA — plus the in-use clock that does not pause for a holiday. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | flying with ozempic pen |
 | `/en/articles` | `/en/articles/side-effect-diary-that-helps` | Side effects A side-effect diary your doctor can actually use The six questions a clinician works through, quoted from the NIH — and the seventh that only matters on a weekly injection. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how to track glp-1 side effects for doctor |
@@ -58,6 +59,13 @@
 | `/en/articles/glp1-side-effects` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
 | `/en/articles/glp1-side-effects` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
 | `/en/articles/glp1-side-effects` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
+| `/en/articles/health-app-privacy` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles/health-app-privacy` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
+| `/en/articles/health-app-privacy` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
+| `/en/articles/health-app-privacy` | `/en/privacy` | privacy policy | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify privacy policy |
+| `/en/articles/health-app-privacy` | `/en/kvkk` | KVKK notice | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify kvkk notice |
+| `/en/articles/health-app-privacy` | `/en/private-glp1-tracker` | the privacy page | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | private glp-1 tracker no account |
+| `/en/articles/health-app-privacy` | `/en/private-glp1-tracker` | How privacy works here → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | private glp-1 tracker no account |
 | `/en/articles/how-to-inject-glp1` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
 | `/en/articles/how-to-inject-glp1` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
 | `/en/articles/how-to-inject-glp1` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
@@ -168,6 +176,7 @@
 | `/en/private-glp1-tracker` | `/en/articles/what-is-glp1` | what GLP-1 actually is | üründen makaleye — iddiayı kaynaklı içerikle destekler | what is glp-1 |
 | `/en/private-glp1-tracker` | `/en/articles/glp1-injection-sites` | where to inject and how to rotate | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 injection sites |
 | `/en/private-glp1-tracker` | `/en/articles/glp1-side-effects` | managing common side effects | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 side effects |
+| `/en/private-glp1-tracker` | `/en/articles/health-app-privacy` | how to read a health app's privacy label | üründen makaleye — iddiayı kaynaklı içerikle destekler | are health tracking apps private |
 | `/en/private-glp1-tracker` | `/en/switch-glp1-tracker-app` | importing from another app | ürün sayfaları arası — bitişik özelliğe geçiş | shotsy alternative import data |
 | `/en/private-glp1-tracker` | `/en/glp1-appointment-report` | the doctor report | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 doctor report pdf |
 | `/en/support` | `/en` | ← Back to home | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 tracker app |
@@ -235,6 +244,7 @@
 | `/tr/gizli-glp1-takibi` | `/tr/makaleler/glp1-nedir` | GLP-1'in aslında ne olduğu | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 nedir |
 | `/tr/gizli-glp1-takibi` | `/tr/makaleler/glp1-enjeksiyon-bolgeleri` | nereye yapılır, rotasyon nasıl olur | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 enjeksiyon bölgeleri |
 | `/tr/gizli-glp1-takibi` | `/tr/makaleler/glp1-yan-etkileri` | yaygın yan etkilerle baş etmek | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 yan etkileri |
+| `/tr/gizli-glp1-takibi` | `/tr/makaleler/saglik-uygulamasi-gizliligi` | bir sağlık uygulamasının gizlilik etiketi nasıl okunur | üründen makaleye — iddiayı kaynaklı içerikle destekler | sağlık uygulamaları veri güvenliği |
 | `/tr/gizli-glp1-takibi` | `/tr/baska-uygulamadan-gecis` | başka uygulamadan aktarma | ürün sayfaları arası — bitişik özelliğe geçiş | shotsy yerine glp1 uygulaması |
 | `/tr/gizli-glp1-takibi` | `/tr/doktor-raporu` | doktor raporu | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 doktor raporu pdf |
 | `/tr/gizlilik` | `/tr` | ← Ana sayfaya dön | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
@@ -263,6 +273,7 @@
 | `/tr/kvkk` | `/tr` | ← Ana sayfaya dön | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
 | `/tr/kvkk` | `/tr/gizlilik` | Gizlilik Politikası | ürün sayfaları arası — bitişik özelliğe geçiş | dozify gizlilik politikası |
 | `/tr/makaleler` | `/tr` | Ana Sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler` | `/tr/makaleler/saglik-uygulamasi-gizliligi` | Gizlilik Bir sağlık uygulaması reçetenizi görmeden önce neye bakmalı Çoğu sağlık uygulaması HIPAA kapsamında değil ve Apple'ın "takip"i göründüğünden dar bir kelime. Her uygulamada işleyen beş soru. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | sağlık uygulamaları veri güvenliği |
 | `/tr/makaleler` | `/tr/makaleler/glp1-ve-su-tuketimi` | Yan etkiler GLP-1 kullanırken sıvı: etiket asıl neyi uyarıyor Litre hedefi değil — kusma ya da ishalden kaynaklanan sıvı kaybına dair adı konmuş bir uyarı ve ne yapılması gerektiği. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 kullanırken su tüketimi |
 | `/tr/makaleler` | `/tr/makaleler/glp1-kalemiyle-seyahat` | Seyahat GLP-1 kalemiyle uçmak: kurallar tam olarak ne diyor Sıvı muafiyeti ve buz paketleri, TSA'dan alıntıyla — bir de tatilde durmayan kullanım süresi. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | uçakta glp1 kalemi taşıma |
 | `/tr/makaleler` | `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | Yan etkiler Doktorunuzun gerçekten kullanabileceği bir yan etki günlüğü Hekimin sırayla geçtiği altı soru, NIH'ten alıntıyla — ve yalnızca haftalık iğnede önemli olan yedincisi. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | yan etkileri doktora nasıl anlatmalı |
@@ -347,6 +358,13 @@
 | `/tr/makaleler/randevu-kontrol-listesi` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
 | `/tr/makaleler/randevu-kontrol-listesi` | `/tr/makaleler/glp1-yan-etkileri` | Yan etkiler rehberi | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 yan etkileri |
 | `/tr/makaleler/randevu-kontrol-listesi` | `/tr/doktor-raporu` | Raporda neler var → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 doktor raporu pdf |
+| `/tr/makaleler/saglik-uygulamasi-gizliligi` | `/tr` | Ana sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler/saglik-uygulamasi-gizliligi` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
+| `/tr/makaleler/saglik-uygulamasi-gizliligi` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
+| `/tr/makaleler/saglik-uygulamasi-gizliligi` | `/tr/gizlilik` | gizlilik politikasında | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify gizlilik politikası |
+| `/tr/makaleler/saglik-uygulamasi-gizliligi` | `/tr/kvkk` | KVKK metninde | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify kvkk aydınlatma metni |
+| `/tr/makaleler/saglik-uygulamasi-gizliligi` | `/tr/gizli-glp1-takibi` | gizlilik sayfasında | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | gizli glp1 takip uygulaması |
+| `/tr/makaleler/saglik-uygulamasi-gizliligi` | `/tr/gizli-glp1-takibi` | Burada gizlilik nasıl işliyor → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | gizli glp1 takip uygulaması |
 | `/tr/neden-dozify` | `/tr` | ← Ana sayfaya dön | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
 | `/tr/neden-dozify` | `/tr/gizlilik` | gizlilik politikasında | ürün sayfaları arası — bitişik özelliğe geçiş | dozify gizlilik politikası |
 | `/tr/yan-etki-gunlugu` | `/tr` | Ana sayfa | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
