@@ -256,7 +256,7 @@ okuyucunun bulunduğu yere göre acil numara.
   biçimde gönderilmiyorsa. Yani takip bölümü boş bir etiket, "hiçbir şey
   toplanmıyor" demek değil. Beş soru + Dozify'ın kendi cevapları kutuda.
   Rakip adı verilip ima yapılmadı; yazı bunu neden yapmadığını da söylüyor.
-### 12. hafta — Mezura ve tartı
+### 12. hafta — Mezura ve tartı ✅ YAYINLANDI (20 Ağu 2026)
 - **Niyet:** bilgi · **Küme:** weight and body measurements
 - **EN sorgu:** body measurements vs scale weight loss · **TR sorgu:** vücut ölçüsü mü tartı mı
 - **URL:** `/en/articles/measurements-vs-scale` · `/tr/makaleler/olcu-mu-tarti-mi`
@@ -267,7 +267,22 @@ okuyucunun bulunduğu yere göre acil numara.
 - **Bağlanacak ürün sayfası:** `/glp1-weight-tracker`
 - **Kaçınılacak iddia:** vücut yağı yorumu, hedef ölçü
 - **Öncelik:** 12
+- **Sonuç:** `/en/articles/measurements-vs-scale` · `/tr/makaleler/olcu-mu-tarti-mi`.
+  Yazının omurgası, NHLBI'nin **aynı ölçüm için iki ayrı talimatı** oldu: evde
+  "kalça kemiklerinin hemen üzerine, nefes verdikten hemen sonra"; klinik
+  kılavuzda ise elle bulunan sağ krista iliaka, işaretlenmiş nokta, yere paralel
+  mezura, cildi sıkıştırmadan ve **iki kez** okuma. İkisi de doğru; sonucu şu:
+  bir yöntemle alınan sayı ötekinin yerine geçmez, kendi sayınızı klinikteki
+  kayıtla karşılaştırmak aynı şekilde ölçülmemiş iki şeyi karşılaştırmaktır.
+  NHLBI eşikleri (kadın 35, erkek 40 inç) **toplum düzeyinde risk** olarak
+  aktarıldı, kişisel hedef olarak değil. Vücut kompozisyonu çıkarımı ve yağ
+  oranı önerisi bilerek yapılmadı.
 
+## Takvim durumu (20 Ağu 2026)
+
+12 haftanın **11'i yayında**. Tek eksik 3. hafta (Shotsy dışa aktarma) ve o,
+adaptör profilleri gerçek dışa aktarım dosyalarıyla denenmeden yazılmayacak —
+engeli kaldıracak şey bir kullanıcıdan ya da elden gelecek gerçek bir dosya.
 ## Marka bazlı yazılar
 
 Ozempic®, Wegovy®, Mounjaro® gibi marka adlarıyla ayrı sayfa **yapılmıyor**.

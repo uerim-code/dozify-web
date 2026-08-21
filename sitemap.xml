@@ -64,6 +64,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/injection-site-lumps"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/measurements-vs-scale</loc>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/measurements-vs-scale"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/olcu-mu-tarti-mi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/measurements-vs-scale"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/missed-glp1-dose</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/missed-glp1-dose"/>
@@ -149,7 +156,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/glp1-weight-tracker</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-weight-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-kilo-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-weight-tracker"/>
@@ -275,7 +282,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/glp1-kilo-takibi</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-weight-tracker"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-kilo-takibi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-weight-tracker"/>
@@ -384,6 +391,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/reading-a-weight-trend"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/kilo-trendini-okumak"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/reading-a-weight-trend"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/makaleler/olcu-mu-tarti-mi</loc>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/measurements-vs-scale"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/olcu-mu-tarti-mi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/measurements-vs-scale"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/randevu-kontrol-listesi</loc>

@@ -14,6 +14,7 @@
 | `/en/articles/how-to-inject-glp1` | en | information | how to inject glp-1 | How to Inject a GLP-1 Pen: A Step-by-Step Guide | 47 | Preparing the pen, choosing a site, the injection itself and what to do afterwards — following the manufacturer instructions, with sources. | 139 |
 | `/en/articles/hydration-on-a-glp1` | en | information | how much water on glp-1 | Fluids on a GLP-1: What the Label Warns About | 45 | No litre target — the label does not give one. It warns that vomiting and diarrhoea can cause dehydration and kidney problems, and says to report them. | 151 |
 | `/en/articles/injection-site-lumps` | en | information, concern | lump at glp-1 injection site | A Lump at the Injection Site: What Labels Report | 48 | Injection site reactions are listed for these medicines, and 1% of the placebo group reported them too. What the labels say, and when to show someone. | 150 |
+| `/en/articles/measurements-vs-scale` | en | information | body measurements vs scale weight loss | When the Tape Moves and the Scale Does Not | 42 | They measure different things, and the same waist measured two ways gives two numbers. What makes a measurement comparable to your own last one. | 144 |
 | `/en/articles/missed-glp1-dose` | en | information, urgent | missed glp-1 dose what to do | Missed a GLP-1 Dose? What Each Leaflet Says | 43 | Five days for one product, four for another, two for a third — and for one, skip it. What each GLP-1's own instructions say about a late dose, quoted. | 150 |
 | `/en/articles/reading-a-weight-trend` | en | information | glp-1 weight loss plateau trend | Reading a Weight Trend When the Scale Stalls | 44 | Weight peaks early in the week and bottoms out around Friday — that is published, not anecdote. What a trend line answers, and what it deliberately cannot. | 155 |
 | `/en/articles/side-effect-diary-that-helps` | en | information | how to track glp-1 side effects for doctor | A Side-Effect Diary Your Doctor Can Actually Use | 48 | The NIH lists six things a doctor asks about a symptom. Most diaries record one. What to write instead, plus the field that only matters on a weekly injection. | 159 |
@@ -61,6 +62,7 @@
 | `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | tr | bilgi | yan etkileri doktora nasıl anlatmalı | Doktorun Kullanabileceği Bir Yan Etki Günlüğü | 45 | NIH, doktorun belirti hakkında sorduğu altı şeyi sayıyor. Çoğu günlük birini kaydeder. Onun yerine ne yazılmalı ve haftalık iğneye özel alan. | 141 |
 | `/tr/makaleler/kacirilan-glp1-dozu` | tr | bilgi, acil | glp1 dozunu kaçırdım ne yapmalıyım | GLP-1 Dozunu Kaçırdım: Prospektüs Ne Diyor? | 43 | Bir üründe beş gün, birinde dört, birinde iki — birinde ise atla. Her GLP-1'in geciken doz için kendi talimatının ne dediği, alıntılarıyla. | 139 |
 | `/tr/makaleler/kilo-trendini-okumak` | tr | bilgi | glp1 kilo vermeme dönemi trend | Tartı Durduğunda Kilo Trendini Okumak | 37 | Kilo hafta başında en yüksek, cuma civarında en düşük — bu yayımlanmış bir bulgu. Trend çizgisi neyi cevaplar, neyi bilerek cevaplamaz. | 135 |
+| `/tr/makaleler/olcu-mu-tarti-mi` | tr | bilgi | vücut ölçüsü mü tartı mı | Mezura Kımıldarken Tartı Kımıldamadığında | 41 | Farklı şeyler ölçüyorlar ve aynı bel, iki yöntemle iki sayı veriyor. Bir ölçümü kendi bir öncekiyle karşılaştırılabilir kılan nedir. | 132 |
 | `/tr/makaleler/randevu-kontrol-listesi` | tr | hazırlık | glp1 kontrol randevusunda ne sorulur | GLP-1 Kontrol Randevusu İçin Kontrol Listesi | 44 | Üç ayı anlatmak için on dakika. Neler hazır olmalı, NIH'in hasta sayfalarının önerdiği sorular ve bir listenin karar veremeyeceği şeyler. | 137 |
 | `/tr/makaleler/saglik-uygulamasi-gizliligi` | tr | değerlendirme | sağlık uygulamaları veri güvenliği | Sağlık Uygulaması Gizliliği: Etiketin Yazmadığı | 47 | Çoğu sağlık uygulaması HIPAA kapsamında değil ve "takip yok" göründüğünden dar bir söz. Apple'ın kelimeleri ne diyor ve sorulacak beş soru. | 139 |
 | `/tr/neden-dozify` | tr | değerlendirme | neden dozify | Neden Dozify — Ne Yapar, Neyi Yapmayı Reddeder | 46 | GLP-1 reçete edilmiş kişiler için yazıldı. Senin ve doktorunun kararını kaydeder; doz önermez, sonuç yorumlamaz, yerine geçmez. Ne yaptığı burada. | 146 |
@@ -81,6 +83,7 @@
 | `/en/articles/how-to-inject-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/hydration-on-a-glp1` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/injection-site-lumps` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/en/articles/measurements-vs-scale` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/missed-glp1-dose` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/reading-a-weight-trend` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/en/articles/side-effect-diary-that-helps` | en | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
@@ -128,6 +131,7 @@
 | `/tr/makaleler/ise-yarayan-yan-etki-gunlugu` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/kacirilan-glp1-dozu` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/kilo-trendini-okumak` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
+| `/tr/makaleler/olcu-mu-tarti-mi` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/randevu-kontrol-listesi` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/makaleler/saglik-uygulamasi-gizliligi` | tr | Organization, WebSite, Person, MedicalWebPage, FAQPage, BreadcrumbList |
 | `/tr/neden-dozify` | tr | Organization, WebSite, MobileApplication, WebPage, BreadcrumbList |

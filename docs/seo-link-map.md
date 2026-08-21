@@ -20,6 +20,7 @@
 | `/en` | `/en/why` | what the app refuses to do | ürün sayfaları arası — bitişik özelliğe geçiş | why dozify |
 | `/en` | `/en/switch-glp1-tracker-app` | More on the switching page | ürün sayfaları arası — bitişik özelliğe geçiş | shotsy alternative import data |
 | `/en/articles` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles` | `/en/articles/measurements-vs-scale` | Weight When the tape moves and the scale does not Two different measurements, free to move differently — and the same waist measured two ways gives two numbers. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | body measurements vs scale weight loss |
 | `/en/articles` | `/en/articles/health-app-privacy` | Privacy What to check before a health app sees your prescription Most health apps are not covered by HIPAA, and Apple's "tracking" is a narrower word than it looks. Five questions that work on any app. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | are health tracking apps private |
 | `/en/articles` | `/en/articles/hydration-on-a-glp1` | Side effects Fluids on a GLP-1: what the label actually warns about Not a litre target — a named warning about dehydration from vomiting or diarrhoea, and what it says to do about it. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | how much water on glp-1 |
 | `/en/articles` | `/en/articles/travelling-with-a-glp1-pen` | Travel Flying with a GLP-1 pen: what the rules actually say The liquids exemption and ice packs, quoted from TSA — plus the in-use clock that does not pause for a holiday. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | flying with ozempic pen |
@@ -82,6 +83,11 @@
 | `/en/articles/injection-site-lumps` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
 | `/en/articles/injection-site-lumps` | `/en/articles/glp1-injection-sites` | The sites guide | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 injection sites |
 | `/en/articles/injection-site-lumps` | `/en/injection-site-tracker` | See how site rotation works → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | injection site tracker app |
+| `/en/articles/measurements-vs-scale` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
+| `/en/articles/measurements-vs-scale` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
+| `/en/articles/measurements-vs-scale` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
+| `/en/articles/measurements-vs-scale` | `/en/articles/reading-a-weight-trend` | a trend rather than a point | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 weight loss plateau trend |
+| `/en/articles/measurements-vs-scale` | `/en/glp1-weight-tracker` | See how the weight trend works → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 weight tracker |
 | `/en/articles/missed-glp1-dose` | `/en` | Home | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp-1 tracker app |
 | `/en/articles/missed-glp1-dose` | `/en/articles` | Articles | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp-1 guides |
 | `/en/articles/missed-glp1-dose` | `/en/editorial-policy` | How these guides are written | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | who writes dozify health content |
@@ -156,6 +162,7 @@
 | `/en/glp1-weight-tracker` | `/en/articles/glp1-side-effects` | managing common side effects | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 side effects |
 | `/en/glp1-weight-tracker` | `/en/articles/how-to-inject-glp1` | how to inject a pen, step by step | üründen makaleye — iddiayı kaynaklı içerikle destekler | how to inject glp-1 |
 | `/en/glp1-weight-tracker` | `/en/articles/reading-a-weight-trend` | how to read a trend when the scale has stalled | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp-1 weight loss plateau trend |
+| `/en/glp1-weight-tracker` | `/en/articles/measurements-vs-scale` | when the tape moves and the scale does not | üründen makaleye — iddiayı kaynaklı içerikle destekler | body measurements vs scale weight loss |
 | `/en/glp1-weight-tracker` | `/en/glp1-appointment-report` | the doctor report | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 doctor report pdf |
 | `/en/glp1-weight-tracker` | `/en/glp1-shot-tracker` | the shot tracker | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 shot tracker |
 | `/en/injection-site-tracker` | `/en` | Home | ürün sayfaları arası — bitişik özelliğe geçiş | glp-1 tracker app |
@@ -266,6 +273,7 @@
 | `/tr/glp1-kilo-takibi` | `/tr/makaleler/glp1-yan-etkileri` | yaygın yan etkilerle baş etmek | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 yan etkileri |
 | `/tr/glp1-kilo-takibi` | `/tr/makaleler/glp1-nasil-yapilir` | kalemin adım adım nasıl yapıldığı | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 iğnesi nasıl yapılır |
 | `/tr/glp1-kilo-takibi` | `/tr/makaleler/kilo-trendini-okumak` | tartı durduğunda trend nasıl okunur | üründen makaleye — iddiayı kaynaklı içerikle destekler | glp1 kilo vermeme dönemi trend |
+| `/tr/glp1-kilo-takibi` | `/tr/makaleler/olcu-mu-tarti-mi` | mezura kımıldarken tartı kımıldamadığında | üründen makaleye — iddiayı kaynaklı içerikle destekler | vücut ölçüsü mü tartı mı |
 | `/tr/glp1-kilo-takibi` | `/tr/doktor-raporu` | doktor raporu | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 doktor raporu pdf |
 | `/tr/glp1-kilo-takibi` | `/tr/glp1-igne-takibi` | iğne takibi | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 iğne takip uygulaması |
 | `/tr/kullanim-kosullari` | `/tr` | ← Ana sayfaya dön | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
@@ -273,6 +281,7 @@
 | `/tr/kvkk` | `/tr` | ← Ana sayfaya dön | ürün sayfaları arası — bitişik özelliğe geçiş | glp1 takip uygulaması |
 | `/tr/kvkk` | `/tr/gizlilik` | Gizlilik Politikası | ürün sayfaları arası — bitişik özelliğe geçiş | dozify gizlilik politikası |
 | `/tr/makaleler` | `/tr` | Ana Sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler` | `/tr/makaleler/olcu-mu-tarti-mi` | Kilo Mezura kımıldarken tartı kımıldamadığında Farklı iki ölçüm, farklı hareket etmekte serbest — ve aynı bel, iki yöntemle iki sayı veriyor. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | vücut ölçüsü mü tartı mı |
 | `/tr/makaleler` | `/tr/makaleler/saglik-uygulamasi-gizliligi` | Gizlilik Bir sağlık uygulaması reçetenizi görmeden önce neye bakmalı Çoğu sağlık uygulaması HIPAA kapsamında değil ve Apple'ın "takip"i göründüğünden dar bir kelime. Her uygulamada işleyen beş soru. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | sağlık uygulamaları veri güvenliği |
 | `/tr/makaleler` | `/tr/makaleler/glp1-ve-su-tuketimi` | Yan etkiler GLP-1 kullanırken sıvı: etiket asıl neyi uyarıyor Litre hedefi değil — kusma ya da ishalden kaynaklanan sıvı kaybına dair adı konmuş bir uyarı ve ne yapılması gerektiği. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 kullanırken su tüketimi |
 | `/tr/makaleler` | `/tr/makaleler/glp1-kalemiyle-seyahat` | Seyahat GLP-1 kalemiyle uçmak: kurallar tam olarak ne diyor Sıvı muafiyeti ve buz paketleri, TSA'dan alıntıyla — bir de tatilde durmayan kullanım süresi. | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | uçakta glp1 kalemi taşıma |
@@ -353,6 +362,11 @@
 | `/tr/makaleler/kilo-trendini-okumak` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
 | `/tr/makaleler/kilo-trendini-okumak` | `/tr/makaleler/randevu-kontrol-listesi` | kontrol listesi | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 kontrol randevusunda ne sorulur |
 | `/tr/makaleler/kilo-trendini-okumak` | `/tr/glp1-kilo-takibi` | Kilo trendi nasıl çalışıyor → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 kilo takibi |
+| `/tr/makaleler/olcu-mu-tarti-mi` | `/tr` | Ana sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
+| `/tr/makaleler/olcu-mu-tarti-mi` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
+| `/tr/makaleler/olcu-mu-tarti-mi` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |
+| `/tr/makaleler/olcu-mu-tarti-mi` | `/tr/makaleler/kilo-trendini-okumak` | nokta değil trend | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 kilo vermeme dönemi trend |
+| `/tr/makaleler/olcu-mu-tarti-mi` | `/tr/glp1-kilo-takibi` | Kilo trendi nasıl çalışıyor → | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 kilo takibi |
 | `/tr/makaleler/randevu-kontrol-listesi` | `/tr` | Ana sayfa | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | glp1 takip uygulaması |
 | `/tr/makaleler/randevu-kontrol-listesi` | `/tr/makaleler` | Makaleler | makaleden makaleye — komşu niyeti karşılar, kanibalizasyonu önler | glp1 rehberleri |
 | `/tr/makaleler/randevu-kontrol-listesi` | `/tr/yayin-ilkeleri` | Bu rehberler nasıl yazılıyor | makaleden ürüne — okuyucuyu konunun karşılığı olan özelliğe götürür | dozify sağlık içeriklerini kim yazıyor |

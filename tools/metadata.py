@@ -77,6 +77,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("bilgi", "glp1 kullanırken su tüketimi")},
     "articles/health-app-privacy": {"en": ("evaluation", "are health tracking apps private"),
                                      "tr": ("değerlendirme", "sağlık uygulamaları veri güvenliği")},
+    "articles/measurements-vs-scale": {"en": ("information", "body measurements vs scale weight loss"),
+                                     "tr": ("bilgi", "vücut ölçüsü mü tartı mı")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -266,5 +268,11 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Most health apps are not covered by HIPAA, and \"no tracking\" means something narrower than it reads. What Apple's words mean, and five questions to ask."),
         "tr": ("Sağlık Uygulaması Gizliliği: Etiketin Yazmadığı",
                "Çoğu sağlık uygulaması HIPAA kapsamında değil ve \"takip yok\" göründüğünden dar bir söz. Apple'ın kelimeleri ne diyor ve sorulacak beş soru."),
+    },
+    "articles/measurements-vs-scale": {
+        "en": ("When the Tape Moves and the Scale Does Not",
+               "They measure different things, and the same waist measured two ways gives two numbers. What makes a measurement comparable to your own last one."),
+        "tr": ("Mezura Kımıldarken Tartı Kımıldamadığında",
+               "Farklı şeyler ölçüyorlar ve aynı bel, iki yöntemle iki sayı veriyor. Bir ölçümü kendi bir öncekiyle karşılaştırılabilir kılan nedir."),
     },
 }
