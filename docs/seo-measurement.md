@@ -100,4 +100,16 @@ GSC + ASC'den, her pazartesi:
 
    Bu bir engel değil: sitemap okundu ve 42 URL keşfedildi, Google kendi
    sırasında tarayacak. Elle istek yalnızca sırayı öne alıyor.
-4. ⬜ Bing Webmaster Tools'a GSC'den içe aktarma — henüz yapılmadı.
+5. **20 Ağu 2026 — altı URL daha**, kota yine dolmadı:
+   `/en/articles/glp1-appointment-checklist`, `/en/articles/health-app-privacy`,
+   `/en/articles/measurements-vs-scale`, `/en/switch-glp1-tracker-app`,
+   `/tr/baska-uygulamadan-gecis`, `/en/glp1-shot-tracker`, `/tr/glp1-igne-takibi`.
+
+   **İyi haber, elle istekten bağımsız:** denetim sırasında üç sayfa zaten
+   **"URL Google'da mevcut / Sayfa dizine eklendi"** çıktı —
+   `/en/articles/glp1-appointment-checklist`, `/en/switch-glp1-tracker-app`,
+   `/en/glp1-shot-tracker`. Yani Google yeni sitemap'i kendi tarıyor ve yeni
+   makaleler elle istek olmadan da diziniyor. Elle istek sırayı öne alıyor,
+   şart değil.
+
+6. ⬜ Bing Webmaster Tools'a GSC'den içe aktarma — henüz yapılmadı.
