@@ -101,6 +101,61 @@ def is_quoted_denial(text: str, start: int, end: int) -> bool:
     return bool(DENIAL.search(text[max(0, start - 300):end + 300]))
 
 
+# A percentage is the most quotable thing on a health page and the easiest to
+# invent. The app's article library shipped "5-10% get hair loss" (the label
+# says 3.3%), "about 25% get constipation" (24% on Wegovy, 3.1% on Ozempic)
+# and "more than 80% hit a plateau" (nobody measured that) — all written as
+# plain fact, none with a source. The site has so far attributed every figure
+# it quotes; this is what keeps that true when the site is edited in a hurry.
+#
+# The rule is attribution, not an allowlist: the site's numbers come from
+# labels AND from studies, so what has to be present is a phrase telling the
+# reader where to go and check.
+ATTRIBUTION = re.compile(
+    r"label|leaflet|product information|trial|stud(y|ies)|cohort|reported in|"
+    r"etiket|prospekt[üu]s|[üu]r[üu]n bilgisi|çalışma|kohort|bildiril",
+    re.I,
+)
+
+PERCENT = re.compile(r"(?<![\w.,])\d+(?:[.,]\d+)?\s?%|%\s?\d+(?:[.,]\d+)?")
+
+
+def visible_text(html: str) -> str:
+    """Roughly what a reader sees: tags out, entities left alone."""
+    body = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", html, flags=re.S | re.I)
+    return re.sub(r"<[^>]+>", " ", body)
+
+
+def unattributed_percentages(html: str) -> list[str]:
+    text = visible_text(html)
+    # The figures on these pages are decimals — 0.2%, 1.4%, 3.3% — and the
+    # separator differs by language: 0.2 in English, 0,2 in Turkish. Treating
+    # that dot as the end of a sentence cut every figure in half and reported
+    # six clean, correctly attributed sentences as unsourced. Masked here for
+    # boundary-finding only; the offsets and the quoted text stay the same.
+    flat = re.sub(r"(?<=\d)[.,](?=\d)", "\u0000", text)
+    out = []
+    for m in PERCENT.finditer(text):
+        # The attribution has to be in the same sentence as the figure.
+        # A character window does not work here: the pages that quote figures
+        # are the pages about labels and trials, so on those the words "label"
+        # and "trial" are everywhere, and a ±400 character window found one no
+        # matter what. Dropping an invented "roughly 30% of people get a lump"
+        # into the injection-site article passed cleanly that way — the very
+        # page where an invented figure would do the most damage.
+        #
+        # Same sentence is also the honest standard. A reader checking a
+        # number reads the sentence it is in, not the paragraph four above it.
+        start = max(flat.rfind(".", 0, m.start()), flat.rfind("!", 0, m.start()),
+                    flat.rfind("?", 0, m.start()), flat.rfind("\n", 0, m.start()))
+        end = min((i for i in (flat.find(".", m.end()), flat.find("\n", m.end()))
+                   if i != -1), default=len(text))
+        sentence = text[start + 1 : end + 1]
+        if not ATTRIBUTION.search(sentence):
+            out.append(re.sub(r"\s+", " ", sentence).strip())
+    return out
+
+
 def files() -> list[str]:
     out = []
     for path in glob.glob(os.path.join(ROOT, "**", "*.html"), recursive=True):
@@ -145,6 +200,13 @@ def main() -> int:
                     continue
                 line = text[: m.start()].count("\n") + 1
                 findings.append(f"{rel}:{line}  VAGUE   “{m.group(0)}” — {guidance}")
+
+        for quote in unattributed_percentages(raw):
+            line = raw[: raw.find(quote[:20])].count("\n") + 1 if quote[:20] in raw else 0
+            findings.append(
+                f"{rel}:{line}  UNSOURCED  “…{quote}…” — a percentage with no "
+                f"label, trial or study named near it"
+            )
 
     print(f"{len(checked)} sayfa tarandı")
     if not findings:
