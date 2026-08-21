@@ -112,4 +112,39 @@ GSC + ASC'den, her pazartesi:
    makaleler elle istek olmadan da diziniyor. Elle istek sırayı öne alıyor,
    şart değil.
 
-6. ⬜ Bing Webmaster Tools'a GSC'den içe aktarma — henüz yapılmadı.
+6. **21 Ağu 2026 — asıl işi site haritası yaptı, elle istek değil.**
+
+   Bir Türkçe makaleyi denetlerken GSC "URL Google tarafından bilinmiyor" ve
+   **"Yönlendiren site haritası algılanmadı"** dedi. Sayfa canlıydı (HTTP 200)
+   ve canlı `sitemap.xml` içinde vardı — yani sorun sitede değildi: GSC
+   haritayı en son 20 Ağu'da okumuştu ve o okumada **54 URL** vardı. Sonradan
+   yayımlanan 11. ve 12. hafta makaleleri ile ikinci dil kopyaları o listeye
+   hiç girmemişti.
+
+   `https://dozify.app/sitemap.xml` yeniden gönderildi. Google **aynı anda**
+   okudu: **64 keşfedilen sayfa** — sitenin tamamı. Tek bir işlem, kota
+   harcamadan 10 yeni URL'yi keşfettirdi.
+
+   **Buradan çıkan kural: yeni sayfa yayımlandıktan sonra site haritasını
+   yeniden gönder.** Elle URL isteği kotaya takılıyor ve günde bir avuç
+   sayfa ilerliyor; harita yeniden gönderimi kotasız ve toplu.
+
+   Elle istek: `/tr/makaleler/randevu-kontrol-listesi` ve
+   `/tr/makaleler/saglik-uygulamasi-gizliligi` sıraya girdi. Üçüncüde
+   "Kota Aşıldı" geldi — bugünkü kota dün ve evvelsi günden düşüktü.
+
+   Bir istek de boşa gitti: bir önceki isteğin onay bildirimi arama kutusunu
+   kapattığı için yazılan yeni URL kutuya girmemiş ve **aynı sayfa ikinci kez**
+   istenmiş. GSC arayüzünde her istekten sonra bildirimi kapatıp kutuya
+   yazılanın gerçekten değiştiğini görmek gerekiyor.
+
+7. ⬜ Bing Webmaster Tools'a GSC'den içe aktarma — henüz yapılmadı. Bing'e
+   giriş Ümit'in hesabıyla yapılacak bir işlem; ben oturum açamam.
+
+## Kalan elle indeksleme ihtiyacı — düşük öncelik
+
+64 URL'nin tamamı artık site haritasından keşfedilmiş durumda ve 20 Ağu'da
+üç sayfanın elle istek olmadan dizine girdiği görüldü. Yani kalan sayfalar
+için her gün kota kovalamanın getirisi düşük; Google kendi sırasında
+tarıyor. Elle istek yalnızca yeni yayımlanan ve hızlı görünmesi istenen bir
+sayfa için anlamlı.
