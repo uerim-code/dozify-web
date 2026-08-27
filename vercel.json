@@ -102,6 +102,21 @@
       "source": "/articles/glp1-patches",
       "destination": "/en/articles/glp1-patches",
       "permanent": true
+    },
+    {
+      "source": "/shotsy-alternative",
+      "destination": "/en/shotsy-alternative",
+      "permanent": true
+    },
+    {
+      "source": "/glapp-alternative",
+      "destination": "/en/glapp-alternative",
+      "permanent": true
+    },
+    {
+      "source": "/glucopal-alternative",
+      "destination": "/en/glucopal-alternative",
+      "permanent": true
     }
   ]
 }

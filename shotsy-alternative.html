@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shotsy Alternative — Bring Your History — Dozify</title>
+  <meta name="description" content="Moving off Shotsy? Dozify reads the export, shows every record before it writes one, and names any column it did not recognise. Free, on-device.">
+  <meta property="og:url" content="https://dozify.app/shotsy-alternative">
+  <link rel="canonical" href="https://dozify.app/shotsy-alternative">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488"/>
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z"/><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z"/>
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features" data-lang="en">Features</a>
+        <a href="/#features" data-lang="tr">Özellikler</a>
+        <a href="/#privacy" data-lang="en">Privacy</a>
+        <a href="/#privacy" data-lang="tr">Gizlilik</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/" data-lang="en">Home</a>
+      <a href="/" data-lang="tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      <span data-lang="en">Shotsy alternative</span>
+      <span data-lang="tr">Shotsy alternatifi</span>
+    </div>
+    <h1 data-lang="en">Coming from Shotsy? Bring the history with you</h1>
+    <h1 data-lang="tr">Shotsy'den mi geliyorsun? Geçmişini yanında getir</h1>
+    <p class="meta" data-lang="en">Export from Shotsy, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.</p>
+    <p class="meta" data-lang="tr">Shotsy'den dışa aktar, Dozify'da aç ve yazılacak her kaydı, biri yazılmadan önce gör. Ücretsiz ve dosya telefonundan çıkmıyor.</p>
+
+    <h2 data-lang="en">Why the history is the hard part</h2>
+    <p data-lang="en">Months of injections, weigh-ins and side effects are the reason people stay in an app they have stopped liking. Nobody retypes a year of shots, so the record becomes the lock. Moving it across is the only part that matters.</p>
+    <h2 data-lang="tr">Zor kısım neden geçmiş</h2>
+    <p data-lang="tr">İnsanları artık sevmedikleri bir uygulamada tutan şey, aylardır biriken enjeksiyon, tartı ve yan etki kayıtlarıdır. Kimse bir yıllık iğneyi elle yeniden yazmaz; kayıt kilidin kendisi olur. Önemli olan tek şey onu karşıya geçirmek.</p>
+
+    <h2 data-lang="en">The columns Dozify looks for in a Shotsy export</h2>
+    <p data-lang="en">Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.</p>
+    <table class="compare">
+      <thead><tr><th data-lang="en">Field</th><th data-lang="en">Header names it accepts</th><th data-lang="tr">Alan</th><th data-lang="tr">Kabul ettiği başlıklar</th></tr></thead>
+      <tbody>
+      <tr><td><strong>Date</strong></td><td><code>date · shot date · injection date · day</code></td></tr>
+      <tr><td><strong>Time</strong></td><td><code>time · shot time</code></td></tr>
+      <tr><td><strong>Dose</strong></td><td><code>dose · dosage · dose (mg) · amount</code></td></tr>
+      <tr><td><strong>Site</strong></td><td><code>site · injection site · location</code></td></tr>
+      <tr><td><strong>Medication</strong></td><td><code>medication · med · drug · compound</code></td></tr>
+      <tr><td><strong>Weight</strong></td><td><code>weight</code></td></tr>
+      <tr><td><strong>Notes</strong></td><td><code>note · notes · comment</code></td></tr>
+      </tbody>
+    </table>
+    <h2 data-lang="tr">Dozify'ın bir Shotsy dosyasında aradığı sütunlar</h2>
+    <p data-lang="tr">Dışa aktardığın dosyayı aç ve başlık satırıyla karşılaştır. Dozify bir sütunu bu adlardan herhangi biriyle eşler; büyük-küçük harf ya da parantez içinde yazılmış birim fark etmez. Yerleştiremediği ne varsa önizleme ekranında adıyla listelenir; ne dışarıda kaldığını merak etmek yerine görürsün.</p>
+
+    <h2 data-lang="en">Nothing is written until you say so</h2>
+    <p data-lang="en">The preview shows how many weights, injections and side effects were found, the dates they span, how many are already here, and how many rows could not be read and why. Dozify writes an automatic backup to your device first, and the import itself is one transaction — if anything fails it is rolled back completely, because half an imported history is worse than none.</p>
+    <h2 data-lang="tr">Sen söyleyene kadar hiçbir şey yazılmaz</h2>
+    <p data-lang="tr">Önizleme kaç kilo, kaç enjeksiyon ve kaç yan etki bulduğunu, hangi tarihleri kapsadığını, kaçının zaten burada olduğunu ve kaç satırın neden okunamadığını gösterir. Dozify önce cihazına otomatik bir yedek yazar; aktarımın kendisi tek bir işlemdir — bir şey ters giderse tamamen geri alınır, çünkü yarısı aktarılmış bir geçmiş hiç aktarılmamış olandan kötüdür.</p>
+
+
+    <h2 data-lang="en">What comes across, and what does not</h2>
+    <p data-lang="en"><strong>Imported:</strong> weight entries, injections with date, time, dose, site and notes, and side effects with their severity.</p>
+    <p data-lang="en"><strong>Not imported:</strong> vials, progress photos and check-ins — either there is no equivalent or the mapping would be a guess, and a guessed record is worse than an absent one.</p>
+    <p data-lang="en"><strong>Add a medication first if you want injections.</strong> A logged shot has to belong to one. If you have not set one up, the preview says so and brings in weights and side effects only; add the medication and import the same file again, and nothing already here is added twice.</p>
+    <h2 data-lang="tr">Ne geliyor, ne gelmiyor</h2>
+    <p data-lang="tr"><strong>Gelenler:</strong> kilo kayıtları, tarih, saat, doz, bölge ve notuyla enjeksiyonlar, şiddetiyle birlikte yan etkiler.</p>
+    <p data-lang="tr"><strong>Gelmeyenler:</strong> flakonlar, ilerleme fotoğrafları ve kontroller — ya karşılığı yoktur ya da eşleme tahmin olurdu; tahmin edilmiş bir kayıt hiç olmayandan kötüdür.</p>
+    <p data-lang="tr"><strong>Enjeksiyon istiyorsan önce bir ilaç ekle.</strong> Kaydedilen bir iğnenin bir ilaca ait olması gerekir. Eklemediysen önizleme bunu söyler ve yalnızca kilo ile yan etkileri alır; ilacı ekleyip aynı dosyayı tekrar aktar, burada zaten olan hiçbir şey ikinci kez eklenmez.</p>
+
+    <h2 data-lang="en">If the file is not recognised</h2>
+    <p data-lang="en">Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added — a file we cannot read is our gap, not yours.</p>
+    <h2 data-lang="tr">Dosya tanınmazsa</h2>
+    <p data-lang="tr">Dozify sessizce sıfır satır aktarmak yerine bunu açıkça söyler. Tarih sütunu olan her CSV okunur. Seninki okunmuyorsa Ayarlar → Özellik öner üzerinden gönder, biçim eklensin — okuyamadığımız bir dosya bizim eksiğimizdir, senin değil.</p>
+
+    <p style="text-align:center;margin:32px 0">
+      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="en">Download on the App Store</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
+    </p>
+    <p style="text-align:center">
+      <a href="/switch-glp1-tracker-app" class="link-arrow" data-lang="en">Switching from a different app? →</a>
+      <a href="/switch-glp1-tracker-app" class="link-arrow" data-lang="tr">Başka bir uygulamadan mı geçiyorsun? →</a>
+    </p>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488"/>
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z"/><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z"/>
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3 data-lang="en">Legal</h3>
+          <h3 data-lang="tr">Yasal</h3>
+          <a href="/privacy" data-lang="en">Privacy Policy</a>
+          <a href="/privacy" data-lang="tr">Gizlilik Politikası</a>
+          <a href="/kvkk">KVKK</a>
+          <a href="/terms" data-lang="en">Terms</a>
+          <a href="/terms" data-lang="tr">Kullanım Koşulları</a>
+          <a href="/editorial-policy" data-lang="en">Editorial policy</a>
+          <a href="/editorial-policy" data-lang="tr">Yayın ilkeleri</a>
+        </div>
+        <div class="footer-col">
+          <h3 data-lang="en">Tracking</h3>
+          <h3 data-lang="tr">Takip</h3>
+          <a href="/glp1-shot-tracker" data-lang="en">GLP-1 shot tracker</a>
+          <a href="/glp1-shot-tracker" data-lang="tr">GLP-1 iğne takibi</a>
+          <a href="/injection-site-tracker" data-lang="en">Injection site tracker</a>
+          <a href="/injection-site-tracker" data-lang="tr">Enjeksiyon bölgesi takibi</a>
+          <a href="/glp1-weight-tracker" data-lang="en">GLP-1 weight tracker</a>
+          <a href="/glp1-weight-tracker" data-lang="tr">GLP-1 kilo takibi</a>
+          <a href="/glp1-side-effect-journal" data-lang="en">Side-effect journal</a>
+          <a href="/glp1-side-effect-journal" data-lang="tr">Yan etki günlüğü</a>
+          <a href="/glp1-vial-tracker" data-lang="en">Vial tracker</a>
+          <a href="/glp1-vial-tracker" data-lang="tr">Flakon takibi</a>
+          <a href="/private-glp1-tracker" data-lang="en">Private GLP-1 tracker</a>
+          <a href="/private-glp1-tracker" data-lang="tr">Gizli GLP-1 takibi</a>
+          <a href="/glp1-appointment-report" data-lang="en">Doctor report</a>
+          <a href="/glp1-appointment-report" data-lang="tr">Doktor raporu</a>
+          <a href="/switch-glp1-tracker-app" data-lang="en">Switch from another app</a>
+          <a href="/switch-glp1-tracker-app" data-lang="tr">Başka uygulamadan geçiş</a>
+        </div>
+        <div class="footer-col">
+          <h3 data-lang="en">Help</h3>
+          <h3 data-lang="tr">Yardım</h3>
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -33,6 +33,12 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("uygulama arayışı", "glp1 doktor raporu pdf")},
     "switch-glp1-tracker-app":      {"en": ("switching", "shotsy alternative import data"),
                                      "tr": ("uygulama değiştirme", "shotsy yerine glp1 uygulaması")},
+    "shotsy-alternative":           {"en": ("switching", "shotsy alternative"),
+                                     "tr": ("uygulama değiştirme", "shotsy alternatifi")},
+    "glapp-alternative":            {"en": ("switching", "glapp alternative"),
+                                     "tr": ("uygulama değiştirme", "glapp alternatifi")},
+    "glucopal-alternative":         {"en": ("switching", "glucopal alternative"),
+                                     "tr": ("uygulama değiştirme", "glucopal alternatifi")},
     "why":                          {"en": ("evaluation", "why dozify"),
                                      "tr": ("değerlendirme", "neden dozify")},
     "editorial-policy":             {"en": ("trust", "who writes dozify health content"),
@@ -282,6 +288,24 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "FDA logged patients taking five to twenty times the dose they meant to. A unit is a volume, not an amount — which is why no universal conversion exists."),
         "tr": ("Birim mi Miligram mı? Tek Bir Dönüşüm Yok",
                "FDA, majistral semaglutidde amaçlanan dozun beş ilâ yirmi katını yapan hastaları kayda geçti. Ünite bir hacimdir, miktar değil — neden evrensel bir dönüşüm yok."),
+    },
+    "shotsy-alternative": {
+        "en": ("Shotsy Alternative — Bring Your GLP-1 History",
+               "Moving off Shotsy? Dozify reads the export, shows every record before it writes one, and names any column it did not recognise. Free, on your device."),
+        "tr": ("Shotsy Alternatifi — GLP-1 Geçmişini Getir",
+               "Shotsy'den mi çıkıyorsun? Dozify dışa aktarımı okur, tek satır yazmadan hepsini gösterir ve tanımadığı sütunu adıyla söyler. Ücretsiz, cihazında."),
+    },
+    "glapp-alternative": {
+        "en": ("Glapp Alternative — Bring Your GLP-1 History",
+               "Leaving Glapp? Dozify reads the export, previews every record before writing, and tells you which columns it could not place. Free, nothing uploaded."),
+        "tr": ("Glapp Alternatifi — GLP-1 Geçmişini Getir",
+               "Glapp'ten mi ayrılıyorsun? Dozify dışa aktarımı okur, yazmadan önce hepsini önizler ve yerleştiremediği sütunu söyler. Ücretsiz, hiçbir şey yüklenmez."),
+    },
+    "glucopal-alternative": {
+        "en": ("GlucoPal Alternative — Bring Your GLP-1 History",
+               "Switching from GlucoPal? Dozify reads the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device."),
+        "tr": ("GlucoPal Alternatifi — GLP-1 Geçmişini Getir",
+               "GlucoPal'dan mı geçiyorsun? Dozify dışa aktarımı okur, hiçbir şey yazılmadan sayıları gösterir ve okumadığı sütunları listeler. Ücretsiz, cihazında."),
     },
 }
 
