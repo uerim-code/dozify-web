@@ -30,7 +30,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from split_languages import split  # noqa: E402
-from metadata import META  # noqa: E402
+from metadata import META, keywords as page_keywords  # noqa: E402
 from structured_data import build_graph, strip_jsonld  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -148,6 +148,17 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
                       lambda m: m.group(1) + desc_a + m.group(2), html, count=1)
     else:
         html = html.replace("</head>", f'  <meta name="description" content="{desc_a}">\n</head>', 1)
+    # Legacy keywords tag. Google has not used it since 2009 — see the note in
+    # metadata.py — so this changes no ranking; it is emitted for the smaller
+    # crawlers that still read one, and derived from the page's own target
+    # query so it cannot drift from what the page is written for.
+    kw_a = attr(page_keywords(en_slug, lang))
+    if re.search(r'<meta\s+name="keywords"', html):
+        html = re.sub(r'(<meta\s+name="keywords"\s+content=")[^"]*(")',
+                      lambda m: m.group(1) + kw_a + m.group(2), html, count=1)
+    else:
+        html = html.replace("</head>", f'  <meta name="keywords" content="{kw_a}">\n</head>', 1)
+
     # Open Graph must say the same thing as the page.
     for prop, val in (("og:title", title_a), ("og:description", desc_a)):
         if f'property="{prop}"' in html:

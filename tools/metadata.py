@@ -276,3 +276,43 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Farklı şeyler ölçüyorlar ve aynı bel, iki yöntemle iki sayı veriyor. Bir ölçümü kendi bir öncekiyle karşılaştırılabilir kılan nedir."),
     },
 }
+
+
+# ---------------------------------------------------------------------------
+# Legacy <meta name="keywords">.
+#
+# Google announced in 2009 that it does not use this tag for ranking and that
+# has not changed; Bing treats it at best as noise. Nothing here moves a
+# position. It is emitted because it costs nothing, carries no penalty, and
+# smaller crawlers and site-search tools still read it.
+#
+# Derived from INTENT rather than written by hand, so a page's keywords can
+# never claim a different target query than the page itself is written for —
+# the same rule that keeps two pages from chasing one query.
+# ---------------------------------------------------------------------------
+
+CORE_KEYWORDS: dict[str, tuple[str, ...]] = {
+    "en": ("glp-1", "glp1", "tracker", "ozempic", "wegovy", "mounjaro", "zepbound",
+           "semaglutide", "tirzepatide", "injection", "dose", "weight", "side effects",
+           "vial", "titration", "reminder"),
+    "tr": ("glp-1", "glp1", "takip", "ozempic", "wegovy", "mounjaro", "zepbound",
+           "semaglutid", "tirzepatid", "iğne", "doz", "kilo", "yan etki",
+           "flakon", "titrasyon", "hatırlatıcı"),
+}
+
+
+def keywords(slug: str, lang: str) -> str:
+    """Comma-separated keywords for one page: its own target query first."""
+    terms: list[str] = []
+    entry = INTENT.get(slug, {}).get(lang)
+    if entry:
+        terms.append(entry[1])
+    terms.extend(CORE_KEYWORDS.get(lang, ()))
+    seen: set[str] = set()
+    out: list[str] = []
+    for term in terms:
+        key = term.casefold()
+        if key not in seen:
+            seen.add(key)
+            out.append(term)
+    return ", ".join(out)
