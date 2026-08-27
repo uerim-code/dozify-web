@@ -138,7 +138,29 @@ GSC + ASC'den, her pazartesi:
    istenmiş. GSC arayüzünde her istekten sonra bildirimi kapatıp kutuya
    yazılanın gerçekten değiştiğini görmek gerekiyor.
 
-7. ⬜ Bing Webmaster Tools'a GSC'den içe aktarma — henüz yapılmadı. Bing'e
+7. **27 Ağu 2026 — sekiz yeni URL, harita yeniden gönderildi.**
+
+   Gün içinde 4 yeni sayfa (8 URL) yayımlandı: `units-vs-milligrams` ve üç
+   rakip geçiş sayfası. GSC'nin site haritası kaydı 25 Ağu okumasında
+   **64 URL**'de duruyordu; canlı harita 72'ye çıkmıştı. 6. maddedeki kural
+   uygulandı ve `https://dozify.app/sitemap.xml` yeniden gönderildi.
+
+   Bu kez Google **anında okumadı** — gönderim tarihi 27 Ağu'ya döndü ama
+   "son okuma" 25 Ağu'da, keşfedilen 64'te kaldı. 21 Ağu'daki eşzamanlı okuma
+   garanti değilmiş; kural hâlâ doğru (kotasız ve toplu) ama sonucu aynı
+   oturumda görmeyi bekleme.
+
+   **Alan adı mülkünde harita adresi tam URL olmalı.** Sadece `sitemap.xml`
+   yazmak "Geçersiz site haritası adresi" veriyor.
+
+   Elle istek: `/en/shotsy-alternative` ve `/en/articles/units-vs-milligrams`
+   sıraya girdi. Üçüncüde kota değil, **arama kutusunun odaklanmaması** engel
+   oldu — 6. maddedeki uyarının aynısı iki kez daha yaşandı: yazılan URL
+   kutuya hiç girmedi ve sayfa öncekini göstermeye devam etti. Her istekten
+   önce **başlıktaki URL'nin gerçekten değiştiğini** gör; yoksa aynı sayfayı
+   ikinci kez istemiş olursun.
+
+8. ⬜ Bing Webmaster Tools'a GSC'den içe aktarma — henüz yapılmadı. Bing'e
    giriş Ümit'in hesabıyla yapılacak bir işlem; ben oturum açamam.
 
 ## Kalan elle indeksleme ihtiyacı — düşük öncelik
