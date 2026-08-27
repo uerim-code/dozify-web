@@ -79,6 +79,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("değerlendirme", "sağlık uygulamaları veri güvenliği")},
     "articles/measurements-vs-scale": {"en": ("information", "body measurements vs scale weight loss"),
                                      "tr": ("bilgi", "vücut ölçüsü mü tartı mı")},
+    "articles/units-vs-milligrams": {"en": ("information, safety", "compounded semaglutide units to mg"),
+                                     "tr": ("bilgi, güvenlik", "semaglutid ünite mg dönüşümü")},
 }
 
 # slug (english) -> {lang: (title, description)}
@@ -274,6 +276,12 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "They measure different things, and the same waist measured two ways gives two numbers. What makes a measurement comparable to your own last one."),
         "tr": ("Mezura Kımıldarken Tartı Kımıldamadığında",
                "Farklı şeyler ölçüyorlar ve aynı bel, iki yöntemle iki sayı veriyor. Bir ölçümü kendi bir öncekiyle karşılaştırılabilir kılan nedir."),
+    },
+    "articles/units-vs-milligrams": {
+        "en": ("Units or Milligrams? There Is No One Conversion",
+               "FDA logged patients taking five to twenty times the dose they meant to. A unit is a volume, not an amount — which is why no universal conversion exists."),
+        "tr": ("Birim mi Miligram mı? Tek Bir Dönüşüm Yok",
+               "FDA, majistral semaglutidde amaçlanan dozun beş ilâ yirmi katını yapan hastaları kayda geçti. Ünite bir hacimdir, miktar değil — neden evrensel bir dönüşüm yok."),
     },
 }
 

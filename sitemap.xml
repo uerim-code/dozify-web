@@ -106,6 +106,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/travelling-with-a-glp1-pen"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/units-vs-milligrams</loc>
+    <lastmod>2026-08-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/units-vs-milligrams"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/birim-mi-miligram-mi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/units-vs-milligrams"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/what-is-glp1</loc>
     <lastmod>2026-08-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/what-is-glp1"/>
@@ -114,7 +121,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en/articles</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>
@@ -302,6 +309,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/kvkk"/>
   </url>
   <url>
+    <loc>https://dozify.app/tr/makaleler/birim-mi-miligram-mi</loc>
+    <lastmod>2026-08-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/units-vs-milligrams"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/birim-mi-miligram-mi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/units-vs-milligrams"/>
+  </url>
+  <url>
     <loc>https://dozify.app/tr/makaleler/enjeksiyon-bolgesi-sertlesme</loc>
     <lastmod>2026-08-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/injection-site-lumps"/>
@@ -415,7 +429,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles"/>

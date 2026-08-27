@@ -71,6 +71,7 @@ PAGES: dict[str, tuple[str, str]] = {
     "articles/hydration-on-a-glp1.html": ("articles/hydration-on-a-glp1", "makaleler/glp1-ve-su-tuketimi"),
     "articles/health-app-privacy.html": ("articles/health-app-privacy", "makaleler/saglik-uygulamasi-gizliligi"),
     "articles/measurements-vs-scale.html": ("articles/measurements-vs-scale", "makaleler/olcu-mu-tarti-mi"),
+    "articles/units-vs-milligrams.html": ("articles/units-vs-milligrams", "makaleler/birim-mi-miligram-mi"),
 }
 
 # The share image is the same for every page, so its description is written
