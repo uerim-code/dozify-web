@@ -8,6 +8,20 @@
   <link rel="canonical" href="https://dozify.app/privacy">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
 </head>
 <body>
   <header class="nav">
@@ -82,6 +96,8 @@
       <p>The App uses the <strong>Meta (Facebook) SDK</strong> for one purpose: measuring whether an app install came from one of our ads. On iOS the App asks for your permission first, through Apple's App Tracking Transparency prompt. If you decline, or never answer, <strong>no advertising identifier (IDFA) is collected</strong> and Meta receives only Apple's privacy-preserving aggregate SKAdNetwork signal. If you allow it, your device's advertising identifier is shared with Meta so that the install can be attributed to the ad you saw. What is sent is limited to install and app-open attribution signals — your health data (medications, doses, injections, weight, blood glucose, side effects, notes) is <strong>never</strong> sent to Meta. You can change your answer at any time in iOS Settings → Privacy &amp; Security → Tracking. See <a href="https://www.facebook.com/privacy/policy" rel="nofollow noopener" target="_blank">Meta's Privacy Policy</a> for details.</p>
       <p>Dozify Premium is an optional auto-renewable subscription processed by Apple App Store or Google Play. Those transactions are governed by Apple's and Google's respective privacy policies; we (via <strong>RevenueCat</strong>, our subscription-management provider) receive only your purchase and subscription status (whether Premium is active), linked to an anonymous app user ID — not your name and not your payment details. No payment card information is ever handled by Dozify.</p>
 
+      <p><strong>This website (dozify.app)</strong> — separate from the App — loads a <strong>Google Ads conversion tag</strong>. It records one thing: that a visitor clicked an App Store or Google Play button, and on which page. It is configured for measurement only: ad personalization and Google signals are disabled, so your visit is not added to an advertising interest profile, and no health information you read or enter here is sent to Google. The App itself does not use this tag.</p>
+
       <h2>6. Children's Privacy</h2>
       <p>Dozify is for adults: our <a href="/terms">Terms of Service</a> require you to be at least 18, and the App asks you to confirm your date of birth before you can use it. The App is not directed to children, and we do not knowingly collect any data from them. If you believe a child has used the App, no personal data has been transmitted to us in any case, but you may delete the App from the device to remove all locally stored data.</p>
 
@@ -149,6 +165,8 @@
       <p>Uygulama, push bildirimlerini (örn. doz ve yenileme hatırlatıcıları) göndermek için <strong>OneSignal</strong> kullanır. OneSignal, bildirimleri cihazınıza gönderebilmek için bir cihaz push token'ı ve duyuruların doğru dilde gitmesi için uygulamayı kullandığınız dili (Türkçe veya İngilizce) alır; ilaç, doz veya diğer sağlık verilerinizi almaz. Detaylar için <a href="https://onesignal.com/privacy_policy" rel="nofollow noopener" target="_blank">OneSignal Gizlilik Politikası</a>'na bakın.</p>
       <p>Uygulama, <strong>Meta (Facebook) SDK</strong>'sını tek bir amaçla kullanır: bir uygulama kurulumunun bizim reklamlarımızdan gelip gelmediğini ölçmek. iOS'ta Uygulama önce Apple'ın İzleme Şeffaflığı (App Tracking Transparency) ekranıyla izninizi ister. İzin vermezseniz ya da hiç yanıtlamazsanız <strong>hiçbir reklam tanımlayıcısı (IDFA) toplanmaz</strong> ve Meta yalnızca Apple'ın gizliliği koruyan toplu SKAdNetwork sinyalini görür. İzin verirseniz, kurulumun gördüğünüz reklamla ilişkilendirilebilmesi için cihazınızın reklam tanımlayıcısı Meta ile paylaşılır. Gönderilen şey kurulum ve uygulama açılışı ilişkilendirme sinyalleriyle sınırlıdır — sağlık verileriniz (ilaçlar, dozlar, enjeksiyonlar, kilo, kan şekeri, yan etkiler, notlar) Meta'ya <strong>asla</strong> gönderilmez. Yanıtınızı istediğiniz zaman iOS Ayarlar → Gizlilik ve Güvenlik → İzleme bölümünden değiştirebilirsiniz. Detaylar için <a href="https://www.facebook.com/privacy/policy" rel="nofollow noopener" target="_blank">Meta Gizlilik Politikası</a>'na bakın.</p>
       <p>Dozify Premium, Apple App Store veya Google Play tarafından işlenen isteğe bağlı bir otomatik yenilenen abonelik hizmetidir. Bu işlemler Apple ve Google'ın ilgili gizlilik politikalarına tabidir; biz (abonelik yönetim sağlayıcımız <strong>RevenueCat</strong> aracılığıyla) yalnızca satın alma ve abonelik durumunuzu (Premium'un aktif olup olmadığını) anonim bir uygulama kullanıcı kimliğine bağlı olarak alırız; adınızı ve ödeme bilgilerinizi almayız. Hiçbir kart bilgisi Dozify tarafından işlenmez.</p>
+
+      <p><strong>Bu web sitesi (dozify.app)</strong> — Uygulamadan ayrı olarak — bir <strong>Google Ads dönüşüm etiketi</strong> yükler. Tek kaydettiği şey şudur: bir ziyaretçinin App Store veya Google Play düğmesine tıklaması ve bunun hangi sayfada olduğu. Etiket yalnızca ölçüm için yapılandırılmıştır: reklam kişiselleştirme ve Google sinyalleri kapalıdır, dolayısıyla ziyaretiniz bir reklam ilgi-alanı profiline eklenmez ve burada okuduğunuz ya da girdiğiniz hiçbir sağlık bilgisi Google'a gönderilmez. Uygulamanın kendisi bu etiketi kullanmaz.</p>
 
       <h2>6. Çocukların Gizliliği</h2>
       <p>Dozify yetişkinler içindir: <a href="/terms">Kullanım Koşullarımız</a> en az 18 yaşında olmanızı şart koşar ve Uygulama, kullanıma başlamadan önce doğum tarihinizi onaylamanızı ister. Uygulama çocuklara yönelik değildir ve çocuklardan bilerek veri toplamayız. Bir çocuğun Uygulamayı kullandığını düşünüyorsanız, herhangi bir kişisel veri zaten bize iletilmemiştir; cihazdan uygulamayı silerek tüm yerel verileri kaldırabilirsiniz.</p>
