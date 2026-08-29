@@ -5,8 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dozify Privacy Policy — What Stays on Your Phone</title>
   <meta property="og:url" content="https://dozify.app/en/privacy">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
   <meta name="description" content="What Dozify stores on your device, the anonymous statistics it collects, what it never collects, and how to delete everything at once.">
   <meta name="keywords" content="dozify privacy policy, glp-1, glp1, tracker, ozempic, wegovy, mounjaro, zepbound, semaglutide, tirzepatide, injection, dose, weight, side effects, vial, titration, reminder">
   <meta property="og:title" content="Dozify Privacy Policy — What Stays on Your Phone">
@@ -92,20 +107,6 @@
     ]
   }
   </script>
-  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
-       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
-       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
-       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
-       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
-    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
-  </script>
-  <script src="/assets/store-click.js" defer></script>
 </head>
 <body>
   <header class="nav">
@@ -179,6 +180,8 @@
       <p>The App uses <strong>OneSignal</strong> to deliver push notifications (e.g. dose and refill reminders). OneSignal receives a device push token so it can deliver notifications to your device, and the language you use the App in (Turkish or English) so announcements are sent in that language; it does not receive your medication, dose, or other health data. See <a href="https://onesignal.com/privacy_policy" rel="nofollow noopener" target="_blank">OneSignal's Privacy Policy</a> for details.</p>
       <p>The App uses the <strong>Meta (Facebook) SDK</strong> for one purpose: measuring whether an app install came from one of our ads. On iOS the App asks for your permission first, through Apple's App Tracking Transparency prompt. If you decline, or never answer, <strong>no advertising identifier (IDFA) is collected</strong> and Meta receives only Apple's privacy-preserving aggregate SKAdNetwork signal. If you allow it, your device's advertising identifier is shared with Meta so that the install can be attributed to the ad you saw. What is sent is limited to install and app-open attribution signals — your health data (medications, doses, injections, weight, blood glucose, side effects, notes) is <strong>never</strong> sent to Meta. You can change your answer at any time in iOS Settings → Privacy &amp; Security → Tracking. See <a href="https://www.facebook.com/privacy/policy" rel="nofollow noopener" target="_blank">Meta's Privacy Policy</a> for details.</p>
       <p>Dozify Premium is an optional auto-renewable subscription processed by Apple App Store or Google Play. Those transactions are governed by Apple's and Google's respective privacy policies; we (via <strong>RevenueCat</strong>, our subscription-management provider) receive only your purchase and subscription status (whether Premium is active), linked to an anonymous app user ID — not your name and not your payment details. No payment card information is ever handled by Dozify.</p>
+
+      <p><strong>This website (dozify.app)</strong> — separate from the App — loads a <strong>Google Ads conversion tag</strong>. It records one thing: that a visitor clicked an App Store or Google Play button, and on which page. It is configured for measurement only: ad personalization and Google signals are disabled, so your visit is not added to an advertising interest profile, and no health information you read or enter here is sent to Google. The App itself does not use this tag.</p>
 
       <h2>6. Children's Privacy</h2>
       <p>Dozify is for adults: our <a href="/en/terms">Terms of Service</a> require you to be at least 18, and the App asks you to confirm your date of birth before you can use it. The App is not directed to children, and we do not knowingly collect any data from them. If you believe a child has used the App, no personal data has been transmitted to us in any case, but you may delete the App from the device to remove all locally stored data.</p>
