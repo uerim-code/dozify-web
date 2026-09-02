@@ -368,6 +368,90 @@ def write_vercelignore() -> int:
     return len(PAGES)
 
 
+# --- CSP -------------------------------------------------------------------
+
+# Sayfalardaki satır içi gtag başlatma betiği için sha256. ELLE YAZILMAZ:
+# üretilen sayfalardan hesaplanır ve vercel.json'a buradan geçirilir. Aksi
+# halde betiğin bir karakteri değiştiği anda hash tutmaz, tarayıcı betiği
+# SESSİZCE bloklar ve reklam dönüşüm ölçümü durur — sayfa normal görünürken.
+#
+# ⚠ CSP'deki asıl güvenlik değeri `script-src`'tedir ve orası sıkı: hash +
+# üç Google host'u, `unsafe-inline` YOK. Buna karşılık `img-src` bilerek
+# geniş bırakıldı (https:), çünkü dönüşüm ölçümü piksel üzerinden yürüyor ve
+# Google bu pikselleri çalışma anında kurduğu adreslere atıyor; daraltmak
+# ölçümü sessizce kırardı. Resim kod çalıştırmaz, bu yüzden takas ucuz.
+#
+# Host listesi hafızadan değil ÖLÇÜMDEN geldi: canlı gtag.js indirilip
+# içindeki alan adları çıkarıldı (googletagmanager, googleadservices,
+# googleads.g.doubleclick.net, pagead2.googlesyndication.com, www.google.com).
+
+CSP_YONERGELERI = [
+    "default-src 'self'",
+    "base-uri 'self'",
+    "object-src 'none'",
+    "frame-ancestors 'none'",
+    "form-action 'self'",
+    "script-src 'self' {hash} https://www.googletagmanager.com "
+    "https://www.googleadservices.com https://googleads.g.doubleclick.net",
+    # style= öznitelikleri (16 tane) hash'lenemez; öznitelik stilleri için
+    # 'unsafe-inline' şart. Stil enjeksiyonu kod çalıştırmaz.
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data: https:",
+    "font-src 'self'",
+    "connect-src 'self' https://www.googletagmanager.com "
+    "https://www.googleadservices.com https://googleads.g.doubleclick.net "
+    "https://pagead2.googlesyndication.com https://www.google.com "
+    "https://www.google-analytics.com",
+    "frame-src https://td.doubleclick.net https://www.googletagmanager.com",
+    "upgrade-insecure-requests",
+]
+
+
+def inline_script_hash(pages: list[str]) -> str:
+    """Üretilen sayfalardaki satır içi (JSON-LD olmayan) betiğin sha256'sı.
+
+    ⚠ JSON-LD blokları hash GEREKTİRMEZ: `application/ld+json` çalıştırılabilir
+    bir betik değildir, `script-src` onu bloklamaz. Tarayıcıda doğrulandı —
+    hash'i tutmayan bir CSP altında satır içi JS bloklandı, JSON-LD öğesi DOM'da
+    kaldı ve içeriği okunabilir durumdaydı, konsolda ona dair ihlal çıkmadı.
+    Aksi halde her sayfanın kendi JSON-LD'si için ayrı hash gerekirdi.
+    """
+    import base64
+    import hashlib
+
+    bulunan = set()
+    for rel in pages:
+        html = (ROOT / rel).read_text(encoding="utf-8")
+        for m in re.finditer(r"<script(?![^>]*\bsrc=)([^>]*)>(.*?)</script>", html, re.S):
+            if "ld+json" in m.group(1):
+                continue
+            digest = hashlib.sha256(m.group(2).encode("utf-8")).digest()
+            bulunan.add("'sha256-" + base64.b64encode(digest).decode() + "'")
+    if len(bulunan) != 1:
+        raise SystemExit(
+            f"Satır içi betik {len(bulunan)} farklı biçimde bulundu; CSP tek hash "
+            f"varsayıyor. Bulunanlar: {sorted(bulunan)}"
+        )
+    return bulunan.pop()
+
+
+def write_csp(pages: list[str]) -> str:
+    """vercel.json'daki CSP başlığını üretilen sayfalara göre günceller."""
+    import json
+
+    csp = "; ".join(CSP_YONERGELERI).format(hash=inline_script_hash(pages))
+    yol = ROOT / "vercel.json"
+    d = json.loads(yol.read_text(encoding="utf-8"))
+    for kural in d["headers"]:
+        basliklar = kural["headers"]
+        digerleri = [b for b in basliklar if b["key"] != "Content-Security-Policy"]
+        kural["headers"] = digerleri + [
+            {"key": "Content-Security-Policy", "value": csp}
+        ]
+    yol.write_text(json.dumps(d, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return csp
+
+
 def main() -> int:
     made = []
     for lang in ("en", "tr"):
@@ -382,6 +466,7 @@ def main() -> int:
             out.write_text(build_page(src, lang, en_slug, tr_slug), encoding="utf-8")
             made.append(out.relative_to(ROOT).as_posix())
     write_vercelignore()
+    write_csp(made)
     n = write_sitemap([(src, en, tr) for src, (en, tr) in PAGES.items()])
     print(f"{len(made)} sayfa üretildi, sitemap {n} kayıt")
     for m in made[:6]:
