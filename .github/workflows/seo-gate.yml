@@ -22,6 +22,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # ZORUNLU. Sitemap'teki lastmod her sayfanin SON COMMIT tarihinden
+          # hesaplaniyor; ontanimli sig klon (fetch-depth: 1) yalniz ucu
+          # getirir ve "git log -- <dosya>" bos doner. O zaman uretici bugunun
+          # tarihine duser, commit'lenmis sitemap'le tutmaz ve kapi 72 URL'de
+          # fark gorup duser -- icerikte hicbir sey degismemis olsa bile.
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'

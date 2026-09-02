@@ -297,6 +297,18 @@ def write_sitemap(pages: list[tuple[str, str, str]]) -> int:
     import datetime
     import subprocess
 
+    # Sig klonda gecmis YOK: her "git log -- <dosya>" bos doner ve asagidaki
+    # geri cekilme her sayfaya bugunun tarihini yazar. Sonuc sessiz degil ama
+    # anlasilmaz: kapi, kimsenin yapmadigi bir farktan duser. Ortam hatasini
+    # burada adiyla soyle.
+    shallow = subprocess.run(["git", "rev-parse", "--is-shallow-repository"],
+                             cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    if shallow == "true":
+        raise SystemExit(
+            "Sig klon: sitemap lastmod degerleri commit gecmisinden okunuyor ve\n"
+            "burada gecmis yok. CI ise actions/checkout adiminda fetch-depth: 0 ver."
+        )
+
     rows = []
     for src, en_slug, tr_slug in pages:
         try:
