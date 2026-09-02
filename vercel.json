@@ -5,8 +5,20 @@
   "redirects": [
     {
       "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "tr(-[A-Za-z]+)?([;,].*)?"
+        }
+      ],
+      "destination": "/tr",
+      "permanent": false
+    },
+    {
+      "source": "/",
       "destination": "/en",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/glp1-shot-tracker",
@@ -122,6 +134,17 @@
       "source": "/chembiocalc/support",
       "destination": "https://chembiocalc.com/support",
       "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Vary",
+          "value": "Accept-Language"
+        }
+      ]
     }
   ]
 }
