@@ -86,9 +86,15 @@ OG_IMAGE_ALT = {
 
 BRAND = "#0D9488"
 
+# İngilizce sayfalarda dil seçici YOK: Türkçe artık siteden teklif edilmiyor.
+# Türkçe sayfalar canlı ve indekste kaldığı için oradaki "English" bağlantısı
+# DURUYOR — kaldırılsaydı o sayfaya düşen ziyaretçinin İngilizceye geçeceği
+# hiçbir yol kalmazdı.
+#
+# Anahtarı silmek yerine boş bırakmak bilinçli: `SWITCHER[lang]` çağrısı
+# şablonda duruyor ve eksik anahtar KeyError verirdi.
 SWITCHER = {
-    "en": ('<a class="lang-switch" href="{other}" hreflang="tr" lang="tr" '
-           'rel="alternate">Türkçe</a>'),
+    "en": "",
     "tr": ('<a class="lang-switch" href="{other}" hreflang="en" lang="en" '
            'rel="alternate">English</a>'),
 }
