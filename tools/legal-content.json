@@ -805,5 +805,274 @@
         }
       ]
     }
+  },
+  "it": {
+    "privacy": {
+      "title": "Informativa sulla privacy",
+      "description": "Come Dozify tratta i tuoi dati: i dati sanitari restano sul tuo dispositivo e non vengono inviati ai nostri server.",
+      "updated": "Ultimo aggiornamento: 13 agosto 2026 · In vigore dal 13 agosto 2026",
+      "blocks": [
+        {
+          "t": "h2",
+          "v": "1. Introduzione"
+        },
+        {
+          "t": "p",
+          "v": "Dozify («noi») è un'app per il monitoraggio dei farmaci, pensata per accompagnare le terapie GLP-1 come Ozempic, Mounjaro, Wegovy, Saxenda e simili. Questa informativa spiega come trattiamo le informazioni quando usi l'applicazione mobile Dozify (l'«App»)."
+        },
+        {
+          "t": "p",
+          "v": "Dozify funziona prima di tutto offline. I dati sanitari che inserisci non vengono raccolti, non vengono trasmessi e non vengono salvati sui nostri server, e noi non possiamo vederli. Tutto ciò che inserisci nell'App resta sul tuo dispositivo. L'App usa però un numero ristretto di servizi di terze parti per le statistiche anonime, le notifiche e gli abbonamenti; che cosa riceve ciascuno di essi è spiegato nella sezione 5."
+        },
+        {
+          "t": "h2",
+          "v": "2. Dati che non raccogliamo"
+        },
+        {
+          "t": "p",
+          "v": "L'App non raccoglie, non trasmette e non conserva su alcun server esterno:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "identificativi personali (nome, indirizzo e-mail, telefono, documento d'identità);",
+            "dati sanitari: quale farmaco assumi, le tue iniezioni, il tuo peso, la tua glicemia, i tuoi sintomi, le tue note, le tue foto o le tue misure;",
+            "dati di posizione;",
+            "identificativi pubblicitari, a meno che tu non autorizzi espressamente il tracciamento nella richiesta App Tracking Transparency di Apple: vedi il punto sulla misurazione pubblicitaria nella sezione 5."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "L'App riceve invece gli identificativi anonimi descritti nella sezione 5 (un identificativo dell'istanza dell'applicazione per le statistiche e un identificativo per le notifiche). Esistono solo perché funzionino i conteggi d'uso anonimi e le tue notifiche, non sono collegati al tuo nome o alla tua e-mail e non servono a seguirti su altre app o altri siti."
+        },
+        {
+          "t": "note",
+          "v": "I tuoi dati sanitari non vengono mai usati a fini pubblicitari. Nulla di ciò che registri (farmaci, dosi, iniezioni, peso, glicemia, effetti collaterali, note, foto) viene mai impiegato per la profilazione pubblicitaria né condiviso con alcun circuito pubblicitario, qualunque risposta tu dia alla richiesta di tracciamento."
+        },
+        {
+          "t": "h2",
+          "v": "3. Dati conservati localmente sul tuo dispositivo"
+        },
+        {
+          "t": "p",
+          "v": "L'App salva le informazioni seguenti solo sul tuo dispositivo, in un database SQLite locale e nell'archivio cifrato del sistema:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "i farmaci, le dosi e la frequenza delle iniezioni che inserisci;",
+            "lo storico delle iniezioni e le voci del diario;",
+            "le misurazioni di peso e glicemia che registri;",
+            "l'inventario dei flaconcini e le loro date di scadenza;",
+            "le preferenze per le notifiche e i promemoria;",
+            "le impostazioni dell'App (lingua, aspetto, unità di misura)."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Questi dati non lasciano mai il tuo dispositivo, a meno che non sia tu a esportarli (per esempio generando un referto PDF e condividendolo per e-mail o tramite un'altra app che scegli). Se disinstalli l'App, tutti i dati vengono cancellati definitivamente."
+        },
+        {
+          "t": "h2",
+          "v": "4. Permessi che chiediamo"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Notifiche: per inviarti i promemoria delle iniezioni e gli avvisi di scadenza dei flaconcini. Puoi revocare questo permesso quando vuoi nelle impostazioni del dispositivo.",
+            "Fotocamera e libreria foto (facoltativi): solo se decidi di allegare una foto dei progressi; la foto resta salvata localmente sul tuo dispositivo, come tutti gli altri dati.",
+            "Apple Salute (facoltativo): solo se attivi la sincronizzazione del peso nelle impostazioni. Dozify legge e scrive il tuo peso perché coincida con le altre app di Salute.",
+            "Archiviazione (solo Android): per salvare i referti PDF che generi."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "L'App non chiede l'accesso al microfono, ai contatti o alla posizione. Fotocamera, libreria foto e Apple Salute sono facoltativi e vengono richiesti solo nel momento in cui usi la funzione corrispondente."
+        },
+        {
+          "t": "h2",
+          "v": "5. Servizi di terze parti"
+        },
+        {
+          "t": "p",
+          "v": "L'App usa Firebase Analytics (Google Analytics per Firebase) per raccogliere statistiche d'uso anonime, come le schermate visitate, le azioni all'interno dell'app (per esempio quali funzioni vengono usate) e le conversioni in abbonamento. Questi dati sono associati a un identificativo anonimo dell'istanza dell'applicazione, non al tuo nome, alla tua e-mail o ad altri dati che ti identifichino. I tuoi dati sanitari (storico delle iniezioni, peso, glicemia, effetti collaterali, voci del diario) non vengono mai inviati a Firebase."
+        },
+        {
+          "t": "p",
+          "v": "L'App usa OneSignal per inviare le notifiche push (per esempio i promemoria delle dosi e del riordino). OneSignal riceve un identificativo per le notifiche del tuo dispositivo, necessario per recapitarle, e la lingua in cui usi l'App, perché gli avvisi ti arrivino in quella lingua; non riceve il tuo farmaco, la tua dose né alcun altro dato sanitario."
+        },
+        {
+          "t": "p",
+          "v": "L'App usa l'SDK di Meta (Facebook) per un unico scopo: misurare se un'installazione proviene da uno dei nostri annunci. Su iOS l'App chiede prima il tuo permesso tramite la richiesta App Tracking Transparency di Apple. Se rifiuti, o non rispondi, non viene raccolto alcun identificativo pubblicitario (IDFA) e Meta riceve soltanto il segnale aggregato SKAdNetwork di Apple, che tutela la privacy. Se acconsenti, l'identificativo pubblicitario del tuo dispositivo viene condiviso con Meta per poter attribuire l'installazione all'annuncio che hai visto. Ciò che viene inviato si limita ai segnali di attribuzione dell'installazione e dell'apertura dell'app; i tuoi dati sanitari (farmaci, dosi, iniezioni, peso, glicemia, effetti collaterali, note) non vengono mai inviati a Meta. Puoi cambiare la tua risposta quando vuoi in Impostazioni iOS → Privacy e sicurezza → Tracciamento."
+        },
+        {
+          "t": "p",
+          "v": "L'App usa RevenueCat per gestire gli abbonamenti. RevenueCat riceve un identificativo utente anonimo e lo stato del tuo acquisto; i pagamenti sono gestiti da Apple o da Google, e noi non vediamo mai i tuoi dati di pagamento."
+        },
+        {
+          "t": "h2",
+          "v": "6. Privacy dei minori"
+        },
+        {
+          "t": "p",
+          "v": "Dozify non è per i bambini piccoli: le nostre condizioni del servizio richiedono di avere almeno 13 anni, e l'App ti chiede di confermare la tua data di nascita prima di poterla usare. Non raccogliamo consapevolmente dati di minori di 13 anni. In Italia puoi acconsentire da solo al trattamento dei dati sanitari a partire dai 14 anni; se sei più giovane, usa l'App soltanto con il consenso di un genitore o di chi esercita la responsabilità genitoriale. In ogni caso i tuoi dati restano sul tuo dispositivo: a noi non viene trasmesso alcun dato personale, e disinstallare l'App cancella tutto ciò che è salvato localmente."
+        },
+        {
+          "t": "h2",
+          "v": "7. I tuoi diritti"
+        },
+        {
+          "t": "p",
+          "v": "Poiché non raccogliamo né conserviamo i tuoi dati sui nostri server, i diritti di accesso, cancellazione e portabilità si esercitano direttamente dall'App:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Accesso: tutti i tuoi dati sono visibili all'interno dell'App.",
+            "Portabilità: puoi generare referti PDF dei tuoi dati quando vuoi.",
+            "Cancellazione: in Impostazioni → Elimina i miei dati puoi cancellarne una parte o tutti. Anche disinstallare l'App elimina tutti i dati locali."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Chi risiede nell'UE e nel Regno Unito ha i diritti riconosciuti dal GDPR, e chi risiede in Turchia quelli riconosciuti dalla legge turca KVKK (Legge n. 6698)."
+        },
+        {
+          "t": "h2",
+          "v": "8. Avvertenza medica"
+        },
+        {
+          "t": "p",
+          "v": "Dozify non è un dispositivo medico e non fornisce consigli medici, diagnosi o terapie. Le informazioni presenti nell'App servono unicamente al tuo monitoraggio personale. Consulta sempre il tuo medico o un professionista sanitario qualificato prima di prendere decisioni sulla tua terapia."
+        },
+        {
+          "t": "h2",
+          "v": "9. Sicurezza dei dati"
+        },
+        {
+          "t": "p",
+          "v": "I dati locali sono salvati nello spazio protetto che il dispositivo riserva all'app. Ti consigliamo di attivare un codice di sblocco, il blocco biometrico e la cifratura completa dell'archivio (attiva per impostazione predefinita sui dispositivi iOS e Android attuali)."
+        },
+        {
+          "t": "h2",
+          "v": "10. Modifiche a questa informativa"
+        },
+        {
+          "t": "p",
+          "v": "Possiamo aggiornare di tanto in tanto questa informativa sulla privacy. Le modifiche importanti si riflettono nella data di aggiornamento indicata sopra. Continuare a usare l'App dopo una modifica significa accettare l'informativa aggiornata."
+        },
+        {
+          "t": "h2",
+          "v": "11. Contatti"
+        },
+        {
+          "t": "p",
+          "v": "Per le questioni di privacy: privacy@dozify.app · Per l'assistenza generale: support@dozify.app"
+        }
+      ]
+    },
+    "terms": {
+      "title": "Condizioni del servizio",
+      "description": "Le condizioni d'uso dell'app Dozify, incluse quelle dell'abbonamento Dozify Premium.",
+      "updated": "Ultimo aggiornamento: 6 agosto 2026",
+      "blocks": [
+        {
+          "t": "note",
+          "v": "Avvertenza medica: Dozify è uno strumento di monitoraggio personale. Non è un dispositivo medico e non fornisce diagnosi, raccomandazioni terapeutiche o consigli sul dosaggio. Prendi tutte le decisioni sulla salute insieme al tuo medico."
+        },
+        {
+          "t": "h2",
+          "v": "1. Parti e ambito di applicazione"
+        },
+        {
+          "t": "p",
+          "v": "Le presenti condizioni regolano il tuo utilizzo dell'applicazione mobile Dozify (l'«App»), fornita da Ümit Can Erim («noi»). Installando o usando l'App, accetti queste condizioni."
+        },
+        {
+          "t": "h2",
+          "v": "2. Requisiti di accesso"
+        },
+        {
+          "t": "p",
+          "v": "Devi avere almeno 13 anni per usare Dozify. Se hai meno di 18 anni, usa l'App solo con il coinvolgimento di un genitore o di chi esercita la responsabilità genitoriale e sotto la supervisione del medico che ti ha prescritto la terapia."
+        },
+        {
+          "t": "h2",
+          "v": "3. Licenza"
+        },
+        {
+          "t": "p",
+          "v": "Ti concediamo una licenza personale, non esclusiva, non trasferibile e revocabile per usare l'App su dispositivi di tua proprietà o sotto il tuo controllo, unicamente per uso personale e non commerciale."
+        },
+        {
+          "t": "h2",
+          "v": "4. Uso consentito"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Non decompilare, non sottoporre a reverse engineering e non modificare l'App.",
+            "Non usare l'App per scopi illeciti né per fornire prestazioni sanitarie ad altre persone.",
+            "Non tentare di aggirare le misure di sicurezza o le restrizioni di accesso."
+          ]
+        },
+        {
+          "t": "h2",
+          "v": "5. Informazioni sanitarie che inserisci"
+        },
+        {
+          "t": "p",
+          "v": "Sei responsabile dell'esattezza delle informazioni su farmaco, dose e salute che inserisci. L'App non verifica se siano clinicamente corrette. Conferma sempre la dose con la tua prescrizione e con il tuo medico."
+        },
+        {
+          "t": "h2",
+          "v": "6. Conservazione dei dati"
+        },
+        {
+          "t": "p",
+          "v": "Tutti i dati che inserisci sono conservati localmente sul tuo dispositivo. Non raccogliamo, non trasmettiamo e non conserviamo i tuoi dati sanitari su alcun server. L'App invia però statistiche d'uso anonime, un identificativo per le notifiche e lo stato del tuo abbonamento ai servizi di terze parti indicati nella nostra informativa sulla privacy, dove è spiegato che cosa riceve ciascuno."
+        },
+        {
+          "t": "h2",
+          "v": "7. Abbonamenti e servizi di terze parti"
+        },
+        {
+          "t": "p",
+          "v": "Dozify offre un abbonamento facoltativo a rinnovo automatico («Dozify Premium», con formula mensile o annuale) che sblocca funzioni aggiuntive come i grafici di tendenza dettagliati, la proiezione del peso, i referti per la visita medica, la gestione dei flaconcini e le foto dei progressi. Gli abbonamenti possono includere un periodo di prova gratuito, indicato al momento dell'acquisto. Il pagamento viene addebitato sul tuo account Apple o Google alla conferma dell'acquisto. Gli abbonamenti si rinnovano automaticamente per lo stesso periodo e al prezzo indicato all'acquisto, salvo disattivazione del rinnovo automatico almeno 24 ore prima della fine del periodo in corso. Puoi gestire o disdire il tuo abbonamento quando vuoi nelle impostazioni del tuo account Apple o Google Play; la disdetta non dà diritto al rimborso del periodo in corso. Tutti gli acquisti in-app e gli abbonamenti sono gestiti da Apple o da Google e sono soggetti alle rispettive condizioni."
+        },
+        {
+          "t": "h2",
+          "v": "8. Assenza di garanzia"
+        },
+        {
+          "t": "p",
+          "v": "L'App è fornita «così com'è» e «secondo disponibilità», senza garanzie di alcun tipo, esplicite o implicite, comprese quelle di idoneità a uno scopo specifico o di esattezza e affidabilità delle informazioni mediche o sanitarie."
+        },
+        {
+          "t": "h2",
+          "v": "9. Limitazione di responsabilità"
+        },
+        {
+          "t": "p",
+          "v": "Nella massima misura consentita dalla legge, non siamo responsabili per danni indiretti, incidentali, speciali o consequenziali, comprese le perdite di dati, le dosi saltate o le conseguenze sulla salute derivanti dal tuo utilizzo dell'App."
+        },
+        {
+          "t": "h2",
+          "v": "10. Modifiche"
+        },
+        {
+          "t": "p",
+          "v": "Possiamo aggiornare di tanto in tanto queste condizioni. Le modifiche importanti si riflettono nella data di aggiornamento indicata sopra. Continuare a usare l'App dopo una modifica significa accettare le condizioni aggiornate."
+        },
+        {
+          "t": "h2",
+          "v": "11. Contatti"
+        },
+        {
+          "t": "p",
+          "v": "Per qualsiasi domanda su queste condizioni, scrivi a support@dozify.app."
+        }
+      ]
+    }
   }
 }
