@@ -29,6 +29,12 @@ SITE = "https://dozify.app"
 
 # Belgelerin İngilizce ve Türkçe karşılıkları zaten sitede; hreflang bunları da
 # göstersin ki arama motoru sayfaları birbirinin çevirisi olarak eşlesin.
+# Arapça sağdan sola yazılıyor. <html dir> olmadan tarayıcı sayfayı soldan
+# sağa diziyor: paragraflar sola dayanıyor, noktalama satır sonunda yanlış
+# tarafa düşüyor, madde işaretleri solda kalıyor. Metnin kendisi doğru olsa
+# bile sayfa Arapça bir okura bozuk görünüyor.
+RTL = {"ar", "he", "fa", "ur"}
+
 CANONICAL = {
     "privacy": {"en": "/en/privacy", "tr": "/tr/gizlilik"},
     "terms": {"en": "/en/terms", "tr": "/tr/kullanim-kosullari"},
@@ -46,7 +52,7 @@ PAGE_CSS = """
     h1 { font-size: 30px; line-height: 1.25; margin: 28px 0 8px; }
     h2 { font-size: 19px; margin: 34px 0 10px; }
     p, li { font-size: 16px; color: #1E293B; }
-    ul { padding-left: 22px; }
+    ul { padding-inline-start: 22px; }
     a { color: #0F766E; }
     .meta { color: #64748B; font-size: 14px; margin: 0 0 8px; }
     .note { background: #F1F5F9; border-radius: 12px; padding: 14px 16px; font-size: 15px; }
@@ -78,8 +84,9 @@ def render(lang: str, doc: str, content: dict) -> str:
         else:
             raise SystemExit(f"bilinmeyen blok türü: {kind}")
 
+    direction = ' dir="rtl"' if lang in RTL else ""
     return f"""<!DOCTYPE html>
-<html lang="{lang}">
+<html lang="{lang}"{direction}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
