@@ -1074,5 +1074,274 @@
         }
       ]
     }
+  },
+  "pt": {
+    "privacy": {
+      "title": "Política de privacidade",
+      "description": "Como o Dozify trata seus dados: seus dados de saúde ficam no seu dispositivo e não são enviados aos nossos servidores.",
+      "updated": "Última atualização: 13 de agosto de 2026 · Em vigor desde 13 de agosto de 2026",
+      "blocks": [
+        {
+          "t": "h2",
+          "v": "1. Introdução"
+        },
+        {
+          "t": "p",
+          "v": "O Dozify («nós») é um app de acompanhamento de medicamentos, feito para acompanhar tratamentos GLP-1 como Ozempic, Mounjaro, Wegovy, Saxenda e semelhantes. Esta política explica como tratamos as informações quando você usa o aplicativo móvel Dozify (o «App»)."
+        },
+        {
+          "t": "p",
+          "v": "O Dozify funciona primeiro offline. Os dados de saúde que você informa não são coletados, não são transmitidos e não são guardados nos nossos servidores, e nós não conseguimos vê-los. Tudo o que você informa no App fica no seu dispositivo. O App usa, sim, um número reduzido de serviços de terceiros para estatísticas anônimas, notificações e assinaturas; o que cada um recebe está detalhado na seção 5."
+        },
+        {
+          "t": "h2",
+          "v": "2. Dados que não coletamos"
+        },
+        {
+          "t": "p",
+          "v": "O App não coleta, não transmite e não armazena em nenhum servidor externo:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "identificadores pessoais (nome, e-mail, telefone, documento de identidade);",
+            "dados de saúde: qual medicamento você usa, suas injeções, seu peso, sua glicemia, seus sintomas, suas observações, suas fotos ou suas medidas;",
+            "dados de localização;",
+            "identificadores de publicidade, a menos que você autorize expressamente o rastreamento no pedido de App Tracking Transparency da Apple: veja o trecho sobre medição de anúncios na seção 5."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "O App recebe, sim, os identificadores anônimos descritos na seção 5 (um identificador de instância do aplicativo, para as estatísticas, e um identificador de notificações). Eles existem apenas para que as contagens de uso anônimas e suas notificações funcionem, não estão ligados ao seu nome nem ao seu e-mail, e não são usados para seguir você por outros apps ou sites."
+        },
+        {
+          "t": "note",
+          "v": "Seus dados de saúde nunca são usados para fins publicitários. Nada do que você registra (medicamentos, doses, injeções, peso, glicemia, efeitos colaterais, observações, fotos) é usado para segmentação de anúncios nem compartilhado com qualquer rede de publicidade, independentemente do que você responder no pedido de rastreamento."
+        },
+        {
+          "t": "h2",
+          "v": "3. Dados guardados localmente no seu dispositivo"
+        },
+        {
+          "t": "p",
+          "v": "O App guarda as informações a seguir apenas no seu dispositivo, em um banco de dados SQLite local e no armazenamento criptografado do sistema:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "os medicamentos, as doses e a frequência das injeções que você informa;",
+            "o histórico de injeções e os registros do diário;",
+            "as medições de peso e glicemia que você registra;",
+            "o estoque de frascos e as datas de validade deles;",
+            "as preferências de notificação e os lembretes;",
+            "os ajustes do App (idioma, aparência, unidades)."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Esses dados nunca saem do seu dispositivo, a menos que você mesmo os exporte (por exemplo, gerando um relatório em PDF e compartilhando por e-mail ou por outro app que você escolher). Se você desinstalar o App, todos os dados são apagados de forma permanente."
+        },
+        {
+          "t": "h2",
+          "v": "4. Permissões que pedimos"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Notificações: para enviar lembretes de injeção e avisos de validade dos frascos. Você pode revogar essa permissão quando quiser nos ajustes do dispositivo.",
+            "Câmera e galeria de fotos (opcionais): só se você decidir anexar uma foto de progresso; a foto fica guardada localmente no seu dispositivo, como todos os outros dados.",
+            "Apple Saúde (opcional): só se você ativar a sincronização de peso nos ajustes. O Dozify lê e grava seu peso para que ele fique igual ao dos seus outros apps de Saúde.",
+            "Armazenamento (apenas Android): para salvar os relatórios em PDF que você gera."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "O App não pede acesso ao microfone, aos contatos nem à localização. Câmera, galeria de fotos e Apple Saúde são opcionais e só são pedidos no momento em que você usa o recurso correspondente."
+        },
+        {
+          "t": "h2",
+          "v": "5. Serviços de terceiros"
+        },
+        {
+          "t": "p",
+          "v": "O App usa o Firebase Analytics (Google Analytics para Firebase) para coletar estatísticas de uso anônimas, como as telas visitadas, as ações dentro do app (por exemplo, quais recursos são usados) e as conversões de assinatura. Esses dados ficam associados a um identificador de instância do aplicativo anônimo, não ao seu nome, ao seu e-mail ou a qualquer outro dado que identifique você. Seus dados de saúde (histórico de injeções, peso, glicemia, efeitos colaterais, registros do diário) nunca são enviados ao Firebase."
+        },
+        {
+          "t": "p",
+          "v": "O App usa o OneSignal para enviar as notificações push (por exemplo, lembretes de dose e de reposição). O OneSignal recebe um identificador de notificações do seu dispositivo, necessário para entregá-las, e o idioma em que você usa o App, para que os avisos cheguem nesse idioma; ele não recebe seu medicamento, sua dose nem qualquer outro dado de saúde."
+        },
+        {
+          "t": "p",
+          "v": "O App usa o SDK da Meta (Facebook) com uma única finalidade: medir se uma instalação veio de um dos nossos anúncios. No iOS, o App pede sua permissão primeiro, pelo pedido de App Tracking Transparency da Apple. Se você recusar, ou não responder, nenhum identificador de publicidade (IDFA) é coletado e a Meta recebe apenas o sinal agregado SKAdNetwork da Apple, que preserva a privacidade. Se você permitir, o identificador de publicidade do seu dispositivo é compartilhado com a Meta para que a instalação possa ser atribuída ao anúncio que você viu. O que é enviado se limita a sinais de atribuição de instalação e abertura do app; seus dados de saúde (medicamentos, doses, injeções, peso, glicemia, efeitos colaterais, observações) nunca são enviados à Meta. Você pode mudar sua resposta quando quiser em Ajustes do iOS → Privacidade e Segurança → Rastreamento."
+        },
+        {
+          "t": "p",
+          "v": "O App usa o RevenueCat para gerenciar as assinaturas. O RevenueCat recebe um identificador de usuário anônimo e o status da sua compra; os pagamentos são processados pela Apple ou pelo Google, e nós nunca vemos seus dados de pagamento."
+        },
+        {
+          "t": "h2",
+          "v": "6. Privacidade de menores"
+        },
+        {
+          "t": "p",
+          "v": "O Dozify não é para crianças pequenas: nossos termos de serviço exigem ter pelo menos 13 anos, e o App pede que você confirme sua data de nascimento antes de poder usá-lo. Não coletamos conscientemente dados de menores de 13 anos. Em vários países é preciso ser mais velho que 13 para consentir sozinho com o tratamento de dados de saúde — no Brasil, a LGPD exige o consentimento específico de um dos pais ou do responsável legal para o tratamento de dados de crianças e adolescentes; em Portugal, o limite é 13 anos. Se você é menor de idade, use o App com o consentimento de um dos pais ou do seu responsável. Em todo caso, seus dados ficam no seu dispositivo: nenhum dado pessoal é transmitido para nós, e desinstalar o App apaga tudo o que estava guardado localmente."
+        },
+        {
+          "t": "h2",
+          "v": "7. Seus direitos"
+        },
+        {
+          "t": "p",
+          "v": "Como não coletamos nem guardamos seus dados nos nossos servidores, os direitos de acesso, eliminação e portabilidade são exercidos diretamente pelo App:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Acesso: todos os seus dados ficam visíveis para você dentro do App.",
+            "Portabilidade: você pode gerar relatórios em PDF dos seus dados quando quiser.",
+            "Eliminação: em Ajustes → Excluir meus dados você pode apagar parte ou tudo. Desinstalar o App também remove todos os dados locais."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Quem mora no Brasil tem os direitos previstos na LGPD (Lei n.º 13.709); quem mora na UE e no Reino Unido, os previstos no GDPR; e quem mora na Turquia, os previstos na lei turca KVKK (Lei n.º 6698)."
+        },
+        {
+          "t": "h2",
+          "v": "8. Aviso médico"
+        },
+        {
+          "t": "p",
+          "v": "O Dozify não é um dispositivo médico e não oferece orientação médica, diagnóstico ou tratamento. As informações do App servem apenas para o seu acompanhamento pessoal. Consulte sempre seu médico ou um profissional de saúde qualificado antes de tomar decisões sobre seu tratamento."
+        },
+        {
+          "t": "h2",
+          "v": "9. Segurança dos dados"
+        },
+        {
+          "t": "p",
+          "v": "Os dados locais ficam no espaço protegido que o dispositivo reserva ao app. Recomendamos ativar um código de acesso, o bloqueio biométrico e a criptografia completa do armazenamento (ativada por padrão nos dispositivos iOS e Android atuais)."
+        },
+        {
+          "t": "h2",
+          "v": "10. Alterações nesta política"
+        },
+        {
+          "t": "p",
+          "v": "Podemos atualizar esta política de privacidade de tempos em tempos. As alterações importantes aparecem na data de atualização indicada acima. Continuar usando o App depois de uma alteração significa que você aceita a política atualizada."
+        },
+        {
+          "t": "h2",
+          "v": "11. Contato"
+        },
+        {
+          "t": "p",
+          "v": "Para questões de privacidade: privacy@dozify.app · Para suporte geral: support@dozify.app"
+        }
+      ]
+    },
+    "terms": {
+      "title": "Termos de serviço",
+      "description": "Os termos de uso do app Dozify, incluindo os da assinatura Dozify Premium.",
+      "updated": "Última atualização: 6 de agosto de 2026",
+      "blocks": [
+        {
+          "t": "note",
+          "v": "Aviso médico: o Dozify é uma ferramenta de acompanhamento pessoal. Não é um dispositivo médico e não oferece diagnóstico, recomendação de tratamento nem orientação sobre dose. Tome todas as decisões de saúde junto com seu médico."
+        },
+        {
+          "t": "h2",
+          "v": "1. Partes e escopo"
+        },
+        {
+          "t": "p",
+          "v": "Estes termos regem o seu uso do aplicativo móvel Dozify (o «App»), fornecido por Ümit Can Erim («nós»). Ao instalar ou usar o App, você concorda com estes termos."
+        },
+        {
+          "t": "h2",
+          "v": "2. Requisitos de acesso"
+        },
+        {
+          "t": "p",
+          "v": "Você precisa ter pelo menos 13 anos para usar o Dozify. Se você tem menos de 18 anos, use o App apenas com a participação de um dos pais ou do seu responsável e sob a supervisão do médico que prescreveu seu tratamento."
+        },
+        {
+          "t": "h2",
+          "v": "3. Licença"
+        },
+        {
+          "t": "p",
+          "v": "Concedemos a você uma licença pessoal, não exclusiva, intransferível e revogável para usar o App em dispositivos que você possui ou controla, exclusivamente para uso pessoal e não comercial."
+        },
+        {
+          "t": "h2",
+          "v": "4. Uso aceitável"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Não fazer engenharia reversa, descompilar nem modificar o App.",
+            "Não usar o App para fins ilícitos nem para prestar serviços de saúde a outras pessoas.",
+            "Não tentar contornar as medidas de segurança ou as restrições de acesso."
+          ]
+        },
+        {
+          "t": "h2",
+          "v": "5. Informações de saúde que você informa"
+        },
+        {
+          "t": "p",
+          "v": "Você é responsável pela exatidão das informações de medicamento, dose e saúde que informa. O App não verifica se elas estão clinicamente corretas. Confirme sempre a dose com sua receita e com seu médico."
+        },
+        {
+          "t": "h2",
+          "v": "6. Armazenamento dos dados"
+        },
+        {
+          "t": "p",
+          "v": "Todos os dados que você informa ficam guardados localmente no seu dispositivo. Não coletamos, não transmitimos e não armazenamos seus dados de saúde em nenhum servidor. O App envia, sim, estatísticas de uso anônimas, um identificador de notificações e o status da sua assinatura aos serviços de terceiros indicados na nossa política de privacidade, onde está detalhado o que cada um recebe."
+        },
+        {
+          "t": "h2",
+          "v": "7. Assinaturas e serviços de terceiros"
+        },
+        {
+          "t": "p",
+          "v": "O Dozify oferece uma assinatura opcional de renovação automática («Dozify Premium», nas modalidades mensal ou anual) que libera recursos adicionais como gráficos de tendência detalhados, projeção de peso, relatórios para a consulta médica, gerenciamento de frascos e fotos de progresso. As assinaturas podem incluir um período de teste gratuito, informado no momento da compra. O pagamento é cobrado na sua conta Apple ou Google ao confirmar a compra. As assinaturas se renovam automaticamente pelo mesmo período e pelo preço informado na compra, a menos que a renovação automática seja desativada pelo menos 24 horas antes do fim do período em curso. Você pode gerenciar ou cancelar sua assinatura quando quiser nos ajustes da sua conta Apple ou Google Play; o cancelamento não dá direito a reembolso do período em curso. Todas as compras dentro do app e as assinaturas são processadas pela Apple ou pelo Google e seguem os termos de cada uma."
+        },
+        {
+          "t": "h2",
+          "v": "8. Ausência de garantia"
+        },
+        {
+          "t": "p",
+          "v": "O App é fornecido «no estado em que se encontra» e «conforme disponível», sem garantias de qualquer tipo, expressas ou implícitas, incluindo as de adequação a uma finalidade específica ou de exatidão e confiabilidade das informações médicas ou de saúde."
+        },
+        {
+          "t": "h2",
+          "v": "9. Limitação de responsabilidade"
+        },
+        {
+          "t": "p",
+          "v": "Na máxima extensão permitida por lei, não somos responsáveis por danos indiretos, incidentais, especiais ou consequentes, incluindo perda de dados, doses não aplicadas ou consequências para a saúde decorrentes do seu uso do App."
+        },
+        {
+          "t": "h2",
+          "v": "10. Alterações"
+        },
+        {
+          "t": "p",
+          "v": "Podemos atualizar estes termos de tempos em tempos. As alterações importantes aparecem na data de atualização indicada acima. Continuar usando o App depois de uma alteração significa que você aceita os termos atualizados."
+        },
+        {
+          "t": "h2",
+          "v": "11. Contato"
+        },
+        {
+          "t": "p",
+          "v": "Para qualquer dúvida sobre estes termos, escreva para support@dozify.app."
+        }
+      ]
+    }
   }
 }
