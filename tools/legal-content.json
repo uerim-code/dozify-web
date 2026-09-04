@@ -2150,5 +2150,274 @@
         }
       ]
     }
+  },
+  "da": {
+    "privacy": {
+      "title": "Privatlivspolitik",
+      "description": "Sådan håndterer Dozify dine data: dine helbredsdata bliver på din enhed og sendes ikke til vores servere.",
+      "updated": "Senest opdateret: 13. august 2026 · Gælder fra 13. august 2026",
+      "blocks": [
+        {
+          "t": "h2",
+          "v": "1. Indledning"
+        },
+        {
+          "t": "p",
+          "v": "Dozify («vi») er en app til at holde styr på medicin, lavet til GLP-1-behandlinger med præparater som Ozempic, Mounjaro, Wegovy, Saxenda og lignende. Denne politik forklarer, hvordan vi håndterer oplysninger, når du bruger mobilappen Dozify («Appen»)."
+        },
+        {
+          "t": "p",
+          "v": "Dozify virker først og fremmest offline. De helbredsdata, du taster ind, indsamles ikke, sendes ikke videre og gemmes ikke på vores servere, og vi kan ikke se dem. Alt, hvad du taster ind i Appen, bliver på din enhed. Appen bruger til gengæld et lille antal tredjepartstjenester til anonym statistik, notifikationer og abonnementer; hvad hver af dem får at vide, står i afsnit 5."
+        },
+        {
+          "t": "h2",
+          "v": "2. Data, vi ikke indsamler"
+        },
+        {
+          "t": "p",
+          "v": "Appen indsamler ikke, sender ikke videre og gemmer ikke på nogen ekstern server:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "personoplysninger, der identificerer dig (navn, e-mailadresse, telefonnummer, id-dokument);",
+            "helbredsdata: hvilken medicin du tager, dine injektioner, din vægt, dit blodsukker, dine symptomer, dine noter, dine billeder eller dine mål;",
+            "stedoplysninger;",
+            "annonce-id'er, medmindre du udtrykkeligt tillader sporing i Apples App Tracking Transparency-forespørgsel: se afsnittet om annoncemåling i afsnit 5."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Appen modtager til gengæld de anonyme id'er, der beskrives i afsnit 5 (et id for appinstansen til statistikken og et id til notifikationer). De findes udelukkende, for at den anonyme brugstælling og dine notifikationer kan virke, er ikke knyttet til dit navn eller din e-mailadresse og bruges ikke til at følge dig rundt i andre apps eller på andre websites."
+        },
+        {
+          "t": "note",
+          "v": "Dine helbredsdata bruges aldrig til reklameformål. Intet af det, du registrerer (medicin, doser, injektioner, vægt, blodsukker, bivirkninger, noter, billeder), bruges til annoncemålretning eller deles med noget annoncenetværk, uanset hvad du svarer på forespørgslen om sporing."
+        },
+        {
+          "t": "h2",
+          "v": "3. Data, der gemmes lokalt på din enhed"
+        },
+        {
+          "t": "p",
+          "v": "Appen gemmer følgende oplysninger udelukkende på din enhed, i en lokal SQLite-database og i systemets krypterede lager:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "den medicin, de doser og de injektionsplaner, du taster ind;",
+            "injektionshistorikken og posterne i dagbogen;",
+            "de vægt- og blodsukkermålinger, du registrerer;",
+            "lageret af hætteglas og deres udløbsdatoer;",
+            "dine indstillinger for notifikationer og påmindelser;",
+            "Appens indstillinger (sprog, udseende, enheder)."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Disse data forlader aldrig din enhed, medmindre du selv eksporterer dem (for eksempel ved at lave en PDF-rapport og dele den via e-mail eller en anden app, du vælger). Sletter du Appen, fjernes alle data permanent."
+        },
+        {
+          "t": "h2",
+          "v": "4. Tilladelser, vi beder om"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Notifikationer: for at sende dig injektionspåmindelser og advarsler om hætteglassenes holdbarhed. Du kan altid trække tilladelsen tilbage i enhedens indstillinger.",
+            "Kamera og billedbibliotek (valgfrit): kun hvis du vælger at tilføje et fremgangsbillede; billedet gemmes lokalt på din enhed ligesom resten af dine data.",
+            "Apple Health (valgfrit): kun hvis du slår vægtsynkroniseringen til i indstillingerne. Dozify læser og skriver din vægt, så den passer med dine andre Health-apps.",
+            "Lagring (kun Android): for at gemme de PDF-rapporter, du laver."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Appen beder ikke om adgang til mikrofon, kontakter eller placering. Kamera, billedbibliotek og Apple Health er valgfrie og bliver først efterspurgt, når du bruger den tilhørende funktion."
+        },
+        {
+          "t": "h2",
+          "v": "5. Tredjepartstjenester"
+        },
+        {
+          "t": "p",
+          "v": "Appen bruger Firebase Analytics (Google Analytics for Firebase) til at indsamle anonym brugsstatistik som besøgte skærme, handlinger i appen (for eksempel hvilke funktioner der bruges) og abonnementskonverteringer. Dataene knyttes til et anonymt id for appinstansen, ikke til dit navn, din e-mailadresse eller andre oplysninger, der identificerer dig. Dine helbredsdata (injektionshistorik, vægt, blodsukker, bivirkninger, dagbogsposter) sendes aldrig til Firebase."
+        },
+        {
+          "t": "p",
+          "v": "Appen bruger OneSignal til at sende push-notifikationer (for eksempel påmindelser om dosis og om at bestille mere). OneSignal modtager et notifikations-id fra din enhed, som er nødvendigt for at kunne levere dem, og det sprog, du bruger Appen på, så beskederne kommer på det sprog; den får ikke din medicin, din dosis eller andre helbredsdata at vide."
+        },
+        {
+          "t": "p",
+          "v": "Appen bruger Metas (Facebooks) SDK med ét eneste formål: at måle, om en installation kommer fra en af vores annoncer. På iOS beder Appen først om din tilladelse via Apples App Tracking Transparency. Siger du nej eller svarer slet ikke, indsamles der intet annonce-id (IDFA), og Meta får kun Apples aggregerede SKAdNetwork-signal, som beskytter dit privatliv. Siger du ja, deles enhedens annonce-id med Meta, så installationen kan knyttes til den annonce, du så. Det, der sendes, begrænser sig til signaler om installation og appåbning; dine helbredsdata (medicin, doser, injektioner, vægt, blodsukker, bivirkninger, noter) sendes aldrig til Meta. Du kan altid ændre dit svar under Indstillinger på iPhone → Anonymitet og sikkerhed → Sporing."
+        },
+        {
+          "t": "p",
+          "v": "Appen bruger RevenueCat til at håndtere abonnementer. RevenueCat modtager et anonymt bruger-id og status på dit køb; betalingerne håndteres af Apple eller Google, og vi ser aldrig dine betalingsoplysninger."
+        },
+        {
+          "t": "h2",
+          "v": "6. Børns privatliv"
+        },
+        {
+          "t": "p",
+          "v": "Dozify er ikke til små børn: vores servicevilkår kræver, at du er fyldt 13 år, og Appen beder dig bekræfte din fødselsdato, før du kan bruge den. Vi indsamler ikke bevidst oplysninger om nogen under 13 år. I Danmark kan du selv give samtykke til behandling af helbredsdata fra du er 13 år, men i flere andre lande ligger grænsen højere — 16 år i Tyskland og Holland, 15 i Frankrig. Er du under grænsen dér, hvor du bor, så brug kun Appen med samtykke fra en forælder eller værge. Under alle omstændigheder bliver dine data på din enhed: der sendes ingen personoplysninger til os, og sletter du Appen, forsvinder alt det, der er gemt lokalt."
+        },
+        {
+          "t": "h2",
+          "v": "7. Dine rettigheder"
+        },
+        {
+          "t": "p",
+          "v": "Da vi hverken indsamler eller gemmer dine data på vores servere, udøver du retten til indsigt, sletning og dataportabilitet direkte i Appen:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Indsigt: alle dine data er synlige for dig inde i Appen.",
+            "Dataportabilitet: du kan altid lave PDF-rapporter med dine data.",
+            "Sletning: under Indstillinger → Slet mine data kan du slette dele eller det hele. Afinstallerer du Appen, forsvinder alle lokale data også."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Bor du i EU eller Storbritannien, har du rettighederne efter GDPR, og bor du i Tyrkiet, rettighederne efter den tyrkiske lov KVKK (lov nr. 6698)."
+        },
+        {
+          "t": "h2",
+          "v": "8. Lægelig oplysning"
+        },
+        {
+          "t": "p",
+          "v": "Dozify er ikke medicinsk udstyr og giver hverken lægelig rådgivning, diagnose eller behandling. Oplysningerne i Appen er udelukkende til din egen opfølgning. Rådfør dig altid med din læge eller andet autoriseret sundhedspersonale, før du træffer beslutninger om din behandling."
+        },
+        {
+          "t": "h2",
+          "v": "9. Sikkerhed"
+        },
+        {
+          "t": "p",
+          "v": "De lokale data ligger i det beskyttede område, enheden reserverer til appen. Vi anbefaler, at du slår adgangskode, biometrisk lås og fuld kryptering af lageret til (på nuværende iOS- og Android-enheder er det slået til som standard)."
+        },
+        {
+          "t": "h2",
+          "v": "10. Ændringer i politikken"
+        },
+        {
+          "t": "p",
+          "v": "Vi kan opdatere denne privatlivspolitik fra tid til anden. Vigtige ændringer kan ses på opdateringsdatoen ovenfor. Bruger du Appen videre efter en ændring, accepterer du den opdaterede politik."
+        },
+        {
+          "t": "h2",
+          "v": "11. Kontakt"
+        },
+        {
+          "t": "p",
+          "v": "Om privatliv: privacy@dozify.app · Almindelig support: support@dozify.app"
+        }
+      ]
+    },
+    "terms": {
+      "title": "Servicevilkår",
+      "description": "Vilkårene for at bruge appen Dozify, herunder abonnementet Dozify Premium.",
+      "updated": "Senest opdateret: 6. august 2026",
+      "blocks": [
+        {
+          "t": "note",
+          "v": "Lægelig oplysning: Dozify er et værktøj til din egen opfølgning. Det er ikke medicinsk udstyr og giver hverken diagnose, behandlingsanbefalinger eller råd om dosering. Træf alle beslutninger om dit helbred sammen med din læge."
+        },
+        {
+          "t": "h2",
+          "v": "1. Parter og omfang"
+        },
+        {
+          "t": "p",
+          "v": "Disse vilkår gælder din brug af mobilappen Dozify («Appen»), som stilles til rådighed af Ümit Can Erim («vi»). Ved at installere eller bruge Appen accepterer du vilkårene."
+        },
+        {
+          "t": "h2",
+          "v": "2. Adgangskrav"
+        },
+        {
+          "t": "p",
+          "v": "Du skal være fyldt 13 år for at bruge Dozify. Er du under 18, skal du kun bruge Appen med en forælder eller værge inddraget og under vejledning af den læge, der har ordineret din behandling."
+        },
+        {
+          "t": "h2",
+          "v": "3. Licens"
+        },
+        {
+          "t": "p",
+          "v": "Vi giver dig en personlig, ikke-eksklusiv, ikke-overdragelig og genkaldelig licens til at bruge Appen på enheder, du ejer eller råder over, udelukkende til personligt og ikke-kommercielt brug."
+        },
+        {
+          "t": "h2",
+          "v": "4. Tilladt brug"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Du må ikke reverse engineere, dekompilere eller ændre Appen.",
+            "Du må ikke bruge Appen til ulovlige formål eller til at yde sundhedsydelser til andre.",
+            "Du må ikke forsøge at omgå sikkerhedsforanstaltninger eller adgangsbegrænsninger."
+          ]
+        },
+        {
+          "t": "h2",
+          "v": "5. Helbredsdata, du taster ind"
+        },
+        {
+          "t": "p",
+          "v": "Du har selv ansvaret for, at de oplysninger om medicin, dosis og helbred, du taster ind, er korrekte. Appen kontrollerer ikke, om de er lægefagligt rigtige. Bekræft altid dosis med din recept og med din læge."
+        },
+        {
+          "t": "h2",
+          "v": "6. Opbevaring af data"
+        },
+        {
+          "t": "p",
+          "v": "Alle de data, du taster ind, gemmes lokalt på din enhed. Vi indsamler, sender og gemmer ikke dine helbredsdata på nogen server. Appen sender til gengæld anonym brugsstatistik, et notifikations-id og status på dit abonnement til de tredjepartstjenester, der er nævnt i vores privatlivspolitik, hvor det står, hvad hver af dem får."
+        },
+        {
+          "t": "h2",
+          "v": "7. Abonnementer og tredjepartstjenester"
+        },
+        {
+          "t": "p",
+          "v": "Dozify tilbyder et valgfrit abonnement, der fornyes automatisk («Dozify Premium», månedligt eller årligt), og som låser op for ekstra funktioner: detaljerede tendensdiagrammer, vægtprognose, rapporter til lægebesøg, håndtering af hætteglas og fremgangsbilleder. Abonnementer kan indeholde en gratis prøveperiode, som oplyses ved købet. Betalingen trækkes fra din Apple- eller Google-konto, når du bekræfter købet. Abonnementer fornyes automatisk for den samme periode og til den pris, der blev oplyst ved købet, medmindre den automatiske fornyelse slås fra mindst 24 timer før den igangværende periode udløber. Du kan altid administrere eller opsige dit abonnement i indstillingerne for din Apple- eller Google Play-konto; en opsigelse giver ikke ret til refusion for den igangværende periode. Alle køb i appen og alle abonnementer håndteres af Apple eller Google og er omfattet af deres egne vilkår."
+        },
+        {
+          "t": "h2",
+          "v": "8. Ingen garanti"
+        },
+        {
+          "t": "p",
+          "v": "Appen leveres «som den er» og «som tilgængelig», uden garantier af nogen art, hverken udtrykkelige eller stiltiende, herunder garantier for egnethed til et bestemt formål eller for, at lægelige eller helbredsmæssige oplysninger er korrekte og pålidelige."
+        },
+        {
+          "t": "h2",
+          "v": "9. Ansvarsbegrænsning"
+        },
+        {
+          "t": "p",
+          "v": "I det omfang loven tillader det, er vi ikke ansvarlige for indirekte tab, hændelige tab, særlige tab eller følgetab, herunder tab af data, sprungne doser eller helbredsmæssige følger af din brug af Appen."
+        },
+        {
+          "t": "h2",
+          "v": "10. Ændringer"
+        },
+        {
+          "t": "p",
+          "v": "Vi kan opdatere disse vilkår fra tid til anden. Vigtige ændringer kan ses på opdateringsdatoen ovenfor. Bruger du Appen videre efter en ændring, accepterer du de opdaterede vilkår."
+        },
+        {
+          "t": "h2",
+          "v": "11. Kontakt"
+        },
+        {
+          "t": "p",
+          "v": "Har du spørgsmål til vilkårene, så skriv til support@dozify.app."
+        }
+      ]
+    }
   }
 }
