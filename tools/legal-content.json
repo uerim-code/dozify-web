@@ -2688,5 +2688,274 @@
         }
       ]
     }
+  },
+  "fi": {
+    "privacy": {
+      "title": "Tietosuojaseloste",
+      "description": "Näin Dozify käsittelee tietojasi: terveystietosi pysyvät laitteellasi eivätkä päädy palvelimillemme.",
+      "updated": "Viimeksi päivitetty: 13. elokuuta 2026 · Voimassa 13.8.2026 alkaen",
+      "blocks": [
+        {
+          "t": "h2",
+          "v": "1. Johdanto"
+        },
+        {
+          "t": "p",
+          "v": "Dozify («me») on lääkkeiden seurantasovellus, joka on tehty GLP-1-hoitojen tueksi, kuten Ozempic, Mounjaro, Wegovy, Saxenda ja vastaavat. Tämä seloste kertoo, miten käsittelemme tietoja, kun käytät Dozify-mobiilisovellusta («Sovellus»)."
+        },
+        {
+          "t": "p",
+          "v": "Dozify toimii ensisijaisesti ilman verkkoyhteyttä. Syöttämiäsi terveystietoja ei kerätä, ei lähetetä eikä tallenneta palvelimillemme, emmekä me näe niitä. Kaikki, mitä syötät Sovellukseen, pysyy laitteellasi. Sovellus käyttää kuitenkin muutamaa ulkopuolista palvelua nimettömiin tilastoihin, ilmoituksiin ja tilauksiin; mitä kukin niistä saa, kerrotaan kohdassa 5."
+        },
+        {
+          "t": "h2",
+          "v": "2. Tiedot, joita emme kerää"
+        },
+        {
+          "t": "p",
+          "v": "Sovellus ei kerää, lähetä eikä tallenna millekään ulkopuoliselle palvelimelle:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "sinut tunnistavia henkilötietoja (nimi, sähköpostiosoite, puhelinnumero, henkilöllisyystodistus);",
+            "terveystietoja: mitä lääkettä käytät, pistoksiasi, painoasi, verensokeriasi, oireitasi, muistiinpanojasi, kuviasi tai mittojasi;",
+            "sijaintitietoja;",
+            "mainostunnisteita, ellet nimenomaisesti salli seurantaa Applen App Tracking Transparency -kyselyssä: katso mainosmittausta koskeva kohta osiossa 5."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Sovellus kuitenkin vastaanottaa kohdassa 5 kuvatut nimettömät tunnisteet (sovellusinstanssin tunniste tilastoja varten ja ilmoitustunniste). Ne ovat olemassa vain, jotta nimettömät käyttölaskurit ja ilmoituksesi toimivat, eivät ole yhteydessä nimeesi tai sähköpostiisi eikä niitä käytetä seuraamaan sinua muissa sovelluksissa tai sivustoilla."
+        },
+        {
+          "t": "note",
+          "v": "Terveystietojasi ei koskaan käytetä mainostarkoituksiin. Mitään kirjaamaasi (lääkkeet, annokset, pistokset, paino, verensokeri, haittavaikutukset, muistiinpanot, kuvat) ei käytetä mainonnan kohdentamiseen eikä jaeta millekään mainosverkostolle riippumatta siitä, mitä vastaat seurantakyselyyn."
+        },
+        {
+          "t": "h2",
+          "v": "3. Laitteellesi paikallisesti tallennettavat tiedot"
+        },
+        {
+          "t": "p",
+          "v": "Sovellus tallentaa seuraavat tiedot ainoastaan laitteellesi, paikalliseen SQLite-tietokantaan ja järjestelmän salattuun tallennustilaan:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "syöttämäsi lääkkeet, annokset ja pistosrytmit;",
+            "pistoshistorian ja päiväkirjamerkinnät;",
+            "kirjaamasi paino- ja verensokerimittaukset;",
+            "injektiopullojen varaston ja niiden viimeiset käyttöpäivät;",
+            "ilmoitusasetukset ja muistutukset;",
+            "Sovelluksen asetukset (kieli, ulkoasu, yksiköt)."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Nämä tiedot eivät koskaan poistu laitteeltasi, ellet vie niitä itse (esimerkiksi luomalla PDF-raportin ja jakamalla sen sähköpostilla tai valitsemallasi muulla sovelluksella). Jos poistat Sovelluksen, kaikki tiedot poistuvat pysyvästi."
+        },
+        {
+          "t": "h2",
+          "v": "4. Käyttöoikeudet, joita pyydämme"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Ilmoitukset: pistosmuistutusten ja injektiopullojen kestoaikaa koskevien hälytysten lähettämiseen. Voit perua tämän luvan milloin tahansa laitteesi asetuksista.",
+            "Kamera ja kuvakirjasto (valinnainen): vain jos päätät lisätä edistymiskuvan; kuva tallennetaan paikallisesti laitteellesi kuten muutkin tietosi.",
+            "Apple Terveys (valinnainen): vain jos otat painon synkronoinnin käyttöön asetuksista. Dozify lukee ja kirjoittaa painosi, jotta se vastaa muita Terveys-sovelluksiasi.",
+            "Tallennustila (vain Android): luomiesi PDF-raporttien tallentamiseen."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "Sovellus ei pyydä pääsyä mikrofoniin, yhteystietoihin tai sijaintiin. Kamera, kuvakirjasto ja Apple Terveys ovat valinnaisia, ja niitä pyydetään vasta silloin, kun käytät kyseistä toimintoa."
+        },
+        {
+          "t": "h2",
+          "v": "5. Ulkopuoliset palvelut"
+        },
+        {
+          "t": "p",
+          "v": "Sovellus käyttää Firebase Analyticsia (Google Analytics for Firebase) nimettömien käyttötilastojen keräämiseen, kuten avatut näkymät, sovelluksessa tehdyt toimet (esimerkiksi mitä toimintoja käytetään) ja tilauskonversiot. Tiedot liitetään nimettömään sovellusinstanssin tunnisteeseen, ei nimeesi, sähköpostiisi tai muihin sinut tunnistaviin tietoihin. Terveystietojasi (pistoshistoria, paino, verensokeri, haittavaikutukset, päiväkirjamerkinnät) ei koskaan lähetetä Firebaseen."
+        },
+        {
+          "t": "p",
+          "v": "Sovellus käyttää OneSignalia push-ilmoitusten lähettämiseen (esimerkiksi annos- ja täydennysmuistutukset). OneSignal saa laitteesi ilmoitustunnisteen, joka tarvitaan ilmoitusten toimittamiseen, sekä kielen, jolla käytät Sovellusta, jotta viestit tulevat sillä kielellä; se ei saa lääkettäsi, annostasi tai muita terveystietoja."
+        },
+        {
+          "t": "p",
+          "v": "Sovellus käyttää Metan (Facebookin) SDK:ta yhteen ainoaan tarkoitukseen: mittaamaan, tuleeko asennus jostakin mainoksestamme. iOS:ssä Sovellus kysyy ensin lupaasi Applen App Tracking Transparency -kyselyllä. Jos kieltäydyt tai et vastaa, mainostunnistetta (IDFA) ei kerätä, ja Meta saa vain Applen koostetun SKAdNetwork-signaalin, joka suojaa yksityisyyttä. Jos annat luvan, laitteesi mainostunniste jaetaan Metalle, jotta asennus voidaan yhdistää näkemääsi mainokseen. Lähetettävä tieto rajoittuu asennuksen ja sovelluksen avaamisen signaaleihin; terveystietojasi (lääkkeet, annokset, pistokset, paino, verensokeri, haittavaikutukset, muistiinpanot) ei koskaan lähetetä Metalle. Voit muuttaa vastaustasi milloin tahansa iPhonen kohdasta Asetukset → Tietosuoja ja turvallisuus → Seuranta."
+        },
+        {
+          "t": "p",
+          "v": "Sovellus käyttää RevenueCatia tilausten hallintaan. RevenueCat saa nimettömän käyttäjätunnisteen ja ostosi tilan; maksut käsittelee Apple tai Google, emmekä me koskaan näe maksutietojasi."
+        },
+        {
+          "t": "h2",
+          "v": "6. Lasten yksityisyys"
+        },
+        {
+          "t": "p",
+          "v": "Dozify ei ole pienille lapsille: käyttöehtomme edellyttävät, että olet täyttänyt 13 vuotta, ja Sovellus pyytää sinua vahvistamaan syntymäaikasi ennen käyttöä. Emme kerää tietoisesti tietoja alle 13-vuotiaista. Suomessa voit antaa itse suostumuksen terveystietojen käsittelyyn 13 vuotta täytettyäsi, mutta useissa muissa maissa raja on korkeampi — 16 vuotta Saksassa ja Alankomaissa, 15 Ranskassa. Jos olet asuinmaasi rajan alapuolella, käytä Sovellusta vain huoltajan suostumuksella. Joka tapauksessa tietosi pysyvät laitteellasi: meille ei lähetetä henkilötietoja, ja Sovelluksen poistaminen pyyhkii kaiken paikallisesti tallennetun."
+        },
+        {
+          "t": "h2",
+          "v": "7. Oikeutesi"
+        },
+        {
+          "t": "p",
+          "v": "Koska emme kerää emmekä säilytä tietojasi palvelimillamme, käytät oikeuttasi saada pääsy tietoihin, poistaa ne ja siirtää ne suoraan Sovelluksessa:"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Pääsy: kaikki tietosi ovat nähtävissäsi Sovelluksen sisällä.",
+            "Siirrettävyys: voit luoda tiedoistasi PDF-raportteja milloin tahansa.",
+            "Poistaminen: kohdassa Asetukset → Poista tietoni voit poistaa osan tai kaiken. Sovelluksen poistaminen poistaa myös kaikki paikalliset tiedot."
+          ]
+        },
+        {
+          "t": "p",
+          "v": "EU:ssa ja Isossa-Britanniassa asuvilla on GDPR:n mukaiset oikeudet, ja Turkissa asuvilla Turkin KVKK-lain (laki nro 6698) mukaiset oikeudet."
+        },
+        {
+          "t": "h2",
+          "v": "8. Lääketieteellinen huomautus"
+        },
+        {
+          "t": "p",
+          "v": "Dozify ei ole lääkinnällinen laite eikä anna lääketieteellistä neuvontaa, diagnoosia tai hoitoa. Sovelluksen tiedot on tarkoitettu vain omaan seurantaasi. Keskustele aina lääkärisi tai muun terveydenhuollon ammattilaisen kanssa ennen hoitoasi koskevia päätöksiä."
+        },
+        {
+          "t": "h2",
+          "v": "9. Tietoturva"
+        },
+        {
+          "t": "p",
+          "v": "Paikalliset tiedot ovat suojatussa tilassa, jonka laite varaa sovellukselle. Suosittelemme ottamaan käyttöön pääsykoodin, biometrisen lukituksen ja tallennustilan täyden salauksen (nykyisissä iOS- ja Android-laitteissa se on oletuksena päällä)."
+        },
+        {
+          "t": "h2",
+          "v": "10. Muutokset tähän selosteeseen"
+        },
+        {
+          "t": "p",
+          "v": "Voimme päivittää tätä tietosuojaselostetta aika ajoin. Merkittävät muutokset näkyvät yllä olevassa päivityspäivässä. Sovelluksen käytön jatkaminen muutoksen jälkeen tarkoittaa, että hyväksyt päivitetyn selosteen."
+        },
+        {
+          "t": "h2",
+          "v": "11. Yhteystiedot"
+        },
+        {
+          "t": "p",
+          "v": "Tietosuoja-asiat: privacy@dozify.app · Yleinen tuki: support@dozify.app"
+        }
+      ]
+    },
+    "terms": {
+      "title": "Käyttöehdot",
+      "description": "Dozify-sovelluksen käyttöehdot, mukaan lukien Dozify Premium -tilaus.",
+      "updated": "Viimeksi päivitetty: 6. elokuuta 2026",
+      "blocks": [
+        {
+          "t": "note",
+          "v": "Lääketieteellinen huomautus: Dozify on oman seurannan työkalu. Se ei ole lääkinnällinen laite eikä anna diagnoosia, hoitosuosituksia tai annosteluneuvoja. Tee kaikki terveyttäsi koskevat päätökset yhdessä lääkärisi kanssa."
+        },
+        {
+          "t": "h2",
+          "v": "1. Osapuolet ja soveltamisala"
+        },
+        {
+          "t": "p",
+          "v": "Nämä ehdot koskevat Dozify-mobiilisovelluksen («Sovellus») käyttöä, jonka tarjoaa Ümit Can Erim («me»). Asentamalla tai käyttämällä Sovellusta hyväksyt nämä ehdot."
+        },
+        {
+          "t": "h2",
+          "v": "2. Käytön edellytykset"
+        },
+        {
+          "t": "p",
+          "v": "Sinun on oltava vähintään 13-vuotias käyttääksesi Dozifya. Jos olet alle 18-vuotias, käytä Sovellusta vain huoltajan ollessa mukana ja hoitosi määränneen lääkärin ohjauksessa."
+        },
+        {
+          "t": "h2",
+          "v": "3. Käyttöoikeus"
+        },
+        {
+          "t": "p",
+          "v": "Myönnämme sinulle henkilökohtaisen, ei-yksinomaisen, siirtokelvottoman ja peruutettavissa olevan käyttöoikeuden Sovelluksen käyttöön omistamillasi tai hallitsemillasi laitteilla, ainoastaan henkilökohtaiseen ja ei-kaupalliseen käyttöön."
+        },
+        {
+          "t": "h2",
+          "v": "4. Sallittu käyttö"
+        },
+        {
+          "t": "ul",
+          "v": [
+            "Älä takaisinmallinna, pura tai muuta Sovellusta.",
+            "Älä käytä Sovellusta laittomiin tarkoituksiin tai terveydenhuollon palvelujen tarjoamiseen muille.",
+            "Älä yritä kiertää turvatoimia tai käyttörajoituksia."
+          ]
+        },
+        {
+          "t": "h2",
+          "v": "5. Syöttämäsi terveystiedot"
+        },
+        {
+          "t": "p",
+          "v": "Vastaat itse syöttämiesi lääke-, annos- ja terveystietojen oikeellisuudesta. Sovellus ei tarkista, ovatko ne kliinisesti oikein. Varmista annos aina reseptistäsi ja lääkäriltäsi."
+        },
+        {
+          "t": "h2",
+          "v": "6. Tietojen tallentaminen"
+        },
+        {
+          "t": "p",
+          "v": "Kaikki syöttämäsi tiedot tallennetaan paikallisesti laitteellesi. Emme kerää, lähetä emmekä tallenna terveystietojasi millekään palvelimelle. Sovellus kuitenkin lähettää nimettömiä käyttötilastoja, ilmoitustunnisteen ja tilauksesi tilan tietosuojaselosteessamme mainituille ulkopuolisille palveluille, jossa kerrotaan, mitä kukin niistä saa."
+        },
+        {
+          "t": "h2",
+          "v": "7. Tilaukset ja ulkopuoliset palvelut"
+        },
+        {
+          "t": "p",
+          "v": "Dozify tarjoaa valinnaisen automaattisesti uusiutuvan tilauksen («Dozify Premium», kuukausittain tai vuosittain), joka avaa lisätoimintoja: yksityiskohtaiset kehityskaaviot, painoennusteen, lääkärikäyntien raportit, injektiopullojen hallinnan ja edistymiskuvat. Tilauksiin voi sisältyä maksuton kokeilujakso, joka ilmoitetaan oston yhteydessä. Maksu veloitetaan Apple- tai Google-tililtäsi, kun vahvistat oston. Tilaukset uusiutuvat automaattisesti samalle jaksolle ja oston yhteydessä ilmoitettuun hintaan, ellei automaattista uusiutumista kytketä pois vähintään 24 tuntia ennen käynnissä olevan jakson päättymistä. Voit hallita tai peruuttaa tilauksesi milloin tahansa Apple- tai Google Play -tilisi asetuksista; peruuttaminen ei oikeuta käynnissä olevan jakson hyvitykseen. Kaikki sovelluksen sisäiset ostot ja tilaukset käsittelee Apple tai Google, ja niihin sovelletaan niiden omia ehtoja."
+        },
+        {
+          "t": "h2",
+          "v": "8. Ei takuuta"
+        },
+        {
+          "t": "p",
+          "v": "Sovellus tarjotaan «sellaisena kuin se on» ja «sen mukaan kuin sitä on saatavilla», ilman minkäänlaisia nimenomaisia tai oletettuja takuita, mukaan lukien takuut tiettyyn tarkoitukseen sopivuudesta tai lääketieteellisten tai terveystietojen oikeellisuudesta ja luotettavuudesta."
+        },
+        {
+          "t": "h2",
+          "v": "9. Vastuunrajoitus"
+        },
+        {
+          "t": "p",
+          "v": "Lain sallimissa rajoissa emme vastaa välillisistä, satunnaisista, erityisistä tai seurannaisvahingoista, mukaan lukien tietojen menetys, väliin jääneet annokset tai Sovelluksen käytöstä johtuvat terveydelliset seuraukset."
+        },
+        {
+          "t": "h2",
+          "v": "10. Muutokset"
+        },
+        {
+          "t": "p",
+          "v": "Voimme päivittää näitä ehtoja aika ajoin. Merkittävät muutokset näkyvät yllä olevassa päivityspäivässä. Sovelluksen käytön jatkaminen muutoksen jälkeen tarkoittaa, että hyväksyt päivitetyt ehdot."
+        },
+        {
+          "t": "h2",
+          "v": "11. Yhteystiedot"
+        },
+        {
+          "t": "p",
+          "v": "Jos sinulla on kysyttävää näistä ehdoista, kirjoita osoitteeseen support@dozify.app."
+        }
+      ]
+    }
   }
 }
