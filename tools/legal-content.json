@@ -3,7 +3,7 @@
     "privacy": {
       "title": "Datenschutzerklärung",
       "description": "Wie Dozify mit deinen Daten umgeht: Gesundheitsdaten bleiben auf deinem Gerät und werden nicht an unsere Server gesendet.",
-      "updated": "Zuletzt aktualisiert: 11. September 2026 · Gültig ab: 11. September 2026",
+      "updated": "Zuletzt aktualisiert: 30. September 2026 · Gültig ab: 30. September 2026",
       "blocks": [
         {
           "t": "h2",
@@ -101,6 +101,10 @@
         {
           "t": "p",
           "v": "Die App nutzt RevenueCat zur Verwaltung von Abonnements. RevenueCat erhält eine anonyme Nutzerkennung und den Status deines Kaufs; Zahlungen selbst werden von Apple beziehungsweise Google abgewickelt, und wir sehen deine Zahlungsdaten nie."
+        },
+        {
+          "t": "p",
+          "v": "KI-Analyse von Essensfotos (optional, Premium): Wenn du die Foto-Funktion nutzt, wird das gewählte Foto über eine verschlüsselte Verbindung über unseren Server an Google Gemini (Google LLC) gesendet, um Kalorien und Protein zu schätzen; die Schätzung kommt auf dein Gerät zurück. Das Foto wird nur für diese Analyse verwendet — Dozify speichert es nicht, und es wird nie für Werbung genutzt. Außer einer anonymen Abo-Prüfung wird keine Kennung mitgesendet. Nutzt du die Funktion nie, verlässt kein Foto dein Gerät. Die erste Nutzung erfordert deine ausdrückliche Bestätigung."
         },
         {
           "t": "p",
@@ -276,7 +280,7 @@
     "privacy": {
       "title": "Politique de confidentialité",
       "description": "Comment Dozify traite tes données : tes données de santé restent sur ton appareil et ne sont pas envoyées à nos serveurs.",
-      "updated": "Dernière mise à jour : 11 septembre 2026 · En vigueur depuis le 11 septembre 2026",
+      "updated": "Dernière mise à jour : 30 septembre 2026 · En vigueur depuis le 30 septembre 2026",
       "blocks": [
         {
           "t": "h2",
@@ -374,6 +378,10 @@
         {
           "t": "p",
           "v": "L'App utilise RevenueCat pour gérer les abonnements. RevenueCat reçoit un identifiant utilisateur anonyme et l'état de ton achat ; les paiements eux-mêmes sont traités par Apple ou Google, et nous ne voyons jamais tes informations de paiement."
+        },
+        {
+          "t": "p",
+          "v": "Analyse IA des photos de repas (optionnelle, Premium) : si vous utilisez la fonction photo de repas, la photo choisie est envoyée, chiffrée et via notre serveur, à Google Gemini (Google LLC) pour estimer calories et protéines ; l'estimation revient sur votre appareil. La photo ne sert qu'à cette analyse — Dozify ne la conserve pas et elle n'est jamais utilisée à des fins publicitaires. Aucun identifiant n'accompagne la photo, hormis une vérification anonyme de l'abonnement. Si vous n'utilisez jamais la fonction, aucune photo ne quitte votre appareil. La première utilisation demande votre confirmation explicite."
         },
         {
           "t": "p",
@@ -549,7 +557,7 @@
     "privacy": {
       "title": "Política de privacidad",
       "description": "Cómo trata Dozify tus datos: tus datos de salud se quedan en tu dispositivo y no se envían a nuestros servidores.",
-      "updated": "Última actualización: 11 de septiembre de 2026 · En vigor desde el 11 de septiembre de 2026",
+      "updated": "Última actualización: 30 de septiembre de 2026 · En vigor desde el 30 de septiembre de 2026",
       "blocks": [
         {
           "t": "h2",
@@ -647,6 +655,10 @@
         {
           "t": "p",
           "v": "La App usa RevenueCat para gestionar las suscripciones. RevenueCat recibe un identificador de usuario anónimo y el estado de tu compra; los pagos los procesan Apple o Google, y nosotros nunca vemos tus datos de pago."
+        },
+        {
+          "t": "p",
+          "v": "Análisis de fotos de comida con IA (opcional, Premium): si usas la función de foto de comida, la foto que elijas se envía cifrada, a través de nuestro servidor, a Google Gemini (Google LLC) para estimar calorías y proteínas; la estimación vuelve a tu dispositivo. La foto se usa solo para este análisis: Dozify no la guarda y nunca se usa para publicidad. Con la foto no viaja ningún identificador más allá de una comprobación anónima de la suscripción. Si nunca usas la función, ninguna foto sale de tu dispositivo. El primer uso pide tu confirmación explícita."
         },
         {
           "t": "p",
@@ -822,7 +834,7 @@
     "privacy": {
       "title": "Informativa sulla privacy",
       "description": "Come Dozify tratta i tuoi dati: i dati sanitari restano sul tuo dispositivo e non vengono inviati ai nostri server.",
-      "updated": "Ultimo aggiornamento: 11 settembre 2026 · In vigore dall'11 settembre 2026",
+      "updated": "Ultimo aggiornamento: 30 settembre 2026 · In vigore dall'30 settembre 2026",
       "blocks": [
         {
           "t": "h2",
@@ -920,6 +932,10 @@
         {
           "t": "p",
           "v": "L'App usa RevenueCat per gestire gli abbonamenti. RevenueCat riceve un identificativo utente anonimo e lo stato del tuo acquisto; i pagamenti sono gestiti da Apple o da Google, e noi non vediamo mai i tuoi dati di pagamento."
+        },
+        {
+          "t": "p",
+          "v": "Analisi IA delle foto dei pasti (facoltativa, Premium): se usi la funzione foto del pasto, la foto scelta viene inviata, cifrata e tramite il nostro server, a Google Gemini (Google LLC) per stimare calorie e proteine; la stima torna sul tuo dispositivo. La foto serve solo a questa analisi — Dozify non la conserva e non è mai usata per pubblicità. Con la foto non viaggia alcun identificativo oltre a una verifica anonima dell'abbonamento. Se non usi mai la funzione, nessuna foto lascia il tuo dispositivo. Il primo utilizzo richiede la tua conferma esplicita."
         },
         {
           "t": "p",
@@ -1095,7 +1111,7 @@
     "privacy": {
       "title": "Política de privacidade",
       "description": "Como o Dozify trata seus dados: seus dados de saúde ficam no seu dispositivo e não são enviados aos nossos servidores.",
-      "updated": "Última atualização: 11 de setembro de 2026 · Em vigor desde 11 de setembro de 2026",
+      "updated": "Última atualização: 30 de setembro de 2026 · Em vigor desde 30 de setembro de 2026",
       "blocks": [
         {
           "t": "h2",
@@ -1193,6 +1209,10 @@
         {
           "t": "p",
           "v": "O App usa o RevenueCat para gerenciar as assinaturas. O RevenueCat recebe um identificador de usuário anônimo e o status da sua compra; os pagamentos são processados pela Apple ou pelo Google, e nós nunca vemos seus dados de pagamento."
+        },
+        {
+          "t": "p",
+          "v": "Análise de fotos de refeições com IA (opcional, Premium): se você usar o recurso de foto da refeição, a foto escolhida é enviada, criptografada e pelo nosso servidor, ao Google Gemini (Google LLC) para estimar calorias e proteínas; a estimativa volta ao seu aparelho. A foto é usada só para essa análise — o Dozify não a guarda e ela nunca é usada para publicidade. Nenhum identificador acompanha a foto além de uma verificação anônima da assinatura. Se você nunca usar o recurso, nenhuma foto sai do seu aparelho. O primeiro uso pede sua confirmação explícita."
         },
         {
           "t": "p",
@@ -1368,7 +1388,7 @@
     "privacy": {
       "title": "Privacybeleid",
       "description": "Hoe Dozify met je gegevens omgaat: je gezondheidsgegevens blijven op je toestel en gaan niet naar onze servers.",
-      "updated": "Laatst bijgewerkt: 11 september 2026 · Van kracht sinds 11 september 2026",
+      "updated": "Laatst bijgewerkt: 30 september 2026 · Van kracht sinds 30 september 2026",
       "blocks": [
         {
           "t": "h2",
@@ -1466,6 +1486,10 @@
         {
           "t": "p",
           "v": "De App gebruikt RevenueCat om abonnementen te beheren. RevenueCat ontvangt een anonieme gebruikersidentificator en de status van je aankoop; de betalingen worden door Apple of Google verwerkt, en wij zien je betaalgegevens nooit."
+        },
+        {
+          "t": "p",
+          "v": "AI-analyse van maaltijdfoto's (optioneel, Premium): als je de maaltijdfoto-functie gebruikt, wordt de gekozen foto versleuteld via onze server naar Google Gemini (Google LLC) gestuurd om calorieën en eiwit te schatten; de schatting komt terug op je toestel. De foto wordt alleen voor deze analyse gebruikt — Dozify bewaart hem niet en hij wordt nooit voor reclame gebruikt. Behalve een anonieme abonnementscontrole reist er geen enkele identifier mee. Gebruik je de functie nooit, dan verlaat geen foto je toestel. Het eerste gebruik vraagt je uitdrukkelijke bevestiging."
         },
         {
           "t": "p",
@@ -1641,7 +1665,7 @@
     "privacy": {
       "title": "Polityka prywatności",
       "description": "Jak Dozify postępuje z twoimi danymi: dane zdrowotne zostają na twoim urządzeniu i nie trafiają na nasze serwery.",
-      "updated": "Ostatnia aktualizacja: 11 września 2026 · Obowiązuje od 11 września 2026",
+      "updated": "Ostatnia aktualizacja: 30 września 2026 · Obowiązuje od 30 września 2026",
       "blocks": [
         {
           "t": "h2",
@@ -1739,6 +1763,10 @@
         {
           "t": "p",
           "v": "Aplikacja korzysta z RevenueCat do obsługi subskrypcji. RevenueCat otrzymuje anonimowy identyfikator użytkownika i status twojego zakupu; płatności obsługują Apple albo Google, a my nigdy nie widzimy twoich danych płatniczych."
+        },
+        {
+          "t": "p",
+          "v": "Analiza zdjęć posiłków przez AI (opcjonalna, Premium): jeśli używasz funkcji zdjęcia posiłku, wybrane zdjęcie jest wysyłane w zaszyfrowanym połączeniu, przez nasz serwer, do Google Gemini (Google LLC) w celu oszacowania kalorii i białka; szacunek wraca na Twoje urządzenie. Zdjęcie służy wyłącznie tej analizie — Dozify go nie przechowuje i nigdy nie jest używane do reklam. Ze zdjęciem nie podróżuje żaden identyfikator poza anonimową weryfikacją subskrypcji. Jeśli nigdy nie użyjesz tej funkcji, żadne zdjęcie nie opuści Twojego urządzenia. Pierwsze użycie wymaga Twojego wyraźnego potwierdzenia."
         },
         {
           "t": "p",
@@ -1914,7 +1942,7 @@
     "privacy": {
       "title": "Integritetspolicy",
       "description": "Så hanterar Dozify dina uppgifter: dina hälsouppgifter stannar på din enhet och skickas inte till våra servrar.",
-      "updated": "Senast uppdaterad: 11 september 2026 · Gäller från 11 september 2026",
+      "updated": "Senast uppdaterad: 30 september 2026 · Gäller från 30 september 2026",
       "blocks": [
         {
           "t": "h2",
@@ -2012,6 +2040,10 @@
         {
           "t": "p",
           "v": "Appen använder RevenueCat för att hantera prenumerationer. RevenueCat tar emot en anonym användaridentifierare och status för ditt köp; betalningarna hanteras av Apple eller Google, och vi ser aldrig dina betaluppgifter."
+        },
+        {
+          "t": "p",
+          "v": "AI-analys av måltidsfoton (valfritt, Premium): om du använder måltidsfotofunktionen skickas det valda fotot krypterat, via vår server, till Google Gemini (Google LLC) för att uppskatta kalorier och protein; uppskattningen kommer tillbaka till din enhet. Fotot används bara för denna analys — Dozify sparar det inte och det används aldrig för reklam. Ingen identifierare följer med fotot utöver en anonym prenumerationskontroll. Använder du aldrig funktionen lämnar inget foto din enhet. Första användningen kräver din uttryckliga bekräftelse."
         },
         {
           "t": "p",
@@ -2187,7 +2219,7 @@
     "privacy": {
       "title": "Privatlivspolitik",
       "description": "Sådan håndterer Dozify dine data: dine helbredsdata bliver på din enhed og sendes ikke til vores servere.",
-      "updated": "Senest opdateret: 11. september 2026 · Gælder fra 11. september 2026",
+      "updated": "Senest opdateret: 30. september 2026 · Gælder fra 30. september 2026",
       "blocks": [
         {
           "t": "h2",
@@ -2285,6 +2317,10 @@
         {
           "t": "p",
           "v": "Appen bruger RevenueCat til at håndtere abonnementer. RevenueCat modtager et anonymt bruger-id og status på dit køb; betalingerne håndteres af Apple eller Google, og vi ser aldrig dine betalingsoplysninger."
+        },
+        {
+          "t": "p",
+          "v": "AI-analyse af måltidsfotos (valgfrit, Premium): hvis du bruger måltidsfoto-funktionen, sendes det valgte foto krypteret, via vores server, til Google Gemini (Google LLC) for at estimere kalorier og protein; estimatet kommer tilbage til din enhed. Fotoet bruges kun til denne analyse — Dozify gemmer det ikke, og det bruges aldrig til reklame. Ingen identifikator følger med fotoet ud over et anonymt abonnementstjek. Bruger du aldrig funktionen, forlader intet foto din enhed. Første brug kræver din udtrykkelige bekræftelse."
         },
         {
           "t": "p",
@@ -2460,7 +2496,7 @@
     "privacy": {
       "title": "Personvernerklæring",
       "description": "Slik håndterer Dozify dataene dine: helsedataene dine blir på enheten din og sendes ikke til serverne våre.",
-      "updated": "Sist oppdatert: 11. september 2026 · Gjelder fra 11. september 2026",
+      "updated": "Sist oppdatert: 30. september 2026 · Gjelder fra 30. september 2026",
       "blocks": [
         {
           "t": "h2",
@@ -2558,6 +2594,10 @@
         {
           "t": "p",
           "v": "Appen bruker RevenueCat til å håndtere abonnementer. RevenueCat mottar en anonym bruker-ID og status på kjøpet ditt; betalingene håndteres av Apple eller Google, og vi ser aldri betalingsopplysningene dine."
+        },
+        {
+          "t": "p",
+          "v": "KI-analyse av måltidsbilder (valgfritt, Premium): hvis du bruker måltidsbilde-funksjonen, sendes bildet du velger kryptert, via serveren vår, til Google Gemini (Google LLC) for å anslå kalorier og protein; anslaget kommer tilbake til enheten din. Bildet brukes bare til denne analysen — Dozify lagrer det ikke, og det brukes aldri til reklame. Ingen identifikator følger med bildet utover en anonym abonnementssjekk. Bruker du aldri funksjonen, forlater ingen bilder enheten din. Første gangs bruk krever din uttrykkelige bekreftelse."
         },
         {
           "t": "p",
@@ -2733,7 +2773,7 @@
     "privacy": {
       "title": "Tietosuojaseloste",
       "description": "Näin Dozify käsittelee tietojasi: terveystietosi pysyvät laitteellasi eivätkä päädy palvelimillemme.",
-      "updated": "Viimeksi päivitetty: 11. syyskuuta 2026 · Voimassa 11.9.2026 alkaen",
+      "updated": "Viimeksi päivitetty: 30. syyskuuta 2026 · Voimassa 30.9.2026 alkaen",
       "blocks": [
         {
           "t": "h2",
@@ -2831,6 +2871,10 @@
         {
           "t": "p",
           "v": "Sovellus käyttää RevenueCatia tilausten hallintaan. RevenueCat saa nimettömän käyttäjätunnisteen ja ostosi tilan; maksut käsittelee Apple tai Google, emmekä me koskaan näe maksutietojasi."
+        },
+        {
+          "t": "p",
+          "v": "Ateriakuvien tekoälyanalyysi (valinnainen, Premium): jos käytät ateriakuvatoimintoa, valitsemasi kuva lähetetään salattuna palvelimemme kautta Google Geminille (Google LLC) kalorien ja proteiinin arviointia varten; arvio palaa laitteellesi. Kuvaa käytetään vain tähän analyysiin — Dozify ei tallenna sitä, eikä sitä koskaan käytetä mainontaan. Kuvan mukana ei kulje mitään tunnistetta anonyymiä tilaustarkistusta lukuun ottamatta. Jos et koskaan käytä toimintoa, yksikään kuva ei poistu laitteeltasi. Ensimmäinen käyttö vaatii nimenomaisen vahvistuksesi."
         },
         {
           "t": "p",
@@ -3006,7 +3050,7 @@
     "privacy": {
       "title": "Πολιτική απορρήτου",
       "description": "Πώς χειρίζεται το Dozify τα δεδομένα σου: τα δεδομένα υγείας σου μένουν στη συσκευή σου και δεν φτάνουν στους διακομιστές μας.",
-      "updated": "Τελευταία ενημέρωση: 11 Σεπτεμβρίου 2026 · Σε ισχύ από 11 Σεπτεμβρίου 2026",
+      "updated": "Τελευταία ενημέρωση: 30 Σεπτεμβρίου 2026 · Σε ισχύ από 30 Σεπτεμβρίου 2026",
       "blocks": [
         {
           "t": "h2",
@@ -3104,6 +3148,10 @@
         {
           "t": "p",
           "v": "Η Εφαρμογή χρησιμοποιεί το RevenueCat για τη διαχείριση των συνδρομών. Το RevenueCat λαμβάνει ένα ανώνυμο αναγνωριστικό χρήστη και την κατάσταση της αγοράς σου· οι πληρωμές διεκπεραιώνονται από την Apple ή την Google, και εμείς δεν βλέπουμε ποτέ τα στοιχεία πληρωμής σου."
+        },
+        {
+          "t": "p",
+          "v": "Ανάλυση φωτογραφιών γευμάτων με AI (προαιρετική, Premium): αν χρησιμοποιήσεις τη λειτουργία φωτογραφίας γεύματος, η φωτογραφία που επιλέγεις αποστέλλεται κρυπτογραφημένα, μέσω του διακομιστή μας, στο Google Gemini (Google LLC) για εκτίμηση θερμίδων και πρωτεΐνης· η εκτίμηση επιστρέφει στη συσκευή σου. Η φωτογραφία χρησιμοποιείται μόνο για αυτήν την ανάλυση — το Dozify δεν την αποθηκεύει και δεν χρησιμοποιείται ποτέ για διαφήμιση. Με τη φωτογραφία δεν ταξιδεύει κανένα αναγνωριστικό πέρα από έναν ανώνυμο έλεγχο συνδρομής. Αν δεν χρησιμοποιήσεις ποτέ τη λειτουργία, καμία φωτογραφία δεν φεύγει από τη συσκευή σου. Η πρώτη χρήση ζητά τη ρητή επιβεβαίωσή σου."
         },
         {
           "t": "p",
@@ -3279,7 +3327,7 @@
     "privacy": {
       "title": "Политика конфиденциальности",
       "description": "Как Dozify обращается с твоими данными: данные о здоровье остаются на твоём устройстве и не попадают на наши серверы.",
-      "updated": "Последнее обновление: 11 сентября 2026 г. · Действует с 11 сентября 2026 г.",
+      "updated": "Последнее обновление: 30 сентября 2026 г. · Действует с 30 сентября 2026 г.",
       "blocks": [
         {
           "t": "h2",
@@ -3377,6 +3425,10 @@
         {
           "t": "p",
           "v": "Приложение использует RevenueCat для управления подписками. RevenueCat получает анонимный идентификатор пользователя и статус твоей покупки; платежи обрабатывают Apple или Google, и мы никогда не видим твои платёжные данные."
+        },
+        {
+          "t": "p",
+          "v": "ИИ-анализ фотографий еды (по желанию, Premium): если вы используете функцию фото приёма пищи, выбранное фото по зашифрованному соединению через наш сервер отправляется в Google Gemini (Google LLC) для оценки калорий и белка; оценка возвращается на ваше устройство. Фото используется только для этого анализа — Dozify его не хранит, и оно никогда не используется для рекламы. Вместе с фото не передаётся никаких идентификаторов, кроме анонимной проверки подписки. Если вы не пользуетесь функцией, ни одно фото не покидает устройство. Первое использование требует вашего явного подтверждения."
         },
         {
           "t": "p",
@@ -3552,7 +3604,7 @@
     "privacy": {
       "title": "Політика приватності",
       "description": "Як Dozify поводиться з твоїми даними: дані про здоров'я лишаються на твоєму пристрої й не потрапляють на наші сервери.",
-      "updated": "Останнє оновлення: 11 вересня 2026 р. · Чинна з 11 вересня 2026 р.",
+      "updated": "Останнє оновлення: 30 вересня 2026 р. · Чинна з 30 вересня 2026 р.",
       "blocks": [
         {
           "t": "h2",
@@ -3650,6 +3702,10 @@
         {
           "t": "p",
           "v": "Застосунок використовує RevenueCat для керування підписками. RevenueCat отримує анонімний ідентифікатор користувача й статус твоєї покупки; платежі обробляють Apple або Google, і ми ніколи не бачимо твоїх платіжних даних."
+        },
+        {
+          "t": "p",
+          "v": "ШІ-аналіз фотографій їжі (за бажанням, Premium): якщо ви користуєтеся функцією фото страви, обране фото зашифрованим з'єднанням через наш сервер надсилається до Google Gemini (Google LLC) для оцінки калорій і білка; оцінка повертається на ваш пристрій. Фото використовується лише для цього аналізу — Dozify його не зберігає, і воно ніколи не використовується для реклами. Разом із фото не передається жодних ідентифікаторів, крім анонімної перевірки підписки. Якщо ви ніколи не користуєтеся функцією, жодне фото не залишає пристрій. Перше використання потребує вашого явного підтвердження."
         },
         {
           "t": "p",
@@ -3825,7 +3881,7 @@
     "privacy": {
       "title": "Zásady ochrany soukromí",
       "description": "Jak Dozify nakládá s tvými daty: zdravotní údaje zůstávají ve tvém zařízení a neposílají se na naše servery.",
-      "updated": "Poslední aktualizace: 11. září 2026 · Účinnost: 11. září 2026",
+      "updated": "Poslední aktualizace: 30. září 2026 · Účinnost: 30. září 2026",
       "blocks": [
         {
           "t": "h2",
@@ -3923,6 +3979,10 @@
         {
           "t": "p",
           "v": "Aplikace používá ke správě předplatného RevenueCat. RevenueCat dostává anonymní ID uživatele a stav tvého nákupu; platby zpracovává Apple nebo Google a my tvoje platební údaje nikdy nevidíme."
+        },
+        {
+          "t": "p",
+          "v": "AI analýza fotek jídla (volitelná, Premium): pokud použiješ funkci fotky jídla, vybraná fotka se šifrovaně, přes náš server, odešle do Google Gemini (Google LLC) k odhadu kalorií a bílkovin; odhad se vrátí do tvého zařízení. Fotka slouží jen této analýze — Dozify ji neukládá a nikdy se nepoužívá k reklamě. S fotkou necestuje žádný identifikátor kromě anonymního ověření předplatného. Pokud funkci nikdy nepoužiješ, žádná fotka tvé zařízení neopustí. První použití vyžaduje tvé výslovné potvrzení."
         },
         {
           "t": "p",
@@ -4098,7 +4158,7 @@
     "privacy": {
       "title": "プライバシーポリシー",
       "description": "Dozify がデータをどう扱うか：健康に関するデータは端末の中に残り、当方のサーバーには送られません。",
-      "updated": "最終更新日：2026年9月11日 ・ 施行日：2026年9月11日",
+      "updated": "最終更新日：2026年9月30日 ・ 施行日：2026年9月30日",
       "blocks": [
         {
           "t": "h2",
@@ -4196,6 +4256,10 @@
         {
           "t": "p",
           "v": "本アプリは、購読の管理に RevenueCat を利用しています。RevenueCat が受け取るのは匿名のユーザー ID と購入の状態だけです。決済は Apple または Google が処理し、当方がお支払い情報を見ることはありません。"
+        },
+        {
+          "t": "p",
+          "v": "AIによる食事写真の分析(任意・Premium): 食事写真機能を使うと、選んだ写真は暗号化された接続で当社サーバーを経由し、カロリーとタンパク質の推定のために Google Gemini(Google LLC)へ送信され、推定結果が端末に返されます。写真はこの分析のみに使用されます。Dozifyは写真を保存せず、広告に使われることもありません。写真とともに送られるのは匿名のサブスクリプション確認のみで、識別子は付きません。この機能を使わない限り、写真が端末の外に出ることはありません。初回利用時に明示的な確認を求めます。"
         },
         {
           "t": "p",
@@ -4371,7 +4435,7 @@
     "privacy": {
       "title": "개인정보 처리방침",
       "description": "Dozify가 데이터를 다루는 방식: 건강 데이터는 기기 안에 남고 저희 서버로 보내지 않아요.",
-      "updated": "최종 업데이트: 2026년 9월 11일 · 시행: 2026년 9월 11일",
+      "updated": "최종 업데이트: 2026년 9월 30일 · 시행: 2026년 9월 30일",
       "blocks": [
         {
           "t": "h2",
@@ -4469,6 +4533,10 @@
         {
           "t": "p",
           "v": "앱은 구독 관리를 위해 RevenueCat을 씁니다. RevenueCat은 익명 사용자 ID와 구매 상태만 받아요. 결제는 Apple 또는 Google이 처리하며, 저희가 결제 정보를 보는 일은 없어요."
+        },
+        {
+          "t": "p",
+          "v": "AI 식사 사진 분석(선택 사항, Premium): 식사 사진 기능을 사용하면 선택한 사진이 암호화된 연결로 당사 서버를 거쳐 칼로리와 단백질 추정을 위해 Google Gemini(Google LLC)로 전송되고, 추정치가 기기로 돌아옵니다. 사진은 이 분석에만 사용됩니다 — Dozify는 사진을 저장하지 않으며 광고에 사용되지 않습니다. 사진과 함께 전송되는 것은 익명 구독 확인뿐이며 다른 식별자는 없습니다. 이 기능을 사용하지 않으면 어떤 사진도 기기를 떠나지 않습니다. 첫 사용 시 명시적인 확인을 요청합니다."
         },
         {
           "t": "p",
@@ -4644,7 +4712,7 @@
     "privacy": {
       "title": "隐私政策",
       "description": "Dozify 如何处理你的数据：健康数据留在你的设备上，不会发送到我们的服务器。",
-      "updated": "最后更新：2026 年 9 月 11 日 · 生效：2026 年 9 月 11 日",
+      "updated": "最后更新：2026 年 9 月 30 日 · 生效：2026 年 9 月 30 日",
       "blocks": [
         {
           "t": "h2",
@@ -4742,6 +4810,10 @@
         {
           "t": "p",
           "v": "本应用使用 RevenueCat 管理订阅。RevenueCat 只会收到一个匿名的用户标识和你的购买状态；付款由 Apple 或 Google 处理，我们从不接触你的付款信息。"
+        },
+        {
+          "t": "p",
+          "v": "AI 餐食照片分析(可选,Premium):如果你使用餐食照片功能,所选照片会通过加密连接、经由我们的服务器发送给 Google Gemini(Google LLC)以估算卡路里和蛋白质;估算结果返回到你的设备。照片仅用于此次分析——Dozify 不会存储照片,也绝不会将其用于广告。除匿名的订阅校验外,照片不携带任何标识符。如果你从不使用该功能,任何照片都不会离开你的设备。首次使用会请求你的明确确认。"
         },
         {
           "t": "p",
@@ -4917,7 +4989,7 @@
     "privacy": {
       "title": "سياسة الخصوصية",
       "description": "كيف يتعامل Dozify مع بياناتك: البيانات الصحية تبقى على جهازك ولا تُرسل إلى خوادمنا.",
-      "updated": "آخر تحديث: 11 سبتمبر 2026 · سريان: 11 سبتمبر 2026",
+      "updated": "آخر تحديث: 30 سبتمبر 2026 · سريان: 30 سبتمبر 2026",
       "blocks": [
         {
           "t": "h2",
@@ -5015,6 +5087,10 @@
         {
           "t": "p",
           "v": "يستخدم التطبيق RevenueCat لإدارة الاشتراكات. ويتلقّى RevenueCat معرّف مستخدم مجهولًا وحالة شرائك فقط؛ أما المدفوعات فتعالجها Apple أو Google، ولا نطّلع نحن على بيانات دفعك إطلاقًا."
+        },
+        {
+          "t": "p",
+          "v": "تحليل صور الوجبات بالذكاء الاصطناعي (اختياري، Premium): إذا استخدمت ميزة صورة الوجبة، تُرسل الصورة التي تختارها عبر اتصال مشفّر ومن خلال خادمنا إلى Google Gemini (Google LLC) لتقدير السعرات والبروتين، ثم يعود التقدير إلى جهازك. تُستخدم الصورة لهذا التحليل فقط — لا يخزنها Dozify ولا تُستخدم أبدًا للإعلانات. لا يرافق الصورة أي معرّف سوى تحقق مجهول من الاشتراك. إذا لم تستخدم الميزة أبدًا، فلن تغادر أي صورة جهازك. يتطلب أول استخدام تأكيدك الصريح."
         },
         {
           "t": "p",
@@ -5190,7 +5266,7 @@
     "privacy": {
       "title": "गोपनीयता नीति",
       "description": "Dozify आपके डेटा को कैसे संभालता है: स्वास्थ्य डेटा आपके डिवाइस पर रहता है और हमारे सर्वर पर नहीं भेजा जाता।",
-      "updated": "आख़िरी अपडेट: 11 सितंबर 2026 · प्रभावी: 11 सितंबर 2026",
+      "updated": "आख़िरी अपडेट: 30 सितंबर 2026 · प्रभावी: 30 सितंबर 2026",
       "blocks": [
         {
           "t": "h2",
@@ -5288,6 +5364,10 @@
         {
           "t": "p",
           "v": "Dozify Premium एक वैकल्पिक, अपने आप नवीनीकृत होने वाली सदस्यता है, जिसे Apple App Store या Google Play प्रोसेस करते हैं। ये लेन-देन Apple और Google की अपनी-अपनी गोपनीयता नीतियों के अधीन हैं; हमें (हमारी सदस्यता-प्रबंधन सेवा RevenueCat के ज़रिए) सिर्फ़ आपकी ख़रीद और सदस्यता की स्थिति (प्रीमियम चालू है या नहीं) मिलती है, जो एक गुमनाम ऐप उपयोगकर्ता ID से जुड़ी होती है, आपके नाम या भुगतान विवरण से नहीं। Dozify कभी भी भुगतान कार्ड की कोई जानकारी नहीं संभालता।"
+        },
+        {
+          "t": "p",
+          "v": "AI से भोजन की फ़ोटो का विश्लेषण (वैकल्पिक, Premium): यदि आप भोजन-फ़ोटो सुविधा का उपयोग करते हैं, तो चुनी गई फ़ोटो एन्क्रिप्टेड कनेक्शन से, हमारे सर्वर के माध्यम से, कैलोरी और प्रोटीन के अनुमान के लिए Google Gemini (Google LLC) को भेजी जाती है; अनुमान आपके डिवाइस पर लौटता है। फ़ोटो केवल इसी विश्लेषण के लिए उपयोग होती है — Dozify उसे संग्रहीत नहीं करता और वह कभी विज्ञापन के लिए उपयोग नहीं होती। फ़ोटो के साथ गुमनाम सदस्यता जाँच के अलावा कोई पहचानकर्ता नहीं जाता। यदि आप यह सुविधा कभी उपयोग नहीं करते, तो कोई फ़ोटो आपके डिवाइस से बाहर नहीं जाती। पहले उपयोग पर आपकी स्पष्ट पुष्टि माँगी जाती है।"
         },
         {
           "t": "p",
