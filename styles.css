@@ -841,3 +841,17 @@ html[lang="tr"] [data-lang="en"] {
   }
   .feature:hover, .article-card:hover, .store-card:hover { transform: none; }
 }
+
+/* "New in 1.2.0" badge on feature cards */
+.badge-new {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+  color: #0F766E;
+  background: #CCFBF1;
+}
