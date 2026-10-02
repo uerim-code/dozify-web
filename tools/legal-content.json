@@ -3,7 +3,7 @@
     "privacy": {
       "title": "Datenschutzerklärung",
       "description": "Wie Dozify mit deinen Daten umgeht: Gesundheitsdaten bleiben auf deinem Gerät und werden nicht an unsere Server gesendet.",
-      "updated": "Zuletzt aktualisiert: 2. Oktober 2026 · Gültig ab: 2. Oktober 2026",
+      "updated": "Zuletzt aktualisiert: 30. September 2026 · Gültig ab: 30. September 2026",
       "blocks": [
         {
           "t": "h2",
@@ -31,7 +31,7 @@
             "Persönliche Kennungen (Name, E-Mail-Adresse, Telefonnummer, Ausweisdaten)",
             "Gesundheitsdaten: welches Medikament du nimmst, deine Injektionen, dein Gewicht, dein Blutzucker, deine Symptome, Notizen, Fotos oder Maße",
             "Standortdaten",
-            "Werbekennungen (IDFA): Die App erhebt sie nie und zeigt Apples Abfrage zur App-Tracking-Transparenz nie an, weil sie dich nicht trackt"
+            "Werbekennungen, es sei denn, du erlaubst das Tracking ausdrücklich über Apples Abfrage zur App-Tracking-Transparenz: siehe den Absatz zur Werbemessung in Abschnitt 5"
           ]
         },
         {
@@ -96,7 +96,7 @@
         },
         {
           "t": "p",
-          "v": "Die App nutzt das SDK von Meta (Facebook) zu genau einem Zweck: um aggregiert zu messen, ob App-Installationen aus einer unserer Anzeigen stammen. Die App trackt dich nicht: Sie erhebt nie die Werbekennung deines Geräts (IDFA), zeigt nie Apples Abfrage zur App-Tracking-Transparenz an, und das Werbetracking im SDK ist dauerhaft abgeschaltet. Meta erhält nur Apples datenschutzfreundliches, aggregiertes SKAdNetwork-Signal und ein anonymes Ereignis „App geöffnet“. Deine Gesundheitsdaten (Medikamente, Dosen, Injektionen, Gewicht, Blutzucker, Nebenwirkungen, Notizen) werden nie an Meta gesendet."
+          "v": "Die App nutzt das SDK von Meta (Facebook) zu genau einem Zweck: um zu messen, ob eine Installation aus einer unserer Anzeigen stammt. Unter iOS fragt die App zuerst über Apples Abfrage zur App-Tracking-Transparenz um deine Erlaubnis. Lehnst du ab oder antwortest du nicht, wird keine Werbekennung (IDFA) erhoben und Meta erhält nur Apples datenschutzfreundliches, aggregiertes SKAdNetwork-Signal. Erlaubst du es, wird die Werbekennung deines Geräts an Meta weitergegeben, damit die Installation der gesehenen Anzeige zugeordnet werden kann. Übermittelt werden ausschließlich Signale zur Zuordnung von Installation und App-Start; deine Gesundheitsdaten (Medikamente, Dosen, Injektionen, Gewicht, Blutzucker, Nebenwirkungen, Notizen) werden nie an Meta gesendet. Du kannst deine Antwort jederzeit unter iOS-Einstellungen → Datenschutz & Sicherheit → Tracking ändern."
         },
         {
           "t": "p",
@@ -280,7 +280,7 @@
     "privacy": {
       "title": "Politique de confidentialité",
       "description": "Comment Dozify traite tes données : tes données de santé restent sur ton appareil et ne sont pas envoyées à nos serveurs.",
-      "updated": "Dernière mise à jour : 2 octobre 2026 · En vigueur depuis le 2 octobre 2026",
+      "updated": "Dernière mise à jour : 30 septembre 2026 · En vigueur depuis le 30 septembre 2026",
       "blocks": [
         {
           "t": "h2",
@@ -308,7 +308,7 @@
             "les identifiants personnels (nom, adresse e-mail, numéro de téléphone, pièce d'identité) ;",
             "les données de santé : le médicament que tu prends, tes injections, ton poids, ta glycémie, tes symptômes, tes notes, tes photos ou tes mesures ;",
             "les données de localisation ;",
-            "Identifiants publicitaires (IDFA) : l'App ne les collecte jamais et n'affiche jamais la demande d'App Tracking Transparency d'Apple, car elle ne te suit pas"
+            "les identifiants publicitaires, sauf si tu autorises expressément le suivi via la demande d'App Tracking Transparency d'Apple : voir le paragraphe sur la mesure publicitaire à la section 5."
           ]
         },
         {
@@ -373,7 +373,7 @@
         },
         {
           "t": "p",
-          "v": "L'App utilise le SDK de Meta (Facebook) dans un seul but : mesurer, de façon agrégée, si les installations proviennent de l'une de nos publicités. L'App ne te suit pas : elle ne collecte jamais l'identifiant publicitaire de ton appareil (IDFA), n'affiche jamais la demande d'App Tracking Transparency d'Apple, et le suivi publicitaire du SDK est désactivé en permanence. Meta ne reçoit que le signal agrégé SKAdNetwork d'Apple, respectueux de la vie privée, et un événement anonyme « application ouverte ». Tes données de santé (médicaments, doses, injections, poids, glycémie, effets secondaires, notes) ne sont jamais envoyées à Meta."
+          "v": "L'App utilise le SDK de Meta (Facebook) dans un seul but : mesurer si une installation provient de l'une de nos publicités. Sur iOS, l'App demande d'abord ton autorisation via la demande d'App Tracking Transparency d'Apple. Si tu refuses, ou si tu ne réponds pas, aucun identifiant publicitaire (IDFA) n'est collecté et Meta ne reçoit que le signal agrégé SKAdNetwork d'Apple, respectueux de la vie privée. Si tu acceptes, l'identifiant publicitaire de ton appareil est partagé avec Meta afin d'attribuer l'installation à la publicité que tu as vue. Ce qui est transmis se limite aux signaux d'attribution d'installation et d'ouverture de l'app ; tes données de santé (médicaments, doses, injections, poids, glycémie, effets secondaires, notes) ne sont jamais envoyées à Meta. Tu peux changer ta réponse à tout moment dans Réglages iOS → Confidentialité et sécurité → Suivi."
         },
         {
           "t": "p",
@@ -557,7 +557,7 @@
     "privacy": {
       "title": "Política de privacidad",
       "description": "Cómo trata Dozify tus datos: tus datos de salud se quedan en tu dispositivo y no se envían a nuestros servidores.",
-      "updated": "Última actualización: 2 de octubre de 2026 · En vigor desde el 2 de octubre de 2026",
+      "updated": "Última actualización: 30 de septiembre de 2026 · En vigor desde el 30 de septiembre de 2026",
       "blocks": [
         {
           "t": "h2",
@@ -585,7 +585,7 @@
             "identificadores personales (nombre, correo electrónico, teléfono, documento de identidad);",
             "datos de salud: qué medicamento tomas, tus inyecciones, tu peso, tu glucemia, tus síntomas, tus notas, tus fotos o tus medidas;",
             "datos de ubicación;",
-            "Identificadores publicitarios (IDFA): la App nunca los recopila y nunca muestra la solicitud de App Tracking Transparency de Apple, porque no te rastrea"
+            "identificadores publicitarios, salvo que autorices expresamente el seguimiento en la solicitud de App Tracking Transparency de Apple: consulta el apartado sobre medición publicitaria de la sección 5."
           ]
         },
         {
@@ -650,7 +650,7 @@
         },
         {
           "t": "p",
-          "v": "La App usa el SDK de Meta (Facebook) con un único fin: medir, de forma agregada, si las instalaciones proceden de alguno de nuestros anuncios. La App no te rastrea: nunca recopila el identificador publicitario de tu dispositivo (IDFA), nunca muestra la solicitud de App Tracking Transparency de Apple y el seguimiento publicitario del SDK está desactivado de forma permanente. Meta solo recibe la señal agregada SKAdNetwork de Apple, que protege la privacidad, y un evento anónimo de «app abierta». Tus datos de salud (medicamentos, dosis, inyecciones, peso, glucosa, efectos secundarios, notas) nunca se envían a Meta."
+          "v": "La App usa el SDK de Meta (Facebook) con un único fin: medir si una instalación procede de uno de nuestros anuncios. En iOS, la App pide primero tu permiso mediante la solicitud de App Tracking Transparency de Apple. Si lo rechazas, o no respondes, no se recoge ningún identificador publicitario (IDFA) y Meta solo recibe la señal agregada SKAdNetwork de Apple, que preserva la privacidad. Si lo permites, el identificador publicitario de tu dispositivo se comparte con Meta para poder atribuir la instalación al anuncio que viste. Lo que se envía se limita a señales de atribución de instalación y apertura de la app; tus datos de salud (medicamentos, dosis, inyecciones, peso, glucemia, efectos secundarios, notas) nunca se envían a Meta. Puedes cambiar tu respuesta cuando quieras en Ajustes de iOS → Privacidad y seguridad → Seguimiento."
         },
         {
           "t": "p",
@@ -834,7 +834,7 @@
     "privacy": {
       "title": "Informativa sulla privacy",
       "description": "Come Dozify tratta i tuoi dati: i dati sanitari restano sul tuo dispositivo e non vengono inviati ai nostri server.",
-      "updated": "Ultimo aggiornamento: 2 ottobre 2026 · In vigore dal 2 ottobre 2026",
+      "updated": "Ultimo aggiornamento: 30 settembre 2026 · In vigore dall'30 settembre 2026",
       "blocks": [
         {
           "t": "h2",
@@ -862,7 +862,7 @@
             "identificativi personali (nome, indirizzo e-mail, telefono, documento d'identità);",
             "dati sanitari: quale farmaco assumi, le tue iniezioni, il tuo peso, la tua glicemia, i tuoi sintomi, le tue note, le tue foto o le tue misure;",
             "dati di posizione;",
-            "Identificatori pubblicitari (IDFA): l'App non li raccoglie mai e non mostra mai la richiesta di App Tracking Transparency di Apple, perché non ti traccia"
+            "identificativi pubblicitari, a meno che tu non autorizzi espressamente il tracciamento nella richiesta App Tracking Transparency di Apple: vedi il punto sulla misurazione pubblicitaria nella sezione 5."
           ]
         },
         {
@@ -927,7 +927,7 @@
         },
         {
           "t": "p",
-          "v": "L'App usa l'SDK di Meta (Facebook) per un solo scopo: misurare, in forma aggregata, se le installazioni provengono da una delle nostre inserzioni. L'App non ti traccia: non raccoglie mai l'identificatore pubblicitario del dispositivo (IDFA), non mostra mai la richiesta di App Tracking Transparency di Apple e il tracciamento pubblicitario dell'SDK è disattivato in modo permanente. Meta riceve solo il segnale aggregato SKAdNetwork di Apple, rispettoso della privacy, e un evento anonimo di «app aperta». I tuoi dati sanitari (farmaci, dosi, iniezioni, peso, glicemia, effetti collaterali, note) non vengono mai inviati a Meta."
+          "v": "L'App usa l'SDK di Meta (Facebook) per un unico scopo: misurare se un'installazione proviene da uno dei nostri annunci. Su iOS l'App chiede prima il tuo permesso tramite la richiesta App Tracking Transparency di Apple. Se rifiuti, o non rispondi, non viene raccolto alcun identificativo pubblicitario (IDFA) e Meta riceve soltanto il segnale aggregato SKAdNetwork di Apple, che tutela la privacy. Se acconsenti, l'identificativo pubblicitario del tuo dispositivo viene condiviso con Meta per poter attribuire l'installazione all'annuncio che hai visto. Ciò che viene inviato si limita ai segnali di attribuzione dell'installazione e dell'apertura dell'app; i tuoi dati sanitari (farmaci, dosi, iniezioni, peso, glicemia, effetti collaterali, note) non vengono mai inviati a Meta. Puoi cambiare la tua risposta quando vuoi in Impostazioni iOS → Privacy e sicurezza → Tracciamento."
         },
         {
           "t": "p",
@@ -1111,7 +1111,7 @@
     "privacy": {
       "title": "Política de privacidade",
       "description": "Como o Dozify trata seus dados: seus dados de saúde ficam no seu dispositivo e não são enviados aos nossos servidores.",
-      "updated": "Última atualização: 2 de outubro de 2026 · Em vigor desde 2 de outubro de 2026",
+      "updated": "Última atualização: 30 de setembro de 2026 · Em vigor desde 30 de setembro de 2026",
       "blocks": [
         {
           "t": "h2",
@@ -1139,7 +1139,7 @@
             "identificadores pessoais (nome, e-mail, telefone, documento de identidade);",
             "dados de saúde: qual medicamento você usa, suas injeções, seu peso, sua glicemia, seus sintomas, suas observações, suas fotos ou suas medidas;",
             "dados de localização;",
-            "Identificadores de publicidade (IDFA): o App nunca os recolhe e nunca mostra o pedido de App Tracking Transparency da Apple, porque não te rastreia"
+            "identificadores de publicidade, a menos que você autorize expressamente o rastreamento no pedido de App Tracking Transparency da Apple: veja o trecho sobre medição de anúncios na seção 5."
           ]
         },
         {
@@ -1204,7 +1204,7 @@
         },
         {
           "t": "p",
-          "v": "O App usa o SDK da Meta (Facebook) com um único objetivo: medir, de forma agregada, se as instalações vieram de um dos nossos anúncios. O App não te rastreia: nunca recolhe o identificador de publicidade do teu dispositivo (IDFA), nunca mostra o pedido de App Tracking Transparency da Apple e o rastreio publicitário do SDK está permanentemente desligado. A Meta recebe apenas o sinal agregado SKAdNetwork da Apple, que preserva a privacidade, e um evento anónimo de «app aberta». Os teus dados de saúde (medicamentos, doses, injeções, peso, glicemia, efeitos secundários, notas) nunca são enviados à Meta."
+          "v": "O App usa o SDK da Meta (Facebook) com uma única finalidade: medir se uma instalação veio de um dos nossos anúncios. No iOS, o App pede sua permissão primeiro, pelo pedido de App Tracking Transparency da Apple. Se você recusar, ou não responder, nenhum identificador de publicidade (IDFA) é coletado e a Meta recebe apenas o sinal agregado SKAdNetwork da Apple, que preserva a privacidade. Se você permitir, o identificador de publicidade do seu dispositivo é compartilhado com a Meta para que a instalação possa ser atribuída ao anúncio que você viu. O que é enviado se limita a sinais de atribuição de instalação e abertura do app; seus dados de saúde (medicamentos, doses, injeções, peso, glicemia, efeitos colaterais, observações) nunca são enviados à Meta. Você pode mudar sua resposta quando quiser em Ajustes do iOS → Privacidade e Segurança → Rastreamento."
         },
         {
           "t": "p",
@@ -1388,7 +1388,7 @@
     "privacy": {
       "title": "Privacybeleid",
       "description": "Hoe Dozify met je gegevens omgaat: je gezondheidsgegevens blijven op je toestel en gaan niet naar onze servers.",
-      "updated": "Laatst bijgewerkt: 2 oktober 2026 · Van kracht sinds 2 oktober 2026",
+      "updated": "Laatst bijgewerkt: 30 september 2026 · Van kracht sinds 30 september 2026",
       "blocks": [
         {
           "t": "h2",
@@ -1416,7 +1416,7 @@
             "persoonlijke identificatiegegevens (naam, e-mailadres, telefoonnummer, identiteitsbewijs);",
             "gezondheidsgegevens: welk medicijn je gebruikt, je injecties, je gewicht, je bloedsuiker, je klachten, je notities, je foto's of je maten;",
             "locatiegegevens;",
-            "Advertentie-id's (IDFA): de App verzamelt ze nooit en toont nooit Apples App Tracking Transparency-verzoek, omdat ze je niet volgt"
+            "advertentie-identificatoren, tenzij je in het App Tracking Transparency-verzoek van Apple uitdrukkelijk toestemming geeft voor tracking: zie het onderdeel over advertentiemeting in paragraaf 5."
           ]
         },
         {
@@ -1481,7 +1481,7 @@
         },
         {
           "t": "p",
-          "v": "De App gebruikt de Meta (Facebook) SDK voor één doel: geaggregeerd meten of installaties uit een van onze advertenties komen. De App volgt je niet: ze verzamelt nooit de advertentie-id van je toestel (IDFA), toont nooit Apples App Tracking Transparency-verzoek, en adverteerderstracking in de SDK staat permanent uit. Meta ontvangt alleen Apples privacyvriendelijke, geaggregeerde SKAdNetwork-signaal en een anonieme 'app geopend'-gebeurtenis. Je gezondheidsgegevens (medicatie, doses, injecties, gewicht, bloedglucose, bijwerkingen, notities) worden nooit naar Meta gestuurd."
+          "v": "De App gebruikt de SDK van Meta (Facebook) met één doel: meten of een installatie uit een van onze advertenties komt. Op iOS vraagt de App eerst je toestemming via het App Tracking Transparency-verzoek van Apple. Weiger je, of antwoord je niet, dan wordt er geen advertentie-identificator (IDFA) verzameld en ontvangt Meta alleen het geaggregeerde SKAdNetwork-signaal van Apple, dat je privacy beschermt. Geef je wel toestemming, dan wordt de advertentie-identificator van je toestel met Meta gedeeld om de installatie aan de advertentie te kunnen koppelen die je zag. Wat er wordt verstuurd blijft beperkt tot signalen over de installatie en het openen van de app; je gezondheidsgegevens (medicijnen, doses, injecties, gewicht, bloedsuiker, bijwerkingen, notities) worden nooit naar Meta gestuurd. Je kunt je antwoord altijd wijzigen via Instellingen op je iPhone → Privacy en beveiliging → Tracking."
         },
         {
           "t": "p",
@@ -1665,7 +1665,7 @@
     "privacy": {
       "title": "Polityka prywatności",
       "description": "Jak Dozify postępuje z twoimi danymi: dane zdrowotne zostają na twoim urządzeniu i nie trafiają na nasze serwery.",
-      "updated": "Ostatnia aktualizacja: 2 października 2026 · Obowiązuje od 2 października 2026",
+      "updated": "Ostatnia aktualizacja: 30 września 2026 · Obowiązuje od 30 września 2026",
       "blocks": [
         {
           "t": "h2",
@@ -1693,7 +1693,7 @@
             "danych identyfikujących (imienia i nazwiska, adresu e-mail, numeru telefonu, dokumentu tożsamości);",
             "danych zdrowotnych: jaki lek przyjmujesz, twoich zastrzyków, wagi, poziomu cukru, objawów, notatek, zdjęć ani wymiarów;",
             "danych o lokalizacji;",
-            "Identyfikatory reklamowe (IDFA): Aplikacja nigdy ich nie zbiera i nigdy nie wyświetla prośby App Tracking Transparency firmy Apple, ponieważ Cię nie śledzi"
+            "identyfikatorów reklamowych, chyba że wyraźnie zgodzisz się na śledzenie w prośbie App Tracking Transparency firmy Apple: zobacz fragment o pomiarze reklam w punkcie 5."
           ]
         },
         {
@@ -1758,7 +1758,7 @@
         },
         {
           "t": "p",
-          "v": "Aplikacja używa SDK Meta (Facebook) w jednym celu: aby zbiorczo mierzyć, czy instalacje pochodzą z naszych reklam. Aplikacja Cię nie śledzi: nigdy nie zbiera identyfikatora reklamowego urządzenia (IDFA), nigdy nie wyświetla prośby App Tracking Transparency firmy Apple, a śledzenie reklamowe w SDK jest na stałe wyłączone. Meta otrzymuje wyłącznie zbiorczy, chroniący prywatność sygnał SKAdNetwork od Apple oraz anonimowe zdarzenie „aplikacja otwarta”. Twoje dane zdrowotne (leki, dawki, zastrzyki, waga, glukoza, skutki uboczne, notatki) nigdy nie są wysyłane do Meta."
+          "v": "Aplikacja korzysta z SDK firmy Meta (Facebook) w jednym celu: żeby zmierzyć, czy instalacja pochodzi z jednej z naszych reklam. W systemie iOS Aplikacja najpierw prosi cię o zgodę przez mechanizm App Tracking Transparency firmy Apple. Jeśli odmówisz albo nie odpowiesz, żaden identyfikator reklamowy (IDFA) nie jest zbierany, a Meta otrzymuje wyłącznie zagregowany sygnał SKAdNetwork od Apple, który chroni prywatność. Jeśli wyrazisz zgodę, identyfikator reklamowy twojego urządzenia zostanie udostępniony Meta, żeby powiązać instalację z reklamą, którą widziałeś. Przesyłane są wyłącznie sygnały o instalacji i otwarciu aplikacji; twoje dane zdrowotne (leki, dawki, zastrzyki, waga, poziom cukru, działania niepożądane, notatki) nigdy nie trafiają do Meta. Swoją odpowiedź możesz zmienić w każdej chwili w Ustawieniach iOS → Prywatność i ochrona → Śledzenie."
         },
         {
           "t": "p",
@@ -1942,7 +1942,7 @@
     "privacy": {
       "title": "Integritetspolicy",
       "description": "Så hanterar Dozify dina uppgifter: dina hälsouppgifter stannar på din enhet och skickas inte till våra servrar.",
-      "updated": "Senast uppdaterad: 2 oktober 2026 · Gäller från 2 oktober 2026",
+      "updated": "Senast uppdaterad: 30 september 2026 · Gäller från 30 september 2026",
       "blocks": [
         {
           "t": "h2",
@@ -1970,7 +1970,7 @@
             "personuppgifter som identifierar dig (namn, e-postadress, telefonnummer, id-handling);",
             "hälsouppgifter: vilket läkemedel du tar, dina injektioner, din vikt, ditt blodsocker, dina symtom, dina anteckningar, dina bilder eller dina mått;",
             "platsuppgifter;",
-            "Reklam-id (IDFA): appen samlar aldrig in dem och visar aldrig Apples App Tracking Transparency-fråga, eftersom den inte spårar dig"
+            "annonsidentifierare, om du inte uttryckligen godkänner spårning i Apples App Tracking Transparency-fråga: se stycket om annonsmätning i avsnitt 5."
           ]
         },
         {
@@ -2035,7 +2035,7 @@
         },
         {
           "t": "p",
-          "v": "Appen använder Metas (Facebooks) SDK i ett enda syfte: att aggregerat mäta om installationer kom från någon av våra annonser. Appen spårar dig inte: den samlar aldrig in enhetens reklam-id (IDFA), visar aldrig Apples App Tracking Transparency-fråga, och annonsörsspårningen i SDK:n är permanent avstängd. Meta får bara Apples integritetsskyddande, aggregerade SKAdNetwork-signal och en anonym händelse ”appen öppnades”. Dina hälsodata (läkemedel, doser, injektioner, vikt, blodsocker, biverkningar, anteckningar) skickas aldrig till Meta."
+          "v": "Appen använder Metas (Facebooks) SDK i ett enda syfte: att mäta om en installation kommer från någon av våra annonser. På iOS frågar Appen först om din tillåtelse via Apples App Tracking Transparency. Säger du nej, eller svarar inte alls, samlas ingen annonsidentifierare (IDFA) in och Meta får bara Apples aggregerade SKAdNetwork-signal, som värnar din integritet. Säger du ja delas enhetens annonsidentifierare med Meta så att installationen kan kopplas till annonsen du såg. Det som skickas begränsas till signaler om installation och appöppning; dina hälsouppgifter (läkemedel, doser, injektioner, vikt, blodsocker, biverkningar, anteckningar) skickas aldrig till Meta. Du kan ändra ditt svar när som helst under Inställningar på iPhone → Integritet och säkerhet → Spårning."
         },
         {
           "t": "p",
@@ -2219,7 +2219,7 @@
     "privacy": {
       "title": "Privatlivspolitik",
       "description": "Sådan håndterer Dozify dine data: dine helbredsdata bliver på din enhed og sendes ikke til vores servere.",
-      "updated": "Senest opdateret: 2. oktober 2026 · Gælder fra 2. oktober 2026",
+      "updated": "Senest opdateret: 30. september 2026 · Gælder fra 30. september 2026",
       "blocks": [
         {
           "t": "h2",
@@ -2247,7 +2247,7 @@
             "personoplysninger, der identificerer dig (navn, e-mailadresse, telefonnummer, id-dokument);",
             "helbredsdata: hvilken medicin du tager, dine injektioner, din vægt, dit blodsukker, dine symptomer, dine noter, dine billeder eller dine mål;",
             "stedoplysninger;",
-            "Reklame-id'er (IDFA): appen indsamler dem aldrig og viser aldrig Apples App Tracking Transparency-anmodning, fordi den ikke sporer dig"
+            "annonce-id'er, medmindre du udtrykkeligt tillader sporing i Apples App Tracking Transparency-forespørgsel: se afsnittet om annoncemåling i afsnit 5."
           ]
         },
         {
@@ -2312,7 +2312,7 @@
         },
         {
           "t": "p",
-          "v": "Appen bruger Metas (Facebooks) SDK til ét formål: at måle samlet, om installationer kom fra en af vores annoncer. Appen sporer dig ikke: den indsamler aldrig enhedens reklame-id (IDFA), viser aldrig Apples App Tracking Transparency-anmodning, og annoncørsporing i SDK'et er permanent slået fra. Meta modtager kun Apples privatlivsbeskyttende, samlede SKAdNetwork-signal og en anonym hændelse »app åbnet«. Dine sundhedsdata (medicin, doser, injektioner, vægt, blodsukker, bivirkninger, noter) sendes aldrig til Meta."
+          "v": "Appen bruger Metas (Facebooks) SDK med ét eneste formål: at måle, om en installation kommer fra en af vores annoncer. På iOS beder Appen først om din tilladelse via Apples App Tracking Transparency. Siger du nej eller svarer slet ikke, indsamles der intet annonce-id (IDFA), og Meta får kun Apples aggregerede SKAdNetwork-signal, som beskytter dit privatliv. Siger du ja, deles enhedens annonce-id med Meta, så installationen kan knyttes til den annonce, du så. Det, der sendes, begrænser sig til signaler om installation og appåbning; dine helbredsdata (medicin, doser, injektioner, vægt, blodsukker, bivirkninger, noter) sendes aldrig til Meta. Du kan altid ændre dit svar under Indstillinger på iPhone → Anonymitet og sikkerhed → Sporing."
         },
         {
           "t": "p",
@@ -2496,7 +2496,7 @@
     "privacy": {
       "title": "Personvernerklæring",
       "description": "Slik håndterer Dozify dataene dine: helsedataene dine blir på enheten din og sendes ikke til serverne våre.",
-      "updated": "Sist oppdatert: 2. oktober 2026 · Gjelder fra 2. oktober 2026",
+      "updated": "Sist oppdatert: 30. september 2026 · Gjelder fra 30. september 2026",
       "blocks": [
         {
           "t": "h2",
@@ -2524,7 +2524,7 @@
             "personopplysninger som identifiserer deg (navn, e-postadresse, telefonnummer, id-dokument);",
             "helsedata: hvilken medisin du tar, injeksjonene dine, vekten din, blodsukkeret ditt, symptomene dine, notatene dine, bildene dine eller målene dine;",
             "stedsopplysninger;",
-            "Reklame-ID-er (IDFA): appen samler dem aldri inn og viser aldri Apples App Tracking Transparency-forespørsel, fordi den ikke sporer deg"
+            "annonse-ID-er, med mindre du uttrykkelig tillater sporing i Apples App Tracking Transparency-forespørsel: se avsnittet om annonsemåling i punkt 5."
           ]
         },
         {
@@ -2589,7 +2589,7 @@
         },
         {
           "t": "p",
-          "v": "Appen bruker Metas (Facebooks) SDK til ett formål: å måle samlet om installasjoner kom fra en av annonsene våre. Appen sporer deg ikke: den samler aldri inn enhetens reklame-ID (IDFA), viser aldri Apples App Tracking Transparency-forespørsel, og annonsørsporing i SDK-et er permanent slått av. Meta mottar bare Apples personvernvennlige, aggregerte SKAdNetwork-signal og en anonym «app åpnet»-hendelse. Helsedataene dine (legemidler, doser, injeksjoner, vekt, blodsukker, bivirkninger, notater) sendes aldri til Meta."
+          "v": "Appen bruker Metas (Facebooks) SDK med ett eneste formål: å måle om en installasjon kommer fra en av annonsene våre. På iOS spør Appen først om tillatelse via Apples App Tracking Transparency. Sier du nei, eller svarer ikke, samles det ikke inn noen annonse-ID (IDFA), og Meta får bare Apples aggregerte SKAdNetwork-signal, som ivaretar personvernet. Sier du ja, deles enhetens annonse-ID med Meta, slik at installasjonen kan knyttes til annonsen du så. Det som sendes, begrenser seg til signaler om installasjon og appåpning; helsedataene dine (medisiner, doser, injeksjoner, vekt, blodsukker, bivirkninger, notater) sendes aldri til Meta. Du kan når som helst endre svaret ditt under Innstillinger på iPhone → Personvern og sikkerhet → Sporing."
         },
         {
           "t": "p",
@@ -2773,7 +2773,7 @@
     "privacy": {
       "title": "Tietosuojaseloste",
       "description": "Näin Dozify käsittelee tietojasi: terveystietosi pysyvät laitteellasi eivätkä päädy palvelimillemme.",
-      "updated": "Viimeksi päivitetty: 2. lokakuuta 2026 · Voimassa 2.10.2026 alkaen",
+      "updated": "Viimeksi päivitetty: 30. syyskuuta 2026 · Voimassa 30.9.2026 alkaen",
       "blocks": [
         {
           "t": "h2",
@@ -2801,7 +2801,7 @@
             "sinut tunnistavia henkilötietoja (nimi, sähköpostiosoite, puhelinnumero, henkilöllisyystodistus);",
             "terveystietoja: mitä lääkettä käytät, pistoksiasi, painoasi, verensokeriasi, oireitasi, muistiinpanojasi, kuviasi tai mittojasi;",
             "sijaintitietoja;",
-            "Mainostunnisteet (IDFA): sovellus ei koskaan kerää niitä eikä koskaan näytä Applen App Tracking Transparency -kyselyä, koska se ei seuraa sinua"
+            "mainostunnisteita, ellet nimenomaisesti salli seurantaa Applen App Tracking Transparency -kyselyssä: katso mainosmittausta koskeva kohta osiossa 5."
           ]
         },
         {
@@ -2866,7 +2866,7 @@
         },
         {
           "t": "p",
-          "v": "Sovellus käyttää Metan (Facebookin) SDK:ta yhteen tarkoitukseen: mittaamaan koostetusti, tulivatko asennukset mainoksistamme. Sovellus ei seuraa sinua: se ei koskaan kerää laitteen mainostunnistetta (IDFA), ei koskaan näytä Applen App Tracking Transparency -kyselyä, ja SDK:n mainostajaseuranta on pysyvästi pois päältä. Meta saa vain Applen yksityisyyttä suojaavan, koostetun SKAdNetwork-signaalin ja anonyymin ”sovellus avattu” -tapahtuman. Terveystietojasi (lääkkeet, annokset, pistokset, paino, verensokeri, haittavaikutukset, muistiinpanot) ei koskaan lähetetä Metalle."
+          "v": "Sovellus käyttää Metan (Facebookin) SDK:ta yhteen ainoaan tarkoitukseen: mittaamaan, tuleeko asennus jostakin mainoksestamme. iOS:ssä Sovellus kysyy ensin lupaasi Applen App Tracking Transparency -kyselyllä. Jos kieltäydyt tai et vastaa, mainostunnistetta (IDFA) ei kerätä, ja Meta saa vain Applen koostetun SKAdNetwork-signaalin, joka suojaa yksityisyyttä. Jos annat luvan, laitteesi mainostunniste jaetaan Metalle, jotta asennus voidaan yhdistää näkemääsi mainokseen. Lähetettävä tieto rajoittuu asennuksen ja sovelluksen avaamisen signaaleihin; terveystietojasi (lääkkeet, annokset, pistokset, paino, verensokeri, haittavaikutukset, muistiinpanot) ei koskaan lähetetä Metalle. Voit muuttaa vastaustasi milloin tahansa iPhonen kohdasta Asetukset → Tietosuoja ja turvallisuus → Seuranta."
         },
         {
           "t": "p",
@@ -3050,7 +3050,7 @@
     "privacy": {
       "title": "Πολιτική απορρήτου",
       "description": "Πώς χειρίζεται το Dozify τα δεδομένα σου: τα δεδομένα υγείας σου μένουν στη συσκευή σου και δεν φτάνουν στους διακομιστές μας.",
-      "updated": "Τελευταία ενημέρωση: 2 Οκτωβρίου 2026 · Σε ισχύ από 2 Οκτωβρίου 2026",
+      "updated": "Τελευταία ενημέρωση: 30 Σεπτεμβρίου 2026 · Σε ισχύ από 30 Σεπτεμβρίου 2026",
       "blocks": [
         {
           "t": "h2",
@@ -3078,7 +3078,7 @@
             "στοιχεία που σε ταυτοποιούν (όνομα, e-mail, τηλέφωνο, έγγραφο ταυτότητας)·",
             "δεδομένα υγείας: ποιο φάρμακο παίρνεις, τις ενέσεις σου, το βάρος σου, το σάκχαρό σου, τα συμπτώματά σου, τις σημειώσεις σου, τις φωτογραφίες ή τις μετρήσεις σου·",
             "δεδομένα τοποθεσίας·",
-            "Διαφημιστικά αναγνωριστικά (IDFA): η Εφαρμογή δεν τα συλλέγει ποτέ και δεν εμφανίζει ποτέ το αίτημα App Tracking Transparency της Apple, επειδή δεν σε παρακολουθεί"
+            "διαφημιστικά αναγνωριστικά, εκτός αν επιτρέψεις ρητά την παρακολούθηση στο αίτημα App Tracking Transparency της Apple: δες το σημείο για τη μέτρηση διαφημίσεων στην ενότητα 5."
           ]
         },
         {
@@ -3143,7 +3143,7 @@
         },
         {
           "t": "p",
-          "v": "Η Εφαρμογή χρησιμοποιεί το SDK της Meta (Facebook) για έναν μόνο σκοπό: να μετρά συγκεντρωτικά αν οι εγκαταστάσεις προήλθαν από κάποια διαφήμισή μας. Η Εφαρμογή δεν σε παρακολουθεί: δεν συλλέγει ποτέ το διαφημιστικό αναγνωριστικό της συσκευής σου (IDFA), δεν εμφανίζει ποτέ το αίτημα App Tracking Transparency της Apple, και η διαφημιστική παρακολούθηση στο SDK είναι μόνιμα απενεργοποιημένη. Η Meta λαμβάνει μόνο το συγκεντρωτικό σήμα SKAdNetwork της Apple που προστατεύει το απόρρητο και ένα ανώνυμο συμβάν «άνοιγμα εφαρμογής». Τα δεδομένα υγείας σου (φάρμακα, δόσεις, ενέσεις, βάρος, γλυκόζη, παρενέργειες, σημειώσεις) δεν αποστέλλονται ποτέ στη Meta."
+          "v": "Η Εφαρμογή χρησιμοποιεί το SDK της Meta (Facebook) για έναν και μόνο σκοπό: να μετρήσει αν μια εγκατάσταση προέρχεται από κάποια διαφήμισή μας. Στο iOS, η Εφαρμογή ζητά πρώτα την άδειά σου μέσω του αιτήματος App Tracking Transparency της Apple. Αν αρνηθείς ή δεν απαντήσεις, δεν συλλέγεται κανένα διαφημιστικό αναγνωριστικό (IDFA) και η Meta λαμβάνει μόνο το συγκεντρωτικό σήμα SKAdNetwork της Apple, που προστατεύει το απόρρητο. Αν επιτρέψεις, το διαφημιστικό αναγνωριστικό της συσκευής σου κοινοποιείται στη Meta ώστε η εγκατάσταση να αποδοθεί στη διαφήμιση που είδες. Ό,τι στέλνεται περιορίζεται σε σήματα εγκατάστασης και ανοίγματος της εφαρμογής· τα δεδομένα υγείας σου (φάρμακα, δόσεις, ενέσεις, βάρος, σάκχαρο, παρενέργειες, σημειώσεις) δεν στέλνονται ποτέ στη Meta. Μπορείς να αλλάξεις την απάντησή σου όποτε θέλεις από Ρυθμίσεις iOS → Απόρρητο και ασφάλεια → Παρακολούθηση."
         },
         {
           "t": "p",
@@ -3327,7 +3327,7 @@
     "privacy": {
       "title": "Политика конфиденциальности",
       "description": "Как Dozify обращается с твоими данными: данные о здоровье остаются на твоём устройстве и не попадают на наши серверы.",
-      "updated": "Последнее обновление: 2 октября 2026 г. · Действует с 2 октября 2026 г.",
+      "updated": "Последнее обновление: 30 сентября 2026 г. · Действует с 30 сентября 2026 г.",
       "blocks": [
         {
           "t": "h2",
@@ -3355,7 +3355,7 @@
             "идентифицирующие тебя данные (имя, адрес электронной почты, телефон, документ, удостоверяющий личность);",
             "данные о здоровье: какое лекарство ты принимаешь, твои инъекции, вес, уровень сахара, симптомы, заметки, фотографии или замеры;",
             "данные о местоположении;",
-            "Рекламные идентификаторы (IDFA): приложение никогда их не собирает и никогда не показывает запрос App Tracking Transparency от Apple, потому что не отслеживает вас"
+            "рекламные идентификаторы, если только ты прямо не разрешишь отслеживание в запросе App Tracking Transparency от Apple: см. пункт об измерении рекламы в разделе 5."
           ]
         },
         {
@@ -3420,7 +3420,7 @@
         },
         {
           "t": "p",
-          "v": "Приложение использует SDK Meta (Facebook) с одной целью: агрегированно измерять, пришли ли установки из нашей рекламы. Приложение не отслеживает вас: оно никогда не собирает рекламный идентификатор устройства (IDFA), никогда не показывает запрос App Tracking Transparency от Apple, а рекламное отслеживание в SDK отключено навсегда. Meta получает только агрегированный, защищающий конфиденциальность сигнал SKAdNetwork от Apple и анонимное событие «приложение открыто». Ваши данные о здоровье (препараты, дозы, инъекции, вес, глюкоза, побочные эффекты, заметки) никогда не передаются Meta."
+          "v": "Приложение использует SDK компании Meta (Facebook) с единственной целью: измерить, пришла ли установка из одного из наших объявлений. На iOS Приложение сначала спрашивает твоё разрешение через запрос App Tracking Transparency от Apple. Если ты откажешь или не ответишь, никакой рекламный идентификатор (IDFA) не собирается, и Meta получает только агрегированный сигнал SKAdNetwork от Apple, который защищает приватность. Если ты разрешишь, рекламный идентификатор твоего устройства передаётся в Meta, чтобы установку можно было связать с объявлением, которое ты видел. Передаются только сигналы об установке и открытии приложения; твои данные о здоровье (лекарства, дозы, инъекции, вес, сахар, побочные эффекты, заметки) никогда не отправляются в Meta. Изменить свой ответ можно в любой момент в Настройках iOS → Конфиденциальность и безопасность → Отслеживание."
         },
         {
           "t": "p",
@@ -3604,7 +3604,7 @@
     "privacy": {
       "title": "Політика приватності",
       "description": "Як Dozify поводиться з твоїми даними: дані про здоров'я лишаються на твоєму пристрої й не потрапляють на наші сервери.",
-      "updated": "Останнє оновлення: 2 жовтня 2026 р. · Чинна з 2 жовтня 2026 р.",
+      "updated": "Останнє оновлення: 30 вересня 2026 р. · Чинна з 30 вересня 2026 р.",
       "blocks": [
         {
           "t": "h2",
@@ -3632,7 +3632,7 @@
             "дані, що ідентифікують тебе (ім'я, адреса електронної пошти, телефон, документ, що посвідчує особу);",
             "дані про здоров'я: які ліки ти приймаєш, твої ін'єкції, вагу, рівень цукру, симптоми, нотатки, фотографії чи заміри;",
             "дані про місцеперебування;",
-            "Рекламні ідентифікатори (IDFA): застосунок ніколи їх не збирає і ніколи не показує запит App Tracking Transparency від Apple, бо не відстежує вас"
+            "рекламні ідентифікатори, якщо тільки ти прямо не дозволиш відстеження в запиті App Tracking Transparency від Apple: див. пункт про вимірювання реклами в розділі 5."
           ]
         },
         {
@@ -3697,7 +3697,7 @@
         },
         {
           "t": "p",
-          "v": "Застосунок використовує SDK Meta (Facebook) з однією метою: агреговано вимірювати, чи прийшли встановлення з нашої реклами. Застосунок не відстежує вас: він ніколи не збирає рекламний ідентифікатор пристрою (IDFA), ніколи не показує запит App Tracking Transparency від Apple, а рекламне відстеження в SDK вимкнено назавжди. Meta отримує лише агрегований сигнал SKAdNetwork від Apple, що захищає приватність, і анонімну подію «застосунок відкрито». Ваші дані про здоров'я (препарати, дози, ін'єкції, вага, глюкоза, побічні ефекти, нотатки) ніколи не надсилаються Meta."
+          "v": "Застосунок використовує SDK компанії Meta (Facebook) з єдиною метою: виміряти, чи прийшло встановлення з одного з наших оголошень. На iOS Застосунок спершу запитує твій дозвіл через запит App Tracking Transparency від Apple. Якщо ти відмовиш або не відповіси, жоден рекламний ідентифікатор (IDFA) не збирається, і Meta отримує лише агрегований сигнал SKAdNetwork від Apple, який захищає приватність. Якщо ти дозволиш, рекламний ідентифікатор твого пристрою передається в Meta, щоб установлення можна було пов'язати з оголошенням, яке ти бачив. Передаються лише сигнали про встановлення й відкриття застосунку; твої дані про здоров'я (ліки, дози, ін'єкції, вага, цукор, побічні ефекти, нотатки) ніколи не надсилаються в Meta. Змінити свою відповідь можна будь-коли в Налаштуваннях iOS → Конфіденційність і безпека → Відстеження."
         },
         {
           "t": "p",
@@ -3881,7 +3881,7 @@
     "privacy": {
       "title": "Zásady ochrany soukromí",
       "description": "Jak Dozify nakládá s tvými daty: zdravotní údaje zůstávají ve tvém zařízení a neposílají se na naše servery.",
-      "updated": "Poslední aktualizace: 2. října 2026 · Účinnost: 2. října 2026",
+      "updated": "Poslední aktualizace: 30. září 2026 · Účinnost: 30. září 2026",
       "blocks": [
         {
           "t": "h2",
@@ -3909,7 +3909,7 @@
             "Osobní identifikátory (jméno, e-mail, telefonní číslo, číslo dokladu totožnosti)",
             "Zdravotní údaje, tedy jaký lék užíváš, tvoje injekce, váhu, glykémii, příznaky, poznámky, fotky nebo míry",
             "Údaje o poloze",
-            "Reklamní identifikátory (IDFA): aplikace je nikdy nesbírá a nikdy nezobrazuje výzvu App Tracking Transparency od Applu, protože tě nesleduje"
+            "Reklamní identifikátory, ledaže sledování výslovně povolíš na výzvě App Tracking Transparency od Applu: viz odstavec o měření reklamy v části 5"
           ]
         },
         {
@@ -3974,7 +3974,7 @@
         },
         {
           "t": "p",
-          "v": "Aplikace používá SDK Meta (Facebook) k jedinému účelu: souhrnně měřit, zda instalace přišly z některé z našich reklam. Aplikace tě nesleduje: nikdy nesbírá reklamní identifikátor zařízení (IDFA), nikdy nezobrazuje výzvu App Tracking Transparency od Applu a reklamní sledování v SDK je trvale vypnuté. Meta dostává pouze souhrnný signál SKAdNetwork od Applu, který chrání soukromí, a anonymní událost „aplikace otevřena“. Tvoje zdravotní údaje (léky, dávky, injekce, váha, glykemie, nežádoucí účinky, poznámky) se do Meta nikdy neposílají."
+          "v": "Aplikace používá Meta (Facebook) SDK za jediným účelem: změřit, jestli instalace aplikace přišla z některé z našich reklam. Na iOS tě Aplikace nejdřív požádá o svolení přes výzvu App Tracking Transparency od Applu. Pokud odmítneš nebo neodpovíš, nesbírá se žádný reklamní identifikátor (IDFA) a Meta dostane jen souhrnný signál SKAdNetwork od Applu, který chrání soukromí. Pokud to povolíš, reklamní identifikátor tvého zařízení se sdílí s Metou, aby šla instalace přiřadit k reklamě, kterou jsi viděl. Posílají se jen signály pro přiřazení instalace a otevření aplikace; tvoje zdravotní údaje (léky, dávky, injekce, váha, glykémie, nežádoucí účinky, poznámky) se Metě nikdy neposílají. Svou odpověď můžeš kdykoli změnit v iOS: Nastavení → Soukromí a zabezpečení → Sledování."
         },
         {
           "t": "p",
@@ -4158,7 +4158,7 @@
     "privacy": {
       "title": "プライバシーポリシー",
       "description": "Dozify がデータをどう扱うか：健康に関するデータは端末の中に残り、当方のサーバーには送られません。",
-      "updated": "最終更新日：2026年10月2日 ・ 施行日：2026年10月2日",
+      "updated": "最終更新日：2026年9月30日 ・ 施行日：2026年9月30日",
       "blocks": [
         {
           "t": "h2",
@@ -4186,7 +4186,7 @@
             "個人を識別する情報（氏名、メールアドレス、電話番号、公的な身分証明番号）",
             "健康に関するデータ、すなわち服用中のお薬、注射、体重、血糖値、症状、メモ、写真、身体のサイズ",
             "位置情報",
-            "広告識別子（IDFA）：アプリはこれを一切収集せず、Appleのアプリトラッキング透明性（ATT）の許可画面も表示しません。あなたを追跡しないためです"
+            "広告識別子。ただし Apple の App Tracking Transparency の画面で明示的にトラッキングを許可した場合を除きます（第 5 項の広告計測の段落をご覧ください）"
           ]
         },
         {
@@ -4251,7 +4251,7 @@
         },
         {
           "t": "p",
-          "v": "アプリは Meta（Facebook）SDK を一つの目的のためだけに使用します。アプリのインストールが当社の広告経由かどうかを集計レベルで測定することです。アプリはあなたを追跡しません。端末の広告識別子（IDFA）を一切収集せず、Apple のアプリトラッキング透明性（ATT）の許可画面も表示せず、SDK 内の広告主トラッキングは常にオフです。Meta が受け取るのは、Apple のプライバシー保護型の集計シグナル SKAdNetwork と匿名の「アプリ起動」イベントのみです。あなたの健康データ（薬、投与量、注射、体重、血糖値、副作用、メモ）が Meta に送られることはありません。"
+          "v": "本アプリは、Meta（Facebook）SDK をひとつの目的のためだけに利用しています：アプリのインストールが当方の広告経由かどうかを計測することです。iOS では、本アプリはまず Apple の App Tracking Transparency の画面で許可を求めます。許可しない場合、または回答しない場合は、広告識別子（IDFA）は一切収集されず、Meta が受け取るのはプライバシーを保護する Apple の集計値（SKAdNetwork のシグナル）だけです。許可した場合は、ご覧になった広告とインストールを結び付けるために、端末の広告識別子が Meta と共有されます。送られるのはインストールとアプリ起動の帰属シグナルに限られ、健康に関するデータ（お薬、用量、注射、体重、血糖値、副作用、メモ）が Meta に送られることは決してありません。回答は iOS の 設定 → プライバシーとセキュリティ → トラッキング からいつでも変更できます。"
         },
         {
           "t": "p",
@@ -4435,7 +4435,7 @@
     "privacy": {
       "title": "개인정보 처리방침",
       "description": "Dozify가 데이터를 다루는 방식: 건강 데이터는 기기 안에 남고 저희 서버로 보내지 않아요.",
-      "updated": "최종 업데이트: 2026년 10월 2일 · 시행: 2026년 10월 2일",
+      "updated": "최종 업데이트: 2026년 9월 30일 · 시행: 2026년 9월 30일",
       "blocks": [
         {
           "t": "h2",
@@ -4463,7 +4463,7 @@
             "개인을 식별하는 정보（이름, 이메일, 전화번호, 신분증 번호）",
             "건강 데이터, 즉 어떤 약을 쓰는지, 주사, 체중, 혈당, 증상, 메모, 사진, 신체 치수",
             "위치 정보",
-            "광고 식별자(IDFA): 앱은 이를 절대 수집하지 않으며 Apple의 앱 추적 투명성(ATT) 요청도 표시하지 않습니다. 사용자를 추적하지 않기 때문입니다"
+            "광고 식별자. 단, Apple의 앱 추적 투명성 화면에서 명시적으로 추적을 허용하신 경우는 예외예요（5항의 광고 측정 문단을 봐 주세요）"
           ]
         },
         {
@@ -4528,7 +4528,7 @@
         },
         {
           "t": "p",
-          "v": "앱은 Meta(Facebook) SDK를 한 가지 목적으로만 사용합니다. 앱 설치가 당사 광고에서 비롯되었는지를 집계 수준에서 측정하는 것입니다. 앱은 사용자를 추적하지 않습니다. 기기의 광고 식별자(IDFA)를 절대 수집하지 않고, Apple의 앱 추적 투명성(ATT) 요청을 표시하지 않으며, SDK의 광고주 추적은 영구적으로 꺼져 있습니다. Meta는 Apple의 개인정보 보호형 집계 신호인 SKAdNetwork와 익명의 '앱 열림' 이벤트만 받습니다. 사용자의 건강 데이터(약물, 투여량, 주사, 체중, 혈당, 부작용, 메모)는 Meta로 절대 전송되지 않습니다."
+          "v": "앱은 Meta（Facebook）SDK를 한 가지 목적으로만 씁니다: 앱 설치가 저희 광고를 통해 이뤄졌는지 측정하기 위해서예요. iOS에서는 앱이 먼저 Apple의 앱 추적 투명성 화면으로 동의를 구해요. 거절하시거나 답하지 않으시면 광고 식별자（IDFA）는 전혀 수집되지 않고, Meta는 프라이버시를 지키는 Apple의 집계 신호（SKAdNetwork）만 받아요. 허용하시면 보신 광고와 설치를 연결하기 위해 기기의 광고 식별자가 Meta와 공유돼요. 전송되는 것은 설치와 앱 실행 귀속 신호로 제한되며, 건강 데이터（약, 용량, 주사, 체중, 혈당, 부작용, 메모）가 Meta로 전송되는 일은 결코 없어요. 답변은 iOS 설정 → 개인정보 보호 및 보안 → 추적에서 언제든 바꿀 수 있어요."
         },
         {
           "t": "p",
@@ -4712,7 +4712,7 @@
     "privacy": {
       "title": "隐私政策",
       "description": "Dozify 如何处理你的数据：健康数据留在你的设备上，不会发送到我们的服务器。",
-      "updated": "最后更新：2026 年 10 月 2 日 · 生效：2026 年 10 月 2 日",
+      "updated": "最后更新：2026 年 9 月 30 日 · 生效：2026 年 9 月 30 日",
       "blocks": [
         {
           "t": "h2",
@@ -4740,7 +4740,7 @@
             "身份识别信息（姓名、电子邮箱、电话号码、身份证件号码）",
             "健康数据，也就是你在用什么药、你的注射、体重、血糖、症状、备注、照片或围度",
             "位置信息",
-            "广告标识符（IDFA）：应用从不收集它，也从不显示 Apple 的应用跟踪透明度（ATT）请求，因为应用不会跟踪你"
+            "广告标识符，除非你在 Apple 的「App 跟踪透明度」提示中明确允许跟踪：见第 5 节中关于广告归因的段落"
           ]
         },
         {
@@ -4805,7 +4805,7 @@
         },
         {
           "t": "p",
-          "v": "应用仅出于一个目的使用 Meta（Facebook）SDK：以汇总方式衡量应用安装是否来自我们的广告。应用不会跟踪你：从不收集设备的广告标识符（IDFA），从不显示 Apple 的应用跟踪透明度（ATT）请求，SDK 中的广告主跟踪已永久关闭。Meta 只会收到 Apple 保护隐私的汇总信号 SKAdNetwork 以及一个匿名的“应用已打开”事件。你的健康数据（药物、剂量、注射、体重、血糖、副作用、笔记）绝不会发送给 Meta。"
+          "v": "本应用使用 Meta（Facebook）SDK 只为一个目的：衡量一次应用安装是否来自我们的广告。在 iOS 上，本应用会先通过 Apple 的「App 跟踪透明度」提示征求你的同意。如果你拒绝或不作回应，则不会收集任何广告标识符（IDFA），Meta 只会收到 Apple 那套保护隐私的 SKAdNetwork 汇总信号。如果你允许，你设备的广告标识符会共享给 Meta，以便把安装归因到你看到的那条广告。发送的内容仅限于安装和应用打开的归因信号，你的健康数据（药物、剂量、注射、体重、血糖、副作用、备注）绝不会发送给 Meta。你随时可以在 iOS 的 设置 → 隐私与安全性 → 跟踪 中更改你的选择。"
         },
         {
           "t": "p",
@@ -4989,7 +4989,7 @@
     "privacy": {
       "title": "سياسة الخصوصية",
       "description": "كيف يتعامل Dozify مع بياناتك: البيانات الصحية تبقى على جهازك ولا تُرسل إلى خوادمنا.",
-      "updated": "آخر تحديث: 2 أكتوبر 2026 · سريان: 2 أكتوبر 2026",
+      "updated": "آخر تحديث: 30 سبتمبر 2026 · سريان: 30 سبتمبر 2026",
       "blocks": [
         {
           "t": "h2",
@@ -5017,7 +5017,7 @@
             "المعرّفات الشخصية (الاسم، البريد الإلكتروني، رقم الهاتف، رقم الهوية الرسمية)",
             "البيانات الصحية، أي الدواء الذي تستخدمه وحقنك ووزنك وسكر دمك وأعراضك وملاحظاتك وصورك وقياساتك",
             "بيانات الموقع",
-            "معرّفات الإعلانات (IDFA): لا يجمعها التطبيق أبدًا ولا يعرض أبدًا طلب شفافية تتبع التطبيقات من Apple، لأنه لا يتتبعك"
+            "معرّفات الإعلانات، ما لم تسمح صراحةً بالتتبّع في شاشة «شفافية تتبّع التطبيقات» من Apple: راجع فقرة قياس الإعلانات في القسم 5"
           ]
         },
         {
@@ -5082,7 +5082,7 @@
         },
         {
           "t": "p",
-          "v": "يستخدم التطبيق حزمة تطوير Meta (Facebook) لغرض واحد: القياس بشكل مجمّع ما إذا كانت عمليات التثبيت جاءت من أحد إعلاناتنا. التطبيق لا يتتبعك: لا يجمع أبدًا معرّف الإعلانات لجهازك (IDFA)، ولا يعرض أبدًا طلب شفافية تتبع التطبيقات من Apple، وتتبع المعلنين داخل الحزمة مُعطّل بشكل دائم. تتلقى Meta فقط إشارة SKAdNetwork المجمّعة من Apple التي تحمي الخصوصية، وحدثًا مجهول الهوية بعنوان «تم فتح التطبيق». بياناتك الصحية (الأدوية والجرعات والحقن والوزن وسكر الدم والآثار الجانبية والملاحظات) لا تُرسل أبدًا إلى Meta."
+          "v": "يستخدم التطبيق حزمة Meta (Facebook) لغرض واحد: قياس ما إذا كان تثبيت التطبيق قد جاء من أحد إعلاناتنا. وعلى iOS يطلب التطبيق إذنك أولًا عبر شاشة «شفافية تتبّع التطبيقات» من Apple. فإن رفضت أو لم تُجب، لا يُجمع أي معرّف إعلاني (IDFA) ولا تتلقّى Meta سوى إشارة SKAdNetwork المجمّعة التي تحافظ على الخصوصية. وإن سمحت، يُشارَك معرّف جهازك الإعلاني مع Meta لينسب التثبيت إلى الإعلان الذي رأيته. وما يُرسل يقتصر على إشارات نسب التثبيت وفتح التطبيق؛ أما بياناتك الصحية (الأدوية والجرعات والحقن والوزن وسكر الدم والآثار الجانبية والملاحظات) فلا تُرسل إلى Meta أبدًا. ويمكنك تغيير إجابتك في أي وقت من إعدادات iOS ← الخصوصية والأمان ← التتبّع."
         },
         {
           "t": "p",
@@ -5266,7 +5266,7 @@
     "privacy": {
       "title": "गोपनीयता नीति",
       "description": "Dozify आपके डेटा को कैसे संभालता है: स्वास्थ्य डेटा आपके डिवाइस पर रहता है और हमारे सर्वर पर नहीं भेजा जाता।",
-      "updated": "आख़िरी अपडेट: 2 अक्टूबर 2026 · प्रभावी: 2 अक्टूबर 2026",
+      "updated": "आख़िरी अपडेट: 30 सितंबर 2026 · प्रभावी: 30 सितंबर 2026",
       "blocks": [
         {
           "t": "h2",
@@ -5294,7 +5294,7 @@
             "व्यक्तिगत पहचान (नाम, ईमेल, फ़ोन नंबर, सरकारी पहचान पत्र)",
             "स्वास्थ्य डेटा: आप कौन-सी दवा लेते हैं, आपके इंजेक्शन, वज़न, ब्लड ग्लूकोज़, लक्षण, नोट, फ़ोटो या माप",
             "लोकेशन डेटा",
-            "विज्ञापन पहचानकर्ता (IDFA): ऐप इन्हें कभी एकत्र नहीं करता और Apple का App Tracking Transparency अनुरोध कभी नहीं दिखाता, क्योंकि यह आपको ट्रैक नहीं करता"
+            "विज्ञापन पहचानकर्ता, जब तक आप Apple के App Tracking Transparency प्रॉम्प्ट पर स्पष्ट रूप से ट्रैकिंग की अनुमति न दें: भाग 5 में विज्ञापन मापन वाला पैराग्राफ़ देखें"
           ]
         },
         {
@@ -5359,7 +5359,7 @@
         },
         {
           "t": "p",
-          "v": "ऐप Meta (Facebook) SDK का उपयोग केवल एक उद्देश्य से करता है: समग्र रूप से यह मापना कि इंस्टॉल हमारे किसी विज्ञापन से आए या नहीं। ऐप आपको ट्रैक नहीं करता: यह आपके डिवाइस का विज्ञापन पहचानकर्ता (IDFA) कभी एकत्र नहीं करता, Apple का App Tracking Transparency अनुरोध कभी नहीं दिखाता, और SDK में विज्ञापनदाता ट्रैकिंग स्थायी रूप से बंद है। Meta को केवल Apple का गोपनीयता-रक्षक समग्र SKAdNetwork संकेत और एक गुमनाम \"ऐप खोला गया\" इवेंट मिलता है। आपका स्वास्थ्य डेटा (दवाएँ, खुराक, इंजेक्शन, वज़न, रक्त शर्करा, दुष्प्रभाव, नोट्स) कभी Meta को नहीं भेजा जाता।"
+          "v": "ऐप Meta (Facebook) SDK का उपयोग सिर्फ़ एक काम के लिए करता है: यह मापने के लिए कि ऐप का कोई इंस्टॉल हमारे किसी विज्ञापन से आया या नहीं। iOS पर ऐप पहले Apple के App Tracking Transparency प्रॉम्प्ट के ज़रिए आपकी अनुमति माँगता है। अगर आप मना करते हैं, या कभी जवाब नहीं देते, तो कोई विज्ञापन पहचानकर्ता (IDFA) इकट्ठा नहीं किया जाता और Meta को सिर्फ़ Apple का गोपनीयता बनाए रखने वाला सामूहिक SKAdNetwork संकेत मिलता है। अगर आप अनुमति देते हैं, तो आपके डिवाइस का विज्ञापन पहचानकर्ता Meta के साथ शेयर किया जाता है, ताकि इंस्टॉल को उस विज्ञापन से जोड़ा जा सके जो आपने देखा। भेजी जाने वाली चीज़ें सिर्फ़ इंस्टॉल और ऐप खोलने के श्रेय संकेतों तक सीमित हैं; आपका स्वास्थ्य डेटा (दवाएँ, खुराकें, इंजेक्शन, वज़न, ब्लड ग्लूकोज़, साइड इफ़ेक्ट, नोट) कभी Meta को नहीं भेजा जाता। आप अपना जवाब कभी भी iOS सेटिंग → गोपनीयता और सुरक्षा → ट्रैकिंग में बदल सकते हैं।"
         },
         {
           "t": "p",
