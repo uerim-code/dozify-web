@@ -72,6 +72,9 @@ def render() -> str:
         "    absolute_redirect off;",
         "    server_tokens off;",
         "",
+        "    # Coolify routes www and apex to this container without a redirect; one host only.",
+        "    if ($host = www.dozify.app) { return 301 https://dozify.app$request_uri; }",
+        "",
     ]
     for key, value in headers():
         lines.append(f'    add_header {key} "{value}" always;')

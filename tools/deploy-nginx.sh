@@ -10,4 +10,4 @@ ssh -o BatchMode=yes "$VPS" "T=\$(cat /root/.coolify_token);
   curl -s -X PATCH -H \"Authorization: Bearer \$T\" -H 'Content-Type: application/json' \
     http://localhost:8000/api/v1/applications/$APP \
     -d '{\"custom_nginx_configuration\":\"$B64\",\"redirect\":\"non-www\"}' | head -c 300; echo;
-  curl -s -H \"Authorization: Bearer \$T\" \"http://localhost:8000/api/v1/deploy?uuid=$APP&force=false\" | head -c 300; echo"
+  curl -s -X POST -H \"Authorization: Bearer \$T\" \"http://localhost:8000/api/v1/deploy?uuid=$APP&force=false\" | head -c 300; echo"
