@@ -7,7 +7,9 @@
 # Leading slash matters: an unanchored pattern also matches the generated
 # en/ and tr/ copies and takes the whole tree down.
 /ai-calorie-tracker.html
+/articles/food-noise.html
 /articles/glp1-appointment-checklist.html
+/articles/glp1-dose-schedule.html
 /articles/glp1-injection-sites.html
 /articles/glp1-patches.html
 /articles/glp1-reminders-that-work.html
@@ -19,11 +21,13 @@
 /articles/injection-site-lumps.html
 /articles/measurements-vs-scale.html
 /articles/missed-glp1-dose.html
+/articles/protein-on-glp1.html
 /articles/reading-a-weight-trend.html
 /articles/side-effect-diary-that-helps.html
 /articles/storing-glp1-pens.html
 /articles/travelling-with-a-glp1-pen.html
 /articles/units-vs-milligrams.html
+/articles/wegovy-pill.html
 /articles/what-is-glp1.html
 /editorial-policy.html
 /glapp-alternative.html
