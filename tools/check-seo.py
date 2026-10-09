@@ -14,10 +14,14 @@ Exit code 1 on any finding.
 from __future__ import annotations
 
 import glob
+import sys
 import html as html_mod
 import json
 import os
 import re
+import sys as _sys
+_sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+from i18n_common import translated_files  # noqa: E402
 import sys
 from collections import Counter
 
@@ -39,7 +43,19 @@ def pages() -> list[str]:
     for tree in TREES:
         for p in glob.glob(os.path.join(ROOT, tree, "**", "*.html"), recursive=True):
             out.append(os.path.relpath(p, ROOT))
+    # The 20 translated languages: only rendered content pages, not the
+    # standalone legal pages build-legal.py writes into the same folders.
+    out += translated_files()
     return sorted(out)
+
+
+# Character counts read differently in CJK: a 60-character Japanese
+# description says as much as a 150-character English one.
+CJK_DESC = (30, 120)
+
+
+def desc_range(rel: str) -> tuple[int, int]:
+    return CJK_DESC if rel.split("/", 1)[0] in ("ja", "ko", "zh") else (DESC_MIN, DESC_MAX)
 
 
 def field(src: str, pattern: str) -> str | None:
@@ -78,8 +94,9 @@ def main() -> int:
             findings.append(f"{rel}: meta description yok")
         else:
             descs[desc] += 1
-            if not (DESC_MIN <= len(desc) <= DESC_MAX):
-                findings.append(f"{rel}: description {len(desc)} karakter (hedef {DESC_MIN}–{DESC_MAX})")
+            lo, hi = desc_range(rel)
+            if not (lo <= len(desc) <= hi):
+                findings.append(f"{rel}: description {len(desc)} karakter (hedef {lo}–{hi})")
 
         if not canon:
             findings.append(f"{rel}: canonical yok")

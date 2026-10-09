@@ -9,6 +9,7 @@ set -e
 
 echo "→ sayfalar kaynaklardan yeniden üretiliyor"
 python3 tools/build-languages.py > /dev/null
+python3 tools/build-i18n.py build > /dev/null
 python3 tools/build-nginx.py > /dev/null
 
 # A generated tree that differs from what is committed means someone edited a
@@ -18,10 +19,10 @@ python3 tools/build-nginx.py > /dev/null
 # Only the generated paths count. The first version diffed the whole tree, so
 # an uncommitted note in docs/ was reported as "the generated tree is stale",
 # which is both wrong and the kind of false alarm that gets a check ignored.
-if ! git diff HEAD --quiet -- en tr sitemap.xml .vercelignore vercel.json deploy/nginx.conf; then
+if ! git diff HEAD --quiet -- en tr ar cs da de el es fi fr hi it ja ko nb nl pl pt ru sv uk zh sitemap.xml .vercelignore vercel.json deploy/nginx.conf; then
   echo
   echo "KALDI — üretilen ağaç commit'lenmiş hâlden farklı:"
-  git diff HEAD --stat -- en tr sitemap.xml .vercelignore vercel.json deploy/nginx.conf
+  git diff HEAD --stat -- en tr ar cs da de el es fi fr hi it ja ko nb nl pl pt ru sv uk zh sitemap.xml .vercelignore vercel.json deploy/nginx.conf
   echo
   echo "Kaynağı düzenleyip yeniden üret, sonra commit'le. en/ ve tr/ altındaki"
   echo "dosyaları elle düzenleme — bir sonraki üretim onları siler."

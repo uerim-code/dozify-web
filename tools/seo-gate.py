@@ -21,6 +21,9 @@ import html as html_mod
 import json
 import os
 import re
+import sys as _sys
+_sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+from i18n_common import translated_files  # noqa: E402
 import subprocess
 import sys
 from collections import Counter
@@ -48,6 +51,7 @@ def pages() -> list[str]:
     out = []
     for tree in TREES:
         out += glob.glob(os.path.join(ROOT, tree, "**", "*.html"), recursive=True)
+    out += [os.path.join(ROOT, f) for f in translated_files()]
     return sorted(os.path.relpath(p, ROOT) for p in out)
 
 

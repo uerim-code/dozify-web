@@ -1,0 +1,34 @@
+{
+ "url": "https://dozify.app/en/private-glp1-tracker",
+ "meta": {
+  "title": "Private GLP-1 Tracker — No Account, No Cloud",
+  "description": "Your doses, weight and symptoms stay on your phone. No sign-up, no sync, no in-app ads. Delete the app and the records go with it."
+ },
+ "strings": [
+  "No account. Your records stay on your phone.",
+  "Your injection history, weight, side effects and progress photos are stored on your device and never uploaded. A meal photo leaves the phone only if you choose to analyse it with AI calories.",
+  "A GLP-1 log is a medical record about a treatment many people do not discuss. Handing it to a service that requires an account, a login and a server is a decision, and it is usually made by default.",
+  "There is no account to make",
+  "Install it and start. Nothing to sign up for, nothing to sign in to, and nothing to delete from a server later.",
+  "It works with the network off",
+  "Everything is on the device. Uninstalling takes your records with it.",
+  "Analytics that carry no health data",
+  "Anonymous usage counts only: never which medication you take, never a symptom. You can switch them off entirely.",
+  "People who are not willing to put a prescription, a weight and a symptom list behind someone else's login, and people who share a household, a phone plan or a family account and would rather this did not appear in it. Also anyone who has read what a free health app usually does with data and decided against it.",
+  "Records that only exist on one phone are lost with that phone. Dozify makes an encrypted backup file you keep yourself; there is no cloud that will quietly restore anything for you. Two things do leave the device, and the privacy policy names both: anonymous usage statistics, which never carry a medication name or a symptom, and a measurement of whether an install came from one of our own App Store or Meta campaigns, which runs behind Apple's tracking permission.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-private-glp1-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>",
+  "Is there an account?",
+  "No. There is nothing to sign up for and nothing to sign in to. The app opens straight into your own data.",
+  "What is collected, exactly?",
+  "Anonymous usage statistics (which screens are used, whether something crashed) with no medication name, no symptom and no weight in them. The privacy policy lists what is sent and what never is.",
+  "Can I get my data out?",
+  "Yes. Backup writes an encrypted, password-protected file to your device, which you keep and restore from wherever you keep it.",
+  "What happens if I delete the app?",
+  "Your records go with it. There is no copy on a server to come back later, which is the point and also the reason to take a backup first.",
+  "Is the data encrypted on the phone?",
+  "It is stored in the app's own database inside iOS's app sandbox, and backup files are encrypted with the password you set.",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/health-app-privacy\">how to read a health app's privacy label</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/switch-glp1-tracker-app\">importing from another app</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.",
+  "No account. Nothing leaves your phone."
+ ]
+}

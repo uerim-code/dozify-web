@@ -1,0 +1,36 @@
+{
+ "url": "https://dozify.app/en/support",
+ "meta": {
+  "title": "Dozify Support — Help, Contact and Subscriptions",
+  "description": "Answers about reminders, imports, backups, premium and cancelling a subscription — plus how to reach a person when the answer is not here."
+ },
+ "strings": [
+  "← Back to home",
+  "We typically reply within 24-48 hours.",
+  "Email Support",
+  "For general questions, bug reports, or feature requests, contact us at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.",
+  "Privacy & KVKK",
+  "For data requests, deletion, or KVKK applications, write to <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.",
+  "Frequently Asked Questions",
+  "Where is my data stored?",
+  "All your data (medications, injections, weight, side effects) is stored only on your phone, in an encrypted local database. Nothing is uploaded to any server. Dozify has no cloud.",
+  "If I switch phones, will I lose my data?",
+  "Not if you back up first. Go to Settings → Backup to create a password-protected, encrypted backup file, then restore it on your new device from the same screen. There's still no cloud sync: the backup file itself is yours to keep (Files, email, AirDrop, etc.).",
+  "How do I cancel Premium?",
+  "Manage or cancel your subscription via App Store (Settings → Apple ID → Subscriptions) or Google Play (Play Store → Subscriptions). Cancelling stops future renewals: you keep Premium until the end of the period you already paid for.",
+  "Will my Premium work on another device?",
+  "Yes. On your new device, open the Premium screen and tap \"Restore purchases\" while signed into the same Apple ID or Google account you subscribed with.",
+  "How do I add the Ozempic® / Wegovy® pen form?",
+  "Go to Medications → Add → select Ozempic or Wegovy → choose \"Pre-filled dose pen\" → set your prescribed dose.",
+  "Why can I pick Mounjaro® as both a pen and a vial?",
+  "Mounjaro comes as a pre-filled KwikPen in some markets and as a multi-dose vial in others. Dozify offers both forms so you can pick the one that matches the product you were prescribed.",
+  "My reminders are not working: what should I do?",
+  "Open your phone Settings → Notifications → Dozify → enable notifications. Also check that \"Do Not Disturb\" is off and that battery optimization is not blocking Dozify on Android.",
+  "How do I delete all my data?",
+  "Settings → Delete My Data → choose to delete selected categories or everything. Uninstalling the app also permanently deletes all local data.",
+  "How do I create a PDF report?",
+  "Go to Reports → New Report → choose summary, detailed, or doctor-visit format → select date range → Generate. The PDF can be shared by email, AirDrop, or any other app.",
+  "Does the app give medical advice?",
+  "No. Dozify is a tracking tool only. It does not recommend doses or interpret medical results. Always consult your doctor or pharmacist for clinical decisions."
+ ]
+}

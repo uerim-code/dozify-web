@@ -1,0 +1,29 @@
+{
+ "url": "https://dozify.app/en/editorial-policy",
+ "meta": {
+  "title": "Editorial Policy — Who Writes These Guides",
+  "description": "Who writes the guides on this site, which sources are allowed, what each date on an article means, and how to report something that is wrong."
+ },
+ "strings": [
+  "How the guides on this site are written",
+  "Who writes them, which sources are allowed, when they were last checked, and how to tell us one of them is wrong.",
+  "Who writes them",
+  "Ümit Can Erim writes and maintains Dozify and everything published here. He is a software developer, not a clinician: he builds the app and reads the primary sources, and the guides say what those sources say rather than what he thinks about them. Where a question needs clinical judgement (whether a dose is right, whether a symptom is worrying, whether a site looks normal) the guides send you to your own clinician instead of answering.",
+  "No clinician has reviewed this content. You will not see \"doctor reviewed\", \"medically reviewed\" or a clinician's name anywhere on this site, because there is nobody it would be true of. If that changes, the reviewer will be named on the article they reviewed, with the date they reviewed it.",
+  "Which sources are used",
+  "In this order, and the higher one wins when two disagree:",
+  "The manufacturer's own instructions for the medication: the leaflet in the box and the prescribing information.",
+  "Regulators: the FDA, the EMA and, for Turkey, the TİTCK.",
+  "Public health bodies: the NIH, NIDDK and MedlinePlus.",
+  "Peer-reviewed research and clinical guidelines.",
+  "Patient information from an academic medical centre, and only where a plain-language explanation is needed that the sources above do not give. It is named in the reference list like any other source.",
+  "Not used: forums, social posts, press releases, other trackers' marketing, and anything that cannot be linked to and read in full. Every article ends with the list of what it drew on, and each source is linked.",
+  "Dates, and what each one means",
+  "Every article carries three dates, and they mean different things. <strong>Published</strong> is when it first went up. <strong>Updated</strong> is when its text last changed. <strong>Sources checked</strong> is when someone last opened every link in its reference list and confirmed the article still matches what is there — an article can be checked without being updated, and that is the useful case: it means nothing had changed.",
+  "Corrections",
+  "If something here is wrong, write to <a href=\"mailto:support@dozify.app\">support@dozify.app</a> and say which sentence and, if you have it, what it should say. Factual errors are fixed as soon as they are confirmed against a source in the list above. When a correction changes the meaning of a passage, the article says what was corrected and when, at the bottom: a silently edited health page is worse than one that admits it was wrong.",
+  "What this site does not do",
+  "It does not tell you what dose to take, when to change one, or whether a medication is right for you. It does not diagnose, and it does not decide whether a symptom needs attention. Dozify (the app the guides belong to) records the plan you and your prescriber agreed on; it does not propose one. It is a tracking tool, not a medical device — <a href=\"/en/why\">what it does and what it refuses to do</a> is set out separately.",
+  "This policy was last changed on 18 August 2026. Questions about it go to <a href=\"mailto:support@dozify.app\">support@dozify.app</a>, and the <a href=\"/en/support\">support page</a> answers the ones about the app itself."
+ ]
+}

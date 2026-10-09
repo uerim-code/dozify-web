@@ -17,6 +17,9 @@ import glob
 import html as html_mod
 import os
 import re
+import sys as _sys
+_sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+from i18n_common import translated_files  # noqa: E402
 import sys
 from collections import defaultdict
 
@@ -69,12 +72,16 @@ def main() -> int:
     in_links: dict[str, int] = defaultdict(int)
     all_urls: set[str] = set()
 
+    paths = []
     for tree in TREES:
-        for path in sorted(glob.glob(os.path.join(ROOT, tree, "**", "*.html"), recursive=True)):
+        paths += sorted(glob.glob(os.path.join(ROOT, tree, "**", "*.html"), recursive=True))
+    paths += [os.path.join(ROOT, f) for f in translated_files()]
+    for path in paths:
+        if True:
             url = url_of(path)
             all_urls.add(url)
             src = open(path, encoding="utf-8").read()
-            for m in re.finditer(r'<a[^>]+href="(/(?:en|tr)/?[^"#]*)"[^>]*>(.*?)</a>',
+            for m in re.finditer(r'<a[^>]+href="(/(?:en|tr|ar|cs|da|de|el|es|fi|fr|hi|it|ja|ko|nb|nl|pl|pt|ru|sv|uk|zh)/?[^"#]*)"[^>]*>(.*?)</a>',
                                  body(src), re.S):
                 target = m.group(1).rstrip("/")
                 anchor = re.sub(r"\s+", " ", html_mod.unescape(

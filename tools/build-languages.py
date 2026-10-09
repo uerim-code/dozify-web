@@ -36,6 +36,8 @@ from structured_data import build_graph, strip_jsonld  # noqa: E402
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = "https://dozify.app"
 APP_STORE_URL = "https://apps.apple.com/app/dozify/id6764325653"
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from i18n_common import LANGS as I18N_LANGS, langs_for  # noqa: E402
 APP_STORE_ID = "6764325653"
 PROVIDER_TOKEN = "128799689"  # App Store Connect provider id (olympus session providerId)
 
@@ -141,7 +143,9 @@ def head_tags(lang: str, en_slug: str, tr_slug: str) -> str:
         f'\n  <link rel="canonical" href="{self_url}">'
         f'\n  <link rel="alternate" hreflang="en" href="{en_url}">'
         f'\n  <link rel="alternate" hreflang="tr" href="{tr_url}">'
-        f'\n  <link rel="alternate" hreflang="x-default" href="{en_url}">'
+        + "".join(f'\n  <link rel="alternate" hreflang="{I18N_LANGS[l][0]}" href="{url_for(l, en_slug)}">'
+                  for l in langs_for(en_slug))
+        + f'\n  <link rel="alternate" hreflang="x-default" href="{en_url}">'
     )
 
 
@@ -344,14 +348,15 @@ def write_sitemap(pages: list[tuple[str, str, str]]) -> int:
         except Exception:
             stamp = ""
         en_url, tr_url = url_for("en", en_slug), url_for("tr", tr_slug)
-        for self_url in (en_url, tr_url):
+        extra = [(I18N_LANGS[l][0], url_for(l, en_slug)) for l in langs_for(en_slug)]
+        alts = ([("en", en_url), ("tr", tr_url)] + extra + [("x-default", en_url)])
+        alt_xml = "".join(f'    <xhtml:link rel="alternate" hreflang="{c}" href="{u}"/>\n' for c, u in alts)
+        for self_url in [en_url, tr_url] + [u for _c, u in extra]:
             rows.append(
                 f"  <url>\n    <loc>{self_url}</loc>\n"
                 + (f"    <lastmod>{stamp}</lastmod>\n" if stamp else "")
-                + f'    <xhtml:link rel="alternate" hreflang="en" href="{en_url}"/>\n'
-                  f'    <xhtml:link rel="alternate" hreflang="tr" href="{tr_url}"/>\n'
-                  f'    <xhtml:link rel="alternate" hreflang="x-default" href="{en_url}"/>\n'
-                  "  </url>"
+                + alt_xml
+                + "  </url>"
             )
     body = ('<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '

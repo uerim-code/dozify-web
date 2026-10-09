@@ -56,7 +56,15 @@ LABEL = {
     "articles": {"en": "Articles", "tr": "Makaleler"},
 }
 
-LOCALE = {"en": "en", "tr": "tr"}
+LOCALE = {"en": "en", "tr": "tr", "zh": "zh-Hans"}  # other languages: their folder code
+
+
+class _Locale(dict):
+    def __missing__(self, key):
+        return key
+
+
+LOCALE = _Locale(LOCALE)
 
 
 def _text(fragment: str) -> str:
@@ -146,11 +154,11 @@ def _author(lang: str) -> dict:
         "@type": "Person",
         "@id": AUTHOR_ID,
         "name": AUTHOR_NAME,
-        "url": f"{SITE}/{lang}/" + ("editorial-policy" if lang == "en" else "yayin-ilkeleri"),
+        "url": f"{SITE}/{lang}/" + ("yayin-ilkeleri" if lang == "tr" else "editorial-policy"),
         "description": (
-            "Developer of Dozify. Writes these guides from primary sources; not a clinician."
-            if lang == "en" else
             "Dozify'ın geliştiricisi. Bu rehberleri birincil kaynaklardan yazıyor; hekim değil."
+            if lang == "tr" else
+            "Developer of Dozify. Writes these guides from primary sources; not a clinician."
         ),
     }
 
@@ -229,10 +237,10 @@ def build_graph(
     name = heading(page) or title
     trail = visible_breadcrumb(page, url)
     if trail is None:
-        trail = [(LABEL["home"][lang], home_url)]
+        trail = [(LABEL["home"].get(lang, LABEL["home"]["en"]), home_url)]
         if is_article:
             articles_slug = slug.rsplit("/", 1)[0]
-            trail.append((LABEL["articles"][lang], f"{SITE}/{lang}/{articles_slug}"))
+            trail.append((LABEL["articles"].get(lang, LABEL["articles"]["en"]), f"{SITE}/{lang}/{articles_slug}"))
         if not is_home:
             trail.append((name, url))
 

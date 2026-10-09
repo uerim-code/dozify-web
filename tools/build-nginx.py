@@ -15,6 +15,7 @@ import importlib.util
 import json
 import pathlib
 import re
+import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "deploy" / "nginx.conf"
@@ -22,6 +23,9 @@ OUT = ROOT / "deploy" / "nginx.conf"
 spec = importlib.util.spec_from_file_location("bl", ROOT / "tools" / "build-languages.py")
 bl = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(bl)
+
+sys.path.insert(0, str(ROOT / "tools"))
+from i18n_common import LANGS, has  # noqa: E402
 
 vercel = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
 
@@ -62,6 +66,8 @@ def render() -> str:
         "map $http_accept_language $dozify_home {",
         "    default /en;",
         "    ~*^tr /tr;",
+        *[f"    ~*^{l} /{l};" for l in LANGS if has(l, "")],
+        *(["    ~*^no /nb;"] if has("nb", "") else []),
         "}",
         "",
         "server {",

@@ -1,0 +1,34 @@
+{
+ "url": "https://dozify.app/en/injection-site-tracker",
+ "meta": {
+  "title": "Injection Site Tracker — Rotate Without Notes",
+  "description": "The body map remembers which site is next, so you do not keep notes. Log where each GLP-1 injection went and see the rotation at a glance."
+ },
+ "strings": [
+  "Site rotation",
+  "Rotate your sites without keeping notes",
+  "The body map remembers where the last few went, and suggests the spot you have gone longest without using.",
+  "Rotation is one of those things that is simple in principle and impossible to hold in your head. Six sites, one injection a week, and a note somewhere that you stopped updating in March.",
+  "A map instead of a memory",
+  "Tap where you injected. The next time, the spot you have used least recently is already selected.",
+  "Your own site names",
+  "If you rotate somewhere the diagram does not name, write it in. The app will not draw an anatomy it does not know, but it will remember your label.",
+  "A gentle warning, not a rule",
+  "Pick a site you used last week and the app says so. It does not stop you: it is your body and your clinician's instruction.",
+  "People who have been told to rotate and not given a way to keep track of it, and people who have started to notice that one patch of the abdomen feels different from the rest. It also helps anyone injecting more than once a week, where the pattern is harder to hold in your head than a single weekly spot.",
+  "The body map records where you injected and suggests which area comes next in the rotation. It does not examine the site: it cannot tell you whether the skin there is suitable today, and a lump or a hardened area is something to show a clinician, not something an app should judge. The approved areas come from the manufacturer's instructions for your medication, and those instructions are what to follow if they differ.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>",
+  "Which sites can I choose from?",
+  "The abdomen, the thigh and the upper arm, split into left and right and into the areas within each. Those are the areas the manufacturers' instructions describe for subcutaneous GLP-1 injections.",
+  "How does the suggestion work?",
+  "It looks at where your recent injections went and points at the area you have used least recently. It is a suggestion on the screen, not a rule: you can log anywhere you actually injected.",
+  "Does it warn me if I use the same spot again?",
+  "It shows you what you have used recently, so a repeat is visible before you log it. It does not block anything; you may have a reason, and the app does not overrule you.",
+  "I inject in the same area every time. Is that a problem?",
+  "That is a question for your clinician or pharmacist. What Dozify can do is show them the pattern: the report includes where your injections have gone over the period you pick.",
+  "Does this replace the leaflet that came with my pen?",
+  "No. The leaflet is the instruction; this is a record of what you did. Where the two disagree, the leaflet is right.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a> and <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/injection-site-lumps\">what the labels report about lumps at a site</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a>."
+ ]
+}
