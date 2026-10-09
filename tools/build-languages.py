@@ -22,6 +22,7 @@ Run from the repo root: python3 tools/build-languages.py
 
 from __future__ import annotations
 
+import hashlib
 import os
 import pathlib
 import re
@@ -34,6 +35,7 @@ from metadata import META, keywords as page_keywords  # noqa: E402
 from structured_data import build_graph, strip_jsonld  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+CSS_VERSION = hashlib.sha1((ROOT / "styles.css").read_bytes()).hexdigest()[:8]
 SITE = "https://dozify.app"
 APP_STORE_URL = "https://apps.apple.com/app/dozify/id6764325653"
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -258,6 +260,11 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
         )
 
     html = re.sub(r'<img[^>]+src="(/screenshots/[^"]+\.webp)"[^>]*>', responsive, html)
+
+    # styles.css is cached for a week; a content hash in the URL makes a new
+    # stylesheet reach returning visitors on their next page view instead of
+    # leaving them with new markup and old rules (unstyled chips, Oct 2026).
+    html = re.sub(r'href="/?styles\.css(\?v=\w+)?"', f'href="/styles.css?v={CSS_VERSION}"', html)
 
     html = rewrite_links(html, lang)
 

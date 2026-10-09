@@ -218,6 +218,13 @@ def render(lang: str, en_slug: str, html: str, page_t: dict, common_t: dict) -> 
                       lambda m: m.group(1) + _attr(htmllib.unescape(tr(m.group(2)))) + m.group(3)
                       if norm(m.group(2)) in table else m.group(0), html)
 
+    # Screenshots captured in this language replace the English ones file by
+    # file (src and srcset alike); a screen not captured yet stays English.
+    def shot(m: re.Match) -> str:
+        local = f"screenshots/{lang}/{m.group(1)}"
+        return "/" + local if (ROOT / local).exists() else m.group(0)
+    html = re.sub(r"/screenshots/en/([\w.-]+\.webp)", shot, html)
+
     code, og_locale = LANGS[lang]
     title, desc = page_t["meta"]["title"], page_t["meta"]["description"]
     ta, da = _attr(title), _attr(desc)
