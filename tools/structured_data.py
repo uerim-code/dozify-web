@@ -45,6 +45,9 @@ LANDING = {
     "private-glp1-tracker",
     "glp1-appointment-report",
     "switch-glp1-tracker-app",
+    "ai-calorie-tracker",
+    "glp1-pill-tracker",
+    "glp1-medication-level",
     "why",
 }
 

@@ -36,6 +36,8 @@ from structured_data import build_graph, strip_jsonld  # noqa: E402
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = "https://dozify.app"
 APP_STORE_URL = "https://apps.apple.com/app/dozify/id6764325653"
+APP_STORE_ID = "6764325653"
+PROVIDER_TOKEN = "128799689"  # App Store Connect provider id (olympus session providerId)
 
 # source file -> (english slug, turkish slug). "" is the tree's index.
 PAGES: dict[str, tuple[str, str]] = {
@@ -51,6 +53,9 @@ PAGES: dict[str, tuple[str, str]] = {
     "shotsy-alternative.html":        ("shotsy-alternative", "shotsy-alternatifi"),
     "glapp-alternative.html":         ("glapp-alternative", "glapp-alternatifi"),
     "glucopal-alternative.html":      ("glucopal-alternative", "glucopal-alternatifi"),
+    "ai-calorie-tracker.html":        ("ai-calorie-tracker", "fotograftan-kalori-takibi"),
+    "glp1-pill-tracker.html":         ("glp1-pill-tracker", "glp1-hap-takibi"),
+    "glp1-medication-level.html":     ("glp1-medication-level", "ilac-seviyesi-egrisi"),
     "why.html":                       ("why", "neden-dozify"),
     "editorial-policy.html":          ("editorial-policy", "yayin-ilkeleri"),
     "support.html":                   ("support", "destek"),
@@ -201,6 +206,10 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
                           lambda m, v=value: m.group(1) + v + m.group(2), html, count=1)
         else:
             html = html.replace("</head>", "  " + tag.format(value) + "\n</head>", 1)
+    # Safari's Smart App Banner: a native "Open/Get" bar for iPhone visitors.
+    # Plain meta, no script; other browsers ignore it.
+    if 'name="apple-itunes-app"' not in html:
+        html = html.replace("</head>", f'  <meta name="apple-itunes-app" content="app-id={APP_STORE_ID}">\n</head>', 1)
     if "apple-touch-icon" not in html:
         html = html.replace(
             "</head>",
@@ -253,8 +262,11 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
     # Analytics can say which page sent the install. It is a query parameter
     # Apple reads on its own side — no script on the page, nothing about the
     # visitor, and it works with the tracking permission denied.
+    # pt is the App Store Connect provider id: without it App Analytics does not
+    # attribute ct at all, so every web install showed up as "Web Referrer"
+    # with no page. mt=8 marks the link as an app (not music/books).
     campaign = f"web-{en_slug.replace('/', '-') or 'home'}-{lang}"[:40]
-    html = html.replace(APP_STORE_URL, f"{APP_STORE_URL}?ct={campaign}")
+    html = html.replace(APP_STORE_URL, f"{APP_STORE_URL}?pt={PROVIDER_TOKEN}&ct={campaign}&mt=8")
 
     # lang.js guessed the visitor's language from their time zone and wrote it
     # into <html lang>. That was right when both languages shared a document;

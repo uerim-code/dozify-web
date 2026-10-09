@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1 Pill Tracker — Dozify</title>
+  <meta property="og:url" content="https://dozify.app/glp1-pill-tracker">
+  <link rel="canonical" href="https://dozify.app/glp1-pill-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488"/>
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z"/><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z"/>
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features" data-lang="en">Features</a>
+        <a href="/#features" data-lang="tr">Özellikler</a>
+        <a href="/#privacy" data-lang="en">Privacy</a>
+        <a href="/#privacy" data-lang="tr">Gizlilik</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/" data-lang="en">Home</a>
+      <a href="/" data-lang="tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      <span data-lang="en">Pill tracker</span>
+      <span data-lang="tr">Hap takibi</span>
+    </div>
+    <h1 data-lang="en">A pill tracker for Wegovy®, Rybelsus® and other GLP-1 tablets</h1>
+    <h1 data-lang="tr">Wegovy® hap takibi ve diğer GLP-1 tabletleri tek yerde</h1>
+    <p class="meta" data-lang="en">A daily tablet asks for the same small routine every morning. Dozify reminds you, logs each dose, and keeps it in the same history as everything else you track.</p>
+    <p class="meta" data-lang="tr">Günlük bir tablet, her sabah aynı küçük rutini ister. Dozify hatırlatır, her dozu kaydeder ve takip ettiğin diğer her şeyle aynı geçmişte tutar.</p>
+
+    <h2 data-lang="en">The problem</h2>
+    <p data-lang="en">A weekly pen is one decision a week. A tablet is one every day, before breakfast, before coffee, before anything else, and the question at 7 a.m. is not complicated, just easy to lose: did I take it today, and has it been long enough to eat? Seven of those a week is a lot of small chances to guess.</p>
+
+    <h2 data-lang="tr">Sorun</h2>
+    <p data-lang="tr">Haftalık kalem, haftada bir karar demek. Tablet ise her gün bir karar: kahvaltıdan önce, kahveden önce, her şeyden önce. Sabah yedide soru karmaşık değil, sadece kolay kaçıyor: bugün aldım mı, yemek için yeterince beklediğim oldu mu? Haftada yedi kez bu soruyu sormak, yedi ayrı tahmin fırsatı demek.</p>
+
+    <h2 data-lang="en">The tablets Dozify knows</h2>
+    <p data-lang="en">Each of these is logged as a daily dose. When you add one, the strength picker shows the strengths listed for it in the app:</p>
+    <ul data-lang="en">
+      <li><strong>Wegovy® tablet</strong> (oral semaglutide): 1.5, 4, 9 and 25 mg</li>
+      <li><strong>Ozempic® tablet</strong> (oral semaglutide): 1.5, 4 and 9 mg</li>
+      <li><strong>Rybelsus®</strong> (oral semaglutide): 3, 7 and 14 mg</li>
+      <li><strong>Foundayo®</strong> (orforglipron, Eli Lilly): 0.8, 2.5, 5.5, 9, 14.5 and 17.2 mg</li>
+    </ul>
+    <p data-lang="en">That list is there so you can pick what is printed on your box. It is not a schedule and not a suggestion: which strength you take, and when it changes, is your prescriber's decision.</p>
+
+    <h2 data-lang="tr">Dozify'ın tanıdığı tabletler</h2>
+    <p data-lang="tr">Bunların her biri günlük doz olarak kaydedilir. Birini eklediğinde doz seçici, uygulamada o ilaç için listelenen dozları gösterir:</p>
+    <ul data-lang="tr">
+      <li><strong>Wegovy® tablet</strong> (ağızdan semaglutid): 1,5, 4, 9 ve 25 mg</li>
+      <li><strong>Ozempic® tablet</strong> (ağızdan semaglutid): 1,5, 4 ve 9 mg</li>
+      <li><strong>Rybelsus®</strong> (ağızdan semaglutid): 3, 7 ve 14 mg</li>
+      <li><strong>Foundayo®</strong> (orforglipron, Eli Lilly): 0,8, 2,5, 5,5, 9, 14,5 ve 17,2 mg</li>
+    </ul>
+    <p data-lang="tr">Bu liste, kutunda yazanı seçebilmen için var. Bir program da değil, öneri de değil: hangi dozu alacağına ve ne zaman değişeceğine reçeteni yazan hekim karar verir.</p>
+
+    <h2 data-lang="en">The routine before breakfast</h2>
+    <p data-lang="en">Oral semaglutide comes with instructions that are easy to get slightly wrong when you are half awake, so Dozify keeps the label note with the medication. For the Wegovy and Ozempic tablets, what the label says is: "Once daily on an empty stomach with no more than 120 mL of water. Swallow whole — do not split, crush or chew. Wait at least 30 minutes before food, other drinks or other medicines." For Rybelsus: "Take on an empty stomach 30 minutes before breakfast." Foundayo is different, and the app's note for it reads: "Can be taken with or without food, once daily."</p>
+    <p data-lang="en">A daily reminder set for the time you actually wake up is what turns that into a habit. Daily reminders, like dose logging, are free permanently. They are scheduled on the phone, so they arrive without a connection, as long as notifications are allowed for Dozify.</p>
+
+    <h2 data-lang="tr">Kahvaltıdan önceki rutin</h2>
+    <p data-lang="tr">Ağızdan alınan semaglutidin talimatları, yarı uykulu hâlde azıcık yanlış uygulanmaya çok müsait; bu yüzden Dozify prospektüs notunu ilacın yanında tutar. Wegovy ve Ozempic tabletler için prospektüsün söylediği şu: "Günde bir kez, aç karnına, en fazla 120 mL su ile. Bütün yutulur — bölünmez, ezilmez, çiğnenmez. Aldıktan sonra yemek, içecek ve diğer ilaçlar için en az 30 dakika beklenir." Rybelsus için: "Kahvaltıdan 30 dakika önce boş mideyle alınır." Foundayo farklı; uygulamadaki notu şöyle: "Yemekten bağımsız alınabilir. Günde bir kez."</p>
+    <p data-lang="tr">Bunu alışkanlığa çeviren şey, gerçekten uyandığın saate kurulmuş günlük bir hatırlatıcı. Günlük hatırlatıcılar da doz kaydı gibi kalıcı olarak ücretsiz. Telefonda planlandıkları için bağlantı olmadan da gelirler; yeter ki Dozify için bildirimlere izin verilmiş olsun.</p>
+
+    <div class="screenshot-strip">
+      <figure class="shot" data-lang="en"><div class="device"><img data-lang="en" src="screenshots/en/home-next-dose.webp" width="750" height="1630" loading="lazy" alt="The Dozify home screen with the next dose, this week's doses, protein, water and weight"></div></figure>
+      <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/home-next-dose.webp" width="750" height="1630" loading="lazy" alt="Dozify ana ekranı: sıradaki doz, bu haftanın dozları, protein, su ve kilo"></div></figure>
+    </div>
+
+    <h2 data-lang="en">Pen to pill, pill to pen: one history</h2>
+    <p data-lang="en">If your prescriber moves you from an injection to a tablet, or back again, you change the medication in Dozify. The doses you already logged stay where they are, and the new daily doses continue on the same timeline, next to your weight and your <a href="/glp1-side-effect-journal">side-effect journal</a>. When you bring a report to an appointment, it covers both. Running two medications side by side at the same time is part of Premium.</p>
+
+    <h2 data-lang="tr">Kalemden hapa, haptan kaleme: tek geçmiş</h2>
+    <p data-lang="tr">Hekimin seni iğneden tablete geçirirse ya da tersi olursa, Dozify'da ilacı değiştirirsin. Daha önce kaydettiğin dozlar yerinde kalır; yeni günlük dozlar aynı zaman çizelgesinde, kilonun ve <a href="/glp1-side-effect-journal">yan etki günlüğünün</a> yanında devam eder. Randevuya rapor götürdüğünde ikisi birden içinde olur. Aynı anda iki ilacı yan yana takip etmek ise Premium'un parçası.</p>
+
+    <h2 data-lang="en">Storage</h2>
+    <p data-lang="en">Tablets do not need the fridge. The app's note for oral GLP-1 tablets is room temperature, in the original pack or bottle, protected from moisture, and the Wegovy tablet stays in its bottle until you take it. The exact temperature range is on your product's leaflet; <a href="/articles/storing-glp1-pens">our storage guide</a> compares pens and tablets side by side.</p>
+
+    <h2 data-lang="tr">Saklama</h2>
+    <p data-lang="tr">Tabletlerin buzdolabına ihtiyacı yok. Uygulamanın ağızdan alınan GLP-1 tabletleri için notu şöyle: oda sıcaklığında, orijinal ambalajında ya da şişesinde, nemden korunarak; Wegovy tablet de alınana kadar şişesinde kalır. Kesin sıcaklık aralığı ürününün prospektüsünde yazar; <a href="/articles/storing-glp1-pens">saklama rehberimiz</a> kalemle tableti yan yana karşılaştırıyor.</p>
+
+    <h2 data-lang="en">Why there is no level curve for tablets</h2>
+    <p data-lang="en">Dozify's Premium <a href="/glp1-medication-level">medication-level curve</a> estimates how much medicine is in the body from the injections you log, using a profile for each injectable molecule. There is no such profile for the tablets in the app, so for a medication taken only by mouth the curve is not shown at all. We could draw something, but it would be a guess dressed up as a chart, and a wrong figure is worse than a blank one. Everything else (the daily log, reminders, your <a href="/glp1-weight-tracker">weight trend</a>, the doctor report) works the same for tablets as it does for pens.</p>
+
+    <h2 data-lang="tr">Tabletlerde neden seviye eğrisi yok</h2>
+    <p data-lang="tr">Dozify'ın Premium <a href="/glp1-medication-level">ilaç seviyesi eğrisi</a>, vücuttaki ilaç miktarını kaydettiğin enjeksiyonlardan, her enjekte edilen molekül için ayrı bir profille tahmin eder. Uygulamada tabletler için böyle bir profil yok; bu yüzden yalnızca ağızdan alınan bir ilaçta eğri hiç gösterilmez. Bir şey çizebilirdik, ama grafik kılığına girmiş bir tahmin olurdu ve yanlış bir rakam, boş bir alandan daha kötüdür. Geri kalan her şey (günlük kayıt, hatırlatıcılar, <a href="/glp1-weight-tracker">kilo trendin</a>, doktor raporu) tabletlerde de kalemlerde olduğu gibi çalışır.</p>
+
+    <p style="text-align:center;margin:32px 0">
+      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="en">Download on the App Store</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
+    </p>
+
+
+    <h2 data-lang="en">Questions</h2>
+    <h2 data-lang="tr">Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 data-lang="en">Can I track the Wegovy pill in Dozify?</h3>
+        <h3 data-lang="tr">Wegovy hapını Dozify'da takip edebilir miyim?</h3>
+        <p data-lang="en">Yes. The Wegovy tablet is in the medication list as a daily oral dose, with the strengths listed for it, its label note and a daily reminder. The Ozempic tablet, Rybelsus and Foundayo are there too.</p>
+        <p data-lang="tr">Evet. Wegovy tablet, ilaç listesinde günlük ağızdan doz olarak; listelenen dozları, prospektüs notu ve günlük hatırlatıcısıyla yer alıyor. Ozempic tablet, Rybelsus ve Foundayo da listede.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Will it remind me every morning?</h3>
+        <h3 data-lang="tr">Her sabah hatırlatıyor mu?</h3>
+        <p data-lang="en">Yes, at the time you choose. Daily reminders are free permanently. A reminder is an iOS notification, so notifications need to be on for Dozify and not silenced by a focus mode.</p>
+        <p data-lang="tr">Evet, seçtiğin saatte. Günlük hatırlatıcılar kalıcı olarak ücretsiz. Hatırlatıcı bir iOS bildirimi olduğu için Dozify'ın bildirimlerinin açık olması ve bir odak modunca susturulmaması gerekir.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Why can't I see the medication-level curve for my tablet?</h3>
+        <h3 data-lang="tr">Tabletim için neden ilaç seviyesi eğrisini göremiyorum?</h3>
+        <p data-lang="en">Because the app has no profile for oral medicines and does not invent one. The curve is built only for injections. For a tablet, Dozify shows nothing rather than a number it cannot stand behind.</p>
+        <p data-lang="tr">Çünkü uygulamada ağızdan alınan ilaçlar için bir profil yok ve uygulama bir profil uydurmuyor. Eğri yalnızca enjeksiyonlar için çiziliyor. Tablette Dozify, arkasında duramayacağı bir rakam göstermek yerine hiçbir şey göstermez.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Will the app tell me which strength to take or when to go up?</h3>
+        <h3 data-lang="tr">Uygulama hangi dozu alacağımı ya da ne zaman artıracağımı söylüyor mu?</h3>
+        <p data-lang="en">No. The strengths in the picker are the ones listed for each product, there so you can record what you were prescribed. Dozify records your prescriber's plan; it never proposes one.</p>
+        <p data-lang="tr">Hayır. Seçicideki dozlar her ürün için listelenen dozlardır ve sana reçete edileni kaydedebilmen için oradadır. Dozify hekiminin planını kaydeder; asla bir plan önermez.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">I am switching from injections to a tablet. Do I lose my history?</h3>
+        <h3 data-lang="tr">İğneden tablete geçiyorum. Geçmişim kaybolur mu?</h3>
+        <p data-lang="en">No. The injections you logged stay in the record, and the tablet doses continue on the same timeline with your weight and symptoms.</p>
+        <p data-lang="tr">Hayır. Kaydettiğin enjeksiyonlar kayıtta kalır; tablet dozları kilon ve belirtilerinle aynı zaman çizelgesinde devam eder.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Does Dozify support Foundayo (orforglipron)?</h3>
+        <h3 data-lang="tr">Dozify Foundayo'yu (orforglipron) destekliyor mu?</h3>
+        <p data-lang="en">Yes, as a daily tablet with the strengths listed for it. The app's note describes it as once daily, with or without food, and FDA-approved in April 2026 for chronic weight management.</p>
+        <p data-lang="tr">Evet, listelenen dozlarıyla günlük tablet olarak. Uygulamadaki not onu günde bir kez alınan, yemekten bağımsız alınabilen ve ABD'de Nisan 2026'da kilo yönetimi için onaylanmış bir ilaç olarak tanımlıyor.</p>
+      </div>
+    </div>
+
+    <h2 data-lang="en">Read next</h2>
+    <p data-lang="en">Guides, with their sources named: <a href="/articles/what-is-glp1">what GLP-1 actually is, injections and tablets</a>, <a href="/articles/missed-glp1-dose">what the leaflet says about a missed dose</a> and <a href="/articles/storing-glp1-pens">storing pens and tablets</a>.</p>
+    <p data-lang="en">Elsewhere in Dozify: <a href="/glp1-shot-tracker">the shot tracker</a> for weekly pens, <a href="/glp1-medication-level">the estimated medication-level curve</a>, <a href="/ai-calorie-tracker">AI calories and protein from a photo</a> and <a href="/glp1-appointment-report">the doctor report</a>.</p>
+
+    <h2 data-lang="tr">Sonra şunlar</h2>
+    <p data-lang="tr">Kaynağı yazılı rehberler: <a href="/articles/what-is-glp1">GLP-1'in aslında ne olduğu, iğnesi ve tableti</a>, <a href="/articles/missed-glp1-dose">kaçan doz için prospektüsün ne dediği</a> ve <a href="/articles/storing-glp1-pens">kalem ve tabletleri saklamak</a>.</p>
+    <p data-lang="tr">Dozify'ın diğer yanları: haftalık kalemler için <a href="/glp1-shot-tracker">iğne takibi</a>, <a href="/glp1-medication-level">tahmini ilaç seviyesi eğrisi</a>, <a href="/ai-calorie-tracker">fotoğraftan kalori ve protein</a> ve <a href="/glp1-appointment-report">doktor raporu</a>.</p>
+
+    <p class="meta" data-lang="en">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza®, Rybelsus® and Foundayo® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
+
+    <p class="meta" data-lang="tr">Dozify bir takip aracıdır, tıbbi cihaz değildir. Doz önermez ve tıbbi tavsiye vermez. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza®, Rybelsus® ve Foundayo® ilgili sahiplerinin tescilli markalarıdır; Dozify bu firmalarla bağlantılı değildir.</p>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488"/>
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z"/><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z"/>
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3 data-lang="en">Legal</h3>
+          <h3 data-lang="tr">Yasal</h3>
+          <a href="/privacy" data-lang="en">Privacy Policy</a>
+          <a href="/privacy" data-lang="tr">Gizlilik Politikası</a>
+          <a href="/kvkk">KVKK</a>
+          <a href="/terms" data-lang="en">Terms</a>
+          <a href="/terms" data-lang="tr">Kullanım Koşulları</a>
+          <a href="/editorial-policy" data-lang="en">Editorial policy</a>
+          <a href="/editorial-policy" data-lang="tr">Yayın ilkeleri</a>
+        </div>
+        <div class="footer-col">
+          <h3 data-lang="en">Tracking</h3>
+          <h3 data-lang="tr">Takip</h3>
+          <a href="/glp1-shot-tracker" data-lang="en">GLP-1 shot tracker</a>
+          <a href="/glp1-shot-tracker" data-lang="tr">GLP-1 iğne takibi</a>
+          <a href="/injection-site-tracker" data-lang="en">Injection site tracker</a>
+          <a href="/injection-site-tracker" data-lang="tr">Enjeksiyon bölgesi takibi</a>
+          <a href="/glp1-weight-tracker" data-lang="en">GLP-1 weight tracker</a>
+          <a href="/glp1-weight-tracker" data-lang="tr">GLP-1 kilo takibi</a>
+          <a href="/glp1-side-effect-journal" data-lang="en">Side-effect journal</a>
+          <a href="/glp1-side-effect-journal" data-lang="tr">Yan etki günlüğü</a>
+          <a href="/glp1-vial-tracker" data-lang="en">Vial tracker</a>
+          <a href="/glp1-vial-tracker" data-lang="tr">Flakon takibi</a>
+          <a href="/private-glp1-tracker" data-lang="en">Private GLP-1 tracker</a>
+          <a href="/private-glp1-tracker" data-lang="tr">Gizli GLP-1 takibi</a>
+          <a href="/glp1-appointment-report" data-lang="en">Doctor report</a>
+          <a href="/glp1-appointment-report" data-lang="tr">Doktor raporu</a>
+          <a href="/switch-glp1-tracker-app" data-lang="en">Switch from another app</a>
+          <a href="/switch-glp1-tracker-app" data-lang="tr">Başka uygulamadan geçiş</a>
+        </div>
+        <div class="footer-col">
+          <h3 data-lang="en">Help</h3>
+          <h3 data-lang="tr">Yardım</h3>
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  </footer>
+</body>
+</html>

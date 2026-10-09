@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dozify.app/en/ai-calorie-tracker</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/ai-calorie-tracker"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/fotograftan-kalori-takibi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/ai-calorie-tracker"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/glp1-appointment-checklist</loc>
     <lastmod>2026-08-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-appointment-checklist"/>
@@ -148,6 +155,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-appointment-report"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/glp1-medication-level</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-medication-level"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/ilac-seviyesi-egrisi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-medication-level"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/en/glp1-pill-tracker</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-pill-tracker"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-hap-takibi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-pill-tracker"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/glp1-shot-tracker</loc>
     <lastmod>2026-08-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-shot-tracker"/>
@@ -247,7 +268,7 @@
   </url>
   <url>
     <loc>https://dozify.app/en</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en"/>
@@ -288,6 +309,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-vial-tracker"/>
   </url>
   <url>
+    <loc>https://dozify.app/tr/fotograftan-kalori-takibi</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/ai-calorie-tracker"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/fotograftan-kalori-takibi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/ai-calorie-tracker"/>
+  </url>
+  <url>
     <loc>https://dozify.app/tr/gizli-glp1-takibi</loc>
     <lastmod>2026-08-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/private-glp1-tracker"/>
@@ -309,6 +337,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glapp-alternative"/>
   </url>
   <url>
+    <loc>https://dozify.app/tr/glp1-hap-takibi</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-pill-tracker"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-hap-takibi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-pill-tracker"/>
+  </url>
+  <url>
     <loc>https://dozify.app/tr/glp1-igne-takibi</loc>
     <lastmod>2026-08-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-shot-tracker"/>
@@ -328,6 +363,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glucopal-alternative"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glucopal-alternatifi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glucopal-alternative"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/ilac-seviyesi-egrisi</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-medication-level"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/ilac-seviyesi-egrisi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-medication-level"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/kullanim-kosullari</loc>
@@ -499,7 +541,7 @@
   </url>
   <url>
     <loc>https://dozify.app/tr</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en"/>

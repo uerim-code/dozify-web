@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1 Medication Level Chart — Dozify</title>
+  <meta property="og:url" content="https://dozify.app/glp1-medication-level">
+  <link rel="canonical" href="https://dozify.app/glp1-medication-level">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488"/>
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z"/><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z"/>
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features" data-lang="en">Features</a>
+        <a href="/#features" data-lang="tr">Özellikler</a>
+        <a href="/#privacy" data-lang="en">Privacy</a>
+        <a href="/#privacy" data-lang="tr">Gizlilik</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/" data-lang="en">Home</a>
+      <a href="/" data-lang="tr">Ana sayfa</a>
+      <span aria-hidden="true">/</span>
+      <span data-lang="en">Medication level</span>
+      <span data-lang="tr">İlaç seviyesi</span>
+    </div>
+    <h1 data-lang="en">A GLP-1 medication level chart drawn from your own doses</h1>
+    <h1 data-lang="tr">Kendi dozlarından çizilen tahmini ilaç seviyesi eğrisi</h1>
+    <p class="meta" data-lang="en">A phone cannot measure how much medicine is in your body. What Dozify can do is estimate the shape of it from the injections you have logged, and say plainly on the screen that it is an estimate.</p>
+    <p class="meta" data-lang="tr">Vücudundaki ilaç miktarını bir telefon ölçemez. Dozify'ın yapabildiği, kaydettiğin enjeksiyonlardan bunun şeklini tahmin etmek ve bunun bir tahmin olduğunu ekranda açıkça söylemek.</p>
+
+    <h2 data-lang="en">The question behind the chart</h2>
+    <p data-lang="en">People on a weekly injection often wonder the same thing: how much of last week's dose is still working, and does that explain how today feels? A dose log answers when. It does not show what happens between one dose and the next, and that gap is where most of the questions live.</p>
+
+    <h2 data-lang="tr">Grafiğin arkasındaki soru</h2>
+    <p data-lang="tr">Haftalık iğne kullananlar sık sık aynı şeyi merak ediyor: geçen haftaki dozun ne kadarı hâlâ etkili, bugün kendimi böyle hissetmemin sebebi bu mu? Doz kaydı "ne zaman" sorusunu cevaplar. İki doz arasında ne olduğunu göstermez; soruların çoğu da tam o arada.</p>
+
+    <h2 data-lang="en">What the curve is</h2>
+    <p data-lang="en">After each injection the estimated level rises, then falls away over time according to the medicine's half-life. Dozify draws that from the doses you log (the date, the amount and the medicine) using a pharmacokinetic profile for each injectable molecule, such as semaglutide in Ozempic® and Wegovy® or tirzepatide in Mounjaro® and Zepbound®. A reference line marks the typical peak for a dose, so you can see where today's estimate sits against it. With regular injections the rise and fall settles into a consistent rhythm, which the app calls steady state.</p>
+    <p data-lang="en">The screen says it in so many words: "This is an average estimate from pharmacokinetic modeling. It does not measure actual concentration." It is not a blood test, and it knows nothing about your body that your log does not.</p>
+
+    <h2 data-lang="tr">Eğri ne gösteriyor</h2>
+    <p data-lang="tr">Her enjeksiyondan sonra tahmini seviye yükselir, sonra ilacın yarı ömrüne göre zamanla azalır. Dozify bunu kaydettiğin dozlardan (tarih, miktar ve ilaç) her enjekte edilen molekül için ayrı bir farmakokinetik profille çizer; Ozempic® ve Wegovy®'deki semaglutid ya da Mounjaro® ve Zepbound®'daki tirzepatid gibi. Bir referans çizgisi bir dozun tipik zirvesini gösterir; bugünkü tahminin ona göre nerede durduğunu görürsün. Düzenli enjeksiyonlarla bu iniş çıkış tutarlı bir ritme oturur; uygulama buna kararlı durum diyor.</p>
+    <p data-lang="tr">Ekran bunu açıkça yazar: "Bu grafik farmakokinetik modelleme ile hesaplanan ortalama bir tahmindir. Gerçek vücuttaki konsantrasyonu ölçmez." Kan testi değildir ve vücudun hakkında, kaydının bilmediği hiçbir şeyi bilmez.</p>
+
+    <div class="screenshot-strip">
+      <figure class="shot" data-lang="en"><div class="device"><img data-lang="en" src="screenshots/en/level-curve.webp" width="750" height="1630" loading="lazy" alt="Weight trend and the estimated medication-level curve from logged injections"></div></figure>
+      <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/level-curve.webp" width="750" height="1630" loading="lazy" alt="Kilo trendi ve kaydedilen enjeksiyonlardan çizilen tahmini ilaç seviyesi eğrisi"></div></figure>
+    </div>
+
+    <h2 data-lang="en">Weight and dose on one line</h2>
+    <p data-lang="en">The curve sits on the same timeline as your doses and your <a href="/glp1-weight-tracker">weight trend</a>. A dose change, a missed week or a long flat stretch on the scale shows up in context, next to what the medicine was estimated to be doing at the time, instead of in a separate app you have to line up by hand.</p>
+
+    <h2 data-lang="tr">Kilo ve doz aynı çizgide</h2>
+    <p data-lang="tr">Eğri, dozlarınla ve <a href="/glp1-weight-tracker">kilo trendinle</a> aynı zaman çizelgesinde durur. Bir doz değişikliği, kaçan bir hafta ya da tartının uzun süre kımıldamadığı bir dönem, o sırada ilacın tahminen ne yaptığının yanında, bağlamıyla görünür; elle hizalaman gereken ayrı bir uygulamada değil.</p>
+
+    <h2 data-lang="en">Hunger and food noise across the week</h2>
+    <p data-lang="en">If some days of your week feel hungrier than others, the curve gives you something concrete to compare against. Dozify lets you rate food noise in your check-ins and keeps those ratings over time, in the same app as the estimate. You can look at both for the same weeks and see for yourself whether the noisy days tend to land in the same place each week. Whatever you find is your own pattern and worth taking to your prescriber. The app does not explain it, diagnose it or suggest moving a dose because of it.</p>
+
+    <h2 data-lang="tr">Hafta boyunca açlık ve yemek gürültüsü</h2>
+    <p data-lang="tr">Haftanın bazı günleri diğerlerinden daha aç geçiyorsa, eğri karşılaştırabileceğin somut bir şey sunar. Dozify, kontrollerinde yemek gürültüsünü (food noise) puanlamana izin verir ve bu puanları zaman içinde, tahminle aynı uygulamada tutar. Aynı haftalar için ikisine birden bakıp gürültülü günlerin her hafta aynı yere denk gelip gelmediğini kendin görebilirsin. Ne bulursan bul, bu senin kendi örüntün ve hekiminle konuşmaya değer. Uygulama onu açıklamaz, teşhis koymaz ve bu yüzden dozu kaydırmayı önermez.</p>
+
+    <h2 data-lang="en">Injections only</h2>
+    <p data-lang="en">The curve is drawn for injectable medicines. For a medication taken only by mouth, such as Rybelsus® or the Wegovy tablet, Dozify shows no curve at all, because the app has no oral profile and will not invent one. A wrong figure is worse than a blank one. Tablets are still logged, reminded and reported like everything else; the <a href="/glp1-pill-tracker">GLP-1 pill tracker page</a> covers how.</p>
+
+    <h2 data-lang="tr">Yalnızca enjeksiyonlar</h2>
+    <p data-lang="tr">Eğri, enjekte edilen ilaçlar için çizilir. Rybelsus® ya da Wegovy tablet gibi yalnızca ağızdan alınan bir ilaçta Dozify hiç eğri göstermez; çünkü uygulamada ağızdan alınan ilaçlar için bir profil yok ve uygulama bir profil uydurmaz. Yanlış bir rakam, boş bir alandan daha kötüdür. Tabletler yine her şey gibi kaydedilir, hatırlatılır ve rapora girer; nasıl olduğu <a href="/glp1-pill-tracker">GLP-1 hap takibi sayfasında</a>.</p>
+
+    <h2 data-lang="en">Where it stops</h2>
+    <p data-lang="en">The estimate is an average built from a model and your log, so it is only as complete as your entries: a dose you did not log is a dose the curve does not know about. It does not account for how your own body handles the medicine, and the level it shows is not a target. How long a particular medicine stays in the body is set out in its prescribing information, and your pharmacist can walk you through it. Dozify does not recommend a dose, a dose day or a change to either. The curve is part of Premium; dose logging and reminders are free permanently.</p>
+
+    <h2 data-lang="tr">Nerede duruyor</h2>
+    <p data-lang="tr">Tahmin, bir model ve senin kaydınla kurulmuş bir ortalamadır; dolayısıyla en fazla girdilerin kadar eksiksizdir: kaydetmediğin bir doz, eğrinin bilmediği bir dozdur. Vücudunun ilacı nasıl işlediğini hesaba katmaz ve gösterdiği seviye bir hedef değildir. Bir ilacın vücutta ne kadar kaldığı o ilacın prospektüsünde yazar; eczacın sana bunu anlatabilir. Dozify doz, doz günü ya da bunlarda bir değişiklik önermez. Eğri Premium'un parçasıdır; doz kaydı ve hatırlatıcılar kalıcı olarak ücretsizdir.</p>
+
+    <p style="text-align:center;margin:32px 0">
+      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="en">Download on the App Store</a>
+      <a href="https://apps.apple.com/app/dozify/id6764325653" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
+    </p>
+
+
+    <h2 data-lang="en">Questions</h2>
+    <h2 data-lang="tr">Sorular</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 data-lang="en">Is this my actual medication level?</h3>
+        <h3 data-lang="tr">Bu benim gerçek ilaç seviyem mi?</h3>
+        <p data-lang="en">No. It is an average estimate from pharmacokinetic modelling, drawn from the doses you logged. It does not measure the concentration in your blood, and the app says so on the screen.</p>
+        <p data-lang="tr">Hayır. Kaydettiğin dozlardan, farmakokinetik modellemeyle çizilen ortalama bir tahmindir. Kanındaki konsantrasyonu ölçmez ve uygulama bunu ekranda yazar.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">How long does semaglutide stay in the body?</h3>
+        <h3 data-lang="tr">GLP-1 ilacı vücutta ne kadar kalır?</h3>
+        <p data-lang="en">The figure for each medicine is in its prescribing information, and your pharmacist or prescriber can explain what it means for you. What Dozify adds is the shape of it across your own logged doses: when the estimate rises, how it fades, and how one week overlaps the next.</p>
+        <p data-lang="tr">Her ilaç için bu bilgi kendi prospektüsünde yazar; senin için ne anlama geldiğini eczacın ya da hekimin anlatabilir. Dozify'ın kattığı, bunun kendi kaydettiğin dozlar boyunca aldığı şekil: tahminin ne zaman yükseldiği, nasıl azaldığı ve bir haftanın bir sonrakiyle nasıl üst üste bindiği.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Why is there no curve for my tablet?</h3>
+        <h3 data-lang="tr">Tabletim için neden eğri yok?</h3>
+        <p data-lang="en">The app has no profile for oral medicines, so for a medication taken only by mouth it shows no curve rather than a number it cannot stand behind. Your tablet doses are still logged and reminded as usual.</p>
+        <p data-lang="tr">Uygulamada ağızdan alınan ilaçlar için bir profil yok; bu yüzden yalnızca ağızdan alınan bir ilaçta, arkasında duramayacağı bir rakam yerine hiç eğri göstermez. Tablet dozların yine her zamanki gibi kaydedilir ve hatırlatılır.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Is the medication-level chart free?</h3>
+        <h3 data-lang="tr">İlaç seviyesi eğrisi ücretsiz mi?</h3>
+        <p data-lang="en">It is part of Premium, alongside the <a href="/ai-calorie-tracker">AI meal photo</a> and the doctor report. Logging doses and getting reminders are free permanently.</p>
+        <p data-lang="tr">Premium'un parçası; <a href="/ai-calorie-tracker">AI öğün fotoğrafı</a> ve doktor raporuyla birlikte. Doz kaydetmek ve hatırlatıcı almak kalıcı olarak ücretsiz.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">Can I use the curve to decide when to take my next dose?</h3>
+        <h3 data-lang="tr">Bir sonraki dozumu ne zaman alacağıma eğriye bakarak karar verebilir miyim?</h3>
+        <p data-lang="en">No. Your schedule and dose are your prescriber's to set. The curve is there to help you understand and describe your weeks, not to time or change a dose.</p>
+        <p data-lang="tr">Hayır. Programını ve dozunu reçeteni yazan hekim belirler. Eğri, haftalarını anlaman ve anlatman için var; bir dozun zamanını ayarlamak ya da dozu değiştirmek için değil.</p>
+      </div>
+      <div class="faq-item">
+        <h3 data-lang="en">What if I forgot to log a dose?</h3>
+        <h3 data-lang="tr">Bir dozu kaydetmeyi unuttuysam?</h3>
+        <p data-lang="en">Add it with the date and time it actually happened. The curve is built from your log, so until the entry is there it does not know about that dose.</p>
+        <p data-lang="tr">Gerçekte olduğu tarih ve saatle ekle. Eğri kaydından çizildiği için, kayıt oraya girene kadar o dozdan haberi olmaz.</p>
+      </div>
+    </div>
+
+    <h2 data-lang="en">Read next</h2>
+    <p data-lang="en">Guides, with their sources named: <a href="/articles/what-is-glp1">what GLP-1 actually is</a>, <a href="/articles/missed-glp1-dose">what the leaflet says about a missed dose</a> and <a href="/articles/reading-a-weight-trend">how to read a trend when the scale has stalled</a>.</p>
+    <p data-lang="en">Elsewhere in Dozify: <a href="/glp1-shot-tracker">the shot tracker</a>, <a href="/glp1-side-effect-journal">the side-effect journal</a>, <a href="/glp1-pill-tracker">the GLP-1 pill tracker</a>, <a href="/ai-calorie-tracker">AI calories and protein from a photo</a> and <a href="/private-glp1-tracker">why your records stay on the phone</a>.</p>
+
+    <h2 data-lang="tr">Sonra şunlar</h2>
+    <p data-lang="tr">Kaynağı yazılı rehberler: <a href="/articles/what-is-glp1">GLP-1'in aslında ne olduğu</a>, <a href="/articles/missed-glp1-dose">kaçan doz için prospektüsün ne dediği</a> ve <a href="/articles/reading-a-weight-trend">tartı durduğunda trend nasıl okunur</a>.</p>
+    <p data-lang="tr">Dozify'ın diğer yanları: <a href="/glp1-shot-tracker">iğne takibi</a>, <a href="/glp1-side-effect-journal">yan etki günlüğü</a>, <a href="/glp1-pill-tracker">GLP-1 hap takibi</a>, <a href="/ai-calorie-tracker">fotoğraftan kalori ve protein</a> ve <a href="/private-glp1-tracker">kayıtların neden telefonda kalıyor</a>.</p>
+
+    <p class="meta" data-lang="en">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. The medication-level curve is an estimate, not a measurement. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
+
+    <p class="meta" data-lang="tr">Dozify bir takip aracıdır, tıbbi cihaz değildir. Doz önermez ve tıbbi tavsiye vermez. İlaç seviyesi eğrisi bir ölçüm değil, tahmindir. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® ve Rybelsus® ilgili sahiplerinin tescilli markalarıdır; Dozify bu firmalarla bağlantılı değildir.</p>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488"/>
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z"/><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z"/>
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3 data-lang="en">Legal</h3>
+          <h3 data-lang="tr">Yasal</h3>
+          <a href="/privacy" data-lang="en">Privacy Policy</a>
+          <a href="/privacy" data-lang="tr">Gizlilik Politikası</a>
+          <a href="/kvkk">KVKK</a>
+          <a href="/terms" data-lang="en">Terms</a>
+          <a href="/terms" data-lang="tr">Kullanım Koşulları</a>
+          <a href="/editorial-policy" data-lang="en">Editorial policy</a>
+          <a href="/editorial-policy" data-lang="tr">Yayın ilkeleri</a>
+        </div>
+        <div class="footer-col">
+          <h3 data-lang="en">Tracking</h3>
+          <h3 data-lang="tr">Takip</h3>
+          <a href="/glp1-shot-tracker" data-lang="en">GLP-1 shot tracker</a>
+          <a href="/glp1-shot-tracker" data-lang="tr">GLP-1 iğne takibi</a>
+          <a href="/injection-site-tracker" data-lang="en">Injection site tracker</a>
+          <a href="/injection-site-tracker" data-lang="tr">Enjeksiyon bölgesi takibi</a>
+          <a href="/glp1-weight-tracker" data-lang="en">GLP-1 weight tracker</a>
+          <a href="/glp1-weight-tracker" data-lang="tr">GLP-1 kilo takibi</a>
+          <a href="/glp1-side-effect-journal" data-lang="en">Side-effect journal</a>
+          <a href="/glp1-side-effect-journal" data-lang="tr">Yan etki günlüğü</a>
+          <a href="/glp1-vial-tracker" data-lang="en">Vial tracker</a>
+          <a href="/glp1-vial-tracker" data-lang="tr">Flakon takibi</a>
+          <a href="/private-glp1-tracker" data-lang="en">Private GLP-1 tracker</a>
+          <a href="/private-glp1-tracker" data-lang="tr">Gizli GLP-1 takibi</a>
+          <a href="/glp1-appointment-report" data-lang="en">Doctor report</a>
+          <a href="/glp1-appointment-report" data-lang="tr">Doktor raporu</a>
+          <a href="/switch-glp1-tracker-app" data-lang="en">Switch from another app</a>
+          <a href="/switch-glp1-tracker-app" data-lang="tr">Başka uygulamadan geçiş</a>
+        </div>
+        <div class="footer-col">
+          <h3 data-lang="en">Help</h3>
+          <h3 data-lang="tr">Yardım</h3>
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  </footer>
+</body>
+</html>

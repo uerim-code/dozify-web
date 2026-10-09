@@ -39,6 +39,12 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("uygulama değiştirme", "glapp alternatifi")},
     "glucopal-alternative":         {"en": ("switching", "glucopal alternative"),
                                      "tr": ("uygulama değiştirme", "glucopal alternatifi")},
+    "ai-calorie-tracker":           {"en": ("app search", "ai calorie counter for glp-1"),
+                                     "tr": ("uygulama arayışı", "glp1 kalori takibi")},
+    "glp1-pill-tracker":            {"en": ("app search", "wegovy pill tracker"),
+                                     "tr": ("uygulama arayışı", "wegovy hap takibi")},
+    "glp1-medication-level":        {"en": ("information", "glp-1 medication level chart"),
+                                     "tr": ("bilgi", "ilaç seviyesi eğrisi")},
     "why":                          {"en": ("evaluation", "why dozify"),
                                      "tr": ("değerlendirme", "neden dozify")},
     "editorial-policy":             {"en": ("trust", "who writes dozify health content"),
@@ -92,10 +98,10 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
 # slug (english) -> {lang: (title, description)}
 META: dict[str, dict[str, tuple[str, str]]] = {
     "": {
-        "en": ("GLP-1 Tracker for Shots, Weight & Side Effects",
-               "Track GLP-1 injections, rotate sites, log weight and side effects, and export a PDF for your doctor. No account, works offline, iPhone."),
-        "tr": ("GLP-1 Takip Uygulaması — İğne, Kilo, Yan Etki",
-               "GLP-1 iğnelerini kaydet, bölge değiştir, kilo ve yan etki tut, doktorun için PDF rapor çıkar. Hesap yok, çevrimdışı çalışır, iPhone."),
+        "en": ("GLP-1 Tracker for Shots, Pills, Weight & AI Calories",
+               "Log GLP-1 shots and daily pills, rotate sites, track weight, side effects and food noise, and snap meals for AI calorie and protein estimates. iPhone."),
+        "tr": ("GLP-1 Takip — İğne, Hap, Kilo ve AI Kalori",
+               "GLP-1 iğne ve hapını kaydet, bölge değiştir; kiloyu, yan etkileri ve yemek gürültüsünü izle, öğün fotoğrafından AI ile kalori ve protein tahmini al."),
     },
     "glp1-shot-tracker": {
         "en": ("GLP-1 Shot Tracker — Never Miss Injection Day",
@@ -306,6 +312,24 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Switching from GlucoPal? Dozify reads the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device."),
         "tr": ("GlucoPal Alternatifi — GLP-1 Geçmişini Getir",
                "GlucoPal'dan mı geçiyorsun? Dozify dışa aktarımı okur, hiçbir şey yazılmadan sayıları gösterir ve okumadığı sütunları listeler. Ücretsiz, cihazında."),
+    },
+    "ai-calorie-tracker": {
+        "en": ("AI Calorie Counter for GLP-1 — Calories and Protein",
+               "Snap a meal and Dozify drafts calories and protein per item, in your language. You edit and save it next to your GLP-1 doses and weight. Premium."),
+        "tr": ("GLP-1 Kalori Takibi — Fotoğraftan Kalori ve Protein",
+               "Öğününü fotoğrafla; Dozify kalori ve proteini kalem kalem, kendi dilinde taslak olarak çıkarsın. Düzenle, kaydet; GLP-1 dozlarının ve kilonun yanında dursun."),
+    },
+    "glp1-pill-tracker": {
+        "en": ("Wegovy Pill Tracker — Daily GLP-1 Tablet Log",
+               "Log Wegovy, Ozempic tablet, Rybelsus or Foundayo daily, with a free morning reminder and the label's empty-stomach note. One history with your pens."),
+        "tr": ("Wegovy Hap Takibi — Günlük GLP-1 Tablet Kaydı",
+               "Wegovy, Ozempic tablet, Rybelsus ya da Foundayo'yu her gün kaydet; ücretsiz sabah hatırlatıcısı ve prospektüsteki aç karnına notu yanında. Kalemle tek geçmiş."),
+    },
+    "glp1-medication-level": {
+        "en": ("GLP-1 Medication Level Chart — Estimated From Your Doses",
+               "An estimated curve of how your GLP-1 builds up and fades between injections, drawn from your logged doses, beside your weight. An estimate, not a test."),
+        "tr": ("İlaç Seviyesi Eğrisi — GLP-1 Vücutta Ne Kadar Kalır",
+               "GLP-1 ilacının iğneler arasında nasıl birikip azaldığının, kaydettiğin dozlardan çizilen tahmini eğrisi; kilonun yanında. Ölçüm değil, tahmin."),
     },
 }
 

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Calorie Counter for GLP-1 — Calories and Protein</title>
+  <meta property="og:url" content="https://dozify.app/en/ai-calorie-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Snap a meal and Dozify drafts calories and protein per item, in your language. You edit and save it next to your GLP-1 doses and weight. Premium.">
+  <meta name="keywords" content="ai calorie counter for glp-1, glp-1, glp1, tracker, ozempic, wegovy, mounjaro, zepbound, semaglutide, tirzepatide, injection, dose, weight, side effects, vial, titration, reminder">
+  <meta property="og:title" content="AI Calorie Counter for GLP-1 — Calories and Protein">
+  <meta property="og:description" content="Snap a meal and Dozify drafts calories and protein per item, in your language. You edit and save it next to your GLP-1 doses and weight. Premium.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — a private GLP-1 injection and weight tracker for iPhone">
+  <meta name="twitter:title" content="AI Calorie Counter for GLP-1 — Calories and Protein">
+  <meta name="twitter:description" content="Snap a meal and Dozify drafts calories and protein per item, in your language. You edit and save it next to your GLP-1 doses and weight. Premium.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — a private GLP-1 injection and weight tracker for iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://dozify.app/en/ai-calorie-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/ai-calorie-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/fotograftan-kalori-takibi">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/ai-calorie-tracker">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/en",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/en",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Log GLP-1 shots and daily pills, rotate sites, track weight, side effects and food noise, and snap meals for AI calorie and protein estimates. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "en"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/en/ai-calorie-tracker#webpage",
+        "url": "https://dozify.app/en/ai-calorie-tracker",
+        "name": "AI Calorie Counter for GLP-1 — Calories and Protein",
+        "description": "Snap a meal and Dozify drafts calories and protein per item, in your language. You edit and save it next to your GLP-1 doses and weight. Premium.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "en",
+        "breadcrumb": {
+          "@id": "https://dozify.app/en/ai-calorie-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How accurate is the calorie count from a photo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is an estimate, and the app labels it as one. Portion size, cooking fat and hidden ingredients are hard to read from a picture. That is why the result is a draft you edit before saving rather than a number written straight into your log."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the AI meal photo free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, it is part of Premium, together with the estimated medication-level curve and the doctor report. Dose logging and reminders are free permanently."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Dozify keep my food photos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The photo is sent through Dozify's server to Google Gemini for the analysis and is not stored by the app. You are asked for your consent before the first use."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which language does it answer in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The one your app is set to. Dozify is available in 22 languages, and the items come back named in that language, so the dish on your plate is called what you would call it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it work offline?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The photo analysis needs an internet connection. The rest of Dozify, including dose logging and reminders, works offline."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will it tell me how much I should eat?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It records what you ate. Calorie and protein targets are for you and your clinician to agree; the in-app guide explains where common protein ranges come from and when they do not apply."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/en/ai-calorie-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://dozify.app/en"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "AI meal photo",
+            "item": "https://dozify.app/en/ai-calorie-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/en" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Features</a>
+        
+        <a href="/#privacy">Privacy</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/en">Home</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>AI meal photo</span>
+      
+    </div>
+    <h1>An AI calorie and protein counter for life on a GLP-1</h1>
+    
+    <p class="meta">Photograph a meal and Dozify drafts the calories and protein for each item, in your language. You check it, fix it and save it, right next to your doses and your weight.</p>
+    
+
+    <h2>Smaller plates, a different question</h2>
+    <p>On a GLP-1 medicine a lot of people find they simply eat less. When the portions shrink, the question shifts from how much is on the plate to what is on it, and protein is the number that comes up again and again in conversations about treatment. Weighing and typing in every meal is the kind of habit that lasts about a week. Taking a photo takes a few seconds, which is the whole reason this feature exists.</p>
+
+    
+    
+
+    <h2>How it works</h2>
+    <h3>Snap or pick a photo</h3>
+    <p>Take a picture of the plate or choose one from your photo library. The first time, Dozify explains where the photo goes and asks for your consent before anything is sent.</p>
+    <h3>Calories and protein, item by item</h3>
+    <p>The AI lists what it sees on the plate, each item with an estimated calorie and protein figure, written in the language your app is set to. Dozify is available in 22 languages.</p>
+    <h3>A draft, never a verdict</h3>
+    <p>Every result arrives as an editable draft with the same line on it: "This is an estimate — check it before saving." Change a portion, add the sauce it missed, remove the thing that was never there. Nothing goes into your log until you tap save.</p>
+    <h3>Next to your treatment, not in another app</h3>
+    <p>Saved meals land in the same food and water log as the rest of your day, with a running protein total, inside the app that already holds your doses and your weight. One place to look instead of three.</p>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="AI photo estimate filled into the nutrition form as an editable draft, with calories, protein and an uncertainty note"></div></figure>
+      
+    </div>
+
+    <h2>What the app says about protein</h2>
+    <p>Dozify's nutrition guide, inside the app, quotes a range of 1.2 to 1.6 g of protein per kg of body weight, and is plain about where that range comes from: nutrition guidance for weight loss, not the medicine's label. If you have kidney disease, your protein target is your doctor's to set and may be lower. The guide also suggests spreading protein across three or four meals rather than loading one, and names resistance exercise two or three times a week as the habit that consistently protects lean mass. Dozify does not prescribe a diet; the numbers that apply to you come from your clinician or dietitian.</p>
+
+    
+    
+
+    <h2>Where it stops</h2>
+    <p>It is an estimate made from a picture. A photo cannot see the oil in the pan, the sugar in the dressing or what is hiding under the rice, and portion size is the hardest thing to judge from above. Treat the figures as a starting point you correct, not a measurement. The analysis needs an internet connection, there is a daily limit per user, and the feature is part of Premium. You can always enter a meal by hand instead.</p>
+
+    
+    
+
+    <h2>Where the photo goes</h2>
+    <p>Unlike the rest of your records, this feature sends something off your phone, so it is worth being exact. The photo you pick travels over an encrypted connection, through Dozify's own server, to Google Gemini, and the estimate comes back to your phone. Dozify does not store the photo. Your doses, weight, symptoms and other health records stay on the device as they always do, and if you never use the feature, no photo leaves the phone. The full detail is in section 5 of the <a href="/en/privacy">privacy policy</a>, and the wider picture is on <a href="/en/private-glp1-tracker">the private tracker page</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0">
+      <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-ai-calorie-tracker-en&mt=8" class="btn btn-primary">Download on the App Store</a>
+      
+    </p>
+
+
+    <h2>Questions</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>How accurate is the calorie count from a photo?</h3>
+        
+        <p>It is an estimate, and the app labels it as one. Portion size, cooking fat and hidden ingredients are hard to read from a picture. That is why the result is a draft you edit before saving rather than a number written straight into your log.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Is the AI meal photo free?</h3>
+        
+        <p>No, it is part of Premium, together with the estimated <a href="/en/glp1-medication-level">medication-level curve</a> and the doctor report. Dose logging and reminders are free permanently.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Does Dozify keep my food photos?</h3>
+        
+        <p>No. The photo is sent through Dozify's server to Google Gemini for the analysis and is not stored by the app. You are asked for your consent before the first use.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Which language does it answer in?</h3>
+        
+        <p>The one your app is set to. Dozify is available in 22 languages, and the items come back named in that language, so the dish on your plate is called what you would call it.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Does it work offline?</h3>
+        
+        <p>The photo analysis needs an internet connection. The rest of Dozify, including dose logging and reminders, works offline.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Will it tell me how much I should eat?</h3>
+        
+        <p>No. It records what you ate. Calorie and protein targets are for you and your clinician to agree; the in-app guide explains where common protein ranges come from and when they do not apply.</p>
+        
+      </div>
+    </div>
+
+    <h2>Read next</h2>
+    <p>Guides, with their sources named: <a href="/en/articles/what-is-glp1">what GLP-1 actually is</a>, <a href="/en/articles/hydration-on-a-glp1">water on a GLP-1</a> and <a href="/en/articles/measurements-vs-scale">when the tape moves and the scale does not</a>.</p>
+    <p>Elsewhere in Dozify: <a href="/en/glp1-weight-tracker">the weight tracker</a>, <a href="/en/glp1-medication-level">the estimated medication-level curve</a>, <a href="/en/glp1-pill-tracker">the GLP-1 pill tracker</a> and <a href="/en/glp1-side-effect-journal">the side-effect journal</a>.</p>
+
+    
+    
+    
+
+    <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Calorie and protein figures from a photo are estimates. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Google Gemini is a trademark of Google LLC; Dozify is not affiliated with these companies.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/en" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Legal</h3>
+          
+          <a href="/en/privacy">Privacy Policy</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/en/terms">Terms</a>
+          
+          <a href="/en/editorial-policy">Editorial policy</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Tracking</h3>
+          
+          <a href="/en/glp1-shot-tracker">GLP-1 shot tracker</a>
+          
+          <a href="/en/injection-site-tracker">Injection site tracker</a>
+          
+          <a href="/en/glp1-weight-tracker">GLP-1 weight tracker</a>
+          
+          <a href="/en/glp1-side-effect-journal">Side-effect journal</a>
+          
+          <a href="/en/glp1-vial-tracker">Vial tracker</a>
+          
+          <a href="/en/private-glp1-tracker">Private GLP-1 tracker</a>
+          
+          <a href="/en/glp1-appointment-report">Doctor report</a>
+          
+          <a href="/en/switch-glp1-tracker-app">Switch from another app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Help</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  </footer>
+</body>
+</html>
