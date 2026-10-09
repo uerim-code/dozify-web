@@ -100,6 +100,7 @@ def render() -> str:
     lines += [
         "",
         "    # Generated pages are linked without .html; send the .html form to the canonical URL.",
+        "    location ~ ^(/.+)/index(\\.html)?$ { return 301 $1$is_args$args; }",
         "    location ~ ^(/.+)\\.html$ { return 301 $1$is_args$args; }",
         "    # No trailing slashes (canonicals have none).",
         "    location ~ ^(/.+)/$ { return 301 $1$is_args$args; }",
