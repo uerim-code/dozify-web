@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "GLP-1副作用日記｜いつ起きたかがわかる記録アプリ",
+  "description": "医師に「吐き気がありました」と伝えるのと「投与の15時間後に」と伝えるのは違います。症状を重症度つきで記録し、注射と並べて確認できます。"
+ },
+ "t": {
+  "See when your symptoms actually happened": "症状が実際にいつ起きたのかを知る",
+  "Telling your doctor \"I had nausea\" and telling them \"about fifteen hours after each dose\" are not the same sentence.": "医師に「吐き気がありました」と伝えるのと、「毎回の投与の15時間ほど後に」と伝えるのは、同じ文ではありません。",
+  "Side effects are remembered as a general impression and reported as one. The detail that would be useful (when, how strong, how often, relative to what) is exactly the part that fades first.": "副作用は全体的な印象として記憶され、そのまま印象として伝えられます。役に立つはずの細部（いつ、どのくらい強く、どのくらいの頻度で、何との関係で）こそ、最初に薄れていく部分です。",
+  "Three taps, at the time": "その場で、3タップ",
+  "Eleven symptom types with a severity scale. Logged when it happens, not reconstructed at the appointment.": "重症度の尺度つきで11種類の症状。診察のときに思い出すのではなく、起きたときに記録します。",
+  "Timing you can read off": "読み取れるタイミング",
+  "How your own entries have sat relative to a dose. Looking backwards at what happened, not forwards at what might.": "あなた自身の記録が、投与との関係でどこにあったか。これから起きるかもしれないことではなく、起きたことを振り返るためのものです。",
+  "Optional journal fields": "任意の日記項目",
+  "Appetite, food noise, cravings, how meals are sitting: only if you chose to track them.": "食欲、フードノイズ（アプリでは「食べ物のことが頭から離れない」）、食べ物への欲求、食事の収まり具合：記録すると選んだ場合だけ。",
+  "People in the first weeks, and people who have just moved up a dose, the two points where symptoms are most worth writing down. It is also for anyone whose doctor has asked a question the memory cannot answer: how often, how bad, and how long after the injection.": "最初の数週間の方、そして増量したばかりの方へ。症状を書き留める価値が最も高い2つの時期です。医師に、記憶では答えられない質問（どのくらいの頻度で、どのくらいつらく、注射のどのくらい後に）をされたことのある方のためでもあります。",
+  "A journal is a record, not an assessment. Dozify cannot tell you whether a symptom comes from the medication, from something you ate or from something else entirely, and it does not triage. Severe or sudden symptoms (persistent vomiting, severe abdominal pain, signs of an allergic reaction) are a reason to contact a clinician or emergency services now, not to open an app.": "日記は記録であり、評価ではありません。Dozifyは、症状がお薬から来ているのか、食べたものから来ているのか、まったく別の何かから来ているのかを教えることはできず、トリアージもしません。重い症状や突然の症状（続く嘔吐、激しい腹痛、アレルギー反応の兆候）は、アプリを開くのではなく、今すぐ医療者や救急サービスに連絡すべき理由です。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>",
+  "Which symptoms can I log?": "どの症状を記録できますか？",
+  "Eleven of the common ones, nausea, vomiting, constipation, diarrhoea, reflux, fatigue, headache, dizziness, injection-site reaction, appetite change and stomach pain: each with a severity you choose. Anything else goes in the note.": "よくある11の症状（吐き気、嘔吐、便秘、下痢、逆流、だるさ、頭痛、めまい、注射部位反応、食欲の変化、胃痛）を、それぞれ自分で選んだ重症度とともに記録できます。そのほかのことはメモに書きます。",
+  "Does it tell me whether the medication caused it?": "お薬が原因かどうかを教えてくれますか？",
+  "No, and it should not. It shows you when your entries happened relative to your doses; what that means is a conversation with your doctor.": "いいえ。そしてそうすべきでもありません。表示するのは、記録が投与との関係でいつ起きたかです。それが何を意味するかは、医師と話し合うことです。",
+  "What should I do about a severe symptom?": "重い症状があるときはどうすればいいですか？",
+  "Contact your clinician or emergency services. Logging it afterwards is useful; logging it instead is not.": "担当の医療者か救急サービスに連絡してください。後から記録するのは役に立ちますが、受診の代わりに記録するのは役に立ちません。",
+  "Do the entries appear in the doctor report?": "記録は医師向けレポートに表示されますか？",
+  "Yes, if you include that section: with their dates, their severity and where they fell relative to your injections.": "はい、そのセクションを含めれば。日付、重症度、注射との関係でいつ起きたかとともに表示されます。",
+  "Can I log things that are not symptoms?": "症状以外のことも記録できますか？",
+  "Yes. Appetite, food noise, cravings and how meals are sitting are optional fields, for the people who find them worth watching.": "はい。食欲、フードノイズ、食べ物への欲求、食事の収まり具合は、見ておく価値があると感じる方のための任意の項目です。",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/side-effect-diary-that-helps\">what makes a diary useful to a clinician</a> and <a href=\"/en/articles/hydration-on-a-glp1\">what the label warns about fluids</a>.": "出典を明記したガイド：<a href=\"/en/articles/glp1-side-effects\">よくある副作用への対処</a>、<a href=\"/en/articles/what-is-glp1\">GLP-1とは何か</a>、<a href=\"/en/articles/glp1-injection-sites\">どこに注射し、どうローテーションするか</a>、<a href=\"/en/articles/side-effect-diary-that-helps\">臨床医に役立つ日記のつけ方</a>、<a href=\"/en/articles/hydration-on-a-glp1\">水分について添付文書が警告していること</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Dozifyのそのほかの機能：<a href=\"/en/glp1-appointment-report\">医師向けレポート</a>と<a href=\"/en/glp1-shot-tracker\">注射トラッカー</a>。"
+ }
+}

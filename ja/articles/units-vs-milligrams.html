@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>単位かミリグラムか？ 換算方法がひとつではない理由</title>
+  <meta name="description" content="FDAは、意図した量の5〜20倍を投与した患者の事例を記録しています。単位は量ではなく容積を示すものであり、だからこそ誰にでも当てはまる換算方法は存在しません。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/ja/articles/units-vs-milligrams">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="単位かミリグラムか？ 換算方法がひとつではない理由">
+  <meta property="og:description" content="FDAは、意図した量の5〜20倍を投与した患者の事例を記録しています。単位は量ではなく容積を示すものであり、だからこそ誰にでも当てはまる換算方法は存在しません。">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — iPhone向けのプライベートなGLP-1注射・体重記録アプリ">
+  <meta name="twitter:title" content="単位かミリグラムか？ 換算方法がひとつではない理由">
+  <meta name="twitter:description" content="FDAは、意図した量の5〜20倍を投与した患者の事例を記録しています。単位は量ではなく容積を示すものであり、だからこそ誰にでも当てはまる換算方法は存在しません。">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — iPhone向けのプライベートなGLP-1注射・体重記録アプリ">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="ja_JP">
+
+  <link rel="canonical" href="https://dozify.app/ja/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/birim-mi-miligram-mi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/units-vs-milligrams">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/ja",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "ja"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/ja/editorial-policy",
+        "description": "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/ja/articles/units-vs-milligrams#webpage",
+        "url": "https://dozify.app/ja/articles/units-vs-milligrams",
+        "name": "単位かミリグラムか？ 換算方法がひとつではない理由",
+        "description": "FDAは、意図した量の5〜20倍を投与した患者の事例を記録しています。単位は量ではなく容積を示すものであり、だからこそ誰にでも当てはまる換算方法は存在しません。",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "ja",
+        "breadcrumb": {
+          "@id": "https://dozify.app/ja/articles/units-vs-milligrams#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "では、0.25 mgは何単位ですか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "どのバイアルにも当てはまる答えはありません。だからこそミスが起きたのです。それはあなたのバイアルの濃度によります。FDAが示している数字は、ある特定の製品で0.25 mgを5単位としていますが、同じ警告は、濃度が業者の間でも1つの業者の中でも異なることを強調しています。処方した人か、調製した薬局に聞いてください。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "コンパウンドされたセマグルチドはFDAに承認されていますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "いいえ。FDA： 「コンパウンドされた医薬品は、安全性、品質、有効性についてFDAの市販前審査を受けていません」 、そして 「入手可能なFDA承認薬では医療上のニーズを満たせない患者にのみ使うべきです。」"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "多く注射してしまったと思います。FDAはどんなことが起きたと見ていますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "まず医療機関を受診してください。参考までに、報告された事象は 「胃腸への影響（例：吐き気、嘔吐、腹痛）、失神、頭痛、片頭痛、脱水、急性膵炎、胆石」 でした。警告はまた、 「セマグルチドの半減期は約1週間と長いため、過量投与の症状について長期間の観察と治療が必要になる場合があります」 とも記しています。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "用量の列が単位だったとき、取り込みが拒否されたのはなぜですか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "25単位をミリグラムの欄に書き込むと、バイアルによっては50倍の用量を記録することになり、その後どこでもそれが疑われることはないからです。代わりにそれらの行を理由とともに一覧表示するので、処方医が使っている量で入力し直せます。"
+            }
+          }
+        ],
+        "headline": "単位かミリグラムか？ 換算方法がひとつではない理由",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-27",
+        "dateModified": "2026-08-27",
+        "lastReviewed": "2026-08-27",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "FDA - Dosing errors associated with compounded injectable semaglutide products",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-patients-dosing-errors-associated-compounded"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FDA MedWatch - Adverse Event Reporting Program",
+            "url": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program"
+          },
+          {
+            "@type": "WebPage",
+            "name": "MedlinePlus (NIH) - Semaglutide Injection",
+            "url": "https://medlineplus.gov/druginfo/meds/a618008.html"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/ja/articles/units-vs-milligrams#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "ホーム",
+            "item": "https://dozify.app/ja"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "記事",
+            "item": "https://dozify.app/ja/articles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "単位かミリグラムか",
+            "item": "https://dozify.app/ja/articles/units-vs-milligrams"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/ja" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">機能</a>
+        
+        <a href="/ja/support">サポート</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/ja">ホーム</a>
+        
+        <span aria-hidden="true">/</span>
+        <a href="/ja/articles">記事</a>
+        
+        <span aria-hidden="true">/</span>
+        <span>単位かミリグラムか</span>
+        
+      </div>
+
+      <div class="article-hero">
+        <h1>単位かミリグラムか？ 換算方法がひとつではない理由</h1>
+        
+        <p class="article-meta">著者：Ümit Can Erim · 公開日 2026年8月27日 · 更新日 2026年8月27日 · 出典確認日 2026年8月27日 · <a href="/ja/editorial-policy">ガイドの作成方針</a></p>
+        
+        <p class="article-lede">セマグルチド1ミリグラムが何単位になるかを検索したなら、正直な答えは、あなたのバイアルを知らずには誰にも答えられない、ということです。単位とはシリンジの目盛り（容積）であり、その容積にどれだけのお薬が入っているかは、手元にあるそのバイアルの濃度によって決まります。FDAは、それを推測したときに何が起きるかを記録しています：患者が意図した量の5〜20倍を投与していたのです。</p>
+        
+      </div>
+
+      <div class="article-body">
+        <p><strong>はじめにお読みください。</strong>このページは公開されているFDAの警告を引用したものです。あなたのために何かを換算することはなく、あなたの用量が何であるか、何であるべきかも示しません。その数字を決めるのは処方した人と、あなたのバイアルのラベルです。意図したより多く使ったかもしれないと思ったら、処方医に連絡するか、医療機関を受診してください。</p>
+        
+
+        <h2>FDAが報告したこと</h2>
+        
+        <p>2024年7月26日、FDAはコンパウンド（調製）された注射用セマグルチドについての警告を公表しました。その冒頭の一文が、問題全体を1行で表しています：<em>「FDAは、コンパウンドされたセマグルチド注射製剤に関連する投与ミスによる過量投与に関連している可能性のある有害事象の報告を受けており、中には入院を必要としたものもあります。」</em></p>
+        
+        <p>警告は、それがどのように起きたかを具体的に書いています。<em>「報告の大部分は、患者が自己投与の際、複数回使用のバイアルから処方された量より多く誤って吸い上げたというものでした。これらの事例では、患者は意図した量の5〜20倍のセマグルチドを投与していました。」</em>そして図で示している例：U-100インスリン用シリンジを使ってバイアルから<em>5単位（0.05ミリリットル）</em>を投与するよう指示された患者が、<em>「誤って50単位を投与しました」</em>。</p>
+        
+        <p>処方する側も、逆方向に同じ種類のミスをしていました。<em>「ある医療者は0.25ミリグラム（5単位）を投与するつもりでしたが、代わりに25単位を処方し、患者は意図した量の5倍を投与されて激しい嘔吐を起こしました。」</em>別の医療者は<em>「2単位ではなく20単位を処方し、3人の患者に影響が出ました。」</em></p>
+        
+
+        <h2>単位はお薬の量ではない</h2>
+        
+        <p>ここが、このミスをとても起こしやすくしている部分です。インスリンには標準的な濃度があるため、インスリン用シリンジは単位で目盛りがつけられており、そのシリンジでは1単位が確実に決まった量を意味します。セマグルチドにはそのような決まりがありません。FDAははっきり書いています：説明書は<em>「ミリグラムやミリリットルではなく、『単位』（その容積は濃度によって異なる場合がある）でセマグルチドを注射するよう指示している場合があります。」</em></p>
+        
+        <p>つまり「25単位」は用量ではありません。シリンジの筒の上の距離です。濃度の違う2つのバイアル、同じ25目盛り、異なる2つのお薬の量。</p>
+        
+
+        <h2>濃度を調べられない理由</h2>
+        
+        <p>標準ではないからです。FDA：<em>「製品の濃度はコンパウンドを行う業者によっても異なる場合があり、1つの業者が複数の濃度のコンパウンドされたセマグルチド製品を提供している場合もあります。」</em>業者の間で異なるだけでなく、1つの業者の中でも異なるのです。ネットで見つけた換算表は、誰か別の人のバイアルにもとづいて書かれたもので、警告には、まさにこれをネットで検索した結果、意図した量の5倍を使ってしまった患者の事例が書かれています。</p>
+        
+        <p>承認された製品は、つくりからしてこの問題を避けています。FDAは、それらが<em>「ミリグラムで投与され、標準的な濃度を持ち、現在はプレフィルドペンでのみ提供されている」</em>と記しています。読み取るシリンジがないので、読み間違えることもありません。</p>
+        
+
+        <h2>警告が脚注で付け加えている2つのこと</h2>
+        
+        <p>どちらも見落としやすく、知っておく価値があります。第一に、コンパウンド製品の中にはセマグルチド以外のものを含むものがあり（FDAはシアノコバラミン（B-12）、ピリドキシン（B-6）、レボカルニチン、NADを挙げています）、<em>「セマグルチドとほかの成分を組み合わせることの安全性と有効性は確立されていません」</em>としています。第二に、塩の形を使っているものがあります：<em>「セマグルチドナトリウムとセマグルチド酢酸塩。塩の形は、承認された医薬品で使われているものとは異なる有効成分です。」</em></p>
+        
+
+        <h2>警告が人々に求めていること</h2>
+        
+        <p>患者への助言は1文で、それは計算ではありません：<em>「FDAは患者に対し、コンパウンドされたセマグルチドの意図した用量をどのように測り、投与するかについて、医療者またはコンパウンドを行う業者と話し合うことを推奨します。」</em>処方する側とコンパウンドを行う業者には、意図した用量に合ったサイズのシリンジを使うこと、そして測り方を説明することを求めています。</p>
+        
+        <p>報告も求めています。有害事象と投与ミスは、FDAの有害事象報告プログラムである<a href="https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program" rel="nofollow noopener" target="_blank">MedWatch</a>に報告します。</p>
+        
+
+        <h2>ここで記録にできること、そして決してしてはいけないこと</h2>
+        
+        <p>記録が役に立つのは事実の部分です：バイアルに何が入っていたか、処方医が用量を何と言ったか、何をいつ使ったか。それを1か所にまとめておく価値はあり、何かがうまくいかなかったときに聞かれるのもそれです。</p>
+        
+        <p>してはいけないのは換算です。Dozifyは「25単位」をミリグラムの数字に変えることはしません。用量の列が単位で書かれたほかのアプリから履歴を取り込んだ場合、それらの行は黙って換算されるのではなく、取り込みを拒否してあなたに表示されます。換算にはそのバイアル固有の濃度が必要で、ファイルにはそれが含まれていないからです。それを推測することこそが、このページ全体が扱っているミスなのです。</p>
+        
+      </div>
+
+      <div class="article-cta">
+        <h3>推測したことではなく、決めたことを記録する</h3>
+        
+        <p>用量、バイアル、日付をスマートフォンの1か所に。Dozifyはあなたと処方医が決めたことを記録するだけで、用量を提案することも、確認できない単位を換算することもありません。</p>
+        
+        <a href="/#download" class="btn btn-primary">アプリをダウンロード</a>
+        
+        <a href="/ja/glp1-vial-tracker" class="link-arrow">バイアルの記録のしくみを見る →</a>
+        
+      </div>
+
+      <div class="article-faq">
+        <h2>質問</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>では、0.25 mgは何単位ですか？</h3>
+            
+            <p>どのバイアルにも当てはまる答えはありません。だからこそミスが起きたのです。それはあなたのバイアルの濃度によります。FDAが示している数字は、ある特定の製品で0.25 mgを5単位としていますが、同じ警告は、濃度が業者の間でも1つの業者の中でも異なることを強調しています。処方した人か、調製した薬局に聞いてください。</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>コンパウンドされたセマグルチドはFDAに承認されていますか？</h3>
+            
+            <p>いいえ。FDA：<em>「コンパウンドされた医薬品は、安全性、品質、有効性についてFDAの市販前審査を受けていません」</em>、そして<em>「入手可能なFDA承認薬では医療上のニーズを満たせない患者にのみ使うべきです。」</em></p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>多く注射してしまったと思います。FDAはどんなことが起きたと見ていますか？</h3>
+            
+            <p>まず医療機関を受診してください。参考までに、報告された事象は<em>「胃腸への影響（例：吐き気、嘔吐、腹痛）、失神、頭痛、片頭痛、脱水、急性膵炎、胆石」</em>でした。警告はまた、<em>「セマグルチドの半減期は約1週間と長いため、過量投与の症状について長期間の観察と治療が必要になる場合があります」</em>とも記しています。</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>用量の列が単位だったとき、取り込みが拒否されたのはなぜですか？</h3>
+            
+            <p>25単位をミリグラムの欄に書き込むと、バイアルによっては50倍の用量を記録することになり、その後どこでもそれが疑われることはないからです。代わりにそれらの行を理由とともに一覧表示するので、処方医が使っている量で入力し直せます。</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p>教育目的の情報であり、医学的な助言ではありません。Dozifyは個人用の記録アプリであり、医療機器ではありません。このページは公開されているFDAの警告を引用したもので、特定の個人に対して用量、換算、スケジュール、対応を推奨するものではありません。必ずお薬に付属の説明書と処方医の指示に従ってください。重い症状がある場合は、医療機関を受診するか、地域の救急番号に電話してください。</p>
+        
+      </div>
+
+      <div class="references">
+        <h2>参考文献</h2>
+        <ol>
+          <li><a href="https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-patients-dosing-errors-associated-compounded" rel="nofollow noopener" target="_blank">FDA — Dosing errors associated with compounded injectable semaglutide products (26 July 2024)</a></li>
+          <li><a href="https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program" rel="nofollow noopener" target="_blank">FDA — MedWatch Adverse Event Reporting Program</a></li>
+          <li><a href="https://medlineplus.gov/druginfo/meds/a618008.html" rel="nofollow noopener" target="_blank">MedlinePlus (NIH). Semaglutide Injection</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/ja" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>法的情報</h3>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/ja/terms">利用規約</a>
+          
+          <a href="/ja/editorial-policy">編集方針</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>ヘルプ</h3>
+          
+          <a href="/ja/support">サポート</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/articles/units-vs-milligrams" hreflang="en" lang="en">English</a> · <a href="/tr/makaleler/birim-mi-miligram-mi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/articles/units-vs-milligrams" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/articles/units-vs-milligrams" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/articles/units-vs-milligrams" hreflang="da" lang="da">Dansk</a> · <a href="/de/articles/units-vs-milligrams" hreflang="de" lang="de">Deutsch</a> · <a href="/el/articles/units-vs-milligrams" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/articles/units-vs-milligrams" hreflang="es" lang="es">Español</a> · <a href="/fi/articles/units-vs-milligrams" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/articles/units-vs-milligrams" hreflang="fr" lang="fr">Français</a> · <a href="/hi/articles/units-vs-milligrams" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/articles/units-vs-milligrams" hreflang="it" lang="it">Italiano</a> · <a href="/ja/articles/units-vs-milligrams" hreflang="ja" lang="ja" aria-current="page">日本語</a> · <a href="/ko/articles/units-vs-milligrams" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/articles/units-vs-milligrams" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/articles/units-vs-milligrams" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/articles/units-vs-milligrams" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/articles/units-vs-milligrams" hreflang="pt" lang="pt">Português</a> · <a href="/ru/articles/units-vs-milligrams" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/articles/units-vs-milligrams" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/articles/units-vs-milligrams" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/articles/units-vs-milligrams" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

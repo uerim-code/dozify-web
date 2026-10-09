@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "Трекер флаконів GLP-1: знайте, коли він закінчиться",
+  "description": "Залишок доз, дні від відкриття й термін придатності на одній картці. Обидва способи, якими закінчується флакон, видно за тижні; Dozify рахує за вас."
+ },
+ "t": {
+  "Vial tracking": "Облік флаконів",
+  "Know when the vial runs out before it does": "Дізнайтеся, коли закінчиться флакон, ще до того, як це станеться",
+  "Remaining volume, doses left, and the expiry date: on one card, before the weekend the pharmacy is closed.": "Залишок об’єму, кількість доз і термін придатності: на одній картці, ще до вихідних, коли аптека зачинена.",
+  "A vial ends in two ways: it empties, or it expires. Both are predictable weeks ahead and both are usually noticed the evening a dose is due.": "Флакон закінчується двома способами: він порожніє або спливає його термін. Обидва можна передбачити за тижні, і обидва зазвичай помічають увечері, коли настає час дози.",
+  "What is left, in doses": "Що залишилося — у дозах",
+  "Remaining millilitres and what that means in injections at your prescribed amount.": "Залишок мілілітрів і скільки це ін’єкцій у призначеній вам кількості.",
+  "Two clocks, not one": "Два відліки, а не один",
+  "Days since opening and the manufacturer's expiry, whichever comes first: with the storage rules for that medication.": "Дні від відкриття й термін придатності від виробника — що настане раніше: разом із правилами зберігання для цього препарату.",
+  "Time out of the fridge": "Час поза холодильником",
+  "Log a storage event when a vial spends the afternoon in a bag. Travel mode is for the days that are not ordinary.": "Запишіть подію зберігання, коли флакон провів пів дня в сумці. Режим подорожі — для незвичайних днів.",
+  "People on multi-dose pens and vials, where one container covers several weeks and the end of it arrives quietly. It matters most to anyone who travels with their medication, or who has stood in front of an open fridge on a Sunday wondering whether what is in there is still good.": "Для людей на багатодозових шприц-ручках і флаконах, де однієї ємності вистачає на кілька тижнів, а кінець настає непомітно. Найважливіше це для тих, хто подорожує з ліками, або хто стояв у неділю перед відчиненим холодильником, гадаючи, чи те, що там лежить, ще придатне.",
+  "Dozify counts what you tell it: doses drawn, the day you opened the vial and the expiry printed on it. It cannot see the liquid, so it cannot tell you whether a particular vial is still fit to use: that judgement belongs to the storage instructions for your medication and, when there is any doubt, to your pharmacist. The in-use limits it shows come from those instructions, not from us.": "Dozify рахує те, що ви йому повідомляєте: набрані дози, день відкриття флакона й надрукований на ньому термін придатності. Він не бачить рідини, тож не може сказати, чи придатний ще конкретний флакон: це вирішують вказівки щодо зберігання вашого препарату, а за будь-яких сумнівів — ваш фармацевт. Обмеження періоду використання, які він показує, взято з цих вказівок, а не вигадано нами.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Завантажити в App Store</a>",
+  "Does it count doses automatically?": "Чи рахує він дози автоматично?",
+  "It subtracts each injection you log from the vial you logged it against, so the remaining amount follows your own entries without a separate step.": "Він віднімає кожну записану ін’єкцію від флакона, до якого ви її прив’язали, тож залишок відповідає вашим записам без окремого кроку.",
+  "Where does the in-use limit come from?": "Звідки береться обмеження періоду використання?",
+  "From the storage instructions for that medication: how long it may be kept once opened, and at what temperature. Dozify shows the one that applies and counts the days; it does not invent a number.": "З вказівок щодо зберігання цього препарату: скільки його можна зберігати після відкриття і при якій температурі. Dozify показує те, що застосовується, і рахує дні; він не вигадує цифр.",
+  "What if the pen spends a day out of the fridge?": "Що, якщо ручка проведе день поза холодильником?",
+  "Log it as a storage event, with how long and roughly how warm. It stays on the vial's record so it is there when you decide, or when you ask a pharmacist.": "Запишіть це як подію зберігання — скільки часу і приблизно наскільки тепло. Це залишиться в історії флакона, тож буде під рукою, коли ви вирішуватимете або питатимете фармацевта.",
+  "Will it warn me before a vial runs out?": "Чи попередить він, перш ніж флакон закінчиться?",
+  "It shows doses remaining and days remaining on the card, so the end is visible weeks ahead rather than the evening a dose is due.": "На картці показано залишок доз і днів, тож кінець видно за тижні, а не ввечері, коли настає час дози.",
+  "Does this work for pens as well as vials?": "Чи працює це для шприц-ручок так само, як для флаконів?",
+  "Yes. A pen with several doses in it is tracked the same way: what is left, how long it has been open, and when it expires.": "Так. Ручка з кількома дозами відстежується так само: що залишилося, скільки часу вона відкрита і коли спливає її термін.",
+  "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/storing-glp1-pens\">what each label says about storing a pen</a> and <a href=\"/en/articles/travelling-with-a-glp1-pen\">what the rules say about flying with one</a>.": "Посібники з указаними джерелами: <a href=\"/en/articles/how-to-inject-glp1\">як зробити укол шприц-ручкою, крок за кроком</a>, <a href=\"/en/articles/glp1-injection-sites\">куди колоти і як чергувати місця</a>, <a href=\"/en/articles/what-is-glp1\">що насправді таке GLP-1</a>, <a href=\"/en/articles/storing-glp1-pens\">що кожна інструкція каже про зберігання шприц-ручки</a> і <a href=\"/en/articles/travelling-with-a-glp1-pen\">що кажуть правила про політ із нею</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Інше в Dozify: <a href=\"/en/glp1-shot-tracker\">трекер уколів</a> і <a href=\"/en/glp1-appointment-report\">звіт для лікаря</a>."
+ }
+}

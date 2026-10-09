@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "GLP-1-artsenrapport — ga met een samenvatting naar binnen",
+  "description": "Tien minuten om drie maanden uit te leggen. Kies een periode en wat erin komt, en Dozify maakt een overzichtelijke pdf van doses, gewicht en bijwerkingen."
+ },
+ "t": {
+  "Walk in with a summary, not a memory": "Ga naar binnen met een samenvatting, niet met je geheugen",
+  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Eén tik maakt van drie maanden aan eigen registraties een pagina die je arts kan lezen in de tien minuten die je hebt.",
+  "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Een afspraak is kort en er moet veel worden besproken: wat je hebt genomen en wanneer, hoe het gewicht veranderde, welke bijwerkingen en op welk moment, en de twee vragen die je wilde stellen.",
+  "A clinical summary, generated on the device": "Een klinisch overzicht, gemaakt op het apparaat",
+  "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Doses en intervallen, gewichtstrend, bijwerkingen, prikplekrotatie, geopende flacons: over 30, 90 of 180 dagen.",
+  "Your questions, printed at the end": "Je vragen, afgedrukt aan het eind",
+  "Write them down as they occur to you during the month. They come out on the last page.": "Schrijf ze in de loop van de maand op zodra ze bij je opkomen. Ze komen op de laatste pagina.",
+  "Yours to share, or not": "Van jou om te delen, of niet",
+  "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "De pdf wordt op je telefoon gemaakt. Er wordt niets geüpload; jij beslist of hij ergens naartoe gaat.",
+  "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Mensen met een korte controle en een lange periode om te beschrijven, en mensen die overstappen naar een nieuwe behandelaar die hun geschiedenis nog nooit heeft gezien. Het is ook voor de afspraak waarbij een dosiswijziging op tafel ligt, waar wat er in de afgelopen acht weken is gebeurd precies is waar de beslissing op rust.",
+  "The report is your record laid out clearly. It is not a clinical assessment, it contains no interpretation, and nothing in it should be read as a recommendation, the reading is your doctor's. It also only contains what you logged: a week you did not record is a gap in the report, not a week without doses.": "Het rapport is je eigen registratie, overzichtelijk weergegeven. Het is geen klinische beoordeling, het bevat geen interpretatie en niets erin mag worden gelezen als aanbeveling; het lezen ervan is aan je arts. Het bevat ook alleen wat je hebt gelogd: een week die je niet hebt vastgelegd, is een gat in het rapport, geen week zonder doses.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Download in de App Store</a>",
+  "What is in the report?": "Wat staat er in het rapport?",
+  "Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down: over the range you pick.": "Doses en de intervallen ertussen, de gewichtstrend, bijwerkingen met hun ernst, prikplekken, geopende flacons en de vragen die je hebt opgeschreven: over de periode die je kiest.",
+  "Which date ranges can I choose?": "Welke periodes kan ik kiezen?",
+  "30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician.": "30, 90 of 180 dagen. Negentig past meestal bij de tijd tussen afspraken; de langere is voor een eerste consult bij een nieuwe behandelaar.",
+  "Can I leave sections out?": "Kan ik onderdelen weglaten?",
+  "Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about.": "Ja. Elk onderdeel heeft een schakelaar, dus een rapport kan alleen uit doses en gewicht bestaan als het consult daarover gaat.",
+  "Can I send it before the appointment?": "Kan ik het vóór de afspraak sturen?",
+  "The PDF is a file on your phone. Print it, email it, put it in a portal: that is your decision, made after you have seen it.": "De pdf is een bestand op je telefoon. Print hem, mail hem, zet hem in een patiëntenportaal: dat is jouw beslissing, genomen nadat je hem hebt gezien.",
+  "Is anything uploaded to make it?": "Wordt er iets geüpload om het te maken?",
+  "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Nee. Het wordt op het apparaat gemaakt uit registraties die er al zijn. Er wordt niets ergens naartoe gestuurd om het te maken.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Gidsen, met hun bronnen erbij: <a href=\"/en/articles/glp1-side-effects\">omgaan met veelvoorkomende bijwerkingen</a>, <a href=\"/en/articles/what-is-glp1\">wat GLP-1 eigenlijk is</a> en <a href=\"/en/articles/glp1-injection-sites\">waar je prikt en hoe je afwisselt</a> en <a href=\"/en/articles/glp1-appointment-checklist\">wat je klaar moet hebben voor de afspraak zelf</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Elders in Dozify: <a href=\"/en/glp1-side-effect-journal\">het bijwerkingendagboek</a> en <a href=\"/en/glp1-weight-tracker\">de gewichtstrend</a>."
+ }
+}

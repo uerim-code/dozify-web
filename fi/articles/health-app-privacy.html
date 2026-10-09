@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terveyssovellusten tietosuoja: mitä merkintä ei kerro</title>
+  <meta name="description" content="Useimmat terveyssovellukset eivät kuulu HIPAA-lain piiriin, ja ”ei seurantaa” tarkoittaa suppeampaa kuin miltä kuulostaa. Applen termit ja viisi kysymystä.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/fi/articles/health-app-privacy">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="Terveyssovellusten tietosuoja: mitä merkintä ei kerro">
+  <meta property="og:description" content="Useimmat terveyssovellukset eivät kuulu HIPAA-lain piiriin, ja ”ei seurantaa” tarkoittaa suppeampaa kuin miltä kuulostaa. Applen termit ja viisi kysymystä.">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — yksityinen GLP-1-pistos- ja painonseuranta iPhonelle">
+  <meta name="twitter:title" content="Terveyssovellusten tietosuoja: mitä merkintä ei kerro">
+  <meta name="twitter:description" content="Useimmat terveyssovellukset eivät kuulu HIPAA-lain piiriin, ja ”ei seurantaa” tarkoittaa suppeampaa kuin miltä kuulostaa. Applen termit ja viisi kysymystä.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — yksityinen GLP-1-pistos- ja painonseuranta iPhonelle">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="fi_FI">
+
+  <link rel="canonical" href="https://dozify.app/fi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/health-app-privacy">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/articles/health-app-privacy">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/articles/health-app-privacy">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/articles/health-app-privacy">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/articles/health-app-privacy">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/articles/health-app-privacy">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/articles/health-app-privacy">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/articles/health-app-privacy">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/articles/health-app-privacy">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/articles/health-app-privacy">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/articles/health-app-privacy">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/articles/health-app-privacy">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/articles/health-app-privacy">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/articles/health-app-privacy">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/health-app-privacy">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/health-app-privacy">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/health-app-privacy">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/fi",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "fi"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/fi/editorial-policy",
+        "description": "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/fi/articles/health-app-privacy#webpage",
+        "url": "https://dozify.app/fi/articles/health-app-privacy",
+        "name": "Terveyssovellusten tietosuoja: mitä merkintä ei kerro",
+        "description": "Useimmat terveyssovellukset eivät kuulu HIPAA-lain piiriin, ja ”ei seurantaa” tarkoittaa suppeampaa kuin miltä kuulostaa. Applen termit ja viisi kysymystä.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "fi",
+        "breadcrumb": {
+          "@id": "https://dozify.app/fi/articles/health-app-privacy#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Eikö laki suojaa terveystietojani?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Jokin laki koskee niitä, mutta luultavasti ei se, jota ajattelet. FTC toteaa, etteivät monet terveyssovellukset kuulu HIPAA-lain piiriin; Yhdysvalloissa niitä koskee Health Breach Notification Rule, joka koskee tietoa vuodon jälkeen eikä keräämisen rajoittamista etukäteen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Merkinnässä lukee ”Tietoja ei kerätä”. Riittääkö se?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Se on vahvin asia, jonka merkintä voi sanoa, ja se on kehittäjän oma ilmoitus eikä tarkastus. Lue se yhdessä tietosuojakäytännön kanssa: käytännön, joka nimeää kerätyt tiedot, ja merkinnän, jonka mukaan mitään ei kerätä, pitäisi olla yhtäpitäviä, ja jos ne eivät ole, käytäntö on yksityiskohtaisempi asiakirja."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Mikä on varmuuskopion ja synkronoinnin ero?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Se, kuka säilyttää kopiota. Varmuuskopio on tiedosto, jonka itse tuotat ja säilytät; synkronointi on jonkun palvelimella säilytetty kopio, jotta laitteet pysyvät keskenään yhtäpitävinä. Molemmat ovat hyödyllisiä; vain toinen tarkoittaa, että merkintäsi ovat jossain, mitä et hallitse."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Tarkoittaako ”ei mainoksia”, ettei mitään mainontaan liittyvää tapahdu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ei välttämättä, ja tässä kannattaa olla tarkka. Sovelluksen sisällä ei välttämättä ole mainoksia, ja sovellus voi silti mitata, tuliko asennus mainoksesta, jota se näytti muualla. Ne ovat eri asioita; luottamuksen arvoinen käytäntö kertoo, kumpaa se tarkoittaa. Meidän käytäntömme kertoo molemmat, suoraan sanottuna."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Miten voin tarkistaa tämän kaiken itse?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Avaa App Storen sivu ja lue tietosuojaosio, avaa sitten sovelluksen tietosuojakäytäntö ja katso, kuvaavatko molemmat samaa sovellusta. Tee sitten käytännön testi: voitko käyttää sitä luomatta tiliä, ja lähtevätkö tiedot mukana, kun poistat sen?"
+            }
+          }
+        ],
+        "headline": "Mitä tarkistaa ennen kuin terveyssovellus näkee reseptisi",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-20",
+        "dateModified": "2026-08-20",
+        "lastReviewed": "2026-08-20",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "Apple — App privacy details on the App Store",
+            "url": "https://developer.apple.com/app-store/app-privacy-details/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Apple — User privacy and data use (App Tracking Transparency)",
+            "url": "https://developer.apple.com/app-store/user-privacy-and-data-use/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Health Breach Notification Rule: the basics",
+            "url": "https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Updated Health Breach Notification Rule protects users of health apps",
+            "url": "https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Mobile health apps interactive tool",
+            "url": "https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/fi/articles/health-app-privacy#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Etusivu",
+            "item": "https://dozify.app/fi"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Artikkelit",
+            "item": "https://dozify.app/fi/articles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Terveyssovellusten tietosuoja",
+            "item": "https://dozify.app/fi/articles/health-app-privacy"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/fi" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Ominaisuudet</a>
+        
+        <a href="/fi/support">Tuki</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/fi">Etusivu</a>
+        
+        <span aria-hidden="true">/</span>
+        <a href="/fi/articles">Artikkelit</a>
+        
+        <span aria-hidden="true">/</span>
+        <span>Terveyssovellusten tietosuoja</span>
+        
+      </div>
+
+      <div class="article-hero">
+        <h1>Mitä tarkistaa ennen kuin terveyssovellus näkee reseptisi</h1>
+        
+        <p class="article-meta">Kirjoittanut Ümit Can Erim · Julkaistu 20.8.2026 · Päivitetty 20.8.2026 · Lähteet tarkistettu 20.8.2026 · <a href="/fi/editorial-policy">Näin nämä oppaat kirjoitetaan</a></p>
+        
+        <p class="article-lede">Kaksi asiaa, jotka useimmat olettavat terveyssovelluksesta, eivät pidä paikkaansa. Ensimmäinen on, että lääketieteellinen tietosuojalaki koskee sitä; valtaosaa sovelluksista se ei koske, ja FTC sanoo sen suoraan. Toinen on, että App Storen tietosuojamerkintä vastaa kysymykseen ”kunnioittaako tämä sovellus yksityisyyttäni”: se vastaa suppeampaan kysymykseen sanoin, joilla on tarkat määritelmät. Tässä on, mitä nuo sanat tarkoittavat ja mitä kannattaa tarkistaa niiden sijaan.</p>
+        
+      </div>
+
+      <div class="prose">
+        <h2>HIPAA ei lähes varmasti koske sitä</h2>
+        <p>Tämä väärinkäsitys kannattaa oikaista ensin, koska paljon nojaa siihen. FTC:n oma ohje toteaa, että monet terveystietoja keräävät yritykset (”olipa kyseessä aktiivisuusranneke, dieettisovellus, verkkoon yhdistetty verenpainemittari tai jokin muu”) eivät kuulu HIPAA-lain piiriin. HIPAA seuraa hoitosuhdetta: klinikkaasi, sairaalaasi, vakuutusyhtiötäsi. Lataamasi sovellus ei yleensä ole mikään näistä.</p>
+        <p>Yhdysvalloissa sovelluksia koskee FTC:n Health Breach Notification Rule, joka on olemassa juuri tämän aukon täyttämiseksi. Se velvoittaa HIPAA-lain ulkopuoliset organisaatiot ilmoittamaan käyttäjilleen, FTC:lle ja joissakin tapauksissa tiedotusvälineille, kun suojaamattomia, yksilöitävissä olevia terveystietoja on vuotanut — ”ilman kohtuutonta viivytystä” ja viimeistään 60 päivän kuluessa havaitsemisesta.</p>
+        <p>Huomaa, mitä se on ja mitä se ei ole. Se on sääntö siitä, että sinulle kerrotaan, kun jokin on jo mennyt pieleen. Se ei ole sääntö, joka rajoittaisi sitä, mitä sovellus saa kerätä silloin, kun kaikki on kunnossa.</p>
+
+        
+        
+        
+        
+
+        <h2>Mitä App Storen merkintä oikeasti sanoo</h2>
+        <p>Merkinnässä on kolme osiota, ja merkitys piilee keskimmäisessä.</p>
+        <ul>
+          <li><strong>Sinua seuraamaan käytetyt tiedot.</strong> Applen määritelmä seurannalle on tarkka: sovelluksessa käyttäjästä tai laitteesta kerättyjen tietojen yhdistäminen <em>kolmannen osapuolen tietoihin</em> (tietoihin sovelluksista, verkkosivustoista tai verkon ulkopuolisista lähteistä, jotka eivät ole kehittäjän omia) kohdennettua mainontaa tai mainonnan mittaamista varten, tai niiden jakaminen tietojen välittäjälle.</li>
+          <li><strong>Sinuun yhdistetyt tiedot.</strong> Kerätty ja liitetty henkilöllisyyteen. Applen sääntö on, että tietoja pidetään yhdistettyinä, <em>ellei</em> kehittäjä poista suoria tunnisteita ennen keräämistä eikä yhdistä niitä myöhemmin uudelleen. Oletus on yhdistetty.</li>
+          <li><strong>Tiedot, joita ei ole yhdistetty sinuun.</strong> Kerätty, mutta yhteys on aidosti katkaistu.</li>
+        </ul>
+        <p>Ja se kohta, joka eniten muuttaa merkinnän lukutapaa. Applen oma luettelo siitä, mikä <em>ei</em> ole seurantaa, alkaa näin: ”Kun tiedot yhdistetään ainoastaan loppukäyttäjän laitteella eikä niitä lähetetä laitteelta tavalla, jolla loppukäyttäjä tai laite voidaan tunnistaa.”</p>
+        <p>Sovellus voi siis näyttää lähes tyhjän seurantaosion ja silti lähettää sinusta paljon tietoa jonnekin. ”Ei seurantaa” tarkoittaa ”ei yhdistetty kolmannen osapuolen tietoihin mainontaa varten eikä annettu tietojen välittäjälle”: suppeampi lupaus kuin ”emme kerää tätä”.</p>
+
+        
+        
+        
+        
+        
+
+        <h2>Viisi kysymystä, jotka kannattaa esittää</h2>
+        <ol>
+          <li><strong>Vaatiiko se tilin?</strong> Tili on mekanismi, joka muuttaa merkinnät henkilöä koskeviksi merkinnöiksi jonkun toisen palvelimella. Tilittömyys ei ole ominaisuuslistan kohta; se on koko asian muoto.</li>
+          <li><strong>Synkronoiko se pilveen, ja voiko sen kytkeä pois?</strong> ”Varmuuskopio” ja ”synkronointi” ovat eri lupauksia. Toinen on tiedosto, jota sinä säilytät; toinen on kopio, jota joku muu säilyttää.</li>
+          <li><strong>Mitä tietosuojamerkintä listaa kohdassa Terveys?</strong> Applen Terveys-luokka kattaa ”kaikki muut käyttäjän antamat terveys- tai lääketieteelliset tiedot”, joten sovellukseen kirjoitettu lääkkeen nimi kuuluu sinne. Jos merkintä vaikenee terveydestä ja sovellus kirjaa lääkkeitä, toinen niistä on väärin.</li>
+          <li><strong>Nimeääkö tietosuojakäytäntö, mitä kerätään, vai kuvaileeko se sitä?</strong> ”Saatamme kerätä tiettyjä tietoja käyttökokemuksesi parantamiseksi” ei ole luettelo. Käytäntö, jonka voi tarkistaa, nimeää asiat.</li>
+          <li><strong>Mitä tapahtuu, kun poistat sovelluksen?</strong> Pelkästään laitteella toimivassa sovelluksessa se on poistaminen. Kun mukana on palvelin, sovelluksen poistaminen ja tilin poistaminen ovat erillisiä toimia, ja vain toinen niistä on käsissäsi aloitusnäytöltä.</li>
+        </ol>
+
+        
+        
+
+        <div class="callout">
+          <p><strong>Dozifyn omat vastaukset, jotta tämä sivu ei esitä kysymyksiä, joita se itse väistelee.</strong> Ei tiliä, ei pilvisynkronointia, ei mainoksia sovelluksessa. Terveystiedot pysyvät sovelluksen omassa tallennustilassa laitteella; varmuuskopio kirjoittaa salatun tiedoston, jota sinä säilytät. Anonyymejä käyttötilastoja kerätään (mitä näkymiä käytetään, kaatuiko jokin), eikä niissä koskaan ole lääkkeen nimeä, oiretta tai painoa. Yksi asia lähtee vielä: mittaus siitä, tuliko asennus jostakin omasta App Store- tai Meta-kampanjastamme; se on Applen seurantaluvan takana eikä sisällä yhtäkään merkinnöistäsi. Poista sovellus, niin merkinnät lähtevät sen mukana. Yksityiskohdat ovat <a href="/fi/privacy">tietosuojaselosteessa</a> ja <a href="/en/kvkk">KVKK-ilmoituksessa</a>, ja perustelut ovat <a href="/fi/private-glp1-tracker">tietosuojasivulla</a>.</p>
+          
+        </div>
+
+        <h2>Mitä tämä sivu ei tee</h2>
+        <p>Nimeä toista sovellusta ja vihjaa jotain siitä, mitä se tekee tiedoilla. Emme ole tarkastaneet kenenkään muun palvelimia, emme voi, ja vertailuksi puettu syytös on markkinointia eikä tietoa. Yllä olevat kysymykset toimivat missä tahansa sovelluksessa, myös tässä: juuri siksi ne on kirjoitettu kysymyksiksi.</p>
+
+        
+        
+      </div>
+
+      <div class="article-cta">
+        <h3>Ei tiliä luotavaksi, ei mitään synkronoitavaa</h3>
+        
+        <p>Annoksesi, painosi ja oireesi pysyvät puhelimessa. Sovellus avautuu suoraan omiin tietoihisi, ja sen poistaminen on poistaminen.</p>
+        
+        <a href="/#download" class="btn btn-primary">Lataa sovellus</a>
+        
+        <a href="/fi/private-glp1-tracker" class="link-arrow">Näin tietosuoja toimii täällä →</a>
+        
+      </div>
+
+      <div class="article-faq">
+        <h2>Kysymykset</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Eikö laki suojaa terveystietojani?</h3>
+            
+            <p>Jokin laki koskee niitä, mutta luultavasti ei se, jota ajattelet. FTC toteaa, etteivät monet terveyssovellukset kuulu HIPAA-lain piiriin; Yhdysvalloissa niitä koskee Health Breach Notification Rule, joka koskee tietoa vuodon jälkeen eikä keräämisen rajoittamista etukäteen.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Merkinnässä lukee ”Tietoja ei kerätä”. Riittääkö se?</h3>
+            
+            <p>Se on vahvin asia, jonka merkintä voi sanoa, ja se on kehittäjän oma ilmoitus eikä tarkastus. Lue se yhdessä tietosuojakäytännön kanssa: käytännön, joka nimeää kerätyt tiedot, ja merkinnän, jonka mukaan mitään ei kerätä, pitäisi olla yhtäpitäviä, ja jos ne eivät ole, käytäntö on yksityiskohtaisempi asiakirja.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Mikä on varmuuskopion ja synkronoinnin ero?</h3>
+            
+            <p>Se, kuka säilyttää kopiota. Varmuuskopio on tiedosto, jonka itse tuotat ja säilytät; synkronointi on jonkun palvelimella säilytetty kopio, jotta laitteet pysyvät keskenään yhtäpitävinä. Molemmat ovat hyödyllisiä; vain toinen tarkoittaa, että merkintäsi ovat jossain, mitä et hallitse.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Tarkoittaako ”ei mainoksia”, ettei mitään mainontaan liittyvää tapahdu?</h3>
+            
+            <p>Ei välttämättä, ja tässä kannattaa olla tarkka. Sovelluksen sisällä ei välttämättä ole mainoksia, ja sovellus voi silti mitata, tuliko asennus mainoksesta, jota se näytti muualla. Ne ovat eri asioita; luottamuksen arvoinen käytäntö kertoo, kumpaa se tarkoittaa. Meidän käytäntömme kertoo molemmat, suoraan sanottuna.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Miten voin tarkistaa tämän kaiken itse?</h3>
+            
+            <p>Avaa App Storen sivu ja lue tietosuojaosio, avaa sitten sovelluksen tietosuojakäytäntö ja katso, kuvaavatko molemmat samaa sovellusta. Tee sitten käytännön testi: voitko käyttää sitä luomatta tiliä, ja lähtevätkö tiedot mukana, kun poistat sen?</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p>Tietoa, ei oikeudellista tai lääketieteellistä neuvontaa. Dozify on henkilökohtainen seurantasovellus, ei lääkinnällinen laite. Tietosuojalainsäädäntö vaihtelee maittain ja muuttuu; tämä sivu kuvaa julkisesti julkaistuja sääntöjä ja määritelmiä eikä arvioi mitään muuta tiettyä sovellusta kuin tätä.</p>
+        
+      </div>
+
+      <div class="references">
+        <h2>Lähteet</h2>
+        <ol>
+          <li><a href="https://developer.apple.com/app-store/app-privacy-details/" rel="nofollow noopener" target="_blank">Apple. App privacy details on the App Store</a></li>
+          <li><a href="https://developer.apple.com/app-store/user-privacy-and-data-use/" rel="nofollow noopener" target="_blank">Apple. User privacy and data use (App Tracking Transparency)</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business" rel="nofollow noopener" target="_blank">FTC — Health Breach Notification Rule: the basics</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps" rel="nofollow noopener" target="_blank">FTC — Updated Health Breach Notification Rule protects users of health apps</a></li>
+          <li><a href="https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool" rel="nofollow noopener" target="_blank">FTC — Mobile health apps interactive tool</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/fi" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Oikeudelliset tiedot</h3>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/fi/terms">Käyttöehdot</a>
+          
+          <a href="/fi/editorial-policy">Toimitusperiaatteet</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Ohjeet</h3>
+          
+          <a href="/fi/support">Tuki</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/articles/health-app-privacy" hreflang="en" lang="en">English</a> · <a href="/tr/makaleler/saglik-uygulamasi-gizliligi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/articles/health-app-privacy" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/articles/health-app-privacy" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/articles/health-app-privacy" hreflang="da" lang="da">Dansk</a> · <a href="/de/articles/health-app-privacy" hreflang="de" lang="de">Deutsch</a> · <a href="/el/articles/health-app-privacy" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/articles/health-app-privacy" hreflang="es" lang="es">Español</a> · <a href="/fi/articles/health-app-privacy" hreflang="fi" lang="fi" aria-current="page">Suomi</a> · <a href="/fr/articles/health-app-privacy" hreflang="fr" lang="fr">Français</a> · <a href="/hi/articles/health-app-privacy" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/articles/health-app-privacy" hreflang="it" lang="it">Italiano</a> · <a href="/ja/articles/health-app-privacy" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/articles/health-app-privacy" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/articles/health-app-privacy" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/articles/health-app-privacy" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/articles/health-app-privacy" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/articles/health-app-privacy" hreflang="pt" lang="pt">Português</a> · <a href="/ru/articles/health-app-privacy" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/articles/health-app-privacy" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/articles/health-app-privacy" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/articles/health-app-privacy" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

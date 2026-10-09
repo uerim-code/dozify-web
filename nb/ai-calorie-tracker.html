@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-kaloriteller for GLP-1 – kalorier og protein</title>
+  <meta property="og:url" content="https://dozify.app/nb/ai-calorie-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Ta bilde av et måltid, så lager Dozify et utkast til kalorier og protein per matvare. Du retter og lagrer ved siden av GLP-1-doser og vekt. Premium.">
+  <meta property="og:title" content="AI-kaloriteller for GLP-1 – kalorier og protein">
+  <meta property="og:description" content="Ta bilde av et måltid, så lager Dozify et utkast til kalorier og protein per matvare. Du retter og lagrer ved siden av GLP-1-doser og vekt. Premium.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify – en privat GLP-1-sprøyte- og vektlogg for iPhone">
+  <meta name="twitter:title" content="AI-kaloriteller for GLP-1 – kalorier og protein">
+  <meta name="twitter:description" content="Ta bilde av et måltid, så lager Dozify et utkast til kalorier og protein per matvare. Du retter og lagrer ved siden av GLP-1-doser og vekt. Premium.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify – en privat GLP-1-sprøyte- og vektlogg for iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="nb_NO">
+
+  <link rel="canonical" href="https://dozify.app/nb/ai-calorie-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/ai-calorie-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/fotograftan-kalori-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/ai-calorie-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/ai-calorie-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/ai-calorie-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/ai-calorie-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/ai-calorie-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/ai-calorie-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/ai-calorie-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/ai-calorie-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/ai-calorie-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/ai-calorie-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/ai-calorie-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/ai-calorie-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/ai-calorie-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/ai-calorie-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/ai-calorie-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/ai-calorie-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/nb",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "nb"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/nb",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Logg GLP-1-sprøyter og daglige tabletter, roter stikksteder, følg vekt, bivirkninger og matstøy, og få AI-anslag for kalorier og protein. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "nb"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/nb/ai-calorie-tracker#webpage",
+        "url": "https://dozify.app/nb/ai-calorie-tracker",
+        "name": "AI-kaloriteller for GLP-1 – kalorier og protein",
+        "description": "Ta bilde av et måltid, så lager Dozify et utkast til kalorier og protein per matvare. Du retter og lagrer ved siden av GLP-1-doser og vekt. Premium.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "nb",
+        "breadcrumb": {
+          "@id": "https://dozify.app/nb/ai-calorie-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hvor nøyaktig er kaloritellingen fra et bilde?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Det er et anslag, og appen merker det som et. Porsjonsstørrelse, stekefett og skjulte ingredienser er vanskelige å lese av et bilde. Derfor er resultatet et utkast du redigerer før du lagrer, ikke et tall som skrives rett inn i loggen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Er AI-måltidsbildet gratis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nei, det er en del av Premium, sammen med den anslåtte kurven for legemiddelnivå og legerapporten. Doselogging og påminnelser er gratis for alltid."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Beholder Dozify matbildene mine?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nei. Bildet sendes via Dozifys server til Google Gemini for analyse og lagres ikke av appen. Du blir bedt om samtykke før første gangs bruk."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hvilket språk svarer den på?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Det appen din er satt til. Dozify finnes på 22 språk, og matvarene kommer tilbake med navn på det språket, så retten på tallerkenen heter det du selv ville kalt den."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Fungerer det offline?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bildeanalysen krever internettforbindelse. Resten av Dozify, inkludert doselogging og påminnelser, fungerer offline."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Sier den hvor mye jeg bør spise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nei. Den registrerer hva du spiste. Mål for kalorier og protein er noe du og behandleren din blir enige om; veiledningen i appen forklarer hvor vanlige proteinområder kommer fra, og når de ikke gjelder."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/nb/ai-calorie-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Hjem",
+            "item": "https://dozify.app/nb"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "AI-måltidsbilde",
+            "item": "https://dozify.app/nb/ai-calorie-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/nb" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funksjoner</a>
+        
+        <a href="/#privacy">Personvern</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/nb">Hjem</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>AI-måltidsbilde</span>
+      
+    </div>
+    <h1>En AI-kaloriteller for kalorier og protein når du bruker GLP-1</h1>
+    
+    <p class="meta">Ta bilde av et måltid, så lager Dozify et utkast til kalorier og protein for hver matvare, på ditt språk. Du sjekker, retter og lagrer det, rett ved siden av dosene og vekten din.</p>
+    
+
+    <h2>Mindre porsjoner, et annet spørsmål</h2>
+    <p>Med et GLP-1-legemiddel merker mange at de rett og slett spiser mindre. Når porsjonene krymper, flytter spørsmålet seg fra hvor mye som ligger på tallerkenen til hva som ligger der, og protein er tallet som dukker opp igjen og igjen i samtaler om behandlingen. Å veie og skrive inn hvert måltid er den typen vane som varer omtrent en uke. Å ta et bilde tar noen sekunder, og det er hele grunnen til at denne funksjonen finnes.</p>
+
+    
+    
+
+    <h2>Slik fungerer det</h2>
+    <h3>Ta eller velg et bilde</h3>
+    <p>Ta bilde av tallerkenen eller velg et fra bildebiblioteket. Første gang forklarer Dozify hvor bildet sendes, og ber om samtykket ditt før noe sendes.</p>
+    <h3>Kalorier og protein, matvare for matvare</h3>
+    <p>AI-en lister opp det den ser på tallerkenen, hver matvare med et anslått tall for kalorier og protein, skrevet på språket appen din er satt til. Dozify finnes på 22 språk.</p>
+    <h3>Et utkast, aldri en dom</h3>
+    <p>Hvert resultat kommer som et utkast du kan redigere, med den samme linjen på: «Dette er et anslag — sjekk det før du lagrer.» Endre en porsjon, legg til sausen den overså, fjern det som aldri var der. Ingenting havner i loggen før du trykker på Lagre.</p>
+    <h3>Ved siden av behandlingen, ikke i en annen app</h3>
+    <p>Lagrede måltider havner i den samme mat- og vannloggen som resten av dagen, med en løpende proteinsum, i appen som allerede har dosene og vekten din. Ett sted å se i stedet for tre.</p>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Dozify leser et måltidsbilde: AI-skanningen pågår over en salat"></div></figure>
+      
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="AI-resultat som lister opp hver matvare på tallerkenen med kalorier og protein, klart til å redigeres"></div></figure>
+      
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="AI-anslag fra bilde fylt inn i ernæringsskjemaet som et redigerbart utkast, med kalorier, protein og en merknad om usikkerhet"></div></figure>
+      
+    </div>
+
+    <h2>Hva appen sier om protein</h2>
+    <p>Ernæringsveiledningen i Dozify, inne i appen, oppgir et område på 1,2 til 1,6 g protein per kg kroppsvekt, og er tydelig på hvor det området kommer fra: ernæringsråd for vektnedgang, ikke legemiddelets preparatomtale. Har du nyresykdom, er det legen din som setter proteinmålet ditt, og det kan være lavere. Veiledningen foreslår også å fordele proteinet på tre eller fire måltider i stedet for å samle det i ett, og nevner styrketrening to eller tre ganger i uka som vanen som jevnt over beskytter muskelmassen. Dozify foreskriver ikke noe kosthold; tallene som gjelder for deg, kommer fra behandleren din eller en klinisk ernæringsfysiolog.</p>
+
+    
+    
+
+    <h2>Hvor grensen går</h2>
+    <p>Det er et anslag laget ut fra et bilde. Et bilde kan ikke se oljen i pannen, sukkeret i dressingen eller det som gjemmer seg under risen, og porsjonsstørrelse er det vanskeligste å bedømme ovenfra. Se på tallene som et utgangspunkt du retter på, ikke en måling. Analysen krever internettforbindelse, det er en daglig grense per bruker, og funksjonen er en del av Premium. Du kan alltid legge inn et måltid manuelt i stedet.</p>
+
+    
+    
+
+    <h2>Hvor bildet sendes</h2>
+    <p>I motsetning til resten av registreringene dine sender denne funksjonen noe ut fra telefonen, så det er verdt å være presis. Bildet du velger, sendes over en kryptert forbindelse, via Dozifys egen server, til Google Gemini, og anslaget kommer tilbake til telefonen din. Dozify lagrer ikke bildet. Dosene, vekten, symptomene og de andre helsedataene dine blir på enheten som alltid, og hvis du aldri bruker funksjonen, forlater ingen bilder telefonen. Alle detaljer står i del 5 av <a href="/nb/privacy">personvernerklæringen</a>, og det store bildet finner du på <a href="/nb/private-glp1-tracker">siden om den private loggen</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-ai-calorie-tracker-nb&mt=8" class="btn btn-primary">Last ned fra App Store</a></p>
+
+
+    <h2>Spørsmål</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Hvor nøyaktig er kaloritellingen fra et bilde?</h3>
+        
+        <p>Det er et anslag, og appen merker det som et. Porsjonsstørrelse, stekefett og skjulte ingredienser er vanskelige å lese av et bilde. Derfor er resultatet et utkast du redigerer før du lagrer, ikke et tall som skrives rett inn i loggen.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Er AI-måltidsbildet gratis?</h3>
+        
+        <p>Nei, det er en del av Premium, sammen med den anslåtte <a href="/nb/glp1-medication-level">kurven for legemiddelnivå</a> og legerapporten. Doselogging og påminnelser er gratis for alltid.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Beholder Dozify matbildene mine?</h3>
+        
+        <p>Nei. Bildet sendes via Dozifys server til Google Gemini for analyse og lagres ikke av appen. Du blir bedt om samtykke før første gangs bruk.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Hvilket språk svarer den på?</h3>
+        
+        <p>Det appen din er satt til. Dozify finnes på 22 språk, og matvarene kommer tilbake med navn på det språket, så retten på tallerkenen heter det du selv ville kalt den.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Fungerer det offline?</h3>
+        
+        <p>Bildeanalysen krever internettforbindelse. Resten av Dozify, inkludert doselogging og påminnelser, fungerer offline.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Sier den hvor mye jeg bør spise?</h3>
+        
+        <p>Nei. Den registrerer hva du spiste. Mål for kalorier og protein er noe du og behandleren din blir enige om; veiledningen i appen forklarer hvor vanlige proteinområder kommer fra, og når de ikke gjelder.</p>
+        
+      </div>
+    </div>
+
+    <h2>Les videre</h2>
+    <p>Veiledninger med kildene oppgitt: <a href="/nb/articles/what-is-glp1">hva GLP-1 egentlig er</a>, <a href="/nb/articles/hydration-on-a-glp1">vann når du bruker GLP-1</a> og <a href="/nb/articles/measurements-vs-scale">når målebåndet beveger seg og vekta ikke gjør det</a>.</p>
+    <p>Ellers i Dozify: <a href="/nb/glp1-weight-tracker">vektloggen</a>, <a href="/nb/glp1-medication-level">den anslåtte kurven for legemiddelnivå</a>, <a href="/nb/glp1-pill-tracker">GLP-1-tablettloggen</a> og <a href="/nb/glp1-side-effect-journal">bivirkningsdagboken</a>.</p>
+
+    
+    
+    
+
+    <p class="meta">Dozify er et loggeverktøy, ikke medisinsk utstyr. Appen anbefaler ikke doser og gir ikke medisinske råd. Tall for kalorier og protein fra et bilde er anslag. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® og Rybelsus® er varemerker som tilhører sine respektive eiere; Google Gemini er et varemerke for Google LLC; Dozify er ikke tilknyttet disse selskapene.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/nb" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Juridisk</h3>
+          
+          <a href="/nb/privacy">Personvernerklæring</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/nb/terms">Vilkår</a>
+          
+          <a href="/nb/editorial-policy">Redaksjonelle retningslinjer</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Sporing</h3>
+          
+          <a href="/nb/glp1-shot-tracker">GLP-1-sprøytelogg</a>
+          
+          <a href="/nb/injection-site-tracker">Logg for stikksteder</a>
+          
+          <a href="/nb/glp1-weight-tracker">GLP-1-vektlogg</a>
+          
+          <a href="/nb/glp1-side-effect-journal">Bivirkningsdagbok</a>
+          
+          <a href="/nb/glp1-vial-tracker">Hetteglasslogg</a>
+          
+          <a href="/nb/private-glp1-tracker">Privat GLP-1-logg</a>
+          
+          <a href="/nb/glp1-appointment-report">Legerapport</a>
+          
+          <a href="/nb/switch-glp1-tracker-app">Bytt fra en annen app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Hjelp</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/ai-calorie-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/fotograftan-kalori-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/ai-calorie-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/ai-calorie-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/ai-calorie-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/ai-calorie-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/ai-calorie-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/ai-calorie-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/ai-calorie-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/ai-calorie-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/ai-calorie-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/ai-calorie-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/ai-calorie-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/ai-calorie-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/ai-calorie-tracker" hreflang="nb" lang="nb" aria-current="page">Norsk</a> · <a href="/nl/ai-calorie-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/ai-calorie-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/ai-calorie-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/ai-calorie-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/ai-calorie-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/ai-calorie-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/ai-calorie-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracker GLP-1: iniezioni, pillole, peso e calorie AI</title>
+  <meta name="description" content="Registra iniezioni e pillole GLP-1, alterna le sedi, monitora peso, effetti collaterali e food noise, e fotografa i pasti per stimare calorie e proteine con AI.">
+  <meta name="theme-color" content="#0D9488">
+
+  <meta property="og:title" content="Tracker GLP-1: iniezioni, pillole, peso e calorie AI">
+  <meta property="og:description" content="Registra iniezioni e pillole GLP-1, alterna le sedi, monitora peso, effetti collaterali e food noise, e fotografa i pasti per stimare calorie e proteine con AI.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dozify.app/it">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:alt" content="Dozify — un tracker privato per iniezioni GLP-1 e peso per iPhone">
+  <meta name="twitter:title" content="Tracker GLP-1: iniezioni, pillole, peso e calorie AI">
+  <meta name="twitter:description" content="Registra iniezioni e pillole GLP-1, alterna le sedi, monitora peso, effetti collaterali e food noise, e fotografa i pasti per stimare calorie e proteine con AI.">
+  <meta name="twitter:image:alt" content="Dozify — un tracker privato per iniezioni GLP-1 e peso per iPhone">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="it_IT">
+
+  <link rel="canonical" href="https://dozify.app/it">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/it",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "it"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/it",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Registra iniezioni e pillole GLP-1, alterna le sedi, monitora peso, effetti collaterali e food noise, e fotografa i pasti per stimare calorie e proteine con AI.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "it"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/it#webpage",
+        "url": "https://dozify.app/it",
+        "name": "Tracker GLP-1: iniezioni, pillole, peso e calorie AI",
+        "description": "Registra iniezioni e pillole GLP-1, alterna le sedi, monitora peso, effetti collaterali e food noise, e fotografa i pasti per stimare calorie e proteine con AI.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "it",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Dozify è gratis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sì. Registrazione delle dosi, promemoria, rotazione delle sedi di iniezione, peso, acqua e diario degli effetti collaterali, tutto lo storico e le foto, e gli articoli informativi sono gratuiti — il monitoraggio delle dosi resta gratis per sempre, non per un periodo di prova. Premium è il livello che ti aiuta a capire: la curva stimata del livello del farmaco, grafici e tendenze avanzati, proiezione del peso, composizione corporea, alimentazione con stima delle calorie da foto con AI, gestione dei flaconcini, report PDF per il medico, temi e un secondo farmaco attivo. I dettagli su abbonamento e disdetta sono nella pagina di supporto ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "I miei dati sono privati?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "I tuoi dati sanitari (dosi, peso, effetti collaterali, foto dei progressi) sono salvati sul tuo dispositivo e non vengono mai caricati online. L’unica eccezione è la foto di un pasto che scegli di analizzare con le calorie AI: dopo il tuo consenso viene inviata, tramite il nostro server, a Google Gemini e non viene conservata dall’app. Non c’è nessun account né sincronizzazione cloud, e l’app non mostra pubblicità. Vengono raccolte statistiche di utilizzo anonime per migliorare l’app, e non contengono mai il nome di un farmaco o un sintomo. Dozify misura anche se un’installazione proviene da una delle sue campagne su App Store o Meta; questa misurazione avviene solo con il permesso di tracciamento di Apple e non include mai i tuoi dati sanitari. Elimini l’app e i tuoi dati spariscono."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quali farmaci supporta Dozify?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dozify ti aiuta a monitorare i farmaci GLP-1 più diffusi, tra cui Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® e Victoza®, oltre alle compresse giornaliere: Wegovy® pillola, Ozempic® compressa, Rybelsus® e Foundayo™. Questi nomi commerciali sono marchi dei rispettivi titolari e Dozify non è affiliata a queste aziende."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify funziona senza internet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sì. Dozify è pensata per funzionare offline e va benissimo senza connessione a internet. Non devi mai accedere né sincronizzare nulla per usarla."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify può ricordarmi l’iniezione?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sì. Puoi impostare un promemoria settimanale o giornaliero in linea con il calendario del tuo farmaco, così è più facile restare costante nella tua routine."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify sostituisce il mio medico?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Dozify è uno strumento di monitoraggio a scopo informativo, non un dispositivo medico, e non fornisce consulenza medica. Segui sempre il tuo medico e la tua prescrizione — ciò che l’app si rifiuta di fare è spiegato per intero."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Posso monitorare peso ed effetti collaterali?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sì. Puoi registrare peso, misure corporee e un diario degli effetti collaterali, e vedere l’andamento su grafici chiari: inclusa una proiezione del peso e una stima del tempo per raggiungere l’obiettivo basata sui tuoi dati."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Posso importare i dati da un’altra app GLP-1?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sì, ed è gratis. Esporta i dati dall’app che stai lasciando, apri Impostazioni → Importa il tuo storico in Dozify e scegli il file. Legge gli export di Shotsy, Glapp, GLPzy e GlucoPal e qualsiasi CSV con una colonna data, ti mostra cosa ha trovato (quante iniezioni, pesi e note) prima di salvare qualcosa, salta i dati che hai già e fa prima un backup dei dati esistenti. Maggiori dettagli nella pagina sul passaggio ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify è disponibile su Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non ancora. Per ora Dozify è solo per iPhone, su App Store."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/it" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a class="nav-anchor" href="#how">Come funziona</a>
+        
+        <a class="nav-anchor" href="#features">Funzioni</a>
+        
+        <a class="nav-anchor" href="/#faq">FAQ</a>
+        
+        <a href="/it/articles">Articoli</a>
+        
+        <a href="/it/support">Supporto</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+        <img class="hero-icon" src="/favicon.svg" width="96" height="96" alt="Dozify" />
+        <span class="pill">Per Ozempic® · Wegovy® penna e pillola · Mounjaro® · Zepbound®</span>
+        
+
+        <h1>La tua terapia GLP-1, <span class="accent">in un’unica schermata.</span></h1>
+        
+
+        <ul class="new-chips" aria-label="Novità in Dozify">
+          <li><a href="/it/ai-calorie-tracker">📸 Calorie da foto con AI</a></li>
+          
+          <li><a href="#themes">🐬 Mascotte e temi</a></li>
+          
+          <li><a href="/it/glp1-pill-tracker">💊 Monitoraggio delle compresse</a></li>
+          
+          <li><a href="/it/glp1-medication-level">📈 Curva del livello del farmaco</a></li>
+          
+        </ul>
+
+        <p class="lede">Registra ogni iniezione o compressa giornaliera, fotografa un pasto e ottieni calorie e proteine in pochi secondi, e segui il tuo peso accanto a una curva stimata del farmaco. Rendila tua con una mascotte e un tema di colore. Registrazione delle dosi e promemoria sono gratuiti, per sempre. Usi già un’altra app? <a href="/it/switch-glp1-tracker-app">Porta con te il tuo storico.</a></p>
+        
+
+        <div class="cta-row">
+          <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-it&mt=8" target="_blank" rel="noopener" class="btn btn-primary">Scarica su App Store</a>
+          
+        </div>
+
+        <!-- The three things a visitor deciding on a health app wants settled
+             before they tap Download, said before they have to look for them. -->
+        <ul class="trust-row">
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" /> <path d="m9 12 2 2 4-4" /> </svg> <span>Nessun account, funziona offline: i tuoi dati sanitari restano sul dispositivo</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" /> </svg> <span>Nessuna pubblicità all’interno dell’app, e i tuoi dati sanitari non vengono mai usati per la pubblicità mirata</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M12 8h.01M11 12h1v4h1" /> </svg> <span>Uno strumento di monitoraggio, non un dispositivo medico: registra il tuo piano, non ne suggerisce mai uno</span></li>
+        </ul>
+        </div>
+
+        <!-- The product itself, above the fold. The page used to open on an app
+             icon and four paragraphs, which asks a visitor to take the app's
+             word for what it looks like. -->
+        <div class="hero-shot hero-fan" aria-hidden="false">
+          <div class="device fan-left">
+            <img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" decoding="async" alt="Risultato AI: ogni alimento trovato nel piatto con calorie e proteine, pronto da modificare">
+            
+          </div>
+          <div class="device fan-right">
+            <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" decoding="async" alt="Selettore dei temi con sei mascotte: Classico, Delfino, Panda, Gufo, Fenicottero e Ape">
+            
+          </div>
+          <div class="device fan-center">
+            <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" fetchpriority="high" decoding="async" alt="La schermata Home di Dozify con il tema Delfino: prossima dose, “Fotografa il tuo pasto”, livello del farmaco, proteine, acqua e peso">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="themes" class="section section-light">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">Novità</span>
+          
+          <h2 class="section-title">Scegli una mascotte. Tutta l’app la segue.</h2>
+          
+          <p>Sei temi, ognuno con un colore e un compagno: Classico, Delfino 🐬, Panda 🐼, Gufo 🦉, Fenicottero 🦩 e Ape 🐝. Il colore attraversa ogni schermata, la mascotte compare sul grafico del peso e sulla tua serie, e l’icona dell’app nella schermata Home cambia con lei. Classico resta sobrio.</p>
+          
+          <p>Delfino è gratis. Panda, Gufo, Fenicottero e Ape sono inclusi in Premium. Chiaro, scuro o come il sistema: scegli tu.</p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Schermata Aspetto: modalità chiara, scura o di sistema e sei temi con mascotte"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Schermata Home con il tema blu Delfino"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/bee-home.webp" srcset="/screenshots/en/bee-home-400w.webp 400w, /screenshots/en/bee-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Impostazioni con il tema arancione Ape"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="ai-calories" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">Novità</span>
+          
+          <h2 class="section-title">Fotografa il tuo pasto. Guarda le calorie.</h2>
+          
+          <p>Con un GLP-1 mangi di meno, quindi quello che mangi conta di più. Scatta una foto e Dozify elenca ogni alimento nel piatto con una stima delle sue calorie e proteine, nella tua lingua. È sempre una bozza modificabile: correggi una porzione, aggiungi ciò che la fotocamera non ha visto, poi salvala accanto alle dosi e al peso. Premium.</p>
+          
+          <p><a href="/it/ai-calorie-tracker" class="link-arrow">Come funzionano le calorie AI</a></p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Dozify che legge la foto di un pasto"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Ogni alimento nel piatto con calorie e proteine"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">Come funziona</h2>
+        
+        <p class="section-lede">Tre passaggi. Nessuna configurazione complicata.</p>
+        
+
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h3>Aggiungi il tuo farmaco</h3>
+            
+            <p>Scegli un’iniezione settimanale o giornaliera — Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® — oppure una compressa giornaliera: Wegovy® pillola, Ozempic® compressa, Rybelsus® o Foundayo™. Imposta dose e calendario.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h3>Registra ogni iniezione</h3>
+            
+            <p>Con un tocco registri dose, ora e sede di iniezione su una mappa del corpo. La rotazione intelligente ti suggerisce la sede successiva.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h3>Condividi con il tuo medico</h3>
+            
+            <p>Esporta un report PDF con tutto lo storico della terapia, l’andamento del peso e il diario degli effetti collaterali: perfetto per la prossima visita.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="section">
+      <div class="container">
+        <h2 class="section-title">Dozify in azione</h2>
+        
+        <p class="section-lede">Uno sguardo veloce a ciò che vedrai sul telefono.</p>
+        
+
+        <div class="screenshot-strip" role="group" tabindex="0" aria-label="Screenshot di Dozify, scorri lateralmente">
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/home-next-dose.webp" srcset="/screenshots/en/home-next-dose-400w.webp 400w, /screenshots/en/home-next-dose.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="La schermata home di Dozify: conto alla rovescia per la prossima dose, iniezioni della settimana, proteine e acqua del giorno e peso attuale">
+            </div>
+            <figcaption><b>La tua giornata, a colpo d’occhio</b> <span>Prossima dose, iniezioni della settimana, proteine, acqua e peso: un’unica schermata.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Stima delle calorie da foto con AI inserita nel modulo alimentazione: insalata Caesar con pollo, 625 kcal, 55 g di proteine, con una nota sull’incertezza">
+            </div>
+            <figcaption><b>Fotografa il tuo pasto</b> <span>L’AI compila calorie e proteine da una foto — sempre come bozza modificabile.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/level-curve.webp" srcset="/screenshots/en/level-curve-400w.webp 400w, /screenshots/en/level-curve.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Andamento del peso e curva stimata del livello del farmaco con percentuale attuale e di picco">
+            </div>
+            <figcaption><b>Guarda cosa sta facendo la tua dose</b> <span>La curva stimata del livello rende finalmente comprensibile la fame del sesto giorno.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Registrazione di un’iniezione con una mappa delle sedi che suggerisce la prossima sede di rotazione">
+            </div>
+            <figcaption><b>Registra un’iniezione in pochi secondi</b> <span>La mappa del corpo ricorda qual è la prossima sede, così non devi farlo tu.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/weight-and-dose-chart.webp" srcset="/screenshots/en/weight-and-dose-chart-400w.webp 400w, /screenshots/en/weight-and-dose-chart.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Andamento del peso e curva stimata del livello del farmaco sulla stessa linea temporale">
+            </div>
+            <figcaption><b>Peso e dose sulla stessa linea</b> <span>L’andamento del peso accanto al livello stimato del farmaco.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="La schermata home di Dozify con il tema Delfino: accento blu oceano, badge della serie a onda e scheda del pasto AI">
+            </div>
+            <figcaption><b>Rendila tua</b> <span>Colore, mascotte e persino l’icona dell’app cambiano insieme — il Delfino è gratis.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Il selettore dei temi: pacchetti Classico, Delfino, Panda, Gufo, Fenicottero e Ape">
+            </div>
+            <figcaption><b>Sei personalità</b> <span>Scegli un colore e un compagno; la mascotte compare nei grafici e nella serie di giorni.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/victories.webp" srcset="/screenshots/en/victories-400w.webp 400w, /screenshots/en/victories.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Il diario dei traguardi con voci come vestiti che stanno meglio e scale più facili">
+            </div>
+            <figcaption><b>Traguardi che la bilancia non vede</b> <span>Per le settimane di stallo: vestiti, energia, umore — annotati in una riga.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/lab-results.webp" srcset="/screenshots/en/lab-results-400w.webp 400w, /screenshots/en/lab-results.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Schermata dei risultati degli esami con valori di HbA1c e LDL salvati esattamente come inseriti">
+            </div>
+            <figcaption><b>Esami accanto alle dosi</b> <span>HbA1c, lipidi, valori epatici — conservati come li hai scritti, inclusi nel PDF per il medico.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/vial-stock.webp" srcset="/screenshots/en/vial-stock-400w.webp 400w, /screenshots/en/vial-stock.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Scorta del flaconcino, dosi rimanenti, giorni dall’apertura e data di scadenza">
+            </div>
+            <figcaption><b>Sappilo prima che il flaconcino finisca</b> <span>Dosi rimaste, giorni dall’apertura, scadenza: li conta l’app per te.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Creazione di un report per la visita medica: periodo, sezioni da includere e le domande che vuoi fare">
+            </div>
+            <figcaption><b>Un PDF chiaro per il tuo medico</b> <span>Scegli un periodo, scegli cosa includere, e arrivi in ambulatorio con un riepilogo.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/water-tracking.webp" srcset="/screenshots/en/water-tracking-400w.webp 400w, /screenshots/en/water-tracking.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Monitoraggio dell’acqua con un contatore di bicchieri e quantità da aggiungere rapidamente">
+            </div>
+            <figcaption><b>Acqua, contata in bicchieri</b> <span>Non in millilitri su cui fare calcoli.</span></figcaption>
+          </figure>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section id="features" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Cosa trovi dentro</h2>
+        
+        <p class="section-lede">Pensata per chi assume farmaci GLP-1 settimanali.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v2" /><path d="m5.6 5.6 1.4 1.4" /><path d="m18.4 5.6-1.4 1.4" /><path d="M3 12h2" /><path d="M19 12h2" /><path d="M12 21a6 6 0 0 0 6-6c0-3-2.5-4.5-6-9-3.5 4.5-6 6-6 9a6 6 0 0 0 6 6Z" />
+              </svg>
+            </div>
+            <h3>Calorie da foto con AI <span class="badge-new">Novità</span></h3>
+            
+            <p>Fotografa il pasto e ottieni in pochi secondi una stima di calorie e proteine, nella tua lingua. Sempre mostrata come bozza modificabile — decidi tu. Premium. <a href="/it/ai-calorie-tracker">Come funzionano le calorie AI</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0E7FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="M4 15c2-6 4-9 6-9s3 2 4 5 2 5 4 5 3-2 4-5" />
+              </svg>
+            </div>
+            <h3>Curva del livello del farmaco <span class="badge-new">Novità</span></h3>
+            
+            <p>Una curva stimata di come la tua dose si accumula e cala tra un’iniezione e l’altra — così la fame del sesto giorno ha finalmente senso. <a href="/it/glp1-medication-level">Informazioni sulla curva</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="13.5" cy="6.5" r=".5" /><circle cx="17.5" cy="10.5" r=".5" /><circle cx="8.5" cy="7.5" r=".5" /><circle cx="6.5" cy="12.5" r=".5" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" />
+              </svg>
+            </div>
+            <h3>Temi e mascotte <span class="badge-new">Novità</span></h3>
+            
+            <p>Colore, mascotte e persino l’icona dell’app cambiano insieme. Il Delfino 🐬 è gratis; Panda, Gufo, Fenicottero e Ape sono inclusi in Premium.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>Diario dei traguardi <span class="badge-new">Novità</span></h3>
+            
+            <p>I progressi che la bilancia non vede: vestiti che tornano a stare bene, scale che pesano meno. Gratis, di proposito — per le settimane di stallo.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.31" /><path d="M14 9.3V2" /><path d="M8.5 2h7" /><path d="M14 9.3a6.5 6.5 0 1 1-4 0" /><path d="M5.52 16h12.96" />
+              </svg>
+            </div>
+            <h3>Risultati degli esami <span class="badge-new">Novità</span></h3>
+            
+            <p>HbA1c, lipidi, valori epatici — salvati esattamente come li inserisci e inclusi nel PDF per il medico. Nessun giudizio, nessun voto a colori.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+              </svg>
+            </div>
+            <h3>Allineamento al ciclo <span class="badge-new">Novità</span></h3>
+            
+            <p>Vedi i tuoi sintomi allineati al ciclo mestruale — solo se attivi la funzione, e i dati non lasciano mai il tuo dispositivo.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0F2FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
+              </svg>
+            </div>
+            <h3>Andamento e proiezione del peso</h3>
+            
+            <p>Guarda il tuo peso su grafici chiari, con una proiezione del tempo necessario per raggiungere l’obiettivo basata sui tuoi dati.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+              </svg>
+            </div>
+            <h3>Promemoria intelligenti</h3>
+            
+            <p>Promemoria settimanali o giornalieri in linea con il calendario del tuo farmaco.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EFF6FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.5L4 22h16l-6-12.5V2" /><path d="M8.5 2h7" />
+              </svg>
+            </div>
+            <h3>Scorta dei flaconcini</h3>
+            
+            <p>Data di apertura, conto alla rovescia per la scadenza e dosi rimanenti per ogni flaconcino.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" />
+              </svg>
+            </div>
+            <h3>Grafici dei progressi</h3>
+            
+            <p>Andamento del peso, aumento della dose ed effetti collaterali ricorrenti a colpo d’occhio.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" />
+              </svg>
+            </div>
+            <h3>Report PDF</h3>
+            
+            <p>Riepiloghi pronti per il medico in un tocco, con l’intera cronologia della terapia.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEE2E2">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.49 4.04 3 5.5l7 7Z" />
+              </svg>
+            </div>
+            <h3>Sincronizzazione con Apple Health</h3>
+            
+            <p>Su iPhone il peso viene letto automaticamente da Apple Health. La scrittura verso Apple Health è facoltativa e disattivata di default.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EDE9FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2" /><line x1="8" x2="16" y1="6" y2="6" /><line x1="16" x2="16" y1="14" y2="18" /><path d="M8 10h.01" /><path d="M12 10h.01" /><path d="M16 10h.01" /><path d="M8 14h.01" /><path d="M12 14h.01" /><path d="M8 18h.01" /><path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3>Calcolatori integrati</h3>
+            
+            <p>Conversione delle unità (mg ↔ mL ↔ U-100) e stima della durata del flaconcino, gratis.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DBEAFE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" />
+              </svg>
+            </div>
+            <h3>Porta con te il tuo storico</h3>
+            
+            <p>Arrivi da un altro tracker? Dozify legge il file esportato, ti mostra cosa ha trovato e lo salva solo dopo la tua approvazione: e prima fa un backup.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="7" height="9" x="3" y="3" rx="1" /><rect width="7" height="5" x="14" y="3" rx="1" /><rect width="7" height="9" x="14" y="12" rx="1" /><rect width="7" height="5" x="3" y="16" rx="1" />
+              </svg>
+            </div>
+            <h3>Una schermata home costruita da te</h3>
+            
+            <p>Riordina le schede, nascondi quelle che non usi e ripristinale quando vuoi. Se non registri gli effetti collaterali, quei campi non compaiono mai.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
+              </svg>
+            </div>
+            <h3>Qualsiasi calendario, e il piano del tuo medico</h3>
+            
+            <p>Settimanale, giornaliero, ogni pochi giorni o in date specifiche. Salva lo schema di dosaggio che ti ha dato il medico e lascia che l’app ti ricordi le dosi. Dozify non sceglie mai una dose da sola.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DCFCE7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+            </div>
+            <h3>Biblioteca informativa</h3>
+            
+            <p>Guide con fonti citate su dosaggio, effetti collaterali e tecnica di iniezione.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" />
+              </svg>
+            </div>
+            <h3>Rotazione delle sedi di iniezione</h3>
+            
+            <p>Una mappa del corpo tiene traccia di ogni sede e suggerisce dove fare la prossima iniezione.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FFEDD5">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z" /><path d="m7.5 10.5 2 2" /><path d="m10.5 7.5 2 2" /><path d="m13.5 4.5 2 2" /><path d="m4.5 13.5 2 2" />
+              </svg>
+            </div>
+            <h3>Misure corporee</h3>
+            
+            <p>Monitora vita, fianchi, massa grassa e altro: i progressi che la sola bilancia non vede.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF9C3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>Traguardi e serie di giorni</h3>
+            
+            <p>Serie giornaliere e badge di traguardo ti aiutano a essere costante e motivato.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFCCB">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#65A30D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /><path d="M7 2v20" /><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+              </svg>
+            </div>
+            <h3>Diario di cibo e acqua</h3>
+            
+            <p>Registra pasti, proteine e idratazione accanto alla terapia.</p>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- The differentiator a visitor who already tracks somewhere else is
+         looking for, and the one thing no competitor page tells them. -->
+    <section id="import" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 class="section-title">Usi già un’altra app? Porta tutto con te.</h2>
+          
+          <p class="section-lede">Dozify legge gli export di Shotsy, Glapp, GLPzy e GlucoPal, e qualsiasi CSV con una colonna data. Nulla viene salvato finché non hai visto cosa ha trovato (quante iniezioni, quanti pesi, quante note) e prima viene fatto un backup dei dati esistenti. L’importazione non costa nulla.</p>
+          
+          <a href="/it/switch-glp1-tracker-app" class="link-arrow">Come funziona il passaggio →</a>
+          
+        </div>
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Un’iniezione importata nel diario di Dozify, con data, dose e sede">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-section">
+      <div class="container">
+        <div class="privacy-card">
+          <div class="privacy-icon">
+            <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
+            </svg>
+          </div>
+          <h2>I tuoi dati personali restano sul telefono</h2>
+          
+          <p>Nessun account, nessuna pubblicità all’interno dell’app, nessun profilo. I tuoi dati personali (iniezioni, peso, misure) non lasciano mai il dispositivo. Elimini l’app e i dati spariscono.</p>
+          
+          <a href="/it/privacy" class="link-arrow">Leggi l’informativa sulla privacy →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="report" class="section">
+      <div class="container split split-reverse">
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Creazione di un report per la visita medica: periodo, sezioni da includere e le domande che vuoi fare">
+            
+          </div>
+        </div>
+        <div class="split-copy">
+          <h2 class="section-title">Arriva alla visita con un riepilogo</h2>
+          
+          <p class="section-lede">Una visita è dieci minuti per tre mesi. Scegli il periodo e cosa includere (dosi, peso, effetti collaterali, le tue note e le domande che volevi fare) e Dozify crea un PDF da stampare o inviare in anticipo. Ciò che contiene è il tuo diario; che cosa significa lo decide il tuo medico.</p>
+          
+          <a href="/it/glp1-appointment-report" class="link-arrow">Cosa contiene il report →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="medications" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Farmaci che puoi monitorare</h2>
+        
+        <p class="section-lede">Scegli quello che ti è stato prescritto e Dozify imposta calendario e scalini di dose. Tutto ciò che non è in elenco puoi aggiungerlo a mano.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <h3>Iniezioni settimanali</h3>
+            
+            <p>Ozempic®, Wegovy®, Mounjaro®, Zepbound® e Trulicity®: un’iniezione a settimana, e un promemoria a settimana in corrispondenza.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Iniezioni giornaliere</h3>
+            
+            <p>Saxenda® e Victoza® — un calendario giornaliero, all’ora in cui fai davvero l’iniezione e non a un orario predefinito.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Orali</h3>
+            
+            <p>Wegovy® pillola, Ozempic® compressa, Rybelsus® e Foundayo™ — compresse giornaliere, monitorate con lo stesso storico e lo stesso report. <a href="/it/glp1-pill-tracker">Come funziona il monitoraggio delle pillole</a></p>
+            
+          </article>
+          <article class="feature">
+            <h3>Altro</h3>
+            
+            <p>Aggiungi un farmaco per nome con la tua dose e il tuo intervallo. Dozify registra il piano concordato con il tuo medico; non ne propone mai uno.</p>
+            
+          </article>
+        </div>
+
+        <p class="meta" style="text-align:center;margin-top:24px">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® e Foundayo™ sono marchi dei rispettivi titolari. Dozify non è affiliata, approvata né sponsorizzata da queste aziende.</p>
+        
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Guide che citano le fonti</h2>
+        
+        <p class="section-lede">Scritte per chi è già in terapia con un GLP-1, ognuna indica da dove provengono le informazioni: istruzioni del produttore, FDA, MedlinePlus. Nulla di tutto ciò sostituisce le indicazioni del tuo medico.</p>
+        
+
+        <div class="article-list">
+          <a class="article-card" href="/it/articles/what-is-glp1">
+            <h3>Che cos’è il GLP-1?</h3>
+            
+            <p>L’ormone che l’intestino rilascia dopo i pasti, cosa imitano i farmaci e perché l’appetito cambia.</p>
+            
+          </a>
+          <a class="article-card" href="/it/articles/how-to-inject-glp1">
+            <h3>Come fare l’iniezione con una penna GLP-1</h3>
+            
+            <p>Preparare la penna, scegliere la sede, l’iniezione vera e propria e cosa fare con l’ago dopo.</p>
+            
+          </a>
+          <a class="article-card" href="/it/articles/glp1-injection-sites">
+            <h3>Dove fare l’iniezione e come alternare le sedi</h3>
+            
+            <p>Addome, coscia e parte superiore del braccio sono le sedi approvate. Quale scegliere e perché il punto deve cambiare.</p>
+            
+          </a>
+          <a class="article-card" href="/it/articles/glp1-side-effects">
+            <h3>Effetti collaterali comuni</h3>
+            
+            <p>Nausea, stitichezza e stanchezza: cosa tende ad aiutare e i segnali che richiedono subito un medico.</p>
+            
+          </a>
+          <a class="article-card" href="/it/articles/glp1-patches">
+            <h3>Esistono cerotti GLP-1?</h3>
+            
+            <p>Nessun cerotto è approvato da FDA o EMA. Cosa viene venduto con quel nome e cosa dicono le prove.</p>
+            
+          </a>
+          <a class="article-card" href="/it/articles/missed-glp1-dose">
+            <h3>Hai saltato una dose?</h3>
+            
+            <p>Cinque giorni per un prodotto, due per un altro con lo stesso principio attivo. Cosa dice ciascun foglietto illustrativo, citato.</p>
+            
+          </a>
+          <a class="article-card" href="/it/articles/storing-glp1-pens">
+            <h3>Conservare una penna</h3>
+            
+            <p>Frigorifero, temperatura ambiente e il conteggio dei giorni, che dipende dal dispositivo, non solo dal farmaco.</p>
+            
+          </a>
+          <a class="article-card" href="/it/articles">
+            <h3>Tutte le guide</h3>
+            
+            <p>La biblioteca completa, con l’elenco delle fonti in fondo a ogni pagina.</p>
+            
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Domande frequenti</h2>
+        
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Dozify è gratis?</h3>
+            
+            <p>Sì. Registrazione delle dosi, promemoria, rotazione delle sedi di iniezione, peso, acqua e diario degli effetti collaterali, tutto lo storico e le foto, e gli articoli informativi sono gratuiti — il monitoraggio delle dosi resta gratis per sempre, non per un periodo di prova. Premium è il livello che ti aiuta a capire: la curva stimata del livello del farmaco, grafici e tendenze avanzati, proiezione del peso, composizione corporea, alimentazione con stima delle calorie da foto con AI, gestione dei flaconcini, report PDF per il medico, temi e un secondo farmaco attivo. I dettagli su abbonamento e disdetta sono nella <a href="/it/support">pagina di supporto</a>.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>I miei dati sono privati?</h3>
+            
+            <p>I tuoi dati sanitari (dosi, peso, effetti collaterali, foto dei progressi) sono salvati sul tuo dispositivo e non vengono mai caricati online. L’unica eccezione è la foto di un pasto che scegli di analizzare con le calorie AI: dopo il tuo consenso viene inviata, tramite il nostro server, a Google Gemini e non viene conservata dall’app. Non c’è nessun account né sincronizzazione cloud, e l’app non mostra pubblicità. Vengono raccolte statistiche di utilizzo anonime per migliorare l’app, e non contengono mai il nome di un farmaco o un sintomo. Dozify misura anche se un’installazione proviene da una delle sue campagne su App Store o Meta; questa misurazione avviene solo con il permesso di tracciamento di Apple e non include mai i tuoi dati sanitari. Elimini l’app e i tuoi dati spariscono.</p>
+            
+          </div>
+
+
+          <div class="faq-item">
+            <h3>Quali farmaci supporta Dozify?</h3>
+            
+            <p>Dozify ti aiuta a monitorare i farmaci GLP-1 più diffusi, tra cui Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® e Victoza®, oltre alle compresse giornaliere: Wegovy® pillola, Ozempic® compressa, Rybelsus® e Foundayo™. Questi nomi commerciali sono marchi dei rispettivi titolari e Dozify non è affiliata a queste aziende.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Dozify funziona senza internet?</h3>
+            
+            <p>Sì. Dozify è pensata per funzionare offline e va benissimo senza connessione a internet. Non devi mai accedere né sincronizzare nulla per usarla.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Dozify può ricordarmi l’iniezione?</h3>
+            
+            <p>Sì. Puoi impostare un promemoria settimanale o giornaliero in linea con il calendario del tuo farmaco, così è più facile restare costante nella tua routine.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Dozify sostituisce il mio medico?</h3>
+            
+            <p>No. Dozify è uno strumento di monitoraggio a scopo informativo, non un dispositivo medico, e non fornisce consulenza medica. Segui sempre il tuo medico e la tua prescrizione — <a href="/it/why">ciò che l’app si rifiuta di fare</a> è spiegato per intero.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Posso monitorare peso ed effetti collaterali?</h3>
+            
+            <p>Sì. Puoi registrare peso, misure corporee e un diario degli effetti collaterali, e vedere l’andamento su grafici chiari: inclusa una proiezione del peso e una stima del tempo per raggiungere l’obiettivo basata sui tuoi dati.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Posso importare i dati da un’altra app GLP-1?</h3>
+            
+            <p>Sì, ed è gratis. Esporta i dati dall’app che stai lasciando, apri Impostazioni &rarr; Importa il tuo storico in Dozify e scegli il file. Legge gli export di Shotsy, Glapp, GLPzy e GlucoPal e qualsiasi CSV con una colonna data, ti mostra cosa ha trovato (quante iniezioni, pesi e note) prima di salvare qualcosa, salta i dati che hai già e fa prima un backup dei dati esistenti. <a href="/it/switch-glp1-tracker-app">Maggiori dettagli nella pagina sul passaggio</a>.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Dozify è disponibile su Android?</h3>
+            
+            <p>Non ancora. Per ora Dozify è solo per iPhone, su App Store.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section section-cta">
+      <div class="container">
+        <h2 class="section-title">Scarica l’app</h2>
+        
+        <p class="section-lede">Dozify è su App Store, per iPhone.</p>
+        
+        <div class="store-row">
+          <a class="store-card store-card--live" href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-it&mt=8" target="_blank" rel="noopener">
+            <div class="store-card-icon">
+              <svg viewbox="0 0 24 24" fill="currentColor">
+                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
+              </svg>
+            </div>
+            <div>
+              <span class="store-card-pretitle">Scarica su</span>
+              
+              <strong>App Store</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/it" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+        <p class="footer-tagline">Un compagno discreto per la tua terapia GLP-1.</p>
+        
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Note legali</h3>
+          
+          <a href="/it/privacy">Informativa sulla privacy</a>
+          
+          <a href="/en/kvkk">KVKK Aydınlatma</a>
+          <a href="/it/terms">Termini di servizio</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Monitoraggio</h3>
+          
+          <a href="/it/glp1-shot-tracker">Tracker iniezioni GLP-1</a>
+          
+          <a href="/it/injection-site-tracker">Tracker sedi di iniezione</a>
+          
+          <a href="/it/glp1-weight-tracker">Tracker peso GLP-1</a>
+          
+          <a href="/it/glp1-side-effect-journal">Diario degli effetti collaterali</a>
+          
+          <a href="/it/glp1-vial-tracker">Tracker flaconcini</a>
+          
+          <a href="/it/private-glp1-tracker">Tracker GLP-1 privato</a>
+          
+          <a href="/it/glp1-appointment-report">Report per il medico</a>
+          
+          <a href="/it/switch-glp1-tracker-app">Passa da un’altra app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Aiuto</h3>
+          
+          <a href="/it/support">Supporto</a>
+          
+          <a href="/it/why">Perché Dozify</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+      <p class="disclaimer">Dozify non è un dispositivo medico e non fornisce consulenza medica. Consulta sempre il tuo medico. Ozempic®, Mounjaro®, Wegovy®, Saxenda®, Zepbound®, Trulicity®, Rybelsus®, Victoza® e Foundayo™ sono marchi dei rispettivi titolari. Dozify non è affiliata a queste aziende.</p>
+      
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en" hreflang="en" lang="en">English</a> · <a href="/tr" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar" hreflang="ar" lang="ar">العربية</a> · <a href="/cs" hreflang="cs" lang="cs">Čeština</a> · <a href="/da" hreflang="da" lang="da">Dansk</a> · <a href="/de" hreflang="de" lang="de">Deutsch</a> · <a href="/el" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es" hreflang="es" lang="es">Español</a> · <a href="/fi" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr" hreflang="fr" lang="fr">Français</a> · <a href="/hi" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it" hreflang="it" lang="it" aria-current="page">Italiano</a> · <a href="/ja" hreflang="ja" lang="ja">日本語</a> · <a href="/ko" hreflang="ko" lang="ko">한국어</a> · <a href="/nb" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl" hreflang="pl" lang="pl">Polski</a> · <a href="/pt" hreflang="pt" lang="pt">Português</a> · <a href="/ru" hreflang="ru" lang="ru">Русский</a> · <a href="/sv" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk" hreflang="uk" lang="uk">Українська</a> · <a href="/zh" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

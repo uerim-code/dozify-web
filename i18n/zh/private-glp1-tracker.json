@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "私密GLP-1记录：无需账户，没有云端",
+  "description": "你的 GLP-1 剂量、体重和症状都留在你的手机上。无需注册，没有云同步，应用内无广告。删除应用，记录也随之删除。"
+ },
+ "t": {
+  "No account. Your records stay on your phone.": "无需账户。你的记录留在你的手机上。",
+  "Your injection history, weight, side effects and progress photos are stored on your device and never uploaded. A meal photo leaves the phone only if you choose to analyse it with AI calories.": "你的注射历史、体重、副作用和进度照片都存储在你的设备上，从不上传。只有当你选择用 AI 卡路里分析某张餐食照片时，那张照片才会离开手机。",
+  "A GLP-1 log is a medical record about a treatment many people do not discuss. Handing it to a service that requires an account, a login and a server is a decision, and it is usually made by default.": "GLP-1 记录是一份关于许多人不愿谈论的治疗的医疗记录。把它交给一个需要账户、登录和服务器的服务，是一个决定，而这个决定通常是在不知不觉中做出的。",
+  "There is no account to make": "没有需要注册的账户",
+  "Install it and start. Nothing to sign up for, nothing to sign in to, and nothing to delete from a server later.": "安装即可开始。不用注册，不用登录，以后也不用从服务器上删除任何东西。",
+  "It works with the network off": "断网也能用",
+  "Everything is on the device. Uninstalling takes your records with it.": "一切都在设备上。卸载应用，你的记录也随之删除。",
+  "Analytics that carry no health data": "不含健康数据的分析统计",
+  "Anonymous usage counts only: never which medication you take, never a symptom. You can switch them off entirely.": "只有匿名的使用计数：从不包含你用的是哪种药，也从不包含任何症状。你可以完全关闭它们。",
+  "People who are not willing to put a prescription, a weight and a symptom list behind someone else's login, and people who share a household, a phone plan or a family account and would rather this did not appear in it. Also anyone who has read what a free health app usually does with data and decided against it.": "适合不愿把处方、体重和症状清单放在别人的登录之后的人，以及与他人共享家庭、话费套餐或家庭账户、更希望这些内容不出现在其中的人。也适合了解过免费健康应用通常如何处理数据、并决定不用这类应用的人。",
+  "Records that only exist on one phone are lost with that phone. Dozify makes an encrypted backup file you keep yourself; there is no cloud that will quietly restore anything for you. Two things do leave the device, and the privacy policy names both: anonymous usage statistics, which never carry a medication name or a symptom, and a measurement of whether an install came from one of our own App Store or Meta campaigns, which runs behind Apple's tracking permission.": "只存在于一部手机上的记录，会随这部手机一起丢失。Dozify 会生成一个由你自己保管的加密备份文件；没有云端会悄悄替你恢复任何东西。有两样东西会离开设备，隐私政策对两者都有说明：匿名使用统计，从不包含药物名称或症状；以及衡量某次安装是否来自我们自己的 App Store 或 Meta 推广活动，这项衡量受 Apple 跟踪权限约束。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-private-glp1-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-private-glp1-tracker-en&mt=8\" class=\"btn btn-primary\">在 App Store 下载</a>",
+  "Is there an account?": "需要账户吗？",
+  "No. There is nothing to sign up for and nothing to sign in to. The app opens straight into your own data.": "不需要。不用注册，也不用登录。应用打开就直接进入你自己的数据。",
+  "What is collected, exactly?": "具体收集了什么？",
+  "Anonymous usage statistics (which screens are used, whether something crashed) with no medication name, no symptom and no weight in them. The privacy policy lists what is sent and what never is.": "匿名使用统计（使用了哪些界面、是否发生崩溃），其中不含药物名称、症状或体重。隐私政策列出了哪些内容会被发送，哪些永远不会。",
+  "Can I get my data out?": "可以把我的数据导出来吗？",
+  "Yes. Backup writes an encrypted, password-protected file to your device, which you keep and restore from wherever you keep it.": "可以。备份会在你的设备上写入一个加密、受密码保护的文件，你可以自己保管，并从你存放的任何地方恢复。",
+  "What happens if I delete the app?": "删除应用后会怎样？",
+  "Your records go with it. There is no copy on a server to come back later, which is the point and also the reason to take a backup first.": "你的记录会随之删除。服务器上没有副本可以日后找回，这正是设计的初衷，也正是你应该先做备份的原因。",
+  "Is the data encrypted on the phone?": "手机上的数据是加密的吗？",
+  "It is stored in the app's own database inside iOS's app sandbox, and backup files are encrypted with the password you set.": "它存储在 iOS 应用沙盒内应用自己的数据库中，备份文件则使用你设置的密码加密。",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/health-app-privacy\">how to read a health app's privacy label</a>.": "注明出处的指南：<a href=\"/en/articles/what-is-glp1\">GLP-1 到底是什么</a>、<a href=\"/en/articles/glp1-injection-sites\">在哪里注射以及如何轮换</a>、<a href=\"/en/articles/glp1-side-effects\">应对常见副作用</a>以及<a href=\"/en/articles/health-app-privacy\">如何解读健康应用的隐私标签</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/switch-glp1-tracker-app\">importing from another app</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Dozify 的其他功能：<a href=\"/en/switch-glp1-tracker-app\">从其他应用导入</a>和<a href=\"/en/glp1-appointment-report\">就诊报告</a>。",
+  "No account. Nothing leaves your phone.": "无需账户。什么都不会离开你的手机。"
+ }
+}

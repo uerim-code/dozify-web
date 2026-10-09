@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Трекер місць ін’єкцій: чергування без нотаток</title>
+  <meta property="og:url" content="https://dozify.app/uk/injection-site-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Карта тіла пам’ятає, яке місце наступне, тож нотатки не потрібні. Записуйте, куди йшла кожна ін’єкція GLP-1, і бачте чергування з першого погляду.">
+  <meta property="og:title" content="Трекер місць ін’єкцій: чергування без нотаток">
+  <meta property="og:description" content="Карта тіла пам’ятає, яке місце наступне, тож нотатки не потрібні. Записуйте, куди йшла кожна ін’єкція GLP-1, і бачте чергування з першого погляду.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — приватний трекер ін’єкцій GLP-1 і ваги для iPhone">
+  <meta name="twitter:title" content="Трекер місць ін’єкцій: чергування без нотаток">
+  <meta name="twitter:description" content="Карта тіла пам’ятає, яке місце наступне, тож нотатки не потрібні. Записуйте, куди йшла кожна ін’єкція GLP-1, і бачте чергування з першого погляду.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — приватний трекер ін’єкцій GLP-1 і ваги для iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="uk_UA">
+
+  <link rel="canonical" href="https://dozify.app/uk/injection-site-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/injection-site-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/enjeksiyon-bolgesi-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/injection-site-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/injection-site-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/injection-site-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/injection-site-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/injection-site-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/injection-site-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/injection-site-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/injection-site-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/injection-site-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/injection-site-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/injection-site-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/injection-site-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/injection-site-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/injection-site-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/injection-site-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/injection-site-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/injection-site-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/injection-site-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/injection-site-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/injection-site-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/injection-site-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/uk",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "uk"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/uk",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Записуйте уколи й таблетки GLP-1, чергуйте місця ін’єкцій, стежте за вагою та побічними ефектами, рахуйте калорії й білок по фото з AI. Для iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "uk"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/uk/injection-site-tracker#webpage",
+        "url": "https://dozify.app/uk/injection-site-tracker",
+        "name": "Трекер місць ін’єкцій: чергування без нотаток",
+        "description": "Карта тіла пам’ятає, яке місце наступне, тож нотатки не потрібні. Записуйте, куди йшла кожна ін’єкція GLP-1, і бачте чергування з першого погляду.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "uk",
+        "breadcrumb": {
+          "@id": "https://dozify.app/uk/injection-site-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "З яких місць можна вибирати?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Живіт, стегно й плече, поділені на ліву й праву сторони та на ділянки в кожній. Саме ці зони описують інструкції виробників для підшкірних ін’єкцій GLP-1."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Як працює підказка?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Вона дивиться, куди йшли ваші останні ін’єкції, і вказує на зону, якою ви користувалися найдавніше. Це підказка на екрані, а не правило: ви можете записати будь-яке місце, куди справді кололи."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи попередить він, якщо я знову використаю те саме місце?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Він показує, які місця ви використовували нещодавно, тож повтор видно ще до запису. Він нічого не блокує; у вас може бути причина, і застосунок не скасовує вашого рішення."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Я щоразу колю в ту саму зону. Це проблема?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Це запитання до вашого лікаря чи фармацевта. Що може Dozify — показати їм закономірність: звіт включає, куди йшли ваші ін’єкції за вибраний вами період."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи замінює це інструкцію до моєї шприц-ручки?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ні. Інструкція — це вказівка; це — запис того, що ви робили. Де вони розходяться, правильна інструкція."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/uk/injection-site-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Головна",
+            "item": "https://dozify.app/uk"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Чергування місць",
+            "item": "https://dozify.app/uk/injection-site-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/uk" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Функції</a>
+        
+        <a href="/#privacy">Конфіденційність</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/uk">Головна</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Чергування місць</span>
+      
+    </div>
+    <h1>Чергуйте місця, не ведучи нотаток</h1>
+    
+    <p class="meta">Карта тіла пам’ятає, куди йшли останні уколи, і пропонує місце, яким ви не користувалися найдовше.</p>
+    
+
+    <h2>Проблема</h2>
+    <p>Чергування — одна з тих речей, що прості в принципі й неможливі для утримання в голові. Шість місць, одна ін’єкція на тиждень і десь нотатка, яку ви перестали оновлювати ще в березні.</p>
+
+    
+    
+
+    <h2>Що робить Dozify</h2>
+    <h3>Карта замість пам’яті</h3>
+    <p>Торкніться місця, куди ви кололи. Наступного разу місце, яким ви користувалися найдавніше, вже буде вибране.</p>
+    <h3>Ваші власні назви місць</h3>
+    <p>Якщо ви колете туди, що не позначене на схемі, впишіть назву. Застосунок не малюватиме анатомію, якої не знає, але запам’ятає вашу позначку.</p>
+    <h3>М’яке попередження, а не правило</h3>
+    <p>Виберіть місце, яке ви використовували минулого тижня, і застосунок про це скаже. Він вас не зупиняє: це ваше тіло і вказівка вашого лікаря.</p>
+
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Чергуйте місця, не ведучи нотаток"></div></figure>
+      
+    </div>
+
+
+    <h2>Кому це допоможе</h2>
+    <p>Для людей, яким сказали чергувати місця, але не дали способу це відстежувати, і для тих, хто почав помічати, що одна ділянка живота відчувається інакше, ніж решта. Також це допомагає всім, хто колеться частіше ніж раз на тиждень, — тоді схему важче втримати в голові, ніж одне щотижневе місце.</p>
+
+    
+    
+
+    <h2>Межі можливостей</h2>
+    <p>Карта тіла записує, куди ви кололи, і підказує, яка зона наступна в черзі. Вона не оглядає місце: не може сказати, чи шкіра там сьогодні придатна, а ущільнення чи затвердіння — це те, що треба показати лікарю, а не те, що має оцінювати застосунок. Затверджені зони взято з інструкцій виробника вашого препарату, і якщо вони відрізняються, дотримуйтеся саме інструкцій.</p>
+
+    
+    
+
+    <h2>Приватність за замовчуванням</h2>
+    <p>Ваші медичні записи зберігаються на вашому пристрої й ніколи не завантажуються на сервер; єдиний виняток — фото страви, яке ви самі вирішите проаналізувати функцією калорій з AI: його надсилають лише після вашої згоди, і застосунок його не зберігає. Немає ні облікового запису, ні хмарної синхронізації. Статистика використання ніколи не містить назви препарату чи симптому; подробиці — у <a href="/uk/privacy">політиці конфіденційності</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-uk&mt=8" class="btn btn-primary">Завантажити в App Store</a></p>
+
+
+    <h2>Запитання</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>З яких місць можна вибирати?</h3>
+        
+        <p>Живіт, стегно й плече, поділені на ліву й праву сторони та на ділянки в кожній. Саме ці зони описують інструкції виробників для підшкірних ін’єкцій GLP-1.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Як працює підказка?</h3>
+        
+        <p>Вона дивиться, куди йшли ваші останні ін’єкції, і вказує на зону, якою ви користувалися найдавніше. Це підказка на екрані, а не правило: ви можете записати будь-яке місце, куди справді кололи.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Чи попередить він, якщо я знову використаю те саме місце?</h3>
+        
+        <p>Він показує, які місця ви використовували нещодавно, тож повтор видно ще до запису. Він нічого не блокує; у вас може бути причина, і застосунок не скасовує вашого рішення.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Я щоразу колю в ту саму зону. Це проблема?</h3>
+        
+        <p>Це запитання до вашого лікаря чи фармацевта. Що може Dozify — показати їм закономірність: звіт включає, куди йшли ваші ін’єкції за вибраний вами період.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Чи замінює це інструкцію до моєї шприц-ручки?</h3>
+        
+        <p>Ні. Інструкція — це вказівка; це — запис того, що ви робили. Де вони розходяться, правильна інструкція.</p>
+        
+      </div>
+    </div>
+
+    <h2>Читати далі</h2>
+    <p>Посібники з указаними джерелами: <a href="/uk/articles/glp1-injection-sites">куди колоти і як чергувати місця</a>, <a href="/uk/articles/how-to-inject-glp1">як зробити укол шприц-ручкою, крок за кроком</a>, <a href="/uk/articles/glp1-side-effects">як упоратися з поширеними побічними ефектами</a> і <a href="/uk/articles/injection-site-lumps">що інструкції повідомляють про ущільнення на місці уколу</a>.</p>
+    <p>Інше в Dozify: <a href="/uk/glp1-shot-tracker">трекер уколів</a> і <a href="/uk/glp1-side-effect-journal">щоденник побічних ефектів</a>.</p>
+    <p>Нове в Dozify: сфотографуйте страву, і застосунок підготує чернетку калорій і білка для кожного продукту, яку ви можете відредагувати, — <a href="/uk/ai-calorie-tracker">підрахунок калорій з AI</a> (Premium), — а для щоденних таблеток GLP-1 тепер є окремий <a href="/uk/glp1-pill-tracker">трекер таблеток</a>.</p>
+
+    
+    
+    
+    
+
+    <p class="meta">Dozify — це інструмент для відстеження, а не медичний виріб. Він не рекомендує дози й не надає медичних порад. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® і Rybelsus® є товарними знаками відповідних власників; Dozify не пов’язаний із цими компаніями.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/uk" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Правова інформація</h3>
+          
+          <a href="/uk/privacy">Політика конфіденційності</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/uk/terms">Умови</a>
+          
+          <a href="/uk/editorial-policy">Редакційна політика</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Відстеження</h3>
+          
+          <a href="/uk/glp1-shot-tracker">Трекер ін’єкцій GLP-1</a>
+          
+          <a href="/uk/injection-site-tracker">Трекер місць ін’єкцій</a>
+          
+          <a href="/uk/glp1-weight-tracker">Трекер ваги на GLP-1</a>
+          
+          <a href="/uk/glp1-side-effect-journal">Щоденник побічних ефектів</a>
+          
+          <a href="/uk/glp1-vial-tracker">Трекер флаконів</a>
+          
+          <a href="/uk/private-glp1-tracker">Приватний трекер GLP-1</a>
+          
+          <a href="/uk/glp1-appointment-report">Звіт для лікаря</a>
+          
+          <a href="/uk/switch-glp1-tracker-app">Перехід з іншого застосунку</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Допомога</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/injection-site-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/enjeksiyon-bolgesi-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/injection-site-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/injection-site-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/injection-site-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/injection-site-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/injection-site-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/injection-site-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/injection-site-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/injection-site-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/injection-site-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/injection-site-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/injection-site-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/injection-site-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/injection-site-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/injection-site-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/injection-site-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/injection-site-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/injection-site-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/injection-site-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/injection-site-tracker" hreflang="uk" lang="uk" aria-current="page">Українська</a> · <a href="/zh/injection-site-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

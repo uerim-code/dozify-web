@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zpráva pro lékaře GLP-1 — přijď se shrnutím</title>
+  <meta property="og:url" content="https://dozify.app/cs/glp1-appointment-report">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Deset minut na vysvětlení tří měsíců. Vyber období a co zahrnout a Dozify vytvoří přehledné PDF s dávkami, váhou a nežádoucími účinky.">
+  <meta property="og:title" content="Zpráva pro lékaře GLP-1 — přijď se shrnutím">
+  <meta property="og:description" content="Deset minut na vysvětlení tří měsíců. Vyber období a co zahrnout a Dozify vytvoří přehledné PDF s dávkami, váhou a nežádoucími účinky.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — soukromé sledování injekcí GLP-1 a hmotnosti pro iPhone">
+  <meta name="twitter:title" content="Zpráva pro lékaře GLP-1 — přijď se shrnutím">
+  <meta name="twitter:description" content="Deset minut na vysvětlení tří měsíců. Vyber období a co zahrnout a Dozify vytvoří přehledné PDF s dávkami, váhou a nežádoucími účinky.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — soukromé sledování injekcí GLP-1 a hmotnosti pro iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="cs_CZ">
+
+  <link rel="canonical" href="https://dozify.app/cs/glp1-appointment-report">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-appointment-report">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/doktor-raporu">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glp1-appointment-report">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glp1-appointment-report">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glp1-appointment-report">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glp1-appointment-report">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glp1-appointment-report">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glp1-appointment-report">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glp1-appointment-report">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glp1-appointment-report">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glp1-appointment-report">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glp1-appointment-report">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glp1-appointment-report">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glp1-appointment-report">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glp1-appointment-report">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glp1-appointment-report">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glp1-appointment-report">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glp1-appointment-report">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glp1-appointment-report">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glp1-appointment-report">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glp1-appointment-report">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glp1-appointment-report">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-appointment-report">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/cs",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "cs"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/cs",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Zapisuj injekce i tablety GLP-1, střídej místa vpichu, sleduj váhu, nežádoucí účinky a myšlenky na jídlo a odhadni kalorie z fotky. Pro iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "cs"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/cs/glp1-appointment-report#webpage",
+        "url": "https://dozify.app/cs/glp1-appointment-report",
+        "name": "Zpráva pro lékaře GLP-1 — přijď se shrnutím",
+        "description": "Deset minut na vysvětlení tří měsíců. Vyber období a co zahrnout a Dozify vytvoří přehledné PDF s dávkami, váhou a nežádoucími účinky.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "cs",
+        "breadcrumb": {
+          "@id": "https://dozify.app/cs/glp1-appointment-report#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Co zpráva obsahuje?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dávky a intervaly mezi nimi, trend váhy, nežádoucí účinky s jejich závažností, místa vpichu, otevřené lahvičky a otázky, které sis zapsal(a): za období, které zvolíš."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Jaká období můžu zvolit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "30, 90 nebo 180 dní. Devadesát obvykle odpovídá odstupu mezi kontrolami; to delší je pro první návštěvu u nového lékaře."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Můžu některé části vynechat?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ano. Každá část má přepínač, takže zpráva může obsahovat jen dávky a váhu, pokud je návštěva právě o tom."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Můžu ji poslat před kontrolou?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "PDF je soubor v tvém telefonu. Vytiskni ho, pošli e-mailem, nahraj do portálu: je to tvoje rozhodnutí, které uděláš, až ho uvidíš."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Nahrává se něco, aby mohla vzniknout?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ne. Vytváří se v zařízení ze záznamů, které už tam jsou. K jejímu vytvoření se nic nikam neposílá."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/cs/glp1-appointment-report#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Domů",
+            "item": "https://dozify.app/cs"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Zpráva pro lékaře",
+            "item": "https://dozify.app/cs/glp1-appointment-report"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/cs" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funkce</a>
+        
+        <a href="/#privacy">Soukromí</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/cs">Domů</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Zpráva pro lékaře</span>
+      
+    </div>
+    <h1>Přijď se shrnutím, ne se vzpomínkami</h1>
+    
+    <p class="meta">Jedno klepnutí promění tři měsíce tvých vlastních záznamů ve stránku, kterou lékař přečte během deseti minut, které máš.</p>
+    
+
+    <h2>Problém</h2>
+    <p>Kontrola je krátká a toho, co probrat, je hodně: co a kdy sis bral(a), jak se měnila váha, jaké nežádoucí účinky a v jakém okamžiku a dvě otázky, které jsi chtěl(a) položit.</p>
+
+    
+    
+
+    <h2>Co Dozify dělá</h2>
+    <h3>Klinické shrnutí vytvořené v zařízení</h3>
+    <p>Dávky a intervaly, trend váhy, nežádoucí účinky, střídání míst vpichu, otevřené lahvičky: za 30, 90 nebo 180 dní.</p>
+    <h3>Tvoje otázky, vytištěné na konci</h3>
+    <p>Zapisuj si je, jak tě během měsíce napadají. Objeví se na poslední stránce.</p>
+    <h3>Sdílet, nebo ne – rozhoduješ ty</h3>
+    <p>PDF se vytvoří v tvém telefonu. Nic se nenahrává; ty rozhoduješ, zda ho někam pošleš.</p>
+
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Přijď se shrnutím, ne se vzpomínkami"></div></figure>
+      
+    </div>
+
+
+    <h2>Komu to pomůže</h2>
+    <p>Lidem s krátkou kontrolou a dlouhým obdobím k popsání a lidem, kteří přecházejí k novému lékaři, jenž jejich historii nikdy neviděl. Je to také pro kontrolu, kde se řeší změna dávky a kde je to, co se stalo za posledních osm týdnů, přesně tím, na čem rozhodnutí stojí.</p>
+
+    
+    
+
+    <h2>Kde jsou hranice</h2>
+    <p>Zpráva je tvůj záznam přehledně uspořádaný. Není to klinické hodnocení, neobsahuje žádný výklad a nic v ní by se nemělo číst jako doporučení – výklad je na lékaři. Obsahuje také jen to, co jsi zapsal(a): týden, který jsi nezaznamenal(a), je ve zprávě mezera, ne týden bez dávek.</p>
+
+    
+    
+
+    <h2>Soukromí jako výchozí stav</h2>
+    <p>Tvoje zdravotní záznamy zůstávají ve tvém zařízení a nikdy se nenahrávají; jedinou výjimkou je fotka jídla, kterou se rozhodneš analyzovat pomocí AI kalorií – odešle se až po tvém souhlasu a aplikace ji neukládá. Nemáš žádný účet ani synchronizaci s cloudem. Statistiky používání nikdy neobsahují název léku ani příznak, podrobnosti najdeš v <a href="/cs/privacy">zásadách ochrany osobních údajů</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-cs&mt=8" class="btn btn-primary">Stáhnout v App Store</a></p>
+
+
+    <h2>Otázky</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Co zpráva obsahuje?</h3>
+        
+        <p>Dávky a intervaly mezi nimi, trend váhy, nežádoucí účinky s jejich závažností, místa vpichu, otevřené lahvičky a otázky, které sis zapsal(a): za období, které zvolíš.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Jaká období můžu zvolit?</h3>
+        
+        <p>30, 90 nebo 180 dní. Devadesát obvykle odpovídá odstupu mezi kontrolami; to delší je pro první návštěvu u nového lékaře.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Můžu některé části vynechat?</h3>
+        
+        <p>Ano. Každá část má přepínač, takže zpráva může obsahovat jen dávky a váhu, pokud je návštěva právě o tom.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Můžu ji poslat před kontrolou?</h3>
+        
+        <p>PDF je soubor v tvém telefonu. Vytiskni ho, pošli e-mailem, nahraj do portálu: je to tvoje rozhodnutí, které uděláš, až ho uvidíš.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Nahrává se něco, aby mohla vzniknout?</h3>
+        
+        <p>Ne. Vytváří se v zařízení ze záznamů, které už tam jsou. K jejímu vytvoření se nic nikam neposílá.</p>
+        
+      </div>
+    </div>
+
+    <h2>Čti dál</h2>
+    <p>Průvodci s uvedenými zdroji: <a href="/cs/articles/glp1-side-effects">jak zvládat časté nežádoucí účinky</a>, <a href="/cs/articles/what-is-glp1">co GLP-1 doopravdy je</a> a <a href="/cs/articles/glp1-injection-sites">kam píchat a jak místa střídat</a> a <a href="/cs/articles/glp1-appointment-checklist">co mít připravené na samotnou kontrolu</a>.</p>
+    <p>Další v Dozify: <a href="/cs/glp1-side-effect-journal">deník nežádoucích účinků</a> a <a href="/cs/glp1-weight-tracker">trend váhy</a>.</p>
+    <p>Novinka v Dozify: vyfoť jídlo a aplikace pro tebe připraví návrh kalorií a bílkovin u každé položky, který můžeš upravit — <a href="/cs/ai-calorie-tracker">počítání kalorií s AI</a> (Premium) — a denní tablety GLP-1 mají vlastní <a href="/cs/glp1-pill-tracker">sledování tablet</a>.</p>
+
+    
+    
+    
+    
+
+    <p class="meta">Dozify je nástroj pro sledování, nikoli zdravotnický prostředek. Nedoporučuje dávky a neposkytuje lékařské rady. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® a Rybelsus® jsou ochranné známky příslušných vlastníků; Dozify s těmito společnostmi není nijak spojeno.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/cs" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Právní informace</h3>
+          
+          <a href="/cs/privacy">Zásady ochrany osobních údajů</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/cs/terms">Podmínky</a>
+          
+          <a href="/cs/editorial-policy">Redakční zásady</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Sledování</h3>
+          
+          <a href="/cs/glp1-shot-tracker">Sledování injekcí GLP-1</a>
+          
+          <a href="/cs/injection-site-tracker">Sledování míst vpichu</a>
+          
+          <a href="/cs/glp1-weight-tracker">Sledování hmotnosti na GLP-1</a>
+          
+          <a href="/cs/glp1-side-effect-journal">Deník nežádoucích účinků</a>
+          
+          <a href="/cs/glp1-vial-tracker">Sledování lahviček</a>
+          
+          <a href="/cs/private-glp1-tracker">Soukromé sledování GLP-1</a>
+          
+          <a href="/cs/glp1-appointment-report">Zpráva pro lékaře</a>
+          
+          <a href="/cs/switch-glp1-tracker-app">Přechod z jiné aplikace</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Nápověda</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glp1-appointment-report" hreflang="en" lang="en">English</a> · <a href="/tr/doktor-raporu" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glp1-appointment-report" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glp1-appointment-report" hreflang="cs" lang="cs" aria-current="page">Čeština</a> · <a href="/da/glp1-appointment-report" hreflang="da" lang="da">Dansk</a> · <a href="/de/glp1-appointment-report" hreflang="de" lang="de">Deutsch</a> · <a href="/el/glp1-appointment-report" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/glp1-appointment-report" hreflang="es" lang="es">Español</a> · <a href="/fi/glp1-appointment-report" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/glp1-appointment-report" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glp1-appointment-report" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glp1-appointment-report" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glp1-appointment-report" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/glp1-appointment-report" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/glp1-appointment-report" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/glp1-appointment-report" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glp1-appointment-report" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glp1-appointment-report" hreflang="pt" lang="pt">Português</a> · <a href="/ru/glp1-appointment-report" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glp1-appointment-report" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/glp1-appointment-report" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glp1-appointment-report" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

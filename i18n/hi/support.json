@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "title": "Dozify सपोर्ट — मदद, संपर्क और सब्सक्रिप्शन",
+  "description": "रिमाइंडर, इम्पोर्ट, बैकअप, Premium और सब्सक्रिप्शन कैंसल करने के बारे में जवाब — और अगर जवाब यहाँ न हो तो किसी इंसान तक कैसे पहुँचें।"
+ },
+ "t": {
+  "← Back to home": "← होम पर वापस",
+  "We typically reply within 24-48 hours.": "हम आम तौर पर 24-48 घंटों में जवाब देते हैं।",
+  "Email Support": "ईमेल सपोर्ट",
+  "For general questions, bug reports, or feature requests, contact us at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.": "आम सवालों, बग रिपोर्ट या फ़ीचर अनुरोधों के लिए हमसे <a href=\"mailto:support@dozify.app\">support@dozify.app</a> पर संपर्क करें।",
+  "Privacy & KVKK": "प्राइवेसी और KVKK",
+  "For data requests, deletion, or KVKK applications, write to <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.": "डेटा अनुरोध, डेटा डिलीट करने या KVKK आवेदनों के लिए <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a> पर लिखें।",
+  "Frequently Asked Questions": "अक्सर पूछे जाने वाले सवाल",
+  "Where is my data stored?": "मेरा डेटा कहाँ सेव होता है?",
+  "All your data (medications, injections, weight, side effects) is stored only on your phone, in an encrypted local database. Nothing is uploaded to any server. Dozify has no cloud.": "आपका सारा डेटा (दवाएँ, इंजेक्शन, वज़न, साइड इफ़ेक्ट) सिर्फ़ आपके फ़ोन पर, एक एन्क्रिप्टेड लोकल डेटाबेस में सेव होता है। किसी भी सर्वर पर कुछ अपलोड नहीं होता। Dozify का कोई क्लाउड नहीं है।",
+  "If I switch phones, will I lose my data?": "अगर मैं फ़ोन बदलूँ, तो क्या मेरा डेटा खो जाएगा?",
+  "Not if you back up first. Go to Settings → Backup to create a password-protected, encrypted backup file, then restore it on your new device from the same screen. There's still no cloud sync: the backup file itself is yours to keep (Files, email, AirDrop, etc.).": "नहीं, अगर आप पहले बैकअप ले लें। पासवर्ड से सुरक्षित, एन्क्रिप्टेड बैकअप फ़ाइल बनाने के लिए सेटिंग → बैकअप और बहाली पर जाएँ, फिर उसी स्क्रीन से अपने नए डिवाइस पर उसे बहाल करें। फिर भी कोई क्लाउड सिंक नहीं है: बैकअप फ़ाइल खुद आपके पास रहती है (Files, ईमेल, AirDrop आदि में)।",
+  "How do I cancel Premium?": "मैं Premium कैसे कैंसल करूँ?",
+  "Manage or cancel your subscription in the App Store (Settings → Apple ID → Subscriptions). Cancelling stops future renewals: you keep Premium until the end of the period you already paid for.": "App Store में अपना सब्सक्रिप्शन मैनेज या कैंसल करें (सेटिंग्ज़ → Apple ID → सब्सक्रिप्शन)। कैंसल करने से आगे के रिन्यूअल रुक जाते हैं: आपने जिस अवधि का भुगतान पहले ही कर दिया है उसके खत्म होने तक Premium आपके पास रहता है।",
+  "Will my Premium work on another device?": "क्या मेरा Premium दूसरे डिवाइस पर काम करेगा?",
+  "How do I add the Ozempic® / Wegovy® pen form?": "मैं Ozempic® / Wegovy® का पेन वाला रूप कैसे जोड़ूँ?",
+  "Go to Medications → Add → select Ozempic or Wegovy → choose \"Pre-filled dose pen\" → set your prescribed dose.": "मेरी दवाएँ → दवा जोड़ें → Ozempic या Wegovy चुनें → \"पहले से भरा पेन\" चुनें → अपना लिखा गया डोज़ सेट करें।",
+  "Why can I pick Mounjaro® as both a pen and a vial?": "मैं Mounjaro® को पेन और वायल दोनों के रूप में क्यों चुन सकता/सकती हूँ?",
+  "Mounjaro comes as a pre-filled KwikPen in some markets and as a multi-dose vial in others. Dozify offers both forms so you can pick the one that matches the product you were prescribed.": "Mounjaro कुछ बाज़ारों में पहले से भरे KwikPen के रूप में और कुछ में कई डोज़ वाली वायल के रूप में आता है। Dozify दोनों रूप देता है ताकि आप वह चुन सकें जो आपको लिखे गए प्रोडक्ट से मेल खाता है।",
+  "My reminders are not working: what should I do?": "मेरे रिमाइंडर काम नहीं कर रहे: मुझे क्या करना चाहिए?",
+  "Open your phone Settings → Notifications → Dozify → enable notifications. Also check that \"Do Not Disturb\" or a Focus mode is not silencing Dozify.": "अपने फ़ोन की सेटिंग्ज़ → सूचनाएँ → Dozify खोलें → नोटिफ़िकेशन चालू करें। यह भी देखें कि \"परेशान न करें\" या कोई फ़ोकस मोड Dozify को साइलेंट तो नहीं कर रहा।",
+  "How do I delete all my data?": "मैं अपना सारा डेटा कैसे डिलीट करूँ?",
+  "Settings → Delete My Data → choose to delete selected categories or everything. Uninstalling the app also permanently deletes all local data.": "सेटिंग → डेटा हटाएँ → चुनी हुई श्रेणियाँ या सब कुछ हटाना चुनें। app अनइंस्टॉल करने से भी सारा लोकल डेटा हमेशा के लिए डिलीट हो जाता है।",
+  "How do I create a PDF report?": "मैं PDF रिपोर्ट कैसे बनाऊँ?",
+  "Go to Reports → New Report → choose summary, detailed, or doctor-visit format → select date range → Generate. The PDF can be shared by email, AirDrop, or any other app.": "रिपोर्ट → नई रिपोर्ट → सारांश, विस्तृत या डॉक्टर-विज़िट फ़ॉर्मेट चुनें → तारीख की सीमा चुनें → बनाएँ। PDF ईमेल, AirDrop या किसी भी दूसरे app से शेयर की जा सकती है।",
+  "Does the app give medical advice?": "क्या app चिकित्सा सलाह देता है?",
+  "No. Dozify is a tracking tool only. It does not recommend doses or interpret medical results. Always consult your doctor or pharmacist for clinical decisions.": "नहीं। Dozify सिर्फ़ एक ट्रैकिंग टूल है। यह डोज़ की सलाह नहीं देता और मेडिकल नतीजों की व्याख्या नहीं करता। क्लिनिकल फ़ैसलों के लिए हमेशा अपने डॉक्टर या फ़ार्मासिस्ट से सलाह लें।",
+  "Yes. On your new device, open the Premium screen and tap \"Restore purchases\" while signed into the same Apple ID you subscribed with.": "हाँ। अपने नए डिवाइस पर Premium स्क्रीन खोलें और उसी Apple ID से साइन इन रहते हुए \"ख़रीदारी बहाल करें\" पर टैप करें जिससे आपने सब्सक्राइब किया था।"
+ }
+}

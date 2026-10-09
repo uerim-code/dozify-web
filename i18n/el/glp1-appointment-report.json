@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "Αναφορά GLP-1 για τον γιατρό — μπείτε με μια σύνοψη",
+  "description": "Δέκα λεπτά για να εξηγήσετε τρεις μήνες. Επιλέξτε διάστημα και περιεχόμενο, και το Dozify φτιάχνει ένα καθαρό PDF με δόσεις, βάρος και παρενέργειες."
+ },
+ "t": {
+  "Walk in with a summary, not a memory": "Μπείτε στο ραντεβού με μια σύνοψη, όχι με μια ανάμνηση",
+  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Ένα πάτημα μετατρέπει τρεις μήνες από τις δικές σας καταγραφές σε μια σελίδα που ο γιατρός σας μπορεί να διαβάσει στα δέκα λεπτά που έχετε.",
+  "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Ένα ραντεβού είναι σύντομο και τα θέματα πολλά: τι πήρατε και πότε, πώς κινήθηκε το βάρος, ποιες παρενέργειες και σε ποιο σημείο, και οι δύο ερωτήσεις που θέλατε να κάνετε.",
+  "A clinical summary, generated on the device": "Μια κλινική σύνοψη, που δημιουργείται στη συσκευή",
+  "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Δόσεις και διαστήματα, τάση βάρους, παρενέργειες, εναλλαγή σημείων, ανοιχτά φιαλίδια: για 30, 90 ή 180 ημέρες.",
+  "Your questions, printed at the end": "Οι ερωτήσεις σας, τυπωμένες στο τέλος",
+  "Write them down as they occur to you during the month. They come out on the last page.": "Γράψτε τις όπως σας έρχονται μέσα στον μήνα. Εμφανίζονται στην τελευταία σελίδα.",
+  "Yours to share, or not": "Δικό σας να το μοιραστείτε, ή όχι",
+  "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "Το PDF δημιουργείται στο κινητό σας. Τίποτα δεν ανεβαίνει· εσείς αποφασίζετε αν θα πάει κάπου.",
+  "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Όσοι έχουν σύντομο ραντεβού παρακολούθησης και ένα μεγάλο διάστημα να περιγράψουν, και όσοι πηγαίνουν σε νέο γιατρό που δεν έχει δει ποτέ το ιστορικό τους. Είναι επίσης για το ραντεβού όπου συζητείται αλλαγή δόσης, όπου ό,τι συνέβη τις τελευταίες οκτώ εβδομάδες είναι ακριβώς αυτό πάνω στο οποίο στηρίζεται η απόφαση.",
+  "The report is your record laid out clearly. It is not a clinical assessment, it contains no interpretation, and nothing in it should be read as a recommendation, the reading is your doctor's. It also only contains what you logged: a week you did not record is a gap in the report, not a week without doses.": "Η αναφορά είναι η δική σας καταγραφή παρουσιασμένη καθαρά. Δεν είναι κλινική αξιολόγηση, δεν περιέχει καμία ερμηνεία, και τίποτα σε αυτήν δεν πρέπει να διαβαστεί ως σύσταση· την ανάγνωση την κάνει ο γιατρός σας. Επίσης περιέχει μόνο όσα καταγράψατε: μια εβδομάδα που δεν καταγράψατε είναι κενό στην αναφορά, όχι εβδομάδα χωρίς δόσεις.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Λήψη από το App Store</a>",
+  "What is in the report?": "Τι περιέχει η αναφορά;",
+  "Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down: over the range you pick.": "Τις δόσεις και τα διαστήματα ανάμεσά τους, την τάση του βάρους, τις παρενέργειες με τη σοβαρότητά τους, τα σημεία ένεσης, τα ανοιχτά φιαλίδια και τις ερωτήσεις που γράψατε: για το διάστημα που επιλέγετε.",
+  "Which date ranges can I choose?": "Ποια χρονικά διαστήματα μπορώ να επιλέξω;",
+  "30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician.": "30, 90 ή 180 ημέρες. Οι ενενήντα συνήθως αντιστοιχούν στο διάστημα ανάμεσα σε δύο ραντεβού· το μεγαλύτερο είναι για μια πρώτη επίσκεψη σε νέο γιατρό.",
+  "Can I leave sections out?": "Μπορώ να παραλείψω ενότητες;",
+  "Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about.": "Ναι. Κάθε ενότητα έχει διακόπτη, οπότε μια αναφορά μπορεί να περιέχει μόνο δόσεις και βάρος αν αυτό αφορά η επίσκεψη.",
+  "Can I send it before the appointment?": "Μπορώ να τη στείλω πριν από το ραντεβού;",
+  "The PDF is a file on your phone. Print it, email it, put it in a portal: that is your decision, made after you have seen it.": "Το PDF είναι ένα αρχείο στο κινητό σας. Εκτυπώστε το, στείλτε το με email, ανεβάστε το σε μια πύλη: αυτή είναι δική σας απόφαση, αφού το έχετε δει.",
+  "Is anything uploaded to make it?": "Ανεβαίνει κάτι για να δημιουργηθεί;",
+  "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Όχι. Δημιουργείται στη συσκευή από καταγραφές που υπάρχουν ήδη εκεί. Τίποτα δεν στέλνεται πουθενά για να δημιουργηθεί.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Οδηγοί, με κατονομασμένες πηγές: <a href=\"/en/articles/glp1-side-effects\">διαχείριση των συχνών παρενεργειών</a>, <a href=\"/en/articles/what-is-glp1\">τι είναι στην πραγματικότητα το GLP-1</a> και <a href=\"/en/articles/glp1-injection-sites\">πού να κάνετε την ένεση και πώς να εναλλάσσετε</a> και <a href=\"/en/articles/glp1-appointment-checklist\">τι να έχετε έτοιμο για το ίδιο το ραντεβού</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Επίσης στο Dozify: <a href=\"/en/glp1-side-effect-journal\">το ημερολόγιο παρενεργειών</a> και <a href=\"/en/glp1-weight-tracker\">η τάση βάρους</a>."
+ }
+}

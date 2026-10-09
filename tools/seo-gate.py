@@ -69,6 +69,11 @@ def run_tool(name: str) -> tuple[int, str]:
 def check_broken_links(findings: list[Finding]) -> None:
     """Every internal href has to land on a file that exists."""
     existing = {url_of(rel) for rel in pages()}
+    # Standalone legal pages (build-legal.py) are real files outside the
+    # generated set; linking to them is correct.
+    existing |= {url_of(os.path.relpath(p, ROOT))
+                 for p in glob.glob(os.path.join(ROOT, "*", "privacy.html"))
+                 + glob.glob(os.path.join(ROOT, "*", "terms.html"))}
     for rel in pages():
         src = open(os.path.join(ROOT, rel), encoding="utf-8").read()
         for href in re.findall(r'href="(/[^"]*)"', src):

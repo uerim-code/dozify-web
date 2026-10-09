@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "Report GLP-1 per il medico: arriva con un riepilogo",
+  "description": "Dieci minuti per raccontare tre mesi. Scegli il periodo e cosa includere, e Dozify crea un PDF chiaro con dosi, peso ed effetti collaterali per la visita."
+ },
+ "t": {
+  "Walk in with a summary, not a memory": "Arriva con un riepilogo, non con i ricordi",
+  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Con un tocco, tre mesi dei tuoi dati diventano una pagina che il medico riesce a leggere nei dieci minuti che hai.",
+  "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Una visita è breve e c’è tanto da raccontare: cosa hai preso e quando, come si è mosso il peso, quali effetti collaterali e in che momento, e le due domande che volevi fare.",
+  "A clinical summary, generated on the device": "Un riepilogo clinico, generato sul dispositivo",
+  "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Dosi e intervalli, andamento del peso, effetti collaterali, rotazione delle sedi, flaconcini aperti: su 30, 90 o 180 giorni.",
+  "Your questions, printed at the end": "Le tue domande, stampate in fondo",
+  "Write them down as they occur to you during the month. They come out on the last page.": "Annotale man mano che ti vengono in mente durante il mese. Compaiono nell’ultima pagina.",
+  "Yours to share, or not": "Sta a te condividerlo, o no",
+  "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "Il PDF viene creato sul tuo telefono. Nulla viene caricato online; decidi tu se mandarlo da qualche parte.",
+  "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Chi ha un controllo breve e un lungo periodo da descrivere, e chi passa a un nuovo medico che non ha mai visto il suo storico. È utile anche per la visita in cui si parla di cambiare la dose, quando ciò che è successo nelle ultime otto settimane è esattamente ciò su cui si basa la decisione.",
+  "The report is your record laid out clearly. It is not a clinical assessment, it contains no interpretation, and nothing in it should be read as a recommendation, the reading is your doctor's. It also only contains what you logged: a week you did not record is a gap in the report, not a week without doses.": "Il report è il tuo diario presentato in modo chiaro. Non è una valutazione clinica, non contiene interpretazioni e nulla al suo interno va letto come una raccomandazione: la lettura spetta al tuo medico. Inoltre contiene solo ciò che hai registrato: una settimana non registrata è un vuoto nel report, non una settimana senza dosi.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Scarica su App Store</a>",
+  "What is in the report?": "Cosa contiene il report?",
+  "Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down: over the range you pick.": "Dosi e intervalli tra una e l’altra, andamento del peso, effetti collaterali con la loro intensità, sedi di iniezione, flaconcini aperti e le domande che hai annotato: nel periodo che scegli.",
+  "Which date ranges can I choose?": "Quali periodi posso scegliere?",
+  "30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician.": "30, 90 o 180 giorni. Novanta di solito corrisponde all’intervallo tra una visita e l’altra; il periodo più lungo è per una prima visita con un nuovo medico.",
+  "Can I leave sections out?": "Posso escludere alcune sezioni?",
+  "Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about.": "Sì. Ogni sezione si attiva e disattiva con un interruttore, quindi un report può contenere solo dosi e peso se la visita riguarda quello.",
+  "Can I send it before the appointment?": "Posso inviarlo prima della visita?",
+  "The PDF is a file on your phone. Print it, email it, put it in a portal: that is your decision, made after you have seen it.": "Il PDF è un file sul tuo telefono. Stampalo, invialo per email, caricalo su un portale: decidi tu, dopo averlo visto.",
+  "Is anything uploaded to make it?": "Viene caricato qualcosa online per crearlo?",
+  "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "No. Viene generato sul dispositivo a partire dai dati che ci sono già. Nulla viene inviato da nessuna parte per produrlo.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Guide con le fonti indicate: <a href=\"/en/articles/glp1-side-effects\">gestire gli effetti collaterali comuni</a>, <a href=\"/en/articles/what-is-glp1\">che cos’è davvero il GLP-1</a> e <a href=\"/en/articles/glp1-injection-sites\">dove fare l’iniezione e come alternare le sedi</a> e <a href=\"/en/articles/glp1-appointment-checklist\">cosa tenere pronto per la visita</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Altro in Dozify: <a href=\"/en/glp1-side-effect-journal\">il diario degli effetti collaterali</a> e <a href=\"/en/glp1-weight-tracker\">l’andamento del peso</a>."
+ }
+}

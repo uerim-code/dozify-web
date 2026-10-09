@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jak číst trend váhy, když se hubnutí zastaví</title>
+  <meta name="description" content="Váha je nejvyšší na začátku týdne a nejnižší kolem pátku — to je publikovaný údaj, ne dojem. Na co křivka trendu odpoví a na co záměrně nemůže.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/cs/articles/reading-a-weight-trend">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="Jak číst trend váhy, když se hubnutí zastaví">
+  <meta property="og:description" content="Váha je nejvyšší na začátku týdne a nejnižší kolem pátku — to je publikovaný údaj, ne dojem. Na co křivka trendu odpoví a na co záměrně nemůže.">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — soukromé sledování injekcí GLP-1 a hmotnosti pro iPhone">
+  <meta name="twitter:title" content="Jak číst trend váhy, když se hubnutí zastaví">
+  <meta name="twitter:description" content="Váha je nejvyšší na začátku týdne a nejnižší kolem pátku — to je publikovaný údaj, ne dojem. Na co křivka trendu odpoví a na co záměrně nemůže.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — soukromé sledování injekcí GLP-1 a hmotnosti pro iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="cs_CZ">
+
+  <link rel="canonical" href="https://dozify.app/cs/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/kilo-trendini-okumak">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/reading-a-weight-trend">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/cs",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "cs"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/cs/editorial-policy",
+        "description": "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/cs/articles/reading-a-weight-trend#webpage",
+        "url": "https://dozify.app/cs/articles/reading-a-weight-trend",
+        "name": "Jak číst trend váhy, když se hubnutí zastaví",
+        "description": "Váha je nejvyšší na začátku týdne a nejnižší kolem pátku — to je publikovaný údaj, ne dojem. Na co křivka trendu odpoví a na co záměrně nemůže.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "cs",
+        "breadcrumb": {
+          "@id": "https://dozify.app/cs/articles/reading-a-weight-trend#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Přes noc jsem přibral(a) 1,5 kg. Je to skutečné?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Je to skutečné měření. Zda je to skutečná změna v tvém těle, je jiná otázka a jeden den na ni odpovědět nemůže: už samotný publikovaný týdenní vzorec posouvá číslo, aniž by se změnilo cokoli jiného. Rozhodne až trend v následujících dnech."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Mám se vážit každý den, nebo jednou týdně?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Obojí ti dá trend; víc měření mu jen dá víc bodů. Co týdenní vážení nedokáže, je zprůměrovat vliv dne v týdnu, protože každé měření připadne na stejný den. Pokud se vážíš týdně, drž stejný den a čti měsíce, ne týdny."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Můj trend je tři týdny plochý. Co to znamená?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Znamená to, že se měření nehýbou. Cokoli dalšího (příčina, význam, co by se mělo stát dál) je klinický úsudek a tato stránka nemá postavení ho dělat. Vezmi ty tři týdny i s daty a dávkami k tomu, kdo ti lék předepsal."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Řekne mi projekce, kdy dosáhnu cíle?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Řekne ti, kdy bys ho dosáhl(a), kdyby trend tvých vlastních měření pokračoval přesně tak jako dosud. Těla tak nefungují a datum vzniklé prodloužením křivky je popis křivky, ne plán na rok."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Týden jsem se nevážil(a). Zničil(a) jsem si trend?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ne. Výzkum dat z chytrých vah zjistil, že odhady obstály i při velkém množství chybějících dat, a v souboru téměř deseti tisíc uživatelů se průměrný člověk vážil asi ve 40 % dní. Mezery jsou běžný případ, ne selhání."
+            }
+          }
+        ],
+        "headline": "Jak číst trend hmotnosti, když se váha zastavila",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-19",
+        "dateModified": "2026-08-19",
+        "lastReviewed": "2026-08-19",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "Weight Rhythms: Weight Increases during Weekends and Decreases during Weekdays (PMC, NIH)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5644907/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Frequency of Self-Weighing and Weight Change: Cohort Study With 10,000 Smart Scale Users (PMC, NIH)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8277333/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Body Weight Variability Calculation From Digital Smart Scales (PMC, NIH)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7519428/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "NIDDK (NIH) — Weight management",
+            "url": "https://www.niddk.nih.gov/health-information/weight-management"
+          },
+          {
+            "@type": "WebPage",
+            "name": "MedlinePlus (NIH) — Semaglutide Injection",
+            "url": "https://medlineplus.gov/druginfo/meds/a618008.html"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/cs/articles/reading-a-weight-trend#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Domů",
+            "item": "https://dozify.app/cs"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Články",
+            "item": "https://dozify.app/cs/articles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Jak číst trend",
+            "item": "https://dozify.app/cs/articles/reading-a-weight-trend"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/cs" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funkce</a>
+        
+        <a href="/cs/support">Podpora</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/cs">Domů</a>
+        
+        <span aria-hidden="true">/</span>
+        <a href="/cs/articles">Články</a>
+        
+        <span aria-hidden="true">/</span>
+        <span>Jak číst trend</span>
+        
+      </div>
+
+      <div class="article-hero">
+        <h1>Jak číst trend hmotnosti, když se váha zastavila</h1>
+        
+        <p class="article-meta">Autor: Ümit Can Erim · Publikováno 19. srpna 2026 · Aktualizováno 19. srpna 2026 · Zdroje ověřeny 19. srpna 2026 · <a href="/cs/editorial-policy">Jak tyto průvodce píšeme</a></p>
+        
+        <p class="article-lede">Tělesná hmotnost se mění v týdenním rytmu, který byl změřen a publikován: nejvýš na začátku týdne, nejníž kolem pátku, od soboty znovu stoupá. Vedle toho není jedno ranní číslo malým kouskem obrázku: je to kousek, na kterém je ještě nalepený šum. Tato stránka je o čtení křivky místo bodu. Není o tom, co dělat, když se křivka zploští, a řekne proč.</p>
+        
+      </div>
+
+      <div class="prose">
+        <h2>Týden má svůj tvar a není to tvoje selhání</h2>
+        <p>Studie týdenních vzorců hmotnosti zjistila konzistentní cyklus: hmotnost vrcholila v neděli a v pondělí, během týdne klesala k minimu kolem pátku a v sobotu začala znovu stoupat. Autoři závěr formulují jasně: rozdíly mezi víkendy a pracovními dny „by měly být považovány za normální, a ne za známky přibírání“.</p>
+        <p>To znamená, že pondělní a páteční vážení nejsou dvě měření téže věci. Jejich porovnání, nebo porovnání dneška s nejlepším číslem, jaké jsi kdy viděl(a), vytváří příběh, který v datech není. Stejná studie zjistila, že rytmus byl nejvýraznější ve skupině, která hubla, takže viditelné týdenní kolísání není důkaz, že se nic neděje.</p>
+
+        
+        
+        
+
+        <h2>Co dělá křivka trendu</h2>
+        <p>Trend je aritmetika, ne výklad: vyhlazuje denní rozptyl, aby byl vidět směr pod ním. Výzkum dat z chytrých vah popisuje přesně toto oddělení: proložení křivky měřeními tak, aby se dala odlišit každodenní variabilita od skutečného vývoje. Je to stejná operace, kterou dělá tvoje oko, když mžourá na zubatý graf, jen provedená konzistentně.</p>
+        <p>Dva důsledky, které stojí za to znát:</p>
+        <ul>
+          <li><strong>Trend potřebuje řadu měření, ne dokonalou řadu.</strong> V práci s chytrými vahami odhady variability obstály i při velkém množství chybějících dat. Vynechané dny křivku neznehodnotí.</li>
+          <li><strong>Plochý trend je popis, ne diagnóza.</strong> Říká, že měření, která jsi mu dal(a), se nehýbou. Neříká proč a nic v aritmetice to říct nemůže.</li>
+        </ul>
+
+        
+        
+        
+        
+
+        <div class="callout">
+          <p><strong>Co ti tato stránka neřekne.</strong> Proč se tvůj trend zploštil, zda to znamená, že lék funguje, zda by se měla změnit dávka nebo co dělat dál. To jsou klinické otázky, ke kterým patří konkrétní člověk, a poctivá podoba tohoto článku končí u aritmetiky. Se zploštěním se vyplatí udělat jedno: přinést ho (s daty) na kontrolu; <a href="/cs/articles/glp1-appointment-checklist">kontrolní seznam</a> popisuje, co dalšího mít s sebou.</p>
+          
+        </div>
+
+        <h2>Jak udělat měření porovnatelná</h2>
+        <p>Pokud chceš křivku, která něco znamená, praktická část je konzistence, ne četnost:</p>
+        <ul>
+          <li>Stejná denní doba a stejný okamžik v rutině: většina lidí volí hned ráno, než se nají nebo napijí.</li>
+          <li>Stejná váha na stejné podlaze. Přesunutí z koberce na dlažbu změní číslo dřív než tvoje tělo.</li>
+          <li>Dost měření, aby se jimi dala proložit křivka. V souboru téměř deseti tisíc uživatelů chytrých vah se lidé vážili v průměru asi ve 40 % dní, takže realistická verze není každodenní dokonalost.</li>
+        </ul>
+        <p>A jedna věc, která v seznamu není: častější vážení nedělá trend pravdivějším. Dává křivce víc bodů, což není totéž jako měnit to, co křivka dělá.</p>
+
+        
+        
+        
+        
+
+        <h2>Kam do obrázku patří dávka</h2>
+        <p>Jediné srovnání, které trend unese a aplikace pro váhu ne, je časová osa pod ním: které týdny měly jakou dávku a kdy se naposledy změnila. Samo o sobě to nic nevysvětluje: změna křivky po změně dávky je posloupnost, ne příčina. Je to ale posloupnost, na kterou se lékař zeptá, a skládat ji z paměti během patnáctiminutové kontroly je místo, kde se ztrácí většina podrobností.</p>
+
+        
+        
+      </div>
+
+      <div class="article-cta">
+        <h3>Trend vedle dávek, které ho provázely</h3>
+        
+        <p>Váha na stejné časové ose jako tvoje injekce, za tři měsíce, šest nebo rok. Načítá se z Apple Health, pokud tam tvoje váha zapisuje, takže zadávání není další krok. Dozify ukazuje, co udělaly tvoje zápisy: neříká ti, co tvoje tělo udělá dál.</p>
+        
+        <a href="/#download" class="btn btn-primary">Stáhnout aplikaci</a>
+        
+        <a href="/cs/glp1-weight-tracker" class="link-arrow">Podívej se, jak funguje trend váhy →</a>
+        
+      </div>
+
+      <div class="article-faq">
+        <h2>Otázky</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Přes noc jsem přibral(a) 1,5 kg. Je to skutečné?</h3>
+            
+            <p>Je to skutečné měření. Zda je to skutečná změna v tvém těle, je jiná otázka a jeden den na ni odpovědět nemůže: už samotný publikovaný týdenní vzorec posouvá číslo, aniž by se změnilo cokoli jiného. Rozhodne až trend v následujících dnech.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Mám se vážit každý den, nebo jednou týdně?</h3>
+            
+            <p>Obojí ti dá trend; víc měření mu jen dá víc bodů. Co týdenní vážení nedokáže, je zprůměrovat vliv dne v týdnu, protože každé měření připadne na stejný den. Pokud se vážíš týdně, drž stejný den a čti měsíce, ne týdny.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Můj trend je tři týdny plochý. Co to znamená?</h3>
+            
+            <p>Znamená to, že se měření nehýbou. Cokoli dalšího (příčina, význam, co by se mělo stát dál) je klinický úsudek a tato stránka nemá postavení ho dělat. Vezmi ty tři týdny i s daty a dávkami k tomu, kdo ti lék předepsal.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Řekne mi projekce, kdy dosáhnu cíle?</h3>
+            
+            <p>Řekne ti, kdy bys ho dosáhl(a), kdyby trend tvých vlastních měření pokračoval přesně tak jako dosud. Těla tak nefungují a datum vzniklé prodloužením křivky je popis křivky, ne plán na rok.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Týden jsem se nevážil(a). Zničil(a) jsem si trend?</h3>
+            
+            <p>Ne. Výzkum dat z chytrých vah zjistil, že odhady obstály i při velkém množství chybějících dat, a v souboru téměř deseti tisíc uživatelů se průměrný člověk vážil asi ve 40 % dní. Mezery jsou běžný případ, ne selhání.</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p>Vzdělávací informace, nikoli lékařská rada. Dozify je osobní aplikace pro sledování, nikoli zdravotnický prostředek. Tato stránka popisuje, jak číst vlastní měření, a nevykládá je ani nedoporučuje hmotnost, tempo změny nebo dávku. Vždy se řiď pokyny svého lékaře.</p>
+        
+      </div>
+
+      <div class="references">
+        <h2>Zdroje</h2>
+        <ol>
+          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5644907/" rel="nofollow noopener" target="_blank">Weight Rhythms: Weight Increases during Weekends and Decreases during Weekdays (PMC, NIH)</a></li>
+          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8277333/" rel="nofollow noopener" target="_blank">Frequency of Self-Weighing and Weight Change: Cohort Study With 10,000 Smart Scale Users (PMC, NIH)</a></li>
+          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7519428/" rel="nofollow noopener" target="_blank">Body Weight Variability Calculation From Digital Smart Scales (PMC, NIH)</a></li>
+          <li><a href="https://www.niddk.nih.gov/health-information/weight-management" rel="nofollow noopener" target="_blank">NIDDK (NIH). Weight management</a></li>
+          <li><a href="https://medlineplus.gov/druginfo/meds/a618008.html" rel="nofollow noopener" target="_blank">MedlinePlus (NIH). Semaglutide Injection</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/cs" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Právní informace</h3>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/cs/terms">Podmínky</a>
+          
+          <a href="/cs/editorial-policy">Redakční zásady</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Nápověda</h3>
+          
+          <a href="/cs/support">Podpora</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/articles/reading-a-weight-trend" hreflang="en" lang="en">English</a> · <a href="/tr/makaleler/kilo-trendini-okumak" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/articles/reading-a-weight-trend" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/articles/reading-a-weight-trend" hreflang="cs" lang="cs" aria-current="page">Čeština</a> · <a href="/da/articles/reading-a-weight-trend" hreflang="da" lang="da">Dansk</a> · <a href="/de/articles/reading-a-weight-trend" hreflang="de" lang="de">Deutsch</a> · <a href="/el/articles/reading-a-weight-trend" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/articles/reading-a-weight-trend" hreflang="es" lang="es">Español</a> · <a href="/fi/articles/reading-a-weight-trend" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/articles/reading-a-weight-trend" hreflang="fr" lang="fr">Français</a> · <a href="/hi/articles/reading-a-weight-trend" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/articles/reading-a-weight-trend" hreflang="it" lang="it">Italiano</a> · <a href="/ja/articles/reading-a-weight-trend" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/articles/reading-a-weight-trend" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/articles/reading-a-weight-trend" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/articles/reading-a-weight-trend" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/articles/reading-a-weight-trend" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/articles/reading-a-weight-trend" hreflang="pt" lang="pt">Português</a> · <a href="/ru/articles/reading-a-weight-trend" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/articles/reading-a-weight-trend" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/articles/reading-a-weight-trend" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/articles/reading-a-weight-trend" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

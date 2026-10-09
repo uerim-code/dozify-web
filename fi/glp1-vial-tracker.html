@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1-injektiopullon seuranta – tiedä ennen kuin se loppuu</title>
+  <meta property="og:url" content="https://dozify.app/fi/glp1-vial-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Jäljellä olevat annokset, päivät avaamisesta ja viimeinen käyttöpäivä yhdellä kortilla. Pullon loppu on ennustettavissa viikkoja etukäteen; Dozify laskee sen.">
+  <meta property="og:title" content="GLP-1-injektiopullon seuranta – tiedä ennen kuin se loppuu">
+  <meta property="og:description" content="Jäljellä olevat annokset, päivät avaamisesta ja viimeinen käyttöpäivä yhdellä kortilla. Pullon loppu on ennustettavissa viikkoja etukäteen; Dozify laskee sen.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — yksityinen GLP-1-pistos- ja painonseuranta iPhonelle">
+  <meta name="twitter:title" content="GLP-1-injektiopullon seuranta – tiedä ennen kuin se loppuu">
+  <meta name="twitter:description" content="Jäljellä olevat annokset, päivät avaamisesta ja viimeinen käyttöpäivä yhdellä kortilla. Pullon loppu on ennustettavissa viikkoja etukäteen; Dozify laskee sen.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — yksityinen GLP-1-pistos- ja painonseuranta iPhonelle">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="fi_FI">
+
+  <link rel="canonical" href="https://dozify.app/fi/glp1-vial-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-vial-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/flakon-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glp1-vial-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glp1-vial-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glp1-vial-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glp1-vial-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glp1-vial-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glp1-vial-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glp1-vial-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glp1-vial-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glp1-vial-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glp1-vial-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glp1-vial-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glp1-vial-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glp1-vial-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glp1-vial-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glp1-vial-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glp1-vial-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glp1-vial-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glp1-vial-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glp1-vial-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glp1-vial-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-vial-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/fi",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "fi"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/fi",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Kirjaa GLP-1-pistokset ja päivittäiset tabletit, vaihtele pistoskohtia, seuraa painoa ja sivuvaikutuksia ja laske kalorit ateriakuvasta tekoälyllä. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "fi"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/fi/glp1-vial-tracker#webpage",
+        "url": "https://dozify.app/fi/glp1-vial-tracker",
+        "name": "GLP-1-injektiopullon seuranta – tiedä ennen kuin se loppuu",
+        "description": "Jäljellä olevat annokset, päivät avaamisesta ja viimeinen käyttöpäivä yhdellä kortilla. Pullon loppu on ennustettavissa viikkoja etukäteen; Dozify laskee sen.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "fi",
+        "breadcrumb": {
+          "@id": "https://dozify.app/fi/glp1-vial-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Laskeeko se annokset automaattisesti?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Se vähentää jokaisen kirjaamasi pistoksen siitä pullosta, johon kirjasit sen, joten jäljellä oleva määrä seuraa omia merkintöjäsi ilman erillistä vaihetta."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Mistä käytönaikainen raja tulee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kyseisen lääkkeen säilytysohjeista: kuinka kauan sitä saa säilyttää avaamisen jälkeen ja missä lämpötilassa. Dozify näyttää sen, joka pätee, ja laskee päivät; se ei keksi lukua."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Entä jos kynä viettää päivän jääkaapin ulkopuolella?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kirjaa se säilytystapahtumana: kuinka kauan ja suunnilleen kuinka lämpimässä. Se pysyy pullon tiedoissa, joten se on tallessa, kun teet päätöksen tai kysyt farmaseutilta."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Varoittaako se ennen kuin pullo loppuu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Se näyttää kortilla jäljellä olevat annokset ja päivät, joten loppu näkyy viikkoja etukäteen eikä vasta sinä iltana, jolloin annos on edessä."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Toimiiko tämä kynille yhtä hyvin kuin injektiopulloille?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kyllä. Kynää, jossa on useita annoksia, seurataan samalla tavalla: mitä on jäljellä, kuinka kauan se on ollut auki ja milloin sen käyttöaika päättyy."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/fi/glp1-vial-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Etusivu",
+            "item": "https://dozify.app/fi"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Injektiopullojen seuranta",
+            "item": "https://dozify.app/fi/glp1-vial-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/fi" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Ominaisuudet</a>
+        
+        <a href="/#privacy">Tietosuoja</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/fi">Etusivu</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Injektiopullojen seuranta</span>
+      
+    </div>
+    <h1>Tiedä, milloin injektiopullo loppuu, ennen kuin se loppuu</h1>
+    
+    <p class="meta">Jäljellä oleva määrä, jäljellä olevat annokset ja viimeinen käyttöpäivä: yhdellä kortilla, ennen viikonloppua, jolloin apteekki on kiinni.</p>
+    
+
+    <h2>Ongelma</h2>
+    <p>Injektiopullo loppuu kahdella tavalla: se tyhjenee tai sen käyttöaika umpeutuu. Molemmat ovat ennustettavissa viikkoja etukäteen, ja molemmat huomataan yleensä sinä iltana, jolloin annos on edessä.</p>
+
+    
+    
+
+    <h2>Mitä Dozify tekee</h2>
+    <h3>Mitä on jäljellä, annoksina</h3>
+    <p>Jäljellä olevat millilitrat ja mitä se tarkoittaa pistoksina määrätyllä annoksellasi.</p>
+    <h3>Kaksi kelloa, ei yksi</h3>
+    <p>Päivät avaamisesta ja valmistajan viimeinen käyttöpäivä, kumpi tulee ensin: kyseisen lääkkeen säilytysohjeiden kanssa.</p>
+    <h3>Aika jääkaapin ulkopuolella</h3>
+    <p>Kirjaa säilytystapahtuma, kun pullo viettää iltapäivän laukussa. Matkatila on niitä päiviä varten, jotka eivät ole tavallisia.</p>
+
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/vial-stock.webp" srcset="/screenshots/en/vial-stock-400w.webp 400w, /screenshots/en/vial-stock.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Tiedä, milloin injektiopullo loppuu, ennen kuin se loppuu"></div></figure>
+      
+    </div>
+
+
+    <h2>Kenelle tästä on apua</h2>
+    <p>Moniannoskyniä ja -pulloja käyttäville, joilla yksi pakkaus kattaa useita viikkoja ja sen loppu saapuu hiljaa. Se on tärkeintä kaikille, jotka matkustavat lääkkeensä kanssa tai ovat seisseet sunnuntaina avoimen jääkaapin edessä miettien, onko siellä oleva vielä kunnossa.</p>
+
+    
+    
+
+    <h2>Missä raja menee</h2>
+    <p>Dozify laskee sen, mitä kerrot sille: vedetyt annokset, pullon avauspäivän ja siihen painetun viimeisen käyttöpäivän. Se ei näe nestettä, joten se ei voi kertoa, onko tietty pullo vielä käyttökelpoinen: se arvio kuuluu lääkkeesi säilytysohjeille ja epävarmoissa tilanteissa farmaseutille. Sen näyttämät käytönaikaiset rajat tulevat noista ohjeista, eivät meiltä.</p>
+
+    
+    
+
+    <h2>Yksityinen oletuksena</h2>
+    <p>Terveystietosi pysyvät laitteellasi, eikä niitä koskaan ladata palvelimelle; ainoa poikkeus on ateriakuva, jonka itse päätät analysoida tekoälykaloreilla: se lähetetään vasta suostumuksesi jälkeen, eikä sovellus tallenna sitä. Tiliä ei ole eikä pilvisynkronointia. Käyttötilastoissa ei koskaan ole lääkkeen nimeä tai oiretta, lisätietoja <a href="/fi/privacy">tietosuojaselosteessa</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-fi&mt=8" class="btn btn-primary">Lataa App Storesta</a></p>
+
+
+    <h2>Kysymykset</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Laskeeko se annokset automaattisesti?</h3>
+        
+        <p>Se vähentää jokaisen kirjaamasi pistoksen siitä pullosta, johon kirjasit sen, joten jäljellä oleva määrä seuraa omia merkintöjäsi ilman erillistä vaihetta.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Mistä käytönaikainen raja tulee?</h3>
+        
+        <p>Kyseisen lääkkeen säilytysohjeista: kuinka kauan sitä saa säilyttää avaamisen jälkeen ja missä lämpötilassa. Dozify näyttää sen, joka pätee, ja laskee päivät; se ei keksi lukua.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Entä jos kynä viettää päivän jääkaapin ulkopuolella?</h3>
+        
+        <p>Kirjaa se säilytystapahtumana: kuinka kauan ja suunnilleen kuinka lämpimässä. Se pysyy pullon tiedoissa, joten se on tallessa, kun teet päätöksen tai kysyt farmaseutilta.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Varoittaako se ennen kuin pullo loppuu?</h3>
+        
+        <p>Se näyttää kortilla jäljellä olevat annokset ja päivät, joten loppu näkyy viikkoja etukäteen eikä vasta sinä iltana, jolloin annos on edessä.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Toimiiko tämä kynille yhtä hyvin kuin injektiopulloille?</h3>
+        
+        <p>Kyllä. Kynää, jossa on useita annoksia, seurataan samalla tavalla: mitä on jäljellä, kuinka kauan se on ollut auki ja milloin sen käyttöaika päättyy.</p>
+        
+      </div>
+    </div>
+
+    <h2>Lue seuraavaksi</h2>
+    <p>Oppaat, joiden lähteet on nimetty: <a href="/fi/articles/how-to-inject-glp1">miten kynällä pistetään vaihe vaiheelta</a>, <a href="/fi/articles/glp1-injection-sites">mihin pistää ja miten kohtia vaihdellaan</a> ja <a href="/fi/articles/what-is-glp1">mitä GLP-1 oikeastaan on</a>, <a href="/fi/articles/storing-glp1-pens">mitä kukin valmisteyhteenveto sanoo kynän säilytyksestä</a> ja <a href="/fi/articles/travelling-with-a-glp1-pen">mitä säännöt sanovat kynän kanssa lentämisestä</a>.</p>
+    <p>Muualla Dozifyssa: <a href="/fi/glp1-shot-tracker">pistosseuranta</a> ja <a href="/fi/glp1-appointment-report">lääkäriraportti</a>.</p>
+    <p>Uutta Dozifyssa: ota kuva ateriasta, niin sovellus laatii jokaisesta ruoasta kalori- ja proteiiniarvion, jota voit muokata — <a href="/fi/ai-calorie-tracker">tekoälykaloriseuranta</a> (Premium) — ja päivittäisillä GLP-1-tableteilla on oma <a href="/fi/glp1-pill-tracker">tablettiseurantansa</a>.</p>
+
+    
+    
+    
+    
+
+    <p class="meta">Dozify on seurantatyökalu, ei lääkinnällinen laite. Se ei suosittele annoksia eikä anna lääketieteellisiä neuvoja. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® ja Rybelsus® ovat omistajiensa tavaramerkkejä; Dozify ei ole sidoksissa näihin yrityksiin.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/fi" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Oikeudelliset tiedot</h3>
+          
+          <a href="/fi/privacy">Tietosuojaseloste</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/fi/terms">Käyttöehdot</a>
+          
+          <a href="/fi/editorial-policy">Toimitusperiaatteet</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Seuranta</h3>
+          
+          <a href="/fi/glp1-shot-tracker">GLP-1-pistosseuranta</a>
+          
+          <a href="/fi/injection-site-tracker">Pistoskohtien seuranta</a>
+          
+          <a href="/fi/glp1-weight-tracker">GLP-1-painonseuranta</a>
+          
+          <a href="/fi/glp1-side-effect-journal">Sivuvaikutuspäiväkirja</a>
+          
+          <a href="/fi/glp1-vial-tracker">Injektiopullojen seuranta</a>
+          
+          <a href="/fi/private-glp1-tracker">Yksityinen GLP-1-seuranta</a>
+          
+          <a href="/fi/glp1-appointment-report">Lääkäriraportti</a>
+          
+          <a href="/fi/switch-glp1-tracker-app">Vaihda toisesta sovelluksesta</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Ohjeet</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glp1-vial-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/flakon-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glp1-vial-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glp1-vial-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/glp1-vial-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/glp1-vial-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/glp1-vial-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/glp1-vial-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/glp1-vial-tracker" hreflang="fi" lang="fi" aria-current="page">Suomi</a> · <a href="/fr/glp1-vial-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glp1-vial-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glp1-vial-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glp1-vial-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/glp1-vial-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/glp1-vial-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/glp1-vial-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glp1-vial-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glp1-vial-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/glp1-vial-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glp1-vial-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/glp1-vial-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glp1-vial-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

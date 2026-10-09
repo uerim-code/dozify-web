@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "title": "편집 정책 — 가이드는 누가 어떻게 쓰나요",
+  "description": "이 사이트의 가이드를 누가 쓰는지, 어떤 출처를 사용하는지, 각 아티클의 날짜가 무엇을 뜻하는지, 틀린 내용을 어떻게 알려 주실 수 있는지 안내해요."
+ },
+ "t": {
+  "How the guides on this site are written": "이 사이트의 가이드는 이렇게 쓰여요",
+  "Who writes them, which sources are allowed, when they were last checked, and how to tell us one of them is wrong.": "누가 쓰는지, 어떤 출처를 사용하는지, 마지막으로 언제 확인했는지, 그리고 틀린 내용을 어떻게 알려 주실 수 있는지.",
+  "Who writes them": "누가 쓰나요",
+  "Ümit Can Erim writes and maintains Dozify and everything published here. He is a software developer, not a clinician: he builds the app and reads the primary sources, and the guides say what those sources say rather than what he thinks about them. Where a question needs clinical judgement (whether a dose is right, whether a symptom is worrying, whether a site looks normal) the guides send you to your own clinician instead of answering.": "Ümit Can Erim이 Dozify와 여기 게시된 모든 글을 쓰고 관리해요. 그는 의료인이 아니라 소프트웨어 개발자예요. 앱을 만들고 1차 출처를 읽으며, 가이드는 그의 생각이 아니라 그 출처들이 말하는 내용을 전해요. 임상적 판단이 필요한 질문(용량이 맞는지, 증상이 걱정할 만한지, 주사 부위가 정상으로 보이는지)에는 답하지 않고 담당 의료진에게 안내해요.",
+  "No clinician has reviewed this content. You will not see \"doctor reviewed\", \"medically reviewed\" or a clinician's name anywhere on this site, because there is nobody it would be true of. If that changes, the reviewer will be named on the article they reviewed, with the date they reviewed it.": "이 콘텐츠는 어떤 의료인도 검토하지 않았어요. 이 사이트 어디에서도 \"의사 검토\", \"의학 감수\", 또는 의료인의 이름을 보실 수 없을 거예요. 그렇게 쓸 수 있는 사람이 없기 때문이에요. 이것이 바뀐다면 검토자의 이름과 검토 날짜를 해당 아티클에 표시할게요.",
+  "Which sources are used": "어떤 출처를 사용하나요",
+  "In this order, and the higher one wins when two disagree:": "아래 순서대로이며, 둘이 서로 다를 때는 위쪽이 우선해요:",
+  "The manufacturer's own instructions for the medication: the leaflet in the box and the prescribing information.": "약에 대한 제조사 자체 지침: 상자 속 설명서와 처방 정보(허가사항).",
+  "Regulators: the FDA, the EMA and, for Turkey, the TİTCK.": "규제 기관: FDA, EMA, 그리고 튀르키예의 경우 TİTCK.",
+  "Public health bodies: the NIH, NIDDK and MedlinePlus.": "공중 보건 기관: NIH, NIDDK, MedlinePlus.",
+  "Peer-reviewed research and clinical guidelines.": "동료 심사를 거친 연구와 임상 지침.",
+  "Patient information from an academic medical centre, and only where a plain-language explanation is needed that the sources above do not give. It is named in the reference list like any other source.": "대학 의료 센터의 환자용 정보. 위 출처들이 제공하지 않는 쉬운 설명이 필요할 때만 사용하며, 다른 출처와 마찬가지로 참고 문헌 목록에 이름을 밝혀요.",
+  "Not used: forums, social posts, press releases, other trackers' marketing, and anything that cannot be linked to and read in full. Every article ends with the list of what it drew on, and each source is linked.": "사용하지 않는 것: 커뮤니티, SNS 게시물, 보도 자료, 다른 기록 앱의 마케팅, 그리고 링크로 연결해 전문을 읽을 수 없는 모든 것. 모든 아티클은 참고한 출처 목록으로 끝나고, 각 출처에 링크가 걸려 있어요.",
+  "Dates, and what each one means": "날짜, 그리고 각각의 의미",
+  "Every article carries three dates, and they mean different things. <strong>Published</strong> is when it first went up. <strong>Updated</strong> is when its text last changed. <strong>Sources checked</strong> is when someone last opened every link in its reference list and confirmed the article still matches what is there — an article can be checked without being updated, and that is the useful case: it means nothing had changed.": "모든 아티클에는 세 가지 날짜가 있고, 의미가 서로 달라요. <strong>게시</strong>는 처음 올라간 날이에요. <strong>업데이트</strong>는 본문이 마지막으로 바뀐 날이에요. <strong>출처 확인</strong>은 누군가 참고 문헌 목록의 모든 링크를 마지막으로 열어 보고 아티클이 여전히 그 내용과 일치하는지 확인한 날이에요 — 아티클은 업데이트 없이 확인만 될 수도 있고, 그게 유용한 경우예요. 아무것도 바뀌지 않았다는 뜻이니까요.",
+  "Corrections": "정정",
+  "If something here is wrong, write to <a href=\"mailto:support@dozify.app\">support@dozify.app</a> and say which sentence and, if you have it, what it should say. Factual errors are fixed as soon as they are confirmed against a source in the list above. When a correction changes the meaning of a passage, the article says what was corrected and when, at the bottom: a silently edited health page is worse than one that admits it was wrong.": "여기 틀린 내용이 있다면 <a href=\"mailto:support@dozify.app\">support@dozify.app</a>으로 어느 문장인지, 그리고 가능하다면 어떻게 고쳐야 하는지 알려 주세요. 사실 오류는 위 목록의 출처로 확인되는 즉시 수정해요. 정정으로 문단의 의미가 바뀌면 아티클 하단에 무엇을 언제 정정했는지 밝혀요. 조용히 수정된 건강 페이지는 틀렸다고 인정하는 페이지보다 나빠요.",
+  "What this site does not do": "이 사이트가 하지 않는 일",
+  "It does not tell you what dose to take, when to change one, or whether a medication is right for you. It does not diagnose, and it does not decide whether a symptom needs attention. Dozify (the app the guides belong to) records the plan you and your prescriber agreed on; it does not propose one. It is a tracking tool, not a medical device — <a href=\"/en/why\">what it does and what it refuses to do</a> is set out separately.": "어떤 용량을 써야 하는지, 언제 바꿔야 하는지, 어떤 약이 나에게 맞는지 알려 주지 않아요. 진단하지 않으며, 증상에 조치가 필요한지 판단하지 않아요. Dozify(이 가이드가 속한 앱)는 나와 처방의가 합의한 계획을 기록할 뿐, 계획을 제안하지 않아요. 기록 도구이며 의료기기가 아니에요 — <a href=\"/en/why\">앱이 하는 일과 하지 않는 일</a>은 따로 정리해 두었어요.",
+  "This policy was last changed on 18 August 2026. Questions about it go to <a href=\"mailto:support@dozify.app\">support@dozify.app</a>, and the <a href=\"/en/support\">support page</a> answers the ones about the app itself.": "이 정책은 2026년 8월 18일에 마지막으로 변경되었어요. 정책에 관한 질문은 <a href=\"mailto:support@dozify.app\">support@dozify.app</a>으로 보내 주시고, 앱 자체에 관한 질문은 <a href=\"/en/support\">지원 페이지</a>에서 답해 드려요."
+ }
+}

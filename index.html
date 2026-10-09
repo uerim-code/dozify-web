@@ -76,17 +76,29 @@
         <h1 data-lang="en">Your GLP-1 routine, <span class="accent">on one screen.</span></h1>
         <h1 data-lang="tr">GLP-1 rutininiz, <span class="accent">tek ekranda.</span></h1>
 
+        <ul class="new-chips" aria-label="New in Dozify">
+          <li data-lang="en"><a href="/ai-calorie-tracker">📸 AI photo calories</a></li>
+          <li data-lang="tr"><a href="/ai-calorie-tracker">📸 Fotoğraftan AI kalori</a></li>
+          <li data-lang="en"><a href="#themes">🐬 Mascots &amp; themes</a></li>
+          <li data-lang="tr"><a href="#themes">🐬 Maskot ve temalar</a></li>
+          <li data-lang="en"><a href="/glp1-pill-tracker">💊 Pill tracking</a></li>
+          <li data-lang="tr"><a href="/glp1-pill-tracker">💊 Hap takibi</a></li>
+          <li data-lang="en"><a href="/glp1-medication-level">📈 Medication-level curve</a></li>
+          <li data-lang="tr"><a href="/glp1-medication-level">📈 İlaç seviyesi eğrisi</a></li>
+        </ul>
+
         <p class="lede" data-lang="en">
-          An appointment is ten minutes to explain three months. Dozify remembers the doses,
-          tells you before the vial runs out, and hands you a PDF your doctor can actually
-          read, and the lock screen never names the medication. Dose logging and reminders
-          are free, forever. Already tracking somewhere else?
+          Log every shot or daily pill, snap a meal and get calories and protein in seconds, and watch
+          your weight next to an estimated curve of your medication. Make it yours with a mascot and a
+          colour theme. Dose logging and reminders are free, forever. Already tracking somewhere else?
           <a href="/switch-glp1-tracker-app">Bring your history with you.</a>
         </p>
         <p class="lede" data-lang="tr">
-          Randevu, üç ayı on dakikada anlatmak demektir. Dozify dozları hatırlar, flakonunuz
-          bitmeden haber verir ve doktorunuzun gerçekten okuyabileceği bir PDF hazırlar, kilit ekranınız ise hangi ilaç olduğunu hiç yazmaz. Doz kaydı ve hatırlatıcılar sonsuza dek ücretsiz. Başka bir uygulamada mı takip ediyorsunuz?
-          <a href="/switch-glp1-tracker-app">Geçmişinizi yanınızda getirin.</a>
+          Her iğneyi ya da günlük hapı kaydet, öğününün fotoğrafını çekip saniyeler içinde kalori ve
+          protein tahmini al, kilonu ilacının tahmini seviye eğrisiyle yan yana gör. Bir maskot ve renk
+          temasıyla uygulamayı kendine göre ayarla. Doz kaydı ve hatırlatıcılar sonsuza dek ücretsiz.
+          Başka bir uygulamada mı takip ediyorsun?
+          <a href="/switch-glp1-tracker-app">Geçmişini yanında getir.</a>
         </p>
 
         <div class="cta-row">
@@ -125,15 +137,71 @@
         <!-- The product itself, above the fold. The page used to open on an app
              icon and four paragraphs, which asks a visitor to take the app's
              word for what it looks like. -->
-        <div class="hero-shot" aria-hidden="false">
-          <div class="device">
-            <img data-lang="en" src="screenshots/en/home-next-dose.webp" width="750" height="1630"
-                 fetchpriority="high" decoding="async"
-                 alt="The Dozify home screen: next dose countdown, this week's injections, protein and water for the day, and current weight">
-            <img data-lang="tr" src="screenshots/tr/home-next-dose.webp" width="750" height="1630"
-                 fetchpriority="high" decoding="async"
-                 alt="Dozify ana ekranı: sonraki doza kalan süre, bu haftaki enjeksiyonlar, günlük protein ve su, güncel kilo">
+        <div class="hero-shot hero-fan" aria-hidden="false">
+          <div class="device fan-left">
+            <img data-lang="en" src="screenshots/en/ai-result.webp" width="750" height="1631" decoding="async"
+                 alt="AI result: each item found on the plate with its calories and protein, ready to edit">
+            <img data-lang="tr" src="screenshots/tr/ai-result.webp" width="750" height="1631" decoding="async"
+                 alt="AI sonucu: tabakta bulunan her öğe kalori ve proteiniyle, düzenlenmeye hazır">
           </div>
+          <div class="device fan-right">
+            <img data-lang="en" src="screenshots/en/themes.webp" width="750" height="1630" decoding="async"
+                 alt="Theme picker with six mascots: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee">
+            <img data-lang="tr" src="screenshots/tr/themes.webp" width="750" height="1630" decoding="async"
+                 alt="Altı maskotlu tema seçici: Klasik, Yunus, Panda, Gece Kuşu, Flamingo ve Arı">
+          </div>
+          <div class="device fan-center">
+            <img data-lang="en" src="screenshots/en/dolphin-home.webp" width="750" height="1630"
+                 fetchpriority="high" decoding="async"
+                 alt="The Dozify home screen in the Dolphin theme: next dose, snap your meal, medication level, protein, water and weight">
+            <img data-lang="tr" src="screenshots/tr/dolphin-home.webp" width="750" height="1630"
+                 fetchpriority="high" decoding="async"
+                 alt="Yunus temasında Dozify ana ekranı: sonraki doz, öğün fotoğrafı, ilaç seviyesi, protein, su ve kilo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="themes" class="section section-light">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new" data-lang="en">New</span>
+          <span class="badge-new" data-lang="tr">Yeni</span>
+          <h2 class="section-title" data-lang="en">Pick a mascot. The whole app follows.</h2>
+          <h2 class="section-title" data-lang="tr">Bir maskot seç. Bütün uygulama ona uyar.</h2>
+          <p data-lang="en">Six themes, each a colour and a companion: Classic, Dolphin 🐬, Panda 🐼, Night Owl 🦉, Flamingo 🦩 and Honeybee 🐝. The colour runs through every screen, the mascot shows up on your weight chart and your streak, and the app icon on your home screen changes with it. Classic keeps things plain.</p>
+          <p data-lang="tr">Altı tema, her biri bir renk ve bir yol arkadaşı: Klasik, Yunus 🐬, Panda 🐼, Gece Kuşu 🦉, Flamingo 🦩 ve Arı 🐝. Renk her ekrana yayılır, maskot kilo grafiğinde ve serinde görünür, ana ekranındaki uygulama ikonu da onunla birlikte değişir. Sade sevenler için Klasik var.</p>
+          <p data-lang="en">Dolphin is free. Panda, Night Owl, Flamingo and Honeybee come with Premium. Light, dark or follow the system — your choice.</p>
+          <p data-lang="tr">Yunus ücretsiz. Panda, Gece Kuşu, Flamingo ve Arı Premium ile gelir. Açık, koyu ya da sistem ayarı — seçim senin.</p>
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot" data-lang="en"><div class="device"><img data-lang="en" src="screenshots/en/themes.webp" width="750" height="1630" loading="lazy" alt="Appearance screen: light, dark or system mode and six mascot themes"></div></figure>
+          <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/themes.webp" width="750" height="1630" loading="lazy" alt="Görünüm ekranı: açık, koyu ya da sistem modu ve altı maskotlu tema"></div></figure>
+          <figure class="shot" data-lang="en"><div class="device"><img data-lang="en" src="screenshots/en/dolphin-home.webp" width="750" height="1630" loading="lazy" alt="Home screen in the blue Dolphin theme"></div></figure>
+          <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/dolphin-home.webp" width="750" height="1630" loading="lazy" alt="Mavi Yunus temasında ana ekran"></div></figure>
+          <figure class="shot" data-lang="en"><div class="device"><img data-lang="en" src="screenshots/en/bee-home.webp" width="750" height="1630" loading="lazy" alt="Settings in the orange Honeybee theme"></div></figure>
+          <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/bee-home.webp" width="750" height="1630" loading="lazy" alt="Turuncu Arı temasında ayarlar"></div></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="ai-calories" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new" data-lang="en">New</span>
+          <span class="badge-new" data-lang="tr">Yeni</span>
+          <h2 class="section-title" data-lang="en">Snap your meal. See the calories.</h2>
+          <h2 class="section-title" data-lang="tr">Öğününü çek. Kaloriyi gör.</h2>
+          <p data-lang="en">On a GLP-1 you eat less, so what you do eat matters more. Take a photo and Dozify lists each item on the plate with an estimate of its calories and protein, in your language. It is always an editable draft: fix a portion, add what the camera missed, then save it next to your doses and weight. Premium.</p>
+          <p data-lang="tr">GLP-1 kullanırken daha az yersin; bu yüzden yediğin şey daha çok önem kazanır. Bir fotoğraf çek, Dozify tabaktaki her öğeyi kalori ve protein tahminiyle, kendi dilinde listelesin. Sonuç her zaman düzenlenebilir bir taslaktır: porsiyonu düzelt, kameranın kaçırdığını ekle, sonra dozlarının ve kilonun yanına kaydet. Premium.</p>
+          <p data-lang="en"><a href="/ai-calorie-tracker" class="link-arrow">How AI calories work</a></p>
+          <p data-lang="tr"><a href="/ai-calorie-tracker" class="link-arrow">AI kalori nasıl çalışır</a></p>
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot" data-lang="en"><div class="device"><img data-lang="en" src="screenshots/en/ai-scan.webp" width="750" height="1631" loading="lazy" alt="Dozify reading a meal photo"></div></figure>
+          <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/ai-scan.webp" width="750" height="1631" loading="lazy" alt="Dozify bir öğün fotoğrafını okuyor"></div></figure>
+          <figure class="shot" data-lang="en"><div class="device"><img data-lang="en" src="screenshots/en/ai-result.webp" width="750" height="1631" loading="lazy" alt="Each item on the plate with calories and protein"></div></figure>
+          <figure class="shot" data-lang="tr"><div class="device"><img data-lang="tr" src="screenshots/tr/ai-result.webp" width="750" height="1631" loading="lazy" alt="Tabaktaki her öğe kalori ve proteiniyle"></div></figure>
         </div>
       </div>
     </section>

@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1 वज़न ट्रैकर — वज़न और डोज़ एक साथ",
+  "description": "आपका वज़न ट्रेंड उन डोज़ के बगल में जिनसे वह बना, एक ही टाइमलाइन पर। कुछ सेकंड में वज़न दर्ज करें और एक नंबर नहीं, महीनों का आकार देखें।"
+ },
+ "t": {
+  "Weight trend": "वज़न ट्रेंड",
+  "Your weight and your doses on one line": "आपका वज़न और आपके डोज़ एक ही लाइन पर",
+  "Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.": "एक app में वज़न और दूसरे में इंजेक्शन, एक ही तस्वीर के दो आधे हिस्से हैं। Dozify उन्हें एक ही टाइमलाइन पर रखता है।",
+  "The question is never just \"what do I weigh\". It is what the last few weeks have looked like, and what was happening in them, which dose, which week, what else you logged.": "सवाल कभी सिर्फ़ \"मेरा वज़न कितना है\" नहीं होता। सवाल यह है कि पिछले कुछ हफ़्ते कैसे रहे, और उनमें क्या चल रहा था, कौन-सा डोज़, कौन-सा हफ़्ता, आपने और क्या दर्ज किया।",
+  "A trend, not a number": "एक ट्रेंड, एक नंबर नहीं",
+  "Your weight over three months, six, or a year, with the rate it has been moving and how far it is from your goal.": "तीन महीने, छह, या एक साल में आपका वज़न, किस रफ़्तार से बदल रहा है और आपके लक्ष्य से कितना दूर है, इसके साथ।",
+  "Apple Health does the typing": "टाइपिंग Apple Health करता है",
+  "On iPhone, weight is read from Health automatically. If your scale writes there, you do not enter anything by hand.": "iPhone पर वज़न Health से अपने आप पढ़ा जाता है। अगर आपका तराज़ू वहाँ लिखता है, तो आपको हाथ से कुछ दर्ज नहीं करना पड़ता।",
+  "No projection dressed up as a promise": "वादे का रूप दिया गया कोई अनुमान नहीं",
+  "The app shows what your own entries have done. It does not tell you what your body will do next.": "app दिखाता है कि आपकी अपनी एंट्री ने क्या किया है। यह नहीं बताता कि आपका शरीर आगे क्या करेगा।",
+  "People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.": "वे लोग जो आज सुबह के नंबर की बजाय कुछ महीनों का आकार देखना चाहते हैं, और वे लोग जिनका वज़न पहले से तराज़ू से Apple Health में जा रहा है। यह हर उस व्यक्ति के लिए भी है जिससे अपॉइंटमेंट में पूछा गया कि पिछले डोज़ बदलाव के बाद वज़न कैसे बदला और उसे अंदाज़ा लगाना पड़ा।",
+  "The projection is arithmetic on the entries you have made: it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.": "अनुमान आपकी दर्ज की हुई एंट्री पर किया गया गणित है: यह आपके अपने नंबरों ने जो किया उसे आगे बढ़ाता है, इससे ज़्यादा कुछ नहीं। यह इस बात की भविष्यवाणी नहीं कि आपका शरीर क्या करेगा, यह डोज़ बदलाव, बीमारी या छुट्टी का हिसाब नहीं रखता, और यह किसी का आपके लिए तय किया लक्ष्य नहीं है। Dozify कोई वज़न, वज़न घटाने की दर या डाइट नहीं सुझाता।",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">App Store से डाउनलोड करें</a>",
+  "Does it read my weight from Apple Health?": "क्या यह मेरा वज़न Apple Health से पढ़ता है?",
+  "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.": "iPhone पर, हाँ। अगर आपका तराज़ू या कोई दूसरा app Health में वज़न लिखता है, तो Dozify उसे पढ़ता है और आपको कुछ टाइप नहीं करना पड़ता। आप इसे हाथ से भी दर्ज कर सकते हैं।",
+  "Kilograms or pounds?": "किलोग्राम या पाउंड?",
+  "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.": "दोनों में से कोई भी। यूनिट एक सेटिंग है और इसे बदलने से पहले से मौजूद नंबर बदली हुई यूनिट में कन्वर्ट होते हैं, उनका मतलब बदला नहीं जाता।",
+  "Does the projection tell me when I will reach my goal?": "क्या अनुमान बताता है कि मैं अपने लक्ष्य तक कब पहुँचूँगा/पहुँचूँगी?",
+  "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.": "यह बताता है कि अगर आपकी अपनी एंट्री का ट्रेंड बिना बदले चलता रहे तो आप कब पहुँचेंगे। शरीर ऐसे काम नहीं करते, और app तारीख को प्लान के रूप में पेश करने की बजाय स्क्रीन पर यही कहता है।",
+  "Can I log measurements as well?": "क्या मैं माप भी दर्ज कर सकता/सकती हूँ?",
+  "Yes, waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.": "हाँ, कमर, हिप और बाकी, वज़न वाली टाइमलाइन पर ही, उन महीनों के लिए जब तराज़ू इंच-टेप से कम बदलता है।",
+  "Does my weight leave the phone?": "क्या मेरा वज़न फ़ोन से बाहर जाता है?",
+  "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.": "नहीं। यह आपके बाकी रिकॉर्ड की तरह डिवाइस पर सेव होता है। Apple Health से पढ़ना फ़ोन पर ही होता है; कुछ भी अपलोड नहीं होता।",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/reading-a-weight-trend\">how to read a trend when the scale has stalled</a> and <a href=\"/en/articles/measurements-vs-scale\">when the tape moves and the scale does not</a>.": "स्रोतों के नाम के साथ गाइड: <a href=\"/en/articles/what-is-glp1\">GLP-1 असल में क्या है</a>, <a href=\"/en/articles/glp1-side-effects\">आम साइड इफ़ेक्ट संभालना</a>, <a href=\"/en/articles/how-to-inject-glp1\">पेन से इंजेक्शन कैसे लगाएँ, कदम दर कदम</a>, <a href=\"/en/articles/reading-a-weight-trend\">जब तराज़ू रुक जाए तो ट्रेंड कैसे पढ़ें</a> और <a href=\"/en/articles/measurements-vs-scale\">जब इंच-टेप बदले पर तराज़ू नहीं</a>।",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Dozify में और भी: <a href=\"/en/glp1-appointment-report\">डॉक्टर रिपोर्ट</a> और <a href=\"/en/glp1-shot-tracker\">शॉट ट्रैकर</a>।"
+ }
+}

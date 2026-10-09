@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1注射记录：不再错过注射日",
+  "description": "每周一针，就需要每周一次的提醒。Dozify 在首屏显示下一剂，记录每一次注射，并保存可以随时回看的历史记录。"
+ },
+ "t": {
+  "Shot tracker": "注射记录",
+  "Never wonder which day your shot is": "再也不用纠结哪天该打针",
+  "A weekly medication asks you to remember which day of the week it is. Dozify remembers instead.": "每周用药，就要求你记住今天是星期几。现在交给 Dozify 来记。",
+  "Weekly injections are easy to get wrong in ordinary ways. A busy Thursday, a trip, a week where two things move, and now you are counting backwards from a half-remembered date, unsure whether you took it.": "每周注射很容易在一些平常的地方出错。忙碌的周四、一次出行、某一周有两件事同时变动，然后你就得从一个记不太清的日期往回倒推，不确定自己到底打没打。",
+  "The next shot, on the first screen": "下一针，显示在首屏",
+  "Opening the app answers the question: which medication, which day, how many days away.": "打开应用就能找到答案：哪种药、哪一天、还有几天。",
+  "A reminder that matches your schedule": "与你的时间表相匹配的提醒",
+  "Weekly, daily, every few days, or specific dates: set once, at the time you actually inject.": "每周、每日、每隔几天或指定日期：设置一次，设在你实际注射的时间。",
+  "A log you can look back through": "可以随时回看的记录",
+  "Every dose with its date, its amount and the site you used. Nothing to reconstruct later.": "每一剂及其日期、剂量和使用的部位。以后什么都不用回忆重建。",
+  "Anyone whose week is not identical to the last one. A weekly medication assumes a fixed Thursday; travel, a shift pattern, a hospital appointment or a single late night all move it. It is also for the person who has stood in the kitchen trying to work out whether Tuesday was this week or last: the log answers that in one look rather than by reconstruction.": "适合每一周都和上一周不完全一样的人。每周用药默认的是一个固定的周四；出行、轮班、医院预约，甚至一次熬夜，都会打乱它。也适合曾经站在厨房里琢磨周二到底是这周还是上周的人：记录只要看一眼就能回答，而不用靠回忆重建。",
+  "Dozify does not decide your schedule, your dose or what to do about a dose you missed, those are your prescriber's, and the app records the plan rather than proposing one. A reminder is an iOS notification: if notifications are off for Dozify, or the phone is in a focus mode that silences them, it will not appear. And a log is a record of what you entered, not proof of what went into your body.": "Dozify 不决定你的时间表、剂量，也不决定漏打一剂后该怎么做，这些都由你的处方医生决定，应用记录方案而不是提出方案。提醒是一条 iOS 通知：如果你关闭了 Dozify 的通知，或者手机处于会将通知静音的专注模式，提醒就不会出现。而且记录只是你输入内容的记录，不能证明实际注射了什么。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-shot-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-shot-tracker-en&mt=8\" class=\"btn btn-primary\">在 App Store 下载</a>",
+  "Can I set the reminder for a different day than the one I started on?": "可以把提醒设在和开始时不同的日子吗？",
+  "Yes. The schedule is yours to set and change: weekly on any day, daily, every few days, or specific dates. Changing it does not rewrite the doses you have already logged.": "可以。时间表由你设置和更改：每周任意一天、每日、每隔几天或指定日期。更改时间表不会改写你已经记录的剂量。",
+  "What if I inject a day late?": "如果我晚了一天注射怎么办？",
+  "Log it on the day it happened; the entry takes the date and time you give it. Dozify shows the interval that actually occurred rather than assuming the planned one. What to do about a late or missed dose is a question for your prescriber, and the app does not answer it.": "按实际发生的那天记录；这条记录会使用你填写的日期和时间。Dozify 显示的是实际发生的间隔，而不是假定按计划进行。迟打或漏打一剂后该怎么做，是要问你的处方医生的问题，应用不会回答。",
+  "Do reminders work if the phone is offline?": "手机离线时提醒还有效吗？",
+  "Yes. They are scheduled on the device, so no connection is needed for one to arrive. They do need notification permission for Dozify to be on.": "有效。提醒是在设备上安排的，所以不需要网络连接也能收到。不过需要开启 Dozify 的通知权限。",
+  "Can I track more than one medication?": "可以记录不止一种药物吗？",
+  "Yes, as many as you need, each with its own schedule and dose. Every logged injection belongs to one of them.": "可以，需要多少就记录多少，每种都有自己的时间表和剂量。每一次记录的注射都属于其中一种。",
+  "Does the app tell me my next dose amount?": "应用会告诉我下一剂用多少吗？",
+  "No. It shows the dose you entered for that medication and when it is next due. If your doctor changes the amount, you change it in the app. Dozify never proposes a titration.": "不会。它显示你为该药物输入的剂量，以及下一次什么时候到期。如果医生调整了剂量，你在应用中修改即可。Dozify 从不提出剂量滴定方案。",
+  "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/missed-glp1-dose\">what the leaflet says about a late dose</a> and <a href=\"/en/articles/glp1-reminders-that-work\">moving your shot day</a>.": "注明出处的指南：<a href=\"/en/articles/how-to-inject-glp1\">如何使用注射笔，分步说明</a>、<a href=\"/en/articles/glp1-injection-sites\">在哪里注射以及如何轮换</a>、<a href=\"/en/articles/what-is-glp1\">GLP-1 到底是什么</a>、<a href=\"/en/articles/missed-glp1-dose\">说明书对迟打一剂是怎么说的</a>以及<a href=\"/en/articles/glp1-reminders-that-work\">更改注射日</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/injection-site-tracker\">site rotation</a>, <a href=\"/en/glp1-vial-tracker\">vial tracking</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Dozify 的其他功能：<a href=\"/en/injection-site-tracker\">注射部位轮换</a>、<a href=\"/en/glp1-vial-tracker\">药瓶记录</a>和<a href=\"/en/glp1-appointment-report\">就诊报告</a>。"
+ }
+}

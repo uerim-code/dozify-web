@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "title": "لماذا Dozify — ما يفعله وما يرفض فعله",
+  "description": "مصمّم لمن وُصف لهم دواء GLP-1 بالفعل. يسجّل ما تقرّره أنت وطبيبك؛ ولا يقترح جرعات ولا يفسّر النتائج، وتبقى بياناتك على هاتفك."
+ },
+ "t": {
+  "← Back to home": "→ العودة إلى الرئيسية",
+  "Five things this app is built around. Each one is a claim you can check against how it behaves.": "خمسة أمور بُني حولها هذا التطبيق. وكل منها ادعاء يمكنك التحقق منه مقابل طريقة عمله.",
+  "Your records stay on your phone": "سجلاتك تبقى على هاتفك",
+  "Doses, weights, side effects and photos are stored in a database on your device. Usage analytics never carries a medication name or a symptom, and progress photos are never uploaded anywhere. The one photo that does leave the phone is a meal photo you choose to analyse with <a href=\"/en/ai-calorie-tracker\">AI calories</a>: it goes, after you agree, through our server to Google Gemini for the estimate and is not stored by the app. The <a href=\"/en/privacy\">privacy policy</a> lists exactly what leaves the device and why.": "تُخزَّن الجرعات والأوزان والآثار الجانبية والصور في قاعدة بيانات على جهازك. لا تتضمن إحصاءات الاستخدام أبداً اسم دواء أو عَرَضاً، ولا تُرفع صور التقدّم إلى أي مكان أبداً. الصورة الوحيدة التي تغادر الهاتف هي صورة وجبة تختار تحليلها بـ <a href=\"/en/ai-calorie-tracker\">سعرات الذكاء الاصطناعي</a>: تُرسل بعد موافقتك عبر خادمنا إلى Google Gemini للتقدير ولا يحتفظ بها التطبيق. وتسرد <a href=\"/en/privacy\">سياسة الخصوصية</a> بالضبط ما يغادر الجهاز ولماذا.",
+  "Only what you track": "فقط ما تتتبّعه",
+  "The home screen is built from the things you said you care about: cards can be reordered, hidden, or brought back whenever you like. An app that shows everyone everything is an app nobody reads. If food matters to you, the <a href=\"/en/ai-calorie-tracker\">AI meal card</a> turns a photo into an editable calorie and protein draft; if you take a tablet, the <a href=\"/en/glp1-pill-tracker\">pill tracker</a> follows a daily rhythm.": "تُبنى الشاشة الرئيسية من الأمور التي قلت إنها تهمّك: يمكن إعادة ترتيب البطاقات أو إخفاؤها أو إعادتها متى شئت. التطبيق الذي يُري الجميع كل شيء تطبيق لا يقرؤه أحد. إذا كان الطعام يهمّك، فإن <a href=\"/en/ai-calorie-tracker\">بطاقة الوجبة بالذكاء الاصطناعي</a> تحوّل الصورة إلى مسودة قابلة للتعديل بالسعرات والبروتين؛ وإذا كنت تأخذ قرصاً، فإن <a href=\"/en/glp1-pill-tracker\">متتبع الأقراص</a> يتبع إيقاعاً يومياً.",
+  "Sources you can follow": "مصادر يمكنك تتبّعها",
+  "Every article in the education section names where it came from (MedlinePlus (NIH), FDA, NIDDK, TİTCK) and links straight to it. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "كل مقال في القسم التثقيفي يذكر مصدره (MedlinePlus (NIH) وFDA وNIDDK وTİTCK) ويربط إليه مباشرة. Dozify أداة تتبّع: لا يوصي بجرعات ولا يفسّر النتائج.",
+  "Feedback goes to a person": "الملاحظات تصل إلى شخص حقيقي",
+  "Suggestions arrive as mail read by the person who writes the app, from Settings → Suggest a feature or at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. There is no ticket queue in between.": "تصل الاقتراحات كرسائل يقرؤها الشخص الذي يكتب التطبيق، من الإعدادات ← اقترح ميزة أو على <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. لا يوجد طابور تذاكر في المنتصف.",
+  "Still being worked on": "العمل عليه مستمر",
+  "Fixes and additions ship as they are ready, and each release says what changed. Most of what has been added since launch started as a message from someone using the app.": "تُطرح الإصلاحات والإضافات حين تكون جاهزة، وكل إصدار يذكر ما تغيّر. ومعظم ما أُضيف منذ الإطلاق بدأ كرسالة من أحد مستخدمي التطبيق.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">حمّله من App Store</a>"
+ }
+}

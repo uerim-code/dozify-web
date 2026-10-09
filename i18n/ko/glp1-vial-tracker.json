@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1 바이알 기록 — 떨어지기 전에 미리 알기",
+  "description": "남은 투여 횟수, 개봉 후 경과일, 유효기간을 카드 한 장에. 바이알이 끝나는 두 가지 경우 모두 몇 주 전에 예측할 수 있고, Dozify가 대신 세어 줘요."
+ },
+ "t": {
+  "Vial tracking": "바이알 기록",
+  "Know when the vial runs out before it does": "바이알이 떨어지기 전에 미리 알기",
+  "Remaining volume, doses left, and the expiry date: on one card, before the weekend the pharmacy is closed.": "남은 양, 남은 투여 횟수, 유효기간: 약국이 쉬는 주말이 오기 전에, 카드 한 장에.",
+  "A vial ends in two ways: it empties, or it expires. Both are predictable weeks ahead and both are usually noticed the evening a dose is due.": "바이알이 끝나는 방법은 두 가지예요: 비거나, 유효기간이 지나거나. 둘 다 몇 주 전에 예측할 수 있지만, 보통 투여일 저녁에야 알아차려요.",
+  "What is left, in doses": "남은 양을 투여 횟수로",
+  "Remaining millilitres and what that means in injections at your prescribed amount.": "남은 밀리리터, 그리고 처방받은 용량으로 주사 몇 번에 해당하는지.",
+  "Two clocks, not one": "시계는 하나가 아니라 둘",
+  "Days since opening and the manufacturer's expiry, whichever comes first: with the storage rules for that medication.": "개봉 후 경과일과 제조사 유효기간 중 먼저 오는 쪽: 해당 약의 보관 규칙과 함께.",
+  "Time out of the fridge": "냉장고 밖에 있었던 시간",
+  "Log a storage event when a vial spends the afternoon in a bag. Travel mode is for the days that are not ordinary.": "바이알이 가방 속에서 오후를 보냈다면 보관 이벤트로 기록하세요. 여행 모드는 평소와 다른 날들을 위한 거예요.",
+  "People on multi-dose pens and vials, where one container covers several weeks and the end of it arrives quietly. It matters most to anyone who travels with their medication, or who has stood in front of an open fridge on a Sunday wondering whether what is in there is still good.": "한 용기로 몇 주를 쓰고 그 끝이 조용히 찾아오는 다회용 펜과 바이알을 쓰는 분들. 약을 들고 여행하는 분, 일요일에 열린 냉장고 앞에서 안에 든 게 아직 괜찮은지 고민해 본 분에게 가장 중요해요.",
+  "Dozify counts what you tell it: doses drawn, the day you opened the vial and the expiry printed on it. It cannot see the liquid, so it cannot tell you whether a particular vial is still fit to use: that judgement belongs to the storage instructions for your medication and, when there is any doubt, to your pharmacist. The in-use limits it shows come from those instructions, not from us.": "Dozify는 내가 알려 준 것을 세요: 뽑은 투여량, 바이알을 개봉한 날, 인쇄된 유효기간. 약액을 볼 수 없으니 특정 바이알을 아직 써도 되는지 알려 줄 수 없어요. 그 판단은 해당 약의 보관 지침과, 조금이라도 의심스럽다면 약사의 몫이에요. 표시되는 사용 중 기한은 저희가 아니라 그 지침에서 나와요.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">App Store에서 다운로드</a>",
+  "Does it count doses automatically?": "투여 횟수를 자동으로 세나요?",
+  "It subtracts each injection you log from the vial you logged it against, so the remaining amount follows your own entries without a separate step.": "기록한 주사를 해당 바이알에서 하나씩 빼므로, 따로 단계를 거치지 않아도 남은 양이 내 기록을 따라가요.",
+  "Where does the in-use limit come from?": "사용 중 기한은 어디서 나오나요?",
+  "From the storage instructions for that medication: how long it may be kept once opened, and at what temperature. Dozify shows the one that applies and counts the days; it does not invent a number.": "해당 약의 보관 지침에서요: 개봉 후 얼마나, 몇 도에서 보관할 수 있는지. Dozify는 적용되는 기한을 보여 주고 날짜를 셀 뿐, 숫자를 지어내지 않아요.",
+  "What if the pen spends a day out of the fridge?": "펜이 하루 동안 냉장고 밖에 있었다면요?",
+  "Log it as a storage event, with how long and roughly how warm. It stays on the vial's record so it is there when you decide, or when you ask a pharmacist.": "얼마나 오래, 대략 몇 도였는지와 함께 보관 이벤트로 기록하세요. 바이알 기록에 남아 있어서 내가 판단할 때나 약사에게 물어볼 때 확인할 수 있어요.",
+  "Will it warn me before a vial runs out?": "바이알이 떨어지기 전에 알려 주나요?",
+  "It shows doses remaining and days remaining on the card, so the end is visible weeks ahead rather than the evening a dose is due.": "카드에 남은 투여 횟수와 남은 일수를 보여 줘서, 투여일 저녁이 아니라 몇 주 전부터 끝이 보여요.",
+  "Does this work for pens as well as vials?": "바이알뿐 아니라 펜에도 쓸 수 있나요?",
+  "Yes. A pen with several doses in it is tracked the same way: what is left, how long it has been open, and when it expires.": "네. 여러 번 투여할 수 있는 펜도 같은 방식으로 기록해요: 남은 양, 개봉 후 경과 기간, 유효기간.",
+  "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/storing-glp1-pens\">what each label says about storing a pen</a> and <a href=\"/en/articles/travelling-with-a-glp1-pen\">what the rules say about flying with one</a>.": "출처를 밝힌 가이드: <a href=\"/en/articles/how-to-inject-glp1\">펜 주사 방법 단계별 안내</a>, <a href=\"/en/articles/glp1-injection-sites\">어디에 주사하고 어떻게 순환할까</a>, <a href=\"/en/articles/what-is-glp1\">GLP-1이란 무엇인가</a>, <a href=\"/en/articles/storing-glp1-pens\">펜 보관에 대한 각 허가사항의 안내</a>, <a href=\"/en/articles/travelling-with-a-glp1-pen\">펜을 들고 비행기 탈 때의 규정</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Dozify의 다른 기능: <a href=\"/en/glp1-shot-tracker\">주사 기록</a>과 <a href=\"/en/glp1-appointment-report\">진료용 리포트</a>."
+ }
+}

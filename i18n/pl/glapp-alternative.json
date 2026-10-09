@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "title": "Alternatywa dla Glapp — przenieś historię GLP-1",
+  "description": "Odchodzisz z Glapp? Dozify odczyta eksport, pokaże podgląd każdego wpisu przed zapisaniem i powie, których kolumn nie przypisało. Za darmo, bez wysyłania."
+ },
+ "t": {
+  "Glapp alternative": "Alternatywa dla Glapp",
+  "Coming from Glapp? Bring the history with you": "Przechodzisz z Glapp? Zabierz historię ze sobą",
+  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Wyeksportuj dane z Glapp, otwórz plik w Dozify i zobacz każdy wpis, który ma zostać zapisany, zanim zostanie zapisany którykolwiek. Za darmo, a plik nigdy nie opuszcza Twojego telefonu.",
+  "The columns Dozify looks for in a Glapp export": "Kolumny, których Dozify szuka w eksporcie z Glapp",
+  "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
+  "<code>time</code>": "<code>time</code>",
+  "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
+  "<strong>Site</strong>": "<strong>Miejsce</strong>",
+  "<code>site · body site</code>": "<code>site · body site</code>",
+  "<strong>Medication</strong>": "<strong>Lek</strong>",
+  "<code>medication · product</code>": "<code>medication · product</code>",
+  "<code>weight · weight kg · body weight</code>": "<code>weight · weight kg · body weight</code>",
+  "<strong>Side effect</strong>": "<strong>Skutek uboczny</strong>",
+  "<code>symptom · side effect · side-effect</code>": "<code>symptom · side effect · side-effect</code>",
+  "<strong>Severity</strong>": "<strong>Nasilenie</strong>",
+  "<code>severity · intensity</code>": "<code>severity · intensity</code>",
+  "<code>notes · note</code>": "<code>notes · note</code>",
+  "If your dose column is headed “units”": "Jeśli kolumna dawki ma nagłówek „units”",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "Te wiersze zostaną Ci wymienione, a nie przeliczone. Jednostka to objętość na strzykawce, a to, ile miligramów się w niej mieści, zależy od stężenia Twojej fiolki — liczby, której plik nie zawiera. Wpisanie ich do pola w miligramach zapisałoby błędną dawkę i nic dalej by tego nie zakwestionowało, więc Dozify je pokazuje i pozwala Ci wpisać ilość, której używa Twój lekarz. <a href=\"/en/articles/units-vs-milligrams\">Dlaczego nie ma jednego przeliczenia →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify to narzędzie do zapisywania, a nie wyrób medyczny. Nie zaleca dawek i nie udziela porad medycznych. Glapp jest znakiem towarowym jego właściciela i jest tu wymieniony wyłącznie w celu opisania formatu pliku, który Dozify potrafi odczytać; Dozify nie jest powiązane z Glapp, a ta strona nie jest przez nich popierana. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® i Rybelsus® są znakami towarowymi ich właścicieli; Dozify nie jest powiązane z tymi firmami.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Pobierz z App Store</a>"
+ }
+}

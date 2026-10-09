@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soukromí ve zdravotních aplikacích: co štítek neřekne</title>
+  <meta name="description" content="Většina zdravotních aplikací nespadá pod HIPAA a „žádné sledování“ znamená méně, než se zdá. Co znamenají Applova slova a pět otázek, které položit.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/cs/articles/health-app-privacy">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="Soukromí ve zdravotních aplikacích: co štítek neřekne">
+  <meta property="og:description" content="Většina zdravotních aplikací nespadá pod HIPAA a „žádné sledování“ znamená méně, než se zdá. Co znamenají Applova slova a pět otázek, které položit.">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — soukromé sledování injekcí GLP-1 a hmotnosti pro iPhone">
+  <meta name="twitter:title" content="Soukromí ve zdravotních aplikacích: co štítek neřekne">
+  <meta name="twitter:description" content="Většina zdravotních aplikací nespadá pod HIPAA a „žádné sledování“ znamená méně, než se zdá. Co znamenají Applova slova a pět otázek, které položit.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — soukromé sledování injekcí GLP-1 a hmotnosti pro iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="cs_CZ">
+
+  <link rel="canonical" href="https://dozify.app/cs/articles/health-app-privacy">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/health-app-privacy">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/articles/health-app-privacy">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/articles/health-app-privacy">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/articles/health-app-privacy">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/articles/health-app-privacy">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/articles/health-app-privacy">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/articles/health-app-privacy">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/articles/health-app-privacy">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/articles/health-app-privacy">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/articles/health-app-privacy">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/articles/health-app-privacy">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/articles/health-app-privacy">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/articles/health-app-privacy">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/articles/health-app-privacy">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/health-app-privacy">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/health-app-privacy">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/health-app-privacy">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/cs",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "cs"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/cs/editorial-policy",
+        "description": "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/cs/articles/health-app-privacy#webpage",
+        "url": "https://dozify.app/cs/articles/health-app-privacy",
+        "name": "Soukromí ve zdravotních aplikacích: co štítek neřekne",
+        "description": "Většina zdravotních aplikací nespadá pod HIPAA a „žádné sledování“ znamená méně, než se zdá. Co znamenají Applova slova a pět otázek, které položit.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "cs",
+        "breadcrumb": {
+          "@id": "https://dozify.app/cs/articles/health-app-privacy#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Nejsou moje zdravotní data chráněná zákonem?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nějaký zákon platí, ale pravděpodobně ne ten, na který myslíš. FTC uvádí, že mnoho zdravotních aplikací nespadá pod HIPAA; v USA se na ně vztahuje Health Breach Notification Rule, které je o tom, že se o úniku dozvíš, a ne o omezení shromažďování předem."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Štítek uvádí „Data nejsou shromažďována“. Stačí to?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Je to to nejsilnější, co štítek může říct, a je to vlastní prohlášení vývojáře, ne audit. Čti ho spolu se zásadami ochrany osobních údajů: zásady, které jmenují, co se shromažďuje, a štítek, který říká, že se nic neshromažďuje, by se měly shodovat, a kde se neshodují, jsou zásady podrobnějším dokumentem."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Jaký je rozdíl mezi zálohou a synchronizací?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kdo drží kopii. Záloha je soubor, který vytvoříš a uložíš ty; synchronizace je kopie uložená na něčím serveru, aby se zařízení mezi sebou shodovala. Obojí je užitečné; jen jedno z toho znamená, že tvoje záznamy existují někde, kde je nemáš pod kontrolou."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Znamená „žádné reklamy“, že se neděje nic, co souvisí s reklamou?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ne nutně, a vyplatí se být přesný. Aplikace může nemít žádné reklamy v aplikaci, a přesto měřit, zda instalace přišla z reklamy, kterou spustila jinde. To jsou různé věci; zásady, kterým se dá věřit, říkají, kterou z nich myslí. Naše říkají obojí, doslova."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Jak si to všechno ověřím sám/sama?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Otevři stránku aplikace v App Store a přečti si část o soukromí, pak otevři zásady ochrany osobních údajů aplikace a podívej se, zda obojí popisuje stejnou aplikaci. Pak zkus praktický test: dá se používat bez založení účtu a odnese její smazání data s sebou?"
+            }
+          }
+        ],
+        "headline": "Co zkontrolovat, než zdravotní aplikace uvidí tvůj předpis",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-20",
+        "dateModified": "2026-08-20",
+        "lastReviewed": "2026-08-20",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "Apple — App privacy details on the App Store",
+            "url": "https://developer.apple.com/app-store/app-privacy-details/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Apple — User privacy and data use (App Tracking Transparency)",
+            "url": "https://developer.apple.com/app-store/user-privacy-and-data-use/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Health Breach Notification Rule: the basics",
+            "url": "https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Updated Health Breach Notification Rule protects users of health apps",
+            "url": "https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Mobile health apps interactive tool",
+            "url": "https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/cs/articles/health-app-privacy#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Domů",
+            "item": "https://dozify.app/cs"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Články",
+            "item": "https://dozify.app/cs/articles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Soukromí ve zdravotních aplikacích",
+            "item": "https://dozify.app/cs/articles/health-app-privacy"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/cs" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funkce</a>
+        
+        <a href="/cs/support">Podpora</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/cs">Domů</a>
+        
+        <span aria-hidden="true">/</span>
+        <a href="/cs/articles">Články</a>
+        
+        <span aria-hidden="true">/</span>
+        <span>Soukromí ve zdravotních aplikacích</span>
+        
+      </div>
+
+      <div class="article-hero">
+        <h1>Co zkontrolovat, než zdravotní aplikace uvidí tvůj předpis</h1>
+        
+        <p class="article-meta">Autor: Ümit Can Erim · Publikováno 20. srpna 2026 · Aktualizováno 20. srpna 2026 · Zdroje ověřeny 20. srpna 2026 · <a href="/cs/editorial-policy">Jak tyto průvodce píšeme</a></p>
+        
+        <p class="article-lede">Dvě věci, které většina lidí o zdravotní aplikaci předpokládá, nejsou pravda. První je, že se na ni vztahuje zákon o ochraně zdravotních údajů – u naprosté většiny aplikací ne, a americká FTC to říká otevřeně. Druhá je, že štítek o soukromí v App Store odpovídá na otázku „respektuje tahle aplikace moje soukromí“: odpovídá na užší otázku, slovy s konkrétními definicemi. Tady je, co ta slova znamenají a co kontrolovat místo toho.</p>
+        
+      </div>
+
+      <div class="prose">
+        <h2>HIPAA se téměř jistě neuplatní</h2>
+        <p>Tento omyl stojí za to vyjasnit jako první, protože na něm hodně stojí. Vlastní pokyny FTC uvádějí, že mnoho firem, které shromažďují zdravotní informace („ať už jde o fitness náramek, dietní aplikaci, připojenou tlakoměrnou manžetu nebo něco jiného“), nespadá pod HIPAA. HIPAA se řídí vztahem ve zdravotní péči: tvoje klinika, tvoje nemocnice, tvoje pojišťovna. Aplikace, kterou sis stáhl(a), obecně není nic z toho.</p>
+        <p>Co ve Spojených státech platí, je pravidlo FTC o oznamování úniků zdravotních údajů (Health Breach Notification Rule), které existuje přesně proto, aby tuto mezeru zaplnilo. Organizacím, na které se HIPAA nevztahuje, ukládá informovat uživatele, FTC a v některých případech média, pokud došlo k úniku nezabezpečených zdravotních informací umožňujících identifikaci jednotlivce — „bez zbytečného odkladu“ a nejpozději 60 dní od zjištění.</p>
+        <p>Všimni si, co to je a co ne. Je to pravidlo o tom, že ti to řeknou, až se něco pokazí. Není to pravidlo, které omezuje, co smí aplikace shromažďovat, dokud je všechno v pořádku.</p>
+
+        
+        
+        
+        
+
+        <h2>Co štítek v App Store doopravdy říká</h2>
+        <p>Štítek má tři části a význam se skrývá v té prostřední.</p>
+        <ul>
+          <li><strong>Data používaná ke sledování (Data Used to Track You).</strong> Applova definice sledování je konkrétní: propojení dat shromážděných v aplikaci o uživateli nebo zařízení s <em>daty třetích stran</em> (daty z aplikací, webů nebo offline zdrojů, které vývojář nevlastní) pro cílenou reklamu nebo měření reklamy, nebo jejich sdílení s obchodníkem s daty.</li>
+          <li><strong>Data propojená s tebou (Data Linked to You).</strong> Shromážděná a spojená s identitou. Applovo pravidlo zní, že data se považují za propojená, <em>pokud</em> vývojář před shromážděním neodstraní přímé identifikátory a později je znovu nepropojí. Výchozí stav je propojená.</li>
+          <li><strong>Data nepropojená s tebou (Data Not Linked to You).</strong> Shromážděná, ale s tímto propojením skutečně přerušeným.</li>
+        </ul>
+        <p>A klauzule, která nejvíc mění, jak štítek číst. Applův vlastní seznam toho, co sledováním <em>není</em>, začíná: „Když jsou data propojena pouze v zařízení koncového uživatele a nejsou ze zařízení odesílána způsobem, který umožňuje identifikovat koncového uživatele nebo zařízení.“</p>
+        <p>Aplikace tak může mít téměř prázdnou část o sledování a přesto o tobě někam posílat spoustu věcí. „Nesleduje“ znamená „nekombinuje s daty třetích stran kvůli reklamě a nepředává obchodníkovi s daty“: užší slib než „tohle neshromažďujeme“.</p>
+
+        
+        
+        
+        
+        
+
+        <h2>Pět otázek, které stojí za to položit</h2>
+        <ol>
+          <li><strong>Vyžaduje účet?</strong> Účet je mechanismus, který ze záznamů dělá záznamy o konkrétním člověku na serveru někoho jiného. Žádný účet není položka v seznamu funkcí; je to tvar celé věci.</li>
+          <li><strong>Synchronizuje se do cloudu a dá se to vypnout?</strong> „Záloha“ a „synchronizace“ jsou různé sliby. Jedno je soubor, který máš ty; druhé je kopie, kterou má někdo jiný.</li>
+          <li><strong>Co štítek o soukromí uvádí v kategorii Zdraví?</strong> Applova kategorie Zdraví zahrnuje „jakékoli jiné zdravotní nebo lékařské údaje poskytnuté uživatelem“, takže název léku napsaný do aplikace patří sem. Pokud štítek o Zdraví mlčí a aplikace zaznamenává léky, jedno z toho je špatně.</li>
+          <li><strong>Pojmenovávají zásady, co se shromažďuje, nebo to jen popisují?</strong> „Můžeme shromažďovat určité informace ke zlepšení vašeho zážitku“ není seznam. Zásady, které se dají ověřit, věci jmenují.</li>
+          <li><strong>Co se stane, když aplikaci smažeš?</strong> U aplikace, která funguje jen v zařízení, je to smazání. Tam, kde je server, je smazání aplikace a smazání účtu oddělený krok, a z domovské obrazovky máš v rukou jen jeden z nich.</li>
+        </ol>
+
+        
+        
+
+        <div class="callout">
+          <p><strong>Vlastní odpovědi Dozify, aby se tato stránka neptala na nic, čemu by se sama vyhýbala.</strong> Žádný účet, žádná synchronizace s cloudem, žádné reklamy v aplikaci. Zdravotní záznamy zůstávají ve vlastním úložišti aplikace v zařízení; záloha vytvoří šifrovaný soubor, který si necháš ty. Shromažďují se anonymní statistiky používání (které obrazovky se používají, zda něco spadlo) a nikdy neobsahují název léku, příznak ani hmotnost. Odchází ještě jedna věc: měření, zda instalace přišla z některé z našich vlastních kampaní v App Store nebo na Meta, které běží za povolením sledování od Applu a neobsahuje žádné tvoje záznamy. Smažeš aplikaci a záznamy zmizí s ní. Podrobnosti jsou v <a href="/cs/privacy">zásadách ochrany osobních údajů</a> a v <a href="/en/kvkk">oznámení KVKK</a> a zdůvodnění na <a href="/cs/private-glp1-tracker">stránce o soukromí</a>.</p>
+          
+        </div>
+
+        <h2>Co tato stránka dělat nebude</h2>
+        <p>Jmenovat jinou aplikaci a naznačovat něco o tom, co dělá s daty. Servery nikoho jiného jsme neprověřovali, ani nemůžeme, a obvinění převlečené za srovnání je marketing, ne informace. Výše uvedené otázky fungují u jakékoli aplikace, včetně této: právě proto jsou napsané jako otázky.</p>
+
+        
+        
+      </div>
+
+      <div class="article-cta">
+        <h3>Žádný účet k založení, nic k synchronizaci</h3>
+        
+        <p>Tvoje dávky, hmotnost a příznaky zůstávají v telefonu. Aplikace se otevře rovnou do tvých dat a její smazání je smazání dat.</p>
+        
+        <a href="/#download" class="btn btn-primary">Stáhnout aplikaci</a>
+        
+        <a href="/cs/private-glp1-tracker" class="link-arrow">Jak tu funguje soukromí →</a>
+        
+      </div>
+
+      <div class="article-faq">
+        <h2>Otázky</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Nejsou moje zdravotní data chráněná zákonem?</h3>
+            
+            <p>Nějaký zákon platí, ale pravděpodobně ne ten, na který myslíš. FTC uvádí, že mnoho zdravotních aplikací nespadá pod HIPAA; v USA se na ně vztahuje Health Breach Notification Rule, které je o tom, že se o úniku dozvíš, a ne o omezení shromažďování předem.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Štítek uvádí „Data nejsou shromažďována“. Stačí to?</h3>
+            
+            <p>Je to to nejsilnější, co štítek může říct, a je to vlastní prohlášení vývojáře, ne audit. Čti ho spolu se zásadami ochrany osobních údajů: zásady, které jmenují, co se shromažďuje, a štítek, který říká, že se nic neshromažďuje, by se měly shodovat, a kde se neshodují, jsou zásady podrobnějším dokumentem.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Jaký je rozdíl mezi zálohou a synchronizací?</h3>
+            
+            <p>Kdo drží kopii. Záloha je soubor, který vytvoříš a uložíš ty; synchronizace je kopie uložená na něčím serveru, aby se zařízení mezi sebou shodovala. Obojí je užitečné; jen jedno z toho znamená, že tvoje záznamy existují někde, kde je nemáš pod kontrolou.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Znamená „žádné reklamy“, že se neděje nic, co souvisí s reklamou?</h3>
+            
+            <p>Ne nutně, a vyplatí se být přesný. Aplikace může nemít žádné reklamy v aplikaci, a přesto měřit, zda instalace přišla z reklamy, kterou spustila jinde. To jsou různé věci; zásady, kterým se dá věřit, říkají, kterou z nich myslí. Naše říkají obojí, doslova.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Jak si to všechno ověřím sám/sama?</h3>
+            
+            <p>Otevři stránku aplikace v App Store a přečti si část o soukromí, pak otevři zásady ochrany osobních údajů aplikace a podívej se, zda obojí popisuje stejnou aplikaci. Pak zkus praktický test: dá se používat bez založení účtu a odnese její smazání data s sebou?</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p>Vzdělávací informace, nikoli právní ani lékařská rada. Dozify je osobní aplikace pro sledování, nikoli zdravotnický prostředek. Právo na ochranu soukromí se v jednotlivých zemích liší a mění; tato stránka popisuje veřejně zveřejněná pravidla a definice a nehodnotí žádnou konkrétní aplikaci kromě této.</p>
+        
+      </div>
+
+      <div class="references">
+        <h2>Zdroje</h2>
+        <ol>
+          <li><a href="https://developer.apple.com/app-store/app-privacy-details/" rel="nofollow noopener" target="_blank">Apple. App privacy details on the App Store</a></li>
+          <li><a href="https://developer.apple.com/app-store/user-privacy-and-data-use/" rel="nofollow noopener" target="_blank">Apple. User privacy and data use (App Tracking Transparency)</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business" rel="nofollow noopener" target="_blank">FTC — Health Breach Notification Rule: the basics</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps" rel="nofollow noopener" target="_blank">FTC — Updated Health Breach Notification Rule protects users of health apps</a></li>
+          <li><a href="https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool" rel="nofollow noopener" target="_blank">FTC — Mobile health apps interactive tool</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/cs" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Právní informace</h3>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/cs/terms">Podmínky</a>
+          
+          <a href="/cs/editorial-policy">Redakční zásady</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Nápověda</h3>
+          
+          <a href="/cs/support">Podpora</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/articles/health-app-privacy" hreflang="en" lang="en">English</a> · <a href="/tr/makaleler/saglik-uygulamasi-gizliligi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/articles/health-app-privacy" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/articles/health-app-privacy" hreflang="cs" lang="cs" aria-current="page">Čeština</a> · <a href="/da/articles/health-app-privacy" hreflang="da" lang="da">Dansk</a> · <a href="/de/articles/health-app-privacy" hreflang="de" lang="de">Deutsch</a> · <a href="/el/articles/health-app-privacy" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/articles/health-app-privacy" hreflang="es" lang="es">Español</a> · <a href="/fi/articles/health-app-privacy" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/articles/health-app-privacy" hreflang="fr" lang="fr">Français</a> · <a href="/hi/articles/health-app-privacy" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/articles/health-app-privacy" hreflang="it" lang="it">Italiano</a> · <a href="/ja/articles/health-app-privacy" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/articles/health-app-privacy" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/articles/health-app-privacy" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/articles/health-app-privacy" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/articles/health-app-privacy" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/articles/health-app-privacy" hreflang="pt" lang="pt">Português</a> · <a href="/ru/articles/health-app-privacy" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/articles/health-app-privacy" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/articles/health-app-privacy" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/articles/health-app-privacy" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

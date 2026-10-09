@@ -37,7 +37,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = "https://dozify.app"
 APP_STORE_URL = "https://apps.apple.com/app/dozify/id6764325653"
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from i18n_common import LANGS as I18N_LANGS, langs_for  # noqa: E402
+from i18n_common import LANGS as I18N_LANGS, langs_for, with_lang_list  # noqa: E402
 APP_STORE_ID = "6764325653"
 PROVIDER_TOKEN = "128799689"  # App Store Connect provider id (olympus session providerId)
 
@@ -303,7 +303,7 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
         home_description=META[""][lang][1],
     )
     html = html.replace("</head>", "  " + graph.replace("\n", "\n  ") + "\n</head>", 1)
-    return html
+    return with_lang_list(html, en_slug, tr_slug, lang)
 
 
 def write_sitemap(pages: list[tuple[str, str, str]]) -> int:

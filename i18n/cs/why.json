@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "title": "Proč Dozify — co dělá a co odmítá dělat",
+  "description": "Vytvořeno pro lidi, kterým už byl předepsán GLP-1. Zaznamenává, co rozhodnete ty a tvůj lékař; nenavrhuje dávky a nevykládá výsledky."
+ },
+ "t": {
+  "← Back to home": "← Zpět na úvod",
+  "Five things this app is built around. Each one is a claim you can check against how it behaves.": "Pět věcí, na kterých je tahle aplikace postavená. Každá z nich je tvrzení, které si můžeš ověřit podle toho, jak se aplikace chová.",
+  "Your records stay on your phone": "Tvoje záznamy zůstávají v telefonu",
+  "Doses, weights, side effects and photos are stored in a database on your device. Usage analytics never carries a medication name or a symptom, and progress photos are never uploaded anywhere. The one photo that does leave the phone is a meal photo you choose to analyse with <a href=\"/en/ai-calorie-tracker\">AI calories</a>: it goes, after you agree, through our server to Google Gemini for the estimate and is not stored by the app. The <a href=\"/en/privacy\">privacy policy</a> lists exactly what leaves the device and why.": "Dávky, váha, nežádoucí účinky a fotky jsou uložené v databázi ve tvém zařízení. Analytika používání nikdy neobsahuje název léku ani příznak a fotky pokroku se nikdy nikam nenahrávají. Jediná fotka, která telefon opouští, je fotka jídla, kterou se rozhodneš analyzovat pomocí <a href=\"/en/ai-calorie-tracker\">AI kalorií</a>: po tvém souhlasu jde přes náš server do Google Gemini kvůli odhadu a aplikace ji neukládá. <a href=\"/en/privacy\">Zásady ochrany osobních údajů</a> přesně uvádějí, co zařízení opouští a proč.",
+  "Only what you track": "Jen to, co sleduješ",
+  "The home screen is built from the things you said you care about: cards can be reordered, hidden, or brought back whenever you like. An app that shows everyone everything is an app nobody reads. If food matters to you, the <a href=\"/en/ai-calorie-tracker\">AI meal card</a> turns a photo into an editable calorie and protein draft; if you take a tablet, the <a href=\"/en/glp1-pill-tracker\">pill tracker</a> follows a daily rhythm.": "Domovská obrazovka se skládá z věcí, o kterých jsi řekl(a), že na nich ti záleží: karty můžeš přeskupit, skrýt nebo kdykoli vrátit. Aplikace, která každému ukazuje všechno, je aplikace, kterou nikdo nečte. Pokud ti záleží na jídle, <a href=\"/en/ai-calorie-tracker\">karta AI jídla</a> promění fotku v upravitelný návrh kalorií a bílkovin; pokud užíváš tabletu, <a href=\"/en/glp1-pill-tracker\">sledování tablet</a> se řídí denním rytmem.",
+  "Sources you can follow": "Zdroje, které si můžeš ověřit",
+  "Every article in the education section names where it came from (MedlinePlus (NIH), FDA, NIDDK, TİTCK) and links straight to it. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "Každý článek ve vzdělávací části uvádí, odkud pochází (MedlinePlus (NIH), FDA, NIDDK, TİTCK), a odkazuje přímo na zdroj. Dozify je nástroj pro sledování: nedoporučuje dávky a nevykládá výsledky.",
+  "Feedback goes to a person": "Zpětná vazba jde ke konkrétnímu člověku",
+  "Suggestions arrive as mail read by the person who writes the app, from Settings → Suggest a feature or at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. There is no ticket queue in between.": "Návrhy přicházejí jako e-maily, které čte člověk, jenž aplikaci píše, z Nastavení → Navrhni funkci nebo na <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. Mezi tím není žádná fronta tiketů.",
+  "Still being worked on": "Pořád se na ní pracuje",
+  "Fixes and additions ship as they are ready, and each release says what changed. Most of what has been added since launch started as a message from someone using the app.": "Opravy a novinky vycházejí, jakmile jsou hotové, a každá verze uvádí, co se změnilo. Většina toho, co přibylo od spuštění, začala jako zpráva od někoho, kdo aplikaci používá.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Stáhnout v App Store</a>"
+ }
+}

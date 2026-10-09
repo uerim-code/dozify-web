@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "Raport GLP-1 dla lekarza — przyjdź z podsumowaniem",
+  "description": "Dziesięć minut na trzy miesiące. Wybierz okres i zawartość, a Dozify przygotuje przejrzysty PDF z dawkami, wagą i skutkami ubocznymi do pokazania lekarzowi."
+ },
+ "t": {
+  "Walk in with a summary, not a memory": "Przyjdź z podsumowaniem, a nie ze wspomnieniami",
+  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Jedno dotknięcie zamienia trzy miesiące Twoich zapisów w stronę, którą lekarz przeczyta w ciągu dziesięciu minut, które macie.",
+  "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Wizyta jest krótka, a do omówienia jest dużo: co przyjmowałeś i kiedy, jak zmieniała się waga, jakie skutki uboczne i w którym momencie oraz dwa pytania, które chciałeś zadać.",
+  "A clinical summary, generated on the device": "Podsumowanie kliniczne generowane na urządzeniu",
+  "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Dawki i odstępy, trend wagi, skutki uboczne, rotacja miejsc wkłucia, otwarte fiolki: z 30, 90 lub 180 dni.",
+  "Your questions, printed at the end": "Twoje pytania, wydrukowane na końcu",
+  "Write them down as they occur to you during the month. They come out on the last page.": "Zapisuj je, gdy przychodzą Ci do głowy w ciągu miesiąca. Pojawią się na ostatniej stronie.",
+  "Yours to share, or not": "Twoje do udostępnienia albo nie",
+  "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDF powstaje w Twoim telefonie. Nic nie jest wysyłane; to Ty decydujesz, czy gdziekolwiek trafi.",
+  "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Osobom z krótką wizytą kontrolną i długim okresem do opisania oraz osobom przechodzącym do nowego lekarza, który nigdy nie widział ich historii. Także na wizytę, na której rozważana jest zmiana dawki, a decyzja opiera się właśnie na tym, co działo się w ostatnich ośmiu tygodniach.",
+  "The report is your record laid out clearly. It is not a clinical assessment, it contains no interpretation, and nothing in it should be read as a recommendation, the reading is your doctor's. It also only contains what you logged: a week you did not record is a gap in the report, not a week without doses.": "Raport to Twój zapis przejrzyście ułożony. Nie jest oceną kliniczną, nie zawiera interpretacji i nic w nim nie powinno być odczytywane jako zalecenie — interpretacja należy do lekarza. Zawiera też tylko to, co zapisałeś: tydzień, którego nie zapisałeś, to luka w raporcie, a nie tydzień bez dawek.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Pobierz z App Store</a>",
+  "What is in the report?": "Co zawiera raport?",
+  "Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down: over the range you pick.": "Dawki i odstępy między nimi, trend wagi, skutki uboczne z ich nasileniem, miejsca wkłucia, otwarte fiolki i zapisane przez Ciebie pytania: z wybranego okresu.",
+  "Which date ranges can I choose?": "Jakie okresy mogę wybrać?",
+  "30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician.": "30, 90 lub 180 dni. Dziewięćdziesiąt zwykle odpowiada odstępowi między wizytami; dłuższy jest na pierwszą wizytę u nowego lekarza.",
+  "Can I leave sections out?": "Czy mogę pominąć niektóre sekcje?",
+  "Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about.": "Tak. Każda sekcja ma przełącznik, więc raport może zawierać tylko dawki i wagę, jeśli tego dotyczy wizyta.",
+  "Can I send it before the appointment?": "Czy mogę wysłać go przed wizytą?",
+  "The PDF is a file on your phone. Print it, email it, put it in a portal: that is your decision, made after you have seen it.": "PDF to plik w Twoim telefonie. Wydrukuj go, wyślij e-mailem, wgraj do portalu: to Twoja decyzja, podejmowana po tym, jak go zobaczysz.",
+  "Is anything uploaded to make it?": "Czy coś jest wysyłane, żeby go utworzyć?",
+  "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Nie. Jest generowany na urządzeniu z zapisów, które już tam są. Nic nie jest nigdzie wysyłane, żeby go utworzyć.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Poradniki z podanymi źródłami: <a href=\"/en/articles/glp1-side-effects\">jak radzić sobie z częstymi skutkami ubocznymi</a>, <a href=\"/en/articles/what-is-glp1\">czym naprawdę jest GLP-1</a>, <a href=\"/en/articles/glp1-injection-sites\">gdzie wstrzykiwać i jak zmieniać miejsca</a> oraz <a href=\"/en/articles/glp1-appointment-checklist\">co przygotować na samą wizytę</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Gdzie indziej w Dozify: <a href=\"/en/glp1-side-effect-journal\">dziennik skutków ubocznych</a> i <a href=\"/en/glp1-weight-tracker\">trend wagi</a>."
+ }
+}

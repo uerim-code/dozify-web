@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "title": "Εναλλακτική του Shotsy — φέρτε το ιστορικό GLP-1 σας",
+  "description": "Φεύγετε από το Shotsy; Το Dozify διαβάζει την εξαγωγή, δείχνει κάθε εγγραφή πριν την αποθηκεύσει και λέει ποια στήλη δεν αναγνώρισε. Δωρεάν, στη συσκευή σας."
+ },
+ "t": {
+  "Shotsy alternative": "Εναλλακτική του Shotsy",
+  "Coming from Shotsy? Bring the history with you": "Έρχεστε από το Shotsy; Φέρτε μαζί σας το ιστορικό",
+  "Export from Shotsy, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Κάντε εξαγωγή από το Shotsy, ανοίξτε το αρχείο στο Dozify και δείτε κάθε εγγραφή που πρόκειται να αποθηκευτεί πριν αποθηκευτεί οποιαδήποτε. Δωρεάν, και το αρχείο δεν φεύγει ποτέ από το κινητό σας.",
+  "The columns Dozify looks for in a Shotsy export": "Οι στήλες που αναζητά το Dozify σε ένα αρχείο εξαγωγής του Shotsy",
+  "<code>date · shot date · injection date · day</code>": "<code>date · shot date · injection date · day</code>",
+  "<code>time · shot time</code>": "<code>time · shot time</code>",
+  "<code>dose · dosage · dose (mg) · amount</code>": "<code>dose · dosage · dose (mg) · amount</code>",
+  "<strong>Site</strong>": "<strong>Σημείο</strong>",
+  "<code>site · injection site · location</code>": "<code>site · injection site · location</code>",
+  "<strong>Medication</strong>": "<strong>Φάρμακο</strong>",
+  "<code>medication · med · drug · compound</code>": "<code>medication · med · drug · compound</code>",
+  "<code>weight</code>": "<code>weight</code>",
+  "<code>note · notes · comment</code>": "<code>note · notes · comment</code>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Shotsy is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Shotsy and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Το Dozify είναι εργαλείο καταγραφής, όχι ιατροτεχνολογικό προϊόν. Δεν προτείνει δόσεις και δεν παρέχει ιατρικές συμβουλές. Το Shotsy είναι εμπορικό σήμα του κατόχου του και αναφέρεται εδώ μόνο για να περιγραφεί μια μορφή αρχείου που μπορεί να διαβάσει το Dozify· το Dozify δεν συνδέεται με το Shotsy και αυτή η σελίδα δεν έχει την έγκρισή του. Τα Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® και Rybelsus® είναι εμπορικά σήματα των αντίστοιχων κατόχων τους· το Dozify δεν συνδέεται με αυτές τις εταιρείες.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-shotsy-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-shotsy-alternative-en&mt=8\" class=\"btn btn-primary\">Λήψη από το App Store</a>"
+ }
+}

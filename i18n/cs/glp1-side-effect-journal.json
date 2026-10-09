@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "Deník nežádoucích účinků GLP-1 — kdy se objevují",
+  "description": "Říct lékaři „bylo mi zle“ není totéž co „15 hodin po dávce“. Zapisuj příznaky se závažností a sleduj je vedle svých injekcí Ozempic, Wegovy či Mounjaro."
+ },
+ "t": {
+  "See when your symptoms actually happened": "Podívej se, kdy se tvoje příznaky skutečně objevily",
+  "Telling your doctor \"I had nausea\" and telling them \"about fifteen hours after each dose\" are not the same sentence.": "Říct lékaři „bylo mi zle“ a říct mu „asi patnáct hodin po každé dávce“ není stejná věta.",
+  "Side effects are remembered as a general impression and reported as one. The detail that would be useful (when, how strong, how often, relative to what) is exactly the part that fades first.": "Nežádoucí účinky si pamatujeme jako celkový dojem a tak je i hlásíme. Podrobnosti, které by byly užitečné (kdy, jak silně, jak často, vzhledem k čemu), jsou přesně to, co se vytratí jako první.",
+  "Three taps, at the time": "Tři klepnutí, v danou chvíli",
+  "Eleven symptom types with a severity scale. Logged when it happens, not reconstructed at the appointment.": "Jedenáct typů příznaků se škálou závažnosti. Zapsané, když se objeví, ne rekonstruované na kontrole.",
+  "Timing you can read off": "Načasování, které vyčteš",
+  "How your own entries have sat relative to a dose. Looking backwards at what happened, not forwards at what might.": "Jak se tvoje vlastní zápisy umístily vzhledem k dávce. Pohled zpět na to, co se stalo, ne dopředu na to, co by mohlo.",
+  "Optional journal fields": "Volitelná pole deníku",
+  "Appetite, food noise, cravings, how meals are sitting: only if you chose to track them.": "Chuť k jídlu, neustálé myšlenky na jídlo, chutě, jak ti jídla sedí: jen pokud ses je rozhodl(a) sledovat.",
+  "People in the first weeks, and people who have just moved up a dose, the two points where symptoms are most worth writing down. It is also for anyone whose doctor has asked a question the memory cannot answer: how often, how bad, and how long after the injection.": "Lidem v prvních týdnech a lidem, kteří právě přešli na vyšší dávku – to jsou dva okamžiky, kdy se příznaky nejvíc vyplatí zapisovat. Je to také pro každého, komu lékař položil otázku, na kterou paměť neodpoví: jak často, jak silně a jak dlouho po injekci.",
+  "A journal is a record, not an assessment. Dozify cannot tell you whether a symptom comes from the medication, from something you ate or from something else entirely, and it does not triage. Severe or sudden symptoms (persistent vomiting, severe abdominal pain, signs of an allergic reaction) are a reason to contact a clinician or emergency services now, not to open an app.": "Deník je záznam, ne hodnocení. Dozify ti nemůže říct, zda příznak pochází z léku, z něčeho, co jsi snědl(a), nebo z něčeho úplně jiného, a netřídí podle naléhavosti. Závažné nebo náhlé příznaky (přetrvávající zvracení, silná bolest břicha, známky alergické reakce) jsou důvodem kontaktovat lékaře nebo záchrannou službu hned, ne otevírat aplikaci.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">Stáhnout v App Store</a>",
+  "Which symptoms can I log?": "Jaké příznaky můžu zapisovat?",
+  "Eleven of the common ones, nausea, vomiting, constipation, diarrhoea, reflux, fatigue, headache, dizziness, injection-site reaction, appetite change and stomach pain: each with a severity you choose. Anything else goes in the note.": "Jedenáct častých: nevolnost, zvracení, zácpa, průjem, reflux, únava, bolest hlavy, závrať, reakce v místě vpichu, změna chuti k jídlu a bolest žaludku: každý se závažností, kterou zvolíš. Cokoli jiného patří do poznámky.",
+  "Does it tell me whether the medication caused it?": "Řekne mi, zda to způsobil lék?",
+  "No, and it should not. It shows you when your entries happened relative to your doses; what that means is a conversation with your doctor.": "Ne, a ani by neměl. Ukazuje ti, kdy se tvoje zápisy odehrály vzhledem k dávkám; co to znamená, je téma pro rozhovor s lékařem.",
+  "What should I do about a severe symptom?": "Co mám dělat se závažným příznakem?",
+  "Contact your clinician or emergency services. Logging it afterwards is useful; logging it instead is not.": "Kontaktuj svého lékaře nebo záchrannou službu. Zapsat si to potom je užitečné; zapsat si to místo toho ne.",
+  "Do the entries appear in the doctor report?": "Objeví se zápisy ve zprávě pro lékaře?",
+  "Yes, if you include that section: with their dates, their severity and where they fell relative to your injections.": "Ano, pokud tuto část zahrneš: s daty, závažností a tím, kdy byly vzhledem k tvým injekcím.",
+  "Can I log things that are not symptoms?": "Můžu zapisovat i věci, které nejsou příznaky?",
+  "Yes. Appetite, food noise, cravings and how meals are sitting are optional fields, for the people who find them worth watching.": "Ano. Chuť k jídlu, neustálé myšlenky na jídlo, chutě a to, jak ti jídla sedí, jsou volitelná pole pro ty, kdo je považují za užitečné sledovat.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/side-effect-diary-that-helps\">what makes a diary useful to a clinician</a> and <a href=\"/en/articles/hydration-on-a-glp1\">what the label warns about fluids</a>.": "Průvodci s uvedenými zdroji: <a href=\"/en/articles/glp1-side-effects\">jak zvládat časté nežádoucí účinky</a>, <a href=\"/en/articles/what-is-glp1\">co GLP-1 doopravdy je</a>, <a href=\"/en/articles/glp1-injection-sites\">kam píchat a jak místa střídat</a>, <a href=\"/en/articles/side-effect-diary-that-helps\">díky čemu je deník pro lékaře užitečný</a> a <a href=\"/en/articles/hydration-on-a-glp1\">před čím informace o přípravku varuje ohledně tekutin</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Další v Dozify: <a href=\"/en/glp1-appointment-report\">zpráva pro lékaře</a> a <a href=\"/en/glp1-shot-tracker\">sledování injekcí</a>."
+ }
+}

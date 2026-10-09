@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1-hetteglasslogg – vit før det går tomt",
+  "description": "Doser igjen, dager siden åpning og utløpsdato på ett kort. Begge måtene et hetteglass tar slutt på, kan forutses uker i forveien; Dozify teller for deg."
+ },
+ "t": {
+  "Vial tracking": "Hetteglasslogg",
+  "Know when the vial runs out before it does": "Vit når hetteglasset går tomt før det skjer",
+  "Remaining volume, doses left, and the expiry date: on one card, before the weekend the pharmacy is closed.": "Gjenværende volum, doser igjen og utløpsdato: på ett kort, før helgen apoteket er stengt.",
+  "A vial ends in two ways: it empties, or it expires. Both are predictable weeks ahead and both are usually noticed the evening a dose is due.": "Et hetteglass tar slutt på to måter: det blir tomt, eller det går ut på dato. Begge kan forutses uker i forveien, og begge blir som regel oppdaget den kvelden en dose skal tas.",
+  "What is left, in doses": "Hva som er igjen, i doser",
+  "Remaining millilitres and what that means in injections at your prescribed amount.": "Gjenværende milliliter og hva det betyr i antall injeksjoner med den forskrevne mengden din.",
+  "Two clocks, not one": "To klokker, ikke én",
+  "Days since opening and the manufacturer's expiry, whichever comes first: with the storage rules for that medication.": "Dager siden åpning og produsentens utløpsdato, det som kommer først: med oppbevaringsreglene for det legemiddelet.",
+  "Time out of the fridge": "Tid utenfor kjøleskapet",
+  "Log a storage event when a vial spends the afternoon in a bag. Travel mode is for the days that are not ordinary.": "Logg en oppbevaringshendelse når et hetteglass tilbringer ettermiddagen i en veske. Reisemodus er for dagene som ikke er vanlige.",
+  "People on multi-dose pens and vials, where one container covers several weeks and the end of it arrives quietly. It matters most to anyone who travels with their medication, or who has stood in front of an open fridge on a Sunday wondering whether what is in there is still good.": "Folk som bruker flerdosepenner og hetteglass, der én beholder dekker flere uker og slutten kommer stille. Det betyr mest for alle som reiser med legemiddelet sitt, eller som har stått foran et åpent kjøleskap en søndag og lurt på om det som ligger der, fortsatt er bra.",
+  "Dozify counts what you tell it: doses drawn, the day you opened the vial and the expiry printed on it. It cannot see the liquid, so it cannot tell you whether a particular vial is still fit to use: that judgement belongs to the storage instructions for your medication and, when there is any doubt, to your pharmacist. The in-use limits it shows come from those instructions, not from us.": "Dozify teller det du forteller den: doser trukket opp, dagen du åpnet hetteglasset og utløpsdatoen som står på det. Den kan ikke se væsken, så den kan ikke si om et bestemt hetteglass fortsatt kan brukes: den vurderingen hører til oppbevaringsinstruksjonene for legemiddelet ditt og, ved enhver tvil, til apoteket. Brukstidsgrensene den viser, kommer fra de instruksjonene, ikke fra oss.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Last ned fra App Store</a>",
+  "Does it count doses automatically?": "Teller den doser automatisk?",
+  "It subtracts each injection you log from the vial you logged it against, so the remaining amount follows your own entries without a separate step.": "Den trekker hver injeksjon du logger fra hetteglasset du logget den mot, så gjenværende mengde følger dine egne registreringer uten et eget steg.",
+  "Where does the in-use limit come from?": "Hvor kommer brukstidsgrensen fra?",
+  "From the storage instructions for that medication: how long it may be kept once opened, and at what temperature. Dozify shows the one that applies and counts the days; it does not invent a number.": "Fra oppbevaringsinstruksjonene for det legemiddelet: hvor lenge det kan oppbevares etter åpning, og ved hvilken temperatur. Dozify viser den som gjelder og teller dagene; den finner ikke på et tall.",
+  "What if the pen spends a day out of the fridge?": "Hva om pennen ligger en dag utenfor kjøleskapet?",
+  "Log it as a storage event, with how long and roughly how warm. It stays on the vial's record so it is there when you decide, or when you ask a pharmacist.": "Logg det som en oppbevaringshendelse, med hvor lenge og omtrent hvor varmt. Det blir liggende i hetteglassets historikk, så det er der når du skal bestemme deg, eller når du spør apoteket.",
+  "Will it warn me before a vial runs out?": "Varsler den meg før et hetteglass går tomt?",
+  "It shows doses remaining and days remaining on the card, so the end is visible weeks ahead rather than the evening a dose is due.": "Den viser gjenværende doser og gjenværende dager på kortet, så slutten er synlig uker i forveien i stedet for den kvelden en dose skal tas.",
+  "Does this work for pens as well as vials?": "Fungerer dette for penner så vel som hetteglass?",
+  "Yes. A pen with several doses in it is tracked the same way: what is left, how long it has been open, and when it expires.": "Ja. En penn med flere doser i følges på samme måte: hva som er igjen, hvor lenge den har vært åpnet, og når den går ut på dato.",
+  "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/storing-glp1-pens\">what each label says about storing a pen</a> and <a href=\"/en/articles/travelling-with-a-glp1-pen\">what the rules say about flying with one</a>.": "Veiledninger med kildene oppgitt: <a href=\"/en/articles/how-to-inject-glp1\">slik setter du en penn, steg for steg</a>, <a href=\"/en/articles/glp1-injection-sites\">hvor du setter sprøyta og hvordan du roterer</a> og <a href=\"/en/articles/what-is-glp1\">hva GLP-1 egentlig er</a>, <a href=\"/en/articles/storing-glp1-pens\">hva hver preparatomtale sier om oppbevaring av en penn</a> og <a href=\"/en/articles/travelling-with-a-glp1-pen\">hva reglene sier om å fly med en</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Ellers i Dozify: <a href=\"/en/glp1-shot-tracker\">sprøyteloggen</a> og <a href=\"/en/glp1-appointment-report\">legerapporten</a>."
+ }
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1-legemiddelnivå i graf – anslått fra dine doser</title>
+  <meta property="og:url" content="https://dozify.app/nb/glp1-medication-level">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="En anslått kurve over hvordan GLP-1 bygger seg opp og avtar mellom injeksjonene, tegnet fra dosene du logger, ved siden av vekten. Et anslag, ikke en test.">
+  <meta property="og:title" content="GLP-1-legemiddelnivå i graf – anslått fra dine doser">
+  <meta property="og:description" content="En anslått kurve over hvordan GLP-1 bygger seg opp og avtar mellom injeksjonene, tegnet fra dosene du logger, ved siden av vekten. Et anslag, ikke en test.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify – en privat GLP-1-sprøyte- og vektlogg for iPhone">
+  <meta name="twitter:title" content="GLP-1-legemiddelnivå i graf – anslått fra dine doser">
+  <meta name="twitter:description" content="En anslått kurve over hvordan GLP-1 bygger seg opp og avtar mellom injeksjonene, tegnet fra dosene du logger, ved siden av vekten. Et anslag, ikke en test.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify – en privat GLP-1-sprøyte- og vektlogg for iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="nb_NO">
+
+  <link rel="canonical" href="https://dozify.app/nb/glp1-medication-level">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-medication-level">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/ilac-seviyesi-egrisi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glp1-medication-level">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glp1-medication-level">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glp1-medication-level">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glp1-medication-level">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glp1-medication-level">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glp1-medication-level">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glp1-medication-level">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glp1-medication-level">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glp1-medication-level">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glp1-medication-level">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glp1-medication-level">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glp1-medication-level">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glp1-medication-level">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glp1-medication-level">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glp1-medication-level">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glp1-medication-level">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glp1-medication-level">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glp1-medication-level">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glp1-medication-level">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glp1-medication-level">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-medication-level">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/nb",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "nb"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/nb",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Logg GLP-1-sprøyter og daglige tabletter, roter stikksteder, følg vekt, bivirkninger og matstøy, og få AI-anslag for kalorier og protein. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "nb"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/nb/glp1-medication-level#webpage",
+        "url": "https://dozify.app/nb/glp1-medication-level",
+        "name": "GLP-1-legemiddelnivå i graf – anslått fra dine doser",
+        "description": "En anslått kurve over hvordan GLP-1 bygger seg opp og avtar mellom injeksjonene, tegnet fra dosene du logger, ved siden av vekten. Et anslag, ikke en test.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "nb",
+        "breadcrumb": {
+          "@id": "https://dozify.app/nb/glp1-medication-level#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Er dette mitt faktiske legemiddelnivå?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nei. Det er et gjennomsnittlig anslag fra farmakokinetisk modellering, tegnet fra dosene du har logget. Det måler ikke konsentrasjonen i blodet ditt, og appen sier det på skjermen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hvor lenge blir semaglutid i kroppen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tallet for hvert legemiddel står i preparatomtalen, og apoteket eller forskriveren din kan forklare hva det betyr for deg. Det Dozify legger til, er formen på det over dine egne loggede doser: når anslaget stiger, hvordan det avtar, og hvordan én uke overlapper den neste."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hvorfor er det ingen kurve for tabletten min?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Appen har ingen profil for legemidler som tas gjennom munnen, så for et legemiddel som bare tas oralt viser den ingen kurve i stedet for et tall den ikke kan stå inne for. Tablettdosene dine blir fortsatt logget og påminnet som vanlig."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Er grafen for legemiddelnivå gratis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Den er en del av Premium, sammen med AI-måltidsbildet og legerapporten. Å logge doser og få påminnelser er gratis for alltid."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan jeg bruke kurven til å bestemme når jeg skal ta neste dose?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nei. Tidsplanen og dosen er det forskriveren din som bestemmer. Kurven er der for å hjelpe deg å forstå og beskrive ukene dine, ikke for å tidfeste eller endre en dose."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hva om jeg glemte å logge en dose?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Legg den til med datoen og klokkeslettet den faktisk ble tatt. Kurven bygges fra loggen din, så inntil registreringen er der, vet den ikke om den dosen."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/nb/glp1-medication-level#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Hjem",
+            "item": "https://dozify.app/nb"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Legemiddelnivå",
+            "item": "https://dozify.app/nb/glp1-medication-level"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/nb" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funksjoner</a>
+        
+        <a href="/#privacy">Personvern</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/nb">Hjem</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Legemiddelnivå</span>
+      
+    </div>
+    <h1>En graf over GLP-1-legemiddelnivået, tegnet fra dine egne doser</h1>
+    
+    <p class="meta">En telefon kan ikke måle hvor mye legemiddel du har i kroppen. Det Dozify kan gjøre, er å anslå formen på det ut fra injeksjonene du har logget, og si tydelig på skjermen at det er et anslag.</p>
+    
+
+    <h2>Spørsmålet bak grafen</h2>
+    <p>Mange som tar en ukentlig injeksjon lurer på det samme: hvor mye av forrige ukes dose virker fortsatt, og forklarer det hvordan dagen i dag kjennes? En doselogg svarer på når. Den viser ikke hva som skjer mellom én dose og den neste, og det er i det mellomrommet de fleste spørsmålene ligger.</p>
+
+    
+    
+
+    <h2>Hva kurven er</h2>
+    <p>Etter hver injeksjon stiger det anslåtte nivået, og så faller det gradvis i takt med legemiddelets halveringstid. Dozify tegner dette fra dosene du logger (dato, mengde og legemiddel) ved hjelp av en farmakokinetisk profil for hvert injiserbart molekyl, for eksempel semaglutid i Ozempic® og Wegovy® eller tirzepatid i Mounjaro® og Zepbound®. En referanselinje markerer den typiske toppen for en dose, så du ser hvor dagens anslag ligger i forhold til den. Med regelmessige injeksjoner finner stigningen og fallet en jevn rytme, som appen kaller steady state.</p>
+    <p>Skjermen sier det rett ut: «Dette er et gjennomsnittlig anslag fra en farmakokinetisk modell. Det måler ikke den faktiske konsentrasjonen.» Det er ikke en blodprøve, og den vet ingenting om kroppen din som loggen din ikke vet.</p>
+
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/level-curve.webp" srcset="/screenshots/en/level-curve-400w.webp 400w, /screenshots/en/level-curve.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Vekttrend og den anslåtte kurven for legemiddelnivå fra loggede injeksjoner"></div></figure>
+      
+    </div>
+
+    <h2>Vekt og dose på én linje</h2>
+    <p>Kurven ligger på samme tidslinje som dosene og <a href="/nb/glp1-weight-tracker">vekttrenden</a> din. En doseendring, en glemt uke eller en lang flat periode på vekta vises i sammenheng, ved siden av hva legemiddelet var anslått å gjøre på det tidspunktet, i stedet for i en egen app du må stille opp mot hverandre manuelt.</p>
+
+    
+    
+
+    <h2>Sult og matstøy gjennom uka</h2>
+    <p>Hvis noen dager i uka føles sultnere enn andre, gir kurven deg noe konkret å sammenligne med. I Dozify kan du gi matstøy («Stadige tanker om mat» i appen) en vurdering i sjekkene dine, og vurderingene tas vare på over tid, i den samme appen som anslaget. Du kan se på begge for de samme ukene og selv se om de støyende dagene pleier å havne på samme sted hver uke. Det du finner, er ditt eget mønster og verdt å ta med til forskriveren din. Appen forklarer det ikke, stiller ingen diagnose og foreslår ikke å flytte en dose på grunn av det.</p>
+
+    
+    
+
+    <h2>Bare injeksjoner</h2>
+    <p>Kurven tegnes for injiserbare legemidler. For et legemiddel som bare tas gjennom munnen, som Rybelsus® eller Wegovy-tabletten, viser Dozify ingen kurve i det hele tatt, fordi appen ikke har noen oral profil og ikke vil dikte opp en. Et feil tall er verre enn et tomt felt. Tabletter blir likevel logget, påminnet og tatt med i rapporter som alt annet; <a href="/nb/glp1-pill-tracker">siden om GLP-1-tablettloggen</a> viser hvordan.</p>
+
+    
+    
+
+    <h2>Hvor grensen går</h2>
+    <p>Anslaget er et gjennomsnitt bygget på en modell og loggen din, så det er bare så komplett som registreringene dine: en dose du ikke logget, er en dose kurven ikke vet om. Det tar ikke hensyn til hvordan akkurat din kropp håndterer legemiddelet, og nivået det viser, er ikke et mål. Hvor lenge et bestemt legemiddel blir i kroppen, står i preparatomtalen, og apoteket kan forklare det for deg. Dozify anbefaler ikke en dose, en dosedag eller endringer i noen av dem. Kurven er en del av Premium; doselogging og påminnelser er gratis for alltid.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-medication-level-nb&mt=8" class="btn btn-primary">Last ned fra App Store</a></p>
+
+
+    <h2>Spørsmål</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Er dette mitt faktiske legemiddelnivå?</h3>
+        
+        <p>Nei. Det er et gjennomsnittlig anslag fra farmakokinetisk modellering, tegnet fra dosene du har logget. Det måler ikke konsentrasjonen i blodet ditt, og appen sier det på skjermen.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Hvor lenge blir semaglutid i kroppen?</h3>
+        
+        <p>Tallet for hvert legemiddel står i preparatomtalen, og apoteket eller forskriveren din kan forklare hva det betyr for deg. Det Dozify legger til, er formen på det over dine egne loggede doser: når anslaget stiger, hvordan det avtar, og hvordan én uke overlapper den neste.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Hvorfor er det ingen kurve for tabletten min?</h3>
+        
+        <p>Appen har ingen profil for legemidler som tas gjennom munnen, så for et legemiddel som bare tas oralt viser den ingen kurve i stedet for et tall den ikke kan stå inne for. Tablettdosene dine blir fortsatt logget og påminnet som vanlig.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Er grafen for legemiddelnivå gratis?</h3>
+        
+        <p>Den er en del av Premium, sammen med <a href="/nb/ai-calorie-tracker">AI-måltidsbildet</a> og legerapporten. Å logge doser og få påminnelser er gratis for alltid.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Kan jeg bruke kurven til å bestemme når jeg skal ta neste dose?</h3>
+        
+        <p>Nei. Tidsplanen og dosen er det forskriveren din som bestemmer. Kurven er der for å hjelpe deg å forstå og beskrive ukene dine, ikke for å tidfeste eller endre en dose.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Hva om jeg glemte å logge en dose?</h3>
+        
+        <p>Legg den til med datoen og klokkeslettet den faktisk ble tatt. Kurven bygges fra loggen din, så inntil registreringen er der, vet den ikke om den dosen.</p>
+        
+      </div>
+    </div>
+
+    <h2>Les videre</h2>
+    <p>Veiledninger med kildene oppgitt: <a href="/nb/articles/what-is-glp1">hva GLP-1 egentlig er</a>, <a href="/nb/articles/missed-glp1-dose">hva pakningsvedlegget sier om en glemt dose</a> og <a href="/nb/articles/reading-a-weight-trend">hvordan du leser en trend når vekta står stille</a>.</p>
+    <p>Ellers i Dozify: <a href="/nb/glp1-shot-tracker">sprøyteloggen</a>, <a href="/nb/glp1-side-effect-journal">bivirkningsdagboken</a>, <a href="/nb/glp1-pill-tracker">GLP-1-tablettloggen</a>, <a href="/nb/ai-calorie-tracker">AI-kalorier og protein fra et bilde</a> og <a href="/nb/private-glp1-tracker">hvorfor dataene dine blir på telefonen</a>.</p>
+
+    
+    
+    
+
+    <p class="meta">Dozify er et loggeverktøy, ikke medisinsk utstyr. Appen anbefaler ikke doser og gir ikke medisinske råd. Kurven for legemiddelnivå er et anslag, ikke en måling. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® og Rybelsus® er varemerker som tilhører sine respektive eiere; Dozify er ikke tilknyttet disse selskapene.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/nb" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Juridisk</h3>
+          
+          <a href="/nb/privacy">Personvernerklæring</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/nb/terms">Vilkår</a>
+          
+          <a href="/nb/editorial-policy">Redaksjonelle retningslinjer</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Sporing</h3>
+          
+          <a href="/nb/glp1-shot-tracker">GLP-1-sprøytelogg</a>
+          
+          <a href="/nb/injection-site-tracker">Logg for stikksteder</a>
+          
+          <a href="/nb/glp1-weight-tracker">GLP-1-vektlogg</a>
+          
+          <a href="/nb/glp1-side-effect-journal">Bivirkningsdagbok</a>
+          
+          <a href="/nb/glp1-vial-tracker">Hetteglasslogg</a>
+          
+          <a href="/nb/private-glp1-tracker">Privat GLP-1-logg</a>
+          
+          <a href="/nb/glp1-appointment-report">Legerapport</a>
+          
+          <a href="/nb/switch-glp1-tracker-app">Bytt fra en annen app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Hjelp</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glp1-medication-level" hreflang="en" lang="en">English</a> · <a href="/tr/ilac-seviyesi-egrisi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glp1-medication-level" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glp1-medication-level" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/glp1-medication-level" hreflang="da" lang="da">Dansk</a> · <a href="/de/glp1-medication-level" hreflang="de" lang="de">Deutsch</a> · <a href="/el/glp1-medication-level" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/glp1-medication-level" hreflang="es" lang="es">Español</a> · <a href="/fi/glp1-medication-level" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/glp1-medication-level" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glp1-medication-level" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glp1-medication-level" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glp1-medication-level" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/glp1-medication-level" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/glp1-medication-level" hreflang="nb" lang="nb" aria-current="page">Norsk</a> · <a href="/nl/glp1-medication-level" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glp1-medication-level" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glp1-medication-level" hreflang="pt" lang="pt">Português</a> · <a href="/ru/glp1-medication-level" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glp1-medication-level" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/glp1-medication-level" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glp1-medication-level" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

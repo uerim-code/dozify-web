@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "title": "Glapp-alternativ – ta med din GLP-1-historik",
+  "description": "Lämnar du Glapp? Dozify läser exporten, förhandsvisar varje post innan något sparas och säger vilka kolumner den inte kunde placera. Gratis, inget laddas upp."
+ },
+ "t": {
+  "Glapp alternative": "Glapp-alternativ",
+  "Coming from Glapp? Bring the history with you": "Kommer du från Glapp? Ta med dig historiken",
+  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Exportera från Glapp, öppna filen i Dozify och se varje post som ska sparas innan någon av dem sparas. Gratis, och filen lämnar aldrig din telefon.",
+  "The columns Dozify looks for in a Glapp export": "Kolumnerna som Dozify letar efter i en export från Glapp",
+  "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
+  "<code>time</code>": "<code>time</code>",
+  "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
+  "<strong>Site</strong>": "<strong>Ställe</strong>",
+  "<code>site · body site</code>": "<code>site · body site</code>",
+  "<strong>Medication</strong>": "<strong>Läkemedel</strong>",
+  "<code>medication · product</code>": "<code>medication · product</code>",
+  "<code>weight · weight kg · body weight</code>": "<code>weight · weight kg · body weight</code>",
+  "<strong>Side effect</strong>": "<strong>Biverkning</strong>",
+  "<code>symptom · side effect · side-effect</code>": "<code>symptom · side effect · side-effect</code>",
+  "<strong>Severity</strong>": "<strong>Svårighetsgrad</strong>",
+  "<code>severity · intensity</code>": "<code>severity · intensity</code>",
+  "<code>notes · note</code>": "<code>notes · note</code>",
+  "If your dose column is headed “units”": "Om din doskolumn har rubriken ”units”",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "De raderna listas för dig i stället för att räknas om. En enhet är en volym på en spruta, och hur många milligram den innehåller beror på koncentrationen i din flaska – en siffra som filen inte innehåller. Att skriva in dem i ett milligramfält skulle registrera fel dos utan att något längre fram ifrågasatte det, så Dozify visar dem och låter dig föra in den mängd som din förskrivare använder. <a href=\"/en/articles/units-vs-milligrams\">Varför det inte finns en enda omräkning →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify är ett loggverktyg, inte en medicinteknisk produkt. Appen rekommenderar inga doser och ger inga medicinska råd. Glapp är ett varumärke som tillhör sin ägare och nämns här bara för att beskriva ett filformat som Dozify kan läsa; Dozify har ingen koppling till Glapp och den här sidan är inte godkänd av dem. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® och Rybelsus® är varumärken som tillhör respektive ägare; Dozify har ingen koppling till dessa företag.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Hämta i App Store</a>"
+ }
+}

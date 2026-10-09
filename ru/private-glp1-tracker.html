@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Приватный трекер GLP-1 — без аккаунта и облака</title>
+  <meta property="og:url" content="https://dozify.app/ru/private-glp1-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Ваши дозы, вес и симптомы остаются на телефоне. Без регистрации, без синхронизации, без рекламы внутри приложения. Удалите его — и записи уйдут с ним.">
+  <meta property="og:title" content="Приватный трекер GLP-1 — без аккаунта и облака">
+  <meta property="og:description" content="Ваши дозы, вес и симптомы остаются на телефоне. Без регистрации, без синхронизации, без рекламы внутри приложения. Удалите его — и записи уйдут с ним.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — приватный трекер уколов GLP-1 и веса для iPhone">
+  <meta name="twitter:title" content="Приватный трекер GLP-1 — без аккаунта и облака">
+  <meta name="twitter:description" content="Ваши дозы, вес и симптомы остаются на телефоне. Без регистрации, без синхронизации, без рекламы внутри приложения. Удалите его — и записи уйдут с ним.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — приватный трекер уколов GLP-1 и веса для iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="ru_RU">
+
+  <link rel="canonical" href="https://dozify.app/ru/private-glp1-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/private-glp1-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/gizli-glp1-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/private-glp1-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/private-glp1-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/private-glp1-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/private-glp1-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/private-glp1-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/private-glp1-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/private-glp1-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/private-glp1-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/private-glp1-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/private-glp1-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/private-glp1-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/private-glp1-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/private-glp1-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/private-glp1-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/private-glp1-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/private-glp1-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/private-glp1-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/private-glp1-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/private-glp1-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/private-glp1-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/private-glp1-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/ru",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "ru"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/ru",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Отмечайте уколы и таблетки GLP-1, чередуйте места инъекций, следите за весом и побочками, считайте калории и белок по фото с ИИ. Для iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "ru"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/ru/private-glp1-tracker#webpage",
+        "url": "https://dozify.app/ru/private-glp1-tracker",
+        "name": "Приватный трекер GLP-1 — без аккаунта и облака",
+        "description": "Ваши дозы, вес и симптомы остаются на телефоне. Без регистрации, без синхронизации, без рекламы внутри приложения. Удалите его — и записи уйдут с ним.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "ru",
+        "breadcrumb": {
+          "@id": "https://dozify.app/ru/private-glp1-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Есть ли аккаунт?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Нет. Не нужно ни регистрироваться, ни входить. Приложение открывается сразу на ваших данных."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Что именно собирается?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Анонимная статистика использования (какие экраны используются, было ли падение) — без названия препарата, симптомов и веса. В политике конфиденциальности перечислено, что отправляется, а что — никогда."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Можно ли выгрузить свои данные?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Да. Резервное копирование записывает на устройство зашифрованный файл, защищённый паролем, который вы храните где угодно и откуда можете восстановить данные."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Что будет, если удалить приложение?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Записи уйдут вместе с ним. На сервере нет копии, которую можно было бы вернуть потом, — в этом и смысл, и поэтому сначала стоит сделать резервную копию."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Зашифрованы ли данные на телефоне?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Они хранятся в собственной базе данных приложения внутри изолированной среды (песочницы) iOS, а файлы резервных копий шифруются заданным вами паролем."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/ru/private-glp1-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://dozify.app/ru"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Конфиденциальность",
+            "item": "https://dozify.app/ru/private-glp1-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/ru" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Возможности</a>
+        
+        <a href="/#privacy">Конфиденциальность</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/ru">Главная</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Конфиденциальность</span>
+      
+    </div>
+    <h1>Без аккаунта. Ваши записи остаются на телефоне.</h1>
+    
+    <p class="meta">История уколов, вес, побочные эффекты и фото прогресса хранятся на устройстве и никуда не загружаются. Фото еды покидает телефон, только если вы сами решите проанализировать его с помощью ИИ-калорий.</p>
+    
+
+    <h2>Проблема</h2>
+    <p>Журнал GLP-1 — это медицинская запись о лечении, о котором многие предпочитают не говорить. Отдать её сервису, который требует аккаунт, вход и сервер, — это решение, и обычно его принимают по умолчанию.</p>
+
+    
+    
+
+    <h2>Что делает Dozify</h2>
+    <h3>Аккаунт создавать не нужно</h3>
+    <p>Установите и начинайте. Не нужно регистрироваться, не нужно входить, и потом нечего удалять с сервера.</p>
+    <h3>Работает с выключенной сетью</h3>
+    <p>Всё хранится на устройстве. Удаление приложения забирает ваши записи с собой.</p>
+    <h3>Аналитика без медицинских данных</h3>
+    <p>Только анонимная статистика использования: никогда — какой препарат вы принимаете, никогда — симптомы. Её можно полностью отключить.</p>
+
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/why-dozify.webp" srcset="/screenshots/en/why-dozify-400w.webp 400w, /screenshots/en/why-dozify.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Без аккаунта. Ничто не покидает ваш телефон."></div></figure>
+      
+    </div>
+
+
+    <h2>Кому это поможет</h2>
+    <p>Тем, кто не готов держать рецепт, вес и список симптомов за чужим логином, и тем, у кого общий дом, общий тарифный план или семейный аккаунт и кто не хотел бы, чтобы это там появилось. А также всем, кто прочитал, что бесплатное медицинское приложение обычно делает с данными, и решил отказаться.</p>
+
+    
+    
+
+    <h2>Где его границы</h2>
+    <p>Записи, которые существуют только на одном телефоне, теряются вместе с ним. Dozify создаёт зашифрованный файл резервной копии, который вы храните сами; облака, которое тихо всё восстановит за вас, нет. Две вещи всё же покидают устройство, и политика конфиденциальности называет обе: анонимная статистика использования, которая никогда не содержит названия препарата или симптома, и измерение того, пришла ли установка из одной из наших собственных кампаний в App Store или Meta, — оно работает только с разрешения на отслеживание от Apple.</p>
+
+    
+    
+
+    <h2>Приватность по умолчанию</h2>
+    <p>Ваши медицинские записи остаются на устройстве и никуда не загружаются; единственное исключение — фото еды, которое вы сами решите проанализировать с помощью ИИ-калорий: оно отправляется только с вашего согласия и не хранится приложением. Нет ни аккаунта, ни облачной синхронизации. Статистика использования никогда не содержит названий препаратов или симптомов — подробности в <a href="/ru/privacy">политике конфиденциальности</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-private-glp1-tracker-ru&mt=8" class="btn btn-primary">Загрузите в App Store</a></p>
+
+
+    <h2>Вопросы</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Есть ли аккаунт?</h3>
+        
+        <p>Нет. Не нужно ни регистрироваться, ни входить. Приложение открывается сразу на ваших данных.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Что именно собирается?</h3>
+        
+        <p>Анонимная статистика использования (какие экраны используются, было ли падение) — без названия препарата, симптомов и веса. В политике конфиденциальности перечислено, что отправляется, а что — никогда.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Можно ли выгрузить свои данные?</h3>
+        
+        <p>Да. Резервное копирование записывает на устройство зашифрованный файл, защищённый паролем, который вы храните где угодно и откуда можете восстановить данные.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Что будет, если удалить приложение?</h3>
+        
+        <p>Записи уйдут вместе с ним. На сервере нет копии, которую можно было бы вернуть потом, — в этом и смысл, и поэтому сначала стоит сделать резервную копию.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Зашифрованы ли данные на телефоне?</h3>
+        
+        <p>Они хранятся в собственной базе данных приложения внутри изолированной среды (песочницы) iOS, а файлы резервных копий шифруются заданным вами паролем.</p>
+        
+      </div>
+    </div>
+
+    <h2>Читать дальше</h2>
+    <p>Статьи со ссылками на источники: <a href="/ru/articles/what-is-glp1">что такое GLP-1 на самом деле</a>, <a href="/ru/articles/glp1-injection-sites">куда колоть и как чередовать места</a>, <a href="/ru/articles/glp1-side-effects">как справляться с частыми побочными эффектами</a> и <a href="/ru/articles/health-app-privacy">как читать ярлык конфиденциальности медицинского приложения</a>.</p>
+    <p>Ещё в Dozify: <a href="/ru/switch-glp1-tracker-app">импорт из другого приложения</a> и <a href="/ru/glp1-appointment-report">отчёт для врача</a>.</p>
+    <p>Новое в Dozify: сфотографируйте еду, и приложение подготовит черновик калорий и белка по каждому блюду, который можно поправить, — <a href="/ru/ai-calorie-tracker">подсчёт калорий с ИИ</a> (Premium), а для ежедневных таблеток GLP-1 появился отдельный <a href="/ru/glp1-pill-tracker">трекер таблеток</a>.</p>
+
+    
+    
+    
+    
+
+    <p class="meta">Dozify — это инструмент для учёта, а не медицинское изделие. Приложение не рекомендует дозы и не даёт медицинских советов. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® и Rybelsus® — товарные знаки их правообладателей; Dozify не связан с этими компаниями.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/ru" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Правовая информация</h3>
+          
+          <a href="/ru/privacy">Политика конфиденциальности</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/ru/terms">Условия</a>
+          
+          <a href="/ru/editorial-policy">Редакционная политика</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Учёт</h3>
+          
+          <a href="/ru/glp1-shot-tracker">Трекер уколов GLP-1</a>
+          
+          <a href="/ru/injection-site-tracker">Трекер мест инъекций</a>
+          
+          <a href="/ru/glp1-weight-tracker">Трекер веса на GLP-1</a>
+          
+          <a href="/ru/glp1-side-effect-journal">Дневник побочных эффектов</a>
+          
+          <a href="/ru/glp1-vial-tracker">Трекер флаконов</a>
+          
+          <a href="/ru/private-glp1-tracker">Приватный трекер GLP-1</a>
+          
+          <a href="/ru/glp1-appointment-report">Отчёт для врача</a>
+          
+          <a href="/ru/switch-glp1-tracker-app">Переход из другого приложения</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Помощь</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/private-glp1-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/gizli-glp1-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/private-glp1-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/private-glp1-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/private-glp1-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/private-glp1-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/private-glp1-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/private-glp1-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/private-glp1-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/private-glp1-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/private-glp1-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/private-glp1-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/private-glp1-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/private-glp1-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/private-glp1-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/private-glp1-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/private-glp1-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/private-glp1-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/private-glp1-tracker" hreflang="ru" lang="ru" aria-current="page">Русский</a> · <a href="/sv/private-glp1-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/private-glp1-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/private-glp1-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

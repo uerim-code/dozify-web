@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "title": "Hvorfor Dozify – hva appen gjør, og hva den nekter",
+  "description": "Laget for deg som allerede har fått forskrevet en GLP-1. Den registrerer det du og legen bestemmer; den foreslår ikke doser og tolker ikke resultater."
+ },
+ "t": {
+  "← Back to home": "← Tilbake til forsiden",
+  "Five things this app is built around. Each one is a claim you can check against how it behaves.": "Fem ting denne appen er bygget rundt. Hver av dem er en påstand du kan sjekke mot hvordan den oppfører seg.",
+  "Your records stay on your phone": "Registreringene dine blir på telefonen",
+  "Doses, weights, side effects and photos are stored in a database on your device. Usage analytics never carries a medication name or a symptom, and progress photos are never uploaded anywhere. The one photo that does leave the phone is a meal photo you choose to analyse with <a href=\"/en/ai-calorie-tracker\">AI calories</a>: it goes, after you agree, through our server to Google Gemini for the estimate and is not stored by the app. The <a href=\"/en/privacy\">privacy policy</a> lists exactly what leaves the device and why.": "Doser, vekt, bivirkninger og bilder lagres i en database på enheten din. Bruksanalyse inneholder aldri navn på legemidler eller symptomer, og fremgangsbilder lastes aldri opp noe sted. Det ene bildet som forlater telefonen, er et måltidsbilde du selv velger å analysere med <a href=\"/en/ai-calorie-tracker\">AI-kalorier</a>: det sendes, etter at du har sagt ja, via serveren vår til Google Gemini for anslaget og lagres ikke av appen. <a href=\"/en/privacy\">Personvernerklæringen</a> lister opp nøyaktig hva som forlater enheten og hvorfor.",
+  "Only what you track": "Bare det du følger med på",
+  "The home screen is built from the things you said you care about: cards can be reordered, hidden, or brought back whenever you like. An app that shows everyone everything is an app nobody reads. If food matters to you, the <a href=\"/en/ai-calorie-tracker\">AI meal card</a> turns a photo into an editable calorie and protein draft; if you take a tablet, the <a href=\"/en/glp1-pill-tracker\">pill tracker</a> follows a daily rhythm.": "Startskjermen bygges av det du har sagt at du bryr deg om: kortene kan flyttes, skjules eller hentes tilbake når du vil. En app som viser alle alt, er en app ingen leser. Hvis maten betyr noe for deg, gjør <a href=\"/en/ai-calorie-tracker\">AI-måltidskortet</a> et bilde om til et redigerbart utkast med kalorier og protein; tar du en tablett, følger <a href=\"/en/glp1-pill-tracker\">tablettloggen</a> en daglig rytme.",
+  "Sources you can follow": "Kilder du kan følge",
+  "Every article in the education section names where it came from (MedlinePlus (NIH), FDA, NIDDK, TİTCK) and links straight to it. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "Hver artikkel i kunnskapsdelen oppgir hvor den kommer fra (MedlinePlus (NIH), FDA, NIDDK, TİTCK) og lenker rett dit. Dozify er et loggeverktøy: den anbefaler ikke doser og tolker ikke resultater.",
+  "Feedback goes to a person": "Tilbakemeldinger går til et menneske",
+  "Suggestions arrive as mail read by the person who writes the app, from Settings → Suggest a feature or at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. There is no ticket queue in between.": "Forslag kommer som e-post som leses av personen som lager appen, fra Innstillinger → Foreslå en funksjon eller til <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. Det er ingen saksbehandlingskø imellom.",
+  "Still being worked on": "Fortsatt under arbeid",
+  "Fixes and additions ship as they are ready, and each release says what changed. Most of what has been added since launch started as a message from someone using the app.": "Rettelser og nyheter slippes når de er klare, og hver versjon sier hva som er endret. Det meste som er lagt til siden lanseringen, startet som en melding fra noen som bruker appen.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Last ned fra App Store</a>"
+ }
+}

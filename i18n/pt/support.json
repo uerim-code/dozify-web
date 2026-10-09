@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "title": "Suporte Dozify: ajuda, contacto e subscrições",
+  "description": "Respostas sobre lembretes, importações, cópias de segurança, Premium e cancelamento da subscrição — e como falar com uma pessoa se a resposta não estiver aqui."
+ },
+ "t": {
+  "← Back to home": "← Voltar ao início",
+  "We typically reply within 24-48 hours.": "Normalmente respondemos em 24-48 horas.",
+  "Email Support": "Suporte por email",
+  "For general questions, bug reports, or feature requests, contact us at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.": "Para questões gerais, relatórios de erros ou pedidos de funcionalidades, contacte-nos em <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.",
+  "Privacy & KVKK": "Privacidade e KVKK",
+  "For data requests, deletion, or KVKK applications, write to <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.": "Para pedidos sobre dados, eliminação ou requerimentos ao abrigo da KVKK, escreva para <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.",
+  "Frequently Asked Questions": "Perguntas frequentes",
+  "Where is my data stored?": "Onde são guardados os meus dados?",
+  "All your data (medications, injections, weight, side effects) is stored only on your phone, in an encrypted local database. Nothing is uploaded to any server. Dozify has no cloud.": "Todos os seus dados (medicamentos, injeções, peso, efeitos secundários) são guardados apenas no seu telemóvel, numa base de dados local encriptada. Nada é enviado para nenhum servidor. O Dozify não tem nuvem.",
+  "If I switch phones, will I lose my data?": "Se mudar de telemóvel, perco os meus dados?",
+  "Not if you back up first. Go to Settings → Backup to create a password-protected, encrypted backup file, then restore it on your new device from the same screen. There's still no cloud sync: the backup file itself is yours to keep (Files, email, AirDrop, etc.).": "Não, se fizer primeiro uma cópia de segurança. Vá a Ajustes → Backup e restauração para criar um ficheiro de cópia de segurança encriptado e protegido por palavra-passe, e depois restaure-o no novo dispositivo a partir do mesmo ecrã. Continua a não haver sincronização na nuvem: o ficheiro de cópia de segurança é seu para guardar (Ficheiros, email, AirDrop, etc.).",
+  "How do I cancel Premium?": "Como cancelo o Premium?",
+  "Will my Premium work on another device?": "O meu Premium funciona noutro dispositivo?",
+  "How do I add the Ozempic® / Wegovy® pen form?": "Como adiciono a forma de caneta do Ozempic® / Wegovy®?",
+  "Go to Medications → Add → select Ozempic or Wegovy → choose \"Pre-filled dose pen\" → set your prescribed dose.": "Vá a Meus medicamentos → Adicionar medicamento → selecione Ozempic ou Wegovy → escolha «Caneta preenchida» → defina a dose prescrita.",
+  "Why can I pick Mounjaro® as both a pen and a vial?": "Porque posso escolher o Mounjaro® como caneta e como frasco?",
+  "Mounjaro comes as a pre-filled KwikPen in some markets and as a multi-dose vial in others. Dozify offers both forms so you can pick the one that matches the product you were prescribed.": "O Mounjaro existe como KwikPen preenchida nalguns mercados e como frasco multidose noutros. O Dozify oferece as duas formas para poder escolher a que corresponde ao produto que lhe foi receitado.",
+  "My reminders are not working: what should I do?": "Os meus lembretes não funcionam: o que devo fazer?",
+  "How do I delete all my data?": "Como apago todos os meus dados?",
+  "Settings → Delete My Data → choose to delete selected categories or everything. Uninstalling the app also permanently deletes all local data.": "Ajustes → Excluir dados → escolha apagar categorias selecionadas ou tudo. Desinstalar a app também apaga permanentemente todos os dados locais.",
+  "How do I create a PDF report?": "Como crio um relatório PDF?",
+  "Go to Reports → New Report → choose summary, detailed, or doctor-visit format → select date range → Generate. The PDF can be shared by email, AirDrop, or any other app.": "Vá a Relatórios em PDF → Novo relatório → escolha Relatório resumido, Relatório detalhado ou Relatório para a consulta → selecione o período → Gerar relatório. O PDF pode ser partilhado por email, AirDrop ou qualquer outra app.",
+  "Does the app give medical advice?": "A app dá aconselhamento médico?",
+  "No. Dozify is a tracking tool only. It does not recommend doses or interpret medical results. Always consult your doctor or pharmacist for clinical decisions.": "Não. O Dozify é apenas uma ferramenta de registo. Não recomenda doses nem interpreta resultados médicos. Consulte sempre o seu médico ou farmacêutico para decisões clínicas.",
+  "Manage or cancel your subscription in the App Store (Settings → Apple ID → Subscriptions). Cancelling stops future renewals: you keep Premium until the end of the period you already paid for.": "Gira ou cancele a sua subscrição na App Store (Definições → Apple ID → Subscrições). Cancelar impede as renovações futuras: mantém o Premium até ao fim do período que já pagou.",
+  "Open your phone Settings → Notifications → Dozify → enable notifications. Also check that \"Do Not Disturb\" or a Focus mode is not silencing Dozify.": "Abra as Definições do telemóvel → Notificações → Dozify → ative as notificações. Verifique também se o «Não incomodar» ou um modo de concentração não está a silenciar o Dozify.",
+  "Yes. On your new device, open the Premium screen and tap \"Restore purchases\" while signed into the same Apple ID you subscribed with.": "Sim. No novo dispositivo, abra o ecrã Premium e toque em «Restaurar compras» com sessão iniciada no mesmo Apple ID com que fez a subscrição."
+ }
+}

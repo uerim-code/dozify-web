@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1 के लिए AI कैलोरी काउंटर — कैलोरी और प्रोटीन</title>
+  <meta property="og:url" content="https://dozify.app/hi/ai-calorie-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="खाने की फ़ोटो लें और Dozify हर आइटम की कैलोरी और प्रोटीन का ड्राफ़्ट आपकी भाषा में बनाता है। बदलें और GLP-1 डोज़ व वज़न के साथ सेव करें। Premium।">
+  <meta property="og:title" content="GLP-1 के लिए AI कैलोरी काउंटर — कैलोरी और प्रोटीन">
+  <meta property="og:description" content="खाने की फ़ोटो लें और Dozify हर आइटम की कैलोरी और प्रोटीन का ड्राफ़्ट आपकी भाषा में बनाता है। बदलें और GLP-1 डोज़ व वज़न के साथ सेव करें। Premium।">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — iPhone के लिए एक निजी GLP-1 इंजेक्शन और वज़न ट्रैकर">
+  <meta name="twitter:title" content="GLP-1 के लिए AI कैलोरी काउंटर — कैलोरी और प्रोटीन">
+  <meta name="twitter:description" content="खाने की फ़ोटो लें और Dozify हर आइटम की कैलोरी और प्रोटीन का ड्राफ़्ट आपकी भाषा में बनाता है। बदलें और GLP-1 डोज़ व वज़न के साथ सेव करें। Premium।">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — iPhone के लिए एक निजी GLP-1 इंजेक्शन और वज़न ट्रैकर">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="hi_IN">
+
+  <link rel="canonical" href="https://dozify.app/hi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/ai-calorie-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/fotograftan-kalori-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/ai-calorie-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/ai-calorie-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/ai-calorie-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/ai-calorie-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/ai-calorie-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/ai-calorie-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/ai-calorie-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/ai-calorie-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/ai-calorie-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/ai-calorie-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/ai-calorie-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/ai-calorie-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/ai-calorie-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/ai-calorie-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/ai-calorie-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/ai-calorie-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/hi",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "hi"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/hi",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "GLP-1 शॉट और रोज़ की गोलियाँ दर्ज करें, इंजेक्शन साइट बदलें, वज़न, साइड इफ़ेक्ट और फ़ूड नॉइज़ ट्रैक करें, और फ़ोटो से AI कैलोरी व प्रोटीन अनुमान पाएँ। iPhone।",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "hi"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/hi/ai-calorie-tracker#webpage",
+        "url": "https://dozify.app/hi/ai-calorie-tracker",
+        "name": "GLP-1 के लिए AI कैलोरी काउंटर — कैलोरी और प्रोटीन",
+        "description": "खाने की फ़ोटो लें और Dozify हर आइटम की कैलोरी और प्रोटीन का ड्राफ़्ट आपकी भाषा में बनाता है। बदलें और GLP-1 डोज़ व वज़न के साथ सेव करें। Premium।",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "hi",
+        "breadcrumb": {
+          "@id": "https://dozify.app/hi/ai-calorie-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "फ़ोटो से कैलोरी की गिनती कितनी सटीक है?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "यह एक अनुमान है, और app इसे अनुमान ही बताता है। हिस्से का आकार, पकाने का तेल और छिपी हुई चीज़ें तस्वीर से पढ़ना मुश्किल है। इसीलिए नतीजा एक ड्राफ़्ट है जिसे आप सेव करने से पहले बदलते हैं, न कि सीधे आपके लॉग में लिखा गया नंबर।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "क्या AI मील फ़ोटो मुफ़्त है?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "नहीं, यह Premium का हिस्सा है, साथ में अनुमानित दवा-लेवल कर्व और डॉक्टर रिपोर्ट भी। डोज़ लॉगिंग और रिमाइंडर हमेशा मुफ़्त हैं।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "क्या Dozify मेरी खाने की फ़ोटो रखता है?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "नहीं। विश्लेषण के लिए फ़ोटो Dozify के सर्वर से होकर Google Gemini को भेजी जाती है और app उसे सेव नहीं करता। पहली बार इस्तेमाल से पहले आपकी सहमति माँगी जाती है।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "यह किस भाषा में जवाब देता है?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "उसी में जिसमें आपका app सेट है। Dozify 22 भाषाओं में उपलब्ध है, और आइटम उसी भाषा के नाम के साथ आते हैं, ताकि आपकी थाली की डिश को वही कहा जाए जो आप उसे कहते हैं।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "क्या यह ऑफ़लाइन चलता है?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "फ़ोटो विश्लेषण के लिए इंटरनेट कनेक्शन चाहिए। Dozify का बाकी हिस्सा, जिसमें डोज़ लॉगिंग और रिमाइंडर शामिल हैं, ऑफ़लाइन चलता है।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "क्या यह मुझे बताएगा कि मुझे कितना खाना चाहिए?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "नहीं। यह दर्ज करता है कि आपने क्या खाया। कैलोरी और प्रोटीन के लक्ष्य आप और आपके डॉक्टर मिलकर तय करते हैं; app के अंदर की गाइड बताती है कि प्रोटीन की आम रेंज कहाँ से आती हैं और कब लागू नहीं होतीं।"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/hi/ai-calorie-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "होम",
+            "item": "https://dozify.app/hi"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "AI मील फ़ोटो",
+            "item": "https://dozify.app/hi/ai-calorie-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/hi" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">फ़ीचर</a>
+        
+        <a href="/#privacy">प्राइवेसी</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/hi">होम</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>AI मील फ़ोटो</span>
+      
+    </div>
+    <h1>GLP-1 पर ज़िंदगी के लिए AI कैलोरी और प्रोटीन काउंटर</h1>
+    
+    <p class="meta">खाने की फ़ोटो लें और Dozify हर आइटम की कैलोरी और प्रोटीन का ड्राफ़्ट आपकी भाषा में बनाता है। आप उसे जाँचते हैं, ठीक करते हैं और सेव करते हैं, ठीक अपने डोज़ और वज़न के बगल में।</p>
+    
+
+    <h2>छोटी थाली, अलग सवाल</h2>
+    <p>GLP-1 दवा लेते हुए बहुत से लोगों को लगता है कि वे बस कम खाते हैं। जब हिस्से छोटे हो जाते हैं, तो सवाल यह नहीं रहता कि थाली में कितना है, बल्कि यह कि थाली में क्या है, और इलाज की बातचीत में प्रोटीन वह संख्या है जो बार-बार सामने आती है। हर खाने को तौलना और टाइप करना ऐसी आदत है जो लगभग एक हफ़्ता चलती है। फ़ोटो लेने में कुछ सेकंड लगते हैं, और यही इस फ़ीचर के होने की पूरी वजह है।</p>
+
+    
+    
+
+    <h2>यह कैसे काम करता है</h2>
+    <h3>फ़ोटो लें या चुनें</h3>
+    <p>थाली की फ़ोटो लें या अपनी फ़ोटो लाइब्रेरी से चुनें। पहली बार Dozify समझाता है कि फ़ोटो कहाँ जाती है और कुछ भी भेजने से पहले आपकी सहमति माँगता है।</p>
+    <h3>कैलोरी और प्रोटीन, आइटम दर आइटम</h3>
+    <p>AI थाली में जो दिखता है उसकी सूची बनाता है, हर आइटम के साथ अनुमानित कैलोरी और प्रोटीन, उसी भाषा में जिसमें आपका app सेट है। Dozify 22 भाषाओं में उपलब्ध है।</p>
+    <h3>एक ड्राफ़्ट, कभी अंतिम फ़ैसला नहीं</h3>
+    <p>हर नतीजा बदला जा सकने वाले ड्राफ़्ट के रूप में आता है, उस पर एक ही लाइन के साथ: "यह एक अनुमान है — सहेजने से पहले जाँच लें।" कोई हिस्सा बदलें, छूटी हुई सॉस जोड़ें, जो चीज़ थी ही नहीं उसे हटाएँ। जब तक आप सेव पर टैप नहीं करते, आपके लॉग में कुछ नहीं जाता।</p>
+    <h3>आपके इलाज के बगल में, किसी दूसरे app में नहीं</h3>
+    <p>सेव किए गए खाने उसी खाना और पानी लॉग में जाते हैं जिसमें आपका बाकी दिन है, चलते हुए प्रोटीन टोटल के साथ, उसी app के अंदर जिसमें पहले से आपके डोज़ और वज़न हैं। तीन जगह की बजाय देखने की एक जगह।</p>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Dozify खाने की फ़ोटो पढ़ रहा है: सलाद पर AI स्कैन चल रहा है"></div></figure>
+      
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="AI नतीजा जिसमें थाली में मिले हर आइटम की कैलोरी और प्रोटीन की सूची है, बदलने के लिए तैयार"></div></figure>
+      
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="पोषण फ़ॉर्म में बदला जा सकने वाले ड्राफ़्ट के रूप में भरा गया AI फ़ोटो अनुमान, कैलोरी, प्रोटीन और अनिश्चितता के नोट के साथ"></div></figure>
+      
+    </div>
+
+    <h2>app प्रोटीन के बारे में क्या कहता है</h2>
+    <p>app के अंदर Dozify की पोषण गाइड शरीर के वज़न के प्रति kg 1.2 से 1.6 g प्रोटीन की रेंज बताती है, और साफ़ कहती है कि यह रेंज कहाँ से आती है: वज़न घटाने के लिए पोषण संबंधी दिशानिर्देश, दवा का लेबल नहीं। अगर आपको किडनी की बीमारी है, तो आपका प्रोटीन लक्ष्य आपका डॉक्टर तय करेगा और वह कम हो सकता है। गाइड यह भी सुझाती है कि प्रोटीन एक ही खाने में भरने की बजाय तीन या चार खानों में बाँटें, और हफ़्ते में दो या तीन बार रेज़िस्टेंस एक्सरसाइज़ को वह आदत बताती है जो लगातार लीन मास की रक्षा करती है। Dozify कोई डाइट नहीं लिखता; आप पर लागू होने वाले नंबर आपके डॉक्टर या डाइटीशियन से आते हैं।</p>
+
+    
+    
+
+    <h2>इसकी सीमाएँ</h2>
+    <p>यह एक तस्वीर से लगाया गया अनुमान है। फ़ोटो में कड़ाही का तेल, ड्रेसिंग की चीनी या चावल के नीचे छिपी चीज़ नहीं दिखती, और ऊपर से हिस्से का आकार आँकना सबसे मुश्किल है। इन आँकड़ों को शुरुआती बिंदु मानें जिसे आप ठीक करते हैं, माप नहीं। विश्लेषण के लिए इंटरनेट कनेक्शन चाहिए, हर यूज़र के लिए रोज़ की एक सीमा है, और यह फ़ीचर Premium का हिस्सा है। आप हमेशा खाना हाथ से भी दर्ज कर सकते हैं।</p>
+
+    
+    
+
+    <h2>फ़ोटो कहाँ जाती है</h2>
+    <p>आपके बाकी रिकॉर्ड के उलट, यह फ़ीचर आपके फ़ोन से कुछ बाहर भेजता है, इसलिए सटीक होना ज़रूरी है। आप जो फ़ोटो चुनते हैं वह एन्क्रिप्टेड कनेक्शन पर, Dozify के अपने सर्वर से होकर, Google Gemini तक जाती है, और अनुमान आपके फ़ोन पर वापस आता है। Dozify फ़ोटो सेव नहीं करता। आपके डोज़, वज़न, लक्षण और दूसरे हेल्थ रिकॉर्ड हमेशा की तरह डिवाइस पर रहते हैं, और अगर आप यह फ़ीचर कभी इस्तेमाल नहीं करते, तो कोई फ़ोटो फ़ोन से बाहर नहीं जाती। पूरी जानकारी <a href="/hi/privacy">प्राइवेसी पॉलिसी</a> के सेक्शन 5 में है, और बड़ी तस्वीर <a href="/hi/private-glp1-tracker">निजी ट्रैकर वाले पेज</a> पर।</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-ai-calorie-tracker-hi&mt=8" class="btn btn-primary">App Store से डाउनलोड करें</a></p>
+
+
+    <h2>सवाल</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>फ़ोटो से कैलोरी की गिनती कितनी सटीक है?</h3>
+        
+        <p>यह एक अनुमान है, और app इसे अनुमान ही बताता है। हिस्से का आकार, पकाने का तेल और छिपी हुई चीज़ें तस्वीर से पढ़ना मुश्किल है। इसीलिए नतीजा एक ड्राफ़्ट है जिसे आप सेव करने से पहले बदलते हैं, न कि सीधे आपके लॉग में लिखा गया नंबर।</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>क्या AI मील फ़ोटो मुफ़्त है?</h3>
+        
+        <p>नहीं, यह Premium का हिस्सा है, साथ में अनुमानित <a href="/hi/glp1-medication-level">दवा-लेवल कर्व</a> और डॉक्टर रिपोर्ट भी। डोज़ लॉगिंग और रिमाइंडर हमेशा मुफ़्त हैं।</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>क्या Dozify मेरी खाने की फ़ोटो रखता है?</h3>
+        
+        <p>नहीं। विश्लेषण के लिए फ़ोटो Dozify के सर्वर से होकर Google Gemini को भेजी जाती है और app उसे सेव नहीं करता। पहली बार इस्तेमाल से पहले आपकी सहमति माँगी जाती है।</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>यह किस भाषा में जवाब देता है?</h3>
+        
+        <p>उसी में जिसमें आपका app सेट है। Dozify 22 भाषाओं में उपलब्ध है, और आइटम उसी भाषा के नाम के साथ आते हैं, ताकि आपकी थाली की डिश को वही कहा जाए जो आप उसे कहते हैं।</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>क्या यह ऑफ़लाइन चलता है?</h3>
+        
+        <p>फ़ोटो विश्लेषण के लिए इंटरनेट कनेक्शन चाहिए। Dozify का बाकी हिस्सा, जिसमें डोज़ लॉगिंग और रिमाइंडर शामिल हैं, ऑफ़लाइन चलता है।</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>क्या यह मुझे बताएगा कि मुझे कितना खाना चाहिए?</h3>
+        
+        <p>नहीं। यह दर्ज करता है कि आपने क्या खाया। कैलोरी और प्रोटीन के लक्ष्य आप और आपके डॉक्टर मिलकर तय करते हैं; app के अंदर की गाइड बताती है कि प्रोटीन की आम रेंज कहाँ से आती हैं और कब लागू नहीं होतीं।</p>
+        
+      </div>
+    </div>
+
+    <h2>आगे पढ़ें</h2>
+    <p>स्रोतों के नाम के साथ गाइड: <a href="/hi/articles/what-is-glp1">GLP-1 असल में क्या है</a>, <a href="/hi/articles/hydration-on-a-glp1">GLP-1 पर पानी</a> और <a href="/hi/articles/measurements-vs-scale">जब इंच-टेप बदले पर तराज़ू नहीं</a>।</p>
+    <p>Dozify में और भी: <a href="/hi/glp1-weight-tracker">वज़न ट्रैकर</a>, <a href="/hi/glp1-medication-level">दवा के अनुमानित लेवल का कर्व</a>, <a href="/hi/glp1-pill-tracker">GLP-1 गोली ट्रैकर</a> और <a href="/hi/glp1-side-effect-journal">साइड इफ़ेक्ट डायरी</a>।</p>
+
+    
+    
+    
+
+    <p class="meta">Dozify एक ट्रैकिंग टूल है, मेडिकल डिवाइस नहीं। यह डोज़ की सलाह नहीं देता और चिकित्सा सलाह नहीं देता। फ़ोटो से मिले कैलोरी और प्रोटीन के आँकड़े अनुमान हैं। Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® और Rybelsus® अपने-अपने मालिकों के ट्रेडमार्क हैं; Google Gemini, Google LLC का ट्रेडमार्क है; Dozify इन कंपनियों से संबद्ध नहीं है।</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/hi" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>कानूनी</h3>
+          
+          <a href="/hi/privacy">प्राइवेसी पॉलिसी</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/hi/terms">शर्तें</a>
+          
+          <a href="/hi/editorial-policy">संपादकीय नीति</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>ट्रैकिंग</h3>
+          
+          <a href="/hi/glp1-shot-tracker">GLP-1 शॉट ट्रैकर</a>
+          
+          <a href="/hi/injection-site-tracker">इंजेक्शन साइट ट्रैकर</a>
+          
+          <a href="/hi/glp1-weight-tracker">GLP-1 वज़न ट्रैकर</a>
+          
+          <a href="/hi/glp1-side-effect-journal">साइड इफ़ेक्ट डायरी</a>
+          
+          <a href="/hi/glp1-vial-tracker">वायल ट्रैकर</a>
+          
+          <a href="/hi/private-glp1-tracker">निजी GLP-1 ट्रैकर</a>
+          
+          <a href="/hi/glp1-appointment-report">डॉक्टर रिपोर्ट</a>
+          
+          <a href="/hi/switch-glp1-tracker-app">दूसरे app से स्विच करें</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>मदद</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/ai-calorie-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/fotograftan-kalori-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/ai-calorie-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/ai-calorie-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/ai-calorie-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/ai-calorie-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/ai-calorie-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/ai-calorie-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/ai-calorie-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/ai-calorie-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/ai-calorie-tracker" hreflang="hi" lang="hi" aria-current="page">हिन्दी</a> · <a href="/it/ai-calorie-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/ai-calorie-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/ai-calorie-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/ai-calorie-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/ai-calorie-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/ai-calorie-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/ai-calorie-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/ai-calorie-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/ai-calorie-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/ai-calorie-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/ai-calorie-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

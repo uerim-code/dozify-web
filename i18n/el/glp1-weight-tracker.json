@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "Καταγραφή βάρους GLP-1 — βάρος και δόση μαζί",
+  "description": "Η τάση του βάρους σας δίπλα στις δόσεις, σε ένα χρονολόγιο. Καταγράψτε το βάρος σε δευτερόλεπτα και δείτε το σχήμα των μηνών, όχι μεμονωμένους αριθμούς."
+ },
+ "t": {
+  "Weight trend": "Τάση βάρους",
+  "Your weight and your doses on one line": "Το βάρος και οι δόσεις σας σε μία γραμμή",
+  "Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.": "Το βάρος σε μία εφαρμογή και οι ενέσεις σε άλλη είναι δύο μισά της ίδιας εικόνας. Το Dozify τα κρατά στο ίδιο χρονολόγιο.",
+  "The question is never just \"what do I weigh\". It is what the last few weeks have looked like, and what was happening in them, which dose, which week, what else you logged.": "Το ερώτημα δεν είναι ποτέ απλώς «πόσο ζυγίζω». Είναι πώς ήταν οι τελευταίες εβδομάδες και τι συνέβαινε μέσα σε αυτές: ποια δόση, ποια εβδομάδα, τι άλλο καταγράψατε.",
+  "A trend, not a number": "Μια τάση, όχι ένας αριθμός",
+  "Your weight over three months, six, or a year, with the rate it has been moving and how far it is from your goal.": "Το βάρος σας για τρεις μήνες, έξι ή έναν χρόνο, με τον ρυθμό που κινείται και την απόσταση από τον στόχο σας.",
+  "Apple Health does the typing": "Το Apple Health κάνει την πληκτρολόγηση",
+  "On iPhone, weight is read from Health automatically. If your scale writes there, you do not enter anything by hand.": "Στο iPhone, το βάρος διαβάζεται αυτόματα από την εφαρμογή Υγεία. Αν η ζυγαριά σας γράφει εκεί, δεν καταχωρίζετε τίποτα με το χέρι.",
+  "No projection dressed up as a promise": "Καμία πρόβλεψη ντυμένη υπόσχεση",
+  "The app shows what your own entries have done. It does not tell you what your body will do next.": "Η εφαρμογή δείχνει τι έχουν κάνει οι δικές σας καταχωρίσεις. Δεν σας λέει τι θα κάνει ο οργανισμός σας στη συνέχεια.",
+  "People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.": "Όσους θέλουν το σχήμα μερικών μηνών και όχι τον σημερινό αριθμό, και όσους το βάρος τους περνά ήδη στο Apple Health από μια ζυγαριά. Είναι επίσης για όποιον ρωτήθηκε σε ένα ραντεβού πώς κινήθηκε το βάρος από την τελευταία αλλαγή δόσης και αναγκάστηκε να μαντέψει.",
+  "The projection is arithmetic on the entries you have made: it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.": "Η πρόβλεψη είναι αριθμητική πάνω στις καταχωρίσεις που έχετε κάνει: προεκτείνει ό,τι έχουν κάνει οι δικοί σας αριθμοί και τίποτα παραπάνω. Δεν είναι πρόβλεψη του τι θα κάνει ο οργανισμός σας, δεν λαμβάνει υπόψη μια αλλαγή δόσης, μια ασθένεια ή διακοπές, και δεν είναι στόχος που σας έχει ορίσει κάποιος. Το Dozify δεν προτείνει βάρος, ρυθμό απώλειας ή δίαιτα.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Λήψη από το App Store</a>",
+  "Does it read my weight from Apple Health?": "Διαβάζει το βάρος μου από το Apple Health;",
+  "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.": "Στο iPhone, ναι. Αν η ζυγαριά σας ή άλλη εφαρμογή γράφει το βάρος στην Υγεία, το Dozify το διαβάζει και δεν πληκτρολογείτε τίποτα. Μπορείτε επίσης να το καταχωρίσετε με το χέρι.",
+  "Kilograms or pounds?": "Κιλά ή λίβρες;",
+  "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.": "Οποιοδήποτε. Η μονάδα είναι ρύθμιση, και η αλλαγή της μετατρέπει όσα υπάρχουν ήδη αντί να ερμηνεύει ξανά τους αριθμούς.",
+  "Does the projection tell me when I will reach my goal?": "Μου λέει η πρόβλεψη πότε θα φτάσω τον στόχο μου;",
+  "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.": "Σας λέει πότε θα τον φτάνατε αν η τάση στις δικές σας καταχωρίσεις συνεχιζόταν αμετάβλητη. Ο οργανισμός δεν λειτουργεί έτσι, και η εφαρμογή το λέει στην οθόνη αντί να παρουσιάζει την ημερομηνία ως πλάνο.",
+  "Can I log measurements as well?": "Μπορώ να καταγράφω και μετρήσεις;",
+  "Yes, waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.": "Ναι, μέση, γοφούς και τα υπόλοιπα, στο ίδιο χρονολόγιο με το βάρος, για τους μήνες όπου η ζυγαριά κινείται λιγότερο από τη μεζούρα.",
+  "Does my weight leave the phone?": "Φεύγει το βάρος μου από το κινητό;",
+  "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.": "Όχι. Αποθηκεύεται στη συσκευή όπως και τα υπόλοιπα δεδομένα σας. Η ανάγνωση από το Apple Health γίνεται στο κινητό· τίποτα δεν ανεβαίνει.",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/reading-a-weight-trend\">how to read a trend when the scale has stalled</a> and <a href=\"/en/articles/measurements-vs-scale\">when the tape moves and the scale does not</a>.": "Οδηγοί, με κατονομασμένες πηγές: <a href=\"/en/articles/what-is-glp1\">τι είναι στην πραγματικότητα το GLP-1</a>, <a href=\"/en/articles/glp1-side-effects\">διαχείριση των συχνών παρενεργειών</a>, <a href=\"/en/articles/how-to-inject-glp1\">πώς να κάνετε ένεση με πένα, βήμα προς βήμα</a>, <a href=\"/en/articles/reading-a-weight-trend\">πώς να διαβάζετε μια τάση όταν η ζυγαριά έχει κολλήσει</a> και <a href=\"/en/articles/measurements-vs-scale\">όταν η μεζούρα κινείται και η ζυγαριά όχι</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Επίσης στο Dozify: <a href=\"/en/glp1-appointment-report\">η αναφορά για τον γιατρό</a> και <a href=\"/en/glp1-shot-tracker\">η καταγραφή ενέσεων</a>."
+ }
+}

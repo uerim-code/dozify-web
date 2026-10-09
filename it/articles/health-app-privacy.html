@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy delle app per la salute: cosa non dice l’etichetta</title>
+  <meta name="description" content="La maggior parte delle app per la salute non rientra nell’HIPAA, e “nessun tracciamento” significa meno di quanto sembri. Le parole di Apple e cinque domande.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/it/articles/health-app-privacy">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="Privacy delle app per la salute: cosa non dice l’etichetta">
+  <meta property="og:description" content="La maggior parte delle app per la salute non rientra nell’HIPAA, e “nessun tracciamento” significa meno di quanto sembri. Le parole di Apple e cinque domande.">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — un tracker privato per iniezioni GLP-1 e peso per iPhone">
+  <meta name="twitter:title" content="Privacy delle app per la salute: cosa non dice l’etichetta">
+  <meta name="twitter:description" content="La maggior parte delle app per la salute non rientra nell’HIPAA, e “nessun tracciamento” significa meno di quanto sembri. Le parole di Apple e cinque domande.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — un tracker privato per iniezioni GLP-1 e peso per iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="it_IT">
+
+  <link rel="canonical" href="https://dozify.app/it/articles/health-app-privacy">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/health-app-privacy">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/articles/health-app-privacy">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/articles/health-app-privacy">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/articles/health-app-privacy">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/articles/health-app-privacy">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/articles/health-app-privacy">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/articles/health-app-privacy">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/articles/health-app-privacy">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/articles/health-app-privacy">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/articles/health-app-privacy">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/articles/health-app-privacy">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/articles/health-app-privacy">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/articles/health-app-privacy">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/articles/health-app-privacy">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/health-app-privacy">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/health-app-privacy">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/health-app-privacy">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/it",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "it"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/it/editorial-policy",
+        "description": "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/it/articles/health-app-privacy#webpage",
+        "url": "https://dozify.app/it/articles/health-app-privacy",
+        "name": "Privacy delle app per la salute: cosa non dice l’etichetta",
+        "description": "La maggior parte delle app per la salute non rientra nell’HIPAA, e “nessun tracciamento” significa meno di quanto sembri. Le parole di Apple e cinque domande.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "it",
+        "breadcrumb": {
+          "@id": "https://dozify.app/it/articles/health-app-privacy#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "I miei dati sanitari non sono protetti dalla legge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Qualche legge si applica, ma probabilmente non quella a cui stai pensando. La FTC afferma che molte app per la salute non rientrano nell’HIPAA; negli Stati Uniti ciò che le riguarda è la Health Breach Notification Rule, che riguarda l’essere avvisati dopo una violazione, non il limitare la raccolta in anticipo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "L’etichetta dice “Dati non raccolti”. Basta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "È la cosa più forte che un’etichetta possa dire, ed è una dichiarazione dello sviluppatore stesso, non una verifica. Leggila insieme all’informativa sulla privacy: un’informativa che nomina ciò che viene raccolto e un’etichetta che dice che non viene raccolto nulla dovrebbero coincidere, e dove non coincidono l’informativa è il documento più dettagliato."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual è la differenza tra backup e sincronizzazione?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chi tiene la copia. Un backup è un file che produci e conservi tu; la sincronizzazione è una copia tenuta sul server di qualcuno perché i dispositivi siano allineati tra loro. Entrambi sono utili; solo una delle due significa che i tuoi dati esistono in un posto che non controlli."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "“Nessuna pubblicità” significa che non succede nulla legato alla pubblicità?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non necessariamente, e conviene essere precisi. Un’app può non avere pubblicità al suo interno e misurare comunque se un’installazione proviene da un annuncio pubblicato altrove. Sono cose diverse; un’informativa di cui fidarsi dice quale delle due intende. La nostra le dice entrambe, testualmente."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Come posso verificare tutto questo da solo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Apri la pagina dell’app sull’App Store e leggi la sezione sulla privacy, poi apri l’informativa sulla privacy dell’app e controlla se descrivono la stessa app. Poi fai la prova pratica: puoi usarla senza creare un account, ed eliminandola spariscono anche i dati?"
+            }
+          }
+        ],
+        "headline": "Cosa controllare prima che un’app per la salute veda la tua prescrizione",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-20",
+        "dateModified": "2026-08-20",
+        "lastReviewed": "2026-08-20",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "Apple — App privacy details on the App Store",
+            "url": "https://developer.apple.com/app-store/app-privacy-details/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Apple — User privacy and data use (App Tracking Transparency)",
+            "url": "https://developer.apple.com/app-store/user-privacy-and-data-use/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Health Breach Notification Rule: the basics",
+            "url": "https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Updated Health Breach Notification Rule protects users of health apps",
+            "url": "https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Mobile health apps interactive tool",
+            "url": "https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/it/articles/health-app-privacy#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://dozify.app/it"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Articoli",
+            "item": "https://dozify.app/it/articles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Privacy delle app per la salute",
+            "item": "https://dozify.app/it/articles/health-app-privacy"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/it" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funzioni</a>
+        
+        <a href="/it/support">Supporto</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/it">Home</a>
+        
+        <span aria-hidden="true">/</span>
+        <a href="/it/articles">Articoli</a>
+        
+        <span aria-hidden="true">/</span>
+        <span>Privacy delle app per la salute</span>
+        
+      </div>
+
+      <div class="article-hero">
+        <h1>Cosa controllare prima che un’app per la salute veda la tua prescrizione</h1>
+        
+        <p class="article-meta">Di Ümit Can Erim · Pubblicato il 20 agosto 2026 · Aggiornato il 20 agosto 2026 · Fonti verificate il 20 agosto 2026 · <a href="/it/editorial-policy">Come scriviamo queste guide</a></p>
+        
+        <p class="article-lede">Due cose che quasi tutti danno per scontate su un’app per la salute non sono vere. La prima è che la legge sulla privacy medica la tuteli: per la stragrande maggioranza delle app non è così, e la FTC lo dice chiaramente. La seconda è che l’etichetta sulla privacy dell’App Store risponda alla domanda “questa app rispetta la mia privacy?”: risponde a una domanda più ristretta, con parole che hanno definizioni precise. Ecco cosa significano quelle parole e cosa controllare invece.</p>
+        
+      </div>
+
+      <div class="prose">
+        <h2>Quasi certamente l’HIPAA non si applica</h2>
+        <p>È il malinteso da chiarire per primo, perché regge tutto il resto. Le indicazioni della stessa FTC affermano che molte aziende che raccolgono informazioni sanitarie («che si tratti di un fitness tracker, di un’app per la dieta, di un misuratore di pressione connesso o di altro») non rientrano nell’HIPAA, la legge statunitense sulla privacy sanitaria. L’HIPAA segue il rapporto di cura: il tuo ambulatorio, il tuo ospedale, la tua assicurazione. Un’app che hai scaricato in genere non è nessuno di questi.</p>
+        <p>Ciò che si applica, negli Stati Uniti, è la Health Breach Notification Rule della FTC, che esiste proprio per colmare questa lacuna. Impone alle organizzazioni non coperte dall’HIPAA di avvisare gli utenti, la FTC e in alcuni casi i media quando c’è stata una violazione di informazioni sanitarie non protette e riconducibili a una persona — «senza ingiustificato ritardo» e non oltre 60 giorni dalla scoperta.</p>
+        <p>Nota cosa è e cosa non è. È una regola sull’avvisarti dopo che qualcosa è andato storto. Non è una regola che limita ciò che un’app può raccogliere mentre tutto va bene.</p>
+
+        
+        
+        
+        
+
+        <h2>Cosa dice davvero l’etichetta dell’App Store</h2>
+        <p>L’etichetta ha tre sezioni, ed è in quella centrale che si nasconde il significato.</p>
+        <ul>
+          <li><strong>Dati utilizzati per tracciarti.</strong> La definizione di tracciamento di Apple è precisa: collegare i dati raccolti nell’app su un utente o un dispositivo con <em>dati di terze parti</em> (dati di app, siti web o fonti offline che lo sviluppatore non possiede) per pubblicità mirata o misurazione pubblicitaria, oppure condividerli con un data broker.</li>
+          <li><strong>Dati collegati a te.</strong> Raccolti e associati a un’identità. La regola di Apple è che i dati vengono considerati collegati <em>a meno che</em> lo sviluppatore non rimuova gli identificatori diretti prima della raccolta e non li ricolleghi in seguito. L’impostazione predefinita è “collegati”.</li>
+          <li><strong>Dati non collegati a te.</strong> Raccolti, ma con quel collegamento davvero interrotto.</li>
+        </ul>
+        <p>E la clausola che cambia di più il modo in cui leggi un’etichetta. L’elenco di Apple di ciò che <em>non</em> è tracciamento inizia così: «Quando i dati sono collegati esclusivamente sul dispositivo dell’utente finale e non vengono inviati fuori dal dispositivo in un modo che possa identificare l’utente finale o il dispositivo.»</p>
+        <p>Quindi un’app può mostrare una sezione sul tracciamento quasi vuota e inviare comunque molte informazioni su di te da qualche parte. “Nessun tracciamento” significa “non combinati con dati di terze parti per la pubblicità né consegnati a un broker”: una promessa più ristretta di “non raccogliamo questi dati”.</p>
+
+        
+        
+        
+        
+        
+
+        <h2>Le cinque domande da fare</h2>
+        <ol>
+          <li><strong>Richiede un account?</strong> L’account è il meccanismo che trasforma dei dati in dati-su-una-persona sul server di qualcun altro. L’assenza di account non è una voce in un elenco di funzioni; è la forma di tutto il resto.</li>
+          <li><strong>Sincronizza su un cloud, e si può disattivare?</strong> “Backup” e “sincronizzazione” sono promesse diverse. Uno è un file che tieni tu; l’altra è una copia che tiene qualcun altro.</li>
+          <li><strong>Cosa elenca l’etichetta sulla privacy alla voce Salute?</strong> La categoria Salute di Apple comprende «qualsiasi altro dato sanitario o medico fornito dall’utente», quindi il nome di un farmaco digitato in un’app rientra lì. Se l’etichetta non dice nulla sulla Salute e l’app registra farmaci, una delle due cose è sbagliata.</li>
+          <li><strong>L’informativa nomina ciò che viene raccolto, o lo descrive vagamente?</strong> “Potremmo raccogliere alcune informazioni per migliorare la tua esperienza” non è un elenco. Un’informativa verificabile nomina le cose.</li>
+          <li><strong>Cosa succede quando elimini l’app?</strong> In un’app che funziona solo sul dispositivo, quella è la cancellazione. Dove c’è un server, eliminare l’app ed eliminare l’account sono azioni separate, e solo una delle due è nelle tue mani dalla schermata home.</li>
+        </ol>
+
+        
+        
+
+        <div class="callout">
+          <p><strong>Le risposte di Dozify, perché questa pagina non faccia domande che poi evita.</strong> Nessun account, nessuna sincronizzazione cloud, nessuna pubblicità all’interno dell’app. I dati sanitari restano nella memoria dell’app sul dispositivo; il backup crea un file crittografato che conservi tu. Vengono raccolte statistiche di utilizzo anonime (quali schermate vengono usate, se qualcosa si è bloccato) e non contengono mai il nome di un farmaco, un sintomo o un peso. Un’altra cosa esce dal telefono: una misurazione del fatto che un’installazione provenga da una delle nostre campagne su App Store o Meta, che avviene solo con il permesso di tracciamento di Apple e non contiene nessuno dei tuoi dati. Elimini l’app e i dati se ne vanno con lei. I dettagli sono nell’<a href="/it/privacy">informativa sulla privacy</a> e nell’<a href="/en/kvkk">informativa KVKK</a>, e il ragionamento è nella <a href="/it/private-glp1-tracker">pagina sulla privacy</a>.</p>
+          
+        </div>
+
+        <h2>Cosa questa pagina non farà</h2>
+        <p>Nominare un’altra app e insinuare qualcosa su ciò che fa con i dati. Non abbiamo verificato i server di nessun altro, non possiamo farlo, e un’accusa travestita da confronto è marketing, non informazione. Le domande qui sopra valgono per qualsiasi app, compresa questa: è per questo che sono scritte come domande.</p>
+
+        
+        
+      </div>
+
+      <div class="article-cta">
+        <h3>Nessun account da creare, niente da sincronizzare</h3>
+        
+        <p>Le tue dosi, il peso e i sintomi restano sul telefono. L’app si apre direttamente sui tuoi dati, ed eliminarla è la cancellazione.</p>
+        
+        <a href="/#download" class="btn btn-primary">Scarica l’app</a>
+        
+        <a href="/it/private-glp1-tracker" class="link-arrow">Come funziona la privacy qui →</a>
+        
+      </div>
+
+      <div class="article-faq">
+        <h2>Domande</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>I miei dati sanitari non sono protetti dalla legge?</h3>
+            
+            <p>Qualche legge si applica, ma probabilmente non quella a cui stai pensando. La FTC afferma che molte app per la salute non rientrano nell’HIPAA; negli Stati Uniti ciò che le riguarda è la Health Breach Notification Rule, che riguarda l’essere avvisati dopo una violazione, non il limitare la raccolta in anticipo.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>L’etichetta dice “Dati non raccolti”. Basta?</h3>
+            
+            <p>È la cosa più forte che un’etichetta possa dire, ed è una dichiarazione dello sviluppatore stesso, non una verifica. Leggila insieme all’informativa sulla privacy: un’informativa che nomina ciò che viene raccolto e un’etichetta che dice che non viene raccolto nulla dovrebbero coincidere, e dove non coincidono l’informativa è il documento più dettagliato.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Qual è la differenza tra backup e sincronizzazione?</h3>
+            
+            <p>Chi tiene la copia. Un backup è un file che produci e conservi tu; la sincronizzazione è una copia tenuta sul server di qualcuno perché i dispositivi siano allineati tra loro. Entrambi sono utili; solo una delle due significa che i tuoi dati esistono in un posto che non controlli.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>“Nessuna pubblicità” significa che non succede nulla legato alla pubblicità?</h3>
+            
+            <p>Non necessariamente, e conviene essere precisi. Un’app può non avere pubblicità al suo interno e misurare comunque se un’installazione proviene da un annuncio pubblicato altrove. Sono cose diverse; un’informativa di cui fidarsi dice quale delle due intende. La nostra le dice entrambe, testualmente.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Come posso verificare tutto questo da solo?</h3>
+            
+            <p>Apri la pagina dell’app sull’App Store e leggi la sezione sulla privacy, poi apri l’informativa sulla privacy dell’app e controlla se descrivono la stessa app. Poi fai la prova pratica: puoi usarla senza creare un account, ed eliminandola spariscono anche i dati?</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p>Informazioni a scopo educativo, non consulenza legale o medica. Dozify è un’app di monitoraggio personale, non un dispositivo medico. Le leggi sulla privacy variano da paese a paese e cambiano; questa pagina descrive regole e definizioni pubbliche e non valuta nessuna app specifica tranne questa.</p>
+        
+      </div>
+
+      <div class="references">
+        <h2>Fonti</h2>
+        <ol>
+          <li><a href="https://developer.apple.com/app-store/app-privacy-details/" rel="nofollow noopener" target="_blank">Apple. App privacy details on the App Store</a></li>
+          <li><a href="https://developer.apple.com/app-store/user-privacy-and-data-use/" rel="nofollow noopener" target="_blank">Apple. User privacy and data use (App Tracking Transparency)</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business" rel="nofollow noopener" target="_blank">FTC — Health Breach Notification Rule: the basics</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps" rel="nofollow noopener" target="_blank">FTC — Updated Health Breach Notification Rule protects users of health apps</a></li>
+          <li><a href="https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool" rel="nofollow noopener" target="_blank">FTC — Mobile health apps interactive tool</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/it" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Note legali</h3>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/it/terms">Termini</a>
+          
+          <a href="/it/editorial-policy">Politica editoriale</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Aiuto</h3>
+          
+          <a href="/it/support">Supporto</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/articles/health-app-privacy" hreflang="en" lang="en">English</a> · <a href="/tr/makaleler/saglik-uygulamasi-gizliligi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/articles/health-app-privacy" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/articles/health-app-privacy" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/articles/health-app-privacy" hreflang="da" lang="da">Dansk</a> · <a href="/de/articles/health-app-privacy" hreflang="de" lang="de">Deutsch</a> · <a href="/el/articles/health-app-privacy" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/articles/health-app-privacy" hreflang="es" lang="es">Español</a> · <a href="/fi/articles/health-app-privacy" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/articles/health-app-privacy" hreflang="fr" lang="fr">Français</a> · <a href="/hi/articles/health-app-privacy" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/articles/health-app-privacy" hreflang="it" lang="it" aria-current="page">Italiano</a> · <a href="/ja/articles/health-app-privacy" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/articles/health-app-privacy" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/articles/health-app-privacy" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/articles/health-app-privacy" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/articles/health-app-privacy" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/articles/health-app-privacy" hreflang="pt" lang="pt">Português</a> · <a href="/ru/articles/health-app-privacy" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/articles/health-app-privacy" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/articles/health-app-privacy" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/articles/health-app-privacy" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

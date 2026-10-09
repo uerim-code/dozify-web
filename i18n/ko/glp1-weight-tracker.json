@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1 체중 기록 — 체중과 투여를 한눈에",
+  "description": "체중 추세를 그 결과를 만든 투여 기록 옆에, 하나의 타임라인으로. 몇 초 만에 체중을 기록하고, 숫자 하나가 아닌 몇 달의 흐름을 확인하세요."
+ },
+ "t": {
+  "Weight trend": "체중 추세",
+  "Your weight and your doses on one line": "체중과 투여 기록을 한 줄에",
+  "Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.": "체중은 이 앱에, 주사는 저 앱에 있으면 같은 그림의 두 반쪽일 뿐이에요. Dozify는 둘을 같은 타임라인에 둬요.",
+  "The question is never just \"what do I weigh\". It is what the last few weeks have looked like, and what was happening in them, which dose, which week, what else you logged.": "질문은 결코 \"지금 몇 kg이지?\"만이 아니에요. 지난 몇 주가 어땠는지, 그동안 무슨 일이 있었는지예요. 어떤 용량이었는지, 어느 주였는지, 그 밖에 무엇을 기록했는지.",
+  "A trend, not a number": "숫자가 아니라 추세",
+  "Your weight over three months, six, or a year, with the rate it has been moving and how far it is from your goal.": "3개월, 6개월, 1년 동안의 체중과 변화 속도, 그리고 목표까지 남은 거리.",
+  "Apple Health does the typing": "입력은 Apple Health가 대신",
+  "On iPhone, weight is read from Health automatically. If your scale writes there, you do not enter anything by hand.": "iPhone에서는 건강 앱에서 체중을 자동으로 읽어 와요. 체중계가 건강 앱에 기록한다면 직접 입력할 게 없어요.",
+  "No projection dressed up as a promise": "약속처럼 포장한 예측은 없어요",
+  "The app shows what your own entries have done. It does not tell you what your body will do next.": "앱은 내 기록이 어떻게 움직였는지 보여 줄 뿐, 내 몸이 다음에 어떻게 될지 알려 주지 않아요.",
+  "People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.": "오늘 아침 숫자보다 몇 달의 흐름을 보고 싶은 분, 체중계에서 이미 Apple Health로 체중이 들어가고 있는 분. 진료 때 지난번 용량 변경 이후 체중이 어떻게 변했는지 질문받고 짐작으로 답해야 했던 분을 위한 것이기도 해요.",
+  "The projection is arithmetic on the entries you have made: it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.": "예측은 내가 입력한 기록으로 하는 계산이에요: 내 숫자가 해 온 것을 연장할 뿐, 그 이상은 아니에요. 내 몸이 어떻게 될지에 대한 예측이 아니고, 용량 변경, 질병, 휴가를 반영하지 않으며, 누군가 정해 준 목표도 아니에요. Dozify는 체중, 감량 속도, 식단을 권장하지 않아요.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">App Store에서 다운로드</a>",
+  "Does it read my weight from Apple Health?": "Apple Health에서 체중을 읽어 오나요?",
+  "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.": "iPhone에서는 네. 체중계나 다른 앱이 건강 앱에 체중을 기록한다면 Dozify가 읽어 오니 따로 입력할 필요가 없어요. 직접 입력할 수도 있어요.",
+  "Kilograms or pounds?": "킬로그램인가요, 파운드인가요?",
+  "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.": "둘 다 돼요. 단위는 설정에서 바꿀 수 있고, 바꾸면 숫자를 다르게 해석하는 게 아니라 기존 값을 변환해요.",
+  "Does the projection tell me when I will reach my goal?": "예측을 보면 목표에 언제 도달할지 알 수 있나요?",
+  "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.": "내 기록의 추세가 변함없이 이어진다면 언제 도달할지를 알려 줘요. 몸은 그렇게 움직이지 않고, 앱도 그 날짜를 계획처럼 보여 주지 않고 화면에 그렇게 밝혀요.",
+  "Can I log measurements as well?": "신체 치수도 기록할 수 있나요?",
+  "Yes, waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.": "네, 허리, 엉덩이 등을 체중과 같은 타임라인에 기록할 수 있어요. 체중계보다 줄자가 더 많이 움직이는 달을 위해서요.",
+  "Does my weight leave the phone?": "내 체중 정보가 휴대폰 밖으로 나가나요?",
+  "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.": "아니요. 다른 기록과 마찬가지로 기기에 저장돼요. Apple Health에서 읽어 오는 것도 휴대폰 안에서 이뤄지고, 아무것도 업로드되지 않아요.",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/reading-a-weight-trend\">how to read a trend when the scale has stalled</a> and <a href=\"/en/articles/measurements-vs-scale\">when the tape moves and the scale does not</a>.": "출처를 밝힌 가이드: <a href=\"/en/articles/what-is-glp1\">GLP-1이란 무엇인가</a>, <a href=\"/en/articles/glp1-side-effects\">흔한 부작용 관리하기</a>, <a href=\"/en/articles/how-to-inject-glp1\">펜 주사 방법 단계별 안내</a>, <a href=\"/en/articles/reading-a-weight-trend\">체중이 정체됐을 때 추세 읽는 법</a>, <a href=\"/en/articles/measurements-vs-scale\">줄자는 줄어드는데 체중계는 그대로일 때</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Dozify의 다른 기능: <a href=\"/en/glp1-appointment-report\">진료용 리포트</a>와 <a href=\"/en/glp1-shot-tracker\">주사 기록</a>."
+ }
+}

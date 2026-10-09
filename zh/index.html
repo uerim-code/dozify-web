@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1记录：注射、口服药、体重与AI卡路里</title>
+  <meta name="description" content="记录 GLP-1 注射和每日口服药，轮换注射部位，追踪体重、副作用和食物噪音，拍照即可用 AI 估算卡路里和蛋白质。iPhone 应用。">
+  <meta name="theme-color" content="#0D9488">
+
+  <meta property="og:title" content="GLP-1记录：注射、口服药、体重与AI卡路里">
+  <meta property="og:description" content="记录 GLP-1 注射和每日口服药，轮换注射部位，追踪体重、副作用和食物噪音，拍照即可用 AI 估算卡路里和蛋白质。iPhone 应用。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dozify.app/zh">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="twitter:title" content="GLP-1记录：注射、口服药、体重与AI卡路里">
+  <meta name="twitter:description" content="记录 GLP-1 注射和每日口服药，轮换注射部位，追踪体重、副作用和食物噪音，拍照即可用 AI 估算卡路里和蛋白质。iPhone 应用。">
+  <meta name="twitter:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="zh_CN">
+
+  <link rel="canonical" href="https://dozify.app/zh">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/zh",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "zh-Hans"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/zh",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "记录 GLP-1 注射和每日口服药，轮换注射部位，追踪体重、副作用和食物噪音，拍照即可用 AI 估算卡路里和蛋白质。iPhone 应用。",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "zh-Hans"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/zh#webpage",
+        "url": "https://dozify.app/zh",
+        "name": "GLP-1记录：注射、口服药、体重与AI卡路里",
+        "description": "记录 GLP-1 注射和每日口服药，轮换注射部位，追踪体重、副作用和食物噪音，拍照即可用 AI 估算卡路里和蛋白质。iPhone 应用。",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "zh-Hans",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Dozify 免费吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "是的。剂量记录、剂量提醒、注射部位轮换、体重、饮水和副作用记录、你的全部历史和照片，以及科普文章都是免费的——剂量记录永久免费，而不是只在试用期内免费。Premium 是帮你理解数据的那一层：估算的药物水平曲线、高级图表和趋势、体重预测、身体成分、含 AI 拍照卡路里估算的营养记录、药瓶管理、给医生的 PDF 报告、主题，以及第二种同时使用的药物。订阅和取消的详细信息见 支持页面 。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "我的数据是私密的吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "你的健康记录（剂量、体重、副作用、进度照片）保存在你的设备上，从不上传。唯一的例外是你选择用 AI 卡路里分析的餐食照片：在你同意后，它会经由我们的服务器发送给 Google Gemini，且应用不会保存。没有账户，也没有云同步，应用内不显示任何广告。我们会收集匿名使用统计以改进应用，这些统计从不包含药物名称或症状。Dozify 还会衡量某次安装是否来自它自己的 App Store 或 Meta 推广活动；这项衡量受 Apple 跟踪权限约束，从不包含你的健康记录。删除应用，你的记录也随之消失。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify 支持哪些药物？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dozify 帮你记录常见的 GLP-1 药物，包括 Ozempic®、Wegovy®、Mounjaro®、Zepbound®、Saxenda®、Trulicity® 和 Victoza®，以及每日服用的片剂：Wegovy® 口服片、Ozempic® 片剂、Rybelsus® 和 Foundayo™。这些品牌名称是其各自所有者的商标，Dozify 与这些公司没有关联。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify 没有网络也能用吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "可以。Dozify 以离线为先，完全不需要网络连接即可使用。你永远不需要登录或同步。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify 能提醒我注射吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "能。你可以设置与用药时间表相匹配的每周或每日提醒，更容易保持规律。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify 能取代我的医生吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不能。Dozify 是一款用于科普的记录工具，不是医疗器械，也不提供医疗建议。请始终遵循医生和处方—— 这款应用拒绝做哪些事 都完整写明了。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "可以记录体重和副作用吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "可以。你可以记录体重、身体围度和副作用日记，并在清晰的图表上查看趋势：包括根据你自己的数据得出的体重预测和达成目标所需时间的估算。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "可以把其他 GLP-1 应用里的数据带过来吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "可以，而且免费。从你要离开的应用中导出，在 Dozify 中打开“设置 → 导入你的历史记录”并选择文件。它能读取 Shotsy、Glapp、GLPzy 和 GlucoPal 的导出文件以及任何带有日期列的 CSV，在写入任何内容之前先告诉你找到了什么（多少次注射、多少条体重和备注），跳过你已有的记录，并先备份你现有的数据。 详见迁移页面 。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify 有 Android 版吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "暂时没有。Dozify 目前仅支持 iPhone，在 App Store 上提供。"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/zh" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a class="nav-anchor" href="#how">使用方法</a>
+        
+        <a class="nav-anchor" href="#features">功能</a>
+        
+        <a class="nav-anchor" href="/#faq">常见问题</a>
+        
+        <a href="/zh/articles">文章</a>
+        
+        <a href="/zh/support">支持</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+        <img class="hero-icon" src="/favicon.svg" width="96" height="96" alt="Dozify" />
+        <span class="pill">适用于 Ozempic® · Wegovy® 注射笔与口服片 · Mounjaro® · Zepbound®</span>
+        
+
+        <h1>你的 GLP-1 日常，<span class="accent">一屏掌握。</span></h1>
+        
+
+        <ul class="new-chips" aria-label="Dozify 新功能">
+          <li><a href="/zh/ai-calorie-tracker">📸 AI 拍照算卡路里</a></li>
+          
+          <li><a href="#themes">🐬 吉祥物与主题</a></li>
+          
+          <li><a href="/zh/glp1-pill-tracker">💊 口服片记录</a></li>
+          
+          <li><a href="/zh/glp1-medication-level">📈 药物水平曲线</a></li>
+          
+        </ul>
+
+        <p class="lede">记录每一针或每天的口服片，拍下餐食几秒内就能看到卡路里和蛋白质，还能把体重和你的药物估算曲线放在一起看。选一个吉祥物和颜色主题，打造你的专属风格。剂量记录和提醒永久免费。已经在别处记录了？<a href="/zh/switch-glp1-tracker-app">把你的历史记录一起带过来。</a></p>
+        
+
+        <div class="cta-row">
+          <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-zh&mt=8" target="_blank" rel="noopener" class="btn btn-primary">在 App Store 下载</a>
+          
+        </div>
+
+        <!-- The three things a visitor deciding on a health app wants settled
+             before they tap Download, said before they have to look for them. -->
+        <ul class="trust-row">
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" /> <path d="m9 12 2 2 4-4" /> </svg> <span>无需账户，离线可用：你的健康记录留在设备上</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" /> </svg> <span>应用内无广告，你的健康记录也从不用于广告定向</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M12 8h.01M11 12h1v4h1" /> </svg> <span>记录工具，不是医疗器械：它记录你的方案，从不替你制定方案</span></li>
+        </ul>
+        </div>
+
+        <!-- The product itself, above the fold. The page used to open on an app
+             icon and four paragraphs, which asks a visitor to take the app's
+             word for what it looks like. -->
+        <div class="hero-shot hero-fan" aria-hidden="false">
+          <div class="device fan-left">
+            <img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" decoding="async" alt="AI 结果：盘中识别出的每样食物及其卡路里和蛋白质，可直接修改">
+            
+          </div>
+          <div class="device fan-right">
+            <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" decoding="async" alt="有六个吉祥物的主题选择器：经典、海豚、熊猫、猫头鹰、火烈鸟和蜜蜂">
+            
+          </div>
+          <div class="device fan-center">
+            <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" fetchpriority="high" decoding="async" alt="海豚主题下的 Dozify 首页：下次剂量、拍餐食、药物水平、蛋白质、饮水和体重">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="themes" class="section section-light">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">新</span>
+          
+          <h2 class="section-title">选一个吉祥物，整个应用随之改变。</h2>
+          
+          <p>六种主题，每种都是一种颜色加一个伙伴：经典、海豚 🐬、熊猫 🐼、猫头鹰 🦉、火烈鸟 🦩 和蜜蜂 🐝。颜色贯穿每个界面，吉祥物会出现在你的体重图表和连续记录上，主屏幕上的应用图标也会随之改变。经典主题保持简洁。</p>
+          
+          <p>海豚免费。熊猫、猫头鹰、火烈鸟和蜜蜂随 Premium 提供。浅色、深色或跟随系统——由你决定。</p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="外观界面：浅色、深色或跟随系统模式，以及六个吉祥物主题"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="蓝色海豚主题下的首页"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/bee-home.webp" srcset="/screenshots/en/bee-home-400w.webp 400w, /screenshots/en/bee-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="橙色蜜蜂主题下的设置"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="ai-calories" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">新</span>
+          
+          <h2 class="section-title">拍下餐食，看见卡路里。</h2>
+          
+          <p>使用 GLP-1 时你吃得更少，所以吃下的每一口都更重要。拍一张照片，Dozify 就会用你的语言列出盘中每样食物，并估算它的卡路里和蛋白质。结果始终是可修改的草稿：调整份量，补上镜头漏掉的，然后保存到你的剂量和体重旁边。Premium 功能。</p>
+          
+          <p><a href="/zh/ai-calorie-tracker" class="link-arrow">AI 卡路里如何运作</a></p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Dozify 正在识别餐食照片"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="盘中每样食物的卡路里和蛋白质"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">使用方法</h2>
+        
+        <p class="section-lede">三个步骤，设置毫不费力。</p>
+        
+
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h3>添加你的药物</h3>
+            
+            <p>选择每周或每日注射的药物——Ozempic®、Wegovy®、Mounjaro®、Zepbound®、Trulicity®、Saxenda®、Victoza®——或每日服用的片剂：Wegovy® 口服片、Ozempic® 片剂、Rybelsus® 或 Foundayo™。设置你的剂量和时间表。</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h3>记录每一次注射</h3>
+            
+            <p>轻点即可在人体示意图上记录剂量、时间和注射部位。智能轮换会建议下一个注射部位。</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h3>与医生分享</h3>
+            
+            <p>导出一份 PDF 报告，包含你完整的治疗历史、体重变化和副作用记录：下次就诊时正好用得上。</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="section">
+      <div class="container">
+        <h2 class="section-title">看看 Dozify 的实际效果</h2>
+        
+        <p class="section-lede">快速看一眼你在手机上会看到什么。</p>
+        
+
+        <div class="screenshot-strip" role="group" tabindex="0" aria-label="Dozify 截图，左右滑动查看">
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/home-next-dose.webp" srcset="/screenshots/en/home-next-dose-400w.webp 400w, /screenshots/en/home-next-dose.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Dozify 主屏幕：下次剂量倒计时、本周注射、当天的蛋白质和饮水，以及当前体重">
+            </div>
+            <figcaption><b>今天的情况，一目了然</b> <span>下次剂量、本周注射、蛋白质、饮水和体重：都在一屏上。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="AI 拍照卡路里估算已填入营养表单：鸡肉凯撒沙拉，625 kcal，55 g 蛋白质，附有不确定性说明">
+            </div>
+            <figcaption><b>拍下你的餐食</b> <span>AI 根据照片填写卡路里和蛋白质——始终是可修改的草稿。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/level-curve.webp" srcset="/screenshots/en/level-curve-400w.webp 400w, /screenshots/en/level-curve.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="体重趋势和估算的药物水平曲线，显示当前和峰值百分比">
+            </div>
+            <figcaption><b>看看你的剂量在起什么作用</b> <span>估算的药物水平曲线，让第 6 天的饥饿感终于说得通了。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="用人体部位图记录一次注射，并建议下一个轮换部位">
+            </div>
+            <figcaption><b>几秒钟记录一次注射</b> <span>人体图会记住下一个该用哪个部位，你不必自己记。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/weight-and-dose-chart.webp" srcset="/screenshots/en/weight-and-dose-chart-400w.webp 400w, /screenshots/en/weight-and-dose-chart.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="体重趋势与估算的药物水平曲线在同一条时间线上">
+            </div>
+            <figcaption><b>体重与剂量在同一条时间线上</b> <span>你的体重趋势与估算的药物水平并排显示。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="海豚主题下的 Dozify 主屏幕：海洋蓝强调色、波浪连续记录徽章和 AI 餐食卡片">
+            </div>
+            <figcaption><b>打造你的专属风格</b> <span>颜色、吉祥物甚至应用图标会一起变换——海豚主题免费。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="主题选择器：经典、海豚、熊猫、猫头鹰、火烈鸟和蜜蜂主题包">
+            </div>
+            <figcaption><b>六种个性</b> <span>选一种颜色和一个伙伴；吉祥物会出现在你的图表和连续记录里。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/victories.webp" srcset="/screenshots/en/victories-400w.webp 400w, /screenshots/en/victories.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="胜利日记，记有衣服更合身、爬楼梯更轻松等条目">
+            </div>
+            <figcaption><b>体重秤看不到的进步</b> <span>献给平台期的那几周：衣服、精力、心情——一行就能记下。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/lab-results.webp" srcset="/screenshots/en/lab-results-400w.webp 400w, /screenshots/en/lab-results.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="化验结果界面，HbA1c 和 LDL 记录完全按输入原样保存">
+            </div>
+            <figcaption><b>化验结果与剂量并列</b> <span>HbA1c、血脂、肝功能指标——按你输入的原样保存，并纳入给医生的 PDF。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/vial-stock.webp" srcset="/screenshots/en/vial-stock-400w.webp 400w, /screenshots/en/vial-stock.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="药瓶库存、剩余剂量、开封天数和有效期">
+            </div>
+            <figcaption><b>药瓶用完前就知道</b> <span>剩余剂量、开封天数、有效期：替你算好。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="生成就诊报告：日期范围、要包含的部分以及你想问的问题">
+            </div>
+            <figcaption><b>一份给医生的清晰 PDF</b> <span>选好时间范围和要包含的内容，带着一份摘要去就诊。</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/water-tracking.webp" srcset="/screenshots/en/water-tracking-400w.webp 400w, /screenshots/en/water-tracking.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="饮水记录，带按杯计算器和快速添加量">
+            </div>
+            <figcaption><b>饮水，按杯计算</b> <span>不用再拿毫升做算术。</span></figcaption>
+          </figure>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section id="features" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">功能一览</h2>
+        
+        <p class="section-lede">为使用每周 GLP-1 药物的人设计。</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v2" /><path d="m5.6 5.6 1.4 1.4" /><path d="m18.4 5.6-1.4 1.4" /><path d="M3 12h2" /><path d="M19 12h2" /><path d="M12 21a6 6 0 0 0 6-6c0-3-2.5-4.5-6-9-3.5 4.5-6 6-6 9a6 6 0 0 0 6 6Z" />
+              </svg>
+            </div>
+            <h3>AI 拍照算卡路里 <span class="badge-new">新</span></h3>
+            
+            <p>拍下你的餐食，几秒钟内获得卡路里和蛋白质估算，而且用你的语言显示。始终以可修改的草稿呈现——由你说了算。Premium 功能。<a href="/zh/ai-calorie-tracker">AI 卡路里如何运作</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0E7FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="M4 15c2-6 4-9 6-9s3 2 4 5 2 5 4 5 3-2 4-5" />
+              </svg>
+            </div>
+            <h3>药物水平曲线 <span class="badge-new">新</span></h3>
+            
+            <p>一条估算曲线，展示你的剂量在两次注射之间如何累积和消退——让第 6 天的饥饿感终于说得通。<a href="/zh/glp1-medication-level">关于这条曲线</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="13.5" cy="6.5" r=".5" /><circle cx="17.5" cy="10.5" r=".5" /><circle cx="8.5" cy="7.5" r=".5" /><circle cx="6.5" cy="12.5" r=".5" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" />
+              </svg>
+            </div>
+            <h3>主题与吉祥物 <span class="badge-new">新</span></h3>
+            
+            <p>颜色、吉祥物甚至应用图标会一起变换。海豚 🐬 免费；熊猫、猫头鹰、火烈鸟和蜜蜂随 Premium 提供。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>胜利日记 <span class="badge-new">新</span></h3>
+            
+            <p>体重秤看不到的进步：衣服变合身了，爬楼梯更轻松了。特意设为免费——献给平台期的那几周。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.31" /><path d="M14 9.3V2" /><path d="M8.5 2h7" /><path d="M14 9.3a6.5 6.5 0 1 1-4 0" /><path d="M5.52 16h12.96" />
+              </svg>
+            </div>
+            <h3>化验结果 <span class="badge-new">新</span></h3>
+            
+            <p>HbA1c、血脂、肝功能指标——完全按你输入的内容保存，并纳入给医生的 PDF。不做评判，不用颜色分级。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+              </svg>
+            </div>
+            <h3>周期对照 <span class="badge-new">新</span></h3>
+            
+            <p>将你的症状与月经周期对照查看——仅在你开启时生效，数据也从不离开你的设备。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0F2FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
+              </svg>
+            </div>
+            <h3>体重趋势与预测</h3>
+            
+            <p>在清晰的图表上查看体重，并根据你自己的数据预测达成目标所需的时间。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+              </svg>
+            </div>
+            <h3>智能提醒</h3>
+            
+            <p>与你的用药时间表相匹配的每周或每日提醒。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EFF6FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.5L4 22h16l-6-12.5V2" /><path d="M8.5 2h7" />
+              </svg>
+            </div>
+            <h3>药瓶库存</h3>
+            
+            <p>每个药瓶的开封日期、有效期倒计时和剩余剂量。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" />
+              </svg>
+            </div>
+            <h3>进度图表</h3>
+            
+            <p>体重趋势、剂量递增和副作用规律，一目了然。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" />
+              </svg>
+            </div>
+            <h3>PDF 报告</h3>
+            
+            <p>一键生成可直接给医生看的摘要，包含你完整的治疗时间线。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEE2E2">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.49 4.04 3 5.5l7 7Z" />
+              </svg>
+            </div>
+            <h3>Apple Health 同步</h3>
+            
+            <p>在 iPhone 上，体重会自动从 Apple Health 读取。写回是可选的，默认关闭。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EDE9FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2" /><line x1="8" x2="16" y1="6" y2="6" /><line x1="16" x2="16" y1="14" y2="18" /><path d="M8 10h.01" /><path d="M12 10h.01" /><path d="M16 10h.01" /><path d="M8 14h.01" /><path d="M12 14h.01" /><path d="M8 18h.01" /><path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3>内置计算器</h3>
+            
+            <p>单位换算（mg ↔ mL ↔ U-100）和药瓶可用时长估算，免费。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DBEAFE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" />
+              </svg>
+            </div>
+            <h3>带上你的历史记录</h3>
+            
+            <p>从其他记录应用迁移过来？Dozify 会读取你导出的文件，告诉你找到了什么，并且只有在你同意后才写入：写入前还会先做备份。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="7" height="9" x="3" y="3" rx="1" /><rect width="7" height="5" x="14" y="3" rx="1" /><rect width="7" height="9" x="14" y="12" rx="1" /><rect width="7" height="5" x="3" y="16" rx="1" />
+              </svg>
+            </div>
+            <h3>由你搭建的主屏幕</h3>
+            
+            <p>重新排列卡片，隐藏用不到的卡片，随时都能恢复。如果你不记录副作用，这些字段就永远不会出现。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
+              </svg>
+            </div>
+            <h3>任意时间表，以及医生给你的方案</h3>
+            
+            <p>每周、每日、每隔几天或指定日期。保存医生给你的剂量时间表，让应用来提醒你。Dozify 从不自行选择剂量。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DCFCE7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+            </div>
+            <h3>知识库</h3>
+            
+            <p>注明来源的指南，涵盖剂量、副作用和注射技巧。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" />
+              </svg>
+            </div>
+            <h3>注射部位轮换</h3>
+            
+            <p>人体示意图记录每个部位，并建议下一次在哪里注射。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FFEDD5">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z" /><path d="m7.5 10.5 2 2" /><path d="m10.5 7.5 2 2" /><path d="m13.5 4.5 2 2" /><path d="m4.5 13.5 2 2" />
+              </svg>
+            </div>
+            <h3>身体围度</h3>
+            
+            <p>记录腰围、臀围、体脂率等：这些是单看体重秤会错过的进步。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF9C3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>里程碑与连续记录</h3>
+            
+            <p>每日连续记录和成就徽章，帮你保持规律、保持动力。</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFCCB">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#65A30D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /><path d="M7 2v20" /><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+              </svg>
+            </div>
+            <h3>饮食与饮水记录</h3>
+            
+            <p>在治疗记录旁边直接记录餐食、蛋白质和饮水。</p>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- The differentiator a visitor who already tracks somewhere else is
+         looking for, and the one thing no competitor page tells them. -->
+    <section id="import" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 class="section-title">已经在别处记录了？把记录一起带过来。</h2>
+          
+          <p class="section-lede">Dozify 可以读取 Shotsy、Glapp、GLPzy 和 GlucoPal 的导出文件，以及任何带有日期列的 CSV。在你看到它找到了什么（多少次注射、多少条体重、多少条备注）之前，不会写入任何内容，而且会先备份你现有的数据。导入完全免费。</p>
+          
+          <a href="/zh/switch-glp1-tracker-app" class="link-arrow">迁移如何运作 →</a>
+          
+        </div>
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Dozify 记录中一条导入的注射记录，含日期、剂量和部位">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-section">
+      <div class="container">
+        <div class="privacy-card">
+          <div class="privacy-icon">
+            <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
+            </svg>
+          </div>
+          <h2>你的个人数据留在你的手机上</h2>
+          
+          <p>无需账户，应用内无广告，没有用户画像。你的个人数据（注射、体重、身体围度）从不离开你的设备。删除应用，数据也就随之消失。</p>
+          
+          <a href="/zh/privacy" class="link-arrow">阅读隐私政策 →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="report" class="section">
+      <div class="container split split-reverse">
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="生成就诊报告：日期范围、要包含的部分以及你想问的问题">
+            
+          </div>
+        </div>
+        <div class="split-copy">
+          <h2 class="section-title">带着一份摘要去就诊</h2>
+          
+          <p class="section-lede">一次就诊十分钟，却要涵盖三个月。选择日期范围和要包含的内容（剂量、体重、副作用、你自己的备注以及想问的问题），Dozify 就会生成一份 PDF，你可以打印或提前发送。其中的内容是你的记录；这些记录意味着什么，由你的医生判断。</p>
+          
+          <a href="/zh/glp1-appointment-report" class="link-arrow">报告包含哪些内容 →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="medications" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">可以记录的药物</h2>
+        
+        <p class="section-lede">选择医生给你开的那一种，Dozify 会为它设置好时间表和剂量阶梯。不在列表上的药物，你可以手动添加。</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <h3>每周注射</h3>
+            
+            <p>Ozempic®、Wegovy®、Mounjaro®、Zepbound® 和 Trulicity®：每周注射一次，相应地每周提醒一次。</p>
+            
+          </article>
+          <article class="feature">
+            <h3>每日注射</h3>
+            
+            <p>Saxenda® 和 Victoza®——每日的时间表，按你实际注射的时间提醒，而不是一个默认时间。</p>
+            
+          </article>
+          <article class="feature">
+            <h3>口服</h3>
+            
+            <p>Wegovy® 口服片、Ozempic® 片剂、Rybelsus® 和 Foundayo™——每日服用的片剂，使用同样的历史记录和同样的报告。<a href="/zh/glp1-pill-tracker">口服药记录如何运作</a></p>
+            
+          </article>
+          <article class="feature">
+            <h3>其他药物</h3>
+            
+            <p>按名称添加药物，并设置你自己的剂量和间隔。Dozify 记录你和医生商定的方案；它从不提出方案。</p>
+            
+          </article>
+        </div>
+
+        <p class="meta" style="text-align:center;margin-top:24px">Ozempic®、Wegovy®、Mounjaro®、Zepbound®、Trulicity®、Saxenda®、Victoza®、Rybelsus® 和 Foundayo™ 是其各自所有者的商标。Dozify 与这些公司没有关联，也未获得其认可或赞助。</p>
+        
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">注明出处的指南</h2>
+        
+        <p class="section-lede">写给已经在使用 GLP-1 的人，每一篇都注明信息来源：生产商说明、FDA、MedlinePlus。这些内容都不能取代你自己的医生告诉你的话。</p>
+        
+
+        <div class="article-list">
+          <a class="article-card" href="/zh/articles/what-is-glp1">
+            <h3>什么是 GLP-1？</h3>
+            
+            <p>进食后肠道释放的激素、这些药物模拟的是什么，以及食欲为什么会改变。</p>
+            
+          </a>
+          <a class="article-card" href="/zh/articles/how-to-inject-glp1">
+            <h3>如何使用 GLP-1 注射笔</h3>
+            
+            <p>准备注射笔、选择部位、注射过程本身，以及之后如何处理针头。</p>
+            
+          </a>
+          <a class="article-card" href="/zh/articles/glp1-injection-sites">
+            <h3>在哪里注射，如何轮换</h3>
+            
+            <p>腹部、大腿和上臂是获批的注射部位。该选哪里，以及为什么注射点必须变换。</p>
+            
+          </a>
+          <a class="article-card" href="/zh/articles/glp1-side-effects">
+            <h3>常见副作用</h3>
+            
+            <p>恶心、便秘和疲劳：通常什么有帮助，以及哪些迹象需要立即就医。</p>
+            
+          </a>
+          <a class="article-card" href="/zh/articles/glp1-patches">
+            <h3>GLP-1 贴片存在吗？</h3>
+            
+            <p>FDA 和 EMA 都没有批准任何贴片。以这个名义出售的是什么，证据又怎么说。</p>
+            
+          </a>
+          <a class="article-card" href="/zh/articles/missed-glp1-dose">
+            <h3>漏打了一剂？</h3>
+            
+            <p>一种产品是五天，同一种药的另一种产品是两天。各说明书怎么写的，原文引用。</p>
+            
+          </a>
+          <a class="article-card" href="/zh/articles/storing-glp1-pens">
+            <h3>注射笔的储存</h3>
+            
+            <p>冰箱、室温，以及天数——这取决于具体装置，而不只是药物本身。</p>
+            
+          </a>
+          <a class="article-card" href="/zh/articles">
+            <h3>全部指南</h3>
+            
+            <p>完整的知识库，每页底部都附有参考文献列表。</p>
+            
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">常见问题</h2>
+        
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Dozify 免费吗？</h3>
+            
+            <p>是的。剂量记录、剂量提醒、注射部位轮换、体重、饮水和副作用记录、你的全部历史和照片，以及科普文章都是免费的——剂量记录永久免费，而不是只在试用期内免费。Premium 是帮你理解数据的那一层：估算的药物水平曲线、高级图表和趋势、体重预测、身体成分、含 AI 拍照卡路里估算的营养记录、药瓶管理、给医生的 PDF 报告、主题，以及第二种同时使用的药物。订阅和取消的详细信息见<a href="/zh/support">支持页面</a>。</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>我的数据是私密的吗？</h3>
+            
+            <p>你的健康记录（剂量、体重、副作用、进度照片）保存在你的设备上，从不上传。唯一的例外是你选择用 AI 卡路里分析的餐食照片：在你同意后，它会经由我们的服务器发送给 Google Gemini，且应用不会保存。没有账户，也没有云同步，应用内不显示任何广告。我们会收集匿名使用统计以改进应用，这些统计从不包含药物名称或症状。Dozify 还会衡量某次安装是否来自它自己的 App Store 或 Meta 推广活动；这项衡量受 Apple 跟踪权限约束，从不包含你的健康记录。删除应用，你的记录也随之消失。</p>
+            
+          </div>
+
+
+          <div class="faq-item">
+            <h3>Dozify 支持哪些药物？</h3>
+            
+            <p>Dozify 帮你记录常见的 GLP-1 药物，包括 Ozempic®、Wegovy®、Mounjaro®、Zepbound®、Saxenda®、Trulicity® 和 Victoza®，以及每日服用的片剂：Wegovy® 口服片、Ozempic® 片剂、Rybelsus® 和 Foundayo™。这些品牌名称是其各自所有者的商标，Dozify 与这些公司没有关联。</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Dozify 没有网络也能用吗？</h3>
+            
+            <p>可以。Dozify 以离线为先，完全不需要网络连接即可使用。你永远不需要登录或同步。</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Dozify 能提醒我注射吗？</h3>
+            
+            <p>能。你可以设置与用药时间表相匹配的每周或每日提醒，更容易保持规律。</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Dozify 能取代我的医生吗？</h3>
+            
+            <p>不能。Dozify 是一款用于科普的记录工具，不是医疗器械，也不提供医疗建议。请始终遵循医生和处方——<a href="/zh/why">这款应用拒绝做哪些事</a>都完整写明了。</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>可以记录体重和副作用吗？</h3>
+            
+            <p>可以。你可以记录体重、身体围度和副作用日记，并在清晰的图表上查看趋势：包括根据你自己的数据得出的体重预测和达成目标所需时间的估算。</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>可以把其他 GLP-1 应用里的数据带过来吗？</h3>
+            
+            <p>可以，而且免费。从你要离开的应用中导出，在 Dozify 中打开“设置 &rarr; 导入你的历史记录”并选择文件。它能读取 Shotsy、Glapp、GLPzy 和 GlucoPal 的导出文件以及任何带有日期列的 CSV，在写入任何内容之前先告诉你找到了什么（多少次注射、多少条体重和备注），跳过你已有的记录，并先备份你现有的数据。<a href="/zh/switch-glp1-tracker-app">详见迁移页面</a>。</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Dozify 有 Android 版吗？</h3>
+            
+            <p>暂时没有。Dozify 目前仅支持 iPhone，在 App Store 上提供。</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section section-cta">
+      <div class="container">
+        <h2 class="section-title">获取应用</h2>
+        
+        <p class="section-lede">Dozify 已在 App Store 上架，适用于 iPhone。</p>
+        
+        <div class="store-row">
+          <a class="store-card store-card--live" href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-zh&mt=8" target="_blank" rel="noopener">
+            <div class="store-card-icon">
+              <svg viewbox="0 0 24 24" fill="currentColor">
+                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
+              </svg>
+            </div>
+            <div>
+              <span class="store-card-pretitle">下载于</span>
+              
+              <strong>App Store</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/zh" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+        <p class="footer-tagline">你的 GLP-1 治疗私密伴侣。</p>
+        
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>法律信息</h3>
+          
+          <a href="/zh/privacy">隐私政策</a>
+          
+          <a href="/en/kvkk">KVKK Aydınlatma</a>
+          <a href="/zh/terms">服务条款</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>记录</h3>
+          
+          <a href="/zh/glp1-shot-tracker">GLP-1 注射记录</a>
+          
+          <a href="/zh/injection-site-tracker">注射部位记录</a>
+          
+          <a href="/zh/glp1-weight-tracker">GLP-1 体重记录</a>
+          
+          <a href="/zh/glp1-side-effect-journal">副作用日记</a>
+          
+          <a href="/zh/glp1-vial-tracker">药瓶记录</a>
+          
+          <a href="/zh/private-glp1-tracker">私密 GLP-1 记录</a>
+          
+          <a href="/zh/glp1-appointment-report">就诊报告</a>
+          
+          <a href="/zh/switch-glp1-tracker-app">从其他应用迁移</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>帮助</h3>
+          
+          <a href="/zh/support">支持</a>
+          
+          <a href="/zh/why">为什么选择 Dozify</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+      <p class="disclaimer">Dozify 不是医疗器械，不提供医疗建议。请始终咨询你的医生。Ozempic®、Mounjaro®、Wegovy®、Saxenda®、Zepbound®、Trulicity®、Rybelsus®、Victoza® 和 Foundayo™ 是其各自所有者的商标。Dozify 与这些公司没有关联。</p>
+      
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en" hreflang="en" lang="en">English</a> · <a href="/tr" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar" hreflang="ar" lang="ar">العربية</a> · <a href="/cs" hreflang="cs" lang="cs">Čeština</a> · <a href="/da" hreflang="da" lang="da">Dansk</a> · <a href="/de" hreflang="de" lang="de">Deutsch</a> · <a href="/el" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es" hreflang="es" lang="es">Español</a> · <a href="/fi" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr" hreflang="fr" lang="fr">Français</a> · <a href="/hi" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it" hreflang="it" lang="it">Italiano</a> · <a href="/ja" hreflang="ja" lang="ja">日本語</a> · <a href="/ko" hreflang="ko" lang="ko">한국어</a> · <a href="/nb" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl" hreflang="pl" lang="pl">Polski</a> · <a href="/pt" hreflang="pt" lang="pt">Português</a> · <a href="/ru" hreflang="ru" lang="ru">Русский</a> · <a href="/sv" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk" hreflang="uk" lang="uk">Українська</a> · <a href="/zh" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

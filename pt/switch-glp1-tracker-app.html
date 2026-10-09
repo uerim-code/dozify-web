@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mude para o Dozify: importe o seu histórico GLP-1</title>
+  <meta name="description" content="Importe do Shotsy, Glapp, GLPzy, GlucoPal ou de um CSV simples. Vê exatamente o que vai ser gravado antes de qualquer coisa o ser, e não custa nada.">
+  <meta property="og:url" content="https://dozify.app/pt/switch-glp1-tracker-app">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="Mude para o Dozify: importe o seu histórico GLP-1">
+  <meta property="og:description" content="Importe do Shotsy, Glapp, GLPzy, GlucoPal ou de um CSV simples. Vê exatamente o que vai ser gravado antes de qualquer coisa o ser, e não custa nada.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — registo privado de injeções GLP-1 e de peso para iPhone">
+  <meta name="twitter:title" content="Mude para o Dozify: importe o seu histórico GLP-1">
+  <meta name="twitter:description" content="Importe do Shotsy, Glapp, GLPzy, GlucoPal ou de um CSV simples. Vê exatamente o que vai ser gravado antes de qualquer coisa o ser, e não custa nada.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — registo privado de injeções GLP-1 e de peso para iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="pt_PT">
+
+  <link rel="canonical" href="https://dozify.app/pt/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/baska-uygulamadan-gecis">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/switch-glp1-tracker-app">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/pt",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "pt"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/pt",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Registe injeções e comprimidos GLP-1, alterne locais, acompanhe peso, efeitos secundários e ruído alimentar, e estime calorias por foto com IA. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "pt"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/pt/switch-glp1-tracker-app#webpage",
+        "url": "https://dozify.app/pt/switch-glp1-tracker-app",
+        "name": "Mude para o Dozify: importe o seu histórico GLP-1",
+        "description": "Importe do Shotsy, Glapp, GLPzy, GlucoPal ou de um CSV simples. Vê exatamente o que vai ser gravado antes de qualquer coisa o ser, e não custa nada.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "pt",
+        "breadcrumb": {
+          "@id": "https://dozify.app/pt/switch-glp1-tracker-app#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "De que apps posso importar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "São reconhecidas as exportações do Shotsy, Glapp, GLPzy e GlucoPal, bem como os ficheiros de cópia de segurança do próprio Dozify e qualquer CSV que tenha uma coluna de data."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "A minha app não está na lista. E agora?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Exporte um CSV a partir dela e experimente: uma coluna de data é o único requisito. Se o ficheiro não for reconhecido, o Dozify avisa-o em vez de não importar nada em silêncio, e pode enviá-lo para nós em Ajustes → Sugerir um recurso."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Importar duas vezes duplica tudo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. Os registos que correspondem a algo que já está no Dozify são contados como duplicados e ignorados, por isso voltar a importar o mesmo ficheiro é seguro."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O que acontece se a importação falhar a meio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não pode. A gravação é uma única transação: ou é concluída ou é revertida, e é feita uma cópia de segurança automática imediatamente antes de começar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O ficheiro vai para algum lado?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. É lido no seu telemóvel. Não há conta nem servidor envolvidos numa importação."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/pt/switch-glp1-tracker-app#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Início",
+            "item": "https://dozify.app/pt"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Mudar de app",
+            "item": "https://dozify.app/pt/switch-glp1-tracker-app"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/pt" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funcionalidades</a>
+        
+        <a href="/#privacy">Privacidade</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/pt">Início</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Mudar de app</span>
+      
+    </div>
+    <h1>Traga o seu histórico consigo</h1>
+    
+    <p class="meta">Importe do Shotsy, Glapp, GLPzy, GlucoPal ou de um CSV simples. Vê exatamente o que vai acontecer antes de alguma coisa ser gravada, e é gratuito.</p>
+    
+
+    <h2>O problema</h2>
+    <p>Meses de injeções, pesagens e efeitos secundários são a razão pela qual as pessoas continuam numa app de que já não gostam. Recomeçar significa perder o único registo de como correu a primeira dose, e ninguém volta a escrever um ano de injeções.</p>
+
+    
+    
+
+    <h2>O que o Dozify faz</h2>
+    <h3>Lê o ficheiro que a sua app antiga criou</h3>
+    <p>Exporte da outra app, abra o Dozify → Ajustes → Importar seu histórico e escolha o ficheiro. O Dozify reconhece exportações do Shotsy, Glapp, GLPzy e GlucoPal, a sua própria cópia de segurança JSON e qualquer CSV com uma coluna de data. Descobre qual é em vez de lhe perguntar.</p>
+    <h3>Mostra-lhe os números antes de gravar o que quer que seja</h3>
+    <p>Quantos pesos, injeções e efeitos secundários encontrou, o intervalo de datas, quantos já estão no Dozify e quantas linhas não conseguiu ler. Nada é gravado até tocar em confirmar.</p>
+    <h3>Importar o mesmo ficheiro duas vezes não faz nada</h3>
+    <p>Os registos que correspondem a algo que já existe são contados como duplicados e ignorados, por isso uma segunda importação é segura: útil se voltar a exportar passadas mais algumas semanas.</p>
+    <h3>Primeiro uma cópia de segurança, e uma gravação tudo-ou-nada</h3>
+    <p>O Dozify grava automaticamente uma cópia de segurança no seu dispositivo imediatamente antes da importação. A importação em si é uma única transação: se algo falhar, é totalmente revertida, porque meio histórico importado é pior do que nenhum: não consegue saber que metade é a sua.</p>
+    <h3>O ficheiro nunca sai do seu telemóvel</h3>
+    <p>É lido no dispositivo. Nada é enviado, não há conta e nenhum servidor vê os seus registos.</p>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/home-next-dose.webp" srcset="/screenshots/en/home-next-dose-400w.webp 400w, /screenshots/en/home-next-dose.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="O Dozify depois de uma importação: o histórico da app anterior no seu lugar"></div></figure>
+      
+    </div>
+
+    <h2>O que é transferido e o que não é</h2>
+    <p><strong>Importado:</strong> registos de peso, injeções (data, hora, dose, local, notas) e efeitos secundários com a respetiva intensidade.</p>
+    <p><strong>Não importado:</strong> frascos, fotografias de progresso e check-ins. Ou a outra app não tem equivalente ou a correspondência seria um palpite, e um registo adivinhado é pior do que nenhum.</p>
+    <p><strong>Adicione um medicamento antes de importar injeções.</strong> Cada injeção registada tem de pertencer a um medicamento, por isso, se ainda não configurou nenhum, o Dozify indica-o no ecrã de pré-visualização e importa apenas os pesos e os efeitos secundários. Adicione o medicamento e importe o mesmo ficheiro outra vez: nada do que já está cá é duplicado.</p>
+
+    
+    
+    
+    
+
+    <h2>Vindo de uma app em particular</h2>
+    <p>Cada uma destas páginas lista os nomes de colunas que o Dozify procura na exportação dessa app, para que possa verificar a linha de cabeçalho do seu ficheiro antes de começar.</p>
+    <ul>
+      <li><a href="/pt/shotsy-alternative">Mudar do Shotsy</a></li>
+      <li><a href="/pt/glapp-alternative">Mudar do Glapp</a></li>
+      <li><a href="/pt/glucopal-alternative">Mudar do GlucoPal</a></li>
+    </ul>
+
+    
+    
+    
+
+    <h2>Se o ficheiro não for reconhecido</h2>
+    <p>O Dozify avisa, em vez de importar zero linhas em silêncio. Qualquer CSV com uma coluna de data é lido; se o seu não for, envie-no-lo em Ajustes → Sugerir um recurso e o formato passa a ser suportado: um ficheiro que não conseguimos ler é uma falha nossa, não sua.</p>
+
+    
+    
+
+
+    <h2>A quem ajuda</h2>
+    <p>Pessoas que deixam o Shotsy, Glapp, GLPzy ou GlucoPal, e qualquer pessoa cuja app atual consiga gerar um CSV. Foi escrito para o momento concreto em que o histórico é a única coisa que mantém alguém numa app de que já não gosta.</p>
+
+    
+    
+
+    <h2>Os limites</h2>
+    <p>Os pesos, as injeções e os efeitos secundários são transferidos. Os frascos, as fotografias de progresso e os check-ins não: ou a outra app não tem equivalente ou a correspondência seria um palpite, e um registo adivinhado num registo médico é pior do que um em falta. As linhas que o Dozify não consegue ler são-lhe apresentadas como não lidas em vez de serem descartadas em silêncio, e um medicamento tem de existir no Dozify antes de lhe poderem ser associadas injeções.</p>
+
+    
+    
+
+    <h2>Privado por predefinição</h2>
+    <p>Os seus registos de saúde ficam no seu dispositivo e nunca são enviados; a única exceção é uma fotografia de refeição que decida analisar com as calorias por IA, enviada apenas depois de concordar e não guardada pela app. Não há conta nem sincronização na nuvem. As estatísticas de utilização nunca incluem o nome de um medicamento nem um sintoma; mais detalhes na <a href="/pt/privacy">política de privacidade</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-switch-glp1-tracker-app-pt&mt=8" class="btn btn-primary">Descarregar na App Store</a></p>
+
+
+    <h2>Perguntas</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>De que apps posso importar?</h3>
+        
+        <p>São reconhecidas as exportações do Shotsy, Glapp, GLPzy e GlucoPal, bem como os ficheiros de cópia de segurança do próprio Dozify e qualquer CSV que tenha uma coluna de data.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>A minha app não está na lista. E agora?</h3>
+        
+        <p>Exporte um CSV a partir dela e experimente: uma coluna de data é o único requisito. Se o ficheiro não for reconhecido, o Dozify avisa-o em vez de não importar nada em silêncio, e pode enviá-lo para nós em Ajustes → Sugerir um recurso.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Importar duas vezes duplica tudo?</h3>
+        
+        <p>Não. Os registos que correspondem a algo que já está no Dozify são contados como duplicados e ignorados, por isso voltar a importar o mesmo ficheiro é seguro.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>O que acontece se a importação falhar a meio?</h3>
+        
+        <p>Não pode. A gravação é uma única transação: ou é concluída ou é revertida, e é feita uma cópia de segurança automática imediatamente antes de começar.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>O ficheiro vai para algum lado?</h3>
+        
+        <p>Não. É lido no seu telemóvel. Não há conta nem servidor envolvidos numa importação.</p>
+        
+      </div>
+    </div>
+
+    <h2>A seguir</h2>
+    <p>Guias, com as fontes indicadas: <a href="/pt/articles/what-is-glp1">o que é realmente o GLP-1</a>, <a href="/pt/articles/glp1-injection-sites">onde injetar e como alternar</a> e <a href="/pt/articles/how-to-inject-glp1">como injetar com uma caneta, passo a passo</a>.</p>
+    <p>Noutras partes do Dozify: <a href="/pt/glp1-shot-tracker">o registo de injeções</a> e <a href="/pt/private-glp1-tracker">como funciona aqui a privacidade</a>.</p>
+    <p>Novidade no Dozify: fotografe uma refeição e a app prepara uma estimativa de calorias e proteína por alimento, que pode editar — <a href="/pt/ai-calorie-tracker">contagem de calorias com IA</a> (Premium) — e os comprimidos GLP-1 diários têm o seu próprio <a href="/pt/glp1-pill-tracker">registo de comprimidos</a>.</p>
+
+    
+    
+    
+    
+
+    <p class="meta">O Dozify é uma ferramenta de registo, não um dispositivo médico. Não recomenda doses nem presta aconselhamento médico. Shotsy, Glapp, GLPzy e GlucoPal são marcas registadas dos respetivos proprietários e são mencionadas aqui apenas para descrever formatos de ficheiro que o Dozify consegue ler; o Dozify não tem ligação a elas. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® e Rybelsus® são marcas registadas dos respetivos proprietários; o Dozify não tem ligação a estas empresas.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/pt" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Informação legal</h3>
+          
+          <a href="/pt/privacy">Política de Privacidade</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/pt/terms">Termos</a>
+          
+          <a href="/pt/editorial-policy">Política editorial</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Registo</h3>
+          
+          <a href="/pt/glp1-shot-tracker">Registo de injeções GLP-1</a>
+          
+          <a href="/pt/injection-site-tracker">Registo de locais de injeção</a>
+          
+          <a href="/pt/glp1-weight-tracker">Registo de peso com GLP-1</a>
+          
+          <a href="/pt/glp1-side-effect-journal">Diário de efeitos secundários</a>
+          
+          <a href="/pt/glp1-vial-tracker">Registo de frascos</a>
+          
+          <a href="/pt/private-glp1-tracker">Registo GLP-1 privado</a>
+          
+          <a href="/pt/glp1-appointment-report">Relatório para o médico</a>
+          
+          <a href="/pt/switch-glp1-tracker-app">Mudar de outra app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Ajuda</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/switch-glp1-tracker-app" hreflang="en" lang="en">English</a> · <a href="/tr/baska-uygulamadan-gecis" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/switch-glp1-tracker-app" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/switch-glp1-tracker-app" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/switch-glp1-tracker-app" hreflang="da" lang="da">Dansk</a> · <a href="/de/switch-glp1-tracker-app" hreflang="de" lang="de">Deutsch</a> · <a href="/el/switch-glp1-tracker-app" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/switch-glp1-tracker-app" hreflang="es" lang="es">Español</a> · <a href="/fi/switch-glp1-tracker-app" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/switch-glp1-tracker-app" hreflang="fr" lang="fr">Français</a> · <a href="/hi/switch-glp1-tracker-app" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/switch-glp1-tracker-app" hreflang="it" lang="it">Italiano</a> · <a href="/ja/switch-glp1-tracker-app" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/switch-glp1-tracker-app" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/switch-glp1-tracker-app" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/switch-glp1-tracker-app" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/switch-glp1-tracker-app" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/switch-glp1-tracker-app" hreflang="pt" lang="pt" aria-current="page">Português</a> · <a href="/ru/switch-glp1-tracker-app" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/switch-glp1-tracker-app" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/switch-glp1-tracker-app" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/switch-glp1-tracker-app" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

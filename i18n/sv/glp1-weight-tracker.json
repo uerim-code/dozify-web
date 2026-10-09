@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1 vikttracker – vikt och dos tillsammans",
+  "description": "Din viktkurva bredvid doserna som låg bakom den, på en tidslinje. Logga vikten på några sekunder och se hur månaderna ser ut, inte bara enskilda siffror."
+ },
+ "t": {
+  "Weight trend": "Viktkurva",
+  "Your weight and your doses on one line": "Din vikt och dina doser på samma linje",
+  "Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.": "Vikten i en app och injektionerna i en annan är två halvor av samma bild. Dozify håller dem på samma tidslinje.",
+  "The question is never just \"what do I weigh\". It is what the last few weeks have looked like, and what was happening in them, which dose, which week, what else you logged.": "Frågan är aldrig bara ”vad väger jag”. Det är hur de senaste veckorna har sett ut, och vad som hände under dem: vilken dos, vilken vecka, vad mer du loggade.",
+  "A trend, not a number": "En trend, inte en siffra",
+  "Your weight over three months, six, or a year, with the rate it has been moving and how far it is from your goal.": "Din vikt över tre månader, sex eller ett år, med takten den har rört sig i och hur långt det är kvar till ditt mål.",
+  "Apple Health does the typing": "Apple Health sköter inmatningen",
+  "On iPhone, weight is read from Health automatically. If your scale writes there, you do not enter anything by hand.": "På iPhone läses vikten automatiskt från Hälsa. Om din våg skriver dit behöver du inte föra in något för hand.",
+  "No projection dressed up as a promise": "Ingen prognos förklädd till ett löfte",
+  "The app shows what your own entries have done. It does not tell you what your body will do next.": "Appen visar vad dina egna poster har gjort. Den säger inte vad din kropp kommer att göra härnäst.",
+  "People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.": "Den som vill se hur några månader ser ut snarare än morgonens siffra, och den vars vikt redan går in i Apple Health från en våg. Den är också för alla som på ett besök har fått frågan hur vikten har ändrats sedan den senaste dosändringen och har fått gissa.",
+  "The projection is arithmetic on the entries you have made: it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.": "Prognosen är räkning på de poster du har gjort: den förlänger vad dina egna siffror har gjort och inget mer. Den är ingen förutsägelse av vad din kropp kommer att göra, den tar inte hänsyn till en dosändring, en sjukdom eller en semester, och den är inget mål som någon har satt åt dig. Dozify rekommenderar ingen vikt, ingen viktnedgångstakt och ingen kost.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Hämta i App Store</a>",
+  "Does it read my weight from Apple Health?": "Läser den min vikt från Apple Health?",
+  "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.": "På iPhone, ja. Om din våg eller en annan app skriver vikt till Hälsa läser Dozify den och du behöver inte skriva något. Du kan också föra in den för hand.",
+  "Kilograms or pounds?": "Kilo eller pund?",
+  "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.": "Båda. Enheten är en inställning, och att ändra den räknar om det som redan finns i stället för att tolka om siffrorna.",
+  "Does the projection tell me when I will reach my goal?": "Säger prognosen när jag når mitt mål?",
+  "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.": "Den säger när du skulle nå det om trenden i dina egna poster fortsatte oförändrad. Kroppar fungerar inte så, och appen säger det på skärmen i stället för att visa datumet som en plan.",
+  "Can I log measurements as well?": "Kan jag logga kroppsmått också?",
+  "Yes, waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.": "Ja, midja, höft och resten, på samma tidslinje som vikten, för de månader då vågen rör sig mindre än måttbandet.",
+  "Does my weight leave the phone?": "Lämnar min vikt telefonen?",
+  "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.": "Nej. Den sparas på enheten som resten av dina uppgifter. Läsningen från Apple Health sker i telefonen; inget laddas upp.",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/reading-a-weight-trend\">how to read a trend when the scale has stalled</a> and <a href=\"/en/articles/measurements-vs-scale\">when the tape moves and the scale does not</a>.": "Guider med namngivna källor: <a href=\"/en/articles/what-is-glp1\">vad GLP-1 faktiskt är</a>, <a href=\"/en/articles/glp1-side-effects\">hantera vanliga biverkningar</a>, <a href=\"/en/articles/how-to-inject-glp1\">så injicerar du med en penna, steg för steg</a>, <a href=\"/en/articles/reading-a-weight-trend\">hur du läser en trend när vågen står still</a> och <a href=\"/en/articles/measurements-vs-scale\">när måttbandet rör sig men inte vågen</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Mer i Dozify: <a href=\"/en/glp1-appointment-report\">läkarrapporten</a> och <a href=\"/en/glp1-shot-tracker\">sprutloggen</a>."
+ }
+}

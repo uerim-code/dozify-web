@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1 läkarrapport – kom till besöket med en sammanfattning</title>
+  <meta property="og:url" content="https://dozify.app/sv/glp1-appointment-report">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Tio minuter för att förklara tre månader. Välj period och vad som ska med, så skapar Dozify en tydlig PDF med doser, vikt och biverkningar.">
+  <meta property="og:title" content="GLP-1 läkarrapport – kom till besöket med en sammanfattning">
+  <meta property="og:description" content="Tio minuter för att förklara tre månader. Välj period och vad som ska med, så skapar Dozify en tydlig PDF med doser, vikt och biverkningar.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify – en privat GLP-1-tracker för sprutor och vikt för iPhone">
+  <meta name="twitter:title" content="GLP-1 läkarrapport – kom till besöket med en sammanfattning">
+  <meta name="twitter:description" content="Tio minuter för att förklara tre månader. Välj period och vad som ska med, så skapar Dozify en tydlig PDF med doser, vikt och biverkningar.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify – en privat GLP-1-tracker för sprutor och vikt för iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="sv_SE">
+
+  <link rel="canonical" href="https://dozify.app/sv/glp1-appointment-report">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-appointment-report">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/doktor-raporu">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glp1-appointment-report">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glp1-appointment-report">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glp1-appointment-report">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glp1-appointment-report">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glp1-appointment-report">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glp1-appointment-report">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glp1-appointment-report">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glp1-appointment-report">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glp1-appointment-report">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glp1-appointment-report">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glp1-appointment-report">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glp1-appointment-report">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glp1-appointment-report">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glp1-appointment-report">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glp1-appointment-report">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glp1-appointment-report">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glp1-appointment-report">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glp1-appointment-report">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glp1-appointment-report">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glp1-appointment-report">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-appointment-report">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/sv",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "sv"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/sv",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Logga GLP-1-sprutor och dagliga tabletter, rotera injektionsställen, följ vikt, biverkningar och matbrus, och fota måltider för AI-kalorier. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "sv"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/sv/glp1-appointment-report#webpage",
+        "url": "https://dozify.app/sv/glp1-appointment-report",
+        "name": "GLP-1 läkarrapport – kom till besöket med en sammanfattning",
+        "description": "Tio minuter för att förklara tre månader. Välj period och vad som ska med, så skapar Dozify en tydlig PDF med doser, vikt och biverkningar.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "sv",
+        "breadcrumb": {
+          "@id": "https://dozify.app/sv/glp1-appointment-report#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Vad står i rapporten?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Doser och intervallen mellan dem, viktkurvan, biverkningar med svårighetsgrad, injektionsställen, öppnade flaskor och frågorna du skrev ner: över den period du väljer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Vilka perioder kan jag välja?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "30, 90 eller 180 dagar. Nittio brukar motsvara tiden mellan besöken; den längre är för ett första besök hos en ny kliniker."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan jag utelämna avsnitt?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Varje avsnitt är en knapp, så en rapport kan bestå av bara doser och vikt om det är det besöket handlar om."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan jag skicka den före besöket?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "PDF:en är en fil i din telefon. Skriv ut den, mejla den, lägg upp den i en portal: det är ditt beslut, fattat efter att du har sett den."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Laddas något upp för att skapa den?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nej. Den skapas på enheten från uppgifter som redan finns där. Inget skickas någonstans för att ta fram den."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/sv/glp1-appointment-report#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Hem",
+            "item": "https://dozify.app/sv"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Läkarrapport",
+            "item": "https://dozify.app/sv/glp1-appointment-report"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/sv" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funktioner</a>
+        
+        <a href="/#privacy">Integritet</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/sv">Hem</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Läkarrapport</span>
+      
+    </div>
+    <h1>Kom till besöket med en sammanfattning, inte ett minne</h1>
+    
+    <p class="meta">Ett tryck gör tre månader av dina egna uppgifter till en sida som din läkare kan läsa under de tio minuter ni har.</p>
+    
+
+    <h2>Problemet</h2>
+    <p>Ett besök är kort och det som ska täckas är långt: vad du tog och när, hur vikten rörde sig, vilka biverkningar och när, och de två frågor du tänkte ställa.</p>
+
+    
+    
+
+    <h2>Vad Dozify gör</h2>
+    <h3>En klinisk sammanfattning, skapad på enheten</h3>
+    <p>Doser och intervall, viktkurva, biverkningar, rotation av ställen, öppnade flaskor: över 30, 90 eller 180 dagar.</p>
+    <h3>Dina frågor, utskrivna på slutet</h3>
+    <p>Skriv ner dem när de dyker upp under månaden. De kommer med på sista sidan.</p>
+    <h3>Din att dela, eller inte</h3>
+    <p>PDF:en skapas i din telefon. Inget laddas upp; du bestämmer om den ska skickas någonstans.</p>
+
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Kom till besöket med en sammanfattning, inte ett minne"></div></figure>
+      
+    </div>
+
+
+    <h2>Vem det här hjälper</h2>
+    <p>Den som har ett kort återbesök och en lång period att beskriva, och den som byter till en ny kliniker som aldrig har sett hens historik. Den är också för besöket där en dosändring är på tal, där det som hände de senaste åtta veckorna är precis vad beslutet vilar på.</p>
+
+    
+    
+
+    <h2>Var gränsen går</h2>
+    <p>Rapporten är din logg uppställd tydligt. Den är ingen klinisk bedömning, den innehåller ingen tolkning, och inget i den ska läsas som en rekommendation – tolkningen är din läkares. Den innehåller också bara det du loggade: en vecka du inte registrerade är en lucka i rapporten, inte en vecka utan doser.</p>
+
+    
+    
+
+    <h2>Privat från början</h2>
+    <p>Dina hälsodata stannar på din enhet och laddas aldrig upp; det enda undantaget är ett måltidsfoto som du själv väljer att analysera med AI-kalorier, som skickas först när du har godkänt det och som appen inte sparar. Det finns inget konto och ingen molnsynkronisering. Användningsstatistik innehåller aldrig något läkemedelsnamn eller symtom – mer i <a href="/sv/privacy">integritetspolicyn</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-sv&mt=8" class="btn btn-primary">Hämta i App Store</a></p>
+
+
+    <h2>Frågor</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Vad står i rapporten?</h3>
+        
+        <p>Doser och intervallen mellan dem, viktkurvan, biverkningar med svårighetsgrad, injektionsställen, öppnade flaskor och frågorna du skrev ner: över den period du väljer.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Vilka perioder kan jag välja?</h3>
+        
+        <p>30, 90 eller 180 dagar. Nittio brukar motsvara tiden mellan besöken; den längre är för ett första besök hos en ny kliniker.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Kan jag utelämna avsnitt?</h3>
+        
+        <p>Ja. Varje avsnitt är en knapp, så en rapport kan bestå av bara doser och vikt om det är det besöket handlar om.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Kan jag skicka den före besöket?</h3>
+        
+        <p>PDF:en är en fil i din telefon. Skriv ut den, mejla den, lägg upp den i en portal: det är ditt beslut, fattat efter att du har sett den.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Laddas något upp för att skapa den?</h3>
+        
+        <p>Nej. Den skapas på enheten från uppgifter som redan finns där. Inget skickas någonstans för att ta fram den.</p>
+        
+      </div>
+    </div>
+
+    <h2>Läs vidare</h2>
+    <p>Guider med namngivna källor: <a href="/sv/articles/glp1-side-effects">hantera vanliga biverkningar</a>, <a href="/sv/articles/what-is-glp1">vad GLP-1 faktiskt är</a> och <a href="/sv/articles/glp1-injection-sites">var du injicerar och hur du roterar</a> och <a href="/sv/articles/glp1-appointment-checklist">vad du ska ha redo inför själva besöket</a>.</p>
+    <p>Mer i Dozify: <a href="/sv/glp1-side-effect-journal">biverkningsdagboken</a> och <a href="/sv/glp1-weight-tracker">viktkurvan</a>.</p>
+    <p>Nytt i Dozify: fota en måltid så gör appen ett utkast med kalorier och protein per livsmedel som du kan redigera – <a href="/sv/ai-calorie-tracker">AI-kaloriräkning</a> (Premium) – och dagliga GLP-1-tabletter har fått en egen <a href="/sv/glp1-pill-tracker">tablettlogg</a>.</p>
+
+    
+    
+    
+    
+
+    <p class="meta">Dozify är ett verktyg för att föra logg, inte en medicinteknisk produkt. Appen rekommenderar inga doser och ger inga medicinska råd. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® och Rybelsus® är varumärken som tillhör respektive ägare; Dozify har ingen koppling till dessa företag.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/sv" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Juridiskt</h3>
+          
+          <a href="/sv/privacy">Integritetspolicy</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/sv/terms">Villkor</a>
+          
+          <a href="/sv/editorial-policy">Redaktionell policy</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Loggning</h3>
+          
+          <a href="/sv/glp1-shot-tracker">GLP-1-sprutlogg</a>
+          
+          <a href="/sv/injection-site-tracker">Logg för injektionsställen</a>
+          
+          <a href="/sv/glp1-weight-tracker">GLP-1-viktlogg</a>
+          
+          <a href="/sv/glp1-side-effect-journal">Biverkningsdagbok</a>
+          
+          <a href="/sv/glp1-vial-tracker">Flasklogg</a>
+          
+          <a href="/sv/private-glp1-tracker">Privat GLP-1-tracker</a>
+          
+          <a href="/sv/glp1-appointment-report">Läkarrapport</a>
+          
+          <a href="/sv/switch-glp1-tracker-app">Byt från en annan app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Hjälp</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glp1-appointment-report" hreflang="en" lang="en">English</a> · <a href="/tr/doktor-raporu" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glp1-appointment-report" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glp1-appointment-report" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/glp1-appointment-report" hreflang="da" lang="da">Dansk</a> · <a href="/de/glp1-appointment-report" hreflang="de" lang="de">Deutsch</a> · <a href="/el/glp1-appointment-report" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/glp1-appointment-report" hreflang="es" lang="es">Español</a> · <a href="/fi/glp1-appointment-report" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/glp1-appointment-report" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glp1-appointment-report" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glp1-appointment-report" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glp1-appointment-report" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/glp1-appointment-report" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/glp1-appointment-report" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/glp1-appointment-report" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glp1-appointment-report" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glp1-appointment-report" hreflang="pt" lang="pt">Português</a> · <a href="/ru/glp1-appointment-report" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glp1-appointment-report" hreflang="sv" lang="sv" aria-current="page">Svenska</a> · <a href="/uk/glp1-appointment-report" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glp1-appointment-report" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

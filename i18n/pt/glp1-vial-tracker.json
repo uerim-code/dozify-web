@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "Registo de frascos GLP-1: saiba antes de acabar",
+  "description": "Doses restantes, dias desde a abertura e data de validade num só cartão. As duas formas de um frasco acabar são previsíveis; o Dozify conta-as por si."
+ },
+ "t": {
+  "Vial tracking": "Registo de frascos",
+  "Know when the vial runs out before it does": "Saiba quando o frasco vai acabar antes de acabar",
+  "Remaining volume, doses left, and the expiry date: on one card, before the weekend the pharmacy is closed.": "Volume restante, doses restantes e data de validade: num só cartão, antes do fim de semana em que a farmácia está fechada.",
+  "A vial ends in two ways: it empties, or it expires. Both are predictable weeks ahead and both are usually noticed the evening a dose is due.": "Um frasco acaba de duas formas: esvazia ou expira. Ambas são previsíveis com semanas de antecedência, e ambas costumam ser notadas na noite em que a dose está marcada.",
+  "What is left, in doses": "O que resta, em doses",
+  "Remaining millilitres and what that means in injections at your prescribed amount.": "Mililitros restantes e o que isso significa em injeções na quantidade prescrita.",
+  "Two clocks, not one": "Dois prazos, não um",
+  "Days since opening and the manufacturer's expiry, whichever comes first: with the storage rules for that medication.": "Dias desde a abertura e a validade do fabricante, o que chegar primeiro: com as regras de conservação desse medicamento.",
+  "Time out of the fridge": "Tempo fora do frigorífico",
+  "Log a storage event when a vial spends the afternoon in a bag. Travel mode is for the days that are not ordinary.": "Registe um evento de conservação quando um frasco passa a tarde numa mala. O modo de viagem é para os dias que não são normais.",
+  "People on multi-dose pens and vials, where one container covers several weeks and the end of it arrives quietly. It matters most to anyone who travels with their medication, or who has stood in front of an open fridge on a Sunday wondering whether what is in there is still good.": "Pessoas com canetas e frascos multidose, em que um recipiente dá para várias semanas e o fim chega discretamente. Importa sobretudo a quem viaja com a medicação, ou a quem já esteve diante do frigorífico aberto num domingo a pensar se o que lá está ainda está bom.",
+  "Dozify counts what you tell it: doses drawn, the day you opened the vial and the expiry printed on it. It cannot see the liquid, so it cannot tell you whether a particular vial is still fit to use: that judgement belongs to the storage instructions for your medication and, when there is any doubt, to your pharmacist. The in-use limits it shows come from those instructions, not from us.": "O Dozify conta o que lhe diz: as doses retiradas, o dia em que abriu o frasco e a validade nele impressa. Não consegue ver o líquido, por isso não lhe pode dizer se um determinado frasco ainda pode ser usado: essa avaliação cabe às instruções de conservação do seu medicamento e, em caso de dúvida, ao seu farmacêutico. Os limites de utilização que mostra vêm dessas instruções, não de nós.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Descarregar na App Store</a>",
+  "Does it count doses automatically?": "Conta as doses automaticamente?",
+  "It subtracts each injection you log from the vial you logged it against, so the remaining amount follows your own entries without a separate step.": "Subtrai cada injeção que regista do frasco a que a associou, por isso a quantidade restante acompanha os seus próprios registos sem um passo extra.",
+  "Where does the in-use limit come from?": "De onde vem o limite de utilização?",
+  "From the storage instructions for that medication: how long it may be kept once opened, and at what temperature. Dozify shows the one that applies and counts the days; it does not invent a number.": "Das instruções de conservação desse medicamento: quanto tempo pode ser guardado depois de aberto, e a que temperatura. O Dozify mostra o que se aplica e conta os dias; não inventa um número.",
+  "What if the pen spends a day out of the fridge?": "E se a caneta passar um dia fora do frigorífico?",
+  "Log it as a storage event, with how long and roughly how warm. It stays on the vial's record so it is there when you decide, or when you ask a pharmacist.": "Registe-o como um evento de conservação, com a duração e a temperatura aproximada. Fica no histórico do frasco para estar lá quando decidir, ou quando perguntar a um farmacêutico.",
+  "Will it warn me before a vial runs out?": "Avisa-me antes de um frasco acabar?",
+  "It shows doses remaining and days remaining on the card, so the end is visible weeks ahead rather than the evening a dose is due.": "Mostra no cartão as doses restantes e os dias restantes, para que o fim seja visível com semanas de antecedência e não na noite em que a dose está marcada.",
+  "Does this work for pens as well as vials?": "Funciona com canetas além de frascos?",
+  "Yes. A pen with several doses in it is tracked the same way: what is left, how long it has been open, and when it expires.": "Sim. Uma caneta com várias doses é registada da mesma forma: o que resta, há quanto tempo está aberta e quando expira.",
+  "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/storing-glp1-pens\">what each label says about storing a pen</a> and <a href=\"/en/articles/travelling-with-a-glp1-pen\">what the rules say about flying with one</a>.": "Guias, com as fontes indicadas: <a href=\"/en/articles/how-to-inject-glp1\">como injetar com uma caneta, passo a passo</a>, <a href=\"/en/articles/glp1-injection-sites\">onde injetar e como alternar</a> e <a href=\"/en/articles/what-is-glp1\">o que é realmente o GLP-1</a>, <a href=\"/en/articles/storing-glp1-pens\">o que diz cada folheto sobre conservar uma caneta</a> e <a href=\"/en/articles/travelling-with-a-glp1-pen\">o que dizem as regras sobre viajar de avião com uma</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Noutras partes do Dozify: <a href=\"/en/glp1-shot-tracker\">o registo de injeções</a> e <a href=\"/en/glp1-appointment-report\">o relatório para o médico</a>."
+ }
+}

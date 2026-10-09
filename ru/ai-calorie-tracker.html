@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Счётчик калорий по фото с ИИ для GLP-1: калории и белок</title>
+  <meta property="og:url" content="https://dozify.app/ru/ai-calorie-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Сфотографируйте еду, и Dozify посчитает калории и белок по каждому блюду на вашем языке. Поправьте и сохраните рядом с дозами GLP-1 и весом. Premium.">
+  <meta property="og:title" content="Счётчик калорий по фото с ИИ для GLP-1: калории и белок">
+  <meta property="og:description" content="Сфотографируйте еду, и Dozify посчитает калории и белок по каждому блюду на вашем языке. Поправьте и сохраните рядом с дозами GLP-1 и весом. Premium.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — приватный трекер уколов GLP-1 и веса для iPhone">
+  <meta name="twitter:title" content="Счётчик калорий по фото с ИИ для GLP-1: калории и белок">
+  <meta name="twitter:description" content="Сфотографируйте еду, и Dozify посчитает калории и белок по каждому блюду на вашем языке. Поправьте и сохраните рядом с дозами GLP-1 и весом. Premium.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — приватный трекер уколов GLP-1 и веса для iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="ru_RU">
+
+  <link rel="canonical" href="https://dozify.app/ru/ai-calorie-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/ai-calorie-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/fotograftan-kalori-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/ai-calorie-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/ai-calorie-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/ai-calorie-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/ai-calorie-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/ai-calorie-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/ai-calorie-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/ai-calorie-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/ai-calorie-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/ai-calorie-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/ai-calorie-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/ai-calorie-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/ai-calorie-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/ai-calorie-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/ai-calorie-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/ai-calorie-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/ai-calorie-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/ru",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "ru"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/ru",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Отмечайте уколы и таблетки GLP-1, чередуйте места инъекций, следите за весом и побочками, считайте калории и белок по фото с ИИ. Для iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "ru"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/ru/ai-calorie-tracker#webpage",
+        "url": "https://dozify.app/ru/ai-calorie-tracker",
+        "name": "Счётчик калорий по фото с ИИ для GLP-1: калории и белок",
+        "description": "Сфотографируйте еду, и Dozify посчитает калории и белок по каждому блюду на вашем языке. Поправьте и сохраните рядом с дозами GLP-1 и весом. Premium.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "ru",
+        "breadcrumb": {
+          "@id": "https://dozify.app/ru/ai-calorie-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Насколько точен подсчёт калорий по фото?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Это оценка, и приложение прямо так её и называет. Размер порции, жир при готовке и скрытые ингредиенты сложно определить по картинке. Поэтому результат — черновик, который вы правите перед сохранением, а не цифра, сразу записанная в журнал."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Фото еды с ИИ — бесплатно?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Нет, это часть Premium вместе с кривой расчётного уровня препарата и отчётом для врача. Учёт доз и напоминания бесплатны навсегда."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Хранит ли Dozify мои фото еды?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Нет. Фото отправляется через сервер Dozify в Google Gemini для анализа и не хранится приложением. Перед первым использованием у вас спросят согласие."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "На каком языке приходит ответ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "На том, который выбран в приложении. Dozify доступен на 22 языках, и блюда возвращаются с названиями на этом языке, так что еда на тарелке называется так, как назвали бы её вы."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Работает ли это офлайн?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Для анализа фото нужно подключение к интернету. Остальной Dozify, включая учёт доз и напоминания, работает офлайн."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Скажет ли он, сколько мне нужно есть?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Нет. Он записывает то, что вы съели. Нормы калорий и белка вы согласуете с врачом; руководство в приложении объясняет, откуда берутся распространённые диапазоны белка и когда они не подходят."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/ru/ai-calorie-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://dozify.app/ru"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Фото еды с ИИ",
+            "item": "https://dozify.app/ru/ai-calorie-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/ru" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Возможности</a>
+        
+        <a href="/#privacy">Конфиденциальность</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/ru">Главная</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Фото еды с ИИ</span>
+      
+    </div>
+    <h1>Счётчик калорий и белка с ИИ для жизни на GLP-1</h1>
+    
+    <p class="meta">Сфотографируйте еду, и Dozify подготовит черновик калорий и белка для каждого блюда на вашем языке. Вы проверяете, исправляете и сохраняете — прямо рядом с дозами и весом.</p>
+    
+
+    <h2>Тарелки меньше — вопрос другой</h2>
+    <p>На препаратах GLP-1 многие замечают, что просто едят меньше. Когда порции уменьшаются, вопрос смещается с того, сколько на тарелке, на то, что на ней, и белок — это цифра, которая снова и снова всплывает в разговорах о лечении. Взвешивать и вбивать каждый приём пищи — привычка, которой хватает примерно на неделю. Фото занимает несколько секунд, и именно поэтому существует эта функция.</p>
+
+    
+    
+
+    <h2>Как это работает</h2>
+    <h3>Сфотографируйте или выберите фото</h3>
+    <p>Снимите тарелку или выберите снимок из медиатеки. В первый раз Dozify объяснит, куда отправляется фото, и попросит вашего согласия, прежде чем что-либо отправить.</p>
+    <h3>Калории и белок — по каждому блюду</h3>
+    <p>ИИ перечисляет, что видит на тарелке, с расчётными калориями и белком для каждого блюда — на том языке, который выбран в приложении. Dozify доступен на 22 языках.</p>
+    <h3>Черновик, а не приговор</h3>
+    <p>Каждый результат приходит как редактируемый черновик с одной и той же пометкой: «Это оценка — проверьте перед сохранением». Измените порцию, добавьте соус, который ИИ пропустил, уберите то, чего на тарелке не было. Ничего не попадает в журнал, пока вы не нажмёте «Сохранить».</p>
+    <h3>Рядом с лечением, а не в другом приложении</h3>
+    <p>Сохранённые приёмы пищи попадают в тот же дневник еды и воды, что и весь ваш день, с текущей суммой белка — внутри приложения, где уже хранятся ваши дозы и вес. Одно место вместо трёх.</p>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Dozify анализирует фото еды: идёт сканирование салата с помощью ИИ"></div></figure>
+      
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Результат ИИ: список всех блюд на тарелке с калориями и белком, готовый к редактированию"></div></figure>
+      
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Оценка по фото с ИИ в форме питания в виде редактируемого черновика: калории, белок и пометка о погрешности"></div></figure>
+      
+    </div>
+
+    <h2>Что приложение говорит о белке</h2>
+    <p>Руководство по питанию внутри Dozify приводит диапазон 1,2–1,6 г белка на кг массы тела и прямо говорит, откуда он взят: из рекомендаций по питанию при снижении веса, а не из инструкции к препарату. Если у вас болезнь почек, норму белка определяет врач, и она может быть ниже. Руководство также советует распределять белок на три-четыре приёма пищи, а не съедать его за один раз, и называет силовые упражнения два-три раза в неделю привычкой, которая стабильно помогает сохранить мышечную массу. Dozify не назначает диету; цифры, которые подходят именно вам, даёт ваш врач или диетолог.</p>
+
+    
+    
+
+    <h2>Где его границы</h2>
+    <p>Это оценка по картинке. На фото не видно масла на сковороде, сахара в заправке или того, что спрятано под рисом, а размер порции сверху оценить труднее всего. Относитесь к цифрам как к отправной точке, которую вы поправляете, а не как к измерению. Для анализа нужно подключение к интернету, есть дневной лимит на пользователя, и функция входит в Premium. Приём пищи всегда можно ввести вручную.</p>
+
+    
+    
+
+    <h2>Куда отправляется фото</h2>
+    <p>В отличие от остальных ваших записей, эта функция отправляет что-то за пределы телефона, поэтому стоит быть точными. Выбранное фото передаётся по зашифрованному соединению через собственный сервер Dozify в Google Gemini, а оценка возвращается на ваш телефон. Dozify не хранит фото. Ваши дозы, вес, симптомы и другие медицинские записи, как всегда, остаются на устройстве, а если вы не пользуетесь этой функцией, ни одно фото не покидает телефон. Все подробности — в разделе 5 <a href="/ru/privacy">политики конфиденциальности</a>, а общая картина — на <a href="/ru/private-glp1-tracker">странице о приватном трекере</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-ai-calorie-tracker-ru&mt=8" class="btn btn-primary">Загрузите в App Store</a></p>
+
+
+    <h2>Вопросы</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Насколько точен подсчёт калорий по фото?</h3>
+        
+        <p>Это оценка, и приложение прямо так её и называет. Размер порции, жир при готовке и скрытые ингредиенты сложно определить по картинке. Поэтому результат — черновик, который вы правите перед сохранением, а не цифра, сразу записанная в журнал.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Фото еды с ИИ — бесплатно?</h3>
+        
+        <p>Нет, это часть Premium вместе с <a href="/ru/glp1-medication-level">кривой расчётного уровня препарата</a> и отчётом для врача. Учёт доз и напоминания бесплатны навсегда.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Хранит ли Dozify мои фото еды?</h3>
+        
+        <p>Нет. Фото отправляется через сервер Dozify в Google Gemini для анализа и не хранится приложением. Перед первым использованием у вас спросят согласие.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>На каком языке приходит ответ?</h3>
+        
+        <p>На том, который выбран в приложении. Dozify доступен на 22 языках, и блюда возвращаются с названиями на этом языке, так что еда на тарелке называется так, как назвали бы её вы.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Работает ли это офлайн?</h3>
+        
+        <p>Для анализа фото нужно подключение к интернету. Остальной Dozify, включая учёт доз и напоминания, работает офлайн.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Скажет ли он, сколько мне нужно есть?</h3>
+        
+        <p>Нет. Он записывает то, что вы съели. Нормы калорий и белка вы согласуете с врачом; руководство в приложении объясняет, откуда берутся распространённые диапазоны белка и когда они не подходят.</p>
+        
+      </div>
+    </div>
+
+    <h2>Читать дальше</h2>
+    <p>Статьи со ссылками на источники: <a href="/ru/articles/what-is-glp1">что такое GLP-1 на самом деле</a>, <a href="/ru/articles/hydration-on-a-glp1">вода на GLP-1</a> и <a href="/ru/articles/measurements-vs-scale">когда сантиметр показывает прогресс, а весы — нет</a>.</p>
+    <p>Ещё в Dozify: <a href="/ru/glp1-weight-tracker">трекер веса</a>, <a href="/ru/glp1-medication-level">кривая расчётного уровня препарата</a>, <a href="/ru/glp1-pill-tracker">трекер таблеток GLP-1</a> и <a href="/ru/glp1-side-effect-journal">дневник побочных эффектов</a>.</p>
+
+    
+    
+    
+
+    <p class="meta">Dozify — это инструмент для учёта, а не медицинское изделие. Приложение не рекомендует дозы и не даёт медицинских советов. Калории и белок по фото — это оценка. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® и Rybelsus® — товарные знаки их правообладателей; Google Gemini — товарный знак Google LLC; Dozify не связан с этими компаниями.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/ru" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Правовая информация</h3>
+          
+          <a href="/ru/privacy">Политика конфиденциальности</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/ru/terms">Условия</a>
+          
+          <a href="/ru/editorial-policy">Редакционная политика</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Учёт</h3>
+          
+          <a href="/ru/glp1-shot-tracker">Трекер уколов GLP-1</a>
+          
+          <a href="/ru/injection-site-tracker">Трекер мест инъекций</a>
+          
+          <a href="/ru/glp1-weight-tracker">Трекер веса на GLP-1</a>
+          
+          <a href="/ru/glp1-side-effect-journal">Дневник побочных эффектов</a>
+          
+          <a href="/ru/glp1-vial-tracker">Трекер флаконов</a>
+          
+          <a href="/ru/private-glp1-tracker">Приватный трекер GLP-1</a>
+          
+          <a href="/ru/glp1-appointment-report">Отчёт для врача</a>
+          
+          <a href="/ru/switch-glp1-tracker-app">Переход из другого приложения</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Помощь</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/ai-calorie-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/fotograftan-kalori-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/ai-calorie-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/ai-calorie-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/ai-calorie-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/ai-calorie-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/ai-calorie-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/ai-calorie-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/ai-calorie-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/ai-calorie-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/ai-calorie-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/ai-calorie-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/ai-calorie-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/ai-calorie-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/ai-calorie-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/ai-calorie-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/ai-calorie-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/ai-calorie-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/ai-calorie-tracker" hreflang="ru" lang="ru" aria-current="page">Русский</a> · <a href="/sv/ai-calorie-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/ai-calorie-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/ai-calorie-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

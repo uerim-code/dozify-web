@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "متتبع حقن GLP-1 — لا تفوّت يوم الحقنة أبداً",
+  "description": "الحقنة الأسبوعية تحتاج إلى تذكير أسبوعي. يعرض Dozify الجرعة التالية على الشاشة الأولى، ويسجّل كل جرعة، ويحفظ سجلاً يمكنك الرجوع إليه."
+ },
+ "t": {
+  "Shot tracker": "متتبع الحقن",
+  "Never wonder which day your shot is": "لا تتساءل بعد اليوم عن يوم حقنتك",
+  "A weekly medication asks you to remember which day of the week it is. Dozify remembers instead.": "الدواء الأسبوعي يطلب منك أن تتذكّر يوم الأسبوع. Dozify يتذكّر بدلاً منك.",
+  "Weekly injections are easy to get wrong in ordinary ways. A busy Thursday, a trip, a week where two things move, and now you are counting backwards from a half-remembered date, unsure whether you took it.": "من السهل الخطأ في الحقن الأسبوعية بطرق عادية جداً. خميس مزدحم، أو رحلة، أو أسبوع يتغيّر فيه أمران، وها أنت تعدّ إلى الوراء من تاريخ تتذكّره بالكاد، غير متأكد إن كنت قد أخذتها.",
+  "The next shot, on the first screen": "الحقنة التالية، على الشاشة الأولى",
+  "Opening the app answers the question: which medication, which day, how many days away.": "فتح التطبيق يجيب عن السؤال: أي دواء، وأي يوم، وكم يوماً تبقّى.",
+  "A reminder that matches your schedule": "تذكير يتوافق مع جدولك",
+  "Weekly, daily, every few days, or specific dates: set once, at the time you actually inject.": "أسبوعياً أو يومياً أو كل بضعة أيام أو في تواريخ محددة: يُضبط مرة واحدة، على الوقت الذي تحقن فيه فعلاً.",
+  "A log you can look back through": "سجل يمكنك الرجوع إليه",
+  "Every dose with its date, its amount and the site you used. Nothing to reconstruct later.": "كل جرعة بتاريخها وكميتها والموضع الذي استخدمته. لا شيء تعيد بناءه لاحقاً.",
+  "Anyone whose week is not identical to the last one. A weekly medication assumes a fixed Thursday; travel, a shift pattern, a hospital appointment or a single late night all move it. It is also for the person who has stood in the kitchen trying to work out whether Tuesday was this week or last: the log answers that in one look rather than by reconstruction.": "لكل من لا يشبه أسبوعه الأسبوع الذي قبله. الدواء الأسبوعي يفترض خميساً ثابتاً؛ والسفر، أو نظام المناوبات، أو موعد في المستشفى، أو ليلة متأخرة واحدة كلها تحرّكه. وهو أيضاً لمن وقف في المطبخ يحاول أن يتذكّر إن كان الثلاثاء هذا الأسبوع أم الذي قبله: السجل يجيب عن ذلك بنظرة واحدة لا بإعادة البناء.",
+  "Dozify does not decide your schedule, your dose or what to do about a dose you missed, those are your prescriber's, and the app records the plan rather than proposing one. A reminder is an iOS notification: if notifications are off for Dozify, or the phone is in a focus mode that silences them, it will not appear. And a log is a record of what you entered, not proof of what went into your body.": "لا يقرّر Dozify جدولك أو جرعتك أو ما تفعله بشأن جرعة فائتة، فهذه قرارات طبيبك، والتطبيق يسجّل الخطة ولا يقترح خطة. التذكير إشعار من iOS: إذا كانت الإشعارات معطّلة لـ Dozify، أو كان الهاتف في وضع تركيز يُسكتها، فلن يظهر. والسجل سجل لما أدخلته، لا دليل على ما دخل جسمك.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-shot-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-shot-tracker-en&mt=8\" class=\"btn btn-primary\">حمّله من App Store</a>",
+  "Can I set the reminder for a different day than the one I started on?": "هل يمكنني ضبط التذكير على يوم مختلف عن اليوم الذي بدأت فيه؟",
+  "Yes. The schedule is yours to set and change: weekly on any day, daily, every few days, or specific dates. Changing it does not rewrite the doses you have already logged.": "نعم. الجدول لك تضبطه وتغيّره: أسبوعياً في أي يوم، أو يومياً، أو كل بضعة أيام، أو في تواريخ محددة. وتغييره لا يعيد كتابة الجرعات التي سجّلتها بالفعل.",
+  "What if I inject a day late?": "ماذا لو حقنت متأخراً يوماً؟",
+  "Log it on the day it happened; the entry takes the date and time you give it. Dozify shows the interval that actually occurred rather than assuming the planned one. What to do about a late or missed dose is a question for your prescriber, and the app does not answer it.": "سجّلها في اليوم الذي حدثت فيه؛ فالإدخال يأخذ التاريخ والوقت اللذين تعطيه إياهما. يُظهر Dozify الفاصل الذي حدث فعلاً بدلاً من افتراض الفاصل المخطّط. أما ما تفعله بشأن جرعة متأخرة أو فائتة فسؤال لطبيبك، والتطبيق لا يجيب عنه.",
+  "Do reminders work if the phone is offline?": "هل تعمل التذكيرات إذا كان الهاتف دون إنترنت؟",
+  "Yes. They are scheduled on the device, so no connection is needed for one to arrive. They do need notification permission for Dozify to be on.": "نعم. إنها مجدولة على الجهاز، لذا لا حاجة إلى اتصال لكي تصل. لكنها تحتاج إلى أن يكون إذن الإشعارات لـ Dozify مفعّلاً.",
+  "Can I track more than one medication?": "هل يمكنني تتبّع أكثر من دواء؟",
+  "Yes, as many as you need, each with its own schedule and dose. Every logged injection belongs to one of them.": "نعم، بقدر ما تحتاج، ولكل منها جدوله وجرعته. وكل حقنة مسجّلة تنتمي إلى واحد منها.",
+  "Does the app tell me my next dose amount?": "هل يخبرني التطبيق بكمية جرعتي التالية؟",
+  "No. It shows the dose you entered for that medication and when it is next due. If your doctor changes the amount, you change it in the app. Dozify never proposes a titration.": "لا. يعرض الجرعة التي أدخلتها لذلك الدواء وموعدها التالي. إذا غيّر طبيبك الكمية، فأنت تغيّرها في التطبيق. لا يقترح Dozify أي معايرة أبداً.",
+  "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/missed-glp1-dose\">what the leaflet says about a late dose</a> and <a href=\"/en/articles/glp1-reminders-that-work\">moving your shot day</a>.": "أدلة تذكر مصادرها: <a href=\"/en/articles/how-to-inject-glp1\">كيف تحقن القلم، خطوة بخطوة</a>، و<a href=\"/en/articles/glp1-injection-sites\">أين تحقن وكيف تبدّل الموضع</a>، و<a href=\"/en/articles/what-is-glp1\">ما هو GLP-1 فعلاً</a>، و<a href=\"/en/articles/missed-glp1-dose\">ما تقوله النشرة عن الجرعة المتأخرة</a>، و<a href=\"/en/articles/glp1-reminders-that-work\">تغيير يوم الحقنة</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/injection-site-tracker\">site rotation</a>, <a href=\"/en/glp1-vial-tracker\">vial tracking</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "في أماكن أخرى من Dozify: <a href=\"/en/injection-site-tracker\">تبديل المواضع</a>، و<a href=\"/en/glp1-vial-tracker\">تتبّع القوارير</a>، و<a href=\"/en/glp1-appointment-report\">تقرير الطبيب</a>."
+ }
+}

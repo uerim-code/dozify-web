@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "title": "Υποστήριξη Dozify — βοήθεια, επικοινωνία και συνδρομές",
+  "description": "Απαντήσεις για υπενθυμίσεις, εισαγωγές, αντίγραφα ασφαλείας, Premium και ακύρωση συνδρομής — και πώς να μιλήσετε με άνθρωπο όταν η απάντηση δεν είναι εδώ."
+ },
+ "t": {
+  "← Back to home": "← Πίσω στην αρχική",
+  "We typically reply within 24-48 hours.": "Συνήθως απαντάμε μέσα σε 24-48 ώρες.",
+  "Email Support": "Υποστήριξη μέσω email",
+  "For general questions, bug reports, or feature requests, contact us at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.": "Για γενικές ερωτήσεις, αναφορές σφαλμάτων ή αιτήματα λειτουργιών, επικοινωνήστε μαζί μας στο <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.",
+  "Privacy & KVKK": "Απόρρητο & KVKK",
+  "For data requests, deletion, or KVKK applications, write to <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.": "Για αιτήματα σχετικά με δεδομένα, διαγραφή ή αιτήσεις KVKK, γράψτε στο <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.",
+  "Frequently Asked Questions": "Συχνές ερωτήσεις",
+  "Where is my data stored?": "Πού αποθηκεύονται τα δεδομένα μου;",
+  "All your data (medications, injections, weight, side effects) is stored only on your phone, in an encrypted local database. Nothing is uploaded to any server. Dozify has no cloud.": "Όλα τα δεδομένα σας (φάρμακα, ενέσεις, βάρος, παρενέργειες) αποθηκεύονται μόνο στο κινητό σας, σε μια κρυπτογραφημένη τοπική βάση δεδομένων. Τίποτα δεν ανεβαίνει σε κανέναν διακομιστή. Το Dozify δεν έχει cloud.",
+  "If I switch phones, will I lose my data?": "Αν αλλάξω κινητό, θα χάσω τα δεδομένα μου;",
+  "Not if you back up first. Go to Settings → Backup to create a password-protected, encrypted backup file, then restore it on your new device from the same screen. There's still no cloud sync: the backup file itself is yours to keep (Files, email, AirDrop, etc.).": "Όχι αν κρατήσετε πρώτα αντίγραφο ασφαλείας. Μεταβείτε στις Ρυθμίσεις → «Αντίγραφα και επαναφορά» για να δημιουργήσετε ένα κρυπτογραφημένο αρχείο αντιγράφου ασφαλείας προστατευμένο με κωδικό, και μετά επαναφέρετέ το στη νέα σας συσκευή από την ίδια οθόνη. Εξακολουθεί να μην υπάρχει συγχρονισμός στο cloud: το ίδιο το αρχείο αντιγράφου ασφαλείας το κρατάτε εσείς (Αρχεία, email, AirDrop κ.λπ.).",
+  "How do I cancel Premium?": "Πώς ακυρώνω το Premium;",
+  "Manage or cancel your subscription in the App Store (Settings → Apple ID → Subscriptions). Cancelling stops future renewals: you keep Premium until the end of the period you already paid for.": "Διαχειριστείτε ή ακυρώστε τη συνδρομή σας στο App Store (Ρυθμίσεις → Apple ID → Συνδρομές). Η ακύρωση σταματά τις μελλοντικές ανανεώσεις: κρατάτε το Premium μέχρι το τέλος της περιόδου που έχετε ήδη πληρώσει.",
+  "Will my Premium work on another device?": "Θα λειτουργεί το Premium μου σε άλλη συσκευή;",
+  "How do I add the Ozempic® / Wegovy® pen form?": "Πώς προσθέτω τη μορφή πένας του Ozempic® / Wegovy®;",
+  "Go to Medications → Add → select Ozempic or Wegovy → choose \"Pre-filled dose pen\" → set your prescribed dose.": "Μεταβείτε στο «Τα φάρμακά μου» → «Προσθήκη» → επιλέξτε Ozempic ή Wegovy → επιλέξτε «Προγεμισμένη πένα» → ορίστε τη συνταγογραφημένη δόση σας.",
+  "Why can I pick Mounjaro® as both a pen and a vial?": "Γιατί μπορώ να επιλέξω το Mounjaro® και ως πένα και ως φιαλίδιο;",
+  "Mounjaro comes as a pre-filled KwikPen in some markets and as a multi-dose vial in others. Dozify offers both forms so you can pick the one that matches the product you were prescribed.": "Το Mounjaro διατίθεται ως προγεμισμένη πένα KwikPen σε ορισμένες αγορές και ως φιαλίδιο πολλαπλών δόσεων σε άλλες. Το Dozify προσφέρει και τις δύο μορφές ώστε να επιλέξετε αυτή που αντιστοιχεί στο προϊόν που σας συνταγογραφήθηκε.",
+  "My reminders are not working: what should I do?": "Οι υπενθυμίσεις μου δεν λειτουργούν: τι να κάνω;",
+  "Open your phone Settings → Notifications → Dozify → enable notifications. Also check that \"Do Not Disturb\" or a Focus mode is not silencing Dozify.": "Ανοίξτε τις Ρυθμίσεις του κινητού σας → Γνωστοποιήσεις → Dozify → ενεργοποιήστε τις γνωστοποιήσεις. Ελέγξτε επίσης ότι το «Μην ενοχλείτε» ή κάποια λειτουργία Εστίασης δεν σιγά το Dozify.",
+  "How do I delete all my data?": "Πώς διαγράφω όλα τα δεδομένα μου;",
+  "Settings → Delete My Data → choose to delete selected categories or everything. Uninstalling the app also permanently deletes all local data.": "Ρυθμίσεις → «Διαγραφή δεδομένων» → επιλέξτε διαγραφή συγκεκριμένων κατηγοριών ή όλων. Η απεγκατάσταση της εφαρμογής διαγράφει επίσης οριστικά όλα τα τοπικά δεδομένα.",
+  "How do I create a PDF report?": "Πώς δημιουργώ αναφορά PDF;",
+  "Go to Reports → New Report → choose summary, detailed, or doctor-visit format → select date range → Generate. The PDF can be shared by email, AirDrop, or any other app.": "Μεταβείτε στις «Αναφορές PDF» → «Νέα αναφορά» → επιλέξτε «Συνοπτική αναφορά», «Αναλυτική αναφορά» ή «Αναφορά για επίσκεψη» → επιλέξτε το χρονικό διάστημα → «Δημιούργησε αναφορά». Το PDF μπορεί να κοινοποιηθεί με email, AirDrop ή οποιαδήποτε άλλη εφαρμογή.",
+  "Does the app give medical advice?": "Δίνει η εφαρμογή ιατρικές συμβουλές;",
+  "No. Dozify is a tracking tool only. It does not recommend doses or interpret medical results. Always consult your doctor or pharmacist for clinical decisions.": "Όχι. Το Dozify είναι μόνο εργαλείο καταγραφής. Δεν προτείνει δόσεις και δεν ερμηνεύει ιατρικά αποτελέσματα. Συμβουλεύεστε πάντα τον γιατρό ή τον φαρμακοποιό σας για κλινικές αποφάσεις.",
+  "Yes. On your new device, open the Premium screen and tap \"Restore purchases\" while signed into the same Apple ID you subscribed with.": "Ναι. Στη νέα σας συσκευή, ανοίξτε την οθόνη Premium και πατήστε «Επαναφορά αγορών» ενώ είστε συνδεδεμένοι με το ίδιο Apple ID με το οποίο κάνατε τη συνδρομή."
+ }
+}

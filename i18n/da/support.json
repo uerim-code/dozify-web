@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "title": "Dozify-support – hjælp, kontakt og abonnementer",
+  "description": "Svar om påmindelser, import, sikkerhedskopier, Premium og opsigelse af et abonnement – plus hvordan du får fat i et menneske, når svaret ikke står her."
+ },
+ "t": {
+  "← Back to home": "← Tilbage til forsiden",
+  "We typically reply within 24-48 hours.": "Vi svarer typisk inden for 24-48 timer.",
+  "Email Support": "Support via e-mail",
+  "For general questions, bug reports, or feature requests, contact us at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.": "Ved generelle spørgsmål, fejlrapporter eller ønsker til funktioner kan du kontakte os på <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.",
+  "Privacy & KVKK": "Privatliv & KVKK",
+  "For data requests, deletion, or KVKK applications, write to <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.": "Ved anmodninger om data, sletning eller KVKK-henvendelser kan du skrive til <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.",
+  "Frequently Asked Questions": "Ofte stillede spørgsmål",
+  "Where is my data stored?": "Hvor gemmes mine data?",
+  "All your data (medications, injections, weight, side effects) is stored only on your phone, in an encrypted local database. Nothing is uploaded to any server. Dozify has no cloud.": "Alle dine data (lægemidler, injektioner, vægt, bivirkninger) gemmes kun på din telefon i en krypteret lokal database. Intet uploades til nogen server. Dozify har ingen cloud.",
+  "If I switch phones, will I lose my data?": "Mister jeg mine data, hvis jeg skifter telefon?",
+  "Not if you back up first. Go to Settings → Backup to create a password-protected, encrypted backup file, then restore it on your new device from the same screen. There's still no cloud sync: the backup file itself is yours to keep (Files, email, AirDrop, etc.).": "Ikke hvis du tager en sikkerhedskopi først. Gå til Indstillinger → Sikkerhedskopi og gendannelse for at oprette en adgangskodebeskyttet, krypteret sikkerhedskopifil, og gendan den så på din nye enhed fra samme skærm. Der er stadig ingen cloud-synkronisering: selve sikkerhedskopifilen er din at opbevare (Filer, e-mail, AirDrop osv.).",
+  "How do I cancel Premium?": "Hvordan opsiger jeg Premium?",
+  "Will my Premium work on another device?": "Virker min Premium på en anden enhed?",
+  "How do I add the Ozempic® / Wegovy® pen form?": "Hvordan tilføjer jeg Ozempic® / Wegovy® som pen?",
+  "Go to Medications → Add → select Ozempic or Wegovy → choose \"Pre-filled dose pen\" → set your prescribed dose.": "Gå til Min medicin → Tilføj medicin → vælg Ozempic eller Wegovy → vælg \"Færdigfyldt pen\" → angiv din ordinerede dosis.",
+  "Why can I pick Mounjaro® as both a pen and a vial?": "Hvorfor kan jeg vælge Mounjaro® både som pen og som hætteglas?",
+  "Mounjaro comes as a pre-filled KwikPen in some markets and as a multi-dose vial in others. Dozify offers both forms so you can pick the one that matches the product you were prescribed.": "Mounjaro findes som færdigfyldt KwikPen på nogle markeder og som flerdosis-hætteglas på andre. Dozify tilbyder begge former, så du kan vælge den, der passer til det produkt, du har fået ordineret.",
+  "My reminders are not working: what should I do?": "Mine påmindelser virker ikke: hvad gør jeg?",
+  "How do I delete all my data?": "Hvordan sletter jeg alle mine data?",
+  "Settings → Delete My Data → choose to delete selected categories or everything. Uninstalling the app also permanently deletes all local data.": "Indstillinger → Slet data → vælg at slette udvalgte kategorier eller det hele. Afinstallerer du appen, slettes alle lokale data også permanent.",
+  "How do I create a PDF report?": "Hvordan laver jeg en PDF-rapport?",
+  "Go to Reports → New Report → choose summary, detailed, or doctor-visit format → select date range → Generate. The PDF can be shared by email, AirDrop, or any other app.": "Gå til PDF-rapporter → Ny rapport → vælg Opsummeringsrapport, Detaljeret rapport eller Rapport til lægebesøg → vælg periode → Lav rapport. PDF'en kan deles via e-mail, AirDrop eller en hvilken som helst anden app.",
+  "Does the app give medical advice?": "Giver appen medicinsk rådgivning?",
+  "No. Dozify is a tracking tool only. It does not recommend doses or interpret medical results. Always consult your doctor or pharmacist for clinical decisions.": "Nej. Dozify er udelukkende et registreringsværktøj. Den anbefaler ikke doser og tolker ikke medicinske resultater. Spørg altid din læge eller dit apotek ved kliniske beslutninger.",
+  "Manage or cancel your subscription in the App Store (Settings → Apple ID → Subscriptions). Cancelling stops future renewals: you keep Premium until the end of the period you already paid for.": "Administrér eller opsig dit abonnement i App Store (Indstillinger → Apple-id → Abonnementer). En opsigelse stopper fremtidige fornyelser: du beholder Premium til udgangen af den periode, du allerede har betalt for.",
+  "Open your phone Settings → Notifications → Dozify → enable notifications. Also check that \"Do Not Disturb\" or a Focus mode is not silencing Dozify.": "Åbn telefonens Indstillinger → Notifikationer → Dozify → slå notifikationer til. Tjek også, at hverken \"Forstyr ikke\" eller et Fokus dæmper Dozify.",
+  "Yes. On your new device, open the Premium screen and tap \"Restore purchases\" while signed into the same Apple ID you subscribed with.": "Ja. Åbn Premium-skærmen på din nye enhed, og tryk på \"Gendan køb\", mens du er logget ind med det samme Apple-id, som du abonnerede med."
+ }
+}

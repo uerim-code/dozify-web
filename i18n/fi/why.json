@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "title": "Miksi Dozify – mitä se tekee ja mitä se ei suostu tekemään",
+  "description": "Tehty niille, joille on jo määrätty GLP-1-lääke. Se kirjaa, mitä sinä ja lääkärisi päätätte; se ei ehdota annoksia eikä tulkitse tuloksia."
+ },
+ "t": {
+  "← Back to home": "← Takaisin etusivulle",
+  "Five things this app is built around. Each one is a claim you can check against how it behaves.": "Viisi asiaa, joiden ympärille tämä sovellus on rakennettu. Jokainen on väite, jonka voit tarkistaa sen toimintaa vasten.",
+  "Your records stay on your phone": "Tietosi pysyvät puhelimessasi",
+  "Doses, weights, side effects and photos are stored in a database on your device. Usage analytics never carries a medication name or a symptom, and progress photos are never uploaded anywhere. The one photo that does leave the phone is a meal photo you choose to analyse with <a href=\"/en/ai-calorie-tracker\">AI calories</a>: it goes, after you agree, through our server to Google Gemini for the estimate and is not stored by the app. The <a href=\"/en/privacy\">privacy policy</a> lists exactly what leaves the device and why.": "Annokset, painot, sivuvaikutukset ja kuvat tallennetaan laitteesi tietokantaan. Käyttöanalytiikassa ei koskaan ole lääkkeen nimeä tai oiretta, eikä edistymiskuvia koskaan ladata minnekään. Ainoa kuva, joka lähtee puhelimesta, on ateriakuva, jonka itse päätät analysoida <a href=\"/en/ai-calorie-tracker\">tekoälykaloreilla</a>: se lähetetään suostumuksesi jälkeen palvelimemme kautta Google Gemini -palveluun arviota varten, eikä sovellus tallenna sitä. <a href=\"/en/privacy\">Tietosuojaseloste</a> luettelee tarkalleen, mitä laitteelta lähtee ja miksi.",
+  "Only what you track": "Vain se, mitä seuraat",
+  "The home screen is built from the things you said you care about: cards can be reordered, hidden, or brought back whenever you like. An app that shows everyone everything is an app nobody reads. If food matters to you, the <a href=\"/en/ai-calorie-tracker\">AI meal card</a> turns a photo into an editable calorie and protein draft; if you take a tablet, the <a href=\"/en/glp1-pill-tracker\">pill tracker</a> follows a daily rhythm.": "Aloitusnäkymä rakentuu niistä asioista, joista sanoit välittäväsi: kortteja voi järjestää uudelleen, piilottaa tai palauttaa milloin haluat. Sovellus, joka näyttää kaikille kaiken, on sovellus, jota kukaan ei lue. Jos ruoalla on sinulle merkitystä, <a href=\"/en/ai-calorie-tracker\">tekoälyn ateriakortti</a> muuttaa kuvan muokattavaksi kalori- ja proteiiniluonnokseksi; jos käytät tablettia, <a href=\"/en/glp1-pill-tracker\">tablettiseuranta</a> seuraa päivittäistä rytmiä.",
+  "Sources you can follow": "Lähteet, joita voit seurata",
+  "Every article in the education section names where it came from (MedlinePlus (NIH), FDA, NIDDK, TİTCK) and links straight to it. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "Jokainen tietoosion artikkeli kertoo, mistä se on peräisin (MedlinePlus (NIH), FDA, NIDDK, TİTCK), ja linkittää suoraan lähteeseen. Dozify on seurantatyökalu: se ei suosittele annoksia eikä tulkitse tuloksia.",
+  "Feedback goes to a person": "Palaute menee ihmiselle",
+  "Suggestions arrive as mail read by the person who writes the app, from Settings → Suggest a feature or at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. There is no ticket queue in between.": "Ehdotukset saapuvat sähköpostina, jonka lukee sovelluksen kirjoittaja, kohdasta Asetukset → Ehdota ominaisuutta tai osoitteeseen <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. Välissä ei ole tikettijonoa.",
+  "Still being worked on": "Työn alla edelleen",
+  "Fixes and additions ship as they are ready, and each release says what changed. Most of what has been added since launch started as a message from someone using the app.": "Korjaukset ja lisäykset julkaistaan, kun ne ovat valmiita, ja jokainen julkaisu kertoo, mikä muuttui. Suurin osa julkaisun jälkeen lisätystä alkoi viestinä joltakulta sovelluksen käyttäjältä.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Lataa App Storesta</a>"
+ }
+}

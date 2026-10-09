@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "title": "编辑方针：这些指南由谁撰写",
+  "description": "本站 GLP-1 指南由谁撰写、允许引用哪些来源、文章上发布、更新和来源核对三个日期各自的含义，以及发现错误时如何向我们报告。"
+ },
+ "t": {
+  "How the guides on this site are written": "本站指南是如何撰写的",
+  "Who writes them, which sources are allowed, when they were last checked, and how to tell us one of them is wrong.": "谁来撰写、允许使用哪些来源、最近一次核对是什么时候，以及如何告诉我们哪篇有误。",
+  "Who writes them": "谁来撰写",
+  "Ümit Can Erim writes and maintains Dozify and everything published here. He is a software developer, not a clinician: he builds the app and reads the primary sources, and the guides say what those sources say rather than what he thinks about them. Where a question needs clinical judgement (whether a dose is right, whether a symptom is worrying, whether a site looks normal) the guides send you to your own clinician instead of answering.": "Ümit Can Erim 编写并维护 Dozify 以及这里发布的所有内容。他是一名软件开发者，不是临床医生：他开发这款应用并阅读一手资料，指南转述的是这些资料的内容，而不是他对它们的看法。当某个问题需要临床判断时（剂量是否合适、症状是否令人担忧、注射部位看起来是否正常），指南会让你去问你自己的医生，而不是给出回答。",
+  "No clinician has reviewed this content. You will not see \"doctor reviewed\", \"medically reviewed\" or a clinician's name anywhere on this site, because there is nobody it would be true of. If that changes, the reviewer will be named on the article they reviewed, with the date they reviewed it.": "没有临床医生审核过这些内容。你在本站的任何地方都不会看到“医生审核”“医学审核”或某位临床医生的名字，因为没有任何人符合这样的说法。如果情况发生变化，审核人将在其审核的文章上署名，并注明审核日期。",
+  "Which sources are used": "使用哪些来源",
+  "In this order, and the higher one wins when two disagree:": "按以下顺序，两者有冲突时以排位更高的为准：",
+  "The manufacturer's own instructions for the medication: the leaflet in the box and the prescribing information.": "生产商自己的药物说明：药盒里的说明书和处方信息。",
+  "Regulators: the FDA, the EMA and, for Turkey, the TİTCK.": "监管机构：FDA、EMA，以及土耳其的 TİTCK。",
+  "Public health bodies: the NIH, NIDDK and MedlinePlus.": "公共卫生机构：NIH、NIDDK 和 MedlinePlus。",
+  "Peer-reviewed research and clinical guidelines.": "同行评审的研究和临床指南。",
+  "Patient information from an academic medical centre, and only where a plain-language explanation is needed that the sources above do not give. It is named in the reference list like any other source.": "学术医疗中心的患者信息，仅在需要通俗解释而上述来源没有提供时使用。它会像其他来源一样列在参考文献中。",
+  "Not used: forums, social posts, press releases, other trackers' marketing, and anything that cannot be linked to and read in full. Every article ends with the list of what it drew on, and each source is linked.": "不使用的：论坛、社交媒体帖子、新闻稿、其他记录应用的营销内容，以及任何无法链接并完整阅读的内容。每篇文章末尾都会列出它所依据的内容，每个来源都附有链接。",
+  "Dates, and what each one means": "日期，以及每个日期的含义",
+  "Every article carries three dates, and they mean different things. <strong>Published</strong> is when it first went up. <strong>Updated</strong> is when its text last changed. <strong>Sources checked</strong> is when someone last opened every link in its reference list and confirmed the article still matches what is there — an article can be checked without being updated, and that is the useful case: it means nothing had changed.": "每篇文章都有三个日期，含义各不相同。<strong>发布</strong>是它首次上线的时间。<strong>更新</strong>是它的正文最近一次修改的时间。<strong>来源核对</strong>是最近一次有人打开其参考文献列表中的每个链接、确认文章仍与链接内容一致的时间——一篇文章可以只核对而不更新，而这正是有用的情况：它意味着什么都没有变。",
+  "Corrections": "更正",
+  "If something here is wrong, write to <a href=\"mailto:support@dozify.app\">support@dozify.app</a> and say which sentence and, if you have it, what it should say. Factual errors are fixed as soon as they are confirmed against a source in the list above. When a correction changes the meaning of a passage, the article says what was corrected and when, at the bottom: a silently edited health page is worse than one that admits it was wrong.": "如果这里有错误，请写信给 <a href=\"mailto:support@dozify.app\">support@dozify.app</a>，说明是哪一句，如果你知道的话，再说明它应该怎么写。事实错误一经对照上述来源确认，就会立即修正。当更正改变了某段内容的含义时，文章底部会说明更正了什么、何时更正：一个被悄悄修改的健康页面，比一个承认自己出过错的页面更糟。",
+  "What this site does not do": "本站不做的事",
+  "It does not tell you what dose to take, when to change one, or whether a medication is right for you. It does not diagnose, and it does not decide whether a symptom needs attention. Dozify (the app the guides belong to) records the plan you and your prescriber agreed on; it does not propose one. It is a tracking tool, not a medical device — <a href=\"/en/why\">what it does and what it refuses to do</a> is set out separately.": "它不告诉你该用什么剂量、何时调整剂量，或某种药物是否适合你。它不做诊断，也不判断某个症状是否需要关注。Dozify（这些指南所属的应用）记录你和处方医生商定的方案；它不提出方案。它是一款记录工具，不是医疗器械——<a href=\"/en/why\">它做什么以及拒绝做什么</a>另有专门说明。",
+  "This policy was last changed on 18 August 2026. Questions about it go to <a href=\"mailto:support@dozify.app\">support@dozify.app</a>, and the <a href=\"/en/support\">support page</a> answers the ones about the app itself.": "本方针最近一次修改于 2026 年 8 月 18 日。有关问题请发送至 <a href=\"mailto:support@dozify.app\">support@dozify.app</a>，关于应用本身的问题请看<a href=\"/en/support\">支持页面</a>。"
+ }
+}

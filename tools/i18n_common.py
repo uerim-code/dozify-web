@@ -55,5 +55,43 @@ def translated_files() -> list[str]:
             if f.name.startswith("_"):
                 continue
             slug = "" if f.stem == "home" else f.stem.replace("__", "/")
-            out.append(f"{lang}/" + ("index.html" if slug == "" else f"{slug}.html"))
+            rel = f"{lang}/" + ("index.html" if slug == "" else f"{slug}.html")
+            if (ROOT / rel).exists():  # rendered by build-i18n (check.sh builds first)
+                out.append(rel)
     return out
+
+
+NATIVE = {
+    "en": "English", "tr": "Türkçe", "ar": "العربية", "cs": "Čeština", "da": "Dansk",
+    "de": "Deutsch", "el": "Ελληνικά", "es": "Español", "fi": "Suomi", "fr": "Français",
+    "hi": "हिन्दी", "it": "Italiano", "ja": "日本語", "ko": "한국어", "nb": "Norsk",
+    "nl": "Nederlands", "pl": "Polski", "pt": "Português", "ru": "Русский", "sv": "Svenska",
+    "uk": "Українська", "zh": "简体中文",
+}
+LANG_LIST_START, LANG_LIST_END = "<!--langs-->", "<!--/langs-->"
+
+
+def lang_list(en_slug: str, tr_slug: str, current: str) -> str:
+    """Footer list of this page in every language it exists in.
+
+    translate="no" keeps the names out of the translation segments: each
+    language is written in its own script, so there is nothing to translate.
+    """
+    items = [("en", url_for("en", en_slug, site="")), ("tr", url_for("tr", tr_slug, site=""))]
+    items += [(l, url_for(l, en_slug, site="")) for l in langs_for(en_slug)]
+    if len(items) <= 2:
+        return ""
+    links = []
+    for code, href in items:
+        hl = LANGS[code][0] if code in LANGS else code
+        cur = ' aria-current="page"' if code == current else ""
+        links.append(f'<a href="{href}" hreflang="{hl}" lang="{hl}"{cur}>{NATIVE[code]}</a>')
+    return (f'{LANG_LIST_START}<div class="container lang-list" translate="no">'
+            + " · ".join(links) + f"</div>{LANG_LIST_END}")
+
+
+def with_lang_list(html: str, en_slug: str, tr_slug: str, current: str) -> str:
+    import re
+    html = re.sub(re.escape(LANG_LIST_START) + ".*?" + re.escape(LANG_LIST_END), "", html, flags=re.S)
+    block = lang_list(en_slug, tr_slug, current)
+    return html.replace("</footer>", block + "</footer>", 1) if block else html

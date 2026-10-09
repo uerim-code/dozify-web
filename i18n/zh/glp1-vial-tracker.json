@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1药瓶记录：用完之前就知道",
+  "description": "剩余剂量、开封天数和有效期都在一张卡片上。药瓶用完和过期这两种结束方式都能提前几周预知；Dozify 替你算好。"
+ },
+ "t": {
+  "Vial tracking": "药瓶记录",
+  "Know when the vial runs out before it does": "在药瓶用完之前就知道它什么时候用完",
+  "Remaining volume, doses left, and the expiry date: on one card, before the weekend the pharmacy is closed.": "剩余容量、剩余剂量和有效期：都在一张卡片上，赶在药房关门的周末之前。",
+  "A vial ends in two ways: it empties, or it expires. Both are predictable weeks ahead and both are usually noticed the evening a dose is due.": "药瓶有两种结束方式：用完，或者过期。两者都能提前几周预知，却通常都是在该打针的那天晚上才被发现。",
+  "What is left, in doses": "还剩多少，按剂量计",
+  "Remaining millilitres and what that means in injections at your prescribed amount.": "剩余的毫升数，以及按你的处方剂量折算还能打几针。",
+  "Two clocks, not one": "两个时钟，而不是一个",
+  "Days since opening and the manufacturer's expiry, whichever comes first: with the storage rules for that medication.": "开封天数和生产商的有效期，以先到者为准：并附有该药物的储存规定。",
+  "Time out of the fridge": "离开冰箱的时间",
+  "Log a storage event when a vial spends the afternoon in a bag. Travel mode is for the days that are not ordinary.": "当药瓶在包里待了一个下午时，记录一次储存事件。出行模式适用于那些不寻常的日子。",
+  "People on multi-dose pens and vials, where one container covers several weeks and the end of it arrives quietly. It matters most to anyone who travels with their medication, or who has stood in front of an open fridge on a Sunday wondering whether what is in there is still good.": "适合使用多剂量注射笔和药瓶的人，一个容器能用好几周，用完的那一刻往往悄无声息。对于带着药出行的人，或者曾在周日站在打开的冰箱前、不知道里面的药是否还能用的人来说，这一点最重要。",
+  "Dozify counts what you tell it: doses drawn, the day you opened the vial and the expiry printed on it. It cannot see the liquid, so it cannot tell you whether a particular vial is still fit to use: that judgement belongs to the storage instructions for your medication and, when there is any doubt, to your pharmacist. The in-use limits it shows come from those instructions, not from us.": "Dozify 统计你告诉它的内容：抽取的剂量、开封药瓶的日期以及上面印的有效期。它看不到药液，所以无法告诉你某个药瓶是否还能用：这个判断取决于你所用药物的储存说明，如有任何疑问，则由你的药剂师来判断。它显示的使用期限来自这些说明，而不是来自我们。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">在 App Store 下载</a>",
+  "Does it count doses automatically?": "它会自动计算剂量吗？",
+  "It subtracts each injection you log from the vial you logged it against, so the remaining amount follows your own entries without a separate step.": "你记录的每一次注射，都会从你记录时关联的那个药瓶中扣除，所以剩余量会跟随你自己的记录更新，不需要额外的步骤。",
+  "Where does the in-use limit come from?": "使用期限是从哪里来的？",
+  "From the storage instructions for that medication: how long it may be kept once opened, and at what temperature. Dozify shows the one that applies and counts the days; it does not invent a number.": "来自该药物的储存说明：开封后可以保存多久、在什么温度下保存。Dozify 显示适用的那一条并计算天数；它不会编造数字。",
+  "What if the pen spends a day out of the fridge?": "如果注射笔在冰箱外放了一天怎么办？",
+  "Log it as a storage event, with how long and roughly how warm. It stays on the vial's record so it is there when you decide, or when you ask a pharmacist.": "把它记录为一次储存事件，写明多长时间、大致多高的温度。它会保留在这个药瓶的记录中，等你做决定或询问药剂师时就能用上。",
+  "Will it warn me before a vial runs out?": "药瓶快用完时它会提醒我吗？",
+  "It shows doses remaining and days remaining on the card, so the end is visible weeks ahead rather than the evening a dose is due.": "它在卡片上显示剩余剂量和剩余天数，所以你能提前几周看到结束的时间，而不是到了该打针的那天晚上才发现。",
+  "Does this work for pens as well as vials?": "它也适用于注射笔吗，还是只适用于药瓶？",
+  "Yes. A pen with several doses in it is tracked the same way: what is left, how long it has been open, and when it expires.": "都适用。装有多剂药的注射笔也用同样的方式记录：还剩多少、开封多久、什么时候过期。",
+  "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/storing-glp1-pens\">what each label says about storing a pen</a> and <a href=\"/en/articles/travelling-with-a-glp1-pen\">what the rules say about flying with one</a>.": "注明出处的指南：<a href=\"/en/articles/how-to-inject-glp1\">如何使用注射笔，分步说明</a>、<a href=\"/en/articles/glp1-injection-sites\">在哪里注射以及如何轮换</a>、<a href=\"/en/articles/what-is-glp1\">GLP-1 到底是什么</a>、<a href=\"/en/articles/storing-glp1-pens\">各说明书对注射笔储存的规定</a>以及<a href=\"/en/articles/travelling-with-a-glp1-pen\">带着注射笔坐飞机的规定</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Dozify 的其他功能：<a href=\"/en/glp1-shot-tracker\">注射记录</a>和<a href=\"/en/glp1-appointment-report\">就诊报告</a>。"
+ }
+}

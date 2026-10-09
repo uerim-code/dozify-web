@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>हेल्थ app प्राइवेसी: लेबल क्या छोड़ देता है</title>
+  <meta name="description" content="ज़्यादातर हेल्थ app HIPAA के दायरे में नहीं आते, और &quot;no tracking&quot; का मतलब जितना लगता है उससे संकरा है। Apple के शब्दों का मतलब, और पूछने लायक पाँच सवाल।">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/hi/articles/health-app-privacy">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="हेल्थ app प्राइवेसी: लेबल क्या छोड़ देता है">
+  <meta property="og:description" content="ज़्यादातर हेल्थ app HIPAA के दायरे में नहीं आते, और &quot;no tracking&quot; का मतलब जितना लगता है उससे संकरा है। Apple के शब्दों का मतलब, और पूछने लायक पाँच सवाल।">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — iPhone के लिए एक निजी GLP-1 इंजेक्शन और वज़न ट्रैकर">
+  <meta name="twitter:title" content="हेल्थ app प्राइवेसी: लेबल क्या छोड़ देता है">
+  <meta name="twitter:description" content="ज़्यादातर हेल्थ app HIPAA के दायरे में नहीं आते, और &quot;no tracking&quot; का मतलब जितना लगता है उससे संकरा है। Apple के शब्दों का मतलब, और पूछने लायक पाँच सवाल।">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — iPhone के लिए एक निजी GLP-1 इंजेक्शन और वज़न ट्रैकर">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="hi_IN">
+
+  <link rel="canonical" href="https://dozify.app/hi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/health-app-privacy">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/articles/health-app-privacy">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/articles/health-app-privacy">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/articles/health-app-privacy">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/articles/health-app-privacy">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/articles/health-app-privacy">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/articles/health-app-privacy">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/articles/health-app-privacy">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/articles/health-app-privacy">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/articles/health-app-privacy">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/articles/health-app-privacy">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/articles/health-app-privacy">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/articles/health-app-privacy">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/articles/health-app-privacy">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/health-app-privacy">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/health-app-privacy">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/health-app-privacy">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/hi",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "hi"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/hi/editorial-policy",
+        "description": "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/hi/articles/health-app-privacy#webpage",
+        "url": "https://dozify.app/hi/articles/health-app-privacy",
+        "name": "हेल्थ app प्राइवेसी: लेबल क्या छोड़ देता है",
+        "description": "ज़्यादातर हेल्थ app HIPAA के दायरे में नहीं आते, और \"no tracking\" का मतलब जितना लगता है उससे संकरा है। Apple के शब्दों का मतलब, और पूछने लायक पाँच सवाल।",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "hi",
+        "breadcrumb": {
+          "@id": "https://dozify.app/hi/articles/health-app-privacy#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "क्या मेरा हेल्थ डेटा कानून से सुरक्षित नहीं है?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "कुछ कानून लागू होता है, पर शायद वह नहीं जिसके बारे में आप सोच रहे हैं। FTC कहता है कि बहुत से हेल्थ app HIPAA के दायरे में नहीं आते; अमेरिका में जो उन पर लागू होता है वह Health Breach Notification Rule है, जो सेंध के बाद बताए जाने के बारे में है, पहले से इकट्ठा करने की सीमा तय करने के बारे में नहीं।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "लेबल कहता है \"Data Not Collected\"। क्या इतना काफ़ी है?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "यह सबसे मज़बूत बात है जो लेबल कह सकता है, और यह डेवलपर की अपनी घोषणा है, ऑडिट नहीं। इसे प्राइवेसी पॉलिसी के साथ पढ़ें: जो पॉलिसी बताती है कि क्या इकट्ठा होता है और जो लेबल कहता है कि कुछ इकट्ठा नहीं होता, दोनों मेल खाने चाहिए, और जहाँ न खाएँ, वहाँ पॉलिसी ज़्यादा विस्तृत दस्तावेज़ है।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "बैकअप और सिंक में क्या फ़र्क है?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "कॉपी किसके पास है। बैकअप वह फ़ाइल है जो आप बनाते और रखते हैं; सिंक किसी के सर्वर पर रखी कॉपी है ताकि डिवाइस आपस में मेल खा सकें। दोनों काम के हैं; इनमें से सिर्फ़ एक का मतलब है कि आपके रिकॉर्ड ऐसी जगह मौजूद हैं जिस पर आपका नियंत्रण नहीं।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "क्या \"कोई विज्ञापन नहीं\" का मतलब है कि विज्ञापन से जुड़ा कुछ नहीं होता?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ज़रूरी नहीं, और यहाँ सटीक होना ज़रूरी है। किसी app में app के अंदर कोई विज्ञापन न हो, फिर भी वह माप सकता है कि कोई इंस्टॉल उसके कहीं और चलाए विज्ञापन से आया या नहीं। ये अलग चीज़ें हैं; भरोसे लायक पॉलिसी बताती है कि उसका मतलब कौन-सा है। हमारी पॉलिसी दोनों साफ़ शब्दों में बताती है।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "मैं यह सब खुद कैसे जाँचूँ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "App Store लिस्टिंग खोलें और प्राइवेसी सेक्शन पढ़ें, फिर app की प्राइवेसी पॉलिसी खोलें और देखें कि दोनों एक ही app का वर्णन करते हैं या नहीं। फिर व्यावहारिक टेस्ट करें: क्या आप इसे अकाउंट बनाए बिना इस्तेमाल कर सकते हैं, और क्या इसे डिलीट करने से डेटा भी चला जाता है?"
+            }
+          }
+        ],
+        "headline": "हेल्थ app को अपना प्रिस्क्रिप्शन दिखाने से पहले क्या जाँचें",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-20",
+        "dateModified": "2026-08-20",
+        "lastReviewed": "2026-08-20",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "Apple — App privacy details on the App Store",
+            "url": "https://developer.apple.com/app-store/app-privacy-details/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Apple — User privacy and data use (App Tracking Transparency)",
+            "url": "https://developer.apple.com/app-store/user-privacy-and-data-use/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Health Breach Notification Rule: the basics",
+            "url": "https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Updated Health Breach Notification Rule protects users of health apps",
+            "url": "https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Mobile health apps interactive tool",
+            "url": "https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/hi/articles/health-app-privacy#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "होम",
+            "item": "https://dozify.app/hi"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "लेख",
+            "item": "https://dozify.app/hi/articles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "हेल्थ app प्राइवेसी",
+            "item": "https://dozify.app/hi/articles/health-app-privacy"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/hi" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">फ़ीचर</a>
+        
+        <a href="/hi/support">सपोर्ट</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/hi">होम</a>
+        
+        <span aria-hidden="true">/</span>
+        <a href="/hi/articles">लेख</a>
+        
+        <span aria-hidden="true">/</span>
+        <span>हेल्थ app प्राइवेसी</span>
+        
+      </div>
+
+      <div class="article-hero">
+        <h1>हेल्थ app को अपना प्रिस्क्रिप्शन दिखाने से पहले क्या जाँचें</h1>
+        
+        <p class="article-meta">लेखक: Ümit Can Erim · प्रकाशित 20 अगस्त 2026 · अपडेट 20 अगस्त 2026 · स्रोत जाँचे गए 20 अगस्त 2026 · <a href="/hi/editorial-policy">ये गाइड कैसे लिखी जाती हैं</a></p>
+        
+        <p class="article-lede">हेल्थ app के बारे में ज़्यादातर लोग जो दो बातें मान लेते हैं, वे सच नहीं हैं। पहली यह कि मेडिकल प्राइवेसी कानून उस पर लागू होता है; ज़्यादातर app पर नहीं होता, और FTC यह साफ़ कहता है। दूसरी यह कि App Store का प्राइवेसी लेबल इस सवाल का जवाब देता है कि "क्या यह app मेरी प्राइवेसी का सम्मान करता है": यह एक संकरे सवाल का जवाब देता है, ऐसे शब्दों में जिनकी खास परिभाषाएँ हैं। यह पेज बताता है कि उन शब्दों का क्या मतलब है और इसकी बजाय क्या जाँचें।</p>
+        
+      </div>
+
+      <div class="prose">
+        <h2>HIPAA लगभग पक्का लागू नहीं होता</h2>
+        <p>यह वह गलतफ़हमी है जिसे सबसे पहले दूर करना ज़रूरी है, क्योंकि बाकी सब इसी पर टिका है। FTC की अपनी गाइडेंस कहती है कि स्वास्थ्य जानकारी इकट्ठा करने वाली बहुत सी कंपनियाँ ("चाहे वह फ़िटनेस ट्रैकर हो, डाइट app हो, कनेक्टेड ब्लड प्रेशर कफ़ हो, या कुछ और") HIPAA के दायरे में नहीं आतीं। HIPAA स्वास्थ्य सेवा के रिश्ते के साथ चलता है: आपका क्लिनिक, आपका अस्पताल, आपकी बीमा कंपनी। आपने जो app डाउनलोड किया है, वह आम तौर पर इनमें से कुछ नहीं है।</p>
+        <p>अमेरिका में जो लागू होता है वह है FTC का Health Breach Notification Rule, जो ठीक इसी कमी को भरने के लिए है। यह HIPAA के दायरे से बाहर के संगठनों से कहता है कि जब असुरक्षित, व्यक्तिगत रूप से पहचानी जा सकने वाली स्वास्थ्य जानकारी में सेंध लगे, तो वे अपने यूज़र्स, FTC और कुछ मामलों में मीडिया को सूचित करें — "बिना अनुचित देरी के" और पता चलने के 60 दिनों के अंदर।</p>
+        <p>ध्यान दें कि यह क्या है और क्या नहीं। यह कुछ गलत होने के बाद आपको बताने का नियम है। यह ऐसा नियम नहीं है जो सब ठीक चलते हुए app के इकट्ठा करने की सीमा तय करे।</p>
+
+        
+        
+        
+        
+
+        <h2>App Store लेबल असल में क्या कहता है</h2>
+        <p>लेबल के तीन हिस्से हैं, और बीच वाले में मतलब छिपा है।</p>
+        <ul>
+          <li><strong>Data Used to Track You।</strong> Apple की ट्रैकिंग की परिभाषा खास है: app में किसी यूज़र या डिवाइस के बारे में इकट्ठा डेटा को <em>थर्ड-पार्टी डेटा</em> (उन apps, वेबसाइट या ऑफ़लाइन स्रोतों का डेटा जिनका मालिक डेवलपर नहीं है) से टार्गेटेड विज्ञापन या विज्ञापन मापने के लिए जोड़ना, या इसे किसी डेटा ब्रोकर से शेयर करना।</li>
+          <li><strong>Data Linked to You।</strong> इकट्ठा किया गया और किसी पहचान से जुड़ा। Apple का नियम है कि डेटा को जुड़ा हुआ ही माना जाता है <em>जब तक</em> डेवलपर इकट्ठा करने से पहले सीधे पहचानकर्ता हटा न दे और बाद में उसे फिर से न जोड़े। डिफ़ॉल्ट है जुड़ा हुआ।</li>
+          <li><strong>Data Not Linked to You।</strong> इकट्ठा किया गया, पर वह जुड़ाव सच में तोड़ा गया।</li>
+        </ul>
+        <p>और वह धारा जो लेबल पढ़ने का तरीका सबसे ज़्यादा बदलती है। Apple की अपनी सूची कि क्या ट्रैकिंग <em>नहीं</em> है, ऐसे शुरू होती है: "जब डेटा सिर्फ़ यूज़र के डिवाइस पर जोड़ा जाता है और डिवाइस से ऐसे तरीके से बाहर नहीं भेजा जाता जिससे यूज़र या डिवाइस की पहचान हो सके।"</p>
+        <p>इसलिए कोई app लगभग खाली ट्रैकिंग सेक्शन दिखा सकता है और फिर भी आपके बारे में बहुत कुछ कहीं भेज सकता है। "ट्रैकिंग नहीं" का मतलब है "विज्ञापन के लिए थर्ड-पार्टी डेटा से नहीं जोड़ा गया या किसी ब्रोकर को नहीं दिया गया": "हम यह इकट्ठा नहीं करते" से संकरा वादा।</p>
+
+        
+        
+        
+        
+        
+
+        <h2>पूछने लायक पाँच सवाल</h2>
+        <ol>
+          <li><strong>क्या इसके लिए अकाउंट ज़रूरी है?</strong> अकाउंट वह तरीका है जो रिकॉर्ड को किसी और के सर्वर पर किसी व्यक्ति-के-बारे-में-रिकॉर्ड में बदल देता है। अकाउंट न होना फ़ीचर लिस्ट का कोई आइटम नहीं; यह पूरी चीज़ का ढाँचा है।</li>
+          <li><strong>क्या यह क्लाउड पर सिंक होता है, और क्या इसे बंद किया जा सकता है?</strong> "बैकअप" और "सिंक" अलग-अलग वादे हैं। एक वह फ़ाइल है जो आपके पास है; दूसरा वह कॉपी है जो किसी और के पास है।</li>
+          <li><strong>प्राइवेसी लेबल Health के तहत क्या बताता है?</strong> Apple की Health श्रेणी में "यूज़र की दी हुई कोई भी दूसरी स्वास्थ्य या मेडिकल जानकारी" आती है, इसलिए app में टाइप किया गया दवा का नाम वहीं आता है। अगर लेबल Health पर चुप है और app दवाएँ दर्ज करता है, तो दोनों में से एक गलत है।</li>
+          <li><strong>क्या पॉलिसी बताती है कि क्या इकट्ठा होता है, या बस उसका वर्णन करती है?</strong> "हम आपके अनुभव को बेहतर बनाने के लिए कुछ जानकारी इकट्ठा कर सकते हैं" कोई सूची नहीं है। जिस पॉलिसी को जाँचा जा सके, वह चीज़ों के नाम लेती है।</li>
+          <li><strong>app डिलीट करने पर क्या होता है?</strong> सिर्फ़ डिवाइस वाले app में, यही डिलीट करना है। जहाँ सर्वर है, वहाँ app डिलीट करना और अकाउंट डिलीट करना अलग-अलग काम हैं, और होम स्क्रीन से इनमें से सिर्फ़ एक आपके हाथ में है।</li>
+        </ol>
+
+        
+        
+
+        <div class="callout">
+          <p><strong>Dozify के अपने जवाब, ताकि यह पेज ऐसे सवाल न पूछे जिनसे वह खुद बचता हो।</strong> कोई अकाउंट नहीं, कोई क्लाउड सिंक नहीं, app के अंदर कोई विज्ञापन नहीं। हेल्थ रिकॉर्ड डिवाइस पर app के अपने स्टोरेज में रहते हैं; बैकअप एक एन्क्रिप्टेड फ़ाइल बनाता है जो आप रखते हैं। बिना पहचान वाले इस्तेमाल के आँकड़े इकट्ठा किए जाते हैं (कौन-सी स्क्रीन इस्तेमाल होती हैं, कुछ क्रैश हुआ या नहीं) और उनमें कभी दवा का नाम, लक्षण या वज़न नहीं होता। एक और चीज़ बाहर जाती है: यह माप कि कोई इंस्टॉल हमारे अपने App Store या Meta कैंपेन से आया या नहीं, जो Apple की ट्रैकिंग अनुमति के पीछे चलता है और उसमें आपका कोई रिकॉर्ड नहीं होता। app डिलीट करें और रिकॉर्ड उसके साथ चले जाते हैं। विवरण <a href="/hi/privacy">प्राइवेसी पॉलिसी</a> और <a href="/en/kvkk">KVKK नोटिस</a> में है, और इसके पीछे की सोच <a href="/hi/private-glp1-tracker">प्राइवेसी पेज</a> पर।</p>
+          
+        </div>
+
+        <h2>यह पेज क्या नहीं करेगा</h2>
+        <p>किसी दूसरे app का नाम लेकर यह इशारा करना कि वह डेटा के साथ क्या करता है। हमने किसी और के सर्वर का ऑडिट नहीं किया, हम कर भी नहीं सकते, और तुलना के रूप में पेश किया गया आरोप जानकारी नहीं, मार्केटिंग है। ऊपर के सवाल किसी भी app पर काम करते हैं, इस वाले पर भी: इन्हें सवालों के रूप में लिखने का मकसद यही है।</p>
+
+        
+        
+      </div>
+
+      <div class="article-cta">
+        <h3>कोई अकाउंट नहीं बनाना, कुछ सिंक नहीं करना</h3>
+        
+        <p>आपके डोज़, वज़न और लक्षण फ़ोन पर रहते हैं। app सीधे आपके अपने डेटा में खुलता है, और उसे डिलीट करना ही डिलीट करना है।</p>
+        
+        <a href="/#download" class="btn btn-primary">app डाउनलोड करें</a>
+        
+        <a href="/hi/private-glp1-tracker" class="link-arrow">यहाँ प्राइवेसी कैसे काम करती है →</a>
+        
+      </div>
+
+      <div class="article-faq">
+        <h2>सवाल</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>क्या मेरा हेल्थ डेटा कानून से सुरक्षित नहीं है?</h3>
+            
+            <p>कुछ कानून लागू होता है, पर शायद वह नहीं जिसके बारे में आप सोच रहे हैं। FTC कहता है कि बहुत से हेल्थ app HIPAA के दायरे में नहीं आते; अमेरिका में जो उन पर लागू होता है वह Health Breach Notification Rule है, जो सेंध के बाद बताए जाने के बारे में है, पहले से इकट्ठा करने की सीमा तय करने के बारे में नहीं।</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>लेबल कहता है "Data Not Collected"। क्या इतना काफ़ी है?</h3>
+            
+            <p>यह सबसे मज़बूत बात है जो लेबल कह सकता है, और यह डेवलपर की अपनी घोषणा है, ऑडिट नहीं। इसे प्राइवेसी पॉलिसी के साथ पढ़ें: जो पॉलिसी बताती है कि क्या इकट्ठा होता है और जो लेबल कहता है कि कुछ इकट्ठा नहीं होता, दोनों मेल खाने चाहिए, और जहाँ न खाएँ, वहाँ पॉलिसी ज़्यादा विस्तृत दस्तावेज़ है।</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>बैकअप और सिंक में क्या फ़र्क है?</h3>
+            
+            <p>कॉपी किसके पास है। बैकअप वह फ़ाइल है जो आप बनाते और रखते हैं; सिंक किसी के सर्वर पर रखी कॉपी है ताकि डिवाइस आपस में मेल खा सकें। दोनों काम के हैं; इनमें से सिर्फ़ एक का मतलब है कि आपके रिकॉर्ड ऐसी जगह मौजूद हैं जिस पर आपका नियंत्रण नहीं।</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>क्या "कोई विज्ञापन नहीं" का मतलब है कि विज्ञापन से जुड़ा कुछ नहीं होता?</h3>
+            
+            <p>ज़रूरी नहीं, और यहाँ सटीक होना ज़रूरी है। किसी app में app के अंदर कोई विज्ञापन न हो, फिर भी वह माप सकता है कि कोई इंस्टॉल उसके कहीं और चलाए विज्ञापन से आया या नहीं। ये अलग चीज़ें हैं; भरोसे लायक पॉलिसी बताती है कि उसका मतलब कौन-सा है। हमारी पॉलिसी दोनों साफ़ शब्दों में बताती है।</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>मैं यह सब खुद कैसे जाँचूँ?</h3>
+            
+            <p>App Store लिस्टिंग खोलें और प्राइवेसी सेक्शन पढ़ें, फिर app की प्राइवेसी पॉलिसी खोलें और देखें कि दोनों एक ही app का वर्णन करते हैं या नहीं। फिर व्यावहारिक टेस्ट करें: क्या आप इसे अकाउंट बनाए बिना इस्तेमाल कर सकते हैं, और क्या इसे डिलीट करने से डेटा भी चला जाता है?</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p>जानकारी के लिए, कानूनी या चिकित्सा सलाह नहीं। Dozify एक निजी ट्रैकिंग app है, मेडिकल डिवाइस नहीं। प्राइवेसी कानून देश के हिसाब से अलग होते हैं और बदलते रहते हैं; यह पेज सार्वजनिक रूप से प्रकाशित नियमों और परिभाषाओं का वर्णन करता है और इस app के अलावा किसी खास app का आकलन नहीं करता।</p>
+        
+      </div>
+
+      <div class="references">
+        <h2>स्रोत</h2>
+        <ol>
+          <li><a href="https://developer.apple.com/app-store/app-privacy-details/" rel="nofollow noopener" target="_blank">Apple. App privacy details on the App Store</a></li>
+          <li><a href="https://developer.apple.com/app-store/user-privacy-and-data-use/" rel="nofollow noopener" target="_blank">Apple. User privacy and data use (App Tracking Transparency)</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business" rel="nofollow noopener" target="_blank">FTC — Health Breach Notification Rule: the basics</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps" rel="nofollow noopener" target="_blank">FTC — Updated Health Breach Notification Rule protects users of health apps</a></li>
+          <li><a href="https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool" rel="nofollow noopener" target="_blank">FTC — Mobile health apps interactive tool</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/hi" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>कानूनी</h3>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/hi/terms">शर्तें</a>
+          
+          <a href="/hi/editorial-policy">संपादकीय नीति</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>मदद</h3>
+          
+          <a href="/hi/support">सपोर्ट</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/articles/health-app-privacy" hreflang="en" lang="en">English</a> · <a href="/tr/makaleler/saglik-uygulamasi-gizliligi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/articles/health-app-privacy" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/articles/health-app-privacy" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/articles/health-app-privacy" hreflang="da" lang="da">Dansk</a> · <a href="/de/articles/health-app-privacy" hreflang="de" lang="de">Deutsch</a> · <a href="/el/articles/health-app-privacy" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/articles/health-app-privacy" hreflang="es" lang="es">Español</a> · <a href="/fi/articles/health-app-privacy" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/articles/health-app-privacy" hreflang="fr" lang="fr">Français</a> · <a href="/hi/articles/health-app-privacy" hreflang="hi" lang="hi" aria-current="page">हिन्दी</a> · <a href="/it/articles/health-app-privacy" hreflang="it" lang="it">Italiano</a> · <a href="/ja/articles/health-app-privacy" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/articles/health-app-privacy" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/articles/health-app-privacy" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/articles/health-app-privacy" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/articles/health-app-privacy" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/articles/health-app-privacy" hreflang="pt" lang="pt">Português</a> · <a href="/ru/articles/health-app-privacy" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/articles/health-app-privacy" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/articles/health-app-privacy" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/articles/health-app-privacy" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

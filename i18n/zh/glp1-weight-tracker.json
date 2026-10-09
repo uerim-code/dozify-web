@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1体重记录：体重与剂量一起看",
+  "description": "你的体重趋势和对应的剂量，放在同一条时间线上。几秒钟记录体重，看到的是几个月的走势，而不是单个数字。"
+ },
+ "t": {
+  "Weight trend": "体重趋势",
+  "Your weight and your doses on one line": "你的体重和剂量，在同一条线上",
+  "Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.": "体重记在一个应用里，注射记在另一个应用里，那是同一幅图景被分成了两半。Dozify 把它们放在同一条时间线上。",
+  "The question is never just \"what do I weigh\". It is what the last few weeks have looked like, and what was happening in them, which dose, which week, what else you logged.": "问题从来不只是“我现在多重”。而是过去几周是什么样子、那期间发生了什么：哪个剂量、哪一周、你还记录了些什么。",
+  "A trend, not a number": "看趋势，而不是看数字",
+  "Your weight over three months, six, or a year, with the rate it has been moving and how far it is from your goal.": "你三个月、六个月或一年的体重，附带变化的速度以及距离目标还有多远。",
+  "Apple Health does the typing": "让 Apple Health 替你输入",
+  "On iPhone, weight is read from Health automatically. If your scale writes there, you do not enter anything by hand.": "在 iPhone 上，体重会自动从健康 App 读取。如果你的体重秤会写入那里，你就不需要手动输入任何内容。",
+  "No projection dressed up as a promise": "不把预测包装成承诺",
+  "The app shows what your own entries have done. It does not tell you what your body will do next.": "应用显示的是你自己的记录呈现出的情况。它不会告诉你你的身体接下来会怎样。",
+  "People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.": "适合想看几个月走势而不是今早数字的人，以及体重已经由体重秤写入 Apple Health 的人。也适合在复诊时被问到“上次调整剂量后体重怎么变化的”却只能靠猜的人。",
+  "The projection is arithmetic on the entries you have made: it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.": "预测是对你已有记录的算术：它延续你自己的数字所呈现的走势，仅此而已。它不是对你身体变化的预测，没有考虑剂量调整、生病或假期，也不是任何人为你设定的目标。Dozify 不推荐体重、减重速度或饮食。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">在 App Store 下载</a>",
+  "Does it read my weight from Apple Health?": "它会从 Apple Health 读取我的体重吗？",
+  "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.": "在 iPhone 上会。如果你的体重秤或其他应用把体重写入健康 App，Dozify 会读取它，你不需要输入任何内容。你也可以手动输入。",
+  "Kilograms or pounds?": "公斤还是磅？",
+  "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.": "都可以。单位是一项设置，更改它会换算已有的数据，而不是重新解读这些数字。",
+  "Does the projection tell me when I will reach my goal?": "预测能告诉我什么时候达到目标吗？",
+  "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.": "它告诉你的是：如果你自己记录的趋势保持不变，你会在什么时候达到目标。身体并不是这样运作的，应用也在屏幕上这样说明，而不是把这个日期当作计划呈现。",
+  "Can I log measurements as well?": "也可以记录身体围度吗？",
+  "Yes, waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.": "可以，腰围、臀围等，与体重位于同一条时间线上，适合体重秤变化不如软尺明显的那几个月。",
+  "Does my weight leave the phone?": "我的体重数据会离开手机吗？",
+  "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.": "不会。它和你的其他记录一样存储在设备上。从 Apple Health 读取是在手机上完成的；不上传任何内容。",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/reading-a-weight-trend\">how to read a trend when the scale has stalled</a> and <a href=\"/en/articles/measurements-vs-scale\">when the tape moves and the scale does not</a>.": "注明出处的指南：<a href=\"/en/articles/what-is-glp1\">GLP-1 到底是什么</a>、<a href=\"/en/articles/glp1-side-effects\">应对常见副作用</a>、<a href=\"/en/articles/how-to-inject-glp1\">如何使用注射笔，分步说明</a>、<a href=\"/en/articles/reading-a-weight-trend\">体重停滞时如何解读趋势</a>以及<a href=\"/en/articles/measurements-vs-scale\">软尺有变化而体重秤没变时</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Dozify 的其他功能：<a href=\"/en/glp1-appointment-report\">就诊报告</a>和<a href=\"/en/glp1-shot-tracker\">注射记录</a>。"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "يوميات الآثار الجانبية لـ GLP-1 — اعرف متى تحدث",
+  "description": "أن تقول لطبيبك «أصابني غثيان» ليس كأن تقول «بعد 15 ساعة من الجرعة». سجّل الأعراض مع شدّتها وشاهدها مقابل حقن GLP-1 الخاصة بك."
+ },
+ "t": {
+  "See when your symptoms actually happened": "اعرف متى حدثت أعراضك فعلاً",
+  "Telling your doctor \"I had nausea\" and telling them \"about fifteen hours after each dose\" are not the same sentence.": "أن تقول لطبيبك «أصابني غثيان» وأن تقول له «بعد نحو خمس عشرة ساعة من كل جرعة» ليستا الجملة نفسها.",
+  "Side effects are remembered as a general impression and reported as one. The detail that would be useful (when, how strong, how often, relative to what) is exactly the part that fades first.": "تُتذكّر الآثار الجانبية كانطباع عام ويُبلَّغ عنها كذلك. والتفصيل الذي يكون مفيداً (متى، وما الشدّة، وكم مرة، وبالنسبة إلى ماذا) هو بالضبط الجزء الذي يتلاشى أولاً.",
+  "Three taps, at the time": "ثلاث لمسات، في حينه",
+  "Eleven symptom types with a severity scale. Logged when it happens, not reconstructed at the appointment.": "أحد عشر نوعاً من الأعراض مع مقياس للشدّة. تُسجَّل حين تحدث، لا تُعاد صياغتها في الموعد.",
+  "Timing you can read off": "توقيت يمكنك قراءته",
+  "How your own entries have sat relative to a dose. Looking backwards at what happened, not forwards at what might.": "كيف وقعت إدخالاتك بالنسبة للجرعة. نظرة إلى الوراء على ما حدث، لا إلى الأمام على ما قد يحدث.",
+  "Optional journal fields": "حقول اختيارية في اليوميات",
+  "Appetite, food noise, cravings, how meals are sitting: only if you chose to track them.": "الشهية، وضجيج الطعام (في التطبيق: «انشغال الذهن بالطعام»)، والرغبة الشديدة في الأكل، وكيف تستقر الوجبات: فقط إذا اخترت تتبّعها.",
+  "People in the first weeks, and people who have just moved up a dose, the two points where symptoms are most worth writing down. It is also for anyone whose doctor has asked a question the memory cannot answer: how often, how bad, and how long after the injection.": "لمن هم في الأسابيع الأولى، ولمن رفعوا جرعتهم للتو، وهما النقطتان اللتان تستحق فيهما الأعراض التدوين أكثر من غيرهما. وهو أيضاً لكل من سأله طبيبه سؤالاً لا تستطيع الذاكرة الإجابة عنه: كم مرة، وما مدى السوء، وكم من الوقت بعد الحقنة.",
+  "A journal is a record, not an assessment. Dozify cannot tell you whether a symptom comes from the medication, from something you ate or from something else entirely, and it does not triage. Severe or sudden symptoms (persistent vomiting, severe abdominal pain, signs of an allergic reaction) are a reason to contact a clinician or emergency services now, not to open an app.": "اليوميات سجل، لا تقييم. لا يستطيع Dozify إخبارك ما إذا كان العَرَض من الدواء، أو من شيء أكلته، أو من شيء آخر تماماً، ولا يقوم بالفرز الطبي. الأعراض الشديدة أو المفاجئة (القيء المستمر، أو ألم البطن الشديد، أو علامات التفاعل التحسّسي) سبب للتواصل مع طبيب أو خدمات الطوارئ الآن، لا لفتح تطبيق.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">حمّله من App Store</a>",
+  "Which symptoms can I log?": "ما الأعراض التي يمكنني تسجيلها؟",
+  "Eleven of the common ones, nausea, vomiting, constipation, diarrhoea, reflux, fatigue, headache, dizziness, injection-site reaction, appetite change and stomach pain: each with a severity you choose. Anything else goes in the note.": "أحد عشر عَرَضاً من الأعراض الشائعة: الغثيان، والقيء، والإمساك، والإسهال، والارتجاع، والتعب، والصداع، والدوار، وتفاعل موضع الحقن، وتغيّر الشهية، وألم المعدة: ولكل منها شدّة تختارها. وأي شيء آخر يُكتب في الملاحظة.",
+  "Does it tell me whether the medication caused it?": "هل يخبرني ما إذا كان الدواء هو السبب؟",
+  "No, and it should not. It shows you when your entries happened relative to your doses; what that means is a conversation with your doctor.": "لا، ولا ينبغي له ذلك. يُظهر لك متى وقعت إدخالاتك بالنسبة لجرعاتك؛ أما ما يعنيه ذلك فحديث مع طبيبك.",
+  "What should I do about a severe symptom?": "ماذا أفعل بشأن عَرَض شديد؟",
+  "Contact your clinician or emergency services. Logging it afterwards is useful; logging it instead is not.": "تواصل مع طبيبك أو خدمات الطوارئ. تسجيله بعد ذلك مفيد؛ أما تسجيله بدلاً من ذلك فليس مفيداً.",
+  "Do the entries appear in the doctor report?": "هل تظهر الإدخالات في تقرير الطبيب؟",
+  "Yes, if you include that section: with their dates, their severity and where they fell relative to your injections.": "نعم، إذا ضمّنت ذلك القسم: مع تواريخها وشدّتها وموقعها بالنسبة لحقنك.",
+  "Can I log things that are not symptoms?": "هل يمكنني تسجيل أشياء ليست أعراضاً؟",
+  "Yes. Appetite, food noise, cravings and how meals are sitting are optional fields, for the people who find them worth watching.": "نعم. الشهية، وضجيج الطعام، والرغبة الشديدة في الأكل، وكيف تستقر الوجبات حقول اختيارية، لمن يجدون أنها تستحق المراقبة.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/side-effect-diary-that-helps\">what makes a diary useful to a clinician</a> and <a href=\"/en/articles/hydration-on-a-glp1\">what the label warns about fluids</a>.": "أدلة تذكر مصادرها: <a href=\"/en/articles/glp1-side-effects\">التعامل مع الآثار الجانبية الشائعة</a>، و<a href=\"/en/articles/what-is-glp1\">ما هو GLP-1 فعلاً</a>، و<a href=\"/en/articles/glp1-injection-sites\">أين تحقن وكيف تبدّل الموضع</a>، و<a href=\"/en/articles/side-effect-diary-that-helps\">ما الذي يجعل اليوميات مفيدة للطبيب</a>، و<a href=\"/en/articles/hydration-on-a-glp1\">ما تحذّر منه النشرة بشأن السوائل</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "في أماكن أخرى من Dozify: <a href=\"/en/glp1-appointment-report\">تقرير الطبيب</a> و<a href=\"/en/glp1-shot-tracker\">متتبع الحقن</a>."
+ }
+}

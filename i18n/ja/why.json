@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "title": "Dozifyを選ぶ理由｜アプリがすること、しないこと",
+  "description": "すでにGLP-1を処方されている方のためのアプリです。あなたと医師が決めたことを記録するだけで、用量を提案したり、結果を解釈したりすることはありません。"
+ },
+ "t": {
+  "← Back to home": "← ホームに戻る",
+  "Five things this app is built around. Each one is a claim you can check against how it behaves.": "このアプリの土台にある5つのこと。どれも、アプリの実際の動きと照らし合わせて確かめられる主張です。",
+  "Your records stay on your phone": "記録はスマートフォンの中に",
+  "Doses, weights, side effects and photos are stored in a database on your device. Usage analytics never carries a medication name or a symptom, and progress photos are never uploaded anywhere. The one photo that does leave the phone is a meal photo you choose to analyse with <a href=\"/en/ai-calorie-tracker\">AI calories</a>: it goes, after you agree, through our server to Google Gemini for the estimate and is not stored by the app. The <a href=\"/en/privacy\">privacy policy</a> lists exactly what leaves the device and why.": "用量、体重、副作用、写真は、デバイス上のデータベースに保存されます。利用分析にお薬の名前や症状が含まれることはなく、経過写真がどこかにアップロードされることもありません。スマートフォンの外に出る唯一の写真は、<a href=\"/en/ai-calorie-tracker\">AIカロリー</a>で分析することをあなたが選んだ食事の写真です。同意後に、推定のため当社のサーバーを経由してGoogle Geminiに送られ、アプリには保存されません。デバイスの外に何がなぜ出るのかは、<a href=\"/en/privacy\">プライバシーポリシー</a>に正確に記載しています。",
+  "Only what you track": "記録したいものだけを",
+  "The home screen is built from the things you said you care about: cards can be reordered, hidden, or brought back whenever you like. An app that shows everyone everything is an app nobody reads. If food matters to you, the <a href=\"/en/ai-calorie-tracker\">AI meal card</a> turns a photo into an editable calorie and protein draft; if you take a tablet, the <a href=\"/en/glp1-pill-tracker\">pill tracker</a> follows a daily rhythm.": "ホーム画面は、あなたが大切だと言ったものから作られます。カードはいつでも並べ替えたり、非表示にしたり、元に戻したりできます。全員にすべてを見せるアプリは、誰にも読まれないアプリです。食事を大切にしているなら、<a href=\"/en/ai-calorie-tracker\">AI食事カード</a>が写真を編集できるカロリーとたんぱく質の下書きに変えます。錠剤を飲んでいるなら、<a href=\"/en/glp1-pill-tracker\">錠剤トラッカー</a>が毎日のリズムに合わせます。",
+  "Sources you can follow": "たどれる情報源",
+  "Every article in the education section names where it came from (MedlinePlus (NIH), FDA, NIDDK, TİTCK) and links straight to it. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "学習セクションのどの記事も、出典（MedlinePlus（NIH）、FDA、NIDDK、TİTCK）を明記し、直接リンクしています。Dozifyは記録用のツールであり、用量を推奨することも、結果を解釈することもありません。",
+  "Feedback goes to a person": "フィードバックは人に届きます",
+  "Suggestions arrive as mail read by the person who writes the app, from Settings → Suggest a feature or at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. There is no ticket queue in between.": "ご提案は、「設定 → 機能を提案する」から、または<a href=\"mailto:support@dozify.app\">support@dozify.app</a>宛てに、アプリを作っている本人が読むメールとして届きます。間にチケットの順番待ちはありません。",
+  "Still being worked on": "今も改良を続けています",
+  "Fixes and additions ship as they are ready, and each release says what changed. Most of what has been added since launch started as a message from someone using the app.": "修正や追加は準備ができしだい配信し、リリースごとに何が変わったかをお知らせしています。公開以来追加されたもののほとんどは、アプリを使っている誰かからのメッセージがきっかけでした。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>"
+ }
+}

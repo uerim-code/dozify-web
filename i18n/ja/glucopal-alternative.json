@@ -1,0 +1,25 @@
+{
+ "meta": {
+  "title": "GlucoPalの代わりに｜GLP-1の履歴を移せるDozify",
+  "description": "GlucoPalから乗り換えますか？ Dozifyは書き出しファイルを読み込み、何かを書き込む前に件数を表示し、無視した列も一覧にします。無料で、デバイス上で完結します。"
+ },
+ "t": {
+  "GlucoPal alternative": "GlucoPalの代わりに",
+  "Coming from GlucoPal? Bring the history with you": "GlucoPalから移りますか？ 履歴を一緒に持ってこられます",
+  "Export from GlucoPal, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "GlucoPalから書き出し、Dozifyで開けば、記録が1件でも書き込まれる前に、書き込まれる予定のすべての記録を確認できます。無料で、ファイルがスマートフォンから出ることはありません。",
+  "The columns Dozify looks for in a GlucoPal export": "DozifyがGlucoPalの書き出しファイルで探す列",
+  "<code>date · log date</code>": "<code>date · log date</code>",
+  "<code>time · log time</code>": "<code>time · log time</code>",
+  "<code>dose · insulin · units</code>": "<code>dose · insulin · units</code>",
+  "<code>weight · weight (kg) · weight (lb)</code>": "<code>weight · weight (kg) · weight (lb)</code>",
+  "<strong>Side effect</strong>": "<strong>副作用</strong>",
+  "<code>symptom · note type</code>": "<code>symptom · note type</code>",
+  "<strong>Severity</strong>": "<strong>重症度</strong>",
+  "<code>severity</code>": "<code>severity</code>",
+  "<code>notes · comment</code>": "<code>notes · comment</code>",
+  "If your dose column is headed “units”": "用量の列の見出しが「units」の場合",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "それらの行は換算されずに一覧表示されます。単位はシリンジ上の容積であり、そこに何ミリグラム入っているかはバイアルの濃度によって決まりますが、ファイルにはその数字が含まれていません。それをミリグラムの欄に書き込むと、その後どこでも疑われることなく間違った用量が記録されてしまうので、Dozifyはそれらを表示し、処方医が使っている量を入力できるようにします。<a href=\"/en/articles/units-vs-milligrams\">換算方法がひとつではない理由 →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. GlucoPal is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with GlucoPal and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozifyは記録用のツールであり、医療機器ではありません。用量を推奨することはなく、医学的な助言も行いません。GlucoPalは所有者の商標であり、ここではDozifyが読み込めるファイル形式を説明するためだけに名前を挙げています。DozifyはGlucoPalと提携しておらず、このページはGlucoPalによって承認されたものではありません。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza®、Rybelsus®は各所有者の商標です。Dozifyはこれらの企業と提携していません。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glucopal-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glucopal-alternative-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>"
+ }
+}

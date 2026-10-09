@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "주사 부위 기록 — 메모 없이 부위 순환하기",
+  "description": "다음 주사 부위는 인체 지도가 기억하니 따로 메모할 필요가 없어요. GLP-1 주사를 어디에 맞았는지 기록하고 순환 현황을 한눈에 확인하세요."
+ },
+ "t": {
+  "Site rotation": "부위 순환",
+  "Rotate your sites without keeping notes": "메모 없이 주사 부위를 순환하세요",
+  "The body map remembers where the last few went, and suggests the spot you have gone longest without using.": "인체 지도가 최근 주사 위치를 기억하고, 가장 오래 쓰지 않은 자리를 제안해요.",
+  "Rotation is one of those things that is simple in principle and impossible to hold in your head. Six sites, one injection a week, and a note somewhere that you stopped updating in March.": "순환은 원칙은 간단하지만 머릿속에 담아 두기는 불가능한 일이에요. 부위 여섯 곳, 주 1회 주사, 그리고 3월에 업데이트를 멈춘 어딘가의 메모.",
+  "A map instead of a memory": "기억 대신 지도",
+  "Tap where you injected. The next time, the spot you have used least recently is already selected.": "주사한 곳을 탭하세요. 다음번에는 가장 오래전에 쓴 자리가 이미 선택되어 있어요.",
+  "Your own site names": "나만의 부위 이름",
+  "If you rotate somewhere the diagram does not name, write it in. The app will not draw an anatomy it does not know, but it will remember your label.": "그림에 이름이 없는 곳으로 순환한다면 직접 적으세요. 앱은 모르는 신체 부위를 그리지는 않지만, 내가 붙인 이름은 기억해요.",
+  "A gentle warning, not a rule": "규칙이 아닌 부드러운 알림",
+  "Pick a site you used last week and the app says so. It does not stop you: it is your body and your clinician's instruction.": "지난주에 쓴 부위를 고르면 앱이 알려 줘요. 막지는 않아요: 내 몸이고, 담당 의료진의 지시니까요.",
+  "People who have been told to rotate and not given a way to keep track of it, and people who have started to notice that one patch of the abdomen feels different from the rest. It also helps anyone injecting more than once a week, where the pattern is harder to hold in your head than a single weekly spot.": "순환하라는 말은 들었지만 기록할 방법은 받지 못한 분, 복부 한 곳이 다른 곳과 다르게 느껴지기 시작한 분. 주 1회보다 자주 주사해서 주 1회 한 자리보다 패턴을 기억하기 어려운 분에게도 도움이 돼요.",
+  "The body map records where you injected and suggests which area comes next in the rotation. It does not examine the site: it cannot tell you whether the skin there is suitable today, and a lump or a hardened area is something to show a clinician, not something an app should judge. The approved areas come from the manufacturer's instructions for your medication, and those instructions are what to follow if they differ.": "인체 지도는 주사한 곳을 기록하고 순환 순서상 다음 부위를 제안해요. 부위를 진찰하지는 않아요: 오늘 그 자리의 피부가 적합한지 알려 줄 수 없고, 멍울이나 딱딱해진 부위는 앱이 판단할 게 아니라 의료진에게 보여야 할 것이에요. 승인된 부위는 약의 제조사 지침에서 나오며, 서로 다르다면 그 지침을 따르세요.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-en&mt=8\" class=\"btn btn-primary\">App Store에서 다운로드</a>",
+  "Which sites can I choose from?": "어떤 부위를 고를 수 있나요?",
+  "The abdomen, the thigh and the upper arm, split into left and right and into the areas within each. Those are the areas the manufacturers' instructions describe for subcutaneous GLP-1 injections.": "복부, 허벅지, 위팔을 왼쪽과 오른쪽, 그리고 각 부위 안의 구역으로 나눠요. 제조사 지침이 피하 GLP-1 주사 부위로 설명하는 곳들이에요.",
+  "How does the suggestion work?": "제안은 어떻게 작동하나요?",
+  "It looks at where your recent injections went and points at the area you have used least recently. It is a suggestion on the screen, not a rule: you can log anywhere you actually injected.": "최근 주사 위치를 보고 가장 오래전에 쓴 부위를 가리켜요. 화면의 제안일 뿐 규칙이 아니에요. 실제로 주사한 곳이라면 어디든 기록할 수 있어요.",
+  "Does it warn me if I use the same spot again?": "같은 자리를 다시 쓰면 알려 주나요?",
+  "It shows you what you have used recently, so a repeat is visible before you log it. It does not block anything; you may have a reason, and the app does not overrule you.": "최근에 쓴 곳을 보여 줘서, 기록하기 전에 반복이 눈에 보여요. 아무것도 막지 않아요. 이유가 있을 수 있고, 앱은 내 결정을 뒤집지 않아요.",
+  "I inject in the same area every time. Is that a problem?": "매번 같은 부위에 주사해요. 문제가 되나요?",
+  "That is a question for your clinician or pharmacist. What Dozify can do is show them the pattern: the report includes where your injections have gone over the period you pick.": "담당 의료진이나 약사에게 물어볼 질문이에요. Dozify가 할 수 있는 건 그 패턴을 보여 주는 거예요: 리포트에는 고른 기간 동안 주사한 위치가 담겨요.",
+  "Does this replace the leaflet that came with my pen?": "펜과 함께 받은 설명서를 대신하나요?",
+  "No. The leaflet is the instruction; this is a record of what you did. Where the two disagree, the leaflet is right.": "아니요. 설명서는 지침이고, 이건 내가 한 일의 기록이에요. 둘이 다르다면 설명서가 맞아요.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a> and <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/injection-site-lumps\">what the labels report about lumps at a site</a>.": "출처를 밝힌 가이드: <a href=\"/en/articles/glp1-injection-sites\">어디에 주사하고 어떻게 순환할까</a>, <a href=\"/en/articles/how-to-inject-glp1\">펜 주사 방법 단계별 안내</a>, <a href=\"/en/articles/glp1-side-effects\">흔한 부작용 관리하기</a>, <a href=\"/en/articles/injection-site-lumps\">주사 부위 멍울에 대해 허가사항이 보고하는 것</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a>.": "Dozify의 다른 기능: <a href=\"/en/glp1-shot-tracker\">주사 기록</a>과 <a href=\"/en/glp1-side-effect-journal\">부작용 일지</a>."
+ }
+}

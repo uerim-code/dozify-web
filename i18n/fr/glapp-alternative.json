@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "title": "Alternative à Glapp : gardez votre historique GLP-1",
+  "description": "Vous quittez Glapp ? Dozify lit l’export, affiche chaque donnée avant de l’enregistrer et signale les colonnes non placées. Gratuit, rien n’est envoyé."
+ },
+ "t": {
+  "Glapp alternative": "Alternative à Glapp",
+  "Coming from Glapp? Bring the history with you": "Vous venez de Glapp ? Emportez votre historique",
+  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Exportez depuis Glapp, ouvrez le fichier dans Dozify et voyez chaque donnée qui va être enregistrée avant qu’aucune ne le soit. Gratuit, et le fichier ne quitte jamais votre téléphone.",
+  "The columns Dozify looks for in a Glapp export": "Les colonnes que Dozify recherche dans un export Glapp",
+  "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
+  "<code>time</code>": "<code>time</code>",
+  "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
+  "<strong>Site</strong>": "<strong>Site</strong>",
+  "<code>site · body site</code>": "<code>site · body site</code>",
+  "<strong>Medication</strong>": "<strong>Médicament</strong>",
+  "<code>medication · product</code>": "<code>medication · product</code>",
+  "<code>weight · weight kg · body weight</code>": "<code>weight · weight kg · body weight</code>",
+  "<strong>Side effect</strong>": "<strong>Effet secondaire</strong>",
+  "<code>symptom · side effect · side-effect</code>": "<code>symptom · side effect · side-effect</code>",
+  "<strong>Severity</strong>": "<strong>Intensité</strong>",
+  "<code>severity · intensity</code>": "<code>severity · intensity</code>",
+  "<code>notes · note</code>": "<code>notes · note</code>",
+  "If your dose column is headed “units”": "Si votre colonne de dose s’intitule « units »",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "Ces lignes vous sont listées au lieu d’être converties. Une unité est un volume sur une seringue, et le nombre de milligrammes qu’elle contient dépend de la concentration de votre flacon — un chiffre que le fichier ne contient pas. Les inscrire dans un champ en milligrammes enregistrerait une dose erronée sans que rien en aval ne le remette en question : Dozify vous les montre donc et vous laisse saisir la quantité qu’utilise votre prescripteur. <a href=\"/en/articles/units-vs-milligrams\">Pourquoi il n’existe pas de conversion unique →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify est un outil de suivi, pas un dispositif médical. Il ne recommande pas de doses et ne fournit pas d’avis médical. Glapp est une marque de son propriétaire et n’est citée ici que pour décrire un format de fichier que Dozify sait lire ; Dozify n’est pas affilié à Glapp et cette page n’est pas approuvée par eux. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® et Rybelsus® sont des marques de leurs propriétaires respectifs ; Dozify n’est pas affilié à ces entreprises.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Télécharger dans l’App Store</a>"
+ }
+}

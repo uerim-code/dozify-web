@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nível do medicamento GLP-1: gráfico estimado pelas doses</title>
+  <meta property="og:url" content="https://dozify.app/pt/glp1-medication-level">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Uma curva estimada de como o seu GLP-1 se acumula e diminui entre injeções, a partir das doses registadas, ao lado do peso. Uma estimativa, não uma análise.">
+  <meta property="og:title" content="Nível do medicamento GLP-1: gráfico estimado pelas doses">
+  <meta property="og:description" content="Uma curva estimada de como o seu GLP-1 se acumula e diminui entre injeções, a partir das doses registadas, ao lado do peso. Uma estimativa, não uma análise.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — registo privado de injeções GLP-1 e de peso para iPhone">
+  <meta name="twitter:title" content="Nível do medicamento GLP-1: gráfico estimado pelas doses">
+  <meta name="twitter:description" content="Uma curva estimada de como o seu GLP-1 se acumula e diminui entre injeções, a partir das doses registadas, ao lado do peso. Uma estimativa, não uma análise.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — registo privado de injeções GLP-1 e de peso para iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="pt_PT">
+
+  <link rel="canonical" href="https://dozify.app/pt/glp1-medication-level">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-medication-level">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/ilac-seviyesi-egrisi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glp1-medication-level">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glp1-medication-level">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glp1-medication-level">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glp1-medication-level">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glp1-medication-level">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glp1-medication-level">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glp1-medication-level">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glp1-medication-level">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glp1-medication-level">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glp1-medication-level">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glp1-medication-level">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glp1-medication-level">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glp1-medication-level">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glp1-medication-level">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glp1-medication-level">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glp1-medication-level">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glp1-medication-level">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glp1-medication-level">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glp1-medication-level">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glp1-medication-level">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-medication-level">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/pt",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "pt"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/pt",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Registe injeções e comprimidos GLP-1, alterne locais, acompanhe peso, efeitos secundários e ruído alimentar, e estime calorias por foto com IA. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "pt"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/pt/glp1-medication-level#webpage",
+        "url": "https://dozify.app/pt/glp1-medication-level",
+        "name": "Nível do medicamento GLP-1: gráfico estimado pelas doses",
+        "description": "Uma curva estimada de como o seu GLP-1 se acumula e diminui entre injeções, a partir das doses registadas, ao lado do peso. Uma estimativa, não uma análise.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "pt",
+        "breadcrumb": {
+          "@id": "https://dozify.app/pt/glp1-medication-level#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Este é o meu nível real de medicamento?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. É uma estimativa média obtida por modelação farmacocinética, a partir das doses que registou. Não mede a concentração no seu sangue, e a app di-lo no ecrã."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quanto tempo fica o semaglutido no organismo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O valor para cada medicamento está na respetiva informação de prescrição, e o seu farmacêutico ou médico pode explicar o que significa no seu caso. O que o Dozify acrescenta é a forma dessa curva ao longo das suas próprias doses registadas: quando a estimativa sobe, como desce e como uma semana se sobrepõe à seguinte."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Porque não há curva para o meu comprimido?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A app não tem um perfil para medicamentos orais, por isso, para um medicamento tomado apenas por via oral, não mostra nenhuma curva em vez de um número em que não pode confiar. As doses do comprimido continuam a ser registadas e lembradas como habitualmente."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O gráfico do nível do medicamento é gratuito?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Faz parte do Premium, juntamente com a foto da refeição com IA e o relatório para o médico. Registar doses e receber lembretes é gratuito para sempre."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Posso usar a curva para decidir quando tomar a próxima dose?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. O horário e a dose são definidos por quem os prescreve. A curva serve para ajudar a perceber e descrever as suas semanas, não para programar ou alterar uma dose."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "E se me esqueci de registar uma dose?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Adicione-a com a data e a hora em que realmente aconteceu. A curva é construída a partir do seu registo, por isso, enquanto a entrada não estiver lá, não sabe dessa dose."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/pt/glp1-medication-level#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Início",
+            "item": "https://dozify.app/pt"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Nível do medicamento",
+            "item": "https://dozify.app/pt/glp1-medication-level"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/pt" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funcionalidades</a>
+        
+        <a href="/#privacy">Privacidade</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/pt">Início</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Nível do medicamento</span>
+      
+    </div>
+    <h1>Um gráfico do nível do medicamento GLP-1 desenhado a partir das suas doses</h1>
+    
+    <p class="meta">Um telemóvel não consegue medir quanto medicamento tem no organismo. O que o Dozify pode fazer é estimar a forma dessa curva a partir das injeções que registou, e dizer claramente no ecrã que se trata de uma estimativa.</p>
+    
+
+    <h2>A pergunta por trás do gráfico</h2>
+    <p>Quem faz uma injeção semanal pergunta-se muitas vezes o mesmo: quanto da dose da semana passada ainda está a atuar, e isso explica como me sinto hoje? Um registo de doses responde ao quando. Não mostra o que acontece entre uma dose e a seguinte, e é nesse intervalo que vive a maioria das perguntas.</p>
+
+    
+    
+
+    <h2>O que é a curva</h2>
+    <p>Depois de cada injeção, o nível estimado sobe e depois vai descendo ao longo do tempo, de acordo com a semivida do medicamento. O Dozify desenha isso a partir das doses que regista (a data, a quantidade e o medicamento), usando um perfil farmacocinético para cada molécula injetável, como o semaglutido no Ozempic® e no Wegovy® ou a tirzepatida no Mounjaro® e no Zepbound®. Uma linha de referência marca o pico típico de uma dose, para ver onde fica a estimativa de hoje em comparação. Com injeções regulares, a subida e a descida estabilizam num ritmo constante, a que a app chama estado de equilíbrio.</p>
+    <p>O ecrã di-lo com todas as letras: «É uma estimativa média a partir de modelagem farmacocinética. Não mede a concentração real.» Não é uma análise ao sangue, e não sabe nada sobre o seu corpo que o seu registo não saiba.</p>
+
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/level-curve.webp" srcset="/screenshots/en/level-curve-400w.webp 400w, /screenshots/en/level-curve.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Tendência do peso e curva estimada do nível do medicamento a partir das injeções registadas"></div></figure>
+      
+    </div>
+
+    <h2>Peso e dose na mesma linha</h2>
+    <p>A curva fica na mesma cronologia que as suas doses e a sua <a href="/pt/glp1-weight-tracker">tendência de peso</a>. Uma mudança de dose, uma semana falhada ou um longo período sem mudanças na balança aparecem em contexto, ao lado do que se estima que o medicamento estava a fazer nessa altura, em vez de numa app separada que tem de alinhar à mão.</p>
+
+    
+    
+
+    <h2>Fome e ruído alimentar ao longo da semana</h2>
+    <p>Se alguns dias da semana parecem trazer mais fome do que outros, a curva dá-lhe algo concreto com que comparar. O Dozify permite classificar o ruído alimentar (food noise; na app, «Pensamentos constantes sobre comida») nos seus check-ins e guarda essas classificações ao longo do tempo, na mesma app que a estimativa. Pode olhar para ambos nas mesmas semanas e ver por si se os dias com mais ruído tendem a cair no mesmo ponto de cada semana. O que encontrar é o seu próprio padrão e vale a pena levá-lo a quem o prescreve. A app não o explica, não o diagnostica nem sugere mudar uma dose por causa disso.</p>
+
+    
+    
+
+    <h2>Apenas injeções</h2>
+    <p>A curva é desenhada para medicamentos injetáveis. Para um medicamento tomado apenas por via oral, como o Rybelsus® ou o comprimido Wegovy, o Dozify não mostra qualquer curva, porque a app não tem um perfil oral e não vai inventar um. Um valor errado é pior do que um espaço em branco. Os comprimidos continuam a ser registados, lembrados e incluídos nos relatórios como tudo o resto; a <a href="/pt/glp1-pill-tracker">página do registo de comprimidos GLP-1</a> explica como.</p>
+
+    
+    
+
+    <h2>Os limites</h2>
+    <p>A estimativa é uma média construída a partir de um modelo e do seu registo, por isso só é tão completa quanto as suas entradas: uma dose que não registou é uma dose que a curva desconhece. Não tem em conta a forma como o seu próprio corpo processa o medicamento, e o nível que mostra não é uma meta. O tempo que um determinado medicamento permanece no organismo está descrito na respetiva informação de prescrição, e o seu farmacêutico pode explicar-lho. O Dozify não recomenda uma dose, um dia de dose nem uma alteração a nenhum deles. A curva faz parte do Premium; o registo de doses e os lembretes são gratuitos para sempre.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-medication-level-pt&mt=8" class="btn btn-primary">Descarregar na App Store</a></p>
+
+
+    <h2>Perguntas</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Este é o meu nível real de medicamento?</h3>
+        
+        <p>Não. É uma estimativa média obtida por modelação farmacocinética, a partir das doses que registou. Não mede a concentração no seu sangue, e a app di-lo no ecrã.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Quanto tempo fica o semaglutido no organismo?</h3>
+        
+        <p>O valor para cada medicamento está na respetiva informação de prescrição, e o seu farmacêutico ou médico pode explicar o que significa no seu caso. O que o Dozify acrescenta é a forma dessa curva ao longo das suas próprias doses registadas: quando a estimativa sobe, como desce e como uma semana se sobrepõe à seguinte.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Porque não há curva para o meu comprimido?</h3>
+        
+        <p>A app não tem um perfil para medicamentos orais, por isso, para um medicamento tomado apenas por via oral, não mostra nenhuma curva em vez de um número em que não pode confiar. As doses do comprimido continuam a ser registadas e lembradas como habitualmente.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>O gráfico do nível do medicamento é gratuito?</h3>
+        
+        <p>Faz parte do Premium, juntamente com a <a href="/pt/ai-calorie-tracker">foto da refeição com IA</a> e o relatório para o médico. Registar doses e receber lembretes é gratuito para sempre.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Posso usar a curva para decidir quando tomar a próxima dose?</h3>
+        
+        <p>Não. O horário e a dose são definidos por quem os prescreve. A curva serve para ajudar a perceber e descrever as suas semanas, não para programar ou alterar uma dose.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>E se me esqueci de registar uma dose?</h3>
+        
+        <p>Adicione-a com a data e a hora em que realmente aconteceu. A curva é construída a partir do seu registo, por isso, enquanto a entrada não estiver lá, não sabe dessa dose.</p>
+        
+      </div>
+    </div>
+
+    <h2>A seguir</h2>
+    <p>Guias, com as fontes indicadas: <a href="/pt/articles/what-is-glp1">o que é realmente o GLP-1</a>, <a href="/pt/articles/missed-glp1-dose">o que diz o folheto sobre uma dose esquecida</a> e <a href="/pt/articles/reading-a-weight-trend">como ler uma tendência quando a balança estagnou</a>.</p>
+    <p>Noutras partes do Dozify: <a href="/pt/glp1-shot-tracker">o registo de injeções</a>, <a href="/pt/glp1-side-effect-journal">o diário de efeitos secundários</a>, <a href="/pt/glp1-pill-tracker">o registo de comprimidos GLP-1</a>, <a href="/pt/ai-calorie-tracker">calorias e proteína por foto com IA</a> e <a href="/pt/private-glp1-tracker">porque é que os seus registos ficam no telemóvel</a>.</p>
+
+    
+    
+    
+
+    <p class="meta">O Dozify é uma ferramenta de registo, não um dispositivo médico. Não recomenda doses nem presta aconselhamento médico. A curva do nível do medicamento é uma estimativa, não uma medição. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® e Rybelsus® são marcas registadas dos respetivos proprietários; o Dozify não tem ligação a estas empresas.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/pt" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Informação legal</h3>
+          
+          <a href="/pt/privacy">Política de Privacidade</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/pt/terms">Termos</a>
+          
+          <a href="/pt/editorial-policy">Política editorial</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Registo</h3>
+          
+          <a href="/pt/glp1-shot-tracker">Registo de injeções GLP-1</a>
+          
+          <a href="/pt/injection-site-tracker">Registo de locais de injeção</a>
+          
+          <a href="/pt/glp1-weight-tracker">Registo de peso com GLP-1</a>
+          
+          <a href="/pt/glp1-side-effect-journal">Diário de efeitos secundários</a>
+          
+          <a href="/pt/glp1-vial-tracker">Registo de frascos</a>
+          
+          <a href="/pt/private-glp1-tracker">Registo GLP-1 privado</a>
+          
+          <a href="/pt/glp1-appointment-report">Relatório para o médico</a>
+          
+          <a href="/pt/switch-glp1-tracker-app">Mudar de outra app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Ajuda</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glp1-medication-level" hreflang="en" lang="en">English</a> · <a href="/tr/ilac-seviyesi-egrisi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glp1-medication-level" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glp1-medication-level" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/glp1-medication-level" hreflang="da" lang="da">Dansk</a> · <a href="/de/glp1-medication-level" hreflang="de" lang="de">Deutsch</a> · <a href="/el/glp1-medication-level" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/glp1-medication-level" hreflang="es" lang="es">Español</a> · <a href="/fi/glp1-medication-level" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/glp1-medication-level" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glp1-medication-level" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glp1-medication-level" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glp1-medication-level" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/glp1-medication-level" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/glp1-medication-level" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/glp1-medication-level" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glp1-medication-level" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glp1-medication-level" hreflang="pt" lang="pt" aria-current="page">Português</a> · <a href="/ru/glp1-medication-level" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glp1-medication-level" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/glp1-medication-level" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glp1-medication-level" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

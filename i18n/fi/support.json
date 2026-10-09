@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "title": "Dozify-tuki – ohjeet, yhteystiedot ja tilaukset",
+  "description": "Vastauksia muistutuksista, tuonneista, varmuuskopioista, Premiumista ja tilauksen perumisesta — sekä miten tavoitat ihmisen, jos vastausta ei löydy täältä."
+ },
+ "t": {
+  "← Back to home": "← Takaisin etusivulle",
+  "We typically reply within 24-48 hours.": "Vastaamme yleensä 24–48 tunnin kuluessa.",
+  "Email Support": "Sähköpostituki",
+  "For general questions, bug reports, or feature requests, contact us at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.": "Yleisissä kysymyksissä, virheilmoituksissa tai ominaisuustoiveissa ota yhteyttä osoitteeseen <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.",
+  "Privacy & KVKK": "Tietosuoja & KVKK",
+  "For data requests, deletion, or KVKK applications, write to <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.": "Tietopyynnöt, poistopyynnöt tai KVKK-hakemukset osoitteeseen <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.",
+  "Frequently Asked Questions": "Usein kysytyt kysymykset",
+  "Where is my data stored?": "Missä tietoni säilytetään?",
+  "All your data (medications, injections, weight, side effects) is stored only on your phone, in an encrypted local database. Nothing is uploaded to any server. Dozify has no cloud.": "Kaikki tietosi (lääkkeet, pistokset, paino, sivuvaikutukset) tallennetaan vain puhelimeesi, salattuun paikalliseen tietokantaan. Mitään ei ladata millekään palvelimelle. Dozifylla ei ole pilveä.",
+  "If I switch phones, will I lose my data?": "Jos vaihdan puhelinta, menetänkö tietoni?",
+  "Not if you back up first. Go to Settings → Backup to create a password-protected, encrypted backup file, then restore it on your new device from the same screen. There's still no cloud sync: the backup file itself is yours to keep (Files, email, AirDrop, etc.).": "Et, jos otat ensin varmuuskopion. Siirry kohtaan Asetukset → Varmuuskopiointi ja palautus luodaksesi salasanalla suojatun, salatun varmuuskopiotiedoston, ja palauta se uudella laitteellasi samasta näkymästä. Pilvisynkronointia ei silti ole: varmuuskopiotiedosto on sinun säilytettäväsi (Tiedostot, sähköposti, AirDrop jne.).",
+  "How do I cancel Premium?": "Miten peruutan Premiumin?",
+  "Manage or cancel your subscription in the App Store (Settings → Apple ID → Subscriptions). Cancelling stops future renewals: you keep Premium until the end of the period you already paid for.": "Hallitse tai peruuta tilauksesi App Storessa (Asetukset → Apple ID → Tilaukset). Peruutus lopettaa tulevat uusimiset: Premium säilyy jo maksamasi jakson loppuun asti.",
+  "Will my Premium work on another device?": "Toimiiko Premium toisella laitteella?",
+  "How do I add the Ozempic® / Wegovy® pen form?": "Miten lisään Ozempic®- / Wegovy®-kynän?",
+  "Go to Medications → Add → select Ozempic or Wegovy → choose \"Pre-filled dose pen\" → set your prescribed dose.": "Siirry kohtaan Lääkkeeni → Lisää lääke → valitse Ozempic tai Wegovy → valitse ”Esitäytetty kynä” → aseta sinulle määrätty annos.",
+  "Why can I pick Mounjaro® as both a pen and a vial?": "Miksi voin valita Mounjaro®-valmisteen sekä kynänä että injektiopullona?",
+  "Mounjaro comes as a pre-filled KwikPen in some markets and as a multi-dose vial in others. Dozify offers both forms so you can pick the one that matches the product you were prescribed.": "Mounjaroa myydään joillakin markkinoilla esitäytettynä KwikPen-kynänä ja toisilla moniannospullona. Dozify tarjoaa molemmat muodot, jotta voit valita sen, joka vastaa sinulle määrättyä valmistetta.",
+  "My reminders are not working: what should I do?": "Muistutukseni eivät toimi: mitä teen?",
+  "Open your phone Settings → Notifications → Dozify → enable notifications. Also check that \"Do Not Disturb\" or a Focus mode is not silencing Dozify.": "Avaa puhelimesi Asetukset → Ilmoitukset → Dozify → ota ilmoitukset käyttöön. Tarkista myös, ettei ”Älä häiritse” tai keskittymistila vaienna Dozifya.",
+  "How do I delete all my data?": "Miten poistan kaikki tietoni?",
+  "Settings → Delete My Data → choose to delete selected categories or everything. Uninstalling the app also permanently deletes all local data.": "Asetukset → Poista tiedot → valitse, poistetaanko valitut luokat vai kaikki. Sovelluksen poistaminen poistaa myös kaikki paikalliset tiedot pysyvästi.",
+  "How do I create a PDF report?": "Miten luon PDF-raportin?",
+  "Go to Reports → New Report → choose summary, detailed, or doctor-visit format → select date range → Generate. The PDF can be shared by email, AirDrop, or any other app.": "Siirry kohtaan PDF-raportit → Uusi raportti → valitse Yhteenvetoraportti, Yksityiskohtainen raportti tai Lääkärikäynnin raportti → valitse aikaväli → Luo raportti. PDF:n voi jakaa sähköpostilla, AirDropilla tai millä tahansa muulla sovelluksella.",
+  "Does the app give medical advice?": "Antaako sovellus lääketieteellisiä neuvoja?",
+  "No. Dozify is a tracking tool only. It does not recommend doses or interpret medical results. Always consult your doctor or pharmacist for clinical decisions.": "Ei. Dozify on pelkkä seurantatyökalu. Se ei suosittele annoksia eikä tulkitse lääketieteellisiä tuloksia. Kysy aina lääkäriltäsi tai farmaseutilta kliinisistä päätöksistä.",
+  "Yes. On your new device, open the Premium screen and tap \"Restore purchases\" while signed into the same Apple ID you subscribed with.": "Kyllä. Avaa uudella laitteellasi Premium-näkymä ja napauta ”Palauta ostot”, kun olet kirjautuneena samalla Apple ID:llä, jolla teit tilauksen."
+ }
+}

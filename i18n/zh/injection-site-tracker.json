@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "注射部位记录：无需笔记也能轮换",
+  "description": "人体图会记住下一个该用哪个部位，你不必再做笔记。记录每次 GLP-1 注射的位置，轮换情况一目了然。"
+ },
+ "t": {
+  "Site rotation": "部位轮换",
+  "Rotate your sites without keeping notes": "不用做笔记，也能轮换注射部位",
+  "The body map remembers where the last few went, and suggests the spot you have gone longest without using.": "人体图会记住最近几次注射的位置，并建议你最久没用过的那个点。",
+  "Rotation is one of those things that is simple in principle and impossible to hold in your head. Six sites, one injection a week, and a note somewhere that you stopped updating in March.": "轮换是那种原理简单、却根本无法记在脑子里的事情。六个部位，每周一针，还有一份你从三月起就没再更新的笔记。",
+  "A map instead of a memory": "用地图代替记忆",
+  "Tap where you injected. The next time, the spot you have used least recently is already selected.": "轻点你注射的位置。下一次，最久没用过的那个点已经被预先选好。",
+  "Your own site names": "你自己的部位名称",
+  "If you rotate somewhere the diagram does not name, write it in. The app will not draw an anatomy it does not know, but it will remember your label.": "如果你轮换的位置在示意图上没有名称，就自己写上。应用不会画出它不了解的解剖结构，但它会记住你的标签。",
+  "A gentle warning, not a rule": "温和的提示，而不是规定",
+  "Pick a site you used last week and the app says so. It does not stop you: it is your body and your clinician's instruction.": "选择一个你上周用过的部位，应用会告诉你。它不会阻止你：这是你的身体，也是你的医生的指示。",
+  "People who have been told to rotate and not given a way to keep track of it, and people who have started to notice that one patch of the abdomen feels different from the rest. It also helps anyone injecting more than once a week, where the pattern is harder to hold in your head than a single weekly spot.": "适合被告知要轮换、却没有办法记录轮换情况的人，以及开始注意到腹部某一块和其他地方感觉不一样的人。也适合每周注射不止一次的人，这种情况下的规律比每周一个固定位置更难记在脑子里。",
+  "The body map records where you injected and suggests which area comes next in the rotation. It does not examine the site: it cannot tell you whether the skin there is suitable today, and a lump or a hardened area is something to show a clinician, not something an app should judge. The approved areas come from the manufacturer's instructions for your medication, and those instructions are what to follow if they differ.": "人体图记录你在哪里注射，并建议轮换中下一个区域。它不会检查注射部位：它无法告诉你那里的皮肤今天是否适合注射，而肿块或变硬的区域是应该给医生看的，不是一个应用该去判断的。获批的区域来自你所用药物的生产商说明，如果两者有出入，请遵循这些说明。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-en&mt=8\" class=\"btn btn-primary\">在 App Store 下载</a>",
+  "Which sites can I choose from?": "可以选择哪些部位？",
+  "The abdomen, the thigh and the upper arm, split into left and right and into the areas within each. Those are the areas the manufacturers' instructions describe for subcutaneous GLP-1 injections.": "腹部、大腿和上臂，分为左右两侧，每侧再细分为若干区域。这些是生产商说明中描述的 GLP-1 皮下注射区域。",
+  "How does the suggestion work?": "建议是怎么得出的？",
+  "It looks at where your recent injections went and points at the area you have used least recently. It is a suggestion on the screen, not a rule: you can log anywhere you actually injected.": "它查看你最近几次注射的位置，并指向最久没用过的区域。这是屏幕上的建议，不是规定：你可以记录你实际注射的任何位置。",
+  "Does it warn me if I use the same spot again?": "如果我再次使用同一个位置，它会提醒我吗？",
+  "It shows you what you have used recently, so a repeat is visible before you log it. It does not block anything; you may have a reason, and the app does not overrule you.": "它会显示你最近用过的位置，所以在记录之前就能看出是否重复。它不会阻止任何操作；你可能有自己的理由，应用不会否决你。",
+  "I inject in the same area every time. Is that a problem?": "我每次都在同一个区域注射。这有问题吗？",
+  "That is a question for your clinician or pharmacist. What Dozify can do is show them the pattern: the report includes where your injections have gone over the period you pick.": "这是要问你的医生或药剂师的问题。Dozify 能做的，是把规律展示给他们：报告中包含你所选时间段内各次注射的位置。",
+  "Does this replace the leaflet that came with my pen?": "它能取代注射笔随附的说明书吗？",
+  "No. The leaflet is the instruction; this is a record of what you did. Where the two disagree, the leaflet is right.": "不能。说明书是操作指示；这是你实际操作的记录。两者不一致时，以说明书为准。",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a> and <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/injection-site-lumps\">what the labels report about lumps at a site</a>.": "注明出处的指南：<a href=\"/en/articles/glp1-injection-sites\">在哪里注射以及如何轮换</a>、<a href=\"/en/articles/how-to-inject-glp1\">如何使用注射笔，分步说明</a>、<a href=\"/en/articles/glp1-side-effects\">应对常见副作用</a>以及<a href=\"/en/articles/injection-site-lumps\">说明书对注射部位肿块的报告</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a>.": "Dozify 的其他功能：<a href=\"/en/glp1-shot-tracker\">注射记录</a>和<a href=\"/en/glp1-side-effect-journal\">副作用日记</a>。"
+ }
+}

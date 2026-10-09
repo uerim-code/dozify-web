@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de viales GLP-1: entérate antes de que se acabe</title>
+  <meta property="og:url" content="https://dozify.app/es/glp1-vial-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Dosis restantes, días desde la apertura y caducidad en una sola tarjeta. Las dos formas en que acaba un vial se ven venir con semanas; Dozify las cuenta.">
+  <meta property="og:title" content="Registro de viales GLP-1: entérate antes de que se acabe">
+  <meta property="og:description" content="Dosis restantes, días desde la apertura y caducidad en una sola tarjeta. Las dos formas en que acaba un vial se ven venir con semanas; Dozify las cuenta.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify: registro privado de inyecciones GLP-1 y de peso para iPhone">
+  <meta name="twitter:title" content="Registro de viales GLP-1: entérate antes de que se acabe">
+  <meta name="twitter:description" content="Dosis restantes, días desde la apertura y caducidad en una sola tarjeta. Las dos formas en que acaba un vial se ven venir con semanas; Dozify las cuenta.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify: registro privado de inyecciones GLP-1 y de peso para iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="es_ES">
+
+  <link rel="canonical" href="https://dozify.app/es/glp1-vial-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-vial-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/flakon-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glp1-vial-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glp1-vial-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glp1-vial-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glp1-vial-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glp1-vial-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glp1-vial-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glp1-vial-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glp1-vial-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glp1-vial-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glp1-vial-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glp1-vial-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glp1-vial-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glp1-vial-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glp1-vial-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glp1-vial-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glp1-vial-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glp1-vial-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glp1-vial-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glp1-vial-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glp1-vial-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-vial-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/es",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "es"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/es",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Registra inyecciones y pastillas GLP-1, rota zonas, controla peso, efectos secundarios y ruido mental por comida, y fotografía tus comidas para calorías con IA.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "es"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/es/glp1-vial-tracker#webpage",
+        "url": "https://dozify.app/es/glp1-vial-tracker",
+        "name": "Registro de viales GLP-1: entérate antes de que se acabe",
+        "description": "Dosis restantes, días desde la apertura y caducidad en una sola tarjeta. Las dos formas en que acaba un vial se ven venir con semanas; Dozify las cuenta.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "es",
+        "breadcrumb": {
+          "@id": "https://dozify.app/es/glp1-vial-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cuenta las dosis automáticamente?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Resta cada inyección que registras del vial al que la asignaste, así que la cantidad restante sigue tus propias entradas sin ningún paso aparte."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿De dónde sale el límite de uso?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "De las instrucciones de conservación de ese medicamento: cuánto tiempo puede conservarse una vez abierto y a qué temperatura. Dozify muestra el que corresponde y cuenta los días; no se inventa ninguna cifra."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Y si la pluma pasa un día fuera de la nevera?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Regístralo como un evento de conservación, indicando cuánto tiempo y más o menos con cuánto calor. Queda en el historial del vial, para que esté ahí cuando decidas o cuando preguntes a un farmacéutico."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Me avisará antes de que se acabe un vial?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Muestra en la tarjeta las dosis y los días que quedan, así que el final se ve con semanas de antelación y no la noche en que toca una dosis."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Funciona con plumas además de con viales?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Una pluma con varias dosis se registra de la misma forma: lo que queda, cuánto tiempo lleva abierta y cuándo caduca."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/es/glp1-vial-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://dozify.app/es"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Registro de viales",
+            "item": "https://dozify.app/es/glp1-vial-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/es" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funciones</a>
+        
+        <a href="/#privacy">Privacidad</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/es">Inicio</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Registro de viales</span>
+      
+    </div>
+    <h1>Entérate de cuándo se acaba el vial antes de que se acabe</h1>
+    
+    <p class="meta">Volumen restante, dosis que quedan y fecha de caducidad: en una sola tarjeta, antes del fin de semana en que la farmacia está cerrada.</p>
+    
+
+    <h2>El problema</h2>
+    <p>Un vial se acaba de dos formas: se vacía o caduca. Las dos se pueden prever con semanas de antelación y las dos se suelen notar la noche en que toca una dosis.</p>
+
+    
+    
+
+    <h2>Qué hace Dozify</h2>
+    <h3>Lo que queda, en dosis</h3>
+    <p>Los mililitros restantes y lo que eso significa en inyecciones con la cantidad que te han recetado.</p>
+    <h3>Dos relojes, no uno</h3>
+    <p>Los días desde la apertura y la caducidad del fabricante, lo que llegue primero: con las normas de conservación de ese medicamento.</p>
+    <h3>Tiempo fuera de la nevera</h3>
+    <p>Registra un evento de conservación cuando un vial pasa la tarde en una bolsa. El modo viaje es para los días que no son normales.</p>
+
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/vial-stock.webp" srcset="/screenshots/en/vial-stock-400w.webp 400w, /screenshots/en/vial-stock.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Entérate de cuándo se acaba el vial antes de que se acabe"></div></figure>
+      
+    </div>
+
+
+    <h2>A quién ayuda</h2>
+    <p>Personas con plumas y viales multidosis, en los que un solo envase cubre varias semanas y su final llega sin avisar. Importa sobre todo a quien viaja con su medicación, o a quien se ha quedado delante de la nevera abierta un domingo preguntándose si lo que hay dentro sigue estando bien.</p>
+
+    
+    
+
+    <h2>Dónde se detiene</h2>
+    <p>Dozify cuenta lo que le dices: las dosis extraídas, el día en que abriste el vial y la caducidad impresa en él. No puede ver el líquido, así que no puede decirte si un vial concreto sigue siendo apto para usarse: esa valoración corresponde a las instrucciones de conservación de tu medicamento y, ante cualquier duda, a tu farmacéutico. Los límites de uso que muestra proceden de esas instrucciones, no de nosotros.</p>
+
+    
+    
+
+    <h2>Privado por defecto</h2>
+    <p>Tus registros de salud se quedan en tu dispositivo y nunca se suben; la única excepción es una foto de comida que decidas analizar con las calorías con IA, que solo se envía después de que aceptes y que la app no guarda. No hay cuenta ni sincronización en la nube. Las estadísticas de uso nunca incluyen el nombre de un medicamento ni un síntoma; más detalles en la <a href="/es/privacy">política de privacidad</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-es&mt=8" class="btn btn-primary">Descárgalo en el App Store</a></p>
+
+
+    <h2>Preguntas</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>¿Cuenta las dosis automáticamente?</h3>
+        
+        <p>Resta cada inyección que registras del vial al que la asignaste, así que la cantidad restante sigue tus propias entradas sin ningún paso aparte.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>¿De dónde sale el límite de uso?</h3>
+        
+        <p>De las instrucciones de conservación de ese medicamento: cuánto tiempo puede conservarse una vez abierto y a qué temperatura. Dozify muestra el que corresponde y cuenta los días; no se inventa ninguna cifra.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>¿Y si la pluma pasa un día fuera de la nevera?</h3>
+        
+        <p>Regístralo como un evento de conservación, indicando cuánto tiempo y más o menos con cuánto calor. Queda en el historial del vial, para que esté ahí cuando decidas o cuando preguntes a un farmacéutico.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>¿Me avisará antes de que se acabe un vial?</h3>
+        
+        <p>Muestra en la tarjeta las dosis y los días que quedan, así que el final se ve con semanas de antelación y no la noche en que toca una dosis.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>¿Funciona con plumas además de con viales?</h3>
+        
+        <p>Sí. Una pluma con varias dosis se registra de la misma forma: lo que queda, cuánto tiempo lleva abierta y cuándo caduca.</p>
+        
+      </div>
+    </div>
+
+    <h2>Lee también</h2>
+    <p>Guías con sus fuentes indicadas: <a href="/es/articles/how-to-inject-glp1">cómo inyectar una pluma, paso a paso</a>, <a href="/es/articles/glp1-injection-sites">dónde inyectar y cómo rotar</a>, <a href="/es/articles/what-is-glp1">qué es realmente el GLP-1</a>, <a href="/es/articles/storing-glp1-pens">qué dice cada ficha sobre cómo conservar una pluma</a> y <a href="/es/articles/travelling-with-a-glp1-pen">qué dicen las normas sobre volar con una</a>.</p>
+    <p>En otras partes de Dozify: <a href="/es/glp1-shot-tracker">el registro de inyecciones</a> y <a href="/es/glp1-appointment-report">el informe para el médico</a>.</p>
+    <p>Novedad en Dozify: haz una foto a tu comida y la app te prepara un borrador de calorías y proteínas por alimento para que lo edites (<a href="/es/ai-calorie-tracker">conteo de calorías con IA</a>, Premium), y las pastillas GLP-1 diarias tienen su propio <a href="/es/glp1-pill-tracker">registro de pastillas</a>.</p>
+
+    
+    
+    
+    
+
+    <p class="meta">Dozify es una herramienta de registro, no un producto sanitario. No recomienda dosis ni ofrece consejo médico. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® y Rybelsus® son marcas registradas de sus respectivos titulares; Dozify no está afiliada a estas empresas.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/es" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Legal</h3>
+          
+          <a href="/es/privacy">Política de privacidad</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/es/terms">Condiciones</a>
+          
+          <a href="/es/editorial-policy">Política editorial</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Registro</h3>
+          
+          <a href="/es/glp1-shot-tracker">Registro de inyecciones GLP-1</a>
+          
+          <a href="/es/injection-site-tracker">Registro de zonas de inyección</a>
+          
+          <a href="/es/glp1-weight-tracker">Registro de peso GLP-1</a>
+          
+          <a href="/es/glp1-side-effect-journal">Diario de efectos secundarios</a>
+          
+          <a href="/es/glp1-vial-tracker">Registro de viales</a>
+          
+          <a href="/es/private-glp1-tracker">Registro GLP-1 privado</a>
+          
+          <a href="/es/glp1-appointment-report">Informe para el médico</a>
+          
+          <a href="/es/switch-glp1-tracker-app">Cámbiate desde otra app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Ayuda</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glp1-vial-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/flakon-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glp1-vial-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glp1-vial-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/glp1-vial-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/glp1-vial-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/glp1-vial-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/glp1-vial-tracker" hreflang="es" lang="es" aria-current="page">Español</a> · <a href="/fi/glp1-vial-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/glp1-vial-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glp1-vial-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glp1-vial-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glp1-vial-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/glp1-vial-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/glp1-vial-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/glp1-vial-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glp1-vial-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glp1-vial-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/glp1-vial-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glp1-vial-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/glp1-vial-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glp1-vial-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

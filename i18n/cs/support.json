@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "title": "Podpora Dozify — nápověda, kontakt a předplatné",
+  "description": "Odpovědi o připomínkách, importu, zálohách, Premium a zrušení předplatného — a jak se spojit s člověkem, když tu odpověď nenajdeš."
+ },
+ "t": {
+  "← Back to home": "← Zpět na úvod",
+  "We typically reply within 24-48 hours.": "Obvykle odpovídáme do 24–48 hodin.",
+  "Email Support": "E-mailová podpora",
+  "For general questions, bug reports, or feature requests, contact us at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.": "S obecnými dotazy, hlášením chyb nebo návrhy funkcí nám napiš na <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.",
+  "Privacy & KVKK": "Soukromí a KVKK",
+  "For data requests, deletion, or KVKK applications, write to <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.": "Žádosti o data, smazání nebo žádosti podle KVKK posílej na <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.",
+  "Frequently Asked Questions": "Často kladené otázky",
+  "Where is my data stored?": "Kde jsou uložená moje data?",
+  "All your data (medications, injections, weight, side effects) is stored only on your phone, in an encrypted local database. Nothing is uploaded to any server. Dozify has no cloud.": "Všechna tvoje data (léky, injekce, váha, nežádoucí účinky) jsou uložená jen v tvém telefonu, v šifrované lokální databázi. Nic se nenahrává na žádný server. Dozify nemá žádný cloud.",
+  "If I switch phones, will I lose my data?": "Přijdu o data, když změním telefon?",
+  "Not if you back up first. Go to Settings → Backup to create a password-protected, encrypted backup file, then restore it on your new device from the same screen. There's still no cloud sync: the backup file itself is yours to keep (Files, email, AirDrop, etc.).": "Ne, pokud si předtím uděláš zálohu. V Nastavení → Zálohování a obnova vytvoř šifrovaný záložní soubor chráněný heslem a pak ho na novém zařízení obnov na stejné obrazovce. Synchronizace s cloudem pořád neexistuje: záložní soubor je tvůj a uchováváš si ho sám/sama (Soubory, e-mail, AirDrop atd.).",
+  "How do I cancel Premium?": "Jak zruším Premium?",
+  "Manage or cancel your subscription in the App Store (Settings → Apple ID → Subscriptions). Cancelling stops future renewals: you keep Premium until the end of the period you already paid for.": "Předplatné spravuješ nebo rušíš v App Store (Nastavení → Apple ID → Předplatná). Zrušení zastaví další obnovování: Premium ti zůstane do konce období, které už máš zaplacené.",
+  "Will my Premium work on another device?": "Bude moje Premium fungovat na jiném zařízení?",
+  "How do I add the Ozempic® / Wegovy® pen form?": "Jak přidám formu pera Ozempic® / Wegovy®?",
+  "Go to Medications → Add → select Ozempic or Wegovy → choose \"Pre-filled dose pen\" → set your prescribed dose.": "Jdi do Moje léky → Přidat lék → vyber Ozempic nebo Wegovy → zvol „Předplněné pero“ → nastav předepsanou dávku.",
+  "Why can I pick Mounjaro® as both a pen and a vial?": "Proč můžu Mounjaro® vybrat jako pero i jako lahvičku?",
+  "Mounjaro comes as a pre-filled KwikPen in some markets and as a multi-dose vial in others. Dozify offers both forms so you can pick the one that matches the product you were prescribed.": "Mounjaro se na některých trzích dodává jako předplněné pero KwikPen a na jiných jako vícedávková lahvička. Dozify nabízí obě formy, abys mohl(a) vybrat tu, která odpovídá předepsanému přípravku.",
+  "My reminders are not working: what should I do?": "Nefungují mi připomínky: co mám dělat?",
+  "Open your phone Settings → Notifications → Dozify → enable notifications. Also check that \"Do Not Disturb\" or a Focus mode is not silencing Dozify.": "Otevři v telefonu Nastavení → Oznámení → Dozify → zapni oznámení. Zkontroluj také, že Dozify neztlumuje režim „Nerušit“ nebo jiný režim soustředění.",
+  "How do I delete all my data?": "Jak smažu všechna svá data?",
+  "Settings → Delete My Data → choose to delete selected categories or everything. Uninstalling the app also permanently deletes all local data.": "Nastavení → Mazání dat → zvol smazání vybraných kategorií nebo všeho. Odinstalování aplikace také trvale smaže všechna lokální data.",
+  "How do I create a PDF report?": "Jak vytvořím PDF zprávu?",
+  "Go to Reports → New Report → choose summary, detailed, or doctor-visit format → select date range → Generate. The PDF can be shared by email, AirDrop, or any other app.": "Jdi do PDF zprávy → Nová zpráva → zvol Souhrnná zpráva, Podrobná zpráva nebo Zpráva k návštěvě lékaře → vyber období → Vytvořit zprávu. PDF můžeš sdílet e-mailem, přes AirDrop nebo jakoukoli jinou aplikaci.",
+  "Does the app give medical advice?": "Dává aplikace lékařské rady?",
+  "No. Dozify is a tracking tool only. It does not recommend doses or interpret medical results. Always consult your doctor or pharmacist for clinical decisions.": "Ne. Dozify je pouze nástroj pro sledování. Nedoporučuje dávky ani nevykládá lékařské výsledky. S klinickými rozhodnutími se vždy obracej na svého lékaře nebo lékárníka.",
+  "Yes. On your new device, open the Premium screen and tap \"Restore purchases\" while signed into the same Apple ID you subscribed with.": "Ano. Na novém zařízení otevři obrazovku Premium a klepni na „Obnovit nákupy“, když jsi přihlášený/á ke stejnému Apple ID, se kterým sis předplatné pořídil(a)."
+ }
+}

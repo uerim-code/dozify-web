@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Läsa en viktkurva när vågen står still</title>
+  <meta name="description" content="Vikten toppar tidigt i veckan och bottnar runt fredag – det är publicerat, inte en anekdot. Vad en trendlinje svarar på, och vad den medvetet inte kan.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/sv/articles/reading-a-weight-trend">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="Läsa en viktkurva när vågen står still">
+  <meta property="og:description" content="Vikten toppar tidigt i veckan och bottnar runt fredag – det är publicerat, inte en anekdot. Vad en trendlinje svarar på, och vad den medvetet inte kan.">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify – en privat GLP-1-tracker för sprutor och vikt för iPhone">
+  <meta name="twitter:title" content="Läsa en viktkurva när vågen står still">
+  <meta name="twitter:description" content="Vikten toppar tidigt i veckan och bottnar runt fredag – det är publicerat, inte en anekdot. Vad en trendlinje svarar på, och vad den medvetet inte kan.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify – en privat GLP-1-tracker för sprutor och vikt för iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="sv_SE">
+
+  <link rel="canonical" href="https://dozify.app/sv/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/kilo-trendini-okumak">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/reading-a-weight-trend">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/reading-a-weight-trend">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/sv",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "sv"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/sv/editorial-policy",
+        "description": "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/sv/articles/reading-a-weight-trend#webpage",
+        "url": "https://dozify.app/sv/articles/reading-a-weight-trend",
+        "name": "Läsa en viktkurva när vågen står still",
+        "description": "Vikten toppar tidigt i veckan och bottnar runt fredag – det är publicerat, inte en anekdot. Vad en trendlinje svarar på, och vad den medvetet inte kan.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "sv",
+        "breadcrumb": {
+          "@id": "https://dozify.app/sv/articles/reading-a-weight-trend#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Jag gick upp 1,5 kg över natten. Är det på riktigt?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Det är en verklig mätning. Om det är en verklig förändring i din kropp är en annan fråga, och en dag kan inte besvara den: det publicerade mönstret inom veckan flyttar ensamt siffran utan att något annat har ändrats. Trenden under de följande dagarna är det som avgör."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ska jag väga mig varje dag eller en gång i veckan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Båda ger dig en trend; fler mätningar ger den bara fler punkter. Vad vägning en gång i veckan inte kan är att jämna ut veckodagseffekten, eftersom varje mätning hamnar på samma veckodag. Om du väger dig en gång i veckan, håll fast vid samma dag och läs månaderna snarare än veckorna."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Min trend har varit platt i tre veckor. Vad betyder det?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Det betyder att mätningarna inte rör sig. Allt utöver det (orsak, betydelse, vad som bör hända härnäst) är en klinisk bedömning, och den här sidan har ingen rätt att göra den. Ta med de tre veckorna, med datum och doser, till den som skrev ut läkemedlet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Säger en prognos när jag når mitt mål?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Den säger när du skulle nå det om trenden i dina egna mätningar fortsatte exakt som den har gjort. Kroppar fungerar inte så, och ett datum som tagits fram genom att förlänga en linje är en beskrivning av linjen, inte en plan för året."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Jag missade en veckas vägning. Har jag förstört trenden?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nej. Forskning på data från smarta vågar fann att uppskattningarna höll även med mycket saknade data, och i en grupp med nästan tiotusen användare vägde sig den genomsnittliga personen omkring 40 % av dagarna. Luckor är det normala, inte misslyckandet."
+            }
+          }
+        ],
+        "headline": "Läsa en viktkurva, när vågen har stannat av",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-19",
+        "dateModified": "2026-08-19",
+        "lastReviewed": "2026-08-19",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "Weight Rhythms: Weight Increases during Weekends and Decreases during Weekdays (PMC, NIH)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5644907/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Frequency of Self-Weighing and Weight Change: Cohort Study With 10,000 Smart Scale Users (PMC, NIH)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8277333/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Body Weight Variability Calculation From Digital Smart Scales (PMC, NIH)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7519428/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "NIDDK (NIH) — Weight management",
+            "url": "https://www.niddk.nih.gov/health-information/weight-management"
+          },
+          {
+            "@type": "WebPage",
+            "name": "MedlinePlus (NIH) — Semaglutide Injection",
+            "url": "https://medlineplus.gov/druginfo/meds/a618008.html"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/sv/articles/reading-a-weight-trend#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Hem",
+            "item": "https://dozify.app/sv"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Artiklar",
+            "item": "https://dozify.app/sv/articles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Läsa en trend",
+            "item": "https://dozify.app/sv/articles/reading-a-weight-trend"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/sv" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funktioner</a>
+        
+        <a href="/sv/support">Support</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/sv">Hem</a>
+        
+        <span aria-hidden="true">/</span>
+        <a href="/sv/articles">Artiklar</a>
+        
+        <span aria-hidden="true">/</span>
+        <span>Läsa en trend</span>
+        
+      </div>
+
+      <div class="article-hero">
+        <h1>Läsa en viktkurva, när vågen har stannat av</h1>
+        
+        <p class="article-meta">Av Ümit Can Erim · Publicerad 19 augusti 2026 · Uppdaterad 19 augusti 2026 · Källor kontrollerade 19 augusti 2026 · <a href="/sv/editorial-policy">Så skrivs de här guiderna</a></p>
+        
+        <p class="article-lede">Kroppsvikten rör sig i en veckorytm som har mätts och publicerats: högst tidigt i veckan, lägst runt fredag, och sedan stigande igen från lördag. Mot den bakgrunden är en enskild morgons siffra inte en liten del av bilden: det är en del med bruset kvar. Den här sidan handlar om att läsa linjen i stället för punkten. Den handlar inte om vad du ska göra när linjen planar ut, och den förklarar varför.</p>
+        
+      </div>
+
+      <div class="prose">
+        <h2>Veckan har en form, och det är inte du som misslyckas</h2>
+        <p>En studie av viktmönster inom veckan fann en återkommande cykel: vikten toppade söndag och måndag, sjönk under veckan till en lägsta nivå runt fredag och började stiga igen på lördag. Författarna formulerar slutsatsen rakt: variationer mellan helger och vardagar ”bör betraktas som normala i stället för som tecken på viktuppgång”.</p>
+        <p>Det betyder att en mätning på måndag och en på fredag inte är två mätningar av samma sak. Att jämföra dem, eller att jämföra dagens siffra med den bästa du någonsin sett, skapar en berättelse som inte finns i datan. Samma studie fann att rytmen var tydligast i gruppen som gick ner i vikt, så en synlig svängning under veckan är inget bevis för att ingenting händer.</p>
+
+        
+        
+        
+
+        <h2>Vad en trendlinje gör</h2>
+        <p>En trend är räkning, inte tolkning: den jämnar ut den dagliga spridningen så att riktningen under den blir synlig. Forskning på data från smarta vågar beskriver exakt den uppdelningen: att anpassa en linje till mätningarna så att variationen från dag till dag kan skiljas från den underliggande banan. Det är samma sak som ditt öga gör när det kisar mot ett hackigt diagram, fast gjort konsekvent.</p>
+        <p>Två följder som är värda att känna till:</p>
+        <ul>
+          <li><strong>En trend behöver en serie mätningar, inte en perfekt serie.</strong> I studien om smarta vågar höll uppskattningarna av variationen även med stora mängder saknade data. Att hoppa över dagar ogiltigförklarar inte linjen.</li>
+          <li><strong>En platt trend är en beskrivning, inte en diagnos.</strong> Den säger att mätningarna du gav den inte rör sig. Den säger inte varför, och ingenting i räkningen kan det.</li>
+        </ul>
+
+        
+        
+        
+        
+
+        <div class="callout">
+          <p><strong>Vad den här sidan inte tänker säga.</strong> Varför din trend planade ut, om det betyder att läkemedlet fungerar, om dosen borde ändras eller vad du ska göra härnäst. Det är kliniska frågor med en person kopplad till dem, och den ärliga formen av den här artikeln slutar vid räkningen. Det en utplaning är värd är att du tar med den (med datumen) till besöket; <a href="/sv/articles/glp1-appointment-checklist">checklistan</a> tar upp vad mer du ska ha med dig.</p>
+          
+        </div>
+
+        <h2>Göra mätningarna jämförbara</h2>
+        <p>Om målet är en linje som betyder något är den praktiska delen konsekvens snarare än frekvens:</p>
+        <ul>
+          <li>Samma tid på dygnet och samma punkt i rutinen: de flesta väljer direkt på morgonen, innan de äter eller dricker.</li>
+          <li>Samma våg, på samma golv. Att flytta den mellan en matta och kakel ändrar siffran innan din kropp gör det.</li>
+          <li>Tillräckligt många mätningar att dra en linje genom. I en grupp med nästan tiotusen användare av smarta vågar vägde sig folk i genomsnitt omkring 40 % av dagarna, så den realistiska versionen av det här är inte daglig perfektion.</li>
+        </ul>
+        <p>Och en sak som inte står på listan: att väga sig oftare gör inte trenden sannare. Det ger linjen fler punkter, vilket inte är samma sak som att ändra vad linjen gör.</p>
+
+        
+        
+        
+        
+
+        <h2>Var dosen hör hemma i bilden</h2>
+        <p>Den enda jämförelse en trend kan bära som en vågapp inte kan är tidslinjen under den: vilka veckor som hade vilken dos, och när den senast ändrades. Det förklarar ingenting i sig: en ändring i linjen efter en ändring i dosen är en ordningsföljd, inte en orsak. Men det är den ordningsföljd som en kliniker kommer att fråga om, och att rekonstruera den ur minnet under ett femtonminutersbesök är där det mesta av detaljerna försvinner.</p>
+
+        
+        
+      </div>
+
+      <div class="article-cta">
+        <h3>Trenden, bredvid doserna som löpte parallellt</h3>
+        
+        <p>Vikten på samma tidslinje som dina injektioner, över tre månader, sex eller ett år. Läses från Apple Health om din våg skriver dit, så att inmatningen inte blir ett extra steg. Dozify visar vad dina poster har gjort: den säger inte vad din kropp kommer att göra härnäst.</p>
+        
+        <a href="/#download" class="btn btn-primary">Ladda ner appen</a>
+        
+        <a href="/sv/glp1-weight-tracker" class="link-arrow">Se hur viktkurvan fungerar →</a>
+        
+      </div>
+
+      <div class="article-faq">
+        <h2>Frågor</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Jag gick upp 1,5 kg över natten. Är det på riktigt?</h3>
+            
+            <p>Det är en verklig mätning. Om det är en verklig förändring i din kropp är en annan fråga, och en dag kan inte besvara den: det publicerade mönstret inom veckan flyttar ensamt siffran utan att något annat har ändrats. Trenden under de följande dagarna är det som avgör.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Ska jag väga mig varje dag eller en gång i veckan?</h3>
+            
+            <p>Båda ger dig en trend; fler mätningar ger den bara fler punkter. Vad vägning en gång i veckan inte kan är att jämna ut veckodagseffekten, eftersom varje mätning hamnar på samma veckodag. Om du väger dig en gång i veckan, håll fast vid samma dag och läs månaderna snarare än veckorna.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Min trend har varit platt i tre veckor. Vad betyder det?</h3>
+            
+            <p>Det betyder att mätningarna inte rör sig. Allt utöver det (orsak, betydelse, vad som bör hända härnäst) är en klinisk bedömning, och den här sidan har ingen rätt att göra den. Ta med de tre veckorna, med datum och doser, till den som skrev ut läkemedlet.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Säger en prognos när jag når mitt mål?</h3>
+            
+            <p>Den säger när du skulle nå det om trenden i dina egna mätningar fortsatte exakt som den har gjort. Kroppar fungerar inte så, och ett datum som tagits fram genom att förlänga en linje är en beskrivning av linjen, inte en plan för året.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Jag missade en veckas vägning. Har jag förstört trenden?</h3>
+            
+            <p>Nej. Forskning på data från smarta vågar fann att uppskattningarna höll även med mycket saknade data, och i en grupp med nästan tiotusen användare vägde sig den genomsnittliga personen omkring 40 % av dagarna. Luckor är det normala, inte misslyckandet.</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p>Information i utbildningssyfte, inte medicinska råd. Dozify är en personlig loggapp, inte en medicinteknisk produkt. Den här sidan beskriver hur du läser dina egna mätningar och tolkar dem inte, rekommenderar ingen vikt, ingen förändringstakt och ingen dos. Följ alltid din förskrivares anvisningar.</p>
+        
+      </div>
+
+      <div class="references">
+        <h2>Källor</h2>
+        <ol>
+          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5644907/" rel="nofollow noopener" target="_blank">Weight Rhythms: Weight Increases during Weekends and Decreases during Weekdays (PMC, NIH)</a></li>
+          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8277333/" rel="nofollow noopener" target="_blank">Frequency of Self-Weighing and Weight Change: Cohort Study With 10,000 Smart Scale Users (PMC, NIH)</a></li>
+          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7519428/" rel="nofollow noopener" target="_blank">Body Weight Variability Calculation From Digital Smart Scales (PMC, NIH)</a></li>
+          <li><a href="https://www.niddk.nih.gov/health-information/weight-management" rel="nofollow noopener" target="_blank">NIDDK (NIH). Weight management</a></li>
+          <li><a href="https://medlineplus.gov/druginfo/meds/a618008.html" rel="nofollow noopener" target="_blank">MedlinePlus (NIH). Semaglutide Injection</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/sv" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Juridiskt</h3>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/sv/terms">Villkor</a>
+          
+          <a href="/sv/editorial-policy">Redaktionell policy</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Hjälp</h3>
+          
+          <a href="/sv/support">Support</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/articles/reading-a-weight-trend" hreflang="en" lang="en">English</a> · <a href="/tr/makaleler/kilo-trendini-okumak" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/articles/reading-a-weight-trend" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/articles/reading-a-weight-trend" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/articles/reading-a-weight-trend" hreflang="da" lang="da">Dansk</a> · <a href="/de/articles/reading-a-weight-trend" hreflang="de" lang="de">Deutsch</a> · <a href="/el/articles/reading-a-weight-trend" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/articles/reading-a-weight-trend" hreflang="es" lang="es">Español</a> · <a href="/fi/articles/reading-a-weight-trend" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/articles/reading-a-weight-trend" hreflang="fr" lang="fr">Français</a> · <a href="/hi/articles/reading-a-weight-trend" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/articles/reading-a-weight-trend" hreflang="it" lang="it">Italiano</a> · <a href="/ja/articles/reading-a-weight-trend" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/articles/reading-a-weight-trend" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/articles/reading-a-weight-trend" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/articles/reading-a-weight-trend" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/articles/reading-a-weight-trend" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/articles/reading-a-weight-trend" hreflang="pt" lang="pt">Português</a> · <a href="/ru/articles/reading-a-weight-trend" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/articles/reading-a-weight-trend" hreflang="sv" lang="sv" aria-current="page">Svenska</a> · <a href="/uk/articles/reading-a-weight-trend" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/articles/reading-a-weight-trend" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

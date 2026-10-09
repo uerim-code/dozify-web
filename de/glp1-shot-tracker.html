@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1 Spritzen-Tracker – nie mehr den Spritzentag vergessen</title>
+  <meta property="og:url" content="https://dozify.app/de/glp1-shot-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Eine Wochenspritze braucht eine Wochen-Erinnerung. Dozify zeigt die nächste Dosis auf dem ersten Bildschirm, protokolliert jede und bewahrt deine Historie auf.">
+  <meta property="og:title" content="GLP-1 Spritzen-Tracker – nie mehr den Spritzentag vergessen">
+  <meta property="og:description" content="Eine Wochenspritze braucht eine Wochen-Erinnerung. Dozify zeigt die nächste Dosis auf dem ersten Bildschirm, protokolliert jede und bewahrt deine Historie auf.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify – ein privater GLP-1-Spritzen- und Gewichtstracker für iPhone">
+  <meta name="twitter:title" content="GLP-1 Spritzen-Tracker – nie mehr den Spritzentag vergessen">
+  <meta name="twitter:description" content="Eine Wochenspritze braucht eine Wochen-Erinnerung. Dozify zeigt die nächste Dosis auf dem ersten Bildschirm, protokolliert jede und bewahrt deine Historie auf.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify – ein privater GLP-1-Spritzen- und Gewichtstracker für iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="de_DE">
+
+  <link rel="canonical" href="https://dozify.app/de/glp1-shot-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-shot-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-igne-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glp1-shot-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glp1-shot-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glp1-shot-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glp1-shot-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glp1-shot-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glp1-shot-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glp1-shot-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glp1-shot-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glp1-shot-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glp1-shot-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glp1-shot-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glp1-shot-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glp1-shot-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glp1-shot-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glp1-shot-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glp1-shot-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glp1-shot-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glp1-shot-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glp1-shot-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glp1-shot-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-shot-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/de",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "de"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/de",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Abnehmspritze und GLP-1-Tabletten protokollieren, Einstichstellen wechseln, Gewicht und Nebenwirkungen tracken, Kalorien per KI-Foto schätzen. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "de"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/de/glp1-shot-tracker#webpage",
+        "url": "https://dozify.app/de/glp1-shot-tracker",
+        "name": "GLP-1 Spritzen-Tracker – nie mehr den Spritzentag vergessen",
+        "description": "Eine Wochenspritze braucht eine Wochen-Erinnerung. Dozify zeigt die nächste Dosis auf dem ersten Bildschirm, protokolliert jede und bewahrt deine Historie auf.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "de",
+        "breadcrumb": {
+          "@id": "https://dozify.app/de/glp1-shot-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kann ich die Erinnerung auf einen anderen Tag legen als den, an dem ich angefangen habe?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Den Zeitplan legst du fest und änderst ihn: wöchentlich an jedem beliebigen Tag, täglich, alle paar Tage oder an bestimmten Tagen. Eine Änderung schreibt die bereits protokollierten Dosen nicht um."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Was, wenn ich einen Tag zu spät spritze?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Trag sie an dem Tag ein, an dem sie stattgefunden hat; der Eintrag übernimmt das Datum und die Uhrzeit, die du angibst. Dozify zeigt den tatsächlichen Abstand, statt vom geplanten auszugehen. Was bei einer verspäteten oder vergessenen Dosis zu tun ist, ist eine Frage für deine Ärztin oder deinen Arzt, und die App beantwortet sie nicht."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Funktionieren Erinnerungen, wenn das Handy offline ist?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Sie werden auf dem Gerät geplant, es ist also keine Verbindung nötig, damit eine ankommt. Dafür muss die Mitteilungs-Erlaubnis für Dozify aktiviert sein."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kann ich mehr als ein Medikament tracken?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, so viele du brauchst, jedes mit eigenem Zeitplan und eigener Dosis. Jede protokollierte Injektion gehört zu einem davon."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Sagt mir die App, wie hoch meine nächste Dosis ist?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nein. Sie zeigt die Dosis, die du für dieses Medikament eingetragen hast, und wann sie als Nächstes fällig ist. Wenn deine Ärztin oder dein Arzt die Menge ändert, änderst du sie in der App. Dozify schlägt nie eine Titration vor."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/de/glp1-shot-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Start",
+            "item": "https://dozify.app/de"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Spritzen-Tracker",
+            "item": "https://dozify.app/de/glp1-shot-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/de" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funktionen</a>
+        
+        <a href="/#privacy">Datenschutz</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/de">Start</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Spritzen-Tracker</span>
+      
+    </div>
+    <h1>Nie mehr rätseln, an welchem Tag deine Spritze dran ist</h1>
+    
+    <p class="meta">Ein wöchentliches Medikament verlangt, dass du dir merkst, welcher Wochentag es ist. Dozify merkt es sich stattdessen.</p>
+    
+
+    <h2>Das Problem</h2>
+    <p>Bei wöchentlichen Spritzen kann man auf ganz alltägliche Weise danebenliegen. Ein voller Donnerstag, eine Reise, eine Woche, in der sich zwei Dinge verschieben – und schon zählst du von einem halb erinnerten Datum zurück und bist dir nicht sicher, ob du sie genommen hast.</p>
+
+    
+    
+
+    <h2>Was Dozify macht</h2>
+    <h3>Die nächste Spritze, auf dem ersten Bildschirm</h3>
+    <p>Die App zu öffnen beantwortet die Frage: welches Medikament, welcher Tag, wie viele Tage noch.</p>
+    <h3>Eine Erinnerung, die zu deinem Zeitplan passt</h3>
+    <p>Wöchentlich, täglich, alle paar Tage oder an bestimmten Tagen: einmal eingestellt, zu der Uhrzeit, zu der du tatsächlich spritzt.</p>
+    <h3>Ein Protokoll, in dem du zurückblättern kannst</h3>
+    <p>Jede Dosis mit Datum, Menge und der Stelle, die du benutzt hast. Nichts, was du später rekonstruieren musst.</p>
+
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/home-next-dose.webp" srcset="/screenshots/en/home-next-dose-400w.webp 400w, /screenshots/en/home-next-dose.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Nie mehr rätseln, an welchem Tag deine Spritze dran ist"></div></figure>
+      
+    </div>
+
+
+    <h2>Für wen das hilfreich ist</h2>
+    <p>Für alle, deren Woche nicht genauso aussieht wie die letzte. Ein wöchentliches Medikament geht von einem festen Donnerstag aus; Reisen, Schichtdienst, ein Krankenhaustermin oder eine einzige lange Nacht verschieben ihn. Es ist auch für alle, die schon mal in der Küche standen und überlegt haben, ob Dienstag diese oder letzte Woche war: Das Protokoll beantwortet das mit einem Blick statt durch Rekonstruktion.</p>
+
+    
+    
+
+    <h2>Wo die Grenzen liegen</h2>
+    <p>Dozify entscheidet weder deinen Zeitplan noch deine Dosis noch, was bei einer vergessenen Dosis zu tun ist – das ist Sache deiner Ärztin oder deines Arztes, und die App hält den Plan fest, statt einen vorzuschlagen. Eine Erinnerung ist eine iOS-Mitteilung: Wenn Mitteilungen für Dozify ausgeschaltet sind oder das Handy in einem Fokus ist, der sie stummschaltet, erscheint sie nicht. Und ein Protokoll ist eine Aufzeichnung dessen, was du eingetragen hast, kein Beweis dafür, was in deinen Körper gelangt ist.</p>
+
+    
+    
+
+    <h2>Standardmäßig privat</h2>
+    <p>Deine Gesundheitsdaten bleiben auf deinem Gerät und werden nie hochgeladen; die einzige Ausnahme ist ein Mahlzeitenfoto, das du bewusst mit den KI-Kalorien analysieren lässt – es wird erst nach deiner Zustimmung gesendet und von der App nicht gespeichert. Es gibt kein Konto und keine Cloud-Synchronisierung. Nutzungsstatistiken enthalten nie einen Medikamentennamen oder ein Symptom – Details in der <a href="/de/privacy">Datenschutzerklärung</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-shot-tracker-de&mt=8" class="btn btn-primary">Laden im App Store</a></p>
+
+
+    <h2>Fragen</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Kann ich die Erinnerung auf einen anderen Tag legen als den, an dem ich angefangen habe?</h3>
+        
+        <p>Ja. Den Zeitplan legst du fest und änderst ihn: wöchentlich an jedem beliebigen Tag, täglich, alle paar Tage oder an bestimmten Tagen. Eine Änderung schreibt die bereits protokollierten Dosen nicht um.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Was, wenn ich einen Tag zu spät spritze?</h3>
+        
+        <p>Trag sie an dem Tag ein, an dem sie stattgefunden hat; der Eintrag übernimmt das Datum und die Uhrzeit, die du angibst. Dozify zeigt den tatsächlichen Abstand, statt vom geplanten auszugehen. Was bei einer verspäteten oder vergessenen Dosis zu tun ist, ist eine Frage für deine Ärztin oder deinen Arzt, und die App beantwortet sie nicht.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Funktionieren Erinnerungen, wenn das Handy offline ist?</h3>
+        
+        <p>Ja. Sie werden auf dem Gerät geplant, es ist also keine Verbindung nötig, damit eine ankommt. Dafür muss die Mitteilungs-Erlaubnis für Dozify aktiviert sein.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Kann ich mehr als ein Medikament tracken?</h3>
+        
+        <p>Ja, so viele du brauchst, jedes mit eigenem Zeitplan und eigener Dosis. Jede protokollierte Injektion gehört zu einem davon.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Sagt mir die App, wie hoch meine nächste Dosis ist?</h3>
+        
+        <p>Nein. Sie zeigt die Dosis, die du für dieses Medikament eingetragen hast, und wann sie als Nächstes fällig ist. Wenn deine Ärztin oder dein Arzt die Menge ändert, änderst du sie in der App. Dozify schlägt nie eine Titration vor.</p>
+        
+      </div>
+    </div>
+
+    <h2>Weiterlesen</h2>
+    <p>Ratgeber mit genannten Quellen: <a href="/de/articles/how-to-inject-glp1">einen Pen spritzen, Schritt für Schritt</a>, <a href="/de/articles/glp1-injection-sites">wo spritzen und wie rotieren</a> und <a href="/de/articles/what-is-glp1">was GLP-1 eigentlich ist</a> sowie <a href="/de/articles/missed-glp1-dose">was die Packungsbeilage zu einer verspäteten Dosis sagt</a> und <a href="/de/articles/glp1-reminders-that-work">den Spritzentag verschieben</a>.</p>
+    <p>Außerdem in Dozify: <a href="/de/injection-site-tracker">Rotation der Einstichstellen</a>, <a href="/de/glp1-vial-tracker">Vial-Tracking</a> und <a href="/de/glp1-appointment-report">der Arztbericht</a>.</p>
+    <p>Neu in Dozify: Fotografiere eine Mahlzeit, und die App erstellt einen Entwurf mit Kalorien und Protein pro Lebensmittel, den du bearbeiten kannst – <a href="/de/ai-calorie-tracker">KI-Kalorientracking</a> (Premium) – und tägliche GLP-1-Tabletten haben jetzt ihren eigenen <a href="/de/glp1-pill-tracker">Tabletten-Tracker</a>.</p>
+
+    
+    
+    
+    
+
+    <p class="meta">Dozify ist ein Tracking-Tool, kein Medizinprodukt. Es empfiehlt keine Dosen und bietet keine medizinische Beratung. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® und Rybelsus® sind Marken ihrer jeweiligen Inhaber; Dozify steht in keiner Verbindung zu diesen Unternehmen.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/de" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Rechtliches</h3>
+          
+          <a href="/de/privacy">Datenschutzerklärung</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/de/terms">Nutzungsbedingungen</a>
+          
+          <a href="/de/editorial-policy">Redaktionelle Richtlinien</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Tracking</h3>
+          
+          <a href="/de/glp1-shot-tracker">GLP-1-Spritzen-Tracker</a>
+          
+          <a href="/de/injection-site-tracker">Einstichstellen-Tracker</a>
+          
+          <a href="/de/glp1-weight-tracker">GLP-1-Gewichtstracker</a>
+          
+          <a href="/de/glp1-side-effect-journal">Nebenwirkungs-Tagebuch</a>
+          
+          <a href="/de/glp1-vial-tracker">Vial-Tracker</a>
+          
+          <a href="/de/private-glp1-tracker">Privater GLP-1-Tracker</a>
+          
+          <a href="/de/glp1-appointment-report">Arztbericht</a>
+          
+          <a href="/de/switch-glp1-tracker-app">Von einer anderen App wechseln</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Hilfe</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glp1-shot-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/glp1-igne-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glp1-shot-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glp1-shot-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/glp1-shot-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/glp1-shot-tracker" hreflang="de" lang="de" aria-current="page">Deutsch</a> · <a href="/el/glp1-shot-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/glp1-shot-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/glp1-shot-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/glp1-shot-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glp1-shot-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glp1-shot-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glp1-shot-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/glp1-shot-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/glp1-shot-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/glp1-shot-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glp1-shot-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glp1-shot-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/glp1-shot-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glp1-shot-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/glp1-shot-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glp1-shot-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

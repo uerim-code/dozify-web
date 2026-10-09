@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>건강 앱 개인정보: 개인정보 라벨이 말하지 않는 것</title>
+  <meta name="description" content="대부분의 건강 앱은 HIPAA 적용 대상이 아니고, &quot;추적 안 함&quot;은 보이는 것보다 좁은 의미예요. Apple 용어의 뜻과 물어봐야 할 다섯 가지 질문.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/ko/articles/health-app-privacy">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="건강 앱 개인정보: 개인정보 라벨이 말하지 않는 것">
+  <meta property="og:description" content="대부분의 건강 앱은 HIPAA 적용 대상이 아니고, &quot;추적 안 함&quot;은 보이는 것보다 좁은 의미예요. Apple 용어의 뜻과 물어봐야 할 다섯 가지 질문.">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — iPhone용 개인 GLP-1 주사·체중 기록 앱">
+  <meta name="twitter:title" content="건강 앱 개인정보: 개인정보 라벨이 말하지 않는 것">
+  <meta name="twitter:description" content="대부분의 건강 앱은 HIPAA 적용 대상이 아니고, &quot;추적 안 함&quot;은 보이는 것보다 좁은 의미예요. Apple 용어의 뜻과 물어봐야 할 다섯 가지 질문.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — iPhone용 개인 GLP-1 주사·체중 기록 앱">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="ko_KR">
+
+  <link rel="canonical" href="https://dozify.app/ko/articles/health-app-privacy">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/health-app-privacy">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/saglik-uygulamasi-gizliligi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/articles/health-app-privacy">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/articles/health-app-privacy">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/articles/health-app-privacy">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/articles/health-app-privacy">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/articles/health-app-privacy">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/articles/health-app-privacy">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/articles/health-app-privacy">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/articles/health-app-privacy">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/articles/health-app-privacy">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/articles/health-app-privacy">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/articles/health-app-privacy">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/articles/health-app-privacy">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/articles/health-app-privacy">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/articles/health-app-privacy">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/articles/health-app-privacy">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/health-app-privacy">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/health-app-privacy">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/health-app-privacy">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/ko",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "ko"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/ko/editorial-policy",
+        "description": "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/ko/articles/health-app-privacy#webpage",
+        "url": "https://dozify.app/ko/articles/health-app-privacy",
+        "name": "건강 앱 개인정보: 개인정보 라벨이 말하지 않는 것",
+        "description": "대부분의 건강 앱은 HIPAA 적용 대상이 아니고, \"추적 안 함\"은 보이는 것보다 좁은 의미예요. Apple 용어의 뜻과 물어봐야 할 다섯 가지 질문.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "ko",
+        "breadcrumb": {
+          "@id": "https://dozify.app/ko/articles/health-app-privacy#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "내 건강 데이터는 법으로 보호되지 않나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "적용되는 법은 있지만, 아마 생각하는 그 법은 아닐 거예요. FTC는 많은 건강 앱이 HIPAA 적용 대상이 아니라고 말해요. 미국에서 이를 다루는 건 건강 정보 침해 통지 규칙으로, 수집을 미리 제한하는 게 아니라 침해 후에 알림을 받는 것에 관한 규칙이에요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "라벨에 \"데이터가 수집되지 않음\"이라고 되어 있어요. 그거면 충분한가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "라벨이 할 수 있는 가장 강한 말이지만, 감사가 아니라 개발자 스스로의 신고예요. 개인정보 처리방침과 함께 읽어 보세요. 수집 항목을 명시한 방침과 아무것도 수집하지 않는다는 라벨은 서로 일치해야 하고, 일치하지 않는다면 방침이 더 자세한 문서예요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "백업과 동기화는 무엇이 다른가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "사본을 누가 갖고 있느냐예요. 백업은 내가 만들어 보관하는 파일이고, 동기화는 기기끼리 맞출 수 있도록 누군가의 서버에 보관되는 사본이에요. 둘 다 유용하지만, 내 기록이 내가 통제할 수 없는 곳에 존재한다는 뜻인 건 하나뿐이에요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "\"광고 없음\"이면 광고 관련 일이 전혀 없다는 뜻인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "꼭 그렇지는 않으니, 정확히 짚어 둘 만해요. 앱 안에 광고가 없으면서도 설치가 다른 곳에서 집행한 광고에서 왔는지 측정할 수 있어요. 서로 다른 일이고, 믿을 만한 방침은 어느 쪽인지 밝혀요. 저희 방침은 둘 다 그대로 밝혀요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "이런 걸 직접 확인하려면 어떻게 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "App Store 페이지를 열어 개인정보 섹션을 읽고, 그다음 앱의 개인정보 처리방침을 열어 둘이 같은 앱을 설명하는지 보세요. 그리고 실용적인 테스트를 해 보세요: 계정을 만들지 않고 쓸 수 있는지, 삭제하면 데이터도 함께 사라지는지."
+            }
+          }
+        ],
+        "headline": "건강 앱이 내 처방 정보를 보기 전에 확인할 것",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-20",
+        "dateModified": "2026-08-20",
+        "lastReviewed": "2026-08-20",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "Apple — App privacy details on the App Store",
+            "url": "https://developer.apple.com/app-store/app-privacy-details/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Apple — User privacy and data use (App Tracking Transparency)",
+            "url": "https://developer.apple.com/app-store/user-privacy-and-data-use/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Health Breach Notification Rule: the basics",
+            "url": "https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Updated Health Breach Notification Rule protects users of health apps",
+            "url": "https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FTC — Mobile health apps interactive tool",
+            "url": "https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/ko/articles/health-app-privacy#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "홈",
+            "item": "https://dozify.app/ko"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "아티클",
+            "item": "https://dozify.app/ko/articles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "건강 앱 개인정보",
+            "item": "https://dozify.app/ko/articles/health-app-privacy"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/ko" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">기능</a>
+        
+        <a href="/ko/support">지원</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/ko">홈</a>
+        
+        <span aria-hidden="true">/</span>
+        <a href="/ko/articles">아티클</a>
+        
+        <span aria-hidden="true">/</span>
+        <span>건강 앱 개인정보</span>
+        
+      </div>
+
+      <div class="article-hero">
+        <h1>건강 앱이 내 처방 정보를 보기 전에 확인할 것</h1>
+        
+        <p class="article-meta">글: Ümit Can Erim · 게시 2026년 8월 20일 · 업데이트 2026년 8월 20일 · 출처 확인 2026년 8월 20일 · <a href="/ko/editorial-policy">가이드 작성 방식</a></p>
+        
+        <p class="article-lede">건강 앱에 대해 대부분의 사람들이 당연하게 여기는 두 가지는 사실이 아니에요. 첫째, 의료 개인정보 보호법이 적용된다는 것. 대부분의 앱에는 적용되지 않으며, FTC도 분명히 그렇게 말해요. 둘째, App Store 개인정보 라벨이 "이 앱이 내 개인정보를 존중하는가"에 답한다는 것. 라벨은 그보다 좁은 질문에, 구체적인 정의가 있는 단어로 답해요. 이 글은 그 단어들의 의미와 대신 확인해야 할 것을 설명해요.</p>
+        
+      </div>
+
+      <div class="prose">
+        <h2>HIPAA는 거의 확실히 적용되지 않아요</h2>
+        <p>가장 먼저 바로잡을 오해예요. 많은 것이 이 오해 위에 서 있으니까요. FTC 자체 안내에 따르면 건강 정보를 수집하는 많은 회사("피트니스 트래커든, 다이어트 앱이든, 연결형 혈압계든, 다른 무엇이든")가 HIPAA 적용 대상이 아니에요. HIPAA는 의료 관계를 따라가요: 내 병원, 내 의원, 내 보험사. 내가 다운로드한 앱은 일반적으로 그중 어느 것도 아니에요.</p>
+        <p>미국에서 적용되는 건 FTC의 건강 정보 침해 통지 규칙(Health Breach Notification Rule)으로, 바로 그 공백을 메우기 위해 존재해요. 이 규칙은 HIPAA 적용 대상이 아닌 조직이 보호되지 않은 개인 식별 건강 정보의 침해가 발생했을 때 사용자, FTC, 경우에 따라 언론에 "부당한 지체 없이", 발견 후 60일 이내에 알리도록 요구해요.</p>
+        <p>이것이 무엇이고 무엇이 아닌지 주목하세요. 무언가 잘못된 뒤에 알려 주는 것에 관한 규칙이에요. 모든 게 순조로울 때 앱이 무엇을 수집할 수 있는지를 제한하는 규칙이 아니에요.</p>
+
+        
+        
+        
+        
+
+        <h2>App Store 라벨이 실제로 말하는 것</h2>
+        <p>라벨은 세 섹션으로 되어 있고, 의미가 숨어 있는 건 가운데 섹션이에요.</p>
+        <ul>
+          <li><strong>사용자를 추적하는 데 사용되는 데이터.</strong> Apple의 추적 정의는 구체적이에요: 앱에서 수집한 사용자나 기기에 관한 데이터를 타기팅 광고나 광고 측정을 위해 <em>제3자 데이터</em>(개발자가 소유하지 않은 앱, 웹사이트, 오프라인 출처의 데이터)와 연결하거나, 데이터 브로커와 공유하는 것.</li>
+          <li><strong>사용자에게 연결된 데이터.</strong> 수집되어 신원과 연결된 데이터. Apple의 규칙은 개발자가 수집 전에 직접 식별자를 제거하고 이후에 다시 연결하지 않는 <em>경우가 아니라면</em> 연결된 것으로 간주한다는 거예요. 기본값은 연결이에요.</li>
+          <li><strong>사용자에게 연결되지 않은 데이터.</strong> 수집되지만, 그 연결이 실제로 끊어진 데이터.</li>
+        </ul>
+        <p>그리고 라벨을 읽는 방식을 가장 크게 바꾸는 조항이 있어요. Apple이 추적이 <em>아닌</em> 것으로 열거한 목록의 첫 항목은 이래요: "데이터가 최종 사용자의 기기에서만 연결되고, 최종 사용자나 기기를 식별할 수 있는 방식으로 기기 밖으로 전송되지 않는 경우."</p>
+        <p>그러니 추적 섹션이 거의 비어 있는 앱도 나에 대한 많은 정보를 어딘가로 보낼 수 있어요. "추적하지 않음"은 "광고를 위해 제3자 데이터와 결합하거나 브로커에게 넘기지 않음"이라는 뜻이에요. "이걸 수집하지 않아요"보다 좁은 약속이에요.</p>
+
+        
+        
+        
+        
+        
+
+        <h2>물어볼 만한 다섯 가지 질문</h2>
+        <ol>
+          <li><strong>계정이 필요한가요?</strong> 계정은 기록을 다른 사람 서버에 있는 '한 사람에 관한 기록'으로 바꾸는 장치예요. 계정이 없다는 건 기능 목록의 한 항목이 아니라 전체 구조의 모양이에요.</li>
+          <li><strong>클라우드에 동기화되나요? 끌 수 있나요?</strong> "백업"과 "동기화"는 다른 약속이에요. 하나는 내가 가진 파일이고, 다른 하나는 다른 누군가가 가진 사본이에요.</li>
+          <li><strong>개인정보 라벨의 건강 항목에는 무엇이 나와 있나요?</strong> Apple의 건강 카테고리는 "사용자가 제공한 기타 모든 건강 또는 의료 데이터"를 포함하므로, 앱에 입력한 약 이름도 여기에 속해요. 라벨에 건강 항목이 없는데 앱이 약을 기록한다면, 둘 중 하나는 틀린 거예요.</li>
+          <li><strong>개인정보 처리방침이 수집 항목을 명시하나요, 아니면 묘사만 하나요?</strong> "경험 개선을 위해 특정 정보를 수집할 수 있습니다"는 목록이 아니에요. 확인 가능한 방침은 항목을 명시해요.</li>
+          <li><strong>앱을 삭제하면 어떻게 되나요?</strong> 기기에만 저장하는 앱이라면 그게 곧 삭제예요. 서버가 있다면 앱 삭제와 계정 삭제는 별개이고, 홈 화면에서 내 손으로 할 수 있는 건 그중 하나뿐이에요.</li>
+        </ol>
+
+        
+        
+
+        <div class="callout">
+          <p><strong>Dozify의 답도 밝혀 둘게요. 이 페이지가 스스로 피하는 질문을 던지지 않도록요.</strong> 계정 없음, 클라우드 동기화 없음, 앱 안의 광고 없음. 건강 기록은 기기 안의 앱 자체 저장소에 남고, 백업은 내가 보관하는 암호화된 파일로 저장돼요. 익명 사용 통계(어떤 화면을 쓰는지, 충돌이 있었는지)는 수집하지만, 약 이름, 증상, 체중은 절대 포함되지 않아요. 밖으로 나가는 것이 하나 더 있어요: 설치가 저희 App Store 또는 Meta 캠페인에서 왔는지에 대한 측정으로, Apple의 추적 권한에 따라 작동하며 내 기록은 전혀 포함되지 않아요. 앱을 삭제하면 기록도 함께 사라져요. 자세한 내용은 <a href="/ko/privacy">개인정보 처리방침</a>과 <a href="/en/kvkk">KVKK 고지</a>에, 그 이유는 <a href="/ko/private-glp1-tracker">개인정보 페이지</a>에 있어요.</p>
+          
+        </div>
+
+        <h2>이 페이지가 하지 않을 일</h2>
+        <p>다른 앱의 이름을 들어 그 앱이 데이터로 무엇을 하는지 암시하는 일이에요. 저희는 다른 누구의 서버도 감사하지 않았고, 할 수도 없으며, 비교로 포장한 비난은 정보가 아니라 마케팅이에요. 위의 질문들은 이 앱을 포함해 어떤 앱에든 통해요. 그래서 질문 형태로 쓴 거예요.</p>
+
+        
+        
+      </div>
+
+      <div class="article-cta">
+        <h3>만들 계정도, 동기화할 것도 없어요</h3>
+        
+        <p>투여, 체중, 증상은 휴대폰에 남아요. 앱을 열면 바로 내 데이터가 보이고, 앱을 삭제하면 그게 곧 삭제예요.</p>
+        
+        <a href="/#download" class="btn btn-primary">앱 다운로드</a>
+        
+        <a href="/ko/private-glp1-tracker" class="link-arrow">이곳의 개인정보 보호 방식 →</a>
+        
+      </div>
+
+      <div class="article-faq">
+        <h2>질문</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>내 건강 데이터는 법으로 보호되지 않나요?</h3>
+            
+            <p>적용되는 법은 있지만, 아마 생각하는 그 법은 아닐 거예요. FTC는 많은 건강 앱이 HIPAA 적용 대상이 아니라고 말해요. 미국에서 이를 다루는 건 건강 정보 침해 통지 규칙으로, 수집을 미리 제한하는 게 아니라 침해 후에 알림을 받는 것에 관한 규칙이에요.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>라벨에 "데이터가 수집되지 않음"이라고 되어 있어요. 그거면 충분한가요?</h3>
+            
+            <p>라벨이 할 수 있는 가장 강한 말이지만, 감사가 아니라 개발자 스스로의 신고예요. 개인정보 처리방침과 함께 읽어 보세요. 수집 항목을 명시한 방침과 아무것도 수집하지 않는다는 라벨은 서로 일치해야 하고, 일치하지 않는다면 방침이 더 자세한 문서예요.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>백업과 동기화는 무엇이 다른가요?</h3>
+            
+            <p>사본을 누가 갖고 있느냐예요. 백업은 내가 만들어 보관하는 파일이고, 동기화는 기기끼리 맞출 수 있도록 누군가의 서버에 보관되는 사본이에요. 둘 다 유용하지만, 내 기록이 내가 통제할 수 없는 곳에 존재한다는 뜻인 건 하나뿐이에요.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>"광고 없음"이면 광고 관련 일이 전혀 없다는 뜻인가요?</h3>
+            
+            <p>꼭 그렇지는 않으니, 정확히 짚어 둘 만해요. 앱 안에 광고가 없으면서도 설치가 다른 곳에서 집행한 광고에서 왔는지 측정할 수 있어요. 서로 다른 일이고, 믿을 만한 방침은 어느 쪽인지 밝혀요. 저희 방침은 둘 다 그대로 밝혀요.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>이런 걸 직접 확인하려면 어떻게 하나요?</h3>
+            
+            <p>App Store 페이지를 열어 개인정보 섹션을 읽고, 그다음 앱의 개인정보 처리방침을 열어 둘이 같은 앱을 설명하는지 보세요. 그리고 실용적인 테스트를 해 보세요: 계정을 만들지 않고 쓸 수 있는지, 삭제하면 데이터도 함께 사라지는지.</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p>교육용 정보이며 법률적 또는 의학적 조언이 아니에요. Dozify는 개인 기록 앱이며 의료기기가 아니에요. 개인정보 보호법은 나라마다 다르고 바뀌어요. 이 페이지는 공개된 규칙과 정의를 설명하며, 이 앱 외에 특정 앱을 평가하지 않아요.</p>
+        
+      </div>
+
+      <div class="references">
+        <h2>참고 문헌</h2>
+        <ol>
+          <li><a href="https://developer.apple.com/app-store/app-privacy-details/" rel="nofollow noopener" target="_blank">Apple. App privacy details on the App Store</a></li>
+          <li><a href="https://developer.apple.com/app-store/user-privacy-and-data-use/" rel="nofollow noopener" target="_blank">Apple. User privacy and data use (App Tracking Transparency)</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/resources/health-breach-notification-rule-basics-business" rel="nofollow noopener" target="_blank">FTC — Health Breach Notification Rule: the basics</a></li>
+          <li><a href="https://www.ftc.gov/business-guidance/blog/2024/04/updated-ftc-health-breach-notification-rule-puts-new-provisions-place-protect-users-health-apps" rel="nofollow noopener" target="_blank">FTC — Updated Health Breach Notification Rule protects users of health apps</a></li>
+          <li><a href="https://search.ftc.gov/business-guidance/resources/mobile-health-apps-interactive-tool" rel="nofollow noopener" target="_blank">FTC — Mobile health apps interactive tool</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/ko" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>법적 고지</h3>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/ko/terms">이용약관</a>
+          
+          <a href="/ko/editorial-policy">편집 정책</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>도움말</h3>
+          
+          <a href="/ko/support">지원</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/articles/health-app-privacy" hreflang="en" lang="en">English</a> · <a href="/tr/makaleler/saglik-uygulamasi-gizliligi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/articles/health-app-privacy" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/articles/health-app-privacy" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/articles/health-app-privacy" hreflang="da" lang="da">Dansk</a> · <a href="/de/articles/health-app-privacy" hreflang="de" lang="de">Deutsch</a> · <a href="/el/articles/health-app-privacy" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/articles/health-app-privacy" hreflang="es" lang="es">Español</a> · <a href="/fi/articles/health-app-privacy" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/articles/health-app-privacy" hreflang="fr" lang="fr">Français</a> · <a href="/hi/articles/health-app-privacy" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/articles/health-app-privacy" hreflang="it" lang="it">Italiano</a> · <a href="/ja/articles/health-app-privacy" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/articles/health-app-privacy" hreflang="ko" lang="ko" aria-current="page">한국어</a> · <a href="/nb/articles/health-app-privacy" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/articles/health-app-privacy" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/articles/health-app-privacy" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/articles/health-app-privacy" hreflang="pt" lang="pt">Português</a> · <a href="/ru/articles/health-app-privacy" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/articles/health-app-privacy" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/articles/health-app-privacy" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/articles/health-app-privacy" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

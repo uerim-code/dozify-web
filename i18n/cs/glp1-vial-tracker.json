@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "Sledování lahviček GLP-1 — víš to dřív, než dojde",
+  "description": "Zbývající dávky, dny od otevření a datum expirace na jedné kartě. Oba způsoby, jak lahvička končí, se dají předvídat týdny dopředu; Dozify je počítá za tebe."
+ },
+ "t": {
+  "Vial tracking": "Sledování lahviček",
+  "Know when the vial runs out before it does": "Víš, kdy lahvička dojde, dřív než dojde",
+  "Remaining volume, doses left, and the expiry date: on one card, before the weekend the pharmacy is closed.": "Zbývající objem, zbývající dávky a datum expirace: na jedné kartě, ještě před víkendem, kdy má lékárna zavřeno.",
+  "A vial ends in two ways: it empties, or it expires. Both are predictable weeks ahead and both are usually noticed the evening a dose is due.": "Lahvička končí dvěma způsoby: vyprázdní se, nebo jí vyprší expirace. Obojí se dá předvídat týdny dopředu a obojí si lidé obvykle všimnou večer, kdy má přijít dávka.",
+  "What is left, in doses": "Co zbývá, v dávkách",
+  "Remaining millilitres and what that means in injections at your prescribed amount.": "Zbývající mililitry a co to znamená v injekcích při tvém předepsaném množství.",
+  "Two clocks, not one": "Dvě lhůty, ne jedna",
+  "Days since opening and the manufacturer's expiry, whichever comes first: with the storage rules for that medication.": "Dny od otevření a expirace od výrobce, podle toho, co nastane dřív: s pravidly uchovávání pro daný lék.",
+  "Time out of the fridge": "Čas mimo ledničku",
+  "Log a storage event when a vial spends the afternoon in a bag. Travel mode is for the days that are not ordinary.": "Zapiš událost uchovávání, když lahvička stráví odpoledne v tašce. Režim cestování je pro dny, které nejsou obyčejné.",
+  "People on multi-dose pens and vials, where one container covers several weeks and the end of it arrives quietly. It matters most to anyone who travels with their medication, or who has stood in front of an open fridge on a Sunday wondering whether what is in there is still good.": "Lidem na vícedávkových perech a lahvičkách, kde jedna nádoba pokrývá několik týdnů a její konec přijde potichu. Nejvíc na tom záleží každému, kdo s lékem cestuje, nebo kdo v neděli stál před otevřenou ledničkou a přemýšlel, jestli je to, co v ní je, ještě v pořádku.",
+  "Dozify counts what you tell it: doses drawn, the day you opened the vial and the expiry printed on it. It cannot see the liquid, so it cannot tell you whether a particular vial is still fit to use: that judgement belongs to the storage instructions for your medication and, when there is any doubt, to your pharmacist. The in-use limits it shows come from those instructions, not from us.": "Dozify počítá to, co mu řekneš: natažené dávky, den, kdy jsi lahvičku otevřel(a), a expiraci, která je na ní vytištěná. Tekutinu nevidí, takže ti nemůže říct, zda je konkrétní lahvička ještě použitelná: tento úsudek patří pokynům k uchovávání tvého léku a v případě jakýchkoli pochybností lékárníkovi. Lhůty po otevření, které ukazuje, pocházejí z těchto pokynů, ne od nás.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Stáhnout v App Store</a>",
+  "Does it count doses automatically?": "Počítá dávky automaticky?",
+  "It subtracts each injection you log from the vial you logged it against, so the remaining amount follows your own entries without a separate step.": "Odečte každou zapsanou injekci od lahvičky, ke které jsi ji zapsal(a), takže zbývající množství sleduje tvoje vlastní zápisy bez dalšího kroku.",
+  "Where does the in-use limit come from?": "Odkud pochází lhůta po otevření?",
+  "From the storage instructions for that medication: how long it may be kept once opened, and at what temperature. Dozify shows the one that applies and counts the days; it does not invent a number.": "Z pokynů k uchovávání daného léku: jak dlouho ho lze po otevření uchovávat a při jaké teplotě. Dozify ukáže tu, která platí, a počítá dny; žádné číslo si nevymýšlí.",
+  "What if the pen spends a day out of the fridge?": "Co když pero stráví den mimo ledničku?",
+  "Log it as a storage event, with how long and roughly how warm. It stays on the vial's record so it is there when you decide, or when you ask a pharmacist.": "Zapiš to jako událost uchovávání, s tím, jak dlouho a zhruba jak teplo. Zůstane v záznamu lahvičky, takže to tam bude, až se budeš rozhodovat nebo až se zeptáš lékárníka.",
+  "Will it warn me before a vial runs out?": "Upozorní mě, než lahvička dojde?",
+  "It shows doses remaining and days remaining on the card, so the end is visible weeks ahead rather than the evening a dose is due.": "Na kartě ukazuje zbývající dávky a zbývající dny, takže konec je vidět týdny dopředu, a ne až večer, kdy má přijít dávka.",
+  "Does this work for pens as well as vials?": "Funguje to pro pera stejně jako pro lahvičky?",
+  "Yes. A pen with several doses in it is tracked the same way: what is left, how long it has been open, and when it expires.": "Ano. Pero s několika dávkami se sleduje stejně: co zbývá, jak dlouho je otevřené a kdy mu vyprší expirace.",
+  "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/storing-glp1-pens\">what each label says about storing a pen</a> and <a href=\"/en/articles/travelling-with-a-glp1-pen\">what the rules say about flying with one</a>.": "Průvodci s uvedenými zdroji: <a href=\"/en/articles/how-to-inject-glp1\">jak si aplikovat pero krok za krokem</a>, <a href=\"/en/articles/glp1-injection-sites\">kam píchat a jak místa střídat</a> a <a href=\"/en/articles/what-is-glp1\">co GLP-1 doopravdy je</a>, <a href=\"/en/articles/storing-glp1-pens\">co uvádí každá informace o přípravku o uchovávání pera</a> a <a href=\"/en/articles/travelling-with-a-glp1-pen\">co říkají pravidla o letu s perem</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Další v Dozify: <a href=\"/en/glp1-shot-tracker\">sledování injekcí</a> a <a href=\"/en/glp1-appointment-report\">zpráva pro lékaře</a>."
+ }
+}

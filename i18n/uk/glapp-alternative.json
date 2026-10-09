@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "title": "Альтернатива Glapp: перенесіть історію GLP-1",
+  "description": "Ідете з Glapp? Dozify читає експорт, показує кожен запис до збереження і каже, які стовпці не вдалося зіставити. Безкоштовно, нічого не завантажується."
+ },
+ "t": {
+  "Glapp alternative": "Альтернатива Glapp",
+  "Coming from Glapp? Bring the history with you": "Переходите з Glapp? Перенесіть історію з собою",
+  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Експортуйте дані з Glapp, відкрийте файл у Dozify і перегляньте кожен запис, який буде збережено, ще до того, як збережеться хоч один. Безкоштовно, і файл ніколи не залишає ваш телефон.",
+  "The columns Dozify looks for in a Glapp export": "Стовпці, які Dozify шукає в експорті Glapp",
+  "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
+  "<code>time</code>": "<code>time</code>",
+  "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
+  "<strong>Site</strong>": "<strong>Місце</strong>",
+  "<code>site · body site</code>": "<code>site · body site</code>",
+  "<strong>Medication</strong>": "<strong>Препарат</strong>",
+  "<code>medication · product</code>": "<code>medication · product</code>",
+  "<code>weight · weight kg · body weight</code>": "<code>weight · weight kg · body weight</code>",
+  "<strong>Side effect</strong>": "<strong>Побічний ефект</strong>",
+  "<code>symptom · side effect · side-effect</code>": "<code>symptom · side effect · side-effect</code>",
+  "<strong>Severity</strong>": "<strong>Вираженість</strong>",
+  "<code>severity · intensity</code>": "<code>severity · intensity</code>",
+  "<code>notes · note</code>": "<code>notes · note</code>",
+  "If your dose column is headed “units”": "Якщо стовпець дози називається “units”",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "Ці рядки показуються вам списком, а не перераховуються. Одиниця — це об’єм на шприці, а скільки в ній міліграмів, залежить від концентрації вашого флакона — числа, якого у файлі немає. Записати їх у поле міліграмів означало б зафіксувати хибну дозу, і ніщо далі цього б не поставило під сумнів, тож Dozify показує їх і дає вам ввести кількість, якою користується ваш лікар. <a href=\"/en/articles/units-vs-milligrams\">Чому немає єдиного перерахунку →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify — це інструмент для відстеження, а не медичний виріб. Він не рекомендує дози й не надає медичних порад. Glapp є товарним знаком свого власника й згадується тут лише для опису формату файлу, який Dozify може прочитати; Dozify не пов’язаний із Glapp, і ця сторінка не схвалена ними. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® і Rybelsus® є товарними знаками відповідних власників; Dozify не пов’язаний із цими компаніями.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Завантажити в App Store</a>"
+ }
+}

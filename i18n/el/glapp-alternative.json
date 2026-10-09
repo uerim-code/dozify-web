@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "title": "Εναλλακτική του Glapp — φέρτε το ιστορικό GLP-1 σας",
+  "description": "Αφήνετε το Glapp; Το Dozify διαβάζει την εξαγωγή, δείχνει κάθε εγγραφή πριν την αποθηκεύσει και λέει ποιες στήλες δεν αναγνώρισε. Δωρεάν, τίποτα δεν ανεβαίνει."
+ },
+ "t": {
+  "Glapp alternative": "Εναλλακτική του Glapp",
+  "Coming from Glapp? Bring the history with you": "Έρχεστε από το Glapp; Φέρτε μαζί σας το ιστορικό",
+  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Κάντε εξαγωγή από το Glapp, ανοίξτε το αρχείο στο Dozify και δείτε κάθε εγγραφή που πρόκειται να αποθηκευτεί πριν αποθηκευτεί οποιαδήποτε. Δωρεάν, και το αρχείο δεν φεύγει ποτέ από το κινητό σας.",
+  "The columns Dozify looks for in a Glapp export": "Οι στήλες που αναζητά το Dozify σε ένα αρχείο εξαγωγής του Glapp",
+  "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
+  "<code>time</code>": "<code>time</code>",
+  "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
+  "<strong>Site</strong>": "<strong>Σημείο</strong>",
+  "<code>site · body site</code>": "<code>site · body site</code>",
+  "<strong>Medication</strong>": "<strong>Φάρμακο</strong>",
+  "<code>medication · product</code>": "<code>medication · product</code>",
+  "<code>weight · weight kg · body weight</code>": "<code>weight · weight kg · body weight</code>",
+  "<strong>Side effect</strong>": "<strong>Παρενέργεια</strong>",
+  "<code>symptom · side effect · side-effect</code>": "<code>symptom · side effect · side-effect</code>",
+  "<strong>Severity</strong>": "<strong>Σοβαρότητα</strong>",
+  "<code>severity · intensity</code>": "<code>severity · intensity</code>",
+  "<code>notes · note</code>": "<code>notes · note</code>",
+  "If your dose column is headed “units”": "Αν η στήλη δόσης σας έχει τίτλο «units»",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "Αυτές οι γραμμές σας εμφανίζονται σε λίστα αντί να μετατραπούν. Μια μονάδα είναι ένας όγκος σε μια σύριγγα, και το πόσα χιλιοστόγραμμα περιέχει εξαρτάται από τη συγκέντρωση του φιαλιδίου σας — έναν αριθμό που το αρχείο δεν περιέχει. Η καταχώρισή τους σε ένα πεδίο χιλιοστογράμμων θα κατέγραφε λάθος δόση χωρίς τίποτα στη συνέχεια να το αμφισβητήσει, οπότε το Dozify σας τις δείχνει και σας αφήνει να καταχωρίσετε την ποσότητα που χρησιμοποιεί ο γιατρός σας. <a href=\"/en/articles/units-vs-milligrams\">Γιατί δεν υπάρχει μία μετατροπή →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Το Dozify είναι εργαλείο καταγραφής, όχι ιατροτεχνολογικό προϊόν. Δεν προτείνει δόσεις και δεν παρέχει ιατρικές συμβουλές. Το Glapp είναι εμπορικό σήμα του κατόχου του και αναφέρεται εδώ μόνο για να περιγραφεί μια μορφή αρχείου που μπορεί να διαβάσει το Dozify· το Dozify δεν συνδέεται με το Glapp και αυτή η σελίδα δεν έχει την έγκρισή του. Τα Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® και Rybelsus® είναι εμπορικά σήματα των αντίστοιχων κατόχων τους· το Dozify δεν συνδέεται με αυτές τις εταιρείες.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Λήψη από το App Store</a>"
+ }
+}

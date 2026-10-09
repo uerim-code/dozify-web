@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Трекер GLP-1: уколи, таблетки, вага й калорії з AI</title>
+  <meta name="description" content="Записуйте уколи й таблетки GLP-1, чергуйте місця ін’єкцій, стежте за вагою та побічними ефектами, рахуйте калорії й білок по фото з AI. Для iPhone.">
+  <meta name="theme-color" content="#0D9488">
+
+  <meta property="og:title" content="Трекер GLP-1: уколи, таблетки, вага й калорії з AI">
+  <meta property="og:description" content="Записуйте уколи й таблетки GLP-1, чергуйте місця ін’єкцій, стежте за вагою та побічними ефектами, рахуйте калорії й білок по фото з AI. Для iPhone.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dozify.app/uk">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:alt" content="Dozify — приватний трекер ін’єкцій GLP-1 і ваги для iPhone">
+  <meta name="twitter:title" content="Трекер GLP-1: уколи, таблетки, вага й калорії з AI">
+  <meta name="twitter:description" content="Записуйте уколи й таблетки GLP-1, чергуйте місця ін’єкцій, стежте за вагою та побічними ефектами, рахуйте калорії й білок по фото з AI. Для iPhone.">
+  <meta name="twitter:image:alt" content="Dozify — приватний трекер ін’єкцій GLP-1 і ваги для iPhone">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="uk_UA">
+
+  <link rel="canonical" href="https://dozify.app/uk">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/uk",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "uk"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/uk",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Записуйте уколи й таблетки GLP-1, чергуйте місця ін’єкцій, стежте за вагою та побічними ефектами, рахуйте калорії й білок по фото з AI. Для iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "uk"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/uk#webpage",
+        "url": "https://dozify.app/uk",
+        "name": "Трекер GLP-1: уколи, таблетки, вага й калорії з AI",
+        "description": "Записуйте уколи й таблетки GLP-1, чергуйте місця ін’єкцій, стежте за вагою та побічними ефектами, рахуйте калорії й білок по фото з AI. Для iPhone.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "uk",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Чи Dozify безкоштовний?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Так. Запис доз, нагадування про дози, чергування місць ін’єкцій, облік ваги, води й побічних ефектів, уся ваша історія та фото, а також освітні статті безкоштовні — відстеження доз залишається безкоштовним назавжди, а не на пробний період. Premium — це рівень розуміння: орієнтовна крива рівня препарату, розширені графіки й тренди, прогноз ваги, склад тіла, харчування з оцінкою калорій по фото з AI, керування флаконами, PDF-звіти для лікаря, теми та другий активний препарат. Подробиці про підписку і її скасування — на сторінці підтримки ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи мої дані приватні?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ваші медичні записи (дози, вага, побічні ефекти, фото прогресу) зберігаються на вашому пристрої й ніколи не завантажуються на сервер. Єдиний виняток — фото страви, яке ви самі вирішите проаналізувати функцією калорій з AI: після вашої згоди воно надсилається через наш сервер до Google Gemini, і застосунок його не зберігає. Немає ні облікового запису, ні хмарної синхронізації, і застосунок не показує реклами. Анонімна статистика використання збирається, щоб покращувати застосунок, і ніколи не містить назви препарату чи симптому. Також Dozify вимірює, чи встановлення відбулося з однієї з його власних кампаній в App Store або Meta; це вимірювання працює лише з дозволом Apple на відстеження й ніколи не включає ваших медичних записів. Видаліть застосунок — і ваших записів не стане."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Які препарати підтримує Dozify?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dozify допомагає відстежувати популярні препарати GLP-1, зокрема Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® і Victoza®, а також щоденні таблетки: Wegovy® у таблетках, Ozempic® у таблетках, Rybelsus® і Foundayo™. Ці торгові назви є товарними знаками відповідних власників, і Dozify не пов’язаний із цими компаніями."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи працює Dozify без інтернету?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Так. Dozify створено насамперед для роботи офлайн, і він повністю працює без підключення до інтернету. Вам ніколи не потрібно входити в обліковий запис чи синхронізуватися."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи може Dozify нагадувати про ін’єкцію?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Так. Можна налаштувати щотижневе або щоденне нагадування за графіком вашого препарату, щоб легше було дотримуватися режиму."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи замінює Dozify лікаря?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ні. Dozify — освітній інструмент для відстеження, а не медичний виріб, і він не надає медичних порад. Завжди дотримуйтеся вказівок лікаря та призначення — чого застосунок свідомо не робить , описано повністю."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи можна відстежувати вагу й побічні ефекти?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Так. Ви можете записувати вагу, виміри тіла й вести щоденник побічних ефектів, а також бачити свій тренд на зрозумілих графіках: зокрема прогноз ваги та оцінку часу до мети на основі ваших власних даних."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи можна перенести дані з іншого застосунку для GLP-1?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Так, і безкоштовно. Експортуйте дані із застосунку, з якого йдете, відкрийте в Dozify Налаштування → Імпорт твоєї історії і виберіть файл. Він читає експорти з Shotsy, Glapp, GLPzy і GlucoPal та будь-який CSV зі стовпцем дати, показує, що знайдено (скільки ін’єкцій, записів ваги й нотаток), ще до запису, пропускає записи, які у вас уже є, і спершу робить резервну копію ваших наявних даних. Докладніше на сторінці про перехід ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи є Dozify на Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Поки що ні. Наразі Dozify доступний лише для iPhone, в App Store."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/uk" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a class="nav-anchor" href="#how">Як це працює</a>
+        
+        <a class="nav-anchor" href="#features">Функції</a>
+        
+        <a class="nav-anchor" href="/#faq">Запитання</a>
+        
+        <a href="/uk/articles">Статті</a>
+        
+        <a href="/uk/support">Підтримка</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+        <img class="hero-icon" src="/favicon.svg" width="96" height="96" alt="Dozify" />
+        <span class="pill">Для Ozempic® · Wegovy® (шприц-ручка й таблетка) · Mounjaro® · Zepbound®</span>
+        
+
+        <h1>Ваша терапія GLP-1 — <span class="accent">на одному екрані.</span></h1>
+        
+
+        <ul class="new-chips" aria-label="Нове в Dozify">
+          <li><a href="/uk/ai-calorie-tracker">📸 Калорії за фото з AI</a></li>
+          
+          <li><a href="#themes">🐬 Маскоти й теми</a></li>
+          
+          <li><a href="/uk/glp1-pill-tracker">💊 Облік таблеток</a></li>
+          
+          <li><a href="/uk/glp1-medication-level">📈 Крива рівня препарату</a></li>
+          
+        </ul>
+
+        <p class="lede">Записуйте кожну ін’єкцію чи щоденну таблетку, сфотографуйте страву й за секунди дізнайтеся калорії та білок, а свою вагу переглядайте поруч із розрахунковою кривою рівня препарату. Налаштуйте застосунок під себе: маскот і колір теми. Запис доз і нагадування безкоштовні — назавжди. Уже ведете облік деінде? <a href="/uk/switch-glp1-tracker-app">Заберіть свою історію з собою.</a></p>
+        
+
+        <div class="cta-row">
+          <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-uk&mt=8" target="_blank" rel="noopener" class="btn btn-primary">Завантажити в App Store</a>
+          
+        </div>
+
+        <!-- The three things a visitor deciding on a health app wants settled
+             before they tap Download, said before they have to look for them. -->
+        <ul class="trust-row">
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" /> <path d="m9 12 2 2 4-4" /> </svg> <span>Без облікового запису, працює офлайн: ваші медичні записи залишаються на пристрої</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" /> </svg> <span>Без реклами в застосунку, і ваші медичні записи ніколи не використовуються для таргетування реклами</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M12 8h.01M11 12h1v4h1" /> </svg> <span>Інструмент для відстеження, а не медичний виріб: він записує ваш план, але ніколи його не пропонує</span></li>
+        </ul>
+        </div>
+
+        <!-- The product itself, above the fold. The page used to open on an app
+             icon and four paragraphs, which asks a visitor to take the app's
+             word for what it looks like. -->
+        <div class="hero-shot hero-fan" aria-hidden="false">
+          <div class="device fan-left">
+            <img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" decoding="async" alt="Результат AI: кожен продукт на тарілці з калоріями й білком, готовий до редагування">
+            
+          </div>
+          <div class="device fan-right">
+            <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" decoding="async" alt="Вибір теми з шістьма маскотами: «Класика», «Дельфін», «Панда», «Сова», «Фламінго» і «Бджола»">
+            
+          </div>
+          <div class="device fan-center">
+            <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" fetchpriority="high" decoding="async" alt="Головний екран Dozify у темі «Дельфін»: наступна доза, «Сфотографуйте страву», рівень препарату, білок, вода й вага">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="themes" class="section section-light">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">Нове</span>
+          
+          <h2 class="section-title">Виберіть маскота. Увесь застосунок підлаштується.</h2>
+          
+          <p>Шість тем, у кожній — колір і компаньйон: «Класика», «Дельфін» 🐬, «Панда» 🐼, «Сова» 🦉, «Фламінго» 🦩 і «Бджола» 🐝. Колір проходить через кожен екран, маскот з’являється на графіку ваги та у вашій серії, а разом із ним змінюється й іконка застосунку на початковому екрані. «Класика» лишається стриманою.</p>
+          
+          <p>«Дельфін» — безкоштовно. «Панда», «Сова», «Фламінго» і «Бджола» входять у Premium. Світла, темна чи як у системі — вибирайте самі.</p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Екран «Оформлення»: світла, темна чи системна тема і шість тем із маскотами"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Головний екран у синій темі «Дельфін»"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/bee-home.webp" srcset="/screenshots/en/bee-home-400w.webp 400w, /screenshots/en/bee-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Налаштування в помаранчевій темі «Бджола»"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="ai-calories" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">Нове</span>
+          
+          <h2 class="section-title">Сфотографуйте страву. Побачте калорії.</h2>
+          
+          <p>На GLP-1 ви їсте менше, тож те, що ви все-таки їсте, важить більше. Зробіть фото, і Dozify перелічить кожен продукт на тарілці з оцінкою калорій і білка — вашою мовою. Це завжди чернетка, яку можна редагувати: виправте порцію, додайте те, що камера пропустила, і збережіть поруч із дозами та вагою. Premium.</p>
+          
+          <p><a href="/uk/ai-calorie-tracker" class="link-arrow">Як працюють калорії з AI</a></p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Dozify розпізнає фото страви"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Кожен продукт на тарілці з калоріями й білком"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">Як це працює</h2>
+        
+        <p class="section-lede">Три кроки. Без мороки з налаштуванням.</p>
+        
+
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h3>Додайте свій препарат</h3>
+            
+            <p>Виберіть щотижневу або щоденну ін’єкцію — Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® — або щоденну таблетку: Wegovy® у таблетках, Ozempic® у таблетках, Rybelsus® чи Foundayo™. Задайте дозу й графік.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h3>Записуйте кожну ін’єкцію</h3>
+            
+            <p>Одним дотиком запишіть дозу, час і місце ін’єкції на схемі тіла. Розумне чергування підкаже наступне місце.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h3>Поділіться з лікарем</h3>
+            
+            <p>Експортуйте PDF-звіт із повною історією лікування, динамікою ваги та журналом побічних ефектів: саме те, що треба для наступного візиту.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="section">
+      <div class="container">
+        <h2 class="section-title">Dozify у дії</h2>
+        
+        <p class="section-lede">Короткий огляд того, що ви побачите на телефоні.</p>
+        
+
+        <div class="screenshot-strip" role="group" tabindex="0" aria-label="Знімки екрана Dozify, гортайте вбік">
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/home-next-dose.webp" srcset="/screenshots/en/home-next-dose-400w.webp 400w, /screenshots/en/home-next-dose.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Головний екран Dozify: відлік до наступної дози, ін’єкції цього тижня, білок і вода за день та поточна вага">
+            </div>
+            <figcaption><b>Ваш день з першого погляду</b> <span>Наступна доза, уколи цього тижня, білок, вода й вага: на одному екрані.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Оцінка калорій по фото з AI у формі харчування: салат «Цезар» з куркою, 625 kcal, 55 g білка, з приміткою про невизначеність">
+            </div>
+            <figcaption><b>Сфотографуйте страву</b> <span>AI заповнює калорії й білок за фото — це завжди чернетка, яку можна редагувати.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/level-curve.webp" srcset="/screenshots/en/level-curve-400w.webp 400w, /screenshots/en/level-curve.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Тренд ваги й крива орієнтовного рівня препарату з поточним і піковим відсотком">
+            </div>
+            <figcaption><b>Що робить ваша доза</b> <span>Крива орієнтовного рівня пояснює, чому на 6-й день повертається голод.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Запис ін’єкції з картою місць на тілі, що підказує наступне місце для чергування">
+            </div>
+            <figcaption><b>Укол — за лічені секунди</b> <span>Карта тіла пам’ятає, яке місце наступне, тож вам не треба.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/weight-and-dose-chart.webp" srcset="/screenshots/en/weight-and-dose-chart-400w.webp 400w, /screenshots/en/weight-and-dose-chart.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Тренд ваги й крива орієнтовного рівня препарату на одній шкалі часу">
+            </div>
+            <figcaption><b>Вага й доза на одній лінії</b> <span>Тренд ваги поруч з орієнтовним рівнем препарату.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Головний екран Dozify у темі «Дельфін»: океанічно-синій акцент, значок серії з хвилею та картка страви з AI">
+            </div>
+            <figcaption><b>Налаштуйте під себе</b> <span>Колір, маскот і навіть іконка застосунку змінюються разом — Дельфін безкоштовний.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Вибір теми: набори «Класика», «Дельфін», «Панда», «Сова», «Фламінго» й «Бджола»">
+            </div>
+            <figcaption><b>Шість характерів</b> <span>Виберіть колір і компаньйона; маскот з’являється у ваших графіках і серії днів.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/victories.webp" srcset="/screenshots/en/victories-400w.webp 400w, /screenshots/en/victories.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Журнал перемог із записами на кшталт «одяг сидить краще» і «легше підніматися сходами»">
+            </div>
+            <figcaption><b>Перемоги, яких не бачать ваги</b> <span>Для тижнів плато: одяг, енергія, настрій — записано одним рядком.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/lab-results.webp" srcset="/screenshots/en/lab-results-400w.webp 400w, /screenshots/en/lab-results.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Екран результатів аналізів із записами HbA1c і LDL, збереженими точно так, як їх введено">
+            </div>
+            <figcaption><b>Аналізи поруч із дозами</b> <span>HbA1c, ліпіди, печінкові показники — збережені так, як ви їх ввели, і включені в PDF для лікаря.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/vial-stock.webp" srcset="/screenshots/en/vial-stock-400w.webp 400w, /screenshots/en/vial-stock.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Запас флаконів, залишок доз, дні від відкриття й термін придатності">
+            </div>
+            <figcaption><b>Знайте заздалегідь, коли закінчиться флакон</b> <span>Залишок доз, дні від відкриття, термін придатності: підраховано за вас.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Створення звіту для візиту до лікаря: період, розділи для включення та запитання, які ви хочете поставити">
+            </div>
+            <figcaption><b>Охайний PDF для лікаря</b> <span>Виберіть період і що включити — і приходьте на прийом із підсумком.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/water-tracking.webp" srcset="/screenshots/en/water-tracking-400w.webp 400w, /screenshots/en/water-tracking.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Облік води з калькулятором склянок і швидким додаванням об’єму">
+            </div>
+            <figcaption><b>Вода, у склянках</b> <span>А не в мілілітрах, які треба перераховувати.</span></figcaption>
+          </figure>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section id="features" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Що всередині</h2>
+        
+        <p class="section-lede">Створено для людей, які приймають препарати GLP-1 щотижня.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v2" /><path d="m5.6 5.6 1.4 1.4" /><path d="m18.4 5.6-1.4 1.4" /><path d="M3 12h2" /><path d="M19 12h2" /><path d="M12 21a6 6 0 0 0 6-6c0-3-2.5-4.5-6-9-3.5 4.5-6 6-6 9a6 6 0 0 0 6 6Z" />
+              </svg>
+            </div>
+            <h3>Калорії по фото з AI <span class="badge-new">Нове</span></h3>
+            
+            <p>Сфотографуйте страву й за кілька секунд отримайте оцінку калорій і білка вашою мовою. Завжди як чернетка, яку можна редагувати, — рішення за вами. Premium. <a href="/uk/ai-calorie-tracker">Як працюють калорії з AI</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0E7FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="M4 15c2-6 4-9 6-9s3 2 4 5 2 5 4 5 3-2 4-5" />
+              </svg>
+            </div>
+            <h3>Крива рівня препарату <span class="badge-new">Нове</span></h3>
+            
+            <p>Орієнтовна крива того, як ваша доза накопичується й спадає між уколами, — і голод на 6-й день нарешті стає зрозумілим. <a href="/uk/glp1-medication-level">Про криву</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="13.5" cy="6.5" r=".5" /><circle cx="17.5" cy="10.5" r=".5" /><circle cx="8.5" cy="7.5" r=".5" /><circle cx="6.5" cy="12.5" r=".5" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" />
+              </svg>
+            </div>
+            <h3>Теми й маскоти <span class="badge-new">Нове</span></h3>
+            
+            <p>Колір, маскот і навіть іконка застосунку змінюються разом. Дельфін 🐬 безкоштовний; панда, сова, фламінго й бджола доступні з Premium.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>Журнал перемог <span class="badge-new">Нове</span></h3>
+            
+            <p>Прогрес, якого не бачать ваги: одяг, що став впору, сходи, які стало легше долати. Безкоштовно, свідомо — для тижнів плато.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.31" /><path d="M14 9.3V2" /><path d="M8.5 2h7" /><path d="M14 9.3a6.5 6.5 0 1 1-4 0" /><path d="M5.52 16h12.96" />
+              </svg>
+            </div>
+            <h3>Результати аналізів <span class="badge-new">Нове</span></h3>
+            
+            <p>HbA1c, ліпіди, печінкові показники — зберігаються точно так, як ви їх ввели, і включаються в PDF для лікаря. Без вердиктів і без кольорових оцінок.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+              </svg>
+            </div>
+            <h3>Зв’язок із циклом <span class="badge-new">Нове</span></h3>
+            
+            <p>Дивіться свої симптоми у зв’язку з менструальним циклом — лише якщо ви це ввімкнете, і дані ніколи не залишають ваш пристрій.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0F2FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
+              </svg>
+            </div>
+            <h3>Тренд і прогноз ваги</h3>
+            
+            <p>Дивіться свою вагу на зрозумілих графіках із прогнозом досягнення мети на основі ваших власних даних.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+              </svg>
+            </div>
+            <h3>Розумні нагадування</h3>
+            
+            <p>Щотижневі або щоденні нагадування за графіком вашого препарату.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EFF6FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.5L4 22h16l-6-12.5V2" /><path d="M8.5 2h7" />
+              </svg>
+            </div>
+            <h3>Запас флаконів</h3>
+            
+            <p>Дата відкриття, відлік до кінця терміну придатності та залишок доз для кожного флакона.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" />
+              </svg>
+            </div>
+            <h3>Графіки прогресу</h3>
+            
+            <p>Тренд ваги, підвищення дози та закономірності побічних ефектів з першого погляду.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" />
+              </svg>
+            </div>
+            <h3>PDF-звіти</h3>
+            
+            <p>Готові для лікаря підсумки з повною хронологією лікування — одним дотиком.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEE2E2">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.49 4.04 3 5.5l7 7Z" />
+              </svg>
+            </div>
+            <h3>Синхронізація з Apple Health</h3>
+            
+            <p>На iPhone вага автоматично зчитується з Apple Health. Запис назад необов’язковий і за замовчуванням вимкнений.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EDE9FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2" /><line x1="8" x2="16" y1="6" y2="6" /><line x1="16" x2="16" y1="14" y2="18" /><path d="M8 10h.01" /><path d="M12 10h.01" /><path d="M16 10h.01" /><path d="M8 14h.01" /><path d="M12 14h.01" /><path d="M8 18h.01" /><path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3>Вбудовані калькулятори</h3>
+            
+            <p>Перерахунок одиниць (mg ↔ mL ↔ U-100) і оцінка, на скільки вистачить флакона, — безкоштовно.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DBEAFE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" />
+              </svg>
+            </div>
+            <h3>Перенесіть свою історію</h3>
+            
+            <p>Переходите з іншого трекера? Dozify читає ваш експортований файл, показує, що в ньому знайдено, і записує дані лише після вашого підтвердження: спершу зробивши резервну копію.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="7" height="9" x="3" y="3" rx="1" /><rect width="7" height="5" x="14" y="3" rx="1" /><rect width="7" height="9" x="14" y="12" rx="1" /><rect width="7" height="5" x="3" y="16" rx="1" />
+              </svg>
+            </div>
+            <h3>Головний екран, який ви збираєте самі</h3>
+            
+            <p>Змінюйте порядок карток, ховайте непотрібні й повертайте їх будь-коли. Якщо ви не відстежуєте побічні ефекти, ці поля просто не з’являться.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
+              </svg>
+            </div>
+            <h3>Будь-який графік — і план вашого лікаря</h3>
+            
+            <p>Щотижня, щодня, раз на кілька днів або в конкретні дати. Збережіть графік доз, який дав вам лікар, і застосунок нагадуватиме вам. Dozify ніколи сам не обирає дозу.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DCFCE7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+            </div>
+            <h3>Бібліотека знань</h3>
+            
+            <p>Посібники з посиланнями на джерела про дозування, побічні ефекти й техніку ін’єкцій.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" />
+              </svg>
+            </div>
+            <h3>Чергування місць ін’єкцій</h3>
+            
+            <p>Схема тіла відстежує кожне місце й підказує, куди колоти наступного разу.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FFEDD5">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z" /><path d="m7.5 10.5 2 2" /><path d="m10.5 7.5 2 2" /><path d="m13.5 4.5 2 2" /><path d="m4.5 13.5 2 2" />
+              </svg>
+            </div>
+            <h3>Виміри тіла</h3>
+            
+            <p>Відстежуйте талію, стегна, відсоток жиру та інше: прогрес, якого самі ваги не помічають.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF9C3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>Досягнення й серії</h3>
+            
+            <p>Щоденні серії та значки досягнень допомагають зберігати регулярність і мотивацію.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFCCB">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#65A30D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /><path d="M7 2v20" /><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+              </svg>
+            </div>
+            <h3>Журнал їжі й води</h3>
+            
+            <p>Записуйте страви, білок і воду поруч зі своїм лікуванням.</p>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- The differentiator a visitor who already tracks somewhere else is
+         looking for, and the one thing no competitor page tells them. -->
+    <section id="import" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 class="section-title">Уже ведете облік деінде? Перенесіть його з собою.</h2>
+          
+          <p class="section-lede">Dozify читає експорти з Shotsy, Glapp, GLPzy і GlucoPal, а також будь-який CSV зі стовпцем дати. Нічого не записується, доки ви не побачите, що знайдено (скільки ін’єкцій, скільки записів ваги, скільки нотаток), а перед цим створюється резервна копія ваших наявних даних. Імпорт нічого не коштує.</p>
+          
+          <a href="/uk/switch-glp1-tracker-app" class="link-arrow">Як працює перехід →</a>
+          
+        </div>
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Імпортована ін’єкція в журналі Dozify з датою, дозою й місцем">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-section">
+      <div class="container">
+        <div class="privacy-card">
+          <div class="privacy-icon">
+            <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
+            </svg>
+          </div>
+          <h2>Ваші персональні дані залишаються на телефоні</h2>
+          
+          <p>Без облікового запису, без реклами в застосунку, без профілю. Ваші персональні дані (ін’єкції, вага, виміри) ніколи не залишають пристрій. Видаліть застосунок — і ваших даних не стане.</p>
+          
+          <a href="/uk/privacy" class="link-arrow">Читати Політику конфіденційності →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="report" class="section">
+      <div class="container split split-reverse">
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Створення звіту для візиту до лікаря: період, розділи для включення та запитання, які ви хочете поставити">
+            
+          </div>
+        </div>
+        <div class="split-copy">
+          <h2 class="section-title">Приходьте на прийом із підсумком</h2>
+          
+          <p class="section-lede">Візит — це десять хвилин і три місяці. Виберіть період і що до нього включити (дози, вага, побічні ефекти, ваші нотатки й запитання, які ви хотіли поставити), і Dozify створить PDF, який можна роздрукувати або надіслати заздалегідь. Що в ньому — це ваш запис; що це означає — вирішує лікар.</p>
+          
+          <a href="/uk/glp1-appointment-report" class="link-arrow">Що містить звіт →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="medications" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Препарати, які можна відстежувати</h2>
+        
+        <p class="section-lede">Виберіть той, що вам призначили, і Dozify налаштує для нього графік і кроки дозування. Усе, чого немає в списку, можна додати вручну.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <h3>Щотижневі ін’єкції</h3>
+            
+            <p>Ozempic®, Wegovy®, Mounjaro®, Zepbound® і Trulicity®: один укол на тиждень і одне нагадування на тиждень.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Щоденні ін’єкції</h3>
+            
+            <p>Saxenda® і Victoza® — щоденний графік, на ту годину, коли ви справді робите укол, а не за замовчуванням.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Таблетки</h3>
+            
+            <p>Wegovy® у таблетках, Ozempic® у таблетках, Rybelsus® і Foundayo™ — щоденні таблетки з тією самою історією й тим самим звітом. <a href="/uk/glp1-pill-tracker">Як працює облік таблеток</a></p>
+            
+          </article>
+          <article class="feature">
+            <h3>Щось інше</h3>
+            
+            <p>Додайте препарат за назвою з власною дозою та інтервалом. Dozify записує план, який ви погодили з лікарем; сам він план ніколи не пропонує.</p>
+            
+          </article>
+        </div>
+
+        <p class="meta" style="text-align:center;margin-top:24px">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® і Foundayo™ є товарними знаками відповідних власників. Dozify не пов’язаний із цими компаніями, не схвалений і не спонсорований ними.</p>
+        
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Посібники з указаними джерелами</h2>
+        
+        <p class="section-lede">Написані для людей, які вже приймають GLP-1, і кожен указує, звідки взято інформацію: інструкції виробника, FDA, MedlinePlus. Ніщо з цього не замінює того, що каже ваш лікар.</p>
+        
+
+        <div class="article-list">
+          <a class="article-card" href="/uk/articles/what-is-glp1">
+            <h3>Що таке GLP-1?</h3>
+            
+            <p>Гормон, який кишечник виділяє після їжі, що саме копіюють препарати і чому змінюється апетит.</p>
+            
+          </a>
+          <a class="article-card" href="/uk/articles/how-to-inject-glp1">
+            <h3>Як зробити укол шприц-ручкою GLP-1</h3>
+            
+            <p>Підготовка ручки, вибір місця, сама ін’єкція і що робити з голкою після неї.</p>
+            
+          </a>
+          <a class="article-card" href="/uk/articles/glp1-injection-sites">
+            <h3>Куди колоти і як чергувати місця</h3>
+            
+            <p>Затверджені місця — живіт, стегно й плече. Яке обрати і чому місце треба змінювати.</p>
+            
+          </a>
+          <a class="article-card" href="/uk/articles/glp1-side-effects">
+            <h3>Поширені побічні ефекти</h3>
+            
+            <p>Нудота, закреп і втома: що зазвичай допомагає і за яких ознак треба негайно до лікаря.</p>
+            
+          </a>
+          <a class="article-card" href="/uk/articles/glp1-patches">
+            <h3>Чи існують пластирі GLP-1?</h3>
+            
+            <p>Жоден пластир не схвалений FDA чи EMA. Що продають під цією назвою і що кажуть дані.</p>
+            
+          </a>
+          <a class="article-card" href="/uk/articles/missed-glp1-dose">
+            <h3>Пропустили дозу?</h3>
+            
+            <p>П’ять днів для одного препарату, два — для іншого з тією самою діючою речовиною. Що сказано в кожній інструкції, з цитатами.</p>
+            
+          </a>
+          <a class="article-card" href="/uk/articles/storing-glp1-pens">
+            <h3>Зберігання шприц-ручки</h3>
+            
+            <p>Холодильник, кімнатна температура й кількість днів, яка залежить від пристрою, а не лише від препарату.</p>
+            
+          </a>
+          <a class="article-card" href="/uk/articles">
+            <h3>Усі посібники</h3>
+            
+            <p>Уся бібліотека, зі списком джерел унизу кожної сторінки.</p>
+            
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Поширені запитання</h2>
+        
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Чи Dozify безкоштовний?</h3>
+            
+            <p>Так. Запис доз, нагадування про дози, чергування місць ін’єкцій, облік ваги, води й побічних ефектів, уся ваша історія та фото, а також освітні статті безкоштовні — відстеження доз залишається безкоштовним назавжди, а не на пробний період. Premium — це рівень розуміння: орієнтовна крива рівня препарату, розширені графіки й тренди, прогноз ваги, склад тіла, харчування з оцінкою калорій по фото з AI, керування флаконами, PDF-звіти для лікаря, теми та другий активний препарат. Подробиці про підписку і її скасування — на <a href="/uk/support">сторінці підтримки</a>.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Чи мої дані приватні?</h3>
+            
+            <p>Ваші медичні записи (дози, вага, побічні ефекти, фото прогресу) зберігаються на вашому пристрої й ніколи не завантажуються на сервер. Єдиний виняток — фото страви, яке ви самі вирішите проаналізувати функцією калорій з AI: після вашої згоди воно надсилається через наш сервер до Google Gemini, і застосунок його не зберігає. Немає ні облікового запису, ні хмарної синхронізації, і застосунок не показує реклами. Анонімна статистика використання збирається, щоб покращувати застосунок, і ніколи не містить назви препарату чи симптому. Також Dozify вимірює, чи встановлення відбулося з однієї з його власних кампаній в App Store або Meta; це вимірювання працює лише з дозволом Apple на відстеження й ніколи не включає ваших медичних записів. Видаліть застосунок — і ваших записів не стане.</p>
+            
+          </div>
+
+
+          <div class="faq-item">
+            <h3>Які препарати підтримує Dozify?</h3>
+            
+            <p>Dozify допомагає відстежувати популярні препарати GLP-1, зокрема Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® і Victoza®, а також щоденні таблетки: Wegovy® у таблетках, Ozempic® у таблетках, Rybelsus® і Foundayo™. Ці торгові назви є товарними знаками відповідних власників, і Dozify не пов’язаний із цими компаніями.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Чи працює Dozify без інтернету?</h3>
+            
+            <p>Так. Dozify створено насамперед для роботи офлайн, і він повністю працює без підключення до інтернету. Вам ніколи не потрібно входити в обліковий запис чи синхронізуватися.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Чи може Dozify нагадувати про ін’єкцію?</h3>
+            
+            <p>Так. Можна налаштувати щотижневе або щоденне нагадування за графіком вашого препарату, щоб легше було дотримуватися режиму.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Чи замінює Dozify лікаря?</h3>
+            
+            <p>Ні. Dozify — освітній інструмент для відстеження, а не медичний виріб, і він не надає медичних порад. Завжди дотримуйтеся вказівок лікаря та призначення — <a href="/uk/why">чого застосунок свідомо не робить</a>, описано повністю.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Чи можна відстежувати вагу й побічні ефекти?</h3>
+            
+            <p>Так. Ви можете записувати вагу, виміри тіла й вести щоденник побічних ефектів, а також бачити свій тренд на зрозумілих графіках: зокрема прогноз ваги та оцінку часу до мети на основі ваших власних даних.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Чи можна перенести дані з іншого застосунку для GLP-1?</h3>
+            
+            <p>Так, і безкоштовно. Експортуйте дані із застосунку, з якого йдете, відкрийте в Dozify Налаштування &rarr; Імпорт твоєї історії і виберіть файл. Він читає експорти з Shotsy, Glapp, GLPzy і GlucoPal та будь-який CSV зі стовпцем дати, показує, що знайдено (скільки ін’єкцій, записів ваги й нотаток), ще до запису, пропускає записи, які у вас уже є, і спершу робить резервну копію ваших наявних даних. <a href="/uk/switch-glp1-tracker-app">Докладніше на сторінці про перехід</a>.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Чи є Dozify на Android?</h3>
+            
+            <p>Поки що ні. Наразі Dozify доступний лише для iPhone, в App Store.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section section-cta">
+      <div class="container">
+        <h2 class="section-title">Отримати застосунок</h2>
+        
+        <p class="section-lede">Dozify доступний в App Store для iPhone.</p>
+        
+        <div class="store-row">
+          <a class="store-card store-card--live" href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-uk&mt=8" target="_blank" rel="noopener">
+            <div class="store-card-icon">
+              <svg viewbox="0 0 24 24" fill="currentColor">
+                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
+              </svg>
+            </div>
+            <div>
+              <span class="store-card-pretitle">Завантажте в</span>
+              
+              <strong>App Store</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/uk" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+        <p class="footer-tagline">Приватний помічник у вашій терапії GLP-1.</p>
+        
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Правова інформація</h3>
+          
+          <a href="/uk/privacy">Політика конфіденційності</a>
+          
+          <a href="/en/kvkk">KVKK Aydınlatma</a>
+          <a href="/uk/terms">Умови використання</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Відстеження</h3>
+          
+          <a href="/uk/glp1-shot-tracker">Трекер ін’єкцій GLP-1</a>
+          
+          <a href="/uk/injection-site-tracker">Трекер місць ін’єкцій</a>
+          
+          <a href="/uk/glp1-weight-tracker">Трекер ваги на GLP-1</a>
+          
+          <a href="/uk/glp1-side-effect-journal">Щоденник побічних ефектів</a>
+          
+          <a href="/uk/glp1-vial-tracker">Трекер флаконів</a>
+          
+          <a href="/uk/private-glp1-tracker">Приватний трекер GLP-1</a>
+          
+          <a href="/uk/glp1-appointment-report">Звіт для лікаря</a>
+          
+          <a href="/uk/switch-glp1-tracker-app">Перехід з іншого застосунку</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Допомога</h3>
+          
+          <a href="/uk/support">Підтримка</a>
+          
+          <a href="/uk/why">Чому Dozify</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+      <p class="disclaimer">Dozify не є медичним виробом і не надає медичних порад. Завжди консультуйтеся з лікарем. Ozempic®, Mounjaro®, Wegovy®, Saxenda®, Zepbound®, Trulicity®, Rybelsus®, Victoza® і Foundayo™ є товарними знаками відповідних власників. Dozify не пов’язаний із цими компаніями.</p>
+      
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en" hreflang="en" lang="en">English</a> · <a href="/tr" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar" hreflang="ar" lang="ar">العربية</a> · <a href="/cs" hreflang="cs" lang="cs">Čeština</a> · <a href="/da" hreflang="da" lang="da">Dansk</a> · <a href="/de" hreflang="de" lang="de">Deutsch</a> · <a href="/el" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es" hreflang="es" lang="es">Español</a> · <a href="/fi" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr" hreflang="fr" lang="fr">Français</a> · <a href="/hi" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it" hreflang="it" lang="it">Italiano</a> · <a href="/ja" hreflang="ja" lang="ja">日本語</a> · <a href="/ko" hreflang="ko" lang="ko">한국어</a> · <a href="/nb" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl" hreflang="pl" lang="pl">Polski</a> · <a href="/pt" hreflang="pt" lang="pt">Português</a> · <a href="/ru" hreflang="ru" lang="ru">Русский</a> · <a href="/sv" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk" hreflang="uk" lang="uk" aria-current="page">Українська</a> · <a href="/zh" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

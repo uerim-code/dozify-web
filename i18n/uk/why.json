@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "title": "Чому Dozify: що він робить і чого свідомо не робить",
+  "description": "Створено для людей, яким уже призначили GLP-1. Застосунок записує те, що вирішили ви з лікарем; він не пропонує доз і не тлумачить результатів."
+ },
+ "t": {
+  "← Back to home": "← Назад на головну",
+  "Five things this app is built around. Each one is a claim you can check against how it behaves.": "П’ять речей, на яких побудовано цей застосунок. Кожна — твердження, яке можна перевірити за тим, як він поводиться.",
+  "Your records stay on your phone": "Ваші записи залишаються на телефоні",
+  "Doses, weights, side effects and photos are stored in a database on your device. Usage analytics never carries a medication name or a symptom, and progress photos are never uploaded anywhere. The one photo that does leave the phone is a meal photo you choose to analyse with <a href=\"/en/ai-calorie-tracker\">AI calories</a>: it goes, after you agree, through our server to Google Gemini for the estimate and is not stored by the app. The <a href=\"/en/privacy\">privacy policy</a> lists exactly what leaves the device and why.": "Дози, вага, побічні ефекти й фото зберігаються в базі даних на вашому пристрої. Аналітика використання ніколи не містить назви препарату чи симптому, а фото прогресу ніколи нікуди не завантажуються. Єдине фото, яке таки залишає телефон, — фото страви, яке ви самі вирішите проаналізувати функцією <a href=\"/en/ai-calorie-tracker\">калорій з AI</a>: після вашої згоди воно надсилається через наш сервер до Google Gemini для оцінки, і застосунок його не зберігає. <a href=\"/en/privacy\">Політика конфіденційності</a> точно перелічує, що залишає пристрій і чому.",
+  "Only what you track": "Лише те, що ви відстежуєте",
+  "The home screen is built from the things you said you care about: cards can be reordered, hidden, or brought back whenever you like. An app that shows everyone everything is an app nobody reads. If food matters to you, the <a href=\"/en/ai-calorie-tracker\">AI meal card</a> turns a photo into an editable calorie and protein draft; if you take a tablet, the <a href=\"/en/glp1-pill-tracker\">pill tracker</a> follows a daily rhythm.": "Головний екран складається з того, що, як ви сказали, для вас важливо: картки можна переставляти, ховати й повертати будь-коли. Застосунок, що показує всім усе, — застосунок, який ніхто не читає. Якщо для вас важлива їжа, <a href=\"/en/ai-calorie-tracker\">картка страви з AI</a> перетворює фото на чернетку калорій і білка, яку можна редагувати; якщо ви приймаєте таблетку, <a href=\"/en/glp1-pill-tracker\">трекер таблеток</a> працює в щоденному ритмі.",
+  "Sources you can follow": "Джерела, які можна перевірити",
+  "Every article in the education section names where it came from (MedlinePlus (NIH), FDA, NIDDK, TİTCK) and links straight to it. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "Кожна стаття в освітньому розділі називає, звідки взято інформацію (MedlinePlus (NIH), FDA, NIDDK, TİTCK), і веде прямо на джерело. Dozify — інструмент для відстеження: він не рекомендує дози й не тлумачить результати.",
+  "Feedback goes to a person": "Відгуки отримує людина",
+  "Suggestions arrive as mail read by the person who writes the app, from Settings → Suggest a feature or at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. There is no ticket queue in between.": "Пропозиції надходять листами, які читає людина, що пише застосунок, — через Налаштування → Запропонувати функцію або на <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. Жодної черги запитів посередині.",
+  "Still being worked on": "Робота триває",
+  "Fixes and additions ship as they are ready, and each release says what changed. Most of what has been added since launch started as a message from someone using the app.": "Виправлення й нові функції виходять, щойно готові, і кожен випуск розповідає, що змінилося. Більшість із того, що додано після запуску, почалася з повідомлення когось, хто користується застосунком.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Завантажити в App Store</a>"
+ }
+}

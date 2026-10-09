@@ -1,0 +1,25 @@
+{
+ "meta": {
+  "title": "Alternativa ke GlucoPal — přenes historii GLP-1",
+  "description": "Přecházíš z GlucoPal? Dozify přečte export, ukáže počty dřív, než cokoli uloží, a vypíše sloupce, které vynechalo. Zdarma, přímo ve tvém zařízení."
+ },
+ "t": {
+  "GlucoPal alternative": "Alternativa k GlucoPal",
+  "Coming from GlucoPal? Bring the history with you": "Přecházíš z GlucoPal? Vezmi si historii s sebou",
+  "Export from GlucoPal, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Exportuj data z GlucoPal, otevři je v Dozify a uvidíš každý záznam, který se má uložit, dřív, než se uloží. Zdarma a soubor nikdy neopustí tvůj telefon.",
+  "The columns Dozify looks for in a GlucoPal export": "Sloupce, které Dozify hledá v exportu z GlucoPal",
+  "<code>date · log date</code>": "<code>date · log date</code>",
+  "<code>time · log time</code>": "<code>time · log time</code>",
+  "<code>dose · insulin · units</code>": "<code>dose · insulin · units</code>",
+  "<code>weight · weight (kg) · weight (lb)</code>": "<code>weight · weight (kg) · weight (lb)</code>",
+  "<strong>Side effect</strong>": "<strong>Nežádoucí účinek</strong>",
+  "<code>symptom · note type</code>": "<code>symptom · note type</code>",
+  "<strong>Severity</strong>": "<strong>Závažnost</strong>",
+  "<code>severity</code>": "<code>severity</code>",
+  "<code>notes · comment</code>": "<code>notes · comment</code>",
+  "If your dose column is headed “units”": "Pokud má tvůj sloupec dávky záhlaví „units“",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "Tyto řádky se ti vypíšou, místo aby se převedly. Jednotka je objem na stříkačce a kolik miligramů v ní je, závisí na koncentraci tvé lahvičky — čísle, které soubor neobsahuje. Zapsat je do pole pro miligramy by zaznamenalo špatnou dávku, aniž by to cokoli dalšího zpochybnilo, takže je Dozify zobrazí a nechá tě zadat množství, které používá tvůj lékař. <a href=\"/en/articles/units-vs-milligrams\">Proč neexistuje jeden převod →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. GlucoPal is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with GlucoPal and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify je nástroj pro sledování, nikoli zdravotnický prostředek. Nedoporučuje dávky a neposkytuje lékařské rady. GlucoPal je ochranná známka svého vlastníka a je zde uvedena pouze k popisu formátu souboru, který Dozify umí přečíst; Dozify s GlucoPal není spojeno a tato stránka není jimi podporována. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® a Rybelsus® jsou ochranné známky příslušných vlastníků; Dozify s těmito společnostmi není spojeno.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glucopal-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glucopal-alternative-en&mt=8\" class=\"btn btn-primary\">Stáhnout v App Store</a>"
+ }
+}

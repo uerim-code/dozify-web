@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "GLP-1 진료용 리포트 — 요약본을 들고 진료실로",
+  "description": "석 달을 10분 안에 설명해야 하죠. 기간과 포함할 항목을 고르면 Dozify가 투여, 체중, 부작용을 깔끔한 PDF로 정리해 줘요."
+ },
+ "t": {
+  "Walk in with a summary, not a memory": "기억이 아니라 요약본을 들고 진료실에 들어가세요",
+  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "탭 한 번으로 석 달 치 내 기록이 주어진 10분 안에 의사가 읽을 수 있는 한 페이지가 돼요.",
+  "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "진료는 짧은데 다룰 건 많아요: 무엇을 언제 투여했는지, 체중이 어떻게 변했는지, 어떤 부작용이 언제 있었는지, 그리고 물어보려던 질문 두 가지.",
+  "A clinical summary, generated on the device": "기기에서 만들어지는 임상 요약",
+  "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "투여와 간격, 체중 추세, 부작용, 부위 순환, 개봉한 바이알: 30일, 90일, 180일 단위로.",
+  "Your questions, printed at the end": "마지막에 인쇄되는 내 질문",
+  "Write them down as they occur to you during the month. They come out on the last page.": "한 달 동안 떠오를 때마다 적어 두세요. 마지막 페이지에 나와요.",
+  "Yours to share, or not": "공유할지는 내가 결정해요",
+  "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDF는 휴대폰에서 만들어져요. 아무것도 업로드되지 않고, 어디로 보낼지는 내가 정해요.",
+  "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "짧은 추적 진료에서 긴 기간을 설명해야 하는 분, 내 기록을 본 적 없는 새 의료진으로 옮기는 분을 위해서예요. 용량 변경이 논의되는 진료를 위한 것이기도 해요. 그 결정은 바로 지난 8주 동안 있었던 일에 달려 있으니까요.",
+  "The report is your record laid out clearly. It is not a clinical assessment, it contains no interpretation, and nothing in it should be read as a recommendation, the reading is your doctor's. It also only contains what you logged: a week you did not record is a gap in the report, not a week without doses.": "리포트는 내 기록을 깔끔하게 정리한 거예요. 임상 평가가 아니고, 해석이 담겨 있지 않으며, 어떤 내용도 권장으로 읽혀서는 안 돼요. 해석은 의사의 몫이에요. 또한 내가 기록한 것만 담겨요: 기록하지 않은 주는 리포트의 빈칸이지, 투여가 없었던 주가 아니에요.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">App Store에서 다운로드</a>",
+  "What is in the report?": "리포트에는 무엇이 들어가나요?",
+  "Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down: over the range you pick.": "고른 기간 동안의 투여와 투여 간격, 체중 추세, 심한 정도가 포함된 부작용, 주사 부위, 개봉한 바이알, 그리고 적어 둔 질문이요.",
+  "Which date ranges can I choose?": "어떤 기간을 고를 수 있나요?",
+  "30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician.": "30일, 90일, 180일이에요. 보통 90일이 진료 간격과 맞고, 더 긴 기간은 새 의료진과의 첫 진료를 위한 거예요.",
+  "Can I leave sections out?": "섹션을 뺄 수 있나요?",
+  "Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about.": "네. 섹션마다 스위치가 있어서, 진료 내용에 따라 투여와 체중만 담은 리포트도 만들 수 있어요.",
+  "Can I send it before the appointment?": "진료 전에 미리 보낼 수 있나요?",
+  "The PDF is a file on your phone. Print it, email it, put it in a portal: that is your decision, made after you have seen it.": "PDF는 휴대폰에 있는 파일이에요. 인쇄하든, 이메일로 보내든, 포털에 올리든, 직접 확인한 뒤 내가 결정하면 돼요.",
+  "Is anything uploaded to make it?": "리포트를 만들려고 업로드되는 게 있나요?",
+  "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "아니요. 이미 기기에 있는 기록으로 기기 안에서 만들어져요. 리포트를 만들려고 어디로도 전송되지 않아요.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "출처를 밝힌 가이드: <a href=\"/en/articles/glp1-side-effects\">흔한 부작용 관리하기</a>, <a href=\"/en/articles/what-is-glp1\">GLP-1이란 무엇인가</a>, <a href=\"/en/articles/glp1-injection-sites\">어디에 주사하고 어떻게 순환할까</a>, <a href=\"/en/articles/glp1-appointment-checklist\">진료 당일 준비할 것</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Dozify의 다른 기능: <a href=\"/en/glp1-side-effect-journal\">부작용 일지</a>와 <a href=\"/en/glp1-weight-tracker\">체중 추세</a>."
+ }
+}

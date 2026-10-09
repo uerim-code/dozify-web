@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "Zpráva pro lékaře GLP-1 — přijď se shrnutím",
+  "description": "Deset minut na vysvětlení tří měsíců. Vyber období a co zahrnout a Dozify vytvoří přehledné PDF s dávkami, váhou a nežádoucími účinky."
+ },
+ "t": {
+  "Walk in with a summary, not a memory": "Přijď se shrnutím, ne se vzpomínkami",
+  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Jedno klepnutí promění tři měsíce tvých vlastních záznamů ve stránku, kterou lékař přečte během deseti minut, které máš.",
+  "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Kontrola je krátká a toho, co probrat, je hodně: co a kdy sis bral(a), jak se měnila váha, jaké nežádoucí účinky a v jakém okamžiku a dvě otázky, které jsi chtěl(a) položit.",
+  "A clinical summary, generated on the device": "Klinické shrnutí vytvořené v zařízení",
+  "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Dávky a intervaly, trend váhy, nežádoucí účinky, střídání míst vpichu, otevřené lahvičky: za 30, 90 nebo 180 dní.",
+  "Your questions, printed at the end": "Tvoje otázky, vytištěné na konci",
+  "Write them down as they occur to you during the month. They come out on the last page.": "Zapisuj si je, jak tě během měsíce napadají. Objeví se na poslední stránce.",
+  "Yours to share, or not": "Sdílet, nebo ne – rozhoduješ ty",
+  "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDF se vytvoří v tvém telefonu. Nic se nenahrává; ty rozhoduješ, zda ho někam pošleš.",
+  "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Lidem s krátkou kontrolou a dlouhým obdobím k popsání a lidem, kteří přecházejí k novému lékaři, jenž jejich historii nikdy neviděl. Je to také pro kontrolu, kde se řeší změna dávky a kde je to, co se stalo za posledních osm týdnů, přesně tím, na čem rozhodnutí stojí.",
+  "The report is your record laid out clearly. It is not a clinical assessment, it contains no interpretation, and nothing in it should be read as a recommendation, the reading is your doctor's. It also only contains what you logged: a week you did not record is a gap in the report, not a week without doses.": "Zpráva je tvůj záznam přehledně uspořádaný. Není to klinické hodnocení, neobsahuje žádný výklad a nic v ní by se nemělo číst jako doporučení – výklad je na lékaři. Obsahuje také jen to, co jsi zapsal(a): týden, který jsi nezaznamenal(a), je ve zprávě mezera, ne týden bez dávek.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Stáhnout v App Store</a>",
+  "What is in the report?": "Co zpráva obsahuje?",
+  "Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down: over the range you pick.": "Dávky a intervaly mezi nimi, trend váhy, nežádoucí účinky s jejich závažností, místa vpichu, otevřené lahvičky a otázky, které sis zapsal(a): za období, které zvolíš.",
+  "Which date ranges can I choose?": "Jaká období můžu zvolit?",
+  "30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician.": "30, 90 nebo 180 dní. Devadesát obvykle odpovídá odstupu mezi kontrolami; to delší je pro první návštěvu u nového lékaře.",
+  "Can I leave sections out?": "Můžu některé části vynechat?",
+  "Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about.": "Ano. Každá část má přepínač, takže zpráva může obsahovat jen dávky a váhu, pokud je návštěva právě o tom.",
+  "Can I send it before the appointment?": "Můžu ji poslat před kontrolou?",
+  "The PDF is a file on your phone. Print it, email it, put it in a portal: that is your decision, made after you have seen it.": "PDF je soubor v tvém telefonu. Vytiskni ho, pošli e-mailem, nahraj do portálu: je to tvoje rozhodnutí, které uděláš, až ho uvidíš.",
+  "Is anything uploaded to make it?": "Nahrává se něco, aby mohla vzniknout?",
+  "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Ne. Vytváří se v zařízení ze záznamů, které už tam jsou. K jejímu vytvoření se nic nikam neposílá.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Průvodci s uvedenými zdroji: <a href=\"/en/articles/glp1-side-effects\">jak zvládat časté nežádoucí účinky</a>, <a href=\"/en/articles/what-is-glp1\">co GLP-1 doopravdy je</a> a <a href=\"/en/articles/glp1-injection-sites\">kam píchat a jak místa střídat</a> a <a href=\"/en/articles/glp1-appointment-checklist\">co mít připravené na samotnou kontrolu</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Další v Dozify: <a href=\"/en/glp1-side-effect-journal\">deník nežádoucích účinků</a> a <a href=\"/en/glp1-weight-tracker\">trend váhy</a>."
+ }
+}

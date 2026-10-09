@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tekoäly-kalorilaskuri GLP-1-hoitoon: kalorit ja proteiini</title>
+  <meta property="og:url" content="https://dozify.app/fi/ai-calorie-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Kuvaa ateria, niin Dozify laatii kalori- ja proteiiniarvion ruoka kerrallaan. Muokkaat ja tallennat sen GLP-1-annosten ja painon viereen. Premium.">
+  <meta property="og:title" content="Tekoäly-kalorilaskuri GLP-1-hoitoon: kalorit ja proteiini">
+  <meta property="og:description" content="Kuvaa ateria, niin Dozify laatii kalori- ja proteiiniarvion ruoka kerrallaan. Muokkaat ja tallennat sen GLP-1-annosten ja painon viereen. Premium.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — yksityinen GLP-1-pistos- ja painonseuranta iPhonelle">
+  <meta name="twitter:title" content="Tekoäly-kalorilaskuri GLP-1-hoitoon: kalorit ja proteiini">
+  <meta name="twitter:description" content="Kuvaa ateria, niin Dozify laatii kalori- ja proteiiniarvion ruoka kerrallaan. Muokkaat ja tallennat sen GLP-1-annosten ja painon viereen. Premium.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — yksityinen GLP-1-pistos- ja painonseuranta iPhonelle">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="fi_FI">
+
+  <link rel="canonical" href="https://dozify.app/fi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/ai-calorie-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/fotograftan-kalori-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/ai-calorie-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/ai-calorie-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/ai-calorie-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/ai-calorie-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/ai-calorie-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/ai-calorie-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/ai-calorie-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/ai-calorie-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/ai-calorie-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/ai-calorie-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/ai-calorie-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/ai-calorie-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/ai-calorie-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/ai-calorie-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/ai-calorie-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/ai-calorie-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/fi",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "fi"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/fi",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Kirjaa GLP-1-pistokset ja päivittäiset tabletit, vaihtele pistoskohtia, seuraa painoa ja sivuvaikutuksia ja laske kalorit ateriakuvasta tekoälyllä. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "fi"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/fi/ai-calorie-tracker#webpage",
+        "url": "https://dozify.app/fi/ai-calorie-tracker",
+        "name": "Tekoäly-kalorilaskuri GLP-1-hoitoon: kalorit ja proteiini",
+        "description": "Kuvaa ateria, niin Dozify laatii kalori- ja proteiiniarvion ruoka kerrallaan. Muokkaat ja tallennat sen GLP-1-annosten ja painon viereen. Premium.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "fi",
+        "breadcrumb": {
+          "@id": "https://dozify.app/fi/ai-calorie-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kuinka tarkka kuvasta laskettu kalorimäärä on?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Se on arvio, ja sovellus merkitsee sen arvioksi. Annoskokoa, ruoanlaittorasvaa ja piilossa olevia ainesosia on vaikea päätellä kuvasta. Siksi tulos on luonnos, jota muokkaat ennen tallentamista, eikä luku, joka kirjoitetaan suoraan lokiisi."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Onko tekoälyn ateriakuva ilmainen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ei, se kuuluu Premiumiin yhdessä arvioidun lääkepitoisuuskäyrän ja lääkäriraportin kanssa. Annosten kirjaus ja muistutukset ovat pysyvästi ilmaisia."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Säilyttääkö Dozify ruokakuvani?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ei. Kuva lähetetään Dozifyn palvelimen kautta Google Gemini -palveluun analysoitavaksi, eikä sovellus tallenna sitä. Sinulta kysytään suostumus ennen ensimmäistä käyttöä."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Millä kielellä se vastaa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sillä, joka sovelluksessasi on valittuna. Dozify on saatavilla 22 kielellä, ja ruoat nimetään sillä kielellä, joten lautasesi ruokaa kutsutaan sillä nimellä, jota itsekin käyttäisit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Toimiiko se offline-tilassa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kuva-analyysi vaatii internetyhteyden. Muu Dozify, mukaan lukien annosten kirjaus ja muistutukset, toimii offline-tilassa."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kertooko se, kuinka paljon minun pitäisi syödä?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ei. Se kirjaa, mitä söit. Kalori- ja proteiinitavoitteista sovit itse hoitavan lääkärisi kanssa; sovelluksen opas kertoo, mistä yleiset proteiinisuositukset ovat peräisin ja milloin ne eivät päde."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/fi/ai-calorie-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Etusivu",
+            "item": "https://dozify.app/fi"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Tekoälyn ateriakuva",
+            "item": "https://dozify.app/fi/ai-calorie-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/fi" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Ominaisuudet</a>
+        
+        <a href="/#privacy">Tietosuoja</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/fi">Etusivu</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Tekoälyn ateriakuva</span>
+      
+    </div>
+    <h1>Tekoälyä hyödyntävä kalori- ja proteiinilaskuri GLP-1-hoidon arkeen</h1>
+    
+    <p class="meta">Ota kuva ateriasta, niin Dozify laatii jokaiselle ruoalle kalori- ja proteiiniarvion omalla kielelläsi. Sinä tarkistat, korjaat ja tallennat sen suoraan annostesi ja painosi viereen.</p>
+    
+
+    <h2>Pienemmät lautaset, eri kysymys</h2>
+    <p>GLP-1-lääkettä käyttäessään moni huomaa yksinkertaisesti syövänsä vähemmän. Kun annokset pienenevät, kysymys siirtyy siitä, kuinka paljon lautasella on, siihen, mitä siinä on, ja proteiini on luku, joka nousee hoidosta puhuttaessa esiin yhä uudelleen. Jokaisen aterian punnitseminen ja näppäileminen on tapa, joka kestää noin viikon. Kuvan ottaminen vie muutaman sekunnin, ja juuri siksi tämä ominaisuus on olemassa.</p>
+
+    
+    
+
+    <h2>Näin se toimii</h2>
+    <h3>Ota tai valitse kuva</h3>
+    <p>Ota kuva lautasesta tai valitse kuva kuvakirjastostasi. Ensimmäisellä kerralla Dozify kertoo, minne kuva menee, ja pyytää suostumuksesi ennen kuin mitään lähetetään.</p>
+    <h3>Kalorit ja proteiini ruoka kerrallaan</h3>
+    <p>Tekoäly luettelee, mitä se näkee lautasella, ja antaa jokaiselle ruoalle arvioidun kalori- ja proteiinimäärän sillä kielellä, joka sovelluksessasi on valittuna. Dozify on saatavilla 22 kielellä.</p>
+    <h3>Luonnos, ei koskaan tuomio</h3>
+    <p>Jokainen tulos tulee muokattavana luonnoksena, jossa on sama rivi: ”Tämä on arvio — tarkista ennen tallentamista.” Muuta annoskokoa, lisää kastike, jonka se jätti huomaamatta, poista se, mitä lautasella ei koskaan ollutkaan. Mitään ei tallenneta lokiisi ennen kuin napautat Tallenna.</p>
+    <h3>Hoitosi rinnalla, ei toisessa sovelluksessa</h3>
+    <p>Tallennetut ateriat päätyvät samaan ruoka- ja vesilokiin kuin muu päiväsi, juoksevan proteiinisumman kanssa, sovelluksessa, jossa annoksesi ja painosi jo ovat. Yksi paikka katsoa kolmen sijaan.</p>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Dozify lukee ateriakuvaa: tekoälyskannaus käynnissä salaatin päällä"></div></figure>
+      
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Tekoälyn tulos, jossa jokainen lautaselta löytynyt ruoka on lueteltu kaloreineen ja proteiineineen valmiina muokattavaksi"></div></figure>
+      
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Tekoälyn kuvapohjainen arvio täytettynä ravintolomakkeeseen muokattavana luonnoksena: kalorit, proteiini ja huomautus epävarmuudesta"></div></figure>
+      
+    </div>
+
+    <h2>Mitä sovellus sanoo proteiinista</h2>
+    <p>Dozifyn sovelluksen sisäinen ravinto-opas mainitsee vaihteluvälin 1,2–1,6 g proteiinia painokiloa kohden ja kertoo suoraan, mistä väli on peräisin: painonpudotuksen ravitsemusohjeista, ei lääkkeen valmisteyhteenvedosta. Jos sinulla on munuaissairaus, proteiinitavoitteesi asettaa lääkärisi, ja se voi olla pienempi. Opas ehdottaa myös proteiinin jakamista kolmelle tai neljälle aterialle sen sijaan, että se syötäisiin kerralla, ja mainitsee lihasvoimaharjoittelun kahdesti tai kolmesti viikossa tapana, joka johdonmukaisesti suojaa lihasmassaa. Dozify ei määrää ruokavaliota; sinua koskevat luvut tulevat hoitavalta lääkäriltäsi tai ravitsemusterapeutiltasi.</p>
+
+    
+    
+
+    <h2>Missä raja menee</h2>
+    <p>Se on kuvasta tehty arvio. Kuva ei näe pannulla olevaa öljyä, kastikkeen sokeria tai sitä, mitä riisin alla piilee, ja annoskoko on vaikeinta arvioida ylhäältä päin. Pidä lukuja lähtökohtana, jota korjaat, älä mittauksena. Analyysi vaatii internetyhteyden, käyttäjäkohtainen päiväraja on olemassa, ja ominaisuus kuuluu Premiumiin. Voit aina syöttää aterian myös käsin.</p>
+
+    
+    
+
+    <h2>Minne kuva menee</h2>
+    <p>Toisin kuin muut tietosi, tämä ominaisuus lähettää jotain puhelimestasi, joten on syytä olla tarkka. Valitsemasi kuva kulkee salattua yhteyttä pitkin Dozifyn oman palvelimen kautta Google Gemini -palveluun, ja arvio palaa puhelimeesi. Dozify ei tallenna kuvaa. Annoksesi, painosi, oireesi ja muut terveystietosi pysyvät laitteella kuten aina, ja jos et koskaan käytä ominaisuutta, yksikään kuva ei lähde puhelimesta. Kaikki yksityiskohdat ovat <a href="/fi/privacy">tietosuojaselosteen</a> kohdassa 5, ja laajempi kuva on <a href="/fi/private-glp1-tracker">yksityisen seurannan sivulla</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-ai-calorie-tracker-fi&mt=8" class="btn btn-primary">Lataa App Storesta</a></p>
+
+
+    <h2>Kysymykset</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Kuinka tarkka kuvasta laskettu kalorimäärä on?</h3>
+        
+        <p>Se on arvio, ja sovellus merkitsee sen arvioksi. Annoskokoa, ruoanlaittorasvaa ja piilossa olevia ainesosia on vaikea päätellä kuvasta. Siksi tulos on luonnos, jota muokkaat ennen tallentamista, eikä luku, joka kirjoitetaan suoraan lokiisi.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Onko tekoälyn ateriakuva ilmainen?</h3>
+        
+        <p>Ei, se kuuluu Premiumiin yhdessä arvioidun <a href="/fi/glp1-medication-level">lääkepitoisuuskäyrän</a> ja lääkäriraportin kanssa. Annosten kirjaus ja muistutukset ovat pysyvästi ilmaisia.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Säilyttääkö Dozify ruokakuvani?</h3>
+        
+        <p>Ei. Kuva lähetetään Dozifyn palvelimen kautta Google Gemini -palveluun analysoitavaksi, eikä sovellus tallenna sitä. Sinulta kysytään suostumus ennen ensimmäistä käyttöä.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Millä kielellä se vastaa?</h3>
+        
+        <p>Sillä, joka sovelluksessasi on valittuna. Dozify on saatavilla 22 kielellä, ja ruoat nimetään sillä kielellä, joten lautasesi ruokaa kutsutaan sillä nimellä, jota itsekin käyttäisit.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Toimiiko se offline-tilassa?</h3>
+        
+        <p>Kuva-analyysi vaatii internetyhteyden. Muu Dozify, mukaan lukien annosten kirjaus ja muistutukset, toimii offline-tilassa.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Kertooko se, kuinka paljon minun pitäisi syödä?</h3>
+        
+        <p>Ei. Se kirjaa, mitä söit. Kalori- ja proteiinitavoitteista sovit itse hoitavan lääkärisi kanssa; sovelluksen opas kertoo, mistä yleiset proteiinisuositukset ovat peräisin ja milloin ne eivät päde.</p>
+        
+      </div>
+    </div>
+
+    <h2>Lue seuraavaksi</h2>
+    <p>Oppaat, joiden lähteet on nimetty: <a href="/fi/articles/what-is-glp1">mitä GLP-1 oikeastaan on</a>, <a href="/fi/articles/hydration-on-a-glp1">nesteytys GLP-1-hoidossa</a> ja <a href="/fi/articles/measurements-vs-scale">kun mittanauha liikkuu mutta vaaka ei</a>.</p>
+    <p>Muualla Dozifyssa: <a href="/fi/glp1-weight-tracker">painonseuranta</a>, <a href="/fi/glp1-medication-level">arvioitu lääkepitoisuuskäyrä</a>, <a href="/fi/glp1-pill-tracker">GLP-1-tablettiseuranta</a> ja <a href="/fi/glp1-side-effect-journal">sivuvaikutuspäiväkirja</a>.</p>
+
+    
+    
+    
+
+    <p class="meta">Dozify on seurantatyökalu, ei lääkinnällinen laite. Se ei suosittele annoksia eikä anna lääketieteellisiä neuvoja. Kuvasta lasketut kalori- ja proteiiniluvut ovat arvioita. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® ja Rybelsus® ovat omistajiensa tavaramerkkejä; Google Gemini on Google LLC:n tavaramerkki; Dozify ei ole sidoksissa näihin yrityksiin.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/fi" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Oikeudelliset tiedot</h3>
+          
+          <a href="/fi/privacy">Tietosuojaseloste</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/fi/terms">Käyttöehdot</a>
+          
+          <a href="/fi/editorial-policy">Toimitusperiaatteet</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Seuranta</h3>
+          
+          <a href="/fi/glp1-shot-tracker">GLP-1-pistosseuranta</a>
+          
+          <a href="/fi/injection-site-tracker">Pistoskohtien seuranta</a>
+          
+          <a href="/fi/glp1-weight-tracker">GLP-1-painonseuranta</a>
+          
+          <a href="/fi/glp1-side-effect-journal">Sivuvaikutuspäiväkirja</a>
+          
+          <a href="/fi/glp1-vial-tracker">Injektiopullojen seuranta</a>
+          
+          <a href="/fi/private-glp1-tracker">Yksityinen GLP-1-seuranta</a>
+          
+          <a href="/fi/glp1-appointment-report">Lääkäriraportti</a>
+          
+          <a href="/fi/switch-glp1-tracker-app">Vaihda toisesta sovelluksesta</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Ohjeet</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/ai-calorie-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/fotograftan-kalori-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/ai-calorie-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/ai-calorie-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/ai-calorie-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/ai-calorie-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/ai-calorie-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/ai-calorie-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/ai-calorie-tracker" hreflang="fi" lang="fi" aria-current="page">Suomi</a> · <a href="/fr/ai-calorie-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/ai-calorie-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/ai-calorie-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/ai-calorie-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/ai-calorie-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/ai-calorie-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/ai-calorie-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/ai-calorie-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/ai-calorie-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/ai-calorie-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/ai-calorie-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/ai-calorie-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/ai-calorie-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "title": "Dozifyサポート｜ヘルプ、お問い合わせ、サブスクリプション",
+  "description": "リマインダー、データの取り込み、バックアップ、Premium、サブスクリプションの解約についての回答と、ここで答えが見つからないときの問い合わせ方法をまとめています。"
+ },
+ "t": {
+  "← Back to home": "← ホームに戻る",
+  "We typically reply within 24-48 hours.": "通常24〜48時間以内に返信します。",
+  "Email Support": "メールサポート",
+  "For general questions, bug reports, or feature requests, contact us at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.": "一般的な質問、不具合の報告、機能のリクエストは、<a href=\"mailto:support@dozify.app\">support@dozify.app</a>までご連絡ください。",
+  "Privacy & KVKK": "プライバシーとKVKK",
+  "For data requests, deletion, or KVKK applications, write to <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.": "データの請求、削除、KVKKに関する申請は、<a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>までお送りください。",
+  "Frequently Asked Questions": "よくある質問",
+  "Where is my data stored?": "データはどこに保存されますか？",
+  "All your data (medications, injections, weight, side effects) is stored only on your phone, in an encrypted local database. Nothing is uploaded to any server. Dozify has no cloud.": "すべてのデータ（お薬、注射、体重、副作用）は、お使いのスマートフォンの暗号化されたローカルデータベースにのみ保存されます。どのサーバーにもアップロードされません。Dozifyにはクラウドがありません。",
+  "If I switch phones, will I lose my data?": "スマートフォンを替えると、データは消えますか？",
+  "Not if you back up first. Go to Settings → Backup to create a password-protected, encrypted backup file, then restore it on your new device from the same screen. There's still no cloud sync: the backup file itself is yours to keep (Files, email, AirDrop, etc.).": "先にバックアップをとっておけば消えません。「設定 → バックアップと復元」で、パスワードで保護された暗号化バックアップファイルを作成し、新しいデバイスの同じ画面から復元してください。クラウド同期はやはりありません：バックアップファイル自体はあなたが保管するものです（ファイル、メール、AirDropなど）。",
+  "How do I cancel Premium?": "Premiumを解約するには？",
+  "Manage or cancel your subscription in the App Store (Settings → Apple ID → Subscriptions). Cancelling stops future renewals: you keep Premium until the end of the period you already paid for.": "サブスクリプションの管理や解約は、App Store（設定 → Apple ID → サブスクリプション）から行えます。解約すると以後の自動更新が停止し、支払い済みの期間が終わるまではPremiumを引き続き利用できます。",
+  "Will my Premium work on another device?": "Premiumはほかのデバイスでも使えますか？",
+  "How do I add the Ozempic® / Wegovy® pen form?": "Ozempic® / Wegovy®のペンタイプを追加するには？",
+  "Go to Medications → Add → select Ozempic or Wegovy → choose \"Pre-filled dose pen\" → set your prescribed dose.": "「マイお薬 → 薬を追加 → OzempicまたはWegovyを選択 → 『プレフィルドペン』を選択 → 処方された用量を設定」の順に進みます。",
+  "Why can I pick Mounjaro® as both a pen and a vial?": "Mounjaro®をペンとバイアルの両方から選べるのはなぜですか？",
+  "Mounjaro comes as a pre-filled KwikPen in some markets and as a multi-dose vial in others. Dozify offers both forms so you can pick the one that matches the product you were prescribed.": "Mounjaroは、市場によってプレフィルドのKwikPenとして、また複数回使用のバイアルとして提供されています。Dozifyは両方の形を用意しているので、処方された製品に合ったものを選べます。",
+  "My reminders are not working: what should I do?": "リマインダーが届きません。どうすればいいですか？",
+  "Open your phone Settings → Notifications → Dozify → enable notifications. Also check that \"Do Not Disturb\" or a Focus mode is not silencing Dozify.": "iPhoneの「設定 → 通知 → Dozify」を開き、通知をオンにしてください。また、「おやすみモード」や集中モードがDozifyの通知を消音していないかも確認してください。",
+  "How do I delete all my data?": "すべてのデータを削除するには？",
+  "Settings → Delete My Data → choose to delete selected categories or everything. Uninstalling the app also permanently deletes all local data.": "「設定 → データを削除」から、選んだカテゴリーだけを削除するか、すべてを削除するかを選びます。アプリをアンインストールしても、ローカルのデータはすべて完全に削除されます。",
+  "How do I create a PDF report?": "PDFレポートを作成するには？",
+  "Go to Reports → New Report → choose summary, detailed, or doctor-visit format → select date range → Generate. The PDF can be shared by email, AirDrop, or any other app.": "「レポート → 新しいレポート → 要約・詳細・診察用のいずれかの形式を選択 → 期間を選択 → 作成」の順に進みます。PDFはメール、AirDrop、そのほかのアプリで共有できます。",
+  "Does the app give medical advice?": "アプリは医学的な助言をしますか？",
+  "No. Dozify is a tracking tool only. It does not recommend doses or interpret medical results. Always consult your doctor or pharmacist for clinical decisions.": "いいえ。Dozifyは記録用のツールにすぎません。用量を推奨したり、医学的な結果を解釈したりすることはありません。臨床的な判断については、必ず医師や薬剤師に相談してください。",
+  "Yes. On your new device, open the Premium screen and tap \"Restore purchases\" while signed into the same Apple ID you subscribed with.": "はい。新しいデバイスで、購読したときと同じApple IDでサインインした状態でPremium画面を開き、「購入を復元」をタップしてください。"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "title": "Glapp 대안 — GLP-1 기록을 그대로 가져오세요",
+  "description": "Glapp을 떠나시나요? Dozify가 내보낸 파일을 읽고, 저장 전에 모든 기록을 미리 보여 주며, 인식하지 못한 열도 알려 줘요. 무료이고 업로드는 없어요."
+ },
+ "t": {
+  "Glapp alternative": "Glapp 대안",
+  "Coming from Glapp? Bring the history with you": "Glapp에서 옮겨 오시나요? 기록을 그대로 가져오세요",
+  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Glapp에서 내보내고 Dozify에서 열면, 어떤 기록이든 저장되기 전에 저장될 모든 기록을 확인할 수 있어요. 무료이고, 파일은 휴대폰 밖으로 나가지 않아요.",
+  "The columns Dozify looks for in a Glapp export": "Dozify가 Glapp 내보내기 파일에서 찾는 열",
+  "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
+  "<code>time</code>": "<code>time</code>",
+  "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
+  "<strong>Site</strong>": "<strong>부위</strong>",
+  "<code>site · body site</code>": "<code>site · body site</code>",
+  "<strong>Medication</strong>": "<strong>약물</strong>",
+  "<code>medication · product</code>": "<code>medication · product</code>",
+  "<code>weight · weight kg · body weight</code>": "<code>weight · weight kg · body weight</code>",
+  "<strong>Side effect</strong>": "<strong>부작용</strong>",
+  "<code>symptom · side effect · side-effect</code>": "<code>symptom · side effect · side-effect</code>",
+  "<strong>Severity</strong>": "<strong>심한 정도</strong>",
+  "<code>severity · intensity</code>": "<code>severity · intensity</code>",
+  "<code>notes · note</code>": "<code>notes · note</code>",
+  "If your dose column is headed “units”": "용량 열 이름이 “units”라면",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "해당 행은 환산하지 않고 목록으로 보여 드려요. 유닛은 주사기의 부피이고, 거기에 몇 밀리그램이 들어 있는지는 바이알의 농도에 달려 있어요 — 파일에는 없는 숫자예요. 밀리그램 칸에 그대로 적으면 이후 어디에서도 의심하지 않은 채 잘못된 용량이 기록되니, Dozify는 해당 행을 보여 주고 처방의가 쓰는 양을 직접 입력하게 해요. <a href=\"/en/articles/units-vs-milligrams\">단일 환산법이 없는 이유 →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify는 기록 도구이며 의료기기가 아니에요. 용량을 권장하지 않으며 의학적 조언을 제공하지 않아요. Glapp은 해당 소유자의 상표이며, 여기서는 Dozify가 읽을 수 있는 파일 형식을 설명하기 위해서만 언급해요. Dozify는 Glapp과 관련이 없으며 이 페이지는 Glapp의 보증을 받지 않았어요. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza®, Rybelsus®는 각 소유자의 상표이며, Dozify는 이들 회사와 관련이 없어요.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">App Store에서 다운로드</a>"
+ }
+}

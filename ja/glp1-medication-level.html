@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1の血中濃度グラフ｜記録した用量から推定</title>
+  <meta property="og:url" content="https://dozify.app/ja/glp1-medication-level">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="記録した用量をもとに、注射と注射の間にGLP-1がどう蓄積して減っていくかを推定カーブで表示し、体重と並べて確認できます。検査ではなく推定値です。">
+  <meta property="og:title" content="GLP-1の血中濃度グラフ｜記録した用量から推定">
+  <meta property="og:description" content="記録した用量をもとに、注射と注射の間にGLP-1がどう蓄積して減っていくかを推定カーブで表示し、体重と並べて確認できます。検査ではなく推定値です。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — iPhone向けのプライベートなGLP-1注射・体重記録アプリ">
+  <meta name="twitter:title" content="GLP-1の血中濃度グラフ｜記録した用量から推定">
+  <meta name="twitter:description" content="記録した用量をもとに、注射と注射の間にGLP-1がどう蓄積して減っていくかを推定カーブで表示し、体重と並べて確認できます。検査ではなく推定値です。">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — iPhone向けのプライベートなGLP-1注射・体重記録アプリ">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="ja_JP">
+
+  <link rel="canonical" href="https://dozify.app/ja/glp1-medication-level">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-medication-level">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/ilac-seviyesi-egrisi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glp1-medication-level">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glp1-medication-level">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glp1-medication-level">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glp1-medication-level">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glp1-medication-level">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glp1-medication-level">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glp1-medication-level">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glp1-medication-level">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glp1-medication-level">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glp1-medication-level">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glp1-medication-level">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glp1-medication-level">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glp1-medication-level">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glp1-medication-level">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glp1-medication-level">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glp1-medication-level">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glp1-medication-level">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glp1-medication-level">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glp1-medication-level">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glp1-medication-level">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-medication-level">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/ja",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "ja"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/ja",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "GLP-1の注射と毎日の錠剤を記録し、注射部位のローテーション、体重・副作用・フードノイズを管理。食事を撮影するとAIがカロリーとたんぱく質を推定します。iPhone対応。",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "ja"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/ja/glp1-medication-level#webpage",
+        "url": "https://dozify.app/ja/glp1-medication-level",
+        "name": "GLP-1の血中濃度グラフ｜記録した用量から推定",
+        "description": "記録した用量をもとに、注射と注射の間にGLP-1がどう蓄積して減っていくかを推定カーブで表示し、体重と並べて確認できます。検査ではなく推定値です。",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "ja",
+        "breadcrumb": {
+          "@id": "https://dozify.app/ja/glp1-medication-level#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "これは実際のお薬の濃度ですか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "いいえ。記録した用量から薬物動態モデルで算出した平均的な推定値です。血中濃度を測定するものではなく、アプリの画面にもそう表示しています。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "セマグルチドはどのくらい体内にとどまりますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "お薬ごとの数値は添付文書に記載されており、それがあなたにとって何を意味するかは薬剤師や処方医が説明してくれます。Dozifyが加えるのは、あなた自身が記録した用量全体でのその形です：推定値がいつ上がり、どう下がり、ある週と次の週がどう重なるか。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "錠剤のカーブがないのはなぜですか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "アプリには飲み薬のプロファイルがないため、飲み薬だけを使っている場合は、責任を持てない数字を出すのではなく、カーブを表示しません。錠剤の服用は、これまでどおり記録とリマインダーの対象です。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "濃度グラフは無料ですか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Premiumの機能で、 AI食事写真 や医師向けレポートと同じです。用量の記録とリマインダーはずっと無料です。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "カーブを見て次の投与のタイミングを決めてもいいですか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "いいえ。スケジュールと用量は処方医が決めるものです。カーブは、あなたが自分の1週間を理解し、説明するためのもので、投与のタイミングや用量を決めたり変えたりするためのものではありません。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "用量を記録し忘れたら？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "実際に注射した日付と時刻で追加してください。カーブは記録から作られるので、入力されるまではその用量を把握できません。"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/ja/glp1-medication-level#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "ホーム",
+            "item": "https://dozify.app/ja"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "お薬の濃度",
+            "item": "https://dozify.app/ja/glp1-medication-level"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/ja" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">機能</a>
+        
+        <a href="/#privacy">プライバシー</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/ja">ホーム</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>お薬の濃度</span>
+      
+    </div>
+    <h1>あなた自身の用量から描くGLP-1濃度グラフ</h1>
+    
+    <p class="meta">スマートフォンで体内のお薬の量を測ることはできません。Dozifyにできるのは、記録した注射からその推移の形を推定し、それが推定であることを画面にはっきり示すことです。</p>
+    
+
+    <h2>グラフの背景にある疑問</h2>
+    <p>週1回の注射を使っている方は、よく同じことを考えます：先週の用量はまだどのくらい効いているのか、それで今日の調子は説明できるのか。用量の記録は「いつ」には答えてくれます。でも、ある投与と次の投与の間に何が起きているかは示してくれません。疑問の多くは、その間にあります。</p>
+
+    
+    
+
+    <h2>カーブとは</h2>
+    <p>注射のたびに推定濃度は上がり、その後お薬の半減期に従って時間とともに下がっていきます。Dozifyは、記録した用量（日付、量、お薬）から、注射剤の成分ごとの薬物動態プロファイル（たとえばOzempic®やWegovy®のセマグルチド、Mounjaro®やZepbound®のチルゼパチド）を使ってこれを描きます。基準線はその用量の一般的なピークを示すので、今日の推定値がそれに対してどの位置にあるかがわかります。定期的に注射していると、上昇と下降は一定のリズムに落ち着きます。アプリではこれを定常状態と呼んでいます。</p>
+    <p>画面にははっきりこう書かれています：「これは薬物動態モデルによる平均的な推定であり、実際の濃度を測ったものではありません。」血液検査ではなく、あなたの記録にないことは何も知りません。</p>
+
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/level-curve.webp" srcset="/screenshots/en/level-curve-400w.webp 400w, /screenshots/en/level-curve.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="記録した注射から描いた体重の推移と推定濃度カーブ"></div></figure>
+      
+    </div>
+
+    <h2>体重と用量をひとつのグラフに</h2>
+    <p>カーブは、用量や<a href="/ja/glp1-weight-tracker">体重の推移</a>と同じタイムライン上に表示されます。用量の変更、打たなかった週、体重計の数字が長く横ばいの時期が、手作業で並べる必要のある別のアプリではなく、そのときお薬がどう働いていたと推定されるかの隣に、文脈ごと表示されます。</p>
+
+    
+    
+
+    <h2>1週間の空腹感とフードノイズ</h2>
+    <p>週のうちにお腹がすく日とそうでない日があるなら、カーブは比べる具体的な手がかりになります。Dozifyではチェックインでフードノイズ（アプリ内の表示は「食べ物のことが頭から離れない」）を評価でき、その評価を推定と同じアプリに時系列で残せます。同じ週について両方を見比べて、フードノイズが多い日が毎週同じあたりに来るかどうかを自分で確かめられます。見つかったことはあなた自身のパターンで、処方医に伝える価値があります。アプリがそれを説明したり、診断したり、それを理由に投与日をずらすよう提案したりすることはありません。</p>
+
+    
+    
+
+    <h2>注射のみ</h2>
+    <p>カーブは注射剤について描かれます。Rybelsus®やWegovy錠など飲み薬だけを使っている場合、Dozifyはカーブを一切表示しません。アプリには経口薬のプロファイルがなく、それを作り出すこともしないからです。間違った数字は空白よりも悪いのです。錠剤もほかと同じように記録、リマインダー、レポートの対象です。くわしくは<a href="/ja/glp1-pill-tracker">GLP-1錠剤トラッカーのページ</a>をご覧ください。</p>
+
+    
+    
+
+    <h2>できないこと</h2>
+    <p>推定値はモデルとあなたの記録から作った平均なので、正確さは入力の完全さ次第です。記録しなかった用量は、カーブにとって存在しない用量です。あなたの体がお薬をどう処理するかは考慮されず、表示される濃度は目標値ではありません。特定のお薬が体内にどのくらいとどまるかは添付文書に記載されており、薬剤師が説明してくれます。Dozifyは用量、投与日、またはそのいずれかの変更を推奨しません。カーブはPremiumの機能です。用量の記録とリマインダーはずっと無料です。</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-medication-level-ja&mt=8" class="btn btn-primary">App Storeからダウンロード</a></p>
+
+
+    <h2>質問</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>これは実際のお薬の濃度ですか？</h3>
+        
+        <p>いいえ。記録した用量から薬物動態モデルで算出した平均的な推定値です。血中濃度を測定するものではなく、アプリの画面にもそう表示しています。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>セマグルチドはどのくらい体内にとどまりますか？</h3>
+        
+        <p>お薬ごとの数値は添付文書に記載されており、それがあなたにとって何を意味するかは薬剤師や処方医が説明してくれます。Dozifyが加えるのは、あなた自身が記録した用量全体でのその形です：推定値がいつ上がり、どう下がり、ある週と次の週がどう重なるか。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>錠剤のカーブがないのはなぜですか？</h3>
+        
+        <p>アプリには飲み薬のプロファイルがないため、飲み薬だけを使っている場合は、責任を持てない数字を出すのではなく、カーブを表示しません。錠剤の服用は、これまでどおり記録とリマインダーの対象です。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>濃度グラフは無料ですか？</h3>
+        
+        <p>Premiumの機能で、<a href="/ja/ai-calorie-tracker">AI食事写真</a>や医師向けレポートと同じです。用量の記録とリマインダーはずっと無料です。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>カーブを見て次の投与のタイミングを決めてもいいですか？</h3>
+        
+        <p>いいえ。スケジュールと用量は処方医が決めるものです。カーブは、あなたが自分の1週間を理解し、説明するためのもので、投与のタイミングや用量を決めたり変えたりするためのものではありません。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>用量を記録し忘れたら？</h3>
+        
+        <p>実際に注射した日付と時刻で追加してください。カーブは記録から作られるので、入力されるまではその用量を把握できません。</p>
+        
+      </div>
+    </div>
+
+    <h2>次に読む</h2>
+    <p>出典を明記したガイド：<a href="/ja/articles/what-is-glp1">GLP-1とは何か</a>、<a href="/ja/articles/missed-glp1-dose">打ち忘れについて添付文書に書かれていること</a>、<a href="/ja/articles/reading-a-weight-trend">体重が停滞したときの推移の読み方</a>。</p>
+    <p>Dozifyのそのほかの機能：<a href="/ja/glp1-shot-tracker">注射トラッカー</a>、<a href="/ja/glp1-side-effect-journal">副作用日記</a>、<a href="/ja/glp1-pill-tracker">GLP-1錠剤トラッカー</a>、<a href="/ja/ai-calorie-tracker">写真からのAIカロリーとたんぱく質</a>、<a href="/ja/private-glp1-tracker">記録がスマートフォンに保存される理由</a>。</p>
+
+    
+    
+    
+
+    <p class="meta">Dozifyは記録用のツールであり、医療機器ではありません。用量を推奨することはなく、医学的な助言も行いません。濃度カーブは推定値であり、測定値ではありません。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza®、Rybelsus®は各所有者の商標です。Dozifyはこれらの企業と提携していません。</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/ja" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>法的情報</h3>
+          
+          <a href="/ja/privacy">プライバシーポリシー</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/ja/terms">利用規約</a>
+          
+          <a href="/ja/editorial-policy">編集方針</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>記録</h3>
+          
+          <a href="/ja/glp1-shot-tracker">GLP-1注射トラッカー</a>
+          
+          <a href="/ja/injection-site-tracker">注射部位トラッカー</a>
+          
+          <a href="/ja/glp1-weight-tracker">GLP-1体重トラッカー</a>
+          
+          <a href="/ja/glp1-side-effect-journal">副作用日記</a>
+          
+          <a href="/ja/glp1-vial-tracker">バイアルトラッカー</a>
+          
+          <a href="/ja/private-glp1-tracker">プライベートなGLP-1トラッカー</a>
+          
+          <a href="/ja/glp1-appointment-report">医師向けレポート</a>
+          
+          <a href="/ja/switch-glp1-tracker-app">ほかのアプリから乗り換える</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>ヘルプ</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glp1-medication-level" hreflang="en" lang="en">English</a> · <a href="/tr/ilac-seviyesi-egrisi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glp1-medication-level" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glp1-medication-level" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/glp1-medication-level" hreflang="da" lang="da">Dansk</a> · <a href="/de/glp1-medication-level" hreflang="de" lang="de">Deutsch</a> · <a href="/el/glp1-medication-level" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/glp1-medication-level" hreflang="es" lang="es">Español</a> · <a href="/fi/glp1-medication-level" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/glp1-medication-level" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glp1-medication-level" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glp1-medication-level" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glp1-medication-level" hreflang="ja" lang="ja" aria-current="page">日本語</a> · <a href="/ko/glp1-medication-level" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/glp1-medication-level" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/glp1-medication-level" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glp1-medication-level" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glp1-medication-level" hreflang="pt" lang="pt">Português</a> · <a href="/ru/glp1-medication-level" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glp1-medication-level" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/glp1-medication-level" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glp1-medication-level" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

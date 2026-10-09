@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1注射の記録アプリ｜注射日を忘れない",
+  "description": "週1回の注射には、週1回のリマインダーを。Dozifyは次回の投与を最初の画面に表示し、毎回の注射を記録して、いつでも振り返れる履歴を残します。"
+ },
+ "t": {
+  "Shot tracker": "注射トラッカー",
+  "Never wonder which day your shot is": "注射が何曜日だったか、もう迷わない",
+  "A weekly medication asks you to remember which day of the week it is. Dozify remembers instead.": "週1回のお薬は、今日が何曜日かを覚えておくことを求めます。代わりにDozifyが覚えておきます。",
+  "Weekly injections are easy to get wrong in ordinary ways. A busy Thursday, a trip, a week where two things move, and now you are counting backwards from a half-remembered date, unsure whether you took it.": "週1回の注射は、ごく日常的なことでうっかり間違えがちです。忙しい木曜日、旅行、2つの予定が動いた週。そしてうろ覚えの日付から逆算して、打ったかどうか確信が持てなくなります。",
+  "The next shot, on the first screen": "次の注射を、最初の画面に",
+  "Opening the app answers the question: which medication, which day, how many days away.": "アプリを開けば答えがわかります：どのお薬を、何曜日に、あと何日か。",
+  "A reminder that matches your schedule": "スケジュールに合ったリマインダー",
+  "Weekly, daily, every few days, or specific dates: set once, at the time you actually inject.": "週1回、毎日、数日おき、特定の日付：実際に注射する時刻で、一度設定するだけ。",
+  "A log you can look back through": "振り返ることのできる記録",
+  "Every dose with its date, its amount and the site you used. Nothing to reconstruct later.": "すべての投与を日付、量、使った部位とともに。後から組み立て直す必要はありません。",
+  "Anyone whose week is not identical to the last one. A weekly medication assumes a fixed Thursday; travel, a shift pattern, a hospital appointment or a single late night all move it. It is also for the person who has stood in the kitchen trying to work out whether Tuesday was this week or last: the log answers that in one look rather than by reconstruction.": "先週とまったく同じ週を過ごすわけではないすべての方へ。週1回のお薬は決まった木曜日を前提にしていますが、旅行、シフト勤務、通院の予定、1回の夜更かしでもそれは動きます。台所に立って、火曜日が今週だったか先週だったかを考え込んだことのある方のためでもあります。記録なら、組み立て直さなくてもひと目で答えがわかります。",
+  "Dozify does not decide your schedule, your dose or what to do about a dose you missed, those are your prescriber's, and the app records the plan rather than proposing one. A reminder is an iOS notification: if notifications are off for Dozify, or the phone is in a focus mode that silences them, it will not appear. And a log is a record of what you entered, not proof of what went into your body.": "Dozifyはスケジュール、用量、打ち忘れたときの対応を決めません。それは処方医が決めることで、アプリは計画を記録するだけで提案はしません。リマインダーはiOSの通知です。Dozifyの通知がオフになっていたり、通知を消音する集中モードになっていたりすると表示されません。また、記録はあなたが入力したことの記録であって、実際に体に入ったものの証明ではありません。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-shot-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-shot-tracker-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>",
+  "Can I set the reminder for a different day than the one I started on?": "始めた曜日とは別の曜日にリマインダーを設定できますか？",
+  "Yes. The schedule is yours to set and change: weekly on any day, daily, every few days, or specific dates. Changing it does not rewrite the doses you have already logged.": "はい。スケジュールはあなたが設定し、変更できます：任意の曜日の週1回、毎日、数日おき、特定の日付。変更しても、すでに記録した投与が書き換えられることはありません。",
+  "What if I inject a day late?": "1日遅れて注射したら？",
+  "Log it on the day it happened; the entry takes the date and time you give it. Dozify shows the interval that actually occurred rather than assuming the planned one. What to do about a late or missed dose is a question for your prescriber, and the app does not answer it.": "実際に打った日に記録してください。記録には入力した日付と時刻が入ります。Dozifyは予定の間隔を前提にするのではなく、実際の間隔を表示します。遅れた投与や打ち忘れへの対応は処方医に聞くことで、アプリはそれに答えません。",
+  "Do reminders work if the phone is offline?": "スマートフォンがオフラインでもリマインダーは届きますか？",
+  "Yes. They are scheduled on the device, so no connection is needed for one to arrive. They do need notification permission for Dozify to be on.": "はい。デバイス上でスケジュールされるので、届くのに接続は必要ありません。ただし、Dozifyの通知の許可はオンにしておく必要があります。",
+  "Can I track more than one medication?": "複数のお薬を記録できますか？",
+  "Yes, as many as you need, each with its own schedule and dose. Every logged injection belongs to one of them.": "はい、必要なだけ、それぞれ独自のスケジュールと用量で。記録した注射は、どれもそのいずれかに属します。",
+  "Does the app tell me my next dose amount?": "次回の用量をアプリが教えてくれますか？",
+  "No. It shows the dose you entered for that medication and when it is next due. If your doctor changes the amount, you change it in the app. Dozify never proposes a titration.": "いいえ。そのお薬について入力した用量と、次の予定日を表示するだけです。医師が量を変えたら、アプリで変更してください。Dozifyが増量を提案することはありません。",
+  "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/missed-glp1-dose\">what the leaflet says about a late dose</a> and <a href=\"/en/articles/glp1-reminders-that-work\">moving your shot day</a>.": "出典を明記したガイド：<a href=\"/en/articles/how-to-inject-glp1\">ペンの注射のしかた（ステップごと）</a>、<a href=\"/en/articles/glp1-injection-sites\">どこに注射し、どうローテーションするか</a>、<a href=\"/en/articles/what-is-glp1\">GLP-1とは何か</a>、<a href=\"/en/articles/missed-glp1-dose\">投与が遅れたときに添付文書に書かれていること</a>、<a href=\"/en/articles/glp1-reminders-that-work\">注射日の変更</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/injection-site-tracker\">site rotation</a>, <a href=\"/en/glp1-vial-tracker\">vial tracking</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Dozifyのそのほかの機能：<a href=\"/en/injection-site-tracker\">部位のローテーション</a>、<a href=\"/en/glp1-vial-tracker\">バイアルの記録</a>、<a href=\"/en/glp1-appointment-report\">医師向けレポート</a>。"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "GLP-1 साइड इफ़ेक्ट डायरी — देखें ये कब होते हैं",
+  "description": "डॉक्टर से \"मुझे मतली हुई\" कहना और \"डोज़ के 15 घंटे बाद\" कहना एक जैसा नहीं है। लक्षण गंभीरता के साथ दर्ज करें और उन्हें अपने इंजेक्शनों के सामने देखें।"
+ },
+ "t": {
+  "See when your symptoms actually happened": "देखें कि आपके लक्षण असल में कब हुए",
+  "Telling your doctor \"I had nausea\" and telling them \"about fifteen hours after each dose\" are not the same sentence.": "डॉक्टर से \"मुझे मतली हुई\" कहना और \"हर डोज़ के लगभग पंद्रह घंटे बाद\" कहना एक जैसा वाक्य नहीं है।",
+  "Side effects are remembered as a general impression and reported as one. The detail that would be useful (when, how strong, how often, relative to what) is exactly the part that fades first.": "साइड इफ़ेक्ट एक आम धारणा के रूप में याद रहते हैं और वैसे ही बताए जाते हैं। जो विवरण काम का होता (कब, कितना तेज़, कितनी बार, किसके मुकाबले) ठीक वही हिस्सा सबसे पहले धुंधला होता है।",
+  "Three taps, at the time": "तीन टैप, उसी समय",
+  "Eleven symptom types with a severity scale. Logged when it happens, not reconstructed at the appointment.": "गंभीरता स्केल के साथ ग्यारह तरह के लक्षण। जब होता है तब दर्ज, अपॉइंटमेंट पर दोबारा बनाया हुआ नहीं।",
+  "Timing you can read off": "समय जिसे आप पढ़ सकें",
+  "How your own entries have sat relative to a dose. Looking backwards at what happened, not forwards at what might.": "आपकी अपनी एंट्री किसी डोज़ के मुकाबले कब रहीं। जो हुआ उसे पीछे देखना, जो हो सकता है उसे आगे नहीं।",
+  "Optional journal fields": "वैकल्पिक डायरी फ़ील्ड",
+  "Appetite, food noise, cravings, how meals are sitting: only if you chose to track them.": "भूख, फ़ूड नॉइज़ (app में \"खाने के ख़याल\"), क्रेविंग, खाना कैसा बैठ रहा है: सिर्फ़ तब जब आपने इन्हें ट्रैक करना चुना हो।",
+  "People in the first weeks, and people who have just moved up a dose, the two points where symptoms are most worth writing down. It is also for anyone whose doctor has asked a question the memory cannot answer: how often, how bad, and how long after the injection.": "शुरुआती हफ़्तों वाले लोग, और वे लोग जिनका डोज़ अभी बढ़ा है, ये दो बिंदु हैं जहाँ लक्षण लिखना सबसे ज़्यादा फ़ायदेमंद है। यह हर उस व्यक्ति के लिए भी है जिसके डॉक्टर ने ऐसा सवाल पूछा जिसका जवाब याददाश्त नहीं दे सकती: कितनी बार, कितना बुरा, और इंजेक्शन के कितनी देर बाद।",
+  "A journal is a record, not an assessment. Dozify cannot tell you whether a symptom comes from the medication, from something you ate or from something else entirely, and it does not triage. Severe or sudden symptoms (persistent vomiting, severe abdominal pain, signs of an allergic reaction) are a reason to contact a clinician or emergency services now, not to open an app.": "डायरी एक रिकॉर्ड है, आकलन नहीं। Dozify नहीं बता सकता कि कोई लक्षण दवा से है, आपके खाए किसी चीज़ से या पूरी तरह किसी और वजह से, और यह ट्रायज नहीं करता। गंभीर या अचानक लक्षण (लगातार उल्टी, पेट में तेज़ दर्द, एलर्जिक रिएक्शन के संकेत) अभी किसी डॉक्टर या इमरजेंसी सेवाओं से संपर्क करने की वजह हैं, app खोलने की नहीं।",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">App Store से डाउनलोड करें</a>",
+  "Which symptoms can I log?": "मैं कौन-से लक्षण दर्ज कर सकता/सकती हूँ?",
+  "Eleven of the common ones, nausea, vomiting, constipation, diarrhoea, reflux, fatigue, headache, dizziness, injection-site reaction, appetite change and stomach pain: each with a severity you choose. Anything else goes in the note.": "आम लक्षणों में से ग्यारह: मतली, उल्टी, कब्ज़, दस्त, एसिडिटी, थकान, सिरदर्द, चक्कर, इंजेक्शन की जगह पर रिएक्शन, भूख में बदलाव और पेट दर्द: हर एक आपकी चुनी गंभीरता के साथ। बाकी सब नोट में जाता है।",
+  "Does it tell me whether the medication caused it?": "क्या यह बताता है कि दवा की वजह से हुआ?",
+  "No, and it should not. It shows you when your entries happened relative to your doses; what that means is a conversation with your doctor.": "नहीं, और इसे बताना भी नहीं चाहिए। यह आपको दिखाता है कि आपकी एंट्री आपके डोज़ के मुकाबले कब हुईं; इसका क्या मतलब है, यह आपके डॉक्टर से बातचीत का विषय है।",
+  "What should I do about a severe symptom?": "गंभीर लक्षण के बारे में मुझे क्या करना चाहिए?",
+  "Contact your clinician or emergency services. Logging it afterwards is useful; logging it instead is not.": "अपने डॉक्टर या इमरजेंसी सेवाओं से संपर्क करें। बाद में दर्ज करना काम का है; इसकी बजाय दर्ज करना नहीं।",
+  "Do the entries appear in the doctor report?": "क्या एंट्री डॉक्टर रिपोर्ट में दिखती हैं?",
+  "Yes, if you include that section: with their dates, their severity and where they fell relative to your injections.": "हाँ, अगर आप वह हिस्सा शामिल करते हैं: उनकी तारीखों, उनकी गंभीरता और आपके इंजेक्शनों के मुकाबले वे कब आईं, इसके साथ।",
+  "Can I log things that are not symptoms?": "क्या मैं ऐसी चीज़ें दर्ज कर सकता/सकती हूँ जो लक्षण नहीं हैं?",
+  "Yes. Appetite, food noise, cravings and how meals are sitting are optional fields, for the people who find them worth watching.": "हाँ। भूख, फ़ूड नॉइज़, क्रेविंग और खाना कैसा बैठ रहा है, ये वैकल्पिक फ़ील्ड हैं, उन लोगों के लिए जिन्हें ये देखने लायक लगते हैं।",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/side-effect-diary-that-helps\">what makes a diary useful to a clinician</a> and <a href=\"/en/articles/hydration-on-a-glp1\">what the label warns about fluids</a>.": "स्रोतों के नाम के साथ गाइड: <a href=\"/en/articles/glp1-side-effects\">आम साइड इफ़ेक्ट संभालना</a>, <a href=\"/en/articles/what-is-glp1\">GLP-1 असल में क्या है</a>, <a href=\"/en/articles/glp1-injection-sites\">इंजेक्शन कहाँ लगाएँ और जगह कैसे बदलें</a>, <a href=\"/en/articles/side-effect-diary-that-helps\">कोई डायरी डॉक्टर के काम की कैसे बनती है</a> और <a href=\"/en/articles/hydration-on-a-glp1\">लेबल तरल पदार्थों के बारे में क्या चेतावनी देता है</a>।",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Dozify में और भी: <a href=\"/en/glp1-appointment-report\">डॉक्टर रिपोर्ट</a> और <a href=\"/en/glp1-shot-tracker\">शॉट ट्रैकर</a>।"
+ }
+}

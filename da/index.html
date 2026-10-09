@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1-tracker til injektioner, piller, vægt og AI-kalorier</title>
+  <meta name="description" content="Registrér GLP-1-injektioner og daglige piller, skift injektionssted, følg vægt, bivirkninger og madstøj, og tag billeder af måltider for AI-kalorier. iPhone.">
+  <meta name="theme-color" content="#0D9488">
+
+  <meta property="og:title" content="GLP-1-tracker til injektioner, piller, vægt og AI-kalorier">
+  <meta property="og:description" content="Registrér GLP-1-injektioner og daglige piller, skift injektionssted, følg vægt, bivirkninger og madstøj, og tag billeder af måltider for AI-kalorier. iPhone.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dozify.app/da">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:alt" content="Dozify – en privat GLP-1-tracker til injektioner og vægt på iPhone">
+  <meta name="twitter:title" content="GLP-1-tracker til injektioner, piller, vægt og AI-kalorier">
+  <meta name="twitter:description" content="Registrér GLP-1-injektioner og daglige piller, skift injektionssted, følg vægt, bivirkninger og madstøj, og tag billeder af måltider for AI-kalorier. iPhone.">
+  <meta name="twitter:image:alt" content="Dozify – en privat GLP-1-tracker til injektioner og vægt på iPhone">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="da_DK">
+
+  <link rel="canonical" href="https://dozify.app/da">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/da",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "da"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/da",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Registrér GLP-1-injektioner og daglige piller, skift injektionssted, følg vægt, bivirkninger og madstøj, og tag billeder af måltider for AI-kalorier. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "da"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/da#webpage",
+        "url": "https://dozify.app/da",
+        "name": "GLP-1-tracker til injektioner, piller, vægt og AI-kalorier",
+        "description": "Registrér GLP-1-injektioner og daglige piller, skift injektionssted, følg vægt, bivirkninger og madstøj, og tag billeder af måltider for AI-kalorier. iPhone.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "da",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Er Dozify gratis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Dosisregistrering, dosispåmindelser, rotation af injektionssted, registrering af vægt, vand og bivirkninger, hele din historik og dine billeder samt vidensartiklerne er gratis – dosisregistrering forbliver gratis for altid, ikke kun i en prøveperiode. Premium er forståelseslaget: den estimerede kurve over lægemiddelniveau, avancerede grafer og tendenser, vægtprognose, kropssammensætning, ernæring med AI-estimater af kalorier fra billeder, styring af hætteglas, PDF-rapporter til lægen, temaer og et ekstra aktivt lægemiddel. Detaljer om abonnement og opsigelse står på supportsiden ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Er mine data private?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dine helbredsdata (doser, vægt, bivirkninger, fremskridtsbilleder) gemmes på din enhed og bliver aldrig uploadet. Den eneste undtagelse er et måltidsbillede, du selv vælger at analysere med AI-kalorier: det sendes, når du har sagt ja, via vores server til Google Gemini og gemmes ikke af appen. Der er ingen konto og ingen cloud-synkronisering, og appen viser ingen reklamer. Der indsamles anonym brugsstatistik, så appen kan forbedres, og den indeholder aldrig navnet på et lægemiddel eller et symptom. Dozify måler også, om en installation kom fra en af appens egne App Store- eller Meta-kampagner; den måling kører bag Apples tilladelse til sporing og indeholder aldrig dine helbredsdata. Slet appen, og dine data er væk."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hvilke lægemidler understøtter Dozify?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dozify hjælper dig med at registrere populære GLP-1-lægemidler, bl.a. Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® og Victoza®, samt daglige tabletter: Wegovy® pille, Ozempic® tablet, Rybelsus® og Foundayo™. Disse varemærker tilhører deres respektive ejere, og Dozify er ikke tilknyttet disse virksomheder."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Virker Dozify uden internet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Dozify er bygget til at virke offline og fungerer fuldt ud uden internetforbindelse. Du behøver aldrig at logge ind eller synkronisere for at bruge den."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan Dozify minde mig om min injektion?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Du kan sætte en ugentlig eller daglig påmindelse, der passer til dit lægemiddels plan, så det er lettere at holde fast i din rutine."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Erstatter Dozify min læge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nej. Dozify er et oplysende registreringsværktøj, ikke medicinsk udstyr, og giver ikke medicinsk rådgivning. Følg altid din læge og din recept – hvad appen nægter at gøre er skrevet helt ud."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan jeg registrere vægt og bivirkninger?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Du kan registrere din vægt, dine kropsmål og en bivirkningsdagbog og se din udvikling i tydelige grafer: inklusive en vægtprognose og et estimat af, hvornår du når dit mål, baseret på dine egne data."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan jeg tage mine data med fra en anden GLP-1-app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, og det er gratis. Eksportér fra den app, du forlader, åbn Indstillinger → Importér din historik i Dozify, og vælg filen. Den læser eksporter fra Shotsy, Glapp, GLPzy og GlucoPal samt enhver CSV-fil med en datokolonne, viser dig, hvad den fandt (hvor mange injektioner, vejninger og noter), før noget bliver gemt, springer registreringer over, du allerede har, og tager først en sikkerhedskopi af dine eksisterende data. Mere på siden om at skifte ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Findes Dozify til Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ikke endnu. Dozify er indtil videre kun til iPhone, i App Store."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/da" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a class="nav-anchor" href="#how">Sådan fungerer det</a>
+        
+        <a class="nav-anchor" href="#features">Funktioner</a>
+        
+        <a class="nav-anchor" href="/#faq">Ofte stillede spørgsmål</a>
+        
+        <a href="/da/articles">Artikler</a>
+        
+        <a href="/da/support">Support</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+        <img class="hero-icon" src="/favicon.svg" width="96" height="96" alt="Dozify" />
+        <span class="pill">Til Ozempic® · Wegovy® pen &amp; pille · Mounjaro® · Zepbound®</span>
+        
+
+        <h1>Din GLP-1-rutine <span class="accent">på én skærm.</span></h1>
+        
+
+        <ul class="new-chips" aria-label="Nyt i Dozify">
+          <li><a href="/da/ai-calorie-tracker">📸 AI-kalorier fra billeder</a></li>
+          
+          <li><a href="#themes">🐬 Maskotter og temaer</a></li>
+          
+          <li><a href="/da/glp1-pill-tracker">💊 Registrering af piller</a></li>
+          
+          <li><a href="/da/glp1-medication-level">📈 Kurve over medicinniveau</a></li>
+          
+        </ul>
+
+        <p class="lede">Registrér hver injektion eller daglig pille, tag et billede af et måltid og få kalorier og protein på få sekunder, og se din vægt ved siden af en anslået kurve over dit medicinniveau. Gør appen til din egen med en maskot og et farvetema. Registrering af doser og påmindelser er gratis, for altid. Registrerer du allerede et andet sted? <a href="/da/switch-glp1-tracker-app">Tag din historik med.</a></p>
+        
+
+        <div class="cta-row">
+          <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-da&mt=8" target="_blank" rel="noopener" class="btn btn-primary">Hent i App Store</a>
+          
+        </div>
+
+        <!-- The three things a visitor deciding on a health app wants settled
+             before they tap Download, said before they have to look for them. -->
+        <ul class="trust-row">
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" /> <path d="m9 12 2 2 4-4" /> </svg> <span>Ingen konto, virker offline: dine helbredsdata bliver på enheden</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" /> </svg> <span>Ingen reklamer inde i appen, og dine helbredsdata bruges aldrig til målrettede annoncer</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M12 8h.01M11 12h1v4h1" /> </svg> <span>Et registreringsværktøj, ikke medicinsk udstyr: det registrerer din plan og foreslår aldrig en</span></li>
+        </ul>
+        </div>
+
+        <!-- The product itself, above the fold. The page used to open on an app
+             icon and four paragraphs, which asks a visitor to take the app's
+             word for what it looks like. -->
+        <div class="hero-shot hero-fan" aria-hidden="false">
+          <div class="device fan-left">
+            <img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" decoding="async" alt="AI-resultat: hver ting fundet på tallerkenen med kalorier og protein, klar til at blive rettet">
+            
+          </div>
+          <div class="device fan-right">
+            <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" decoding="async" alt="Temavælger med seks maskotter: Klassisk, Delfin, Panda, Natugle, Flamingo og Honningbi">
+            
+          </div>
+          <div class="device fan-center">
+            <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" fetchpriority="high" decoding="async" alt="Dozifys startskærm i Delfin-temaet: næste dosis, Tag et billede af dit måltid, medicinniveau, protein, vand og vægt">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="themes" class="section section-light">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">Nyt</span>
+          
+          <h2 class="section-title">Vælg en maskot. Hele appen følger med.</h2>
+          
+          <p>Seks temaer, hver med en farve og en makker: Klassisk, Delfin 🐬, Panda 🐼, Natugle 🦉, Flamingo 🦩 og Honningbi 🐝. Farven går igen på hver skærm, maskotten dukker op på din vægtkurve og din stime, og appikonet på din hjemmeskærm skifter med. Klassisk forbliver enkel.</p>
+          
+          <p>Delfin er gratis. Panda, Natugle, Flamingo og Honningbi følger med Premium. Lys, mørk eller følg systemet — du vælger.</p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Skærmen Udseende: Lys, Mørk eller System og seks maskottemaer"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Startskærmen i det blå Delfin-tema"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/bee-home.webp" srcset="/screenshots/en/bee-home-400w.webp 400w, /screenshots/en/bee-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Indstillinger i det orange Honningbi-tema"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="ai-calories" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">Nyt</span>
+          
+          <h2 class="section-title">Tag et billede af dit måltid. Se kalorierne.</h2>
+          
+          <p>På en GLP-1 spiser du mindre, så det, du spiser, betyder mere. Tag et billede, og Dozify oplister hver ting på tallerkenen med et estimat af kalorier og protein, på dit sprog. Det er altid et udkast, du kan rette: ret en portion, tilføj det, kameraet overså, og gem det så ved siden af dine doser og din vægt. Premium.</p>
+          
+          <p><a href="/da/ai-calorie-tracker" class="link-arrow">Sådan virker AI-kalorier</a></p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Dozify læser et billede af et måltid"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Hver ting på tallerkenen med kalorier og protein"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">Sådan fungerer det</h2>
+        
+        <p class="section-lede">Tre trin. Ingen besværlig opsætning.</p>
+        
+
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h3>Tilføj dit lægemiddel</h3>
+            
+            <p>Vælg en ugentlig eller daglig injektion – Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® – eller en daglig tablet: Wegovy® pille, Ozempic® tablet, Rybelsus® eller Foundayo™. Angiv din dosis og din plan.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h3>Registrér hver injektion</h3>
+            
+            <p>Tryk for at registrere dosis, tidspunkt og injektionssted på en kropstegning. Smart rotation foreslår dit næste sted.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h3>Del med din læge</h3>
+            
+            <p>Eksportér en PDF-rapport med hele dit behandlingsforløb, din vægtudvikling og din bivirkningslog: perfekt til dit næste besøg.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="section">
+      <div class="container">
+        <h2 class="section-title">Se Dozify i aktion</h2>
+        
+        <p class="section-lede">Et hurtigt kig på, hvad du ser på din telefon.</p>
+        
+
+        <div class="screenshot-strip" role="group" tabindex="0" aria-label="Dozify-skærmbilleder, rul sidelæns">
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/home-next-dose.webp" srcset="/screenshots/en/home-next-dose-400w.webp 400w, /screenshots/en/home-next-dose.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Dozifys startskærm: nedtælling til næste dosis, ugens injektioner, dagens protein og vand samt nuværende vægt">
+            </div>
+            <figcaption><b>Din dag på et øjeblik</b> <span>Næste dosis, ugens injektioner, protein, vand og vægt: én skærm.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="AI-estimat af kalorier fra et billede, udfyldt i ernæringsformularen: kyllingecæsarsalat, 625 kcal, 55 g protein, med en note om usikkerhed">
+            </div>
+            <figcaption><b>Tag et billede af dit måltid</b> <span>AI udfylder kalorier og protein ud fra et billede – altid som et udkast, du kan rette.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/level-curve.webp" srcset="/screenshots/en/level-curve-400w.webp 400w, /screenshots/en/level-curve.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Vægtkurve og den estimerede kurve over lægemiddelniveau med nuværende procent og højeste procent">
+            </div>
+            <figcaption><b>Se, hvad din dosis gør</b> <span>Den estimerede niveaukurve får endelig sulten på dag 6 til at give mening.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Registrering af en injektion med et kropskort, der foreslår det næste sted i rotationen">
+            </div>
+            <figcaption><b>Registrér en injektion på sekunder</b> <span>Kropskortet husker, hvilket sted der står for tur, så du ikke behøver.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/weight-and-dose-chart.webp" srcset="/screenshots/en/weight-and-dose-chart-400w.webp 400w, /screenshots/en/weight-and-dose-chart.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Vægtkurve og estimeret kurve over lægemiddelniveau på samme tidslinje">
+            </div>
+            <figcaption><b>Vægt og dosis på én linje</b> <span>Din vægtkurve ved siden af det estimerede lægemiddelniveau.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Dozifys startskærm i Delfin-temaet: havblå accentfarve, bølgemærke for stimen og AI-måltidskortet">
+            </div>
+            <figcaption><b>Gør den til din egen</b> <span>Farve, maskot og endda app-ikonet skifter sammen – Delfin er gratis.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Temavælgeren: pakkerne Klassisk, Delfin, Panda, Natugle, Flamingo og Honningbi">
+            </div>
+            <figcaption><b>Seks personligheder</b> <span>Vælg en farve og en makker; maskotten dukker op i dine grafer og din stime.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/victories.webp" srcset="/screenshots/en/victories-400w.webp 400w, /screenshots/en/victories.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Sejrsdagbogen med noter som tøj, der passer bedre, og trapper, der er blevet lettere">
+            </div>
+            <figcaption><b>Sejre, vægten ikke kan se</b> <span>Til plateau-ugerne: tøj, energi, humør – registreret på én linje.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/lab-results.webp" srcset="/screenshots/en/lab-results-400w.webp 400w, /screenshots/en/lab-results.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Skærm med blodprøvesvar, hvor HbA1c og LDL er gemt præcis som indtastet">
+            </div>
+            <figcaption><b>Blodprøver ved siden af dine doser</b> <span>HbA1c, lipider, levertal – gemt præcis som du skrev dem, med i lægerapporten (PDF).</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/vial-stock.webp" srcset="/screenshots/en/vial-stock-400w.webp 400w, /screenshots/en/vial-stock.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Hætteglasbeholdning, resterende doser, dage siden åbning og udløbsdatoen">
+            </div>
+            <figcaption><b>Vid det, før hætteglasset er tomt</b> <span>Resterende doser, dage siden åbning, udløbsdato: talt op for dig.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Opbygning af en rapport til lægebesøget: periode, afsnit der skal med, og de spørgsmål, du vil stille">
+            </div>
+            <figcaption><b>En overskuelig PDF til din læge</b> <span>Vælg en periode, vælg hvad der skal med, og mød op med et overblik.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/water-tracking.webp" srcset="/screenshots/en/water-tracking-400w.webp 400w, /screenshots/en/water-tracking.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Vandregistrering med en glasberegner og hurtige mængder">
+            </div>
+            <figcaption><b>Vand, talt i glas</b> <span>Ikke milliliter, du selv skal regne på.</span></figcaption>
+          </figure>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section id="features" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Det er indeni</h2>
+        
+        <p class="section-lede">Lavet til folk på ugentlige GLP-1-lægemidler.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v2" /><path d="m5.6 5.6 1.4 1.4" /><path d="m18.4 5.6-1.4 1.4" /><path d="M3 12h2" /><path d="M19 12h2" /><path d="M12 21a6 6 0 0 0 6-6c0-3-2.5-4.5-6-9-3.5 4.5-6 6-6 9a6 6 0 0 0 6 6Z" />
+              </svg>
+            </div>
+            <h3>AI-kalorier fra billeder <span class="badge-new">Nyt</span></h3>
+            
+            <p>Tag et billede af dit måltid, og få estimater for kalorier og protein på sekunder, på dit eget sprog. Vises altid som et udkast, du kan rette – du bestemmer. Premium. <a href="/da/ai-calorie-tracker">Sådan fungerer AI-kalorier</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0E7FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="M4 15c2-6 4-9 6-9s3 2 4 5 2 5 4 5 3-2 4-5" />
+              </svg>
+            </div>
+            <h3>Kurve over lægemiddelniveau <span class="badge-new">Nyt</span></h3>
+            
+            <p>En estimeret kurve over, hvordan din dosis bygges op og aftager mellem injektionerne – så sulten på dag 6 endelig giver mening. <a href="/da/glp1-medication-level">Om kurven</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="13.5" cy="6.5" r=".5" /><circle cx="17.5" cy="10.5" r=".5" /><circle cx="8.5" cy="7.5" r=".5" /><circle cx="6.5" cy="12.5" r=".5" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" />
+              </svg>
+            </div>
+            <h3>Temaer &amp; maskotter <span class="badge-new">Nyt</span></h3>
+            
+            <p>Farve, maskot og endda app-ikonet skifter sammen. Delfin 🐬 er gratis; panda, ugle, flamingo og bi følger med Premium.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>Sejrsdagbog <span class="badge-new">Nyt</span></h3>
+            
+            <p>Fremskridt, vægten ikke kan se: tøj, der passer, trapper, der er blevet lettere. Gratis med vilje – til plateau-ugerne.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.31" /><path d="M14 9.3V2" /><path d="M8.5 2h7" /><path d="M14 9.3a6.5 6.5 0 1 1-4 0" /><path d="M5.52 16h12.96" />
+              </svg>
+            </div>
+            <h3>Blodprøvesvar <span class="badge-new">Nyt</span></h3>
+            
+            <p>HbA1c, lipider, levertal – gemt præcis som du indtaster dem og med i lægerapporten (PDF). Ingen vurderinger, ingen farvekoder.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+              </svg>
+            </div>
+            <h3>Menstruationscyklus <span class="badge-new">Nyt</span></h3>
+            
+            <p>Se dine symptomer holdt op mod din menstruationscyklus – kun hvis du slår det til, og dataene forlader aldrig din enhed.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0F2FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
+              </svg>
+            </div>
+            <h3>Vægtkurve &amp; prognose</h3>
+            
+            <p>Se din vægt i tydelige grafer med en prognose for, hvornår du når dit mål, baseret på dine egne data.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+              </svg>
+            </div>
+            <h3>Smarte påmindelser</h3>
+            
+            <p>Ugentlige eller daglige påmindelser, der passer til dit lægemiddels plan.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EFF6FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.5L4 22h16l-6-12.5V2" /><path d="M8.5 2h7" />
+              </svg>
+            </div>
+            <h3>Hætteglasbeholdning</h3>
+            
+            <p>Åbningsdatoer, nedtælling til udløb og resterende doser for hvert hætteglas.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" />
+              </svg>
+            </div>
+            <h3>Grafer over fremskridt</h3>
+            
+            <p>Vægtkurve, dosisoptrapning og mønstre i bivirkninger på et øjeblik.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" />
+              </svg>
+            </div>
+            <h3>PDF-rapporter</h3>
+            
+            <p>Overblik klar til lægen med ét tryk, med hele din behandlingstidslinje.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEE2E2">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.49 4.04 3 5.5l7 7Z" />
+              </svg>
+            </div>
+            <h3>Synkronisering med Apple Health</h3>
+            
+            <p>På iPhone hentes vægten automatisk fra Apple Health. Det er valgfrit at skrive tilbage, og det er slået fra som standard.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EDE9FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2" /><line x1="8" x2="16" y1="6" y2="6" /><line x1="16" x2="16" y1="14" y2="18" /><path d="M8 10h.01" /><path d="M12 10h.01" /><path d="M16 10h.01" /><path d="M8 14h.01" /><path d="M12 14h.01" /><path d="M8 18h.01" /><path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3>Indbyggede beregnere</h3>
+            
+            <p>Omregning af enheder (mg ↔ mL ↔ U-100) og estimat af, hvor længe et hætteglas holder – gratis.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DBEAFE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" />
+              </svg>
+            </div>
+            <h3>Tag din historik med</h3>
+            
+            <p>Skifter du fra en anden tracker? Dozify læser din eksporterede fil, viser dig, hvad den fandt, og gemmer først, når du har godkendt – med en sikkerhedskopi taget inden.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="7" height="9" x="3" y="3" rx="1" /><rect width="7" height="5" x="14" y="3" rx="1" /><rect width="7" height="9" x="14" y="12" rx="1" /><rect width="7" height="5" x="3" y="16" rx="1" />
+              </svg>
+            </div>
+            <h3>En startskærm, du selv bygger</h3>
+            
+            <p>Flyt rundt på kortene, skjul dem, du ikke bruger, og hent dem frem igen, når du vil. Registrerer du ikke bivirkninger, dukker de felter aldrig op.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
+              </svg>
+            </div>
+            <h3>Enhver plan – og din læges plan</h3>
+            
+            <p>Ugentligt, dagligt, med få dages mellemrum eller på bestemte datoer. Gem den dosisplan, din behandler har givet dig, og lad appen minde dig om den. Dozify vælger aldrig selv en dosis.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DCFCE7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+            </div>
+            <h3>Vidensbibliotek</h3>
+            
+            <p>Guides med kildehenvisninger om dosering, bivirkninger og injektionsteknik.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" />
+              </svg>
+            </div>
+            <h3>Rotation af injektionssted</h3>
+            
+            <p>En kropstegning holder styr på hvert sted og foreslår, hvor du skal injicere næste gang.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FFEDD5">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z" /><path d="m7.5 10.5 2 2" /><path d="m10.5 7.5 2 2" /><path d="m13.5 4.5 2 2" /><path d="m4.5 13.5 2 2" />
+              </svg>
+            </div>
+            <h3>Kropsmål</h3>
+            
+            <p>Følg talje, hofte, fedtprocent og mere: de fremskridt, vægten alene overser.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF9C3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>Milepæle &amp; stimer</h3>
+            
+            <p>Daglige stimer og præstationsmærker holder dig stabil og motiveret.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFCCB">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#65A30D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /><path d="M7 2v20" /><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+              </svg>
+            </div>
+            <h3>Mad- &amp; vandlog</h3>
+            
+            <p>Registrér måltider, protein og væske direkte ved siden af din behandling.</p>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- The differentiator a visitor who already tracks somewhere else is
+         looking for, and the one thing no competitor page tells them. -->
+    <section id="import" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 class="section-title">Registrerer du allerede et andet sted? Tag det med.</h2>
+          
+          <p class="section-lede">Dozify læser eksporter fra Shotsy, Glapp, GLPzy og GlucoPal samt enhver CSV-fil med en datokolonne. Intet bliver gemt, før du har set, hvad den fandt (hvor mange injektioner, hvor mange vejninger, hvor mange noter), og der tages først en sikkerhedskopi af dine eksisterende data. Importen koster ingenting.</p>
+          
+          <a href="/da/switch-glp1-tracker-app" class="link-arrow">Sådan fungerer skiftet →</a>
+          
+        </div>
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="En importeret injektion i Dozifys log med dato, dosis og sted">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-section">
+      <div class="container">
+        <div class="privacy-card">
+          <div class="privacy-icon">
+            <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
+            </svg>
+          </div>
+          <h2>Dine personlige data bliver på din telefon</h2>
+          
+          <p>Ingen konto, ingen reklamer inde i appen, ingen profil. Dine personlige data (injektioner, vægt, mål) forlader aldrig din enhed. Slet appen, og dine data er væk.</p>
+          
+          <a href="/da/privacy" class="link-arrow">Læs privatlivspolitikken →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="report" class="section">
+      <div class="container split split-reverse">
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Opbygning af en rapport til lægebesøget: periode, afsnit der skal med, og de spørgsmål, du vil stille">
+            
+          </div>
+        </div>
+        <div class="split-copy">
+          <h2 class="section-title">Mød op til aftalen med et overblik</h2>
+          
+          <p class="section-lede">Et besøg er ti minutter og tre måneder. Vælg perioden og hvad der skal med (doser, vægt, bivirkninger, dine egne noter og de spørgsmål, du ville stille), så laver Dozify en PDF, du kan printe eller sende i forvejen. Indholdet er din registrering; hvad det betyder, er din læges vurdering.</p>
+          
+          <a href="/da/glp1-appointment-report" class="link-arrow">Hvad rapporten indeholder →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="medications" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Lægemidler, du kan registrere</h2>
+        
+        <p class="section-lede">Vælg det, du har fået ordineret, så sætter Dozify plan og dosistrin op for det. Alt, hvad der ikke står på listen, kan du tilføje manuelt.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <h3>Ugentlige injektioner</h3>
+            
+            <p>Ozempic®, Wegovy®, Mounjaro®, Zepbound® og Trulicity®: én injektion om ugen og én påmindelse om ugen, der passer.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Daglige injektioner</h3>
+            
+            <p>Saxenda® og Victoza® – en daglig plan, på det klokkeslæt, du faktisk injicerer, i stedet for en standardindstilling.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Tabletter</h3>
+            
+            <p>Wegovy® pille, Ozempic® tablet, Rybelsus® og Foundayo™ – daglige tabletter, registreret med den samme historik og den samme rapport. <a href="/da/glp1-pill-tracker">Sådan fungerer pilleregistrering</a></p>
+            
+          </article>
+          <article class="feature">
+            <h3>Noget andet</h3>
+            
+            <p>Tilføj et lægemiddel ved navn med din egen dosis og dit eget interval. Dozify registrerer den plan, du og din læge er blevet enige om; den foreslår aldrig en.</p>
+            
+          </article>
+        </div>
+
+        <p class="meta" style="text-align:center;margin-top:24px">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® og Foundayo™ er varemærker tilhørende deres respektive ejere. Dozify er ikke tilknyttet, godkendt af eller sponsoreret af disse virksomheder.</p>
+        
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Guides, der nævner deres kilder</h2>
+        
+        <p class="section-lede">Skrevet til folk, der allerede er i behandling med GLP-1, og hver enkelt henviser til, hvor oplysningerne kommer fra: producentens vejledning, FDA, MedlinePlus. Intet af det erstatter, hvad din egen behandler siger til dig.</p>
+        
+
+        <div class="article-list">
+          <a class="article-card" href="/da/articles/what-is-glp1">
+            <h3>Hvad er GLP-1?</h3>
+            
+            <p>Hormonet, din tarm frigiver efter et måltid, hvad lægemidlerne efterligner, og hvorfor appetitten ændrer sig.</p>
+            
+          </a>
+          <a class="article-card" href="/da/articles/how-to-inject-glp1">
+            <h3>Sådan injicerer du med en GLP-1-pen</h3>
+            
+            <p>Klargøring af pennen, valg af sted, selve injektionen og hvad du gør med kanylen bagefter.</p>
+            
+          </a>
+          <a class="article-card" href="/da/articles/glp1-injection-sites">
+            <h3>Hvor du injicerer, og hvordan du skifter sted</h3>
+            
+            <p>Mave, lår og overarm er de godkendte steder. Hvilket du skal vælge, og hvorfor stedet skal flyttes.</p>
+            
+          </a>
+          <a class="article-card" href="/da/articles/glp1-side-effects">
+            <h3>Almindelige bivirkninger</h3>
+            
+            <p>Kvalme, forstoppelse og træthed: hvad der ofte hjælper, og hvilke tegn der kræver en læge med det samme.</p>
+            
+          </a>
+          <a class="article-card" href="/da/articles/glp1-patches">
+            <h3>Findes der GLP-1-plastre?</h3>
+            
+            <p>Intet plaster er godkendt af FDA eller EMA. Hvad der sælges under det navn, og hvad evidensen siger.</p>
+            
+          </a>
+          <a class="article-card" href="/da/articles/missed-glp1-dose">
+            <h3>Glemt en dosis?</h3>
+            
+            <p>Fem dage for ét produkt, to for et andet med samme lægemiddel. Hvad hver indlægsseddel siger, citeret.</p>
+            
+          </a>
+          <a class="article-card" href="/da/articles/storing-glp1-pens">
+            <h3>Opbevaring af en pen</h3>
+            
+            <p>Køleskab, stuetemperatur og antallet af dage, som afhænger af pennen, ikke kun af lægemidlet.</p>
+            
+          </a>
+          <a class="article-card" href="/da/articles">
+            <h3>Alle guides</h3>
+            
+            <p>Hele biblioteket, med kildelisten nederst på hver side.</p>
+            
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Ofte stillede spørgsmål</h2>
+        
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Er Dozify gratis?</h3>
+            
+            <p>Ja. Dosisregistrering, dosispåmindelser, rotation af injektionssted, registrering af vægt, vand og bivirkninger, hele din historik og dine billeder samt vidensartiklerne er gratis – dosisregistrering forbliver gratis for altid, ikke kun i en prøveperiode. Premium er forståelseslaget: den estimerede kurve over lægemiddelniveau, avancerede grafer og tendenser, vægtprognose, kropssammensætning, ernæring med AI-estimater af kalorier fra billeder, styring af hætteglas, PDF-rapporter til lægen, temaer og et ekstra aktivt lægemiddel. Detaljer om abonnement og opsigelse står på <a href="/da/support">supportsiden</a>.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Er mine data private?</h3>
+            
+            <p>Dine helbredsdata (doser, vægt, bivirkninger, fremskridtsbilleder) gemmes på din enhed og bliver aldrig uploadet. Den eneste undtagelse er et måltidsbillede, du selv vælger at analysere med AI-kalorier: det sendes, når du har sagt ja, via vores server til Google Gemini og gemmes ikke af appen. Der er ingen konto og ingen cloud-synkronisering, og appen viser ingen reklamer. Der indsamles anonym brugsstatistik, så appen kan forbedres, og den indeholder aldrig navnet på et lægemiddel eller et symptom. Dozify måler også, om en installation kom fra en af appens egne App Store- eller Meta-kampagner; den måling kører bag Apples tilladelse til sporing og indeholder aldrig dine helbredsdata. Slet appen, og dine data er væk.</p>
+            
+          </div>
+
+
+          <div class="faq-item">
+            <h3>Hvilke lægemidler understøtter Dozify?</h3>
+            
+            <p>Dozify hjælper dig med at registrere populære GLP-1-lægemidler, bl.a. Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® og Victoza®, samt daglige tabletter: Wegovy® pille, Ozempic® tablet, Rybelsus® og Foundayo™. Disse varemærker tilhører deres respektive ejere, og Dozify er ikke tilknyttet disse virksomheder.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Virker Dozify uden internet?</h3>
+            
+            <p>Ja. Dozify er bygget til at virke offline og fungerer fuldt ud uden internetforbindelse. Du behøver aldrig at logge ind eller synkronisere for at bruge den.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Kan Dozify minde mig om min injektion?</h3>
+            
+            <p>Ja. Du kan sætte en ugentlig eller daglig påmindelse, der passer til dit lægemiddels plan, så det er lettere at holde fast i din rutine.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Erstatter Dozify min læge?</h3>
+            
+            <p>Nej. Dozify er et oplysende registreringsværktøj, ikke medicinsk udstyr, og giver ikke medicinsk rådgivning. Følg altid din læge og din recept – <a href="/da/why">hvad appen nægter at gøre</a> er skrevet helt ud.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Kan jeg registrere vægt og bivirkninger?</h3>
+            
+            <p>Ja. Du kan registrere din vægt, dine kropsmål og en bivirkningsdagbog og se din udvikling i tydelige grafer: inklusive en vægtprognose og et estimat af, hvornår du når dit mål, baseret på dine egne data.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Kan jeg tage mine data med fra en anden GLP-1-app?</h3>
+            
+            <p>Ja, og det er gratis. Eksportér fra den app, du forlader, åbn Indstillinger &rarr; Importér din historik i Dozify, og vælg filen. Den læser eksporter fra Shotsy, Glapp, GLPzy og GlucoPal samt enhver CSV-fil med en datokolonne, viser dig, hvad den fandt (hvor mange injektioner, vejninger og noter), før noget bliver gemt, springer registreringer over, du allerede har, og tager først en sikkerhedskopi af dine eksisterende data. <a href="/da/switch-glp1-tracker-app">Mere på siden om at skifte</a>.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Findes Dozify til Android?</h3>
+            
+            <p>Ikke endnu. Dozify er indtil videre kun til iPhone, i App Store.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section section-cta">
+      <div class="container">
+        <h2 class="section-title">Hent appen</h2>
+        
+        <p class="section-lede">Dozify findes i App Store, til iPhone.</p>
+        
+        <div class="store-row">
+          <a class="store-card store-card--live" href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-da&mt=8" target="_blank" rel="noopener">
+            <div class="store-card-icon">
+              <svg viewbox="0 0 24 24" fill="currentColor">
+                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
+              </svg>
+            </div>
+            <div>
+              <span class="store-card-pretitle">Hent i</span>
+              
+              <strong>App Store</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/da" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+        <p class="footer-tagline">En privat følgesvend til din GLP-1-behandling.</p>
+        
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Juridisk</h3>
+          
+          <a href="/da/privacy">Privatlivspolitik</a>
+          
+          <a href="/en/kvkk">KVKK Aydınlatma</a>
+          <a href="/da/terms">Servicevilkår</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Registrering</h3>
+          
+          <a href="/da/glp1-shot-tracker">GLP-1-injektionstracker</a>
+          
+          <a href="/da/injection-site-tracker">Tracker til injektionssteder</a>
+          
+          <a href="/da/glp1-weight-tracker">GLP-1-vægttracker</a>
+          
+          <a href="/da/glp1-side-effect-journal">Bivirkningsdagbog</a>
+          
+          <a href="/da/glp1-vial-tracker">Hætteglastracker</a>
+          
+          <a href="/da/private-glp1-tracker">Privat GLP-1-tracker</a>
+          
+          <a href="/da/glp1-appointment-report">Lægerapport</a>
+          
+          <a href="/da/switch-glp1-tracker-app">Skift fra en anden app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Hjælp</h3>
+          
+          <a href="/da/support">Support</a>
+          
+          <a href="/da/why">Hvorfor Dozify</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+      <p class="disclaimer">Dozify er ikke medicinsk udstyr og giver ikke medicinsk rådgivning. Spørg altid din læge. Ozempic®, Mounjaro®, Wegovy®, Saxenda®, Zepbound®, Trulicity®, Rybelsus®, Victoza® og Foundayo™ er varemærker tilhørende deres respektive ejere. Dozify er ikke tilknyttet disse virksomheder.</p>
+      
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en" hreflang="en" lang="en">English</a> · <a href="/tr" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar" hreflang="ar" lang="ar">العربية</a> · <a href="/cs" hreflang="cs" lang="cs">Čeština</a> · <a href="/da" hreflang="da" lang="da" aria-current="page">Dansk</a> · <a href="/de" hreflang="de" lang="de">Deutsch</a> · <a href="/el" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es" hreflang="es" lang="es">Español</a> · <a href="/fi" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr" hreflang="fr" lang="fr">Français</a> · <a href="/hi" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it" hreflang="it" lang="it">Italiano</a> · <a href="/ja" hreflang="ja" lang="ja">日本語</a> · <a href="/ko" hreflang="ko" lang="ko">한국어</a> · <a href="/nb" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl" hreflang="pl" lang="pl">Polski</a> · <a href="/pt" hreflang="pt" lang="pt">Português</a> · <a href="/ru" hreflang="ru" lang="ru">Русский</a> · <a href="/sv" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk" hreflang="uk" lang="uk">Українська</a> · <a href="/zh" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

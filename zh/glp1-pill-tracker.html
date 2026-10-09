@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wegovy口服片记录：每日GLP-1片剂日志</title>
+  <meta property="og:url" content="https://dozify.app/zh/glp1-pill-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="每天记录 Wegovy、Ozempic 片剂、Rybelsus 或 Foundayo，免费晨间提醒，附说明书中的空腹服用提示。与注射笔共用同一份历史记录。">
+  <meta property="og:title" content="Wegovy口服片记录：每日GLP-1片剂日志">
+  <meta property="og:description" content="每天记录 Wegovy、Ozempic 片剂、Rybelsus 或 Foundayo，免费晨间提醒，附说明书中的空腹服用提示。与注射笔共用同一份历史记录。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="twitter:title" content="Wegovy口服片记录：每日GLP-1片剂日志">
+  <meta name="twitter:description" content="每天记录 Wegovy、Ozempic 片剂、Rybelsus 或 Foundayo，免费晨间提醒，附说明书中的空腹服用提示。与注射笔共用同一份历史记录。">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="zh_CN">
+
+  <link rel="canonical" href="https://dozify.app/zh/glp1-pill-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-pill-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-hap-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glp1-pill-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glp1-pill-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glp1-pill-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glp1-pill-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glp1-pill-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glp1-pill-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glp1-pill-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glp1-pill-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glp1-pill-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glp1-pill-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glp1-pill-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glp1-pill-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glp1-pill-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glp1-pill-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glp1-pill-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glp1-pill-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glp1-pill-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glp1-pill-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glp1-pill-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glp1-pill-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-pill-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/zh",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "zh-Hans"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/zh",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "记录 GLP-1 注射和每日口服药，轮换注射部位，追踪体重、副作用和食物噪音，拍照即可用 AI 估算卡路里和蛋白质。iPhone 应用。",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "zh-Hans"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/zh/glp1-pill-tracker#webpage",
+        "url": "https://dozify.app/zh/glp1-pill-tracker",
+        "name": "Wegovy口服片记录：每日GLP-1片剂日志",
+        "description": "每天记录 Wegovy、Ozempic 片剂、Rybelsus 或 Foundayo，免费晨间提醒，附说明书中的空腹服用提示。与注射笔共用同一份历史记录。",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "zh-Hans",
+        "breadcrumb": {
+          "@id": "https://dozify.app/zh/glp1-pill-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "可以在 Dozify 中记录 Wegovy 口服片吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "可以。Wegovy 片剂在药物列表中作为每日口服剂量列出，附有为它列出的规格、说明书提示和每日提醒。Ozempic 片剂、Rybelsus 和 Foundayo 也都在列表中。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "它会每天早上提醒我吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "会，在你选择的时间。每日提醒永久免费。提醒是一条 iOS 通知，所以需要为 Dozify 开启通知，并且不被专注模式静音。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "为什么看不到我所服片剂的药物水平曲线？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "因为应用中没有口服药物的特征曲线，也不会凭空编造一个。曲线只针对注射剂构建。对于片剂，Dozify 宁可什么都不显示，也不显示一个它无法担保的数字。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "应用会告诉我该服用哪个规格或何时加量吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不会。选择器中的规格是每种产品列出的规格，用来让你记录医生给你开的药。Dozify 记录你的处方医生的方案；它从不提出方案。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "我正从注射剂换成片剂，会丢失历史记录吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不会。你记录过的注射会保留在记录中，片剂剂量会和你的体重、症状一起在同一条时间线上继续。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify 支持 Foundayo（orforglipron）吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "支持，作为每日片剂，并附有为它列出的规格。应用中的提示说明它每日一次、可随餐或不随餐服用，并于 2026 年 4 月获 FDA 批准用于长期体重管理。"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/zh/glp1-pill-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://dozify.app/zh"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "口服药记录",
+            "item": "https://dozify.app/zh/glp1-pill-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/zh" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">功能</a>
+        
+        <a href="/#privacy">隐私</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/zh">首页</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>口服药记录</span>
+      
+    </div>
+    <h1>为 Wegovy®、Rybelsus® 及其他 GLP-1 片剂打造的服药记录</h1>
+    
+    <p class="meta">每日服用的片剂，每天早上都需要同样的小步骤。Dozify 会提醒你、记录每一次服药，并把它们和你记录的其他内容放在同一份历史里。</p>
+    
+
+    <h2>问题所在</h2>
+    <p>每周一次的注射笔是一周做一次决定。片剂则是每天一次，在早餐前、咖啡前、任何事情之前，而早上 7 点的问题并不复杂，只是很容易忘：我今天吃了吗？现在可以吃东西了吗？一周七次，就有很多需要靠猜的小机会。</p>
+
+    
+    
+
+    <h2>Dozify 支持的片剂</h2>
+    <p>以下每一种都按每日剂量记录。添加时，规格选择器会显示应用中为它列出的规格：</p>
+    <ul>
+      <li><strong>Wegovy® 片剂</strong>（口服司美格鲁肽）：1.5、4、9 和 25 mg</li>
+      <li><strong>Ozempic® 片剂</strong>（口服司美格鲁肽）：1.5、4 和 9 mg</li>
+      <li><strong>Rybelsus®</strong>（口服司美格鲁肽）：3、7 和 14 mg</li>
+      <li><strong>Foundayo™</strong>（orforglipron，Eli Lilly）：0.8、2.5、5.5、9、14.5 和 17.2 mg</li>
+    </ul>
+    <p>这个列表是为了让你选出包装盒上印的规格。它不是用药时间表，也不是建议：你服用哪个规格、何时调整，由你的处方医生决定。</p>
+
+    
+    
+    
+    
+
+    <h2>早餐前的服药步骤</h2>
+    <p>口服司美格鲁肽的服用说明，在半睡半醒时很容易做得稍有偏差，所以 Dozify 会把说明书提示和药物放在一起。对于 Wegovy 和 Ozempic 片剂，说明书上写的是：“每日一次，空腹服用，配水不超过 120 mL。整片吞服——不要掰开、碾碎或咀嚼。服后至少等 30 分钟再进食、喝其他饮料或服用其他药物。”对于 Rybelsus：“空腹服用，早餐前 30 分钟。”Foundayo 则不同，应用中为它写的提示是：“每日一次，随餐或空腹均可。”</p>
+    <p>把每日提醒设在你真正起床的时间，才能让这件事变成习惯。每日提醒和剂量记录一样，永久免费。提醒在手机上本地安排，所以即使没有网络也能收到，只要你允许 Dozify 发送通知。</p>
+
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/home-next-dose.webp" srcset="/screenshots/en/home-next-dose-400w.webp 400w, /screenshots/en/home-next-dose.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Dozify 主屏幕，显示下次剂量、本周剂量、蛋白质、饮水和体重"></div></figure>
+      
+    </div>
+
+    <h2>从注射笔到片剂，从片剂到注射笔：同一份历史</h2>
+    <p>如果你的处方医生把你从注射剂换成片剂，或者再换回来，你只需在 Dozify 中更换药物。已经记录的剂量会保留在原处，新的每日剂量会在同一条时间线上继续，旁边就是你的体重和<a href="/zh/glp1-side-effect-journal">副作用日记</a>。你带去就诊的报告会同时涵盖两者。同时记录两种正在使用的药物属于 Premium 功能。</p>
+
+    
+    
+
+    <h2>储存</h2>
+    <p>片剂不需要放冰箱。应用中对 GLP-1 口服片剂的提示是：室温保存，放在原包装或药瓶中，防潮；Wegovy 片剂在服用前应一直放在瓶中。确切的温度范围见你所用产品的说明书；<a href="/zh/articles/storing-glp1-pens">我们的储存指南</a>将注射笔和片剂并列对比。</p>
+
+    
+    
+
+    <h2>为什么片剂没有药物水平曲线</h2>
+    <p>Dozify Premium 的<a href="/zh/glp1-medication-level">药物水平曲线</a>会根据你记录的注射，利用每种注射用分子的特征曲线，估算体内有多少药物。应用中没有片剂的这种特征曲线，所以对于只口服的药物，曲线根本不会显示。我们可以画点什么出来，但那只会是一个打扮成图表的猜测，而错误的数字比空白更糟。其他一切（每日记录、提醒、你的<a href="/zh/glp1-weight-tracker">体重趋势</a>、就诊报告）对片剂和注射笔都一样适用。</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-pill-tracker-zh&mt=8" class="btn btn-primary">在 App Store 下载</a></p>
+
+
+    <h2>问题</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>可以在 Dozify 中记录 Wegovy 口服片吗？</h3>
+        
+        <p>可以。Wegovy 片剂在药物列表中作为每日口服剂量列出，附有为它列出的规格、说明书提示和每日提醒。Ozempic 片剂、Rybelsus 和 Foundayo 也都在列表中。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>它会每天早上提醒我吗？</h3>
+        
+        <p>会，在你选择的时间。每日提醒永久免费。提醒是一条 iOS 通知，所以需要为 Dozify 开启通知，并且不被专注模式静音。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>为什么看不到我所服片剂的药物水平曲线？</h3>
+        
+        <p>因为应用中没有口服药物的特征曲线，也不会凭空编造一个。曲线只针对注射剂构建。对于片剂，Dozify 宁可什么都不显示，也不显示一个它无法担保的数字。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>应用会告诉我该服用哪个规格或何时加量吗？</h3>
+        
+        <p>不会。选择器中的规格是每种产品列出的规格，用来让你记录医生给你开的药。Dozify 记录你的处方医生的方案；它从不提出方案。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>我正从注射剂换成片剂，会丢失历史记录吗？</h3>
+        
+        <p>不会。你记录过的注射会保留在记录中，片剂剂量会和你的体重、症状一起在同一条时间线上继续。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Dozify 支持 Foundayo（orforglipron）吗？</h3>
+        
+        <p>支持，作为每日片剂，并附有为它列出的规格。应用中的提示说明它每日一次、可随餐或不随餐服用，并于 2026 年 4 月获 FDA 批准用于长期体重管理。</p>
+        
+      </div>
+    </div>
+
+    <h2>接下来阅读</h2>
+    <p>注明出处的指南：<a href="/zh/articles/what-is-glp1">GLP-1 到底是什么，注射剂与片剂</a>、<a href="/zh/articles/missed-glp1-dose">说明书对漏服一剂是怎么说的</a>以及<a href="/zh/articles/storing-glp1-pens">注射笔和片剂的储存</a>。</p>
+    <p>Dozify 的其他功能：适用于每周注射笔的<a href="/zh/glp1-shot-tracker">注射记录</a>、<a href="/zh/glp1-medication-level">估算的药物水平曲线</a>、<a href="/zh/ai-calorie-tracker">拍照获取 AI 卡路里和蛋白质</a>以及<a href="/zh/glp1-appointment-report">就诊报告</a>。</p>
+
+    
+    
+    
+
+    <p class="meta">Dozify 是一款记录工具，不是医疗器械。它不推荐剂量，也不提供医疗建议。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza®、Rybelsus® 和 Foundayo™ 是其各自所有者的商标；Dozify 与这些公司没有关联。</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/zh" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>法律信息</h3>
+          
+          <a href="/zh/privacy">隐私政策</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/zh/terms">条款</a>
+          
+          <a href="/zh/editorial-policy">编辑方针</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>记录</h3>
+          
+          <a href="/zh/glp1-shot-tracker">GLP-1 注射记录</a>
+          
+          <a href="/zh/injection-site-tracker">注射部位记录</a>
+          
+          <a href="/zh/glp1-weight-tracker">GLP-1 体重记录</a>
+          
+          <a href="/zh/glp1-side-effect-journal">副作用日记</a>
+          
+          <a href="/zh/glp1-vial-tracker">药瓶记录</a>
+          
+          <a href="/zh/private-glp1-tracker">私密 GLP-1 记录</a>
+          
+          <a href="/zh/glp1-appointment-report">就诊报告</a>
+          
+          <a href="/zh/switch-glp1-tracker-app">从其他应用迁移</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>帮助</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glp1-pill-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/glp1-hap-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glp1-pill-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glp1-pill-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/glp1-pill-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/glp1-pill-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/glp1-pill-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/glp1-pill-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/glp1-pill-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/glp1-pill-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glp1-pill-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glp1-pill-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glp1-pill-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/glp1-pill-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/glp1-pill-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/glp1-pill-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glp1-pill-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glp1-pill-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/glp1-pill-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glp1-pill-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/glp1-pill-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glp1-pill-tracker" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

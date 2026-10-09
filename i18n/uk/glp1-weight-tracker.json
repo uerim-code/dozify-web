@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "Трекер ваги на GLP-1: вага й дози разом",
+  "description": "Тренд ваги поруч із дозами, які на нього вплинули, на одній шкалі часу. Записуйте вагу за секунди й бачте форму місяців схуднення, а не окремі цифри."
+ },
+ "t": {
+  "Weight trend": "Тренд ваги",
+  "Your weight and your doses on one line": "Ваша вага і ваші дози на одній лінії",
+  "Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.": "Вага в одному застосунку, а ін’єкції в іншому — це дві половини однієї картини. Dozify тримає їх на одній шкалі часу.",
+  "The question is never just \"what do I weigh\". It is what the last few weeks have looked like, and what was happening in them, which dose, which week, what else you logged.": "Питання ніколи не лише «скільки я важу». Це те, як виглядали останні кілька тижнів і що в них відбувалося: яка доза, який тиждень, що ще ви записали.",
+  "A trend, not a number": "Тренд, а не цифра",
+  "Your weight over three months, six, or a year, with the rate it has been moving and how far it is from your goal.": "Ваша вага за три місяці, пів року чи рік — із темпом змін і відстанню до мети.",
+  "Apple Health does the typing": "Apple Health вводить за вас",
+  "On iPhone, weight is read from Health automatically. If your scale writes there, you do not enter anything by hand.": "На iPhone вага автоматично зчитується зі Здоров’я. Якщо ваші ваги записують туди, вам не потрібно нічого вводити вручну.",
+  "No projection dressed up as a promise": "Жодного прогнозу, перевдягненого в обіцянку",
+  "The app shows what your own entries have done. It does not tell you what your body will do next.": "Застосунок показує, що зробили ваші власні записи. Він не каже, що ваше тіло робитиме далі.",
+  "People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.": "Для людей, які хочуть бачити форму кількох місяців, а не сьогоднішню ранкову цифру, і для тих, чия вага вже потрапляє в Apple Health із ваг. А також для всіх, кого на прийомі питали, як змінювалася вага після останньої зміни дози, і доводилося вгадувати.",
+  "The projection is arithmetic on the entries you have made: it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.": "Прогноз — це арифметика на основі ваших записів: він продовжує те, що робили ваші власні цифри, і не більше. Це не передбачення того, що робитиме ваше тіло, він не враховує зміни дози, хвороби чи відпустки, і це не ціль, яку хтось для вас встановив. Dozify не рекомендує ні ваги, ні темпу схуднення, ні дієти.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Завантажити в App Store</a>",
+  "Does it read my weight from Apple Health?": "Чи зчитує він мою вагу з Apple Health?",
+  "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.": "На iPhone — так. Якщо ваші ваги чи інший застосунок записують вагу в Здоров’я, Dozify її зчитує, і вам нічого не треба вводити. Можна також вводити вручну.",
+  "Kilograms or pounds?": "Кілограми чи фунти?",
+  "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.": "Будь-що. Одиниця — це налаштування, і її зміна перераховує вже наявні дані, а не перетлумачує цифри.",
+  "Does the projection tell me when I will reach my goal?": "Чи каже прогноз, коли я досягну мети?",
+  "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.": "Він каже, коли ви досягли б її, якби тренд ваших записів продовжувався без змін. Тіло так не працює, і застосунок пише про це на екрані, а не подає дату як план.",
+  "Can I log measurements as well?": "Чи можна записувати також виміри?",
+  "Yes, waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.": "Так, талію, стегна та інше, на тій самій шкалі часу, що й вагу, — для місяців, коли ваги рухаються менше, ніж сантиметр.",
+  "Does my weight leave the phone?": "Чи залишає моя вага телефон?",
+  "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.": "Ні. Вона зберігається на пристрої, як і решта ваших записів. Зчитування з Apple Health відбувається на телефоні; нічого не завантажується на сервер.",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/reading-a-weight-trend\">how to read a trend when the scale has stalled</a> and <a href=\"/en/articles/measurements-vs-scale\">when the tape moves and the scale does not</a>.": "Посібники з указаними джерелами: <a href=\"/en/articles/what-is-glp1\">що насправді таке GLP-1</a>, <a href=\"/en/articles/glp1-side-effects\">як упоратися з поширеними побічними ефектами</a>, <a href=\"/en/articles/how-to-inject-glp1\">як зробити укол шприц-ручкою, крок за кроком</a>, <a href=\"/en/articles/reading-a-weight-trend\">як читати тренд, коли вага застигла</a> і <a href=\"/en/articles/measurements-vs-scale\">коли сантиметр рухається, а ваги — ні</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Інше в Dozify: <a href=\"/en/glp1-appointment-report\">звіт для лікаря</a> і <a href=\"/en/glp1-shot-tracker\">трекер уколів</a>."
+ }
+}

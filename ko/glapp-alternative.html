@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glapp 대안 — GLP-1 기록을 그대로 가져오세요</title>
+  <meta name="description" content="Glapp을 떠나시나요? Dozify가 내보낸 파일을 읽고, 저장 전에 모든 기록을 미리 보여 주며, 인식하지 못한 열도 알려 줘요. 무료이고 업로드는 없어요.">
+  <meta property="og:url" content="https://dozify.app/ko/glapp-alternative">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="Glapp 대안 — GLP-1 기록을 그대로 가져오세요">
+  <meta property="og:description" content="Glapp을 떠나시나요? Dozify가 내보낸 파일을 읽고, 저장 전에 모든 기록을 미리 보여 주며, 인식하지 못한 열도 알려 줘요. 무료이고 업로드는 없어요.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — iPhone용 개인 GLP-1 주사·체중 기록 앱">
+  <meta name="twitter:title" content="Glapp 대안 — GLP-1 기록을 그대로 가져오세요">
+  <meta name="twitter:description" content="Glapp을 떠나시나요? Dozify가 내보낸 파일을 읽고, 저장 전에 모든 기록을 미리 보여 주며, 인식하지 못한 열도 알려 줘요. 무료이고 업로드는 없어요.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — iPhone용 개인 GLP-1 주사·체중 기록 앱">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="ko_KR">
+
+  <link rel="canonical" href="https://dozify.app/ko/glapp-alternative">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glapp-alternative">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glapp-alternatifi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glapp-alternative">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glapp-alternative">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glapp-alternative">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glapp-alternative">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glapp-alternative">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glapp-alternative">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glapp-alternative">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glapp-alternative">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glapp-alternative">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glapp-alternative">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glapp-alternative">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glapp-alternative">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glapp-alternative">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glapp-alternative">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glapp-alternative">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glapp-alternative">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glapp-alternative">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glapp-alternative">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glapp-alternative">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glapp-alternative">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glapp-alternative">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/ko",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "ko"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://dozify.app/ko/glapp-alternative#webpage",
+        "url": "https://dozify.app/ko/glapp-alternative",
+        "name": "Glapp 대안 — GLP-1 기록을 그대로 가져오세요",
+        "description": "Glapp을 떠나시나요? Dozify가 내보낸 파일을 읽고, 저장 전에 모든 기록을 미리 보여 주며, 인식하지 못한 열도 알려 줘요. 무료이고 업로드는 없어요.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "ko",
+        "breadcrumb": {
+          "@id": "https://dozify.app/ko/glapp-alternative#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/ko/glapp-alternative#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "홈",
+            "item": "https://dozify.app/ko"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Glapp 대안",
+            "item": "https://dozify.app/ko/glapp-alternative"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/ko" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">기능</a>
+        
+        <a href="/#privacy">개인정보</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/ko">홈</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Glapp 대안</span>
+      
+    </div>
+    <h1>Glapp에서 옮겨 오시나요? 기록을 그대로 가져오세요</h1>
+    
+    <p class="meta">Glapp에서 내보내고 Dozify에서 열면, 어떤 기록이든 저장되기 전에 저장될 모든 기록을 확인할 수 있어요. 무료이고, 파일은 휴대폰 밖으로 나가지 않아요.</p>
+    
+
+    <h2>기록을 옮기는 게 어려운 이유</h2>
+    <p>몇 달 치 주사, 체중, 부작용 기록은 사람들이 더 이상 마음에 들지 않는 앱을 계속 쓰는 이유예요. 1년 치 주사를 다시 입력하는 사람은 없으니, 기록이 곧 족쇄가 되죠. 그 기록을 옮기는 일이 유일하게 중요한 부분이에요.</p>
+    
+    
+
+    <h2>Dozify가 Glapp 내보내기 파일에서 찾는 열</h2>
+    <p>내보낸 파일을 열어 헤더 행을 비교해 보세요. Dozify는 아래 이름 중 하나로 열을 찾으며, 대소문자나 괄호 안에 적힌 단위는 신경 쓰지 않아요. 연결하지 못한 열은 미리보기 화면에 이름으로 표시되므로, 무엇이 빠졌는지 궁금해할 필요 없이 바로 확인할 수 있어요.</p>
+    <table class="compare">
+      <thead><tr><th>항목</th><th>인식하는 헤더 이름</th></tr></thead>
+      <tbody>
+      <tr><td><strong>날짜</strong></td><td><code>date · datum · entry date</code></td></tr>
+      <tr><td><strong>시간</strong></td><td><code>time</code></td></tr>
+      <tr><td><strong>용량</strong></td><td><code>dose · dose mg · units</code></td></tr>
+      <tr><td><strong>부위</strong></td><td><code>site · body site</code></td></tr>
+      <tr><td><strong>약물</strong></td><td><code>medication · product</code></td></tr>
+      <tr><td><strong>체중</strong></td><td><code>weight · weight kg · body weight</code></td></tr>
+      <tr><td><strong>부작용</strong></td><td><code>symptom · side effect · side-effect</code></td></tr>
+      <tr><td><strong>심한 정도</strong></td><td><code>severity · intensity</code></td></tr>
+      <tr><td><strong>메모</strong></td><td><code>notes · note</code></td></tr>
+      </tbody>
+    </table>
+    
+    
+
+    <h2>허락하기 전에는 아무것도 저장되지 않아요</h2>
+    <p>미리보기에서는 찾은 체중·주사·부작용 기록 수, 기록 기간, 이미 있는 기록 수, 읽지 못한 행 수와 그 이유를 보여 줘요. Dozify는 먼저 기기에 자동 백업을 저장하고, 가져오기 자체는 하나의 트랜잭션으로 처리돼요. 하나라도 실패하면 전부 되돌려요. 절반만 가져온 기록은 아예 없는 것보다 나쁘니까요.</p>
+    
+    
+
+    <h2>용량 열 이름이 “units”라면</h2>
+    <p>해당 행은 환산하지 않고 목록으로 보여 드려요. 유닛은 주사기의 부피이고, 거기에 몇 밀리그램이 들어 있는지는 바이알의 농도에 달려 있어요 — 파일에는 없는 숫자예요. 밀리그램 칸에 그대로 적으면 이후 어디에서도 의심하지 않은 채 잘못된 용량이 기록되니, Dozify는 해당 행을 보여 주고 처방의가 쓰는 양을 직접 입력하게 해요. <a href="/ko/articles/units-vs-milligrams">단일 환산법이 없는 이유 →</a></p>
+    
+    
+
+    <h2>가져오는 것과 가져오지 않는 것</h2>
+    <p><strong>가져오는 항목:</strong> 체중 기록, 날짜·시간·용량·부위·메모가 포함된 주사 기록, 심한 정도가 포함된 부작용 기록.</p>
+    <p><strong>가져오지 않는 항목:</strong> 바이알, 진행 사진, 체크인. 대응하는 항목이 없거나 연결 방식을 추측해야 하기 때문이에요. 추측으로 만든 기록은 차라리 없는 것보다 나빠요.</p>
+    <p><strong>주사 기록을 가져오려면 먼저 약물을 추가하세요.</strong> 기록된 주사는 반드시 하나의 약물에 속해야 해요. 아직 약물을 설정하지 않았다면 미리보기에서 그 사실을 알려 주고 체중과 부작용만 가져와요. 약물을 추가한 뒤 같은 파일을 다시 가져오면 되고, 이미 있는 기록은 두 번 추가되지 않아요.</p>
+    
+    
+    
+    
+
+    <h2>파일이 인식되지 않으면</h2>
+    <p>Dozify는 아무 말 없이 0개 행을 가져오는 대신 그 사실을 알려 줘요. 날짜 열이 있는 CSV라면 어떤 파일이든 읽을 수 있어요. 읽히지 않는다면 설정 → 기능 제안하기에서 파일을 보내 주세요. 해당 형식을 추가할게요. 읽지 못하는 파일은 여러분이 아니라 저희가 부족한 부분이에요.</p>
+    
+    
+
+    <p class="meta">Dozify는 기록 도구이며 의료기기가 아니에요. 용량을 권장하지 않으며 의학적 조언을 제공하지 않아요. Glapp은 해당 소유자의 상표이며, 여기서는 Dozify가 읽을 수 있는 파일 형식을 설명하기 위해서만 언급해요. Dozify는 Glapp과 관련이 없으며 이 페이지는 Glapp의 보증을 받지 않았어요. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza®, Rybelsus®는 각 소유자의 상표이며, Dozify는 이들 회사와 관련이 없어요.</p>
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-ko&mt=8" class="btn btn-primary">App Store에서 다운로드</a></p>
+    <p style="text-align:center"><a href="/ko/switch-glp1-tracker-app" class="link-arrow">다른 앱에서 옮겨 오시나요? →</a></p>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/ko" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>법적 고지</h3>
+          
+          <a href="/ko/privacy">개인정보 처리방침</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/ko/terms">이용약관</a>
+          
+          <a href="/ko/editorial-policy">편집 정책</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>기록</h3>
+          
+          <a href="/ko/glp1-shot-tracker">GLP-1 주사 기록</a>
+          
+          <a href="/ko/injection-site-tracker">주사 부위 기록</a>
+          
+          <a href="/ko/glp1-weight-tracker">GLP-1 체중 기록</a>
+          
+          <a href="/ko/glp1-side-effect-journal">부작용 일지</a>
+          
+          <a href="/ko/glp1-vial-tracker">바이알 기록</a>
+          
+          <a href="/ko/private-glp1-tracker">개인 GLP-1 기록 앱</a>
+          
+          <a href="/ko/glp1-appointment-report">진료용 리포트</a>
+          
+          <a href="/ko/switch-glp1-tracker-app">다른 앱에서 옮겨 오기</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>도움말</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glapp-alternative" hreflang="en" lang="en">English</a> · <a href="/tr/glapp-alternatifi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glapp-alternative" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glapp-alternative" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/glapp-alternative" hreflang="da" lang="da">Dansk</a> · <a href="/de/glapp-alternative" hreflang="de" lang="de">Deutsch</a> · <a href="/el/glapp-alternative" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/glapp-alternative" hreflang="es" lang="es">Español</a> · <a href="/fi/glapp-alternative" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/glapp-alternative" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glapp-alternative" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glapp-alternative" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glapp-alternative" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/glapp-alternative" hreflang="ko" lang="ko" aria-current="page">한국어</a> · <a href="/nb/glapp-alternative" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/glapp-alternative" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glapp-alternative" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glapp-alternative" hreflang="pt" lang="pt">Português</a> · <a href="/ru/glapp-alternative" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glapp-alternative" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/glapp-alternative" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glapp-alternative" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

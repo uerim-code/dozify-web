@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "GLP-1副作用日记：看清症状何时出现",
+  "description": "对医生说“我恶心过”和说“每次注射后约 15 小时”是两回事。记录症状及严重程度，并对照你的注射记录查看。"
+ },
+ "t": {
+  "See when your symptoms actually happened": "看清你的症状实际是什么时候出现的",
+  "Telling your doctor \"I had nausea\" and telling them \"about fifteen hours after each dose\" are not the same sentence.": "对医生说“我恶心过”，和对医生说“每次注射后大约十五个小时”，不是同一句话。",
+  "Side effects are remembered as a general impression and reported as one. The detail that would be useful (when, how strong, how often, relative to what) is exactly the part that fades first.": "副作用往往被记成一个笼统的印象，也被当作一个笼统的印象来报告。真正有用的细节（什么时候、有多强、多频繁、相对于什么）恰恰是最先被遗忘的部分。",
+  "Three taps, at the time": "发生时轻点三下",
+  "Eleven symptom types with a severity scale. Logged when it happens, not reconstructed at the appointment.": "十一种症状类型，附严重程度量表。在发生时记录，而不是在复诊时回忆重建。",
+  "Timing you can read off": "一眼就能看出的时间关系",
+  "How your own entries have sat relative to a dose. Looking backwards at what happened, not forwards at what might.": "你自己的记录相对于剂量处于什么位置。是回头看已经发生了什么，而不是往前推测可能会发生什么。",
+  "Optional journal fields": "可选的日记字段",
+  "Appetite, food noise, cravings, how meals are sitting: only if you chose to track them.": "食欲、食物噪音（应用中为“总想着吃的”）、渴望、饭后感觉如何：仅在你选择记录时出现。",
+  "People in the first weeks, and people who have just moved up a dose, the two points where symptoms are most worth writing down. It is also for anyone whose doctor has asked a question the memory cannot answer: how often, how bad, and how long after the injection.": "适合处于最初几周的人，以及刚刚加量的人，这两个时间点的症状最值得记下来。也适合医生问了记忆无法回答的问题的人：多频繁、多严重、注射后多久出现。",
+  "A journal is a record, not an assessment. Dozify cannot tell you whether a symptom comes from the medication, from something you ate or from something else entirely, and it does not triage. Severe or sudden symptoms (persistent vomiting, severe abdominal pain, signs of an allergic reaction) are a reason to contact a clinician or emergency services now, not to open an app.": "日记是记录，不是评估。Dozify 无法告诉你某个症状是来自药物、来自你吃的东西，还是完全来自别的原因，它也不做分诊。严重或突发的症状（持续呕吐、剧烈腹痛、过敏反应的迹象）是应该立即联系医生或急救服务的理由，而不是打开一个应用的理由。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">在 App Store 下载</a>",
+  "Which symptoms can I log?": "可以记录哪些症状？",
+  "Eleven of the common ones, nausea, vomiting, constipation, diarrhoea, reflux, fatigue, headache, dizziness, injection-site reaction, appetite change and stomach pain: each with a severity you choose. Anything else goes in the note.": "十一种常见症状：恶心、呕吐、便秘、腹泻、反流、疲劳、头痛、头晕、注射部位反应、食欲变化和胃痛：每一种都可以选择严重程度。其他情况写在备注里。",
+  "Does it tell me whether the medication caused it?": "它会告诉我是不是药物引起的吗？",
+  "No, and it should not. It shows you when your entries happened relative to your doses; what that means is a conversation with your doctor.": "不会，也不应该。它显示你的记录相对于剂量是什么时候发生的；这意味着什么，需要和你的医生讨论。",
+  "What should I do about a severe symptom?": "出现严重症状时该怎么办？",
+  "Contact your clinician or emergency services. Logging it afterwards is useful; logging it instead is not.": "联系你的医生或急救服务。事后记录下来是有用的；用记录代替就医则不是。",
+  "Do the entries appear in the doctor report?": "这些记录会出现在就诊报告中吗？",
+  "Yes, if you include that section: with their dates, their severity and where they fell relative to your injections.": "会，如果你包含了这一部分：连同日期、严重程度以及它们相对于注射的时间点。",
+  "Can I log things that are not symptoms?": "可以记录不是症状的内容吗？",
+  "Yes. Appetite, food noise, cravings and how meals are sitting are optional fields, for the people who find them worth watching.": "可以。食欲、食物噪音、渴望和饭后感觉如何都是可选字段，适合觉得值得关注它们的人。",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/side-effect-diary-that-helps\">what makes a diary useful to a clinician</a> and <a href=\"/en/articles/hydration-on-a-glp1\">what the label warns about fluids</a>.": "注明出处的指南：<a href=\"/en/articles/glp1-side-effects\">应对常见副作用</a>、<a href=\"/en/articles/what-is-glp1\">GLP-1 到底是什么</a>、<a href=\"/en/articles/glp1-injection-sites\">在哪里注射以及如何轮换</a>、<a href=\"/en/articles/side-effect-diary-that-helps\">怎样的日记对医生有用</a>以及<a href=\"/en/articles/hydration-on-a-glp1\">说明书对补水有哪些警示</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Dozify 的其他功能：<a href=\"/en/glp1-appointment-report\">就诊报告</a>和<a href=\"/en/glp1-shot-tracker\">注射记录</a>。"
+ }
+}

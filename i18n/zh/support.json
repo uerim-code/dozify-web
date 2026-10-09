@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "title": "Dozify支持：帮助、联系与订阅",
+  "description": "关于提醒、导入、备份、Premium 订阅和取消订阅的常见问题解答——以及在这里找不到答案时，如何联系到真人。"
+ },
+ "t": {
+  "← Back to home": "← 返回首页",
+  "We typically reply within 24-48 hours.": "我们通常会在 24-48 小时内回复。",
+  "Email Support": "邮件支持",
+  "For general questions, bug reports, or feature requests, contact us at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>.": "一般问题、错误报告或功能建议，请发送邮件至 <a href=\"mailto:support@dozify.app\">support@dozify.app</a>。",
+  "Privacy & KVKK": "隐私与 KVKK",
+  "For data requests, deletion, or KVKK applications, write to <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>.": "数据请求、删除或 KVKK 申请，请写信至 <a href=\"mailto:privacy@dozify.app\">privacy@dozify.app</a>。",
+  "Frequently Asked Questions": "常见问题",
+  "Where is my data stored?": "我的数据存储在哪里？",
+  "All your data (medications, injections, weight, side effects) is stored only on your phone, in an encrypted local database. Nothing is uploaded to any server. Dozify has no cloud.": "你的所有数据（药物、注射、体重、副作用）都只存储在你的手机上，保存在加密的本地数据库中。不会上传到任何服务器。Dozify 没有云端。",
+  "If I switch phones, will I lose my data?": "换手机会丢失数据吗？",
+  "Not if you back up first. Go to Settings → Backup to create a password-protected, encrypted backup file, then restore it on your new device from the same screen. There's still no cloud sync: the backup file itself is yours to keep (Files, email, AirDrop, etc.).": "只要先备份就不会。前往“设置 → 备份与恢复”创建一个受密码保护的加密备份文件，然后在新设备上的同一界面恢复。仍然没有云同步：备份文件本身由你保管（文件 App、邮件、隔空投送等）。",
+  "How do I cancel Premium?": "如何取消 Premium？",
+  "Manage or cancel your subscription in the App Store (Settings → Apple ID → Subscriptions). Cancelling stops future renewals: you keep Premium until the end of the period you already paid for.": "通过 App Store（设置 → Apple ID → 订阅）管理或取消订阅。取消后将停止今后的续订：在已付费的周期结束前，你仍可继续使用 Premium。",
+  "Will my Premium work on another device?": "我的 Premium 可以在另一台设备上使用吗？",
+  "How do I add the Ozempic® / Wegovy® pen form?": "如何添加 Ozempic® / Wegovy® 注射笔剂型？",
+  "Go to Medications → Add → select Ozempic or Wegovy → choose \"Pre-filled dose pen\" → set your prescribed dose.": "前往“我的药物 → 添加药物 → 选择 Ozempic 或 Wegovy → 选择‘预填充笔’→ 设置你的处方剂量”。",
+  "Why can I pick Mounjaro® as both a pen and a vial?": "为什么 Mounjaro® 既可以选注射笔又可以选药瓶？",
+  "Mounjaro comes as a pre-filled KwikPen in some markets and as a multi-dose vial in others. Dozify offers both forms so you can pick the one that matches the product you were prescribed.": "Mounjaro 在一些市场是预填充 KwikPen，在另一些市场是多剂量药瓶。Dozify 两种剂型都提供，让你可以选择与你的处方产品相符的那一种。",
+  "My reminders are not working: what should I do?": "我的提醒不起作用：该怎么办？",
+  "Open your phone Settings → Notifications → Dozify → enable notifications. Also check that \"Do Not Disturb\" or a Focus mode is not silencing Dozify.": "打开手机的“设置 → 通知 → Dozify”，然后开启通知。另外请确认“勿扰模式”或某个专注模式没有将 Dozify 静音。",
+  "How do I delete all my data?": "如何删除我的所有数据？",
+  "Settings → Delete My Data → choose to delete selected categories or everything. Uninstalling the app also permanently deletes all local data.": "“设置 → 删除数据 → 选择删除所选类别或全部数据”。卸载应用也会永久删除所有本地数据。",
+  "How do I create a PDF report?": "如何生成 PDF 报告？",
+  "Go to Reports → New Report → choose summary, detailed, or doctor-visit format → select date range → Generate. The PDF can be shared by email, AirDrop, or any other app.": "前往“报告 → 新建报告 → 选择摘要、详细或就诊格式 → 选择日期范围 → 生成”。PDF 可以通过邮件、隔空投送或任何其他应用分享。",
+  "Does the app give medical advice?": "这款应用提供医疗建议吗？",
+  "No. Dozify is a tracking tool only. It does not recommend doses or interpret medical results. Always consult your doctor or pharmacist for clinical decisions.": "不提供。Dozify 只是一款记录工具。它不推荐剂量，也不解读医学检查结果。临床决定请始终咨询你的医生或药剂师。",
+  "Yes. On your new device, open the Premium screen and tap \"Restore purchases\" while signed into the same Apple ID you subscribed with.": "可以。在新设备上，登录你订阅时使用的同一个 Apple ID，打开 Premium 界面并轻点“恢复购买”。"
+ }
+}

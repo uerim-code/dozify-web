@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "title": "Alternativa a Glapp: trae tu historial de GLP-1",
+  "description": "¿Dejas Glapp? Dozify lee la exportación, te muestra cada registro antes de guardarlo y te dice qué columnas no pudo ubicar. Gratis y sin subir nada."
+ },
+ "t": {
+  "Glapp alternative": "Alternativa a Glapp",
+  "Coming from Glapp? Bring the history with you": "¿Vienes de Glapp? Trae tu historial contigo",
+  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Exporta desde Glapp, ábrelo en Dozify y ve cada registro que se va a guardar antes de que se guarde ninguno. Gratis, y el archivo nunca sale de tu móvil.",
+  "The columns Dozify looks for in a Glapp export": "Las columnas que busca Dozify en una exportación de Glapp",
+  "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
+  "<code>time</code>": "<code>time</code>",
+  "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
+  "<strong>Site</strong>": "<strong>Zona</strong>",
+  "<code>site · body site</code>": "<code>site · body site</code>",
+  "<strong>Medication</strong>": "<strong>Medicamento</strong>",
+  "<code>medication · product</code>": "<code>medication · product</code>",
+  "<code>weight · weight kg · body weight</code>": "<code>weight · weight kg · body weight</code>",
+  "<strong>Side effect</strong>": "<strong>Efecto secundario</strong>",
+  "<code>symptom · side effect · side-effect</code>": "<code>symptom · side effect · side-effect</code>",
+  "<strong>Severity</strong>": "<strong>Intensidad</strong>",
+  "<code>severity · intensity</code>": "<code>severity · intensity</code>",
+  "<code>notes · note</code>": "<code>notes · note</code>",
+  "If your dose column is headed “units”": "Si tu columna de dosis se titula «units»",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "Esas filas se te muestran en lugar de convertirse. Una unidad es un volumen en una jeringa, y cuántos miligramos contiene depende de la concentración de tu vial, una cifra que el archivo no incluye. Escribirlas en un campo de miligramos registraría una dosis equivocada sin que nada de lo que viene después lo cuestionara, así que Dozify te las muestra y te deja introducir la cantidad que usa quien te lo receta. <a href=\"/en/articles/units-vs-milligrams\">Por qué no hay una única conversión →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify es una herramienta de registro, no un producto sanitario. No recomienda dosis ni ofrece consejo médico. Glapp es una marca registrada de su titular y se menciona aquí solo para describir un formato de archivo que Dozify puede leer; Dozify no está afiliada a Glapp y esta página no cuenta con su respaldo. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® y Rybelsus® son marcas registradas de sus respectivos titulares; Dozify no está afiliada a estas empresas.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Descárgalo en el App Store</a>"
+ }
+}

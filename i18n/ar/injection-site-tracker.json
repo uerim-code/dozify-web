@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "متتبع مواضع الحقن — بدّل المواضع دون ملاحظات",
+  "description": "تتذكّر خريطة الجسم الموضع التالي، فلا تحتاج إلى تدوين ملاحظات. سجّل أين ذهبت كل حقنة GLP-1 وشاهد تبديل المواضع في لمحة واحدة."
+ },
+ "t": {
+  "Site rotation": "تبديل المواضع",
+  "Rotate your sites without keeping notes": "بدّل مواضعك دون الاحتفاظ بملاحظات",
+  "The body map remembers where the last few went, and suggests the spot you have gone longest without using.": "تتذكّر خريطة الجسم أين ذهبت الحقن القليلة الأخيرة، وتقترح النقطة التي لم تستخدمها منذ أطول مدة.",
+  "Rotation is one of those things that is simple in principle and impossible to hold in your head. Six sites, one injection a week, and a note somewhere that you stopped updating in March.": "تبديل المواضع من تلك الأمور البسيطة مبدئياً والمستحيل حفظها في الذهن. ستة مواضع، وحقنة واحدة في الأسبوع، وملاحظة في مكان ما توقّفت عن تحديثها في مارس.",
+  "A map instead of a memory": "خريطة بدلاً من الذاكرة",
+  "Tap where you injected. The next time, the spot you have used least recently is already selected.": "المس المكان الذي حقنت فيه. في المرة التالية، تكون النقطة التي استخدمتها منذ أطول مدة محدّدة مسبقاً.",
+  "Your own site names": "أسماء مواضعك الخاصة",
+  "If you rotate somewhere the diagram does not name, write it in. The app will not draw an anatomy it does not know, but it will remember your label.": "إذا كنت تبدّل إلى مكان لا يسمّيه المخطط، فاكتبه بنفسك. لن يرسم التطبيق تشريحاً لا يعرفه، لكنه سيتذكّر تسميتك.",
+  "A gentle warning, not a rule": "تنبيه لطيف، لا قاعدة",
+  "Pick a site you used last week and the app says so. It does not stop you: it is your body and your clinician's instruction.": "اختر موضعاً استخدمته الأسبوع الماضي وسيقول التطبيق ذلك. لكنه لا يمنعك: إنه جسمك وتعليمات طبيبك.",
+  "People who have been told to rotate and not given a way to keep track of it, and people who have started to notice that one patch of the abdomen feels different from the rest. It also helps anyone injecting more than once a week, where the pattern is harder to hold in your head than a single weekly spot.": "لمن طُلب منهم التبديل ولم يُعطَوا وسيلة لتتبّعه، ولمن بدؤوا يلاحظون أن جزءاً من البطن يختلف ملمسه عن الباقي. ويساعد أيضاً كل من يحقن أكثر من مرة في الأسبوع، حيث يصعب حفظ النمط في الذهن أكثر من نقطة أسبوعية واحدة.",
+  "The body map records where you injected and suggests which area comes next in the rotation. It does not examine the site: it cannot tell you whether the skin there is suitable today, and a lump or a hardened area is something to show a clinician, not something an app should judge. The approved areas come from the manufacturer's instructions for your medication, and those instructions are what to follow if they differ.": "تسجّل خريطة الجسم أين حقنت وتقترح المنطقة التالية في التبديل. لا تفحص الموضع: لا تستطيع إخبارك ما إذا كان الجلد هناك مناسباً اليوم، والكتلة أو المنطقة المتصلّبة شيء تعرضه على طبيب، لا شيء يحكم عليه تطبيق. المناطق المعتمدة مأخوذة من تعليمات الشركة المصنّعة لدوائك، وتلك التعليمات هي ما تتّبعه إذا اختلفت.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-en&mt=8\" class=\"btn btn-primary\">حمّله من App Store</a>",
+  "Which sites can I choose from?": "من أي المواضع يمكنني الاختيار؟",
+  "The abdomen, the thigh and the upper arm, split into left and right and into the areas within each. Those are the areas the manufacturers' instructions describe for subcutaneous GLP-1 injections.": "البطن والفخذ وأعلى الذراع، مقسّمة إلى يسار ويمين وإلى مناطق داخل كل منها. هذه هي المناطق التي تصفها تعليمات الشركات المصنّعة لحقن GLP-1 تحت الجلد.",
+  "How does the suggestion work?": "كيف يعمل الاقتراح؟",
+  "It looks at where your recent injections went and points at the area you have used least recently. It is a suggestion on the screen, not a rule: you can log anywhere you actually injected.": "ينظر إلى أين ذهبت حقنك الأخيرة ويشير إلى المنطقة التي استخدمتها منذ أطول مدة. إنه اقتراح على الشاشة، لا قاعدة: يمكنك تسجيل أي مكان حقنت فيه فعلاً.",
+  "Does it warn me if I use the same spot again?": "هل ينبّهني إذا استخدمت النقطة نفسها مرة أخرى؟",
+  "It shows you what you have used recently, so a repeat is visible before you log it. It does not block anything; you may have a reason, and the app does not overrule you.": "يُظهر لك ما استخدمته مؤخراً، فيكون التكرار مرئياً قبل أن تسجّله. ولا يمنع شيئاً؛ فقد يكون لديك سبب، والتطبيق لا يتجاوز قرارك.",
+  "I inject in the same area every time. Is that a problem?": "أحقن في المنطقة نفسها كل مرة. هل هذه مشكلة؟",
+  "That is a question for your clinician or pharmacist. What Dozify can do is show them the pattern: the report includes where your injections have gone over the period you pick.": "هذا سؤال لطبيبك أو الصيدلي. ما يستطيعه Dozify هو أن يُريهما النمط: يتضمّن التقرير أين ذهبت حقنك خلال الفترة التي تختارها.",
+  "Does this replace the leaflet that came with my pen?": "هل يحلّ هذا محل النشرة المرفقة بقلمي؟",
+  "No. The leaflet is the instruction; this is a record of what you did. Where the two disagree, the leaflet is right.": "لا. النشرة هي التعليمات؛ وهذا سجل لما فعلته. وحيث يختلفان، فالنشرة هي الصحيحة.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a> and <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/injection-site-lumps\">what the labels report about lumps at a site</a>.": "أدلة تذكر مصادرها: <a href=\"/en/articles/glp1-injection-sites\">أين تحقن وكيف تبدّل الموضع</a>، و<a href=\"/en/articles/how-to-inject-glp1\">كيف تحقن القلم، خطوة بخطوة</a>، و<a href=\"/en/articles/glp1-side-effects\">التعامل مع الآثار الجانبية الشائعة</a>، و<a href=\"/en/articles/injection-site-lumps\">ما تذكره النشرات عن الكتل في موضع الحقن</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a>.": "في أماكن أخرى من Dozify: <a href=\"/en/glp1-shot-tracker\">متتبع الحقن</a> و<a href=\"/en/glp1-side-effect-journal\">يوميات الآثار الجانبية</a>."
+ }
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>单位还是毫克？没有统一的换算</title>
+  <meta name="description" content="FDA 记录到患者用了预期剂量五到二十倍的药。一个“单位”是体积而不是药量——所以不存在通用的换算方法。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/zh/articles/units-vs-milligrams">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="单位还是毫克？没有统一的换算">
+  <meta property="og:description" content="FDA 记录到患者用了预期剂量五到二十倍的药。一个“单位”是体积而不是药量——所以不存在通用的换算方法。">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="twitter:title" content="单位还是毫克？没有统一的换算">
+  <meta name="twitter:description" content="FDA 记录到患者用了预期剂量五到二十倍的药。一个“单位”是体积而不是药量——所以不存在通用的换算方法。">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="zh_CN">
+
+  <link rel="canonical" href="https://dozify.app/zh/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/birim-mi-miligram-mi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/units-vs-milligrams">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/units-vs-milligrams">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/zh",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "zh-Hans"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/zh/editorial-policy",
+        "description": "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/zh/articles/units-vs-milligrams#webpage",
+        "url": "https://dozify.app/zh/articles/units-vs-milligrams",
+        "name": "单位还是毫克？没有统一的换算",
+        "description": "FDA 记录到患者用了预期剂量五到二十倍的药。一个“单位”是体积而不是药量——所以不存在通用的换算方法。",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "zh-Hans",
+        "breadcrumb": {
+          "@id": "https://dozify.app/zh/articles/units-vs-milligrams#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "那么 0.25 mg 是多少个单位？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "没有一个对所有药瓶都成立的答案，这也正是错误会发生的原因。它取决于你那个药瓶的浓度。FDA 转载的示例中，某一种特定产品的 0.25 mg 对应 5 个单位，而同一份警示也强调，浓度在不同调配方之间以及同一调配方内部都会不同。请问给你开药的人或配制它的药房。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "调配司美格鲁肽获得 FDA 批准了吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "没有。FDA： “调配药物不经过 FDA 关于安全性、质量或有效性的上市前审查” ，并且 “只应用于其医疗需求无法通过现有 FDA 批准药物得到满足的患者。”"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "我觉得自己注射多了。FDA 看到过什么情况？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "请先就医。作为参考，报告的事件包括 “胃肠道反应（如恶心、呕吐、腹痛）、晕厥、头痛、偏头痛、脱水、急性胰腺炎和胆结石。” 警示还指出， “由于司美格鲁肽的半衰期较长，约为一周，可能需要较长时间的观察和针对过量症状的治疗。”"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "为什么剂量列写的是单位时，我的导入会被拒绝？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "因为把 25 个单位写进毫克字段，在某些药瓶的情况下会记录成五十倍的剂量，而后续没有任何环节会对此提出质疑。这些行会连同原因一起列出给你看，让你可以用处方医生使用的剂量单位重新输入。"
+            }
+          }
+        ],
+        "headline": "单位还是毫克？为什么没有统一的换算",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-27",
+        "dateModified": "2026-08-27",
+        "lastReviewed": "2026-08-27",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "FDA - Dosing errors associated with compounded injectable semaglutide products",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-patients-dosing-errors-associated-compounded"
+          },
+          {
+            "@type": "WebPage",
+            "name": "FDA MedWatch - Adverse Event Reporting Program",
+            "url": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program"
+          },
+          {
+            "@type": "WebPage",
+            "name": "MedlinePlus (NIH) - Semaglutide Injection",
+            "url": "https://medlineplus.gov/druginfo/meds/a618008.html"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/zh/articles/units-vs-milligrams#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://dozify.app/zh"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "文章",
+            "item": "https://dozify.app/zh/articles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "单位还是毫克",
+            "item": "https://dozify.app/zh/articles/units-vs-milligrams"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/zh" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">功能</a>
+        
+        <a href="/zh/support">支持</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/zh">首页</a>
+        
+        <span aria-hidden="true">/</span>
+        <a href="/zh/articles">文章</a>
+        
+        <span aria-hidden="true">/</span>
+        <span>单位还是毫克</span>
+        
+      </div>
+
+      <div class="article-hero">
+        <h1>单位还是毫克？为什么没有统一的换算</h1>
+        
+        <p class="article-meta">作者：Ümit Can Erim · 发布于 2026 年 8 月 27 日 · 更新于 2026 年 8 月 27 日 · 来源核对于 2026 年 8 月 27 日 · <a href="/zh/editorial-policy">这些指南是如何撰写的</a></p>
+        
+        <p class="article-lede">如果你搜索过一毫克司美格鲁肽等于多少个单位，诚实的回答是：不知道你的药瓶，谁也无法告诉你。一个单位是注射器上的一道刻度（一个体积），而这个体积里有多少药，取决于你手上那个药瓶的浓度。FDA 记录了靠猜的后果：患者使用了预期剂量五到二十倍的药。</p>
+        
+      </div>
+
+      <div class="article-body">
+        <p><strong>请先阅读这一段。</strong>本页引用 FDA 的一份公开警示。它不为你做任何换算，也不告诉你你的剂量是多少或应该是多少：这个数字属于给你开药的人，以及你自己药瓶上的标签。如果你认为自己用的药量超过了预期，请联系你的处方医生或就医。</p>
+        
+
+        <h2>FDA 报告了什么</h2>
+        
+        <p>2024 年 7 月 26 日，FDA 发布了一份关于调配（compounded）注射用司美格鲁肽的警示。它的第一句话就把整个问题说清楚了：<em>“FDA 收到了不良事件报告，其中一些需要住院治疗，这些事件可能与调配司美格鲁肽注射产品相关的给药错误所致的过量用药有关。”</em></p>
+        
+        <p>警示对具体经过写得很明确。<em>“大多数报告描述的是患者在自行给药时，从多剂量药瓶中误抽了超过处方剂量的药液。在这些情况下，患者使用了预期剂量五到 20 倍的司美格鲁肽。”</em>它为之配图的例子是：被告知用 U-100 胰岛素注射器从药瓶中抽取 <em>5 个单位（0.05 毫升）</em>的患者，<em>“误用了 50 个单位。”</em></p>
+        
+        <p>开药者也犯了同类错误，只是方向相反。<em>“一位医疗人员原本打算给予 0.25 毫克（5 个单位），却开成了 25 个单位，导致一名患者接受了预期剂量的五倍并出现严重呕吐。”</em>另一位<em>“开了 20 个单位而不是 2 个单位，影响了三名患者。”</em></p>
+        
+
+        <h2>一个单位不是一份药量</h2>
+        
+        <p>这正是让这种错误如此容易发生的地方。胰岛素注射器以单位标刻度，是因为胰岛素有标准浓度，所以在这些注射器上，一个单位能可靠地代表一个已知的量。司美格鲁肽没有这样的约定。FDA 说得很直白：使用说明<em>“可能会指示用户以‘单位’（其体积可能因浓度而异）而不是毫克或毫升来注射司美格鲁肽。”</em></p>
+        
+        <p>所以“25 个单位”不是一个剂量。它是针筒上的一段距离。两个浓度不同的药瓶，同样的 25 道刻度，就是两份不同的药量。</p>
+        
+
+        <h2>为什么浓度不是你能查到的</h2>
+        
+        <p>因为它没有标准。FDA：<em>“产品浓度也可能因调配方而异，而且同一调配方可能提供多种浓度的调配司美格鲁肽产品。”</em>不仅不同供应商之间不同，同一个供应商内部也不同。你在网上找到的换算表，是针对别人的药瓶写的，而警示中就描述了一位正是在网上搜索这个问题、结果用了预期剂量五倍的患者。</p>
+        
+        <p>获批产品从设计上就避开了这整个问题。FDA 指出，它们<em>“以毫克给药，有标准浓度，目前只以预充式注射笔的形式提供。”</em>没有需要读刻度的注射器，也就不会读错刻度。</p>
+        
+
+        <h2>警示在脚注中补充的两点</h2>
+        
+        <p>两点都很容易被忽略，也都值得知道。第一，一些调配产品含有司美格鲁肽以外的成分（FDA 点名了氰钴胺（B-12）、吡哆醇（B-6）、左卡尼汀和 NAD），并指出<em>“司美格鲁肽与其他成分联合使用的安全性和有效性尚未确立。”</em>第二，一些产品使用的是盐形式：<em>“司美格鲁肽钠和醋酸司美格鲁肽。这些盐形式与获批药物中使用的活性成分不同。”</em></p>
+        
+
+        <h2>警示要求人们怎么做</h2>
+        
+        <p>它给患者的建议只有一句话，而且不是一道计算题：<em>“FDA 鼓励患者与其医疗人员或调配方沟通，了解如何量取和注射调配司美格鲁肽的预期剂量。”</em>对开药者和调配方，它要求根据预期剂量选用合适规格的注射器，并就如何量取提供指导。</p>
+        
+        <p>它还要求进行报告。不良事件和用药错误应报告给 <a href="https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program" rel="nofollow noopener" target="_blank">MedWatch</a>，即 FDA 的不良事件报告项目。</p>
+        
+
+        <h2>记录在这里能做什么，以及必须拒绝做什么</h2>
+        
+        <p>记录能帮上忙的是事实部分：药瓶里是什么、处方医生说的剂量是多少、你用了多少、什么时候用的。把这些放在一个地方是值得的，而且一旦出了问题，别人要问的正是这些。</p>
+        
+        <p>它绝不能做的是换算。Dozify 不会把“25 个单位”换算成毫克数；如果你从另一个应用导入的历史记录中，剂量列是以单位写的，这些行会被拒绝并展示给你，而不是被悄悄换算，因为换算需要那个特定药瓶的浓度，而文件里并没有这个信息。去猜它，正是本页讲的那种错误。</p>
+        
+      </div>
+
+      <div class="article-cta">
+        <h3>记录确定的事，而不是猜测的事</h3>
+        
+        <p>剂量、药瓶和日期都在你手机上的同一个地方。Dozify 记录你和处方医生的决定；它从不提出剂量，也从不换算一个它无法核实的单位。</p>
+        
+        <a href="/#download" class="btn btn-primary">下载应用</a>
+        
+        <a href="/zh/glp1-vial-tracker" class="link-arrow">了解药瓶记录如何运作 →</a>
+        
+      </div>
+
+      <div class="article-faq">
+        <h2>问题</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>那么 0.25 mg 是多少个单位？</h3>
+            
+            <p>没有一个对所有药瓶都成立的答案，这也正是错误会发生的原因。它取决于你那个药瓶的浓度。FDA 转载的示例中，某一种特定产品的 0.25 mg 对应 5 个单位，而同一份警示也强调，浓度在不同调配方之间以及同一调配方内部都会不同。请问给你开药的人或配制它的药房。</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>调配司美格鲁肽获得 FDA 批准了吗？</h3>
+            
+            <p>没有。FDA：<em>“调配药物不经过 FDA 关于安全性、质量或有效性的上市前审查”</em>，并且<em>“只应用于其医疗需求无法通过现有 FDA 批准药物得到满足的患者。”</em></p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>我觉得自己注射多了。FDA 看到过什么情况？</h3>
+            
+            <p>请先就医。作为参考，报告的事件包括<em>“胃肠道反应（如恶心、呕吐、腹痛）、晕厥、头痛、偏头痛、脱水、急性胰腺炎和胆结石。”</em>警示还指出，<em>“由于司美格鲁肽的半衰期较长，约为一周，可能需要较长时间的观察和针对过量症状的治疗。”</em></p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>为什么剂量列写的是单位时，我的导入会被拒绝？</h3>
+            
+            <p>因为把 25 个单位写进毫克字段，在某些药瓶的情况下会记录成五十倍的剂量，而后续没有任何环节会对此提出质疑。这些行会连同原因一起列出给你看，让你可以用处方医生使用的剂量单位重新输入。</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p>科普信息，不构成医疗建议。Dozify 是一款个人记录应用，不是医疗器械。本页引用 FDA 的一份公开警示，不为任何个人推荐剂量、换算、时间表或治疗方案。请始终遵循药物随附的说明和你的处方医生的指示。如果症状严重，请就医或拨打当地急救电话。</p>
+        
+      </div>
+
+      <div class="references">
+        <h2>参考资料</h2>
+        <ol>
+          <li><a href="https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-patients-dosing-errors-associated-compounded" rel="nofollow noopener" target="_blank">FDA — Dosing errors associated with compounded injectable semaglutide products (26 July 2024)</a></li>
+          <li><a href="https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program" rel="nofollow noopener" target="_blank">FDA — MedWatch Adverse Event Reporting Program</a></li>
+          <li><a href="https://medlineplus.gov/druginfo/meds/a618008.html" rel="nofollow noopener" target="_blank">MedlinePlus (NIH). Semaglutide Injection</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/zh" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>法律信息</h3>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/zh/terms">条款</a>
+          
+          <a href="/zh/editorial-policy">编辑方针</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>帮助</h3>
+          
+          <a href="/zh/support">支持</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/articles/units-vs-milligrams" hreflang="en" lang="en">English</a> · <a href="/tr/makaleler/birim-mi-miligram-mi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/articles/units-vs-milligrams" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/articles/units-vs-milligrams" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/articles/units-vs-milligrams" hreflang="da" lang="da">Dansk</a> · <a href="/de/articles/units-vs-milligrams" hreflang="de" lang="de">Deutsch</a> · <a href="/el/articles/units-vs-milligrams" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/articles/units-vs-milligrams" hreflang="es" lang="es">Español</a> · <a href="/fi/articles/units-vs-milligrams" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/articles/units-vs-milligrams" hreflang="fr" lang="fr">Français</a> · <a href="/hi/articles/units-vs-milligrams" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/articles/units-vs-milligrams" hreflang="it" lang="it">Italiano</a> · <a href="/ja/articles/units-vs-milligrams" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/articles/units-vs-milligrams" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/articles/units-vs-milligrams" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/articles/units-vs-milligrams" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/articles/units-vs-milligrams" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/articles/units-vs-milligrams" hreflang="pt" lang="pt">Português</a> · <a href="/ru/articles/units-vs-milligrams" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/articles/units-vs-milligrams" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/articles/units-vs-milligrams" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/articles/units-vs-milligrams" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "GLP-1の医師向けレポート｜要約を持って診察へ",
+  "description": "3か月分を10分で説明する診察のために。期間と含める内容を選ぶと、Dozifyが用量、体重、副作用をまとめた見やすいPDFを作成します。"
+ },
+ "t": {
+  "Walk in with a summary, not a memory": "記憶ではなく、要約を持って診察へ",
+  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "ワンタップで、3か月分のあなた自身の記録が、限られた10分で医師が読める1ページになります。",
+  "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "診察は短く、振り返ることは多いものです：何をいつ使ったか、体重がどう動いたか、どの副作用がいつ出たか、そして聞こうと思っていた2つの質問。",
+  "A clinical summary, generated on the device": "デバイス上で作成される臨床サマリー",
+  "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "用量と投与間隔、体重の推移、副作用、部位のローテーション、開封中のバイアル：30日、90日、180日分。",
+  "Your questions, printed at the end": "あなたの質問を最後に印刷",
+  "Write them down as they occur to you during the month. They come out on the last page.": "その月のうちに、思いついたときに書き留めておきましょう。最後のページに印刷されます。",
+  "Yours to share, or not": "共有するかどうかはあなた次第",
+  "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDFはスマートフォン上で作成されます。何もアップロードされず、どこかに送るかどうかはあなたが決めます。",
+  "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "短い経過観察の診察で長い期間を説明しなければならない方、そしてこれまでの経過を見たことのない新しい医療者に移る方のために。用量の変更が検討される診察のためでもあります。その判断はまさに、直近8週間に何が起きたかにもとづくからです。",
+  "The report is your record laid out clearly. It is not a clinical assessment, it contains no interpretation, and nothing in it should be read as a recommendation, the reading is your doctor's. It also only contains what you logged: a week you did not record is a gap in the report, not a week without doses.": "レポートは、あなたの記録をわかりやすく並べたものです。臨床的な評価ではなく、解釈も含まず、その内容を推奨として読むべきものはありません。読み解くのは医師です。また、含まれるのはあなたが記録したものだけです。記録しなかった週はレポートの空白であり、投与がなかった週ではありません。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>",
+  "What is in the report?": "レポートには何が含まれますか？",
+  "Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down: over the range you pick.": "選んだ期間の、用量と投与間隔、体重の推移、重症度つきの副作用、注射部位、開封中のバイアル、そして書き留めた質問です。",
+  "Which date ranges can I choose?": "どの期間を選べますか？",
+  "30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician.": "30日、90日、180日です。90日はたいてい診察と診察の間隔に合います。長いほうは、新しい医療者の初診向けです。",
+  "Can I leave sections out?": "一部のセクションを省けますか？",
+  "Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about.": "はい。セクションごとにスイッチがあるので、診察の内容に合わせて、用量と体重だけのレポートにすることもできます。",
+  "Can I send it before the appointment?": "診察の前に送れますか？",
+  "The PDF is a file on your phone. Print it, email it, put it in a portal: that is your decision, made after you have seen it.": "PDFはスマートフォン上のファイルです。印刷する、メールで送る、ポータルにアップロードする：内容を確認した後に、あなたが決めることです。",
+  "Is anything uploaded to make it?": "作成のために何かがアップロードされますか？",
+  "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "いいえ。すでにある記録からデバイス上で作成されます。作成のためにどこかに何かが送られることはありません。",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "出典を明記したガイド：<a href=\"/en/articles/glp1-side-effects\">よくある副作用への対処</a>、<a href=\"/en/articles/what-is-glp1\">GLP-1とは何か</a>、<a href=\"/en/articles/glp1-injection-sites\">どこに注射し、どうローテーションするか</a>、そして<a href=\"/en/articles/glp1-appointment-checklist\">診察そのもののために準備しておくこと</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Dozifyのそのほかの機能：<a href=\"/en/glp1-side-effect-journal\">副作用日記</a>と<a href=\"/en/glp1-weight-tracker\">体重の推移</a>。"
+ }
+}

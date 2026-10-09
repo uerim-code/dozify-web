@@ -21,7 +21,7 @@ import os
 import re
 import sys as _sys
 _sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
-from i18n_common import translated_files  # noqa: E402
+from i18n_common import LANGS, translated_files  # noqa: E402
 import sys
 from collections import Counter
 
@@ -95,8 +95,9 @@ def main() -> int:
         else:
             descs[desc] += 1
             lo, hi = desc_range(rel)
-            if not (lo <= len(desc) <= hi):
-                findings.append(f"{rel}: description {len(desc)} karakter (hedef {lo}–{hi})")
+            n = len(html_mod.unescape(desc))  # &quot; is one character in the snippet
+            if not (lo <= n <= hi):
+                findings.append(f"{rel}: description {n} karakter (hedef {lo}–{hi})")
 
         if not canon:
             findings.append(f"{rel}: canonical yok")
@@ -117,7 +118,7 @@ def main() -> int:
 
         lang = rel.split(os.sep)[0]
         declared = field(src, r'<html\s+lang="(.*?)"')
-        if declared != lang:
+        if declared != (LANGS[lang][0] if lang in LANGS else lang):
             findings.append(f"{rel}: <html lang=\"{declared}\"> ama sayfa /{lang}/ altında")
 
         # The share card. Half these tags were missing before Faz 2, so a link

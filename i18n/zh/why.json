@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "title": "为什么选择Dozify：它做什么，拒绝做什么",
+  "description": "为已经在使用 GLP-1 处方药的人打造的记录应用。它记录你和医生共同做出的决定；它不会建议剂量，也不会替你解读任何结果。"
+ },
+ "t": {
+  "← Back to home": "← 返回首页",
+  "Five things this app is built around. Each one is a claim you can check against how it behaves.": "这款应用围绕五件事打造。每一件都是一个你可以对照它的实际表现去核实的承诺。",
+  "Your records stay on your phone": "你的记录留在你的手机上",
+  "Doses, weights, side effects and photos are stored in a database on your device. Usage analytics never carries a medication name or a symptom, and progress photos are never uploaded anywhere. The one photo that does leave the phone is a meal photo you choose to analyse with <a href=\"/en/ai-calorie-tracker\">AI calories</a>: it goes, after you agree, through our server to Google Gemini for the estimate and is not stored by the app. The <a href=\"/en/privacy\">privacy policy</a> lists exactly what leaves the device and why.": "剂量、体重、副作用和照片都存储在你设备上的数据库中。使用分析从不包含药物名称或症状，进度照片也从不上传到任何地方。唯一会离开手机的照片，是你选择用<a href=\"/en/ai-calorie-tracker\">AI 卡路里</a>分析的餐食照片：在你同意后，它会经由我们的服务器发送给 Google Gemini 进行估算，应用不会保存。<a href=\"/en/privacy\">隐私政策</a>准确列出了哪些内容会离开设备以及原因。",
+  "Only what you track": "只显示你记录的内容",
+  "The home screen is built from the things you said you care about: cards can be reordered, hidden, or brought back whenever you like. An app that shows everyone everything is an app nobody reads. If food matters to you, the <a href=\"/en/ai-calorie-tracker\">AI meal card</a> turns a photo into an editable calorie and protein draft; if you take a tablet, the <a href=\"/en/glp1-pill-tracker\">pill tracker</a> follows a daily rhythm.": "主屏幕由你说过自己在意的内容构成：卡片可以随时重新排列、隐藏或恢复。一款向所有人展示所有内容的应用，是一款没人会看的应用。如果你在意饮食，<a href=\"/en/ai-calorie-tracker\">AI 餐食卡片</a>会把一张照片变成可修改的卡路里和蛋白质草稿；如果你服用片剂，<a href=\"/en/glp1-pill-tracker\">口服药记录</a>会按每日节奏进行。",
+  "Sources you can follow": "可以追溯的来源",
+  "Every article in the education section names where it came from (MedlinePlus (NIH), FDA, NIDDK, TİTCK) and links straight to it. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "科普栏目中的每篇文章都注明了出处（MedlinePlus (NIH)、FDA、NIDDK、TİTCK），并直接链接到原文。Dozify 是一款记录工具：它不推荐剂量，也不解读结果。",
+  "Feedback goes to a person": "反馈会送到一个真人手上",
+  "Suggestions arrive as mail read by the person who writes the app, from Settings → Suggest a feature or at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. There is no ticket queue in between.": "建议会以邮件形式送达，由编写这款应用的人亲自阅读，可以通过“设置 → 提个功能建议”或 <a href=\"mailto:support@dozify.app\">support@dozify.app</a> 发送。中间没有工单队列。",
+  "Still being worked on": "仍在持续改进",
+  "Fixes and additions ship as they are ready, and each release says what changed. Most of what has been added since launch started as a message from someone using the app.": "修复和新功能一旦准备好就会发布，每个版本都会说明改了什么。上线以来新增的大部分内容，最初都来自某位用户的一条消息。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">在 App Store 下载</a>"
+ }
+}

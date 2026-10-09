@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1-tracker: injecties, pillen, gewicht &amp; AI-calorieën</title>
+  <meta name="description" content="Log GLP-1-prikken en dagelijkse pillen, wissel van prikplek, volg gewicht, bijwerkingen en food noise, en fotografeer maaltijden voor AI-calorieën en eiwit.">
+  <meta name="theme-color" content="#0D9488">
+
+  <meta property="og:title" content="GLP-1-tracker: injecties, pillen, gewicht &amp; AI-calorieën">
+  <meta property="og:description" content="Log GLP-1-prikken en dagelijkse pillen, wissel van prikplek, volg gewicht, bijwerkingen en food noise, en fotografeer maaltijden voor AI-calorieën en eiwit.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dozify.app/nl">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:alt" content="Dozify — een privé GLP-1-injectie- en gewichtstracker voor iPhone">
+  <meta name="twitter:title" content="GLP-1-tracker: injecties, pillen, gewicht &amp; AI-calorieën">
+  <meta name="twitter:description" content="Log GLP-1-prikken en dagelijkse pillen, wissel van prikplek, volg gewicht, bijwerkingen en food noise, en fotografeer maaltijden voor AI-calorieën en eiwit.">
+  <meta name="twitter:image:alt" content="Dozify — een privé GLP-1-injectie- en gewichtstracker voor iPhone">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="nl_NL">
+
+  <link rel="canonical" href="https://dozify.app/nl">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/nl",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "nl"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/nl",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Log GLP-1-prikken en dagelijkse pillen, wissel van prikplek, volg gewicht, bijwerkingen en food noise, en fotografeer maaltijden voor AI-calorieën en eiwit.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "nl"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/nl#webpage",
+        "url": "https://dozify.app/nl",
+        "name": "GLP-1-tracker: injecties, pillen, gewicht & AI-calorieën",
+        "description": "Log GLP-1-prikken en dagelijkse pillen, wissel van prikplek, volg gewicht, bijwerkingen en food noise, en fotografeer maaltijden voor AI-calorieën en eiwit.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "nl",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Dozify gratis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Doses loggen, dosisherinneringen, prikplekken afwisselen, gewicht, water en bijwerkingen loggen, je hele geschiedenis en foto's, en de informatieve artikelen zijn gratis — het bijhouden van doses blijft voor altijd gratis, niet alleen tijdens een proefperiode. Premium is de laag die je inzicht geeft: de geschatte medicijnspiegelcurve, uitgebreide grafieken en trends, gewichtsprognose, lichaamssamenstelling, voeding met AI-schattingen van calorieën via foto, flaconbeheer, pdf-rapporten voor je arts, thema's en een tweede actief medicijn. Details over abonnement en opzeggen staan op de supportpagina ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn mijn gegevens privé?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Je gezondheidsgegevens (doses, gewicht, bijwerkingen, voortgangsfoto's) worden op je apparaat opgeslagen en nooit geüpload. De enige uitzondering is een maaltijdfoto die je zelf laat analyseren met AI-calorieën: die wordt, nadat je akkoord gaat, via onze server naar Google Gemini gestuurd en niet door de app bewaard. Er is geen account en geen cloudsynchronisatie, en de app toont geen advertenties. Er worden anonieme gebruiksstatistieken verzameld om de app te verbeteren, en die bevatten nooit een medicijnnaam of een klacht. Dozify meet ook of een installatie afkomstig is van een van de eigen App Store- of Meta-campagnes; die meting loopt via Apples toestemming voor tracking en bevat nooit je gezondheidsgegevens. Verwijder je de app, dan zijn je gegevens weg."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Welke medicijnen ondersteunt Dozify?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Met Dozify houd je populaire GLP-1-medicijnen bij, waaronder Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® en Victoza®, plus dagelijkse tabletten: de Wegovy®-pil, de Ozempic®-tablet, Rybelsus® en Foundayo™. Deze merknamen zijn handelsmerken van hun respectieve eigenaren, en Dozify is niet verbonden aan deze bedrijven."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Werkt Dozify zonder internet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Dozify is offline-first en werkt volledig zonder internetverbinding. Je hoeft nooit in te loggen of te synchroniseren om de app te gebruiken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan Dozify me herinneren aan mijn injectie?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Je kunt een wekelijkse of dagelijkse herinnering instellen die past bij het schema van je medicijn, zodat het makkelijker is om je routine vol te houden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Vervangt Dozify mijn arts?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Dozify is een informatief hulpmiddel om bij te houden, geen medisch hulpmiddel, en het geeft geen medisch advies. Volg altijd je arts en je recept — wat de app weigert te doen staat volledig uitgeschreven."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan ik gewicht en bijwerkingen bijhouden?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Je kunt je gewicht, lichaamsmaten en een bijwerkingendagboek vastleggen en je trend zien in duidelijke grafieken: inclusief een gewichtsprognose en een schatting van wanneer je je doel bereikt, gebaseerd op je eigen gegevens."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan ik mijn gegevens uit een andere GLP-1-app meenemen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, en het is gratis. Exporteer vanuit de app die je verlaat, open Instellingen → Je geschiedenis importeren in Dozify en kies het bestand. Het leest exports van Shotsy, Glapp, GLPzy en GlucoPal en elke CSV met een datumkolom, laat zien wat het heeft gevonden (hoeveel injecties, gewichten en notities) voordat er iets wordt opgeslagen, slaat registraties over die je al hebt en maakt eerst een back-up van je bestaande gegevens. Meer op de pagina over overstappen ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Dozify beschikbaar op Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nog niet. Dozify is voorlopig alleen voor iPhone, in de App Store."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/nl" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a class="nav-anchor" href="#how">Zo werkt het</a>
+        
+        <a class="nav-anchor" href="#features">Functies</a>
+        
+        <a class="nav-anchor" href="/#faq">FAQ</a>
+        
+        <a href="/nl/articles">Artikelen</a>
+        
+        <a href="/nl/support">Support</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+        <img class="hero-icon" src="/favicon.svg" width="96" height="96" alt="Dozify" />
+        <span class="pill">Voor Ozempic® · Wegovy® pen &amp; pil · Mounjaro® · Zepbound®</span>
+        
+
+        <h1>Je GLP-1-routine, <span class="accent">op één scherm.</span></h1>
+        
+
+        <ul class="new-chips" aria-label="Nieuw in Dozify">
+          <li><a href="/nl/ai-calorie-tracker">📸 AI-calorieën via foto</a></li>
+          
+          <li><a href="#themes">🐬 Mascottes &amp; thema's</a></li>
+          
+          <li><a href="/nl/glp1-pill-tracker">💊 Pillen bijhouden</a></li>
+          
+          <li><a href="/nl/glp1-medication-level">📈 Medicijnspiegelcurve</a></li>
+          
+        </ul>
+
+        <p class="lede">Log elke injectie of dagelijkse pil, maak een foto van je maaltijd en krijg binnen enkele seconden calorieën en eiwit, en volg je gewicht naast een geschatte curve van je medicijn. Maak de app van jou met een mascotte en een kleurthema. Doses loggen en herinneringen zijn gratis, voor altijd. Houd je het al ergens anders bij? <a href="/nl/switch-glp1-tracker-app">Neem je geschiedenis mee.</a></p>
+        
+
+        <div class="cta-row">
+          <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-nl&mt=8" target="_blank" rel="noopener" class="btn btn-primary">Download in de App Store</a>
+          
+        </div>
+
+        <!-- The three things a visitor deciding on a health app wants settled
+             before they tap Download, said before they have to look for them. -->
+        <ul class="trust-row">
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" /> <path d="m9 12 2 2 4-4" /> </svg> <span>Geen account, werkt offline: je gezondheidsgegevens blijven op je apparaat</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" /> </svg> <span>Geen advertenties in de app, en je gezondheidsgegevens worden nooit gebruikt voor advertentietargeting</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M12 8h.01M11 12h1v4h1" /> </svg> <span>Een hulpmiddel om bij te houden, geen medisch hulpmiddel: het legt jouw plan vast, het stelt er nooit een voor</span></li>
+        </ul>
+        </div>
+
+        <!-- The product itself, above the fold. The page used to open on an app
+             icon and four paragraphs, which asks a visitor to take the app's
+             word for what it looks like. -->
+        <div class="hero-shot hero-fan" aria-hidden="false">
+          <div class="device fan-left">
+            <img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" decoding="async" alt="AI-resultaat: elk gevonden onderdeel op het bord met calorieën en eiwit, klaar om aan te passen">
+            
+          </div>
+          <div class="device fan-right">
+            <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" decoding="async" alt="Themakiezer met zes mascottes: Klassiek, Dolfijn, Panda, Nachtuil, Flamingo en Honingbij">
+            
+          </div>
+          <div class="device fan-center">
+            <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" fetchpriority="high" decoding="async" alt="Het startscherm van Dozify in het thema Dolfijn: volgende dosis, &quot;Fotografeer je maaltijd&quot;, medicijnspiegel, eiwit, water en gewicht">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="themes" class="section section-light">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">Nieuw</span>
+          
+          <h2 class="section-title">Kies een mascotte. De hele app doet mee.</h2>
+          
+          <p>Zes thema's, elk een kleur en een maatje: Klassiek, Dolfijn 🐬, Panda 🐼, Nachtuil 🦉, Flamingo 🦩 en Honingbij 🐝. De kleur loopt door elk scherm, de mascotte verschijnt op je gewichtsgrafiek en je reeks, en het app-icoon op je beginscherm verandert mee. Klassiek blijft rustig.</p>
+          
+          <p>Dolfijn is gratis. Panda, Nachtuil, Flamingo en Honingbij horen bij Premium. Licht, donker of volgens het systeem: jij kiest.</p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Scherm Weergave: modus licht, donker of systeem en zes mascottethema's"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Startscherm in het blauwe thema Dolfijn"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/bee-home.webp" srcset="/screenshots/en/bee-home-400w.webp 400w, /screenshots/en/bee-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Instellingen in het oranje thema Honingbij"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="ai-calories" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">Nieuw</span>
+          
+          <h2 class="section-title">Fotografeer je maaltijd. Zie de calorieën.</h2>
+          
+          <p>Met een GLP-1 eet je minder, dus wat je wél eet telt zwaarder. Maak een foto en Dozify zet elk onderdeel op je bord op een rij met een schatting van de calorieën en het eiwit, in je eigen taal. Het is altijd een concept dat je kunt aanpassen: corrigeer een portie, voeg toe wat de camera miste en sla het daarna op naast je doses en je gewicht. Premium.</p>
+          
+          <p><a href="/nl/ai-calorie-tracker" class="link-arrow">Zo werken AI-calorieën</a></p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Dozify leest een maaltijdfoto"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Elk onderdeel op het bord met calorieën en eiwit"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">Zo werkt het</h2>
+        
+        <p class="section-lede">Drie stappen. Geen gedoe met instellen.</p>
+        
+
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h3>Voeg je medicijn toe</h3>
+            
+            <p>Kies een wekelijkse of dagelijkse injectie — Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® — of een dagelijkse tablet: Wegovy®-pil, Ozempic®-tablet, Rybelsus® of Foundayo™. Stel je dosis en schema in.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h3>Log elke injectie</h3>
+            
+            <p>Tik om de dosis, het tijdstip en de prikplek op een lichaamsschema vast te leggen. Slimme rotatie stelt je volgende plek voor.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h3>Deel met je arts</h3>
+            
+            <p>Exporteer een pdf-rapport met je volledige behandelgeschiedenis, gewichtsverloop en bijwerkingenlog: ideaal voor je volgende afspraak.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="section">
+      <div class="container">
+        <h2 class="section-title">Bekijk Dozify in actie</h2>
+        
+        <p class="section-lede">Een snelle blik op wat je op je telefoon ziet.</p>
+        
+
+        <div class="screenshot-strip" role="group" tabindex="0" aria-label="Screenshots van Dozify, scroll opzij">
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/home-next-dose.webp" srcset="/screenshots/en/home-next-dose-400w.webp 400w, /screenshots/en/home-next-dose.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Het startscherm van Dozify: aftellen tot de volgende dosis, de injecties van deze week, eiwit en water voor vandaag en het huidige gewicht">
+            </div>
+            <figcaption><b>Je dag in één oogopslag</b> <span>Volgende dosis, de prikken van deze week, eiwit, water en gewicht: één scherm.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="AI-schatting van calorieën via foto, ingevuld in het voedingsformulier: Caesarsalade met kip, 625 kcal, 55 g eiwit, met een opmerking over de onzekerheid">
+            </div>
+            <figcaption><b>Fotografeer je maaltijd</b> <span>AI vult calorieën en eiwit in vanaf een foto — altijd een concept dat je kunt aanpassen.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/level-curve.webp" srcset="/screenshots/en/level-curve-400w.webp 400w, /screenshots/en/level-curve.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Gewichtstrend en de geschatte medicijnspiegelcurve met huidige en piekpercentages">
+            </div>
+            <figcaption><b>Zie wat je dosis doet</b> <span>De geschatte spiegelcurve maakt de honger op dag 6 eindelijk begrijpelijk.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Een injectie loggen met een lichaamskaart die de volgende prikplek voorstelt">
+            </div>
+            <figcaption><b>Log een prik in seconden</b> <span>De lichaamskaart onthoudt welke plek de volgende is, zodat jij dat niet hoeft te doen.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/weight-and-dose-chart.webp" srcset="/screenshots/en/weight-and-dose-chart-400w.webp 400w, /screenshots/en/weight-and-dose-chart.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Gewichtstrend en geschatte medicijnspiegelcurve op dezelfde tijdlijn">
+            </div>
+            <figcaption><b>Gewicht en dosis op één lijn</b> <span>Je gewichtstrend naast de geschatte medicijnspiegel.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Het startscherm van Dozify in het thema Dolfijn: oceaanblauwe accentkleur, golvende reeksbadge en de AI-maaltijdkaart">
+            </div>
+            <figcaption><b>Maak hem van jou</b> <span>Kleur, mascotte en zelfs het app-icoon veranderen samen — Dolfijn is gratis.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="De themakiezer: de pakketten Klassiek, Dolfijn, Panda, Nachtuil, Flamingo en Honingbij">
+            </div>
+            <figcaption><b>Zes persoonlijkheden</b> <span>Kies een kleur en een maatje; de mascotte verschijnt in je grafieken en je reeks.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/victories.webp" srcset="/screenshots/en/victories-400w.webp 400w, /screenshots/en/victories.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Het overwinningendagboek met items als kleding die beter past en trappen die makkelijker gaan">
+            </div>
+            <figcaption><b>Winst die de weegschaal niet ziet</b> <span>Voor de weken waarin je stilstaat: kleding, energie, stemming — gelogd in één regel.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/lab-results.webp" srcset="/screenshots/en/lab-results-400w.webp 400w, /screenshots/en/lab-results.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Scherm met labuitslagen met HbA1c- en LDL-waarden, precies bewaard zoals ingevoerd">
+            </div>
+            <figcaption><b>Labwaarden naast je doses</b> <span>HbA1c, lipiden, leverwaarden — bewaard zoals je ze intypte, opgenomen in de pdf voor je arts.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/vial-stock.webp" srcset="/screenshots/en/vial-stock-400w.webp 400w, /screenshots/en/vial-stock.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Flaconvoorraad, resterende doses, dagen sinds openen en de houdbaarheidsdatum">
+            </div>
+            <figcaption><b>Weet het voordat de flacon leeg is</b> <span>Resterende doses, dagen sinds openen, houdbaarheid: voor je geteld.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Een rapport voor het artsenbezoek samenstellen: periode, onderdelen om op te nemen en de vragen die je wilt stellen">
+            </div>
+            <figcaption><b>Een overzichtelijke pdf voor je arts</b> <span>Kies een periode, kies wat erin komt, en kom binnen met een samenvatting.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/water-tracking.webp" srcset="/screenshots/en/water-tracking-400w.webp 400w, /screenshots/en/water-tracking.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Water bijhouden met een glazenteller en snelle hoeveelheden">
+            </div>
+            <figcaption><b>Water, geteld in glazen</b> <span>Geen milliliters waar je mee moet rekenen.</span></figcaption>
+          </figure>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section id="features" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Wat zit erin</h2>
+        
+        <p class="section-lede">Gemaakt voor mensen die wekelijks een GLP-1-medicijn gebruiken.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v2" /><path d="m5.6 5.6 1.4 1.4" /><path d="m18.4 5.6-1.4 1.4" /><path d="M3 12h2" /><path d="M19 12h2" /><path d="M12 21a6 6 0 0 0 6-6c0-3-2.5-4.5-6-9-3.5 4.5-6 6-6 9a6 6 0 0 0 6 6Z" />
+              </svg>
+            </div>
+            <h3>AI-calorieën via foto <span class="badge-new">Nieuw</span></h3>
+            
+            <p>Fotografeer je maaltijd en krijg binnen enkele seconden een schatting van calorieën en eiwit, in je eigen taal. Altijd getoond als concept dat je kunt aanpassen — jij houdt de regie. Premium. <a href="/nl/ai-calorie-tracker">Zo werken AI-calorieën</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0E7FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="M4 15c2-6 4-9 6-9s3 2 4 5 2 5 4 5 3-2 4-5" />
+              </svg>
+            </div>
+            <h3>Medicijnspiegelcurve <span class="badge-new">Nieuw</span></h3>
+            
+            <p>Een geschatte curve van hoe je dosis zich opbouwt en afneemt tussen de prikken — zodat de honger op dag 6 eindelijk begrijpelijk wordt. <a href="/nl/glp1-medication-level">Over de curve</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="13.5" cy="6.5" r=".5" /><circle cx="17.5" cy="10.5" r=".5" /><circle cx="8.5" cy="7.5" r=".5" /><circle cx="6.5" cy="12.5" r=".5" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" />
+              </svg>
+            </div>
+            <h3>Thema's &amp; mascottes <span class="badge-new">Nieuw</span></h3>
+            
+            <p>Kleur, mascotte en zelfs het app-icoon veranderen samen. Dolfijn 🐬 is gratis; Panda, Nachtuil, Flamingo en Honingbij horen bij Premium.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>Overwinningendagboek <span class="badge-new">Nieuw</span></h3>
+            
+            <p>Vooruitgang die de weegschaal niet ziet: kleding die past, trappen die makkelijker gaan. Bewust gratis — voor de weken waarin je stilstaat.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.31" /><path d="M14 9.3V2" /><path d="M8.5 2h7" /><path d="M14 9.3a6.5 6.5 0 1 1-4 0" /><path d="M5.52 16h12.96" />
+              </svg>
+            </div>
+            <h3>Labuitslagen <span class="badge-new">Nieuw</span></h3>
+            
+            <p>HbA1c, lipiden, leverwaarden — precies bewaard zoals je ze invoert en opgenomen in de pdf voor je arts. Geen oordelen, geen kleurcodes.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+              </svg>
+            </div>
+            <h3>Afstemming op je cyclus <span class="badge-new">Nieuw</span></h3>
+            
+            <p>Zie je klachten naast je menstruatiecyclus — alleen als je dit aanzet, en de gegevens verlaten je apparaat nooit.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0F2FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
+              </svg>
+            </div>
+            <h3>Gewichtstrend &amp; prognose</h3>
+            
+            <p>Zie je gewicht in duidelijke grafieken met een prognose tot je doel, gebaseerd op je eigen gegevens.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+              </svg>
+            </div>
+            <h3>Slimme herinneringen</h3>
+            
+            <p>Wekelijkse of dagelijkse herinneringen die passen bij het schema van je medicijn.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EFF6FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.5L4 22h16l-6-12.5V2" /><path d="M8.5 2h7" />
+              </svg>
+            </div>
+            <h3>Flaconvoorraad</h3>
+            
+            <p>Openingsdatum, aftellen tot de houdbaarheidsdatum en resterende doses voor elke flacon.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" />
+              </svg>
+            </div>
+            <h3>Voortgangsgrafieken</h3>
+            
+            <p>Gewichtstrend, dosisopbouw en bijwerkingenpatronen in één oogopslag.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" />
+              </svg>
+            </div>
+            <h3>Pdf-rapporten</h3>
+            
+            <p>Met één tik een overzicht voor je arts met je volledige behandeltijdlijn.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEE2E2">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.49 4.04 3 5.5l7 7Z" />
+              </svg>
+            </div>
+            <h3>Synchronisatie met Apple Health</h3>
+            
+            <p>Op iPhone wordt je gewicht automatisch uit Apple Health gelezen. Terugschrijven is optioneel en staat standaard uit.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EDE9FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2" /><line x1="8" x2="16" y1="6" y2="6" /><line x1="16" x2="16" y1="14" y2="18" /><path d="M8 10h.01" /><path d="M12 10h.01" /><path d="M16 10h.01" /><path d="M8 14h.01" /><path d="M12 14h.01" /><path d="M8 18h.01" /><path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3>Ingebouwde rekenhulpen</h3>
+            
+            <p>Eenheden omrekenen (mg ↔ mL ↔ U-100) en schatten hoe lang een flacon meegaat, gratis.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DBEAFE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" />
+              </svg>
+            </div>
+            <h3>Neem je geschiedenis mee</h3>
+            
+            <p>Stap je over van een andere tracker? Dozify leest je geëxporteerde bestand, laat zien wat het heeft gevonden en slaat het pas op als jij akkoord gaat: nadat eerst een back-up is gemaakt.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="7" height="9" x="3" y="3" rx="1" /><rect width="7" height="5" x="14" y="3" rx="1" /><rect width="7" height="9" x="14" y="12" rx="1" /><rect width="7" height="5" x="3" y="16" rx="1" />
+              </svg>
+            </div>
+            <h3>Een startscherm dat je zelf samenstelt</h3>
+            
+            <p>Zet kaarten in een andere volgorde, verberg de kaarten die je niet gebruikt en haal ze terug wanneer je wilt. Houd je geen bijwerkingen bij, dan verschijnen die velden nooit.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
+              </svg>
+            </div>
+            <h3>Elk schema, en het plan van je arts</h3>
+            
+            <p>Wekelijks, dagelijks, om de paar dagen of op vaste data. Sla het doseerschema op dat je behandelaar je gaf en laat de app je eraan herinneren. Dozify kiest zelf nooit een dosis.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DCFCE7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+            </div>
+            <h3>Kennisbank</h3>
+            
+            <p>Gidsen met bronvermelding over doseren, bijwerkingen en injectietechniek.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" />
+              </svg>
+            </div>
+            <h3>Prikplekken afwisselen</h3>
+            
+            <p>Een lichaamsschema houdt elke plek bij en stelt voor waar je de volgende keer prikt.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FFEDD5">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z" /><path d="m7.5 10.5 2 2" /><path d="m10.5 7.5 2 2" /><path d="m13.5 4.5 2 2" /><path d="m4.5 13.5 2 2" />
+              </svg>
+            </div>
+            <h3>Lichaamsmaten</h3>
+            
+            <p>Houd taille, heupen, vetpercentage en meer bij: de vooruitgang die de weegschaal alleen mist.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF9C3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>Mijlpalen &amp; reeksen</h3>
+            
+            <p>Dagelijkse reeksen en badges helpen je consequent en gemotiveerd te blijven.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFCCB">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#65A30D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /><path d="M7 2v20" /><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+              </svg>
+            </div>
+            <h3>Voeding- &amp; waterlog</h3>
+            
+            <p>Log maaltijden, eiwit en wat je drinkt, gewoon naast je behandeling.</p>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- The differentiator a visitor who already tracks somewhere else is
+         looking for, and the one thing no competitor page tells them. -->
+    <section id="import" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 class="section-title">Houd je het al ergens anders bij? Neem het mee.</h2>
+          
+          <p class="section-lede">Dozify leest exports van Shotsy, Glapp, GLPzy en GlucoPal, en elke CSV met een datumkolom. Er wordt niets opgeslagen voordat je hebt gezien wat er is gevonden (hoeveel injecties, hoeveel gewichten, hoeveel notities) en eerst wordt een back-up van je bestaande gegevens gemaakt. Importeren kost niets.</p>
+          
+          <a href="/nl/switch-glp1-tracker-app" class="link-arrow">Zo werkt overstappen →</a>
+          
+        </div>
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Een geïmporteerde injectie in het Dozify-logboek, met datum, dosis en plek">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-section">
+      <div class="container">
+        <div class="privacy-card">
+          <div class="privacy-icon">
+            <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
+            </svg>
+          </div>
+          <h2>Je persoonlijke gegevens blijven op je telefoon</h2>
+          
+          <p>Geen account, geen advertenties in de app, geen profiel. Je persoonlijke gegevens (injecties, gewicht, maten) verlaten je apparaat nooit. Verwijder je de app, dan zijn je gegevens weg.</p>
+          
+          <a href="/nl/privacy" class="link-arrow">Lees het privacybeleid →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="report" class="section">
+      <div class="container split split-reverse">
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Een rapport voor het artsenbezoek samenstellen: periode, onderdelen om op te nemen en de vragen die je wilt stellen">
+            
+          </div>
+        </div>
+        <div class="split-copy">
+          <h2 class="section-title">Ga naar je afspraak met een samenvatting</h2>
+          
+          <p class="section-lede">Een consult is tien minuten en drie maanden. Kies de periode en wat erin komt (doses, gewicht, bijwerkingen, je eigen notities en de vragen die je wilde stellen) en Dozify maakt een pdf die je kunt printen of vooraf kunt sturen. Wat erin staat, is jouw registratie; wat het betekent, bepaalt je arts.</p>
+          
+          <a href="/nl/glp1-appointment-report" class="link-arrow">Wat er in het rapport staat →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="medications" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Medicijnen die je kunt bijhouden</h2>
+        
+        <p class="section-lede">Kies het medicijn dat je voorgeschreven hebt gekregen en Dozify stelt het schema en de dosisstappen ervoor in. Alles wat niet in de lijst staat, kun je zelf toevoegen.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <h3>Wekelijkse injecties</h3>
+            
+            <p>Ozempic®, Wegovy®, Mounjaro®, Zepbound® en Trulicity®: één prik per week, en één herinnering per week die daarbij past.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Dagelijkse injecties</h3>
+            
+            <p>Saxenda® en Victoza® — een dagelijks schema, op het uur waarop je echt prikt in plaats van een standaardtijd.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>Oraal</h3>
+            
+            <p>Wegovy®-pil, Ozempic®-tablet, Rybelsus® en Foundayo™ — dagelijkse tabletten, bijgehouden met dezelfde geschiedenis en hetzelfde rapport. <a href="/nl/glp1-pill-tracker">Zo werkt het bijhouden van pillen</a></p>
+            
+          </article>
+          <article class="feature">
+            <h3>Iets anders</h3>
+            
+            <p>Voeg een medicijn toe op naam, met je eigen dosis en interval. Dozify legt het plan vast dat jij en je arts hebben afgesproken; het stelt er nooit een voor.</p>
+            
+          </article>
+        </div>
+
+        <p class="meta" style="text-align:center;margin-top:24px">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® en Foundayo™ zijn handelsmerken van hun respectieve eigenaren. Dozify is niet verbonden aan, niet goedgekeurd door en niet gesponsord door deze bedrijven.</p>
+        
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Gidsen die hun bronnen noemen</h2>
+        
+        <p class="section-lede">Geschreven voor mensen die al een GLP-1 gebruiken, en elke gids vermeldt waar de informatie vandaan komt: de instructies van de fabrikant, de FDA, MedlinePlus. Niets ervan vervangt wat je eigen behandelaar je vertelt.</p>
+        
+
+        <div class="article-list">
+          <a class="article-card" href="/nl/articles/what-is-glp1">
+            <h3>Wat is GLP-1?</h3>
+            
+            <p>Het hormoon dat je darmen na het eten afgeven, wat de medicijnen nabootsen en waarom je eetlust verandert.</p>
+            
+          </a>
+          <a class="article-card" href="/nl/articles/how-to-inject-glp1">
+            <h3>Zo injecteer je met een GLP-1-pen</h3>
+            
+            <p>De pen klaarmaken, een plek kiezen, de injectie zelf en wat je daarna met de naald doet.</p>
+            
+          </a>
+          <a class="article-card" href="/nl/articles/glp1-injection-sites">
+            <h3>Waar prik je, en hoe wissel je af</h3>
+            
+            <p>Buik, dij en bovenarm zijn de goedgekeurde plekken. Welke je kiest en waarom de plek moet wisselen.</p>
+            
+          </a>
+          <a class="article-card" href="/nl/articles/glp1-side-effects">
+            <h3>Veelvoorkomende bijwerkingen</h3>
+            
+            <p>Misselijkheid, verstopping en vermoeidheid: wat meestal helpt, en de signalen waarbij je meteen een arts nodig hebt.</p>
+            
+          </a>
+          <a class="article-card" href="/nl/articles/glp1-patches">
+            <h3>Bestaan GLP-1-pleisters?</h3>
+            
+            <p>Geen enkele pleister is goedgekeurd door de FDA of het EMA. Wat er onder die naam wordt verkocht, en wat het bewijs zegt.</p>
+            
+          </a>
+          <a class="article-card" href="/nl/articles/missed-glp1-dose">
+            <h3>Dosis gemist?</h3>
+            
+            <p>Vijf dagen bij het ene product, twee bij een ander met hetzelfde geneesmiddel. Wat elke bijsluiter zegt, letterlijk geciteerd.</p>
+            
+          </a>
+          <a class="article-card" href="/nl/articles/storing-glp1-pens">
+            <h3>Een pen bewaren</h3>
+            
+            <p>Koelkast, kamertemperatuur en het aantal dagen, dat afhangt van het apparaat en niet alleen van het geneesmiddel.</p>
+            
+          </a>
+          <a class="article-card" href="/nl/articles">
+            <h3>Alle gidsen</h3>
+            
+            <p>De volledige bibliotheek, met de bronnenlijst onderaan elke pagina.</p>
+            
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Veelgestelde vragen</h2>
+        
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Is Dozify gratis?</h3>
+            
+            <p>Ja. Doses loggen, dosisherinneringen, prikplekken afwisselen, gewicht, water en bijwerkingen loggen, je hele geschiedenis en foto's, en de informatieve artikelen zijn gratis — het bijhouden van doses blijft voor altijd gratis, niet alleen tijdens een proefperiode. Premium is de laag die je inzicht geeft: de geschatte medicijnspiegelcurve, uitgebreide grafieken en trends, gewichtsprognose, lichaamssamenstelling, voeding met AI-schattingen van calorieën via foto, flaconbeheer, pdf-rapporten voor je arts, thema's en een tweede actief medicijn. Details over abonnement en opzeggen staan op de <a href="/nl/support">supportpagina</a>.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Zijn mijn gegevens privé?</h3>
+            
+            <p>Je gezondheidsgegevens (doses, gewicht, bijwerkingen, voortgangsfoto's) worden op je apparaat opgeslagen en nooit geüpload. De enige uitzondering is een maaltijdfoto die je zelf laat analyseren met AI-calorieën: die wordt, nadat je akkoord gaat, via onze server naar Google Gemini gestuurd en niet door de app bewaard. Er is geen account en geen cloudsynchronisatie, en de app toont geen advertenties. Er worden anonieme gebruiksstatistieken verzameld om de app te verbeteren, en die bevatten nooit een medicijnnaam of een klacht. Dozify meet ook of een installatie afkomstig is van een van de eigen App Store- of Meta-campagnes; die meting loopt via Apples toestemming voor tracking en bevat nooit je gezondheidsgegevens. Verwijder je de app, dan zijn je gegevens weg.</p>
+            
+          </div>
+
+
+          <div class="faq-item">
+            <h3>Welke medicijnen ondersteunt Dozify?</h3>
+            
+            <p>Met Dozify houd je populaire GLP-1-medicijnen bij, waaronder Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® en Victoza®, plus dagelijkse tabletten: de Wegovy®-pil, de Ozempic®-tablet, Rybelsus® en Foundayo™. Deze merknamen zijn handelsmerken van hun respectieve eigenaren, en Dozify is niet verbonden aan deze bedrijven.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Werkt Dozify zonder internet?</h3>
+            
+            <p>Ja. Dozify is offline-first en werkt volledig zonder internetverbinding. Je hoeft nooit in te loggen of te synchroniseren om de app te gebruiken.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Kan Dozify me herinneren aan mijn injectie?</h3>
+            
+            <p>Ja. Je kunt een wekelijkse of dagelijkse herinnering instellen die past bij het schema van je medicijn, zodat het makkelijker is om je routine vol te houden.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Vervangt Dozify mijn arts?</h3>
+            
+            <p>Nee. Dozify is een informatief hulpmiddel om bij te houden, geen medisch hulpmiddel, en het geeft geen medisch advies. Volg altijd je arts en je recept — <a href="/nl/why">wat de app weigert te doen</a> staat volledig uitgeschreven.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Kan ik gewicht en bijwerkingen bijhouden?</h3>
+            
+            <p>Ja. Je kunt je gewicht, lichaamsmaten en een bijwerkingendagboek vastleggen en je trend zien in duidelijke grafieken: inclusief een gewichtsprognose en een schatting van wanneer je je doel bereikt, gebaseerd op je eigen gegevens.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Kan ik mijn gegevens uit een andere GLP-1-app meenemen?</h3>
+            
+            <p>Ja, en het is gratis. Exporteer vanuit de app die je verlaat, open Instellingen &rarr; Je geschiedenis importeren in Dozify en kies het bestand. Het leest exports van Shotsy, Glapp, GLPzy en GlucoPal en elke CSV met een datumkolom, laat zien wat het heeft gevonden (hoeveel injecties, gewichten en notities) voordat er iets wordt opgeslagen, slaat registraties over die je al hebt en maakt eerst een back-up van je bestaande gegevens. <a href="/nl/switch-glp1-tracker-app">Meer op de pagina over overstappen</a>.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Is Dozify beschikbaar op Android?</h3>
+            
+            <p>Nog niet. Dozify is voorlopig alleen voor iPhone, in de App Store.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section section-cta">
+      <div class="container">
+        <h2 class="section-title">Download de app</h2>
+        
+        <p class="section-lede">Dozify staat in de App Store, voor iPhone.</p>
+        
+        <div class="store-row">
+          <a class="store-card store-card--live" href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-nl&mt=8" target="_blank" rel="noopener">
+            <div class="store-card-icon">
+              <svg viewbox="0 0 24 24" fill="currentColor">
+                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
+              </svg>
+            </div>
+            <div>
+              <span class="store-card-pretitle">Download in de</span>
+              
+              <strong>App Store</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/nl" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+        <p class="footer-tagline">Een privé maatje bij je GLP-1-behandeling.</p>
+        
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Juridisch</h3>
+          
+          <a href="/nl/privacy">Privacybeleid</a>
+          
+          <a href="/en/kvkk">KVKK Aydınlatma</a>
+          <a href="/nl/terms">Gebruiksvoorwaarden</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Bijhouden</h3>
+          
+          <a href="/nl/glp1-shot-tracker">GLP-1-injectietracker</a>
+          
+          <a href="/nl/injection-site-tracker">Injectieplek-tracker</a>
+          
+          <a href="/nl/glp1-weight-tracker">GLP-1-gewichtstracker</a>
+          
+          <a href="/nl/glp1-side-effect-journal">Bijwerkingendagboek</a>
+          
+          <a href="/nl/glp1-vial-tracker">Flacontracker</a>
+          
+          <a href="/nl/private-glp1-tracker">Privé GLP-1-tracker</a>
+          
+          <a href="/nl/glp1-appointment-report">Artsenrapport</a>
+          
+          <a href="/nl/switch-glp1-tracker-app">Overstappen vanuit een andere app</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Hulp</h3>
+          
+          <a href="/nl/support">Support</a>
+          
+          <a href="/nl/why">Waarom Dozify</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+      <p class="disclaimer">Dozify is geen medisch hulpmiddel en geeft geen medisch advies. Raadpleeg altijd je arts. Ozempic®, Mounjaro®, Wegovy®, Saxenda®, Zepbound®, Trulicity®, Rybelsus®, Victoza® en Foundayo™ zijn handelsmerken van hun respectieve eigenaren. Dozify is niet verbonden aan deze bedrijven.</p>
+      
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en" hreflang="en" lang="en">English</a> · <a href="/tr" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar" hreflang="ar" lang="ar">العربية</a> · <a href="/cs" hreflang="cs" lang="cs">Čeština</a> · <a href="/da" hreflang="da" lang="da">Dansk</a> · <a href="/de" hreflang="de" lang="de">Deutsch</a> · <a href="/el" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es" hreflang="es" lang="es">Español</a> · <a href="/fi" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr" hreflang="fr" lang="fr">Français</a> · <a href="/hi" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it" hreflang="it" lang="it">Italiano</a> · <a href="/ja" hreflang="ja" lang="ja">日本語</a> · <a href="/ko" hreflang="ko" lang="ko">한국어</a> · <a href="/nb" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl" hreflang="nl" lang="nl" aria-current="page">Nederlands</a> · <a href="/pl" hreflang="pl" lang="pl">Polski</a> · <a href="/pt" hreflang="pt" lang="pt">Português</a> · <a href="/ru" hreflang="ru" lang="ru">Русский</a> · <a href="/sv" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk" hreflang="uk" lang="uk">Українська</a> · <a href="/zh" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

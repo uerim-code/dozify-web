@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "Tracker wagi GLP-1 — waga i dawki razem",
+  "description": "Trend wagi obok dawek, które mu towarzyszyły, na jednej osi czasu. Zapisuj wagę w kilka sekund i zobacz kształt zmian z miesięcy, a nie pojedyncze liczby."
+ },
+ "t": {
+  "Weight trend": "Trend wagi",
+  "Your weight and your doses on one line": "Twoja waga i Twoje dawki na jednej osi",
+  "Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.": "Waga w jednej aplikacji, a zastrzyki w drugiej to dwie połowy tego samego obrazu. Dozify trzyma je na tej samej osi czasu.",
+  "The question is never just \"what do I weigh\". It is what the last few weeks have looked like, and what was happening in them, which dose, which week, what else you logged.": "Pytanie nigdy nie brzmi tylko „ile ważę”. Chodzi o to, jak wyglądało kilka ostatnich tygodni i co się w nich działo: jaka dawka, który tydzień, co jeszcze zapisałeś.",
+  "A trend, not a number": "Trend, a nie liczba",
+  "Your weight over three months, six, or a year, with the rate it has been moving and how far it is from your goal.": "Twoja waga z trzech miesięcy, sześciu lub roku, z tempem zmian i odległością od celu.",
+  "Apple Health does the typing": "Apple Health wpisuje za Ciebie",
+  "On iPhone, weight is read from Health automatically. If your scale writes there, you do not enter anything by hand.": "Na iPhonie waga jest automatycznie odczytywana z Apple Health. Jeśli Twoja waga łazienkowa tam zapisuje, nie musisz niczego wpisywać ręcznie.",
+  "No projection dressed up as a promise": "Żadnej prognozy przebranej za obietnicę",
+  "The app shows what your own entries have done. It does not tell you what your body will do next.": "Aplikacja pokazuje, co zrobiły Twoje własne wpisy. Nie mówi Ci, co Twój organizm zrobi dalej.",
+  "People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.": "Osobom, które chcą zobaczyć kształt kilku miesięcy, a nie dzisiejszy poranny wynik, oraz osobom, których waga już trafia do Apple Health z wagi łazienkowej. Także każdemu, kogo na wizycie zapytano, jak zmieniała się waga od ostatniej zmiany dawki, i musiał zgadywać.",
+  "The projection is arithmetic on the entries you have made: it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.": "Prognoza to arytmetyka na Twoich wpisach: przedłuża to, co robiły Twoje własne liczby, i nic więcej. Nie jest przewidywaniem tego, co zrobi Twój organizm, nie uwzględnia zmiany dawki, choroby ani urlopu i nie jest celem, który ktoś Ci wyznaczył. Dozify nie zaleca wagi, tempa chudnięcia ani diety.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Pobierz z App Store</a>",
+  "Does it read my weight from Apple Health?": "Czy odczytuje moją wagę z Apple Health?",
+  "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.": "Na iPhonie tak. Jeśli Twoja waga łazienkowa lub inna aplikacja zapisuje wagę w Zdrowiu, Dozify ją odczytuje i nie musisz niczego wpisywać. Możesz też wpisać ją ręcznie.",
+  "Kilograms or pounds?": "Kilogramy czy funty?",
+  "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.": "Jedno i drugie. Jednostka to ustawienie, a jej zmiana przelicza to, co już jest zapisane, zamiast inaczej interpretować liczby.",
+  "Does the projection tell me when I will reach my goal?": "Czy prognoza mówi mi, kiedy osiągnę cel?",
+  "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.": "Mówi, kiedy byś go osiągnął, gdyby trend Twoich wpisów trwał bez zmian. Organizmy tak nie działają, a aplikacja mówi o tym na ekranie, zamiast przedstawiać datę jako plan.",
+  "Can I log measurements as well?": "Czy mogę zapisywać też pomiary ciała?",
+  "Yes, waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.": "Tak — talia, biodra i reszta, na tej samej osi czasu co waga, na miesiące, w których waga zmienia się mniej niż centymetr.",
+  "Does my weight leave the phone?": "Czy moja waga opuszcza telefon?",
+  "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.": "Nie. Jest przechowywana na urządzeniu, tak jak reszta Twoich zapisów. Odczyt z Apple Health odbywa się w telefonie; nic nie jest wysyłane.",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/reading-a-weight-trend\">how to read a trend when the scale has stalled</a> and <a href=\"/en/articles/measurements-vs-scale\">when the tape moves and the scale does not</a>.": "Poradniki z podanymi źródłami: <a href=\"/en/articles/what-is-glp1\">czym naprawdę jest GLP-1</a>, <a href=\"/en/articles/glp1-side-effects\">jak radzić sobie z częstymi skutkami ubocznymi</a>, <a href=\"/en/articles/how-to-inject-glp1\">jak zrobić zastrzyk wstrzykiwaczem, krok po kroku</a>, <a href=\"/en/articles/reading-a-weight-trend\">jak czytać trend, gdy waga stoi w miejscu</a> i <a href=\"/en/articles/measurements-vs-scale\">kiedy centymetr się zmienia, a waga nie</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Gdzie indziej w Dozify: <a href=\"/en/glp1-appointment-report\">raport dla lekarza</a> i <a href=\"/en/glp1-shot-tracker\">tracker zastrzyków</a>."
+ }
+}

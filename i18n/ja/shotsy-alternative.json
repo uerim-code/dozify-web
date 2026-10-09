@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "title": "Shotsyの代わりに｜GLP-1の履歴を移せるDozify",
+  "description": "Shotsyから乗り換えますか？ Dozifyは書き出しファイルを読み込み、1件書き込む前にすべての記録を表示し、認識できなかった列も名前で示します。無料で、デバイス上で完結します。"
+ },
+ "t": {
+  "Shotsy alternative": "Shotsyの代わりに",
+  "Coming from Shotsy? Bring the history with you": "Shotsyから移りますか？ 履歴を一緒に持ってこられます",
+  "Export from Shotsy, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Shotsyから書き出し、Dozifyで開けば、記録が1件でも書き込まれる前に、書き込まれる予定のすべての記録を確認できます。無料で、ファイルがスマートフォンから出ることはありません。",
+  "The columns Dozify looks for in a Shotsy export": "DozifyがShotsyの書き出しファイルで探す列",
+  "<code>date · shot date · injection date · day</code>": "<code>date · shot date · injection date · day</code>",
+  "<code>time · shot time</code>": "<code>time · shot time</code>",
+  "<code>dose · dosage · dose (mg) · amount</code>": "<code>dose · dosage · dose (mg) · amount</code>",
+  "<strong>Site</strong>": "<strong>部位</strong>",
+  "<code>site · injection site · location</code>": "<code>site · injection site · location</code>",
+  "<strong>Medication</strong>": "<strong>お薬</strong>",
+  "<code>medication · med · drug · compound</code>": "<code>medication · med · drug · compound</code>",
+  "<code>weight</code>": "<code>weight</code>",
+  "<code>note · notes · comment</code>": "<code>note · notes · comment</code>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Shotsy is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Shotsy and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozifyは記録用のツールであり、医療機器ではありません。用量を推奨することはなく、医学的な助言も行いません。Shotsyは所有者の商標であり、ここではDozifyが読み込めるファイル形式を説明するためだけに名前を挙げています。DozifyはShotsyと提携しておらず、このページはShotsyによって承認されたものではありません。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza®、Rybelsus®は各所有者の商標です。Dozifyはこれらの企業と提携していません。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-shotsy-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-shotsy-alternative-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>"
+ }
+}

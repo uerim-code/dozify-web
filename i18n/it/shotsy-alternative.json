@@ -1,0 +1,23 @@
+{
+ "meta": {
+  "title": "Alternativa a Shotsy: porta con te lo storico GLP-1",
+  "description": "Lasci Shotsy? Dozify legge l’export, ti mostra ogni dato prima di salvarlo e indica ogni colonna che non ha riconosciuto. Gratis, sul tuo dispositivo."
+ },
+ "t": {
+  "Shotsy alternative": "Alternativa a Shotsy",
+  "Coming from Shotsy? Bring the history with you": "Arrivi da Shotsy? Porta con te il tuo storico",
+  "Export from Shotsy, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Esporta da Shotsy, aprilo in Dozify e vedi ogni dato che sta per essere salvato prima che venga salvato. Gratis, e il file non lascia mai il tuo telefono.",
+  "The columns Dozify looks for in a Shotsy export": "Le colonne che Dozify cerca in un export di Shotsy",
+  "<code>date · shot date · injection date · day</code>": "<code>date · shot date · injection date · day</code>",
+  "<code>time · shot time</code>": "<code>time · shot time</code>",
+  "<code>dose · dosage · dose (mg) · amount</code>": "<code>dose · dosage · dose (mg) · amount</code>",
+  "<strong>Site</strong>": "<strong>Sede</strong>",
+  "<code>site · injection site · location</code>": "<code>site · injection site · location</code>",
+  "<strong>Medication</strong>": "<strong>Farmaco</strong>",
+  "<code>medication · med · drug · compound</code>": "<code>medication · med · drug · compound</code>",
+  "<code>weight</code>": "<code>weight</code>",
+  "<code>note · notes · comment</code>": "<code>note · notes · comment</code>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Shotsy is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Shotsy and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify è uno strumento di monitoraggio, non un dispositivo medico. Non consiglia dosi e non fornisce consulenza medica. Shotsy è un marchio del rispettivo titolare ed è citato qui solo per descrivere un formato di file che Dozify sa leggere; Dozify non è affiliata a Shotsy e questa pagina non è approvata da loro. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® e Rybelsus® sono marchi dei rispettivi titolari; Dozify non è affiliata a queste aziende.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-shotsy-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-shotsy-alternative-en&mt=8\" class=\"btn btn-primary\">Scarica su App Store</a>"
+ }
+}

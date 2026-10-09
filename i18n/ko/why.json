@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "title": "왜 Dozify인가요 — 하는 일과 하지 않는 일",
+  "description": "이미 GLP-1을 처방받은 분들을 위해 만들었어요. 나와 의사가 결정한 것을 기록할 뿐, 용량을 제안하거나 결과를 해석하지 않아요."
+ },
+ "t": {
+  "← Back to home": "← 홈으로 돌아가기",
+  "Five things this app is built around. Each one is a claim you can check against how it behaves.": "이 앱의 중심에 있는 다섯 가지. 하나하나가 앱이 실제로 어떻게 작동하는지로 확인할 수 있는 약속이에요.",
+  "Your records stay on your phone": "기록은 휴대폰에 남아요",
+  "Doses, weights, side effects and photos are stored in a database on your device. Usage analytics never carries a medication name or a symptom, and progress photos are never uploaded anywhere. The one photo that does leave the phone is a meal photo you choose to analyse with <a href=\"/en/ai-calorie-tracker\">AI calories</a>: it goes, after you agree, through our server to Google Gemini for the estimate and is not stored by the app. The <a href=\"/en/privacy\">privacy policy</a> lists exactly what leaves the device and why.": "투여, 체중, 부작용, 사진은 기기의 데이터베이스에 저장돼요. 사용 분석에는 약 이름이나 증상이 절대 포함되지 않고, 진행 사진은 어디에도 업로드되지 않아요. 휴대폰 밖으로 나가는 유일한 사진은 <a href=\"/en/ai-calorie-tracker\">AI 칼로리</a>로 분석하기로 직접 선택한 식사 사진이에요. 동의한 뒤 추정을 위해 저희 서버를 거쳐 Google Gemini로 전송되며, 앱에 저장되지 않아요. 무엇이 왜 기기 밖으로 나가는지는 <a href=\"/en/privacy\">개인정보 처리방침</a>에 정확히 나와 있어요.",
+  "Only what you track": "내가 기록하는 것만",
+  "The home screen is built from the things you said you care about: cards can be reordered, hidden, or brought back whenever you like. An app that shows everyone everything is an app nobody reads. If food matters to you, the <a href=\"/en/ai-calorie-tracker\">AI meal card</a> turns a photo into an editable calorie and protein draft; if you take a tablet, the <a href=\"/en/glp1-pill-tracker\">pill tracker</a> follows a daily rhythm.": "홈 화면은 내가 중요하다고 한 것들로 만들어져요: 카드는 원할 때마다 순서를 바꾸고, 숨기고, 다시 꺼낼 수 있어요. 모두에게 모든 걸 보여 주는 앱은 아무도 읽지 않는 앱이에요. 식사가 중요하다면 <a href=\"/en/ai-calorie-tracker\">AI 식사 카드</a>가 사진을 수정 가능한 칼로리·단백질 초안으로 바꿔 주고, 정제를 먹는다면 <a href=\"/en/glp1-pill-tracker\">알약 기록</a>이 매일의 리듬을 따라가요.",
+  "Sources you can follow": "따라가 볼 수 있는 출처",
+  "Every article in the education section names where it came from (MedlinePlus (NIH), FDA, NIDDK, TİTCK) and links straight to it. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "교육 섹션의 모든 아티클은 출처(MedlinePlus (NIH), FDA, NIDDK, TİTCK)를 밝히고 바로 링크해요. Dozify는 기록 도구예요: 용량을 권장하지 않으며 결과를 해석하지 않아요.",
+  "Feedback goes to a person": "의견은 사람에게 전달돼요",
+  "Suggestions arrive as mail read by the person who writes the app, from Settings → Suggest a feature or at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. There is no ticket queue in between.": "제안은 설정 → 기능 제안하기이나 <a href=\"mailto:support@dozify.app\">support@dozify.app</a>을 통해 앱을 만드는 사람이 직접 읽는 메일로 도착해요. 중간에 티켓 대기열은 없어요.",
+  "Still being worked on": "계속 다듬고 있어요",
+  "Fixes and additions ship as they are ready, and each release says what changed. Most of what has been added since launch started as a message from someone using the app.": "수정과 추가 기능은 준비되는 대로 배포되고, 릴리스마다 무엇이 바뀌었는지 알려 드려요. 출시 이후 추가된 기능 대부분은 앱을 쓰는 누군가의 메시지에서 시작됐어요.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">App Store에서 다운로드</a>"
+ }
+}

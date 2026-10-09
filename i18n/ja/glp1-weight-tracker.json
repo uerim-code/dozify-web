@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1体重記録アプリ｜体重と用量をひとつのグラフに",
+  "description": "体重の推移を、その間の用量と並べてひとつのタイムラインに。数秒で体重を記録でき、1回ごとの数字ではなく、数か月にわたる変化の形が見えます。"
+ },
+ "t": {
+  "Weight trend": "体重の推移",
+  "Your weight and your doses on one line": "体重と用量を、ひとつのグラフに",
+  "Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.": "体重はあるアプリ、注射は別のアプリ。それでは同じ全体像が2つに分かれてしまいます。Dozifyはそれらを同じタイムライン上にまとめます。",
+  "The question is never just \"what do I weigh\". It is what the last few weeks have looked like, and what was happening in them, which dose, which week, what else you logged.": "問いは「今、体重は何キロか」だけではありません。ここ数週間がどうだったか、そしてその間に何が起きていたか — どの用量で、どの週で、ほかに何を記録したか、です。",
+  "A trend, not a number": "数字ではなく、推移を",
+  "Your weight over three months, six, or a year, with the rate it has been moving and how far it is from your goal.": "3か月、6か月、1年にわたる体重を、変化の速さと目標までの距離とともに。",
+  "Apple Health does the typing": "入力はApple Healthにおまかせ",
+  "On iPhone, weight is read from Health automatically. If your scale writes there, you do not enter anything by hand.": "iPhoneでは、体重がヘルスケアから自動で読み込まれます。体重計がそこに書き込むなら、手で入力する必要はありません。",
+  "No projection dressed up as a promise": "約束のふりをした予測はしません",
+  "The app shows what your own entries have done. It does not tell you what your body will do next.": "アプリが示すのは、あなた自身の記録がこれまでどう推移してきたかです。あなたの体がこれからどうなるかを教えることはありません。",
+  "People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.": "今朝の数字ではなく数か月の形を知りたい方、そして体重計からすでにApple Healthに体重が記録されている方へ。前回の用量変更から体重がどう動いたかを診察で聞かれて、推測で答えるしかなかった方のためでもあります。",
+  "The projection is arithmetic on the entries you have made: it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.": "予測は、あなたが入力した記録にもとづく計算です。あなた自身の数字がしてきたことを延ばすだけで、それ以上のものではありません。あなたの体がどうなるかの予測ではなく、用量の変更、病気、休暇を考慮せず、誰かがあなたのために設定した目標でもありません。Dozifyは体重、減量の速さ、食事を推奨しません。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>",
+  "Does it read my weight from Apple Health?": "Apple Healthから体重を読み込めますか？",
+  "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.": "iPhoneでは、はい。体重計やほかのアプリがヘルスケアに体重を書き込んでいれば、Dozifyがそれを読み込むので、何も入力する必要はありません。手で入力することもできます。",
+  "Kilograms or pounds?": "キログラムとポンド、どちらですか？",
+  "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.": "どちらでも使えます。単位は設定で選べ、変更すると数字を読み替えるのではなく、すでにある記録を換算します。",
+  "Does the projection tell me when I will reach my goal?": "予測を見れば、いつ目標に届くかわかりますか？",
+  "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.": "わかるのは、あなた自身の記録の推移が変わらずに続いた場合に、いつ届くかです。体はそのようには動かず、アプリもその日付を計画として示すのではなく、画面上でそのことを伝えています。",
+  "Can I log measurements as well?": "体のサイズも記録できますか？",
+  "Yes, waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.": "はい。ウエスト、ヒップなどを、体重と同じタイムライン上に記録できます。体重計よりメジャーのほうが動く月のために。",
+  "Does my weight leave the phone?": "体重のデータはスマートフォンの外に出ますか？",
+  "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.": "いいえ。ほかの記録と同じくデバイスに保存されます。Apple Healthからの読み込みもスマートフォン上で行われ、何もアップロードされません。",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/reading-a-weight-trend\">how to read a trend when the scale has stalled</a> and <a href=\"/en/articles/measurements-vs-scale\">when the tape moves and the scale does not</a>.": "出典を明記したガイド：<a href=\"/en/articles/what-is-glp1\">GLP-1とは何か</a>、<a href=\"/en/articles/glp1-side-effects\">よくある副作用への対処</a>、<a href=\"/en/articles/how-to-inject-glp1\">ペンの注射のしかた（ステップごと）</a>、<a href=\"/en/articles/reading-a-weight-trend\">体重が停滞したときの推移の読み方</a>、<a href=\"/en/articles/measurements-vs-scale\">メジャーの数字は動くのに体重計が動かないとき</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Dozifyのそのほかの機能：<a href=\"/en/glp1-appointment-report\">医師向けレポート</a>と<a href=\"/en/glp1-shot-tracker\">注射トラッカー</a>。"
+ }
+}

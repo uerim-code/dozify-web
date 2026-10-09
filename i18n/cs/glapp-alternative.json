@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "title": "Alternativa ke Glapp — přenes svou historii GLP-1",
+  "description": "Odcházíš z Glapp? Dozify přečte export, ukáže náhled každého záznamu před uložením a řekne ti, které sloupce nedokázalo zařadit. Zdarma, nic se nenahrává."
+ },
+ "t": {
+  "Glapp alternative": "Alternativa k Glapp",
+  "Coming from Glapp? Bring the history with you": "Přecházíš z Glapp? Vezmi si historii s sebou",
+  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Exportuj data z Glapp, otevři je v Dozify a uvidíš každý záznam, který se má uložit, dřív, než se uloží. Zdarma a soubor nikdy neopustí tvůj telefon.",
+  "The columns Dozify looks for in a Glapp export": "Sloupce, které Dozify hledá v exportu z Glapp",
+  "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
+  "<code>time</code>": "<code>time</code>",
+  "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
+  "<strong>Site</strong>": "<strong>Místo vpichu</strong>",
+  "<code>site · body site</code>": "<code>site · body site</code>",
+  "<strong>Medication</strong>": "<strong>Lék</strong>",
+  "<code>medication · product</code>": "<code>medication · product</code>",
+  "<code>weight · weight kg · body weight</code>": "<code>weight · weight kg · body weight</code>",
+  "<strong>Side effect</strong>": "<strong>Nežádoucí účinek</strong>",
+  "<code>symptom · side effect · side-effect</code>": "<code>symptom · side effect · side-effect</code>",
+  "<strong>Severity</strong>": "<strong>Závažnost</strong>",
+  "<code>severity · intensity</code>": "<code>severity · intensity</code>",
+  "<code>notes · note</code>": "<code>notes · note</code>",
+  "If your dose column is headed “units”": "Pokud má tvůj sloupec dávky záhlaví „units“",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "Tyto řádky se ti vypíšou, místo aby se převedly. Jednotka je objem na stříkačce a kolik miligramů v ní je, závisí na koncentraci tvé lahvičky — čísle, které soubor neobsahuje. Zapsat je do pole pro miligramy by zaznamenalo špatnou dávku, aniž by to cokoli dalšího zpochybnilo, takže je Dozify zobrazí a nechá tě zadat množství, které používá tvůj lékař. <a href=\"/en/articles/units-vs-milligrams\">Proč neexistuje jeden převod →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify je nástroj pro sledování, nikoli zdravotnický prostředek. Nedoporučuje dávky a neposkytuje lékařské rady. Glapp je ochranná známka svého vlastníka a je zde uvedena pouze k popisu formátu souboru, který Dozify umí přečíst; Dozify s Glapp není spojeno a tato stránka není jimi podporována. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® a Rybelsus® jsou ochranné známky příslušných vlastníků; Dozify s těmito společnostmi není spojeno.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Stáhnout v App Store</a>"
+ }
+}

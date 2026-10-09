@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "Трекер веса на GLP-1 — вес и дозы вместе",
+  "description": "Динамика веса рядом с дозами, которые к ней привели, на одной шкале времени. Записывайте вес за секунды и смотрите на форму месяцев, а не на отдельные цифры."
+ },
+ "t": {
+  "Weight trend": "Динамика веса",
+  "Your weight and your doses on one line": "Ваш вес и ваши дозы на одной линии",
+  "Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.": "Вес в одном приложении, а уколы в другом — это две половины одной картины. Dozify держит их на одной шкале времени.",
+  "The question is never just \"what do I weigh\". It is what the last few weeks have looked like, and what was happening in them, which dose, which week, what else you logged.": "Вопрос никогда не сводится к «сколько я вешу». Важно, как выглядели последние несколько недель и что в них происходило: какая доза, какая неделя, что ещё вы записали.",
+  "A trend, not a number": "Тренд, а не цифра",
+  "Your weight over three months, six, or a year, with the rate it has been moving and how far it is from your goal.": "Ваш вес за три месяца, полгода или год — с темпом изменений и расстоянием до вашей цели.",
+  "Apple Health does the typing": "Вводит за вас Apple Health",
+  "On iPhone, weight is read from Health automatically. If your scale writes there, you do not enter anything by hand.": "На iPhone вес автоматически подтягивается из «Здоровья». Если ваши весы пишут туда, ничего вводить вручную не нужно.",
+  "No projection dressed up as a promise": "Никаких прогнозов под видом обещаний",
+  "The app shows what your own entries have done. It does not tell you what your body will do next.": "Приложение показывает, что сделали ваши собственные записи. Оно не говорит, что ваш организм сделает дальше.",
+  "People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.": "Тем, кому нужна форма нескольких месяцев, а не сегодняшняя утренняя цифра, и тем, чей вес уже попадает в Apple Health с весов. А ещё — всем, кого на приёме спрашивали, как менялся вес после последнего изменения дозы, и кому приходилось угадывать.",
+  "The projection is arithmetic on the entries you have made: it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.": "Прогноз — это арифметика по вашим записям: он продлевает то, что делали ваши собственные цифры, и ничего больше. Это не предсказание того, что сделает ваш организм, он не учитывает изменение дозы, болезнь или отпуск, и это не цель, которую кто-то вам поставил. Dozify не рекомендует вес, темп снижения или диету.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Загрузите в App Store</a>",
+  "Does it read my weight from Apple Health?": "Читает ли он вес из Apple Health?",
+  "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.": "На iPhone — да. Если весы или другое приложение записывают вес в «Здоровье», Dozify его читает, и вам ничего не нужно вводить. Можно также вводить вручную.",
+  "Kilograms or pounds?": "Килограммы или фунты?",
+  "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.": "Как удобно. Единица измерения — это настройка, и при её смене уже имеющиеся данные пересчитываются, а не истолковываются заново.",
+  "Does the projection tell me when I will reach my goal?": "Говорит ли прогноз, когда я достигну цели?",
+  "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.": "Он говорит, когда вы бы её достигли, если бы тренд ваших записей продолжался без изменений. Организм так не работает, и приложение прямо пишет об этом на экране, а не преподносит дату как план.",
+  "Can I log measurements as well?": "Можно ли записывать и замеры?",
+  "Yes, waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.": "Да: талия, бёдра и остальное — на одной шкале времени с весом, для тех месяцев, когда весы меняются меньше, чем сантиметр.",
+  "Does my weight leave the phone?": "Покидает ли мой вес телефон?",
+  "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.": "Нет. Он хранится на устройстве, как и остальные ваши записи. Чтение из Apple Health происходит на телефоне; ничего не загружается.",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/reading-a-weight-trend\">how to read a trend when the scale has stalled</a> and <a href=\"/en/articles/measurements-vs-scale\">when the tape moves and the scale does not</a>.": "Статьи со ссылками на источники: <a href=\"/en/articles/what-is-glp1\">что такое GLP-1 на самом деле</a>, <a href=\"/en/articles/glp1-side-effects\">как справляться с частыми побочными эффектами</a>, <a href=\"/en/articles/how-to-inject-glp1\">как сделать укол шприц-ручкой, шаг за шагом</a>, <a href=\"/en/articles/reading-a-weight-trend\">как читать тренд, когда вес встал</a> и <a href=\"/en/articles/measurements-vs-scale\">когда сантиметр показывает прогресс, а весы — нет</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Ещё в Dozify: <a href=\"/en/glp1-appointment-report\">отчёт для врача</a> и <a href=\"/en/glp1-shot-tracker\">трекер уколов</a>."
+ }
+}

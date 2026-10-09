@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KI-Kalorienzähler für GLP-1: Kalorien &amp; Protein per Foto</title>
+  <meta property="og:url" content="https://dozify.app/de/ai-calorie-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Mahlzeit fotografieren: Dozify schätzt Kalorien und Protein pro Lebensmittel. Du korrigierst und speicherst neben GLP-1-Dosen und Gewicht. Premium.">
+  <meta property="og:title" content="KI-Kalorienzähler für GLP-1: Kalorien &amp; Protein per Foto">
+  <meta property="og:description" content="Mahlzeit fotografieren: Dozify schätzt Kalorien und Protein pro Lebensmittel. Du korrigierst und speicherst neben GLP-1-Dosen und Gewicht. Premium.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify – ein privater GLP-1-Spritzen- und Gewichtstracker für iPhone">
+  <meta name="twitter:title" content="KI-Kalorienzähler für GLP-1: Kalorien &amp; Protein per Foto">
+  <meta name="twitter:description" content="Mahlzeit fotografieren: Dozify schätzt Kalorien und Protein pro Lebensmittel. Du korrigierst und speicherst neben GLP-1-Dosen und Gewicht. Premium.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify – ein privater GLP-1-Spritzen- und Gewichtstracker für iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="de_DE">
+
+  <link rel="canonical" href="https://dozify.app/de/ai-calorie-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/ai-calorie-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/fotograftan-kalori-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/ai-calorie-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/ai-calorie-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/ai-calorie-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/ai-calorie-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/ai-calorie-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/ai-calorie-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/ai-calorie-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/ai-calorie-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/ai-calorie-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/ai-calorie-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/ai-calorie-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/ai-calorie-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/ai-calorie-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/ai-calorie-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/ai-calorie-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/ai-calorie-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/ai-calorie-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/ai-calorie-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/de",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "de"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/de",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Abnehmspritze und GLP-1-Tabletten protokollieren, Einstichstellen wechseln, Gewicht und Nebenwirkungen tracken, Kalorien per KI-Foto schätzen. iPhone.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "de"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/de/ai-calorie-tracker#webpage",
+        "url": "https://dozify.app/de/ai-calorie-tracker",
+        "name": "KI-Kalorienzähler für GLP-1: Kalorien & Protein per Foto",
+        "description": "Mahlzeit fotografieren: Dozify schätzt Kalorien und Protein pro Lebensmittel. Du korrigierst und speicherst neben GLP-1-Dosen und Gewicht. Premium.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "de",
+        "breadcrumb": {
+          "@id": "https://dozify.app/de/ai-calorie-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Wie genau ist die Kalorienzählung per Foto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Es ist eine Schätzung, und die App kennzeichnet sie auch so. Portionsgröße, Bratfett und versteckte Zutaten sind auf einem Bild schwer zu erkennen. Deshalb ist das Ergebnis ein Entwurf, den du vor dem Speichern bearbeitest, statt einer Zahl, die direkt in dein Protokoll geschrieben wird."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ist das KI-Mahlzeitenfoto kostenlos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nein, es gehört zu Premium, zusammen mit der geschätzten Spiegelkurve des Medikaments und dem Arztbericht. Dosis-Protokoll und Erinnerungen sind dauerhaft kostenlos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Speichert Dozify meine Essensfotos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nein. Das Foto wird für die Analyse über Dozifys Server an Google Gemini gesendet und von der App nicht gespeichert. Vor der ersten Nutzung wirst du um deine Zustimmung gebeten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "In welcher Sprache antwortet es?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In der, auf die deine App eingestellt ist. Dozify gibt es in 22 Sprachen, und die Lebensmittel werden in dieser Sprache benannt – das Gericht auf deinem Teller heißt also so, wie du es nennen würdest."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Funktioniert es offline?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Die Fotoanalyse braucht eine Internetverbindung. Der Rest von Dozify, einschließlich Dosis-Protokoll und Erinnerungen, funktioniert offline."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Sagt es mir, wie viel ich essen sollte?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nein. Es hält fest, was du gegessen hast. Kalorien- und Proteinziele vereinbarst du mit deiner Ärztin oder deinem Arzt; der Ratgeber in der App erklärt, woher gängige Proteinbereiche kommen und wann sie nicht gelten."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/de/ai-calorie-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Start",
+            "item": "https://dozify.app/de"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "KI-Mahlzeitenfoto",
+            "item": "https://dozify.app/de/ai-calorie-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/de" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Funktionen</a>
+        
+        <a href="/#privacy">Datenschutz</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/de">Start</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>KI-Mahlzeitenfoto</span>
+      
+    </div>
+    <h1>Ein KI-Kalorien- und Proteinzähler für das Leben mit GLP-1</h1>
+    
+    <p class="meta">Fotografiere eine Mahlzeit, und Dozify erstellt einen Entwurf mit Kalorien und Protein für jedes Lebensmittel, in deiner Sprache. Du prüfst ihn, korrigierst ihn und speicherst ihn – direkt neben deinen Dosen und deinem Gewicht.</p>
+    
+
+    <h2>Kleinere Teller, eine andere Frage</h2>
+    <p>Unter einem GLP-1-Medikament merken viele Menschen, dass sie einfach weniger essen. Wenn die Portionen schrumpfen, verschiebt sich die Frage von „wie viel liegt auf dem Teller“ zu „was liegt drauf“ – und Protein ist die Zahl, die in Gesprächen über die Behandlung immer wieder auftaucht. Jede Mahlzeit abzuwiegen und einzutippen ist eine Gewohnheit, die etwa eine Woche hält. Ein Foto dauert ein paar Sekunden – genau deshalb gibt es diese Funktion.</p>
+
+    
+    
+
+    <h2>So funktioniert's</h2>
+    <h3>Foto machen oder auswählen</h3>
+    <p>Fotografiere den Teller oder wähle ein Bild aus deiner Mediathek. Beim ersten Mal erklärt Dozify, wohin das Foto geht, und fragt nach deiner Zustimmung, bevor irgendetwas gesendet wird.</p>
+    <h3>Kalorien und Protein, Lebensmittel für Lebensmittel</h3>
+    <p>Die KI listet auf, was sie auf dem Teller erkennt, jedes Lebensmittel mit geschätzten Kalorien und geschätztem Protein, in der Sprache, auf die deine App eingestellt ist. Dozify gibt es in 22 Sprachen.</p>
+    <h3>Ein Entwurf, nie ein Urteil</h3>
+    <p>Jedes Ergebnis kommt als bearbeitbarer Entwurf mit demselben Hinweis: „Dies ist eine Schätzung — prüfe sie vor dem Speichern.“ Ändere eine Portion, ergänze die Soße, die übersehen wurde, entferne, was nie da war. Nichts landet in deinem Protokoll, bevor du auf Speichern tippst.</p>
+    <h3>Neben deiner Behandlung, nicht in einer anderen App</h3>
+    <p>Gespeicherte Mahlzeiten landen im selben Essens- und Wasserprotokoll wie der Rest deines Tages, mit einer laufenden Protein-Summe, in der App, in der schon deine Dosen und dein Gewicht stehen. Ein Ort zum Nachschauen statt drei.</p>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="Dozify liest ein Mahlzeitenfoto: der KI-Scan läuft über einem Salat"></div></figure>
+      
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="KI-Ergebnis mit jedem auf dem Teller gefundenen Lebensmittel samt Kalorien und Protein, bereit zum Bearbeiten"></div></figure>
+      
+      <figure class="shot"><div class="device"><img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="KI-Schätzung per Foto im Ernährungsformular als bearbeitbarer Entwurf, mit Kalorien, Protein und Hinweis zur Unsicherheit"></div></figure>
+      
+    </div>
+
+    <h2>Was die App zu Protein sagt</h2>
+    <p>Dozifys Ernährungsratgeber in der App nennt einen Bereich von 1,2 bis 1,6 g Protein pro kg Körpergewicht und sagt klar, woher dieser Bereich stammt: aus Ernährungsempfehlungen zum Abnehmen, nicht aus der Fachinformation des Medikaments. Wenn du eine Nierenerkrankung hast, legt deine Ärztin oder dein Arzt dein Proteinziel fest, und es kann niedriger sein. Der Ratgeber empfiehlt außerdem, Protein auf drei oder vier Mahlzeiten zu verteilen, statt alles in eine zu packen, und nennt Krafttraining zwei- bis dreimal pro Woche als die Gewohnheit, die verlässlich die fettfreie Masse schützt. Dozify verordnet keine Diät; die Zahlen, die für dich gelten, kommen von deiner Ärztin, deinem Arzt oder deiner Ernährungsberatung.</p>
+
+    
+    
+
+    <h2>Wo die Grenzen liegen</h2>
+    <p>Es ist eine Schätzung anhand eines Bildes. Ein Foto sieht weder das Öl in der Pfanne noch den Zucker im Dressing oder was sich unter dem Reis versteckt, und die Portionsgröße ist von oben am schwersten einzuschätzen. Betrachte die Zahlen als Ausgangspunkt, den du korrigierst, nicht als Messung. Die Analyse braucht eine Internetverbindung, es gibt ein Tageslimit pro Nutzer, und die Funktion gehört zu Premium. Du kannst eine Mahlzeit jederzeit auch von Hand eintragen.</p>
+
+    
+    
+
+    <h2>Wohin das Foto geht</h2>
+    <p>Anders als der Rest deiner Daten schickt diese Funktion etwas von deinem Handy weg – deshalb lohnt es sich, genau zu sein. Das ausgewählte Foto wird über eine verschlüsselte Verbindung über Dozifys eigenen Server an Google Gemini übertragen, und die Schätzung kommt zurück auf dein Handy. Dozify speichert das Foto nicht. Deine Dosen, dein Gewicht, deine Symptome und andere Gesundheitsdaten bleiben wie immer auf dem Gerät, und wenn du die Funktion nie nutzt, verlässt kein Foto dein Handy. Alle Details stehen in Abschnitt 5 der <a href="/de/privacy">Datenschutzerklärung</a>, das Gesamtbild auf <a href="/de/private-glp1-tracker">der Seite zum privaten Tracker</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-ai-calorie-tracker-de&mt=8" class="btn btn-primary">Laden im App Store</a></p>
+
+
+    <h2>Fragen</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Wie genau ist die Kalorienzählung per Foto?</h3>
+        
+        <p>Es ist eine Schätzung, und die App kennzeichnet sie auch so. Portionsgröße, Bratfett und versteckte Zutaten sind auf einem Bild schwer zu erkennen. Deshalb ist das Ergebnis ein Entwurf, den du vor dem Speichern bearbeitest, statt einer Zahl, die direkt in dein Protokoll geschrieben wird.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Ist das KI-Mahlzeitenfoto kostenlos?</h3>
+        
+        <p>Nein, es gehört zu Premium, zusammen mit der geschätzten <a href="/de/glp1-medication-level">Spiegelkurve des Medikaments</a> und dem Arztbericht. Dosis-Protokoll und Erinnerungen sind dauerhaft kostenlos.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Speichert Dozify meine Essensfotos?</h3>
+        
+        <p>Nein. Das Foto wird für die Analyse über Dozifys Server an Google Gemini gesendet und von der App nicht gespeichert. Vor der ersten Nutzung wirst du um deine Zustimmung gebeten.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>In welcher Sprache antwortet es?</h3>
+        
+        <p>In der, auf die deine App eingestellt ist. Dozify gibt es in 22 Sprachen, und die Lebensmittel werden in dieser Sprache benannt – das Gericht auf deinem Teller heißt also so, wie du es nennen würdest.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Funktioniert es offline?</h3>
+        
+        <p>Die Fotoanalyse braucht eine Internetverbindung. Der Rest von Dozify, einschließlich Dosis-Protokoll und Erinnerungen, funktioniert offline.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Sagt es mir, wie viel ich essen sollte?</h3>
+        
+        <p>Nein. Es hält fest, was du gegessen hast. Kalorien- und Proteinziele vereinbarst du mit deiner Ärztin oder deinem Arzt; der Ratgeber in der App erklärt, woher gängige Proteinbereiche kommen und wann sie nicht gelten.</p>
+        
+      </div>
+    </div>
+
+    <h2>Weiterlesen</h2>
+    <p>Ratgeber mit genannten Quellen: <a href="/de/articles/what-is-glp1">was GLP-1 eigentlich ist</a>, <a href="/de/articles/hydration-on-a-glp1">Trinken unter GLP-1</a> und <a href="/de/articles/measurements-vs-scale">wenn das Maßband sich bewegt, die Waage aber nicht</a>.</p>
+    <p>Außerdem in Dozify: <a href="/de/glp1-weight-tracker">der Gewichtstracker</a>, <a href="/de/glp1-medication-level">die geschätzte Spiegelkurve des Medikaments</a>, <a href="/de/glp1-pill-tracker">der GLP-1-Tabletten-Tracker</a> und <a href="/de/glp1-side-effect-journal">das Nebenwirkungs-Tagebuch</a>.</p>
+
+    
+    
+    
+
+    <p class="meta">Dozify ist ein Tracking-Tool, kein Medizinprodukt. Es empfiehlt keine Dosen und bietet keine medizinische Beratung. Kalorien- und Proteinwerte aus einem Foto sind Schätzungen. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® und Rybelsus® sind Marken ihrer jeweiligen Inhaber; Google Gemini ist eine Marke der Google LLC; Dozify steht in keiner Verbindung zu diesen Unternehmen.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/de" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Rechtliches</h3>
+          
+          <a href="/de/privacy">Datenschutzerklärung</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/de/terms">Nutzungsbedingungen</a>
+          
+          <a href="/de/editorial-policy">Redaktionelle Richtlinien</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Tracking</h3>
+          
+          <a href="/de/glp1-shot-tracker">GLP-1-Spritzen-Tracker</a>
+          
+          <a href="/de/injection-site-tracker">Einstichstellen-Tracker</a>
+          
+          <a href="/de/glp1-weight-tracker">GLP-1-Gewichtstracker</a>
+          
+          <a href="/de/glp1-side-effect-journal">Nebenwirkungs-Tagebuch</a>
+          
+          <a href="/de/glp1-vial-tracker">Vial-Tracker</a>
+          
+          <a href="/de/private-glp1-tracker">Privater GLP-1-Tracker</a>
+          
+          <a href="/de/glp1-appointment-report">Arztbericht</a>
+          
+          <a href="/de/switch-glp1-tracker-app">Von einer anderen App wechseln</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Hilfe</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/ai-calorie-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/fotograftan-kalori-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/ai-calorie-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/ai-calorie-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/ai-calorie-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/ai-calorie-tracker" hreflang="de" lang="de" aria-current="page">Deutsch</a> · <a href="/el/ai-calorie-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/ai-calorie-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/ai-calorie-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/ai-calorie-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/ai-calorie-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/ai-calorie-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/ai-calorie-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/ai-calorie-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/ai-calorie-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/ai-calorie-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/ai-calorie-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/ai-calorie-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/ai-calorie-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/ai-calorie-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/ai-calorie-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/ai-calorie-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

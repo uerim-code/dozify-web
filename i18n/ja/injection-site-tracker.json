@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "注射部位トラッカー｜メモなしでローテーション",
+  "description": "次にどの部位かは人体マップが覚えているので、メモは不要です。GLP-1の注射をどこに打ったかを記録し、ローテーションの状況をひと目で確認できます。"
+ },
+ "t": {
+  "Site rotation": "部位のローテーション",
+  "Rotate your sites without keeping notes": "メモをとらずに、注射部位をローテーション",
+  "The body map remembers where the last few went, and suggests the spot you have gone longest without using.": "人体マップが直近の数回の場所を覚えていて、最も長く使っていない場所を提案します。",
+  "Rotation is one of those things that is simple in principle and impossible to hold in your head. Six sites, one injection a week, and a note somewhere that you stopped updating in March.": "ローテーションは、原理はシンプルなのに頭の中だけでは覚えておけないもののひとつです。6つの部位、週に1回の注射、そして3月から更新しなくなったどこかのメモ。",
+  "A map instead of a memory": "記憶の代わりにマップを",
+  "Tap where you injected. The next time, the spot you have used least recently is already selected.": "注射した場所をタップします。次回は、最も長く使っていない場所があらかじめ選ばれています。",
+  "Your own site names": "自分だけの部位名",
+  "If you rotate somewhere the diagram does not name, write it in. The app will not draw an anatomy it does not know, but it will remember your label.": "人体図に名前のない場所でローテーションしているなら、書き込んでください。アプリは知らない解剖図を描くことはしませんが、あなたのラベルは覚えておきます。",
+  "A gentle warning, not a rule": "ルールではなく、やさしい注意",
+  "Pick a site you used last week and the app says so. It does not stop you: it is your body and your clinician's instruction.": "先週使った部位を選ぶと、アプリがそう教えてくれます。止めることはしません。あなたの体であり、従うのは医療者の指示だからです。",
+  "People who have been told to rotate and not given a way to keep track of it, and people who have started to notice that one patch of the abdomen feels different from the rest. It also helps anyone injecting more than once a week, where the pattern is harder to hold in your head than a single weekly spot.": "ローテーションするように言われたものの、記録する方法を教わっていない方、そしておなかの一部分だけほかと感触が違うことに気づき始めた方へ。週に2回以上注射する方にも役立ちます。週1回の決まった場所よりも、パターンを頭の中で覚えておくのが難しいからです。",
+  "The body map records where you injected and suggests which area comes next in the rotation. It does not examine the site: it cannot tell you whether the skin there is suitable today, and a lump or a hardened area is something to show a clinician, not something an app should judge. The approved areas come from the manufacturer's instructions for your medication, and those instructions are what to follow if they differ.": "人体マップは注射した場所を記録し、ローテーションで次にどの部位かを提案します。部位を診察することはしません：その日その場所の皮膚が適しているかどうかは教えられず、しこりや硬くなった部分は臨床医に見せるべきもので、アプリが判断すべきものではありません。認められている部位はお薬についてのメーカーの説明から来ており、食い違う場合はその説明に従ってください。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>",
+  "Which sites can I choose from?": "どの部位から選べますか？",
+  "The abdomen, the thigh and the upper arm, split into left and right and into the areas within each. Those are the areas the manufacturers' instructions describe for subcutaneous GLP-1 injections.": "腹部、太もも、上腕を、左右に、さらにそれぞれの中のエリアに分けています。これらはメーカーの説明書が皮下へのGLP-1注射について示している部位です。",
+  "How does the suggestion work?": "提案はどのようなしくみですか？",
+  "It looks at where your recent injections went and points at the area you have used least recently. It is a suggestion on the screen, not a rule: you can log anywhere you actually injected.": "最近の注射がどこに打たれたかを見て、最も長く使っていない部位を示します。画面上の提案であってルールではありません。実際に注射した場所なら、どこでも記録できます。",
+  "Does it warn me if I use the same spot again?": "同じ場所をまた使うと注意してくれますか？",
+  "It shows you what you have used recently, so a repeat is visible before you log it. It does not block anything; you may have a reason, and the app does not overrule you.": "最近使った場所を表示するので、記録する前に繰り返しが目に見えます。何かをブロックすることはしません。理由があるのかもしれず、アプリがあなたの判断を覆すことはありません。",
+  "I inject in the same area every time. Is that a problem?": "毎回同じエリアに注射しています。問題ですか？",
+  "That is a question for your clinician or pharmacist. What Dozify can do is show them the pattern: the report includes where your injections have gone over the period you pick.": "それは担当の医療者や薬剤師に聞くことです。Dozifyにできるのは、そのパターンを見せることです。レポートには、選んだ期間に注射をどこに打ってきたかが含まれます。",
+  "Does this replace the leaflet that came with my pen?": "ペンに付属の添付文書の代わりになりますか？",
+  "No. The leaflet is the instruction; this is a record of what you did. Where the two disagree, the leaflet is right.": "いいえ。添付文書は指示で、これはあなたがしたことの記録です。両者が食い違う場合は、添付文書が正しいものです。",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a> and <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/injection-site-lumps\">what the labels report about lumps at a site</a>.": "出典を明記したガイド：<a href=\"/en/articles/glp1-injection-sites\">どこに注射し、どうローテーションするか</a>、<a href=\"/en/articles/how-to-inject-glp1\">ペンの注射のしかた（ステップごと）</a>、<a href=\"/en/articles/glp1-side-effects\">よくある副作用への対処</a>、<a href=\"/en/articles/injection-site-lumps\">注射部位のしこりについて添付文書が報告していること</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a>.": "Dozifyのそのほかの機能：<a href=\"/en/glp1-shot-tracker\">注射トラッカー</a>と<a href=\"/en/glp1-side-effect-journal\">副作用日記</a>。"
+ }
+}

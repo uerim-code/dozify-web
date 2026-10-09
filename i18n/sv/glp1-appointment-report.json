@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "GLP-1 läkarrapport – kom till besöket med en sammanfattning",
+  "description": "Tio minuter för att förklara tre månader. Välj period och vad som ska med, så skapar Dozify en tydlig PDF med doser, vikt och biverkningar."
+ },
+ "t": {
+  "Walk in with a summary, not a memory": "Kom till besöket med en sammanfattning, inte ett minne",
+  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Ett tryck gör tre månader av dina egna uppgifter till en sida som din läkare kan läsa under de tio minuter ni har.",
+  "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Ett besök är kort och det som ska täckas är långt: vad du tog och när, hur vikten rörde sig, vilka biverkningar och när, och de två frågor du tänkte ställa.",
+  "A clinical summary, generated on the device": "En klinisk sammanfattning, skapad på enheten",
+  "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Doser och intervall, viktkurva, biverkningar, rotation av ställen, öppnade flaskor: över 30, 90 eller 180 dagar.",
+  "Your questions, printed at the end": "Dina frågor, utskrivna på slutet",
+  "Write them down as they occur to you during the month. They come out on the last page.": "Skriv ner dem när de dyker upp under månaden. De kommer med på sista sidan.",
+  "Yours to share, or not": "Din att dela, eller inte",
+  "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDF:en skapas i din telefon. Inget laddas upp; du bestämmer om den ska skickas någonstans.",
+  "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Den som har ett kort återbesök och en lång period att beskriva, och den som byter till en ny kliniker som aldrig har sett hens historik. Den är också för besöket där en dosändring är på tal, där det som hände de senaste åtta veckorna är precis vad beslutet vilar på.",
+  "The report is your record laid out clearly. It is not a clinical assessment, it contains no interpretation, and nothing in it should be read as a recommendation, the reading is your doctor's. It also only contains what you logged: a week you did not record is a gap in the report, not a week without doses.": "Rapporten är din logg uppställd tydligt. Den är ingen klinisk bedömning, den innehåller ingen tolkning, och inget i den ska läsas som en rekommendation – tolkningen är din läkares. Den innehåller också bara det du loggade: en vecka du inte registrerade är en lucka i rapporten, inte en vecka utan doser.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-appointment-report-en&mt=8\" class=\"btn btn-primary\">Hämta i App Store</a>",
+  "What is in the report?": "Vad står i rapporten?",
+  "Doses and the intervals between them, the weight trend, side effects with their severity, injection sites, open vials, and the questions you wrote down: over the range you pick.": "Doser och intervallen mellan dem, viktkurvan, biverkningar med svårighetsgrad, injektionsställen, öppnade flaskor och frågorna du skrev ner: över den period du väljer.",
+  "Which date ranges can I choose?": "Vilka perioder kan jag välja?",
+  "30, 90 or 180 days. Ninety usually matches the gap between appointments; the longer one is for a first visit with a new clinician.": "30, 90 eller 180 dagar. Nittio brukar motsvara tiden mellan besöken; den längre är för ett första besök hos en ny kliniker.",
+  "Can I leave sections out?": "Kan jag utelämna avsnitt?",
+  "Yes. Each section is a switch, so a report can be doses and weight only if that is what the visit is about.": "Ja. Varje avsnitt är en knapp, så en rapport kan bestå av bara doser och vikt om det är det besöket handlar om.",
+  "Can I send it before the appointment?": "Kan jag skicka den före besöket?",
+  "The PDF is a file on your phone. Print it, email it, put it in a portal: that is your decision, made after you have seen it.": "PDF:en är en fil i din telefon. Skriv ut den, mejla den, lägg upp den i en portal: det är ditt beslut, fattat efter att du har sett den.",
+  "Is anything uploaded to make it?": "Laddas något upp för att skapa den?",
+  "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Nej. Den skapas på enheten från uppgifter som redan finns där. Inget skickas någonstans för att ta fram den.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Guider med namngivna källor: <a href=\"/en/articles/glp1-side-effects\">hantera vanliga biverkningar</a>, <a href=\"/en/articles/what-is-glp1\">vad GLP-1 faktiskt är</a> och <a href=\"/en/articles/glp1-injection-sites\">var du injicerar och hur du roterar</a> och <a href=\"/en/articles/glp1-appointment-checklist\">vad du ska ha redo inför själva besöket</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Mer i Dozify: <a href=\"/en/glp1-side-effect-journal\">biverkningsdagboken</a> och <a href=\"/en/glp1-weight-tracker\">viktkurvan</a>."
+ }
+}

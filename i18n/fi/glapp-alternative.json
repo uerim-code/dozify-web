@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "title": "Glapp-vaihtoehto – tuo GLP-1-historiasi mukanasi",
+  "description": "Luovutko Glapp-sovelluksesta? Dozify lukee viennin, näyttää jokaisen merkinnän ennen tallennusta ja kertoo, mitä sarakkeita se ei sijoittanut. Ilmainen."
+ },
+ "t": {
+  "Glapp alternative": "Glapp-vaihtoehto",
+  "Coming from Glapp? Bring the history with you": "Siirrytkö Glapp-sovelluksesta? Tuo historia mukanasi",
+  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Vie tiedot Glapp-sovelluksesta, avaa ne Dozifyssa ja näe jokainen tallennettava merkintä ennen kuin yhtäkään tallennetaan. Ilmaista, eikä tiedosto koskaan poistu puhelimestasi.",
+  "The columns Dozify looks for in a Glapp export": "Sarakkeet, joita Dozify etsii Glapp-viennistä",
+  "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
+  "<code>time</code>": "<code>time</code>",
+  "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
+  "<strong>Site</strong>": "<strong>Pistoskohta</strong>",
+  "<code>site · body site</code>": "<code>site · body site</code>",
+  "<strong>Medication</strong>": "<strong>Lääke</strong>",
+  "<code>medication · product</code>": "<code>medication · product</code>",
+  "<code>weight · weight kg · body weight</code>": "<code>weight · weight kg · body weight</code>",
+  "<strong>Side effect</strong>": "<strong>Sivuvaikutus</strong>",
+  "<code>symptom · side effect · side-effect</code>": "<code>symptom · side effect · side-effect</code>",
+  "<strong>Severity</strong>": "<strong>Vakavuus</strong>",
+  "<code>severity · intensity</code>": "<code>severity · intensity</code>",
+  "<code>notes · note</code>": "<code>notes · note</code>",
+  "If your dose column is headed “units”": "Jos annossarakkeen otsikko on ”units”",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "Nuo rivit luetellaan sinulle sen sijaan, että ne muunnettaisiin. Yksikkö on tilavuus ruiskussa, ja se, montako milligrammaa siinä on, riippuu injektiopullosi pitoisuudesta — luvusta, jota tiedosto ei sisällä. Niiden kirjoittaminen milligrammakenttään kirjaisi väärän annoksen ilman, että mikään myöhemmin kyseenalaistaisi sitä, joten Dozify näyttää ne ja antaa sinun syöttää lääkärisi käyttämän määrän. <a href=\"/en/articles/units-vs-milligrams\">Miksi yhtä muuntokerrointa ei ole →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify on seurantatyökalu, ei lääkinnällinen laite. Se ei suosittele annoksia eikä anna lääketieteellisiä neuvoja. Glapp on omistajansa tavaramerkki, ja se mainitaan tässä vain kuvaamaan tiedostomuotoa, jonka Dozify osaa lukea; Dozify ei ole sidoksissa Glapp-sovellukseen, eikä sen omistaja ole hyväksynyt tätä sivua. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® ja Rybelsus® ovat omistajiensa tavaramerkkejä; Dozify ei ole sidoksissa näihin yrityksiin.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Lataa App Storesta</a>"
+ }
+}

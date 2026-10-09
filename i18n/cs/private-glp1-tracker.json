@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "Soukromé sledování GLP-1 — bez účtu, bez cloudu",
+  "description": "Tvoje dávky, váha a příznaky zůstávají v telefonu. Žádná registrace, žádná synchronizace, žádné reklamy v aplikaci. Smažeš aplikaci a záznamy zmizí s ní."
+ },
+ "t": {
+  "No account. Your records stay on your phone.": "Žádný účet. Tvoje záznamy zůstávají v telefonu.",
+  "Your injection history, weight, side effects and progress photos are stored on your device and never uploaded. A meal photo leaves the phone only if you choose to analyse it with AI calories.": "Tvoje historie injekcí, váha, nežádoucí účinky a fotky pokroku jsou uložené ve tvém zařízení a nikdy se nenahrávají. Fotka jídla opustí telefon jen tehdy, když se ji rozhodneš analyzovat pomocí AI kalorií.",
+  "A GLP-1 log is a medical record about a treatment many people do not discuss. Handing it to a service that requires an account, a login and a server is a decision, and it is usually made by default.": "Záznam o léčbě GLP-1 je zdravotní záznam o léčbě, o které mnoho lidí nemluví. Svěřit ho službě, která vyžaduje účet, přihlášení a server, je rozhodnutí, a obvykle se dělá automaticky.",
+  "There is no account to make": "Žádný účet k založení",
+  "Install it and start. Nothing to sign up for, nothing to sign in to, and nothing to delete from a server later.": "Nainstaluj a začni. Nic k registraci, nic k přihlášení a nic, co bys později musel(a) mazat ze serveru.",
+  "It works with the network off": "Funguje i bez sítě",
+  "Everything is on the device. Uninstalling takes your records with it.": "Všechno je v zařízení. Odinstalováním aplikace zmizí i tvoje záznamy.",
+  "Analytics that carry no health data": "Analytika bez zdravotních dat",
+  "Anonymous usage counts only: never which medication you take, never a symptom. You can switch them off entirely.": "Jen anonymní počty používání: nikdy jaký lék užíváš, nikdy příznak. Můžeš je úplně vypnout.",
+  "People who are not willing to put a prescription, a weight and a symptom list behind someone else's login, and people who share a household, a phone plan or a family account and would rather this did not appear in it. Also anyone who has read what a free health app usually does with data and decided against it.": "Lidem, kteří nechtějí dát předpis, váhu a seznam příznaků za cizí přihlášení, a lidem, kteří sdílejí domácnost, tarif nebo rodinný účet a byli by raději, kdyby se to tam neobjevilo. Také každému, kdo si přečetl, co bezplatná zdravotní aplikace obvykle dělá s daty, a rozhodl se proti tomu.",
+  "Records that only exist on one phone are lost with that phone. Dozify makes an encrypted backup file you keep yourself; there is no cloud that will quietly restore anything for you. Two things do leave the device, and the privacy policy names both: anonymous usage statistics, which never carry a medication name or a symptom, and a measurement of whether an install came from one of our own App Store or Meta campaigns, which runs behind Apple's tracking permission.": "Záznamy, které existují jen v jednom telefonu, se s tím telefonem ztratí. Dozify vytváří šifrovaný záložní soubor, který si uchováváš sám/sama; žádný cloud ti nic potichu neobnoví. Dvě věci zařízení opouštějí a zásady ochrany osobních údajů jmenují obě: anonymní statistiky používání, které nikdy neobsahují název léku ani příznak, a měření, zda instalace přišla z některé z našich vlastních kampaní v App Store nebo na Meta, které běží za povolením sledování od Applu.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-private-glp1-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-private-glp1-tracker-en&mt=8\" class=\"btn btn-primary\">Stáhnout v App Store</a>",
+  "Is there an account?": "Je tu nějaký účet?",
+  "No. There is nothing to sign up for and nothing to sign in to. The app opens straight into your own data.": "Ne. Není k čemu se registrovat ani přihlašovat. Aplikace se otevře rovnou do tvých vlastních dat.",
+  "What is collected, exactly?": "Co přesně se shromažďuje?",
+  "Anonymous usage statistics (which screens are used, whether something crashed) with no medication name, no symptom and no weight in them. The privacy policy lists what is sent and what never is.": "Anonymní statistiky používání (které obrazovky se používají, zda něco spadlo) bez názvu léku, bez příznaku a bez váhy. Zásady ochrany osobních údajů uvádějí, co se odesílá a co nikdy.",
+  "Can I get my data out?": "Můžu svá data dostat ven?",
+  "Yes. Backup writes an encrypted, password-protected file to your device, which you keep and restore from wherever you keep it.": "Ano. Záloha uloží do tvého zařízení šifrovaný soubor chráněný heslem, který si uchováváš a ze kterého obnovíš data, ať ho máš kdekoli.",
+  "What happens if I delete the app?": "Co se stane, když aplikaci smažu?",
+  "Your records go with it. There is no copy on a server to come back later, which is the point and also the reason to take a backup first.": "Tvoje záznamy zmizí s ní. Na serveru není žádná kopie, která by se později vrátila – v tom je smysl, a zároveň je to důvod si předtím udělat zálohu.",
+  "Is the data encrypted on the phone?": "Jsou data v telefonu šifrovaná?",
+  "It is stored in the app's own database inside iOS's app sandbox, and backup files are encrypted with the password you set.": "Jsou uložená ve vlastní databázi aplikace uvnitř izolovaného prostoru aplikace (sandboxu) v iOS a záložní soubory jsou šifrované heslem, které nastavíš.",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/health-app-privacy\">how to read a health app's privacy label</a>.": "Průvodci s uvedenými zdroji: <a href=\"/en/articles/what-is-glp1\">co GLP-1 doopravdy je</a>, <a href=\"/en/articles/glp1-injection-sites\">kam píchat a jak místa střídat</a>, <a href=\"/en/articles/glp1-side-effects\">jak zvládat časté nežádoucí účinky</a> a <a href=\"/en/articles/health-app-privacy\">jak číst štítek o soukromí zdravotní aplikace</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/switch-glp1-tracker-app\">importing from another app</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Další v Dozify: <a href=\"/en/switch-glp1-tracker-app\">import z jiné aplikace</a> a <a href=\"/en/glp1-appointment-report\">zpráva pro lékaře</a>.",
+  "No account. Nothing leaves your phone.": "Žádný účet. Nic neopouští tvůj telefon."
+ }
+}

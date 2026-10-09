@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "プライベートなGLP-1記録アプリ｜アカウントもクラウドも不要",
+  "description": "用量、体重、症状はスマートフォンの中に。登録なし、同期なし、アプリ内広告なし。アプリを削除すれば、記録も一緒に消えます。"
+ },
+ "t": {
+  "No account. Your records stay on your phone.": "アカウントなし。記録はスマートフォンの中に。",
+  "Your injection history, weight, side effects and progress photos are stored on your device and never uploaded. A meal photo leaves the phone only if you choose to analyse it with AI calories.": "注射の履歴、体重、副作用、経過写真はデバイスに保存され、アップロードされることはありません。食事の写真がスマートフォンの外に出るのは、AIカロリー機能で分析することをあなたが選んだときだけです。",
+  "A GLP-1 log is a medical record about a treatment many people do not discuss. Handing it to a service that requires an account, a login and a server is a decision, and it is usually made by default.": "GLP-1の記録は、多くの人が人には話さない治療についての医療記録です。それをアカウント、ログイン、サーバーが必要なサービスに預けるのはひとつの決断であり、その決断はたいてい、気づかないうちに初期設定のまま下されています。",
+  "There is no account to make": "作るアカウントはありません",
+  "Install it and start. Nothing to sign up for, nothing to sign in to, and nothing to delete from a server later.": "インストールしたらすぐに始められます。登録もサインインも不要で、後でサーバーから削除するものもありません。",
+  "It works with the network off": "ネットワークがオフでも動きます",
+  "Everything is on the device. Uninstalling takes your records with it.": "すべてがデバイス上にあります。アンインストールすれば、記録も一緒に消えます。",
+  "Analytics that carry no health data": "健康データを含まない分析",
+  "Anonymous usage counts only: never which medication you take, never a symptom. You can switch them off entirely.": "匿名の利用回数だけ：どのお薬を使っているかも、症状も含まれません。完全にオフにすることもできます。",
+  "People who are not willing to put a prescription, a weight and a symptom list behind someone else's login, and people who share a household, a phone plan or a family account and would rather this did not appear in it. Also anyone who has read what a free health app usually does with data and decided against it.": "処方されたお薬、体重、症状のリストを他人のログインの向こうに預ける気になれない方、そして家族や携帯電話のプラン、ファミリーアカウントを共有していて、そこにこれが表示されてほしくない方へ。無料の健康アプリがデータを通常どう扱っているかを読んで、それをやめようと決めた方のためでもあります。",
+  "Records that only exist on one phone are lost with that phone. Dozify makes an encrypted backup file you keep yourself; there is no cloud that will quietly restore anything for you. Two things do leave the device, and the privacy policy names both: anonymous usage statistics, which never carry a medication name or a symptom, and a measurement of whether an install came from one of our own App Store or Meta campaigns, which runs behind Apple's tracking permission.": "1台のスマートフォンにしかない記録は、そのスマートフォンとともに失われます。Dozifyは、あなた自身が保管する暗号化されたバックアップファイルを作成します。何かを黙って復元してくれるクラウドはありません。デバイスの外に出るものは2つあり、プライバシーポリシーでその両方を明記しています：お薬の名前や症状を一切含まない匿名の利用統計と、インストールが当社自身のApp StoreやMetaのキャンペーンから来たかどうかの計測で、後者はAppleのトラッキング許可のもとで行われます。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-private-glp1-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-private-glp1-tracker-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>",
+  "Is there an account?": "アカウントはありますか？",
+  "No. There is nothing to sign up for and nothing to sign in to. The app opens straight into your own data.": "いいえ。登録するものもサインインするものもありません。アプリを開くとすぐに、あなた自身のデータが表示されます。",
+  "What is collected, exactly?": "正確には何が収集されますか？",
+  "Anonymous usage statistics (which screens are used, whether something crashed) with no medication name, no symptom and no weight in them. The privacy policy lists what is sent and what never is.": "匿名の利用統計（どの画面が使われたか、クラッシュしたかどうか）で、お薬の名前、症状、体重は含まれません。プライバシーポリシーに、送信されるものと決して送信されないものを記載しています。",
+  "Can I get my data out?": "データを取り出せますか？",
+  "Yes. Backup writes an encrypted, password-protected file to your device, which you keep and restore from wherever you keep it.": "はい。バックアップはパスワードで保護された暗号化ファイルをデバイスに書き出し、あなたが保管して、保管した場所から復元できます。",
+  "What happens if I delete the app?": "アプリを削除するとどうなりますか？",
+  "Your records go with it. There is no copy on a server to come back later, which is the point and also the reason to take a backup first.": "記録も一緒に消えます。後で戻ってくるサーバー上のコピーはありません。それこそが狙いであり、先にバックアップをとっておくべき理由でもあります。",
+  "Is the data encrypted on the phone?": "スマートフォン上のデータは暗号化されていますか？",
+  "It is stored in the app's own database inside iOS's app sandbox, and backup files are encrypted with the password you set.": "iOSのアプリのサンドボックス内にあるアプリ自身のデータベースに保存され、バックアップファイルはあなたが設定したパスワードで暗号化されます。",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/health-app-privacy\">how to read a health app's privacy label</a>.": "出典を明記したガイド：<a href=\"/en/articles/what-is-glp1\">GLP-1とは何か</a>、<a href=\"/en/articles/glp1-injection-sites\">どこに注射し、どうローテーションするか</a>、<a href=\"/en/articles/glp1-side-effects\">よくある副作用への対処</a>、<a href=\"/en/articles/health-app-privacy\">健康アプリのプライバシーラベルの読み方</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/switch-glp1-tracker-app\">importing from another app</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Dozifyのそのほかの機能：<a href=\"/en/switch-glp1-tracker-app\">ほかのアプリからの取り込み</a>と<a href=\"/en/glp1-appointment-report\">医師向けレポート</a>。",
+  "No account. Nothing leaves your phone.": "アカウントなし。スマートフォンの外には何も出ません。"
+ }
+}

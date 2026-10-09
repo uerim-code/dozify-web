@@ -25,7 +25,7 @@ import sys
 from html.parser import HTMLParser
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from i18n_common import I18N, LANGS, NOT_TRANSLATED, RTL, ROOT, has, langs_for, name_of, url_for  # noqa: E402
+from i18n_common import I18N, LANGS, NOT_TRANSLATED, RTL, ROOT, has, langs_for, name_of, url_for, with_lang_list  # noqa: E402
 import structured_data as sd  # noqa: E402
 
 spec = importlib.util.spec_from_file_location("bl", ROOT / "tools" / "build-languages.py")
@@ -120,6 +120,8 @@ def segments(page: str) -> list[tuple[int, int, str]]:
 
     def walk(n: Node):
         if n.tag in SKIP or (n.inner_end is None and n.tag != "#root"):
+            return
+        if 'translate="no"' in page[n.start:n.inner_start]:
             return
         if n.start >= body_at and n.tag not in VOID:
             inner = page[n.inner_start:n.inner_end]
@@ -255,7 +257,9 @@ def render(lang: str, en_slug: str, html: str, page_t: dict, common_t: dict) -> 
                            source_html=(ROOT / src_of(en_slug)).read_text(encoding="utf-8"),
                            title=title, description=desc,
                            home_description=home_desc(lang))
-    return html.replace("</head>", "  " + graph.replace("\n", "\n  ") + "\n</head>", 1)
+    html = html.replace("</head>", "  " + graph.replace("\n", "\n  ") + "\n</head>", 1)
+    tr_slug = next(tr for (en, tr) in bl.PAGES.values() if en == en_slug)
+    return with_lang_list(html, en_slug, tr_slug, lang)
 
 
 def alternates(en_slug: str, self_url: str) -> str:

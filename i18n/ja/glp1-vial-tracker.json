@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1バイアル管理｜なくなる前にわかる",
+  "description": "残りの回数、開封からの日数、使用期限をひとつのカードに。バイアルが終わる2つのパターンはどちらも数週間前から予測でき、Dozifyが自動で数えます。"
+ },
+ "t": {
+  "Vial tracking": "バイアルの記録",
+  "Know when the vial runs out before it does": "バイアルがなくなる前に、なくなる時期がわかる",
+  "Remaining volume, doses left, and the expiry date: on one card, before the weekend the pharmacy is closed.": "残量、残りの回数、使用期限：薬局が閉まっている週末の前に、ひとつのカードで。",
+  "A vial ends in two ways: it empties, or it expires. Both are predictable weeks ahead and both are usually noticed the evening a dose is due.": "バイアルが終わるパターンは2つ：空になるか、期限が切れるかです。どちらも数週間前から予測でき、どちらもたいてい投与の当日の夜に気づかれます。",
+  "What is left, in doses": "残りを回数で",
+  "Remaining millilitres and what that means in injections at your prescribed amount.": "残りのミリリットルと、それが処方された量で何回の注射になるか。",
+  "Two clocks, not one": "カウントは1つではなく2つ",
+  "Days since opening and the manufacturer's expiry, whichever comes first: with the storage rules for that medication.": "開封からの日数とメーカーの使用期限、どちらか早いほう：そのお薬の保管ルールとともに。",
+  "Time out of the fridge": "冷蔵庫の外にあった時間",
+  "Log a storage event when a vial spends the afternoon in a bag. Travel mode is for the days that are not ordinary.": "バイアルを午後ずっとバッグに入れていたら、保管イベントとして記録します。旅行モードは、いつもと違う日のためのものです。",
+  "People on multi-dose pens and vials, where one container covers several weeks and the end of it arrives quietly. It matters most to anyone who travels with their medication, or who has stood in front of an open fridge on a Sunday wondering whether what is in there is still good.": "複数回使用のペンやバイアルを使っている方へ。1つの容器で数週間分になり、その終わりは静かにやってきます。お薬を持って旅行する方や、日曜日に開けた冷蔵庫の前で中のものがまだ使えるのか考えたことのある方にとって、特に大切です。",
+  "Dozify counts what you tell it: doses drawn, the day you opened the vial and the expiry printed on it. It cannot see the liquid, so it cannot tell you whether a particular vial is still fit to use: that judgement belongs to the storage instructions for your medication and, when there is any doubt, to your pharmacist. The in-use limits it shows come from those instructions, not from us.": "Dozifyが数えるのは、あなたが入力したことです：吸い上げた回数、バイアルを開封した日、そこに印刷された使用期限。薬液は見えないので、特定のバイアルがまだ使えるかどうかは教えられません。その判断はお薬の保管の指示と、少しでも疑問があれば薬剤師にゆだねられます。表示される使用期間の上限は、私たちではなくその指示から来ています。",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-vial-tracker-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>",
+  "Does it count doses automatically?": "回数は自動で数えられますか？",
+  "It subtracts each injection you log from the vial you logged it against, so the remaining amount follows your own entries without a separate step.": "記録した注射を、そのとき指定したバイアルから1回ずつ差し引くので、別の手順なしに、残量があなた自身の記録に沿って変わります。",
+  "Where does the in-use limit come from?": "使用期間の上限はどこから来ていますか？",
+  "From the storage instructions for that medication: how long it may be kept once opened, and at what temperature. Dozify shows the one that applies and counts the days; it does not invent a number.": "そのお薬の保管の指示からです：開封後どのくらいの期間、何度で保管できるか。Dozifyは当てはまるものを表示して日数を数えるだけで、数字を作り出すことはありません。",
+  "What if the pen spends a day out of the fridge?": "ペンを1日冷蔵庫の外に出していたら？",
+  "Log it as a storage event, with how long and roughly how warm. It stays on the vial's record so it is there when you decide, or when you ask a pharmacist.": "どのくらいの時間、だいたい何度だったかとともに、保管イベントとして記録してください。バイアルの記録に残るので、自分で判断するときや薬剤師に聞くときに確認できます。",
+  "Will it warn me before a vial runs out?": "バイアルがなくなる前に知らせてくれますか？",
+  "It shows doses remaining and days remaining on the card, so the end is visible weeks ahead rather than the evening a dose is due.": "カードに残りの回数と残りの日数が表示されるので、投与の当日の夜ではなく、数週間前から終わりが見えます。",
+  "Does this work for pens as well as vials?": "バイアルだけでなくペンにも使えますか？",
+  "Yes. A pen with several doses in it is tracked the same way: what is left, how long it has been open, and when it expires.": "はい。数回分が入ったペンも同じように記録できます：残りの量、開封してからの期間、使用期限。",
+  "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/storing-glp1-pens\">what each label says about storing a pen</a> and <a href=\"/en/articles/travelling-with-a-glp1-pen\">what the rules say about flying with one</a>.": "出典を明記したガイド：<a href=\"/en/articles/how-to-inject-glp1\">ペンの注射のしかた（ステップごと）</a>、<a href=\"/en/articles/glp1-injection-sites\">どこに注射し、どうローテーションするか</a>、<a href=\"/en/articles/what-is-glp1\">GLP-1とは何か</a>、<a href=\"/en/articles/storing-glp1-pens\">ペンの保管について各添付文書に書かれていること</a>、<a href=\"/en/articles/travelling-with-a-glp1-pen\">ペンを持って飛行機に乗るときの規則</a>。",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Dozifyのそのほかの機能：<a href=\"/en/glp1-shot-tracker\">注射トラッカー</a>と<a href=\"/en/glp1-appointment-report\">医師向けレポート</a>。"
+ }
+}

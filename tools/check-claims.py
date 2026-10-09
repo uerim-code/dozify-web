@@ -201,7 +201,11 @@ def main() -> int:
                 line = text[: m.start()].count("\n") + 1
                 findings.append(f"{rel}:{line}  VAGUE   “{m.group(0)}” — {guidance}")
 
-        for quote in unattributed_percentages(raw):
+        # The source-word list is English and Turkish. Translated pages are
+        # renderings of English text that already passed this rule, so a
+        # Chinese 研究 next to a figure would be flagged for the wrong reason.
+        translated = rel.split(os.sep)[0] not in ("en", "tr") and os.sep in rel
+        for quote in ([] if translated else unattributed_percentages(raw)):
             line = raw[: raw.find(quote[:20])].count("\n") + 1 if quote[:20] in raw else 0
             findings.append(
                 f"{rel}:{line}  UNSOURCED  “…{quote}…” — a percentage with no "

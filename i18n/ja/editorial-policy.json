@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "title": "編集方針｜ガイドを書いているのは誰か",
+  "description": "このサイトのガイドを誰が書いているのか、どの情報源を使うのか、記事の各日付が何を意味するのか、そして誤りを報告する方法をまとめています。"
+ },
+ "t": {
+  "How the guides on this site are written": "このサイトのガイドの作成方針",
+  "Who writes them, which sources are allowed, when they were last checked, and how to tell us one of them is wrong.": "誰が書いているのか、どの情報源を使うのか、最後にいつ確認したのか、そして誤りを私たちに伝える方法。",
+  "Who writes them": "誰が書いているのか",
+  "Ümit Can Erim writes and maintains Dozify and everything published here. He is a software developer, not a clinician: he builds the app and reads the primary sources, and the guides say what those sources say rather than what he thinks about them. Where a question needs clinical judgement (whether a dose is right, whether a symptom is worrying, whether a site looks normal) the guides send you to your own clinician instead of answering.": "Ümit Can ErimがDozifyとここで公開しているすべてのものを書き、管理しています。彼はソフトウェア開発者であり、臨床医ではありません。アプリを作り、一次情報源を読み、ガイドには彼がそれについてどう思うかではなく、その情報源が言っていることを書いています。臨床的な判断が必要な疑問（用量が適切か、症状が心配なものか、部位の状態が正常か）については、ガイドは答える代わりに、あなたの担当の医療者に相談するよう案内します。",
+  "No clinician has reviewed this content. You will not see \"doctor reviewed\", \"medically reviewed\" or a clinician's name anywhere on this site, because there is nobody it would be true of. If that changes, the reviewer will be named on the article they reviewed, with the date they reviewed it.": "このコンテンツを確認した臨床医はいません。このサイトのどこにも「医師監修」「医学的レビュー済み」や臨床医の名前が出てこないのは、それが当てはまる人がいないからです。それが変わった場合は、レビューした人の名前を、レビューした記事にその日付とともに記載します。",
+  "Which sources are used": "使っている情報源",
+  "In this order, and the higher one wins when two disagree:": "次の順で使い、2つが食い違う場合は上位のものを優先します：",
+  "The manufacturer's own instructions for the medication: the leaflet in the box and the prescribing information.": "お薬についてのメーカー自身の説明：箱に入っている添付文書と処方情報。",
+  "Regulators: the FDA, the EMA and, for Turkey, the TİTCK.": "規制当局：FDA、EMA、そしてトルコについてはTİTCK。",
+  "Public health bodies: the NIH, NIDDK and MedlinePlus.": "公衆衛生機関：NIH、NIDDK、MedlinePlus。",
+  "Peer-reviewed research and clinical guidelines.": "査読付きの研究と診療ガイドライン。",
+  "Patient information from an academic medical centre, and only where a plain-language explanation is needed that the sources above do not give. It is named in the reference list like any other source.": "大学医療センターの患者向け情報。上の情報源にはないわかりやすい説明が必要な場合に限って使います。ほかの情報源と同じく、参考文献のリストに名前を記載します。",
+  "Not used: forums, social posts, press releases, other trackers' marketing, and anything that cannot be linked to and read in full. Every article ends with the list of what it drew on, and each source is linked.": "使わないもの：ネット掲示板、SNSの投稿、プレスリリース、ほかのトラッカーの宣伝、そしてリンクできず全文を読めないもの。どの記事も最後に参照したもののリストを載せ、各情報源にリンクしています。",
+  "Dates, and what each one means": "日付と、それぞれの意味",
+  "Every article carries three dates, and they mean different things. <strong>Published</strong> is when it first went up. <strong>Updated</strong> is when its text last changed. <strong>Sources checked</strong> is when someone last opened every link in its reference list and confirmed the article still matches what is there — an article can be checked without being updated, and that is the useful case: it means nothing had changed.": "どの記事にも3つの日付があり、それぞれ意味が違います。<strong>公開日</strong>は最初に掲載した日です。<strong>更新日</strong>は本文が最後に変わった日です。<strong>出典確認日</strong>は、参考文献リストのすべてのリンクを最後に開き、記事がまだその内容と一致していることを確認した日です — 記事は更新されずに確認されることがあり、それが役に立つケースです：何も変わっていなかったということだからです。",
+  "Corrections": "訂正",
+  "If something here is wrong, write to <a href=\"mailto:support@dozify.app\">support@dozify.app</a> and say which sentence and, if you have it, what it should say. Factual errors are fixed as soon as they are confirmed against a source in the list above. When a correction changes the meaning of a passage, the article says what was corrected and when, at the bottom: a silently edited health page is worse than one that admits it was wrong.": "ここに誤りがあれば、<a href=\"mailto:support@dozify.app\">support@dozify.app</a>まで、どの文か、そしてわかればどう書くべきかをお知らせください。事実の誤りは、上のリストにある情報源と照らし合わせて確認でき次第、修正します。訂正によって文章の意味が変わる場合は、記事の最後に何をいつ訂正したかを記載します。黙って書き換えられた健康情報のページは、間違いを認めるページよりも悪いからです。",
+  "What this site does not do": "このサイトがしないこと",
+  "It does not tell you what dose to take, when to change one, or whether a medication is right for you. It does not diagnose, and it does not decide whether a symptom needs attention. Dozify (the app the guides belong to) records the plan you and your prescriber agreed on; it does not propose one. It is a tracking tool, not a medical device — <a href=\"/en/why\">what it does and what it refuses to do</a> is set out separately.": "どの用量を使うべきか、いつ変えるべきか、あるお薬があなたに合っているかどうかは示しません。診断はせず、症状に対処が必要かどうかも判断しません。Dozify（これらのガイドが属するアプリ）は、あなたと処方医が決めた計画を記録するだけで、計画を提案することはありません。記録用のツールであり、医療機器ではありません — <a href=\"/en/why\">アプリがすること、しないこと</a>は別にまとめています。",
+  "This policy was last changed on 18 August 2026. Questions about it go to <a href=\"mailto:support@dozify.app\">support@dozify.app</a>, and the <a href=\"/en/support\">support page</a> answers the ones about the app itself.": "この方針の最終変更日は2026年8月18日です。方針についての質問は<a href=\"mailto:support@dozify.app\">support@dozify.app</a>へ。アプリそのものについての質問には<a href=\"/en/support\">サポートページ</a>がお答えします。"
+ }
+}

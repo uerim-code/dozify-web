@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>注射部位记录：无需笔记也能轮换</title>
+  <meta property="og:url" content="https://dozify.app/zh/injection-site-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="人体图会记住下一个该用哪个部位，你不必再做笔记。记录每次 GLP-1 注射的位置，轮换情况一目了然。">
+  <meta property="og:title" content="注射部位记录：无需笔记也能轮换">
+  <meta property="og:description" content="人体图会记住下一个该用哪个部位，你不必再做笔记。记录每次 GLP-1 注射的位置，轮换情况一目了然。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="twitter:title" content="注射部位记录：无需笔记也能轮换">
+  <meta name="twitter:description" content="人体图会记住下一个该用哪个部位，你不必再做笔记。记录每次 GLP-1 注射的位置，轮换情况一目了然。">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="zh_CN">
+
+  <link rel="canonical" href="https://dozify.app/zh/injection-site-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/injection-site-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/enjeksiyon-bolgesi-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/injection-site-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/injection-site-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/injection-site-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/injection-site-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/injection-site-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/injection-site-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/injection-site-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/injection-site-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/injection-site-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/injection-site-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/injection-site-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/injection-site-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/injection-site-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/injection-site-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/injection-site-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/injection-site-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/injection-site-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/injection-site-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/injection-site-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/injection-site-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/injection-site-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/zh",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "zh-Hans"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/zh",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "记录 GLP-1 注射和每日口服药，轮换注射部位，追踪体重、副作用和食物噪音，拍照即可用 AI 估算卡路里和蛋白质。iPhone 应用。",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "zh-Hans"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/zh/injection-site-tracker#webpage",
+        "url": "https://dozify.app/zh/injection-site-tracker",
+        "name": "注射部位记录：无需笔记也能轮换",
+        "description": "人体图会记住下一个该用哪个部位，你不必再做笔记。记录每次 GLP-1 注射的位置，轮换情况一目了然。",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "zh-Hans",
+        "breadcrumb": {
+          "@id": "https://dozify.app/zh/injection-site-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "可以选择哪些部位？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "腹部、大腿和上臂，分为左右两侧，每侧再细分为若干区域。这些是生产商说明中描述的 GLP-1 皮下注射区域。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "建议是怎么得出的？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "它查看你最近几次注射的位置，并指向最久没用过的区域。这是屏幕上的建议，不是规定：你可以记录你实际注射的任何位置。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "如果我再次使用同一个位置，它会提醒我吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "它会显示你最近用过的位置，所以在记录之前就能看出是否重复。它不会阻止任何操作；你可能有自己的理由，应用不会否决你。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "我每次都在同一个区域注射。这有问题吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "这是要问你的医生或药剂师的问题。Dozify 能做的，是把规律展示给他们：报告中包含你所选时间段内各次注射的位置。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "它能取代注射笔随附的说明书吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不能。说明书是操作指示；这是你实际操作的记录。两者不一致时，以说明书为准。"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/zh/injection-site-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://dozify.app/zh"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "部位轮换",
+            "item": "https://dozify.app/zh/injection-site-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/zh" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">功能</a>
+        
+        <a href="/#privacy">隐私</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/zh">首页</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>部位轮换</span>
+      
+    </div>
+    <h1>不用做笔记，也能轮换注射部位</h1>
+    
+    <p class="meta">人体图会记住最近几次注射的位置，并建议你最久没用过的那个点。</p>
+    
+
+    <h2>问题所在</h2>
+    <p>轮换是那种原理简单、却根本无法记在脑子里的事情。六个部位，每周一针，还有一份你从三月起就没再更新的笔记。</p>
+
+    
+    
+
+    <h2>Dozify 能做什么</h2>
+    <h3>用地图代替记忆</h3>
+    <p>轻点你注射的位置。下一次，最久没用过的那个点已经被预先选好。</p>
+    <h3>你自己的部位名称</h3>
+    <p>如果你轮换的位置在示意图上没有名称，就自己写上。应用不会画出它不了解的解剖结构，但它会记住你的标签。</p>
+    <h3>温和的提示，而不是规定</h3>
+    <p>选择一个你上周用过的部位，应用会告诉你。它不会阻止你：这是你的身体，也是你的医生的指示。</p>
+
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="不用做笔记，也能轮换注射部位"></div></figure>
+      
+    </div>
+
+
+    <h2>适合谁</h2>
+    <p>适合被告知要轮换、却没有办法记录轮换情况的人，以及开始注意到腹部某一块和其他地方感觉不一样的人。也适合每周注射不止一次的人，这种情况下的规律比每周一个固定位置更难记在脑子里。</p>
+
+    
+    
+
+    <h2>它的边界</h2>
+    <p>人体图记录你在哪里注射，并建议轮换中下一个区域。它不会检查注射部位：它无法告诉你那里的皮肤今天是否适合注射，而肿块或变硬的区域是应该给医生看的，不是一个应用该去判断的。获批的区域来自你所用药物的生产商说明，如果两者有出入，请遵循这些说明。</p>
+
+    
+    
+
+    <h2>默认私密</h2>
+    <p>你的健康记录保存在你的设备上，永远不会上传；唯一的例外是你选择用 AI 卡路里分析的餐食照片，只会在你同意后发送，且应用不会保存。没有账户，也没有云同步。使用统计从不包含药物名称或症状，详见<a href="/zh/privacy">隐私政策</a>。</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-injection-site-tracker-zh&mt=8" class="btn btn-primary">在 App Store 下载</a></p>
+
+
+    <h2>问题</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>可以选择哪些部位？</h3>
+        
+        <p>腹部、大腿和上臂，分为左右两侧，每侧再细分为若干区域。这些是生产商说明中描述的 GLP-1 皮下注射区域。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>建议是怎么得出的？</h3>
+        
+        <p>它查看你最近几次注射的位置，并指向最久没用过的区域。这是屏幕上的建议，不是规定：你可以记录你实际注射的任何位置。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>如果我再次使用同一个位置，它会提醒我吗？</h3>
+        
+        <p>它会显示你最近用过的位置，所以在记录之前就能看出是否重复。它不会阻止任何操作；你可能有自己的理由，应用不会否决你。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>我每次都在同一个区域注射。这有问题吗？</h3>
+        
+        <p>这是要问你的医生或药剂师的问题。Dozify 能做的，是把规律展示给他们：报告中包含你所选时间段内各次注射的位置。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>它能取代注射笔随附的说明书吗？</h3>
+        
+        <p>不能。说明书是操作指示；这是你实际操作的记录。两者不一致时，以说明书为准。</p>
+        
+      </div>
+    </div>
+
+    <h2>接下来阅读</h2>
+    <p>注明出处的指南：<a href="/zh/articles/glp1-injection-sites">在哪里注射以及如何轮换</a>、<a href="/zh/articles/how-to-inject-glp1">如何使用注射笔，分步说明</a>、<a href="/zh/articles/glp1-side-effects">应对常见副作用</a>以及<a href="/zh/articles/injection-site-lumps">说明书对注射部位肿块的报告</a>。</p>
+    <p>Dozify 的其他功能：<a href="/zh/glp1-shot-tracker">注射记录</a>和<a href="/zh/glp1-side-effect-journal">副作用日记</a>。</p>
+    <p>Dozify 新功能：拍下一餐，应用会为每样食物估算卡路里和蛋白质草稿，供你修改——<a href="/zh/ai-calorie-tracker">AI 卡路里记录</a>（Premium）；每日服用的 GLP-1 片剂也有了专属的<a href="/zh/glp1-pill-tracker">口服药记录</a>。</p>
+
+    
+    
+    
+    
+
+    <p class="meta">Dozify 是一款记录工具，不是医疗器械。它不推荐剂量，也不提供医疗建议。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza® 和 Rybelsus® 是其各自所有者的商标；Dozify 与这些公司没有关联。</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/zh" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>法律信息</h3>
+          
+          <a href="/zh/privacy">隐私政策</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/zh/terms">条款</a>
+          
+          <a href="/zh/editorial-policy">编辑方针</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>记录</h3>
+          
+          <a href="/zh/glp1-shot-tracker">GLP-1 注射记录</a>
+          
+          <a href="/zh/injection-site-tracker">注射部位记录</a>
+          
+          <a href="/zh/glp1-weight-tracker">GLP-1 体重记录</a>
+          
+          <a href="/zh/glp1-side-effect-journal">副作用日记</a>
+          
+          <a href="/zh/glp1-vial-tracker">药瓶记录</a>
+          
+          <a href="/zh/private-glp1-tracker">私密 GLP-1 记录</a>
+          
+          <a href="/zh/glp1-appointment-report">就诊报告</a>
+          
+          <a href="/zh/switch-glp1-tracker-app">从其他应用迁移</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>帮助</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/injection-site-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/enjeksiyon-bolgesi-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/injection-site-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/injection-site-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/injection-site-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/injection-site-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/injection-site-tracker" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/injection-site-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/injection-site-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/injection-site-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/injection-site-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/injection-site-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/injection-site-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/injection-site-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/injection-site-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/injection-site-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/injection-site-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/injection-site-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/injection-site-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/injection-site-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/injection-site-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/injection-site-tracker" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

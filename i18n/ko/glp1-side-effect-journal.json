@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "title": "GLP-1 부작용 일지 — 증상이 언제 생기는지 보기",
+  "description": "의사에게 \"메스꺼웠어요\"와 \"투여 15시간 후에요\"는 다른 말이에요. 증상을 심한 정도와 함께 기록하고 주사 기록과 나란히 확인하세요."
+ },
+ "t": {
+  "See when your symptoms actually happened": "증상이 실제로 언제 있었는지 확인하세요",
+  "Telling your doctor \"I had nausea\" and telling them \"about fifteen hours after each dose\" are not the same sentence.": "의사에게 \"메스꺼웠어요\"라고 말하는 것과 \"투여할 때마다 약 15시간 후에요\"라고 말하는 건 같은 문장이 아니에요.",
+  "Side effects are remembered as a general impression and reported as one. The detail that would be useful (when, how strong, how often, relative to what) is exactly the part that fades first.": "부작용은 막연한 인상으로 기억되고, 그렇게 전달돼요. 유용할 세부 사항(언제, 얼마나 심하게, 얼마나 자주, 무엇과 비교해)이 바로 가장 먼저 흐려지는 부분이에요.",
+  "Three taps, at the time": "그때, 탭 세 번으로",
+  "Eleven symptom types with a severity scale. Logged when it happens, not reconstructed at the appointment.": "심한 정도 척도가 있는 증상 11가지. 진료 때 재구성하는 게 아니라 일어난 그때 기록해요.",
+  "Timing you can read off": "한눈에 읽히는 시점",
+  "How your own entries have sat relative to a dose. Looking backwards at what happened, not forwards at what might.": "내 기록이 투여와 비교해 어느 시점에 있었는지. 앞으로 일어날 일이 아니라 일어난 일을 돌아봐요.",
+  "Optional journal fields": "선택 일지 항목",
+  "Appetite, food noise, cravings, how meals are sitting: only if you chose to track them.": "식욕, 푸드 노이즈(앱에서는 \"음식 생각이 계속 남\"), 갈망, 식사 후 속 상태: 기록하기로 선택한 경우에만.",
+  "People in the first weeks, and people who have just moved up a dose, the two points where symptoms are most worth writing down. It is also for anyone whose doctor has asked a question the memory cannot answer: how often, how bad, and how long after the injection.": "처음 몇 주를 보내는 분, 그리고 막 용량을 올린 분. 증상을 적어 둘 가치가 가장 큰 두 시점이에요. 기억으로는 답할 수 없는 질문을 의사에게 받아 본 분을 위한 것이기도 해요: 얼마나 자주, 얼마나 심하게, 주사 후 얼마나 지나서.",
+  "A journal is a record, not an assessment. Dozify cannot tell you whether a symptom comes from the medication, from something you ate or from something else entirely, and it does not triage. Severe or sudden symptoms (persistent vomiting, severe abdominal pain, signs of an allergic reaction) are a reason to contact a clinician or emergency services now, not to open an app.": "일지는 기록이지 평가가 아니에요. Dozify는 증상이 약 때문인지, 먹은 음식 때문인지, 전혀 다른 무언가 때문인지 알려 줄 수 없으며, 응급 분류도 하지 않아요. 심하거나 갑작스러운 증상(계속되는 구토, 심한 복통, 알레르기 반응 징후)은 앱을 열 이유가 아니라 지금 바로 의료진이나 응급 서비스에 연락할 이유예요.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-side-effect-journal-en&mt=8\" class=\"btn btn-primary\">App Store에서 다운로드</a>",
+  "Which symptoms can I log?": "어떤 증상을 기록할 수 있나요?",
+  "Eleven of the common ones, nausea, vomiting, constipation, diarrhoea, reflux, fatigue, headache, dizziness, injection-site reaction, appetite change and stomach pain: each with a severity you choose. Anything else goes in the note.": "흔한 증상 11가지예요. 메스꺼움, 구토, 변비, 설사, 역류, 피로, 두통, 어지럼증, 주사 부위 반응, 식욕 변화, 복통: 각각 내가 고른 심한 정도와 함께요. 그 밖의 것은 메모에 적으면 돼요.",
+  "Does it tell me whether the medication caused it?": "약 때문인지 알려 주나요?",
+  "No, and it should not. It shows you when your entries happened relative to your doses; what that means is a conversation with your doctor.": "아니요, 그래서도 안 돼요. 내 기록이 투여와 비교해 언제 있었는지 보여 줄 뿐, 그 의미는 의사와 이야기할 부분이에요.",
+  "What should I do about a severe symptom?": "심한 증상이 있으면 어떻게 해야 하나요?",
+  "Contact your clinician or emergency services. Logging it afterwards is useful; logging it instead is not.": "의료진이나 응급 서비스에 연락하세요. 나중에 기록하는 건 유용하지만, 대처하는 대신 기록하는 건 그렇지 않아요.",
+  "Do the entries appear in the doctor report?": "기록이 진료용 리포트에 들어가나요?",
+  "Yes, if you include that section: with their dates, their severity and where they fell relative to your injections.": "네, 해당 섹션을 포함하면요. 날짜, 심한 정도, 주사와 비교한 시점이 함께 들어가요.",
+  "Can I log things that are not symptoms?": "증상이 아닌 것도 기록할 수 있나요?",
+  "Yes. Appetite, food noise, cravings and how meals are sitting are optional fields, for the people who find them worth watching.": "네. 식욕, 푸드 노이즈, 갈망, 식사 후 속 상태는 지켜볼 가치가 있다고 느끼는 분들을 위한 선택 항목이에요.",
+  "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/side-effect-diary-that-helps\">what makes a diary useful to a clinician</a> and <a href=\"/en/articles/hydration-on-a-glp1\">what the label warns about fluids</a>.": "출처를 밝힌 가이드: <a href=\"/en/articles/glp1-side-effects\">흔한 부작용 관리하기</a>, <a href=\"/en/articles/what-is-glp1\">GLP-1이란 무엇인가</a>, <a href=\"/en/articles/glp1-injection-sites\">어디에 주사하고 어떻게 순환할까</a>, <a href=\"/en/articles/side-effect-diary-that-helps\">의료진에게 유용한 일지란</a>, <a href=\"/en/articles/hydration-on-a-glp1\">수분에 대해 허가사항이 경고하는 것</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Dozify의 다른 기능: <a href=\"/en/glp1-appointment-report\">진료용 리포트</a>와 <a href=\"/en/glp1-shot-tracker\">주사 기록</a>."
+ }
+}

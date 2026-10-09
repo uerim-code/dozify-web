@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLP-1 기록 앱 Dozify: 주사·알약·체중·AI 칼로리</title>
+  <meta name="description" content="위고비·마운자로 등 GLP-1 주사와 매일 먹는 알약을 기록하고, 주사 부위 순환, 체중·부작용·푸드 노이즈까지 관리하세요. 식사 사진으로 AI 칼로리·단백질 계산도 돼요.">
+  <meta name="theme-color" content="#0D9488">
+
+  <meta property="og:title" content="GLP-1 기록 앱 Dozify: 주사·알약·체중·AI 칼로리">
+  <meta property="og:description" content="위고비·마운자로 등 GLP-1 주사와 매일 먹는 알약을 기록하고, 주사 부위 순환, 체중·부작용·푸드 노이즈까지 관리하세요. 식사 사진으로 AI 칼로리·단백질 계산도 돼요.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dozify.app/ko">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:alt" content="Dozify — iPhone용 개인 GLP-1 주사·체중 기록 앱">
+  <meta name="twitter:title" content="GLP-1 기록 앱 Dozify: 주사·알약·체중·AI 칼로리">
+  <meta name="twitter:description" content="위고비·마운자로 등 GLP-1 주사와 매일 먹는 알약을 기록하고, 주사 부위 순환, 체중·부작용·푸드 노이즈까지 관리하세요. 식사 사진으로 AI 칼로리·단백질 계산도 돼요.">
+  <meta name="twitter:image:alt" content="Dozify — iPhone용 개인 GLP-1 주사·체중 기록 앱">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="ko_KR">
+
+  <link rel="canonical" href="https://dozify.app/ko">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/ko",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "ko"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/ko",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "위고비·마운자로 등 GLP-1 주사와 매일 먹는 알약을 기록하고, 주사 부위 순환, 체중·부작용·푸드 노이즈까지 관리하세요. 식사 사진으로 AI 칼로리·단백질 계산도 돼요.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "ko"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/ko#webpage",
+        "url": "https://dozify.app/ko",
+        "name": "GLP-1 기록 앱 Dozify: 주사·알약·체중·AI 칼로리",
+        "description": "위고비·마운자로 등 GLP-1 주사와 매일 먹는 알약을 기록하고, 주사 부위 순환, 체중·부작용·푸드 노이즈까지 관리하세요. 식사 사진으로 AI 칼로리·단백질 계산도 돼요.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "ko",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Dozify는 무료인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "네. 투여 기록, 투여 알림, 주사 부위 순환, 체중·물·부작용 기록, 전체 기록과 사진, 교육 아티클은 무료예요. 투여 기록은 체험 기간이 아니라 영원히 무료예요. Premium은 이해를 돕는 기능이에요: 추정 약물 농도 곡선, 고급 차트와 추세, 체중 예측, 체성분, AI 사진 칼로리 추정이 포함된 영양 기록, 바이알 관리, 진료용 PDF 리포트, 테마, 두 번째 활성 약물. 구독 및 해지 안내는 지원 페이지 에 있어요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "내 데이터는 안전하게 보호되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "건강 기록(투여, 체중, 부작용, 진행 사진)은 기기에 저장되며 절대 업로드되지 않아요. 유일한 예외는 AI 칼로리로 분석하기로 직접 선택한 식사 사진이에요. 동의한 뒤 저희 서버를 거쳐 Google Gemini로 전송되며, 앱에 저장되지 않아요. 계정도 클라우드 동기화도 없고, 앱은 광고를 보여 주지 않아요. 앱 개선을 위해 익명 사용 통계를 수집하지만, 약물 이름이나 증상은 절대 포함되지 않아요. 또한 Dozify는 설치가 자체 App Store 또는 Meta 캠페인에서 왔는지 측정해요. 이 측정은 Apple의 추적 권한에 따라 작동하며 건강 기록은 절대 포함되지 않아요. 앱을 삭제하면 기록도 사라져요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify는 어떤 약물을 지원하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dozify는 Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity®, Victoza® 등 많이 쓰이는 GLP-1 약물과 매일 먹는 알약(Wegovy® 알약, Ozempic® 정제, Rybelsus®, Foundayo™)의 기록을 도와줘요. 이 브랜드명은 각 소유자의 상표이며, Dozify는 이들 회사와 관련이 없어요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "인터넷 없이도 작동하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "네. Dozify는 오프라인 우선으로 설계되어 인터넷 연결 없이도 모든 기능이 작동해요. 사용하려고 로그인하거나 동기화할 필요가 전혀 없어요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "주사 알림을 받을 수 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "네. 약물 일정에 맞춘 주간 또는 매일 알림을 설정할 수 있어서 루틴을 꾸준히 지키기 쉬워져요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dozify가 의사를 대신하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "아니요. Dozify는 교육용 기록 도구이며 의료기기가 아니고, 의학적 조언을 제공하지 않아요. 항상 의사와 처방을 따르세요 — 앱이 하지 않는 일 을 모두 적어 두었어요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "체중과 부작용도 기록할 수 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "네. 체중, 신체 치수, 부작용 일지를 기록하고 깔끔한 차트로 추세를 볼 수 있어요. 내 데이터를 바탕으로 한 체중 예측과 목표 도달 예상 기간도 포함돼요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "다른 GLP-1 앱의 데이터를 가져올 수 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "네, 무료예요. 사용하던 앱에서 내보낸 다음, Dozify에서 설정 → 기록 가져오기를 열고 파일을 선택하세요. Shotsy, Glapp, GLPzy, GlucoPal에서 내보낸 파일과 날짜 열이 있는 모든 CSV를 읽고, 저장하기 전에 찾은 내용(주사, 체중, 메모 건수)을 보여 주고, 이미 있는 기록은 건너뛰며, 기존 데이터를 먼저 백업해요. 옮겨 오기 페이지에서 자세히 보기 ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Android에서도 쓸 수 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "아직은 아니에요. 지금은 App Store에서 iPhone용으로만 제공돼요."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/ko" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a class="nav-anchor" href="#how">작동 방식</a>
+        
+        <a class="nav-anchor" href="#features">기능</a>
+        
+        <a class="nav-anchor" href="/#faq">FAQ</a>
+        
+        <a href="/ko/articles">아티클</a>
+        
+        <a href="/ko/support">지원</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+        <img class="hero-icon" src="/favicon.svg" width="96" height="96" alt="Dozify" />
+        <span class="pill">Ozempic® · Wegovy® 펜 &amp; 알약 · Mounjaro® · Zepbound® 사용자를 위해</span>
+        
+
+        <h1>GLP-1 루틴을 <span class="accent">한 화면에서.</span></h1>
+        
+
+        <ul class="new-chips" aria-label="Dozify의 새 기능">
+          <li><a href="/ko/ai-calorie-tracker">📸 AI 사진 칼로리</a></li>
+          
+          <li><a href="#themes">🐬 마스코트 &amp; 테마</a></li>
+          
+          <li><a href="/ko/glp1-pill-tracker">💊 알약 기록</a></li>
+          
+          <li><a href="/ko/glp1-medication-level">📈 약물 농도 곡선</a></li>
+          
+        </ul>
+
+        <p class="lede">주사든 매일 먹는 알약이든 빠짐없이 기록하고, 식사를 찍으면 몇 초 만에 칼로리와 단백질을 확인하고, 체중을 약물의 추정 곡선 옆에서 지켜보세요. 마스코트와 색상 테마로 나만의 앱으로 꾸밀 수도 있어요. 투여 기록과 알림은 평생 무료예요. 이미 다른 곳에서 기록하고 있나요? <a href="/ko/switch-glp1-tracker-app">기록을 그대로 가져오세요.</a></p>
+        
+
+        <div class="cta-row">
+          <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-ko&mt=8" target="_blank" rel="noopener" class="btn btn-primary">App Store에서 다운로드</a>
+          
+        </div>
+
+        <!-- The three things a visitor deciding on a health app wants settled
+             before they tap Download, said before they have to look for them. -->
+        <ul class="trust-row">
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" /> <path d="m9 12 2 2 4-4" /> </svg> <span>계정 없이 오프라인으로 작동: 건강 기록은 기기에만 남아요</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" /> </svg> <span>앱 안에 광고가 없고, 건강 기록은 광고 타기팅에 절대 쓰이지 않아요</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M12 8h.01M11 12h1v4h1" /> </svg> <span>의료기기가 아닌 기록 도구: 내 계획을 기록할 뿐, 계획을 제안하지 않아요</span></li>
+        </ul>
+        </div>
+
+        <!-- The product itself, above the fold. The page used to open on an app
+             icon and four paragraphs, which asks a visitor to take the app's
+             word for what it looks like. -->
+        <div class="hero-shot hero-fan" aria-hidden="false">
+          <div class="device fan-left">
+            <img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" decoding="async" alt="AI 결과: 접시에서 찾은 음식마다 칼로리와 단백질이 표시되고, 바로 수정할 수 있어요">
+            
+          </div>
+          <div class="device fan-right">
+            <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" decoding="async" alt="여섯 가지 마스코트 테마 선택: 클래식, 돌고래, 판다, 올빼미, 플라밍고, 꿀벌">
+            
+          </div>
+          <div class="device fan-center">
+            <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" fetchpriority="high" decoding="async" alt="돌고래 테마의 Dozify 홈 화면: 다음 투여, 식사 찍기, 약물 농도, 단백질, 물, 체중">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="themes" class="section section-light">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">New</span>
+          
+          <h2 class="section-title">마스코트를 고르면 앱 전체가 따라 바뀌어요.</h2>
+          
+          <p>테마는 여섯 가지, 각각 색상 하나와 친구 하나예요: 클래식, 돌고래 🐬, 판다 🐼, 올빼미 🦉, 플라밍고 🦩, 꿀벌 🐝. 색상은 모든 화면에 적용되고, 마스코트는 체중 그래프와 연속 기록에 나타나며, 홈 화면의 앱 아이콘도 함께 바뀌어요. 클래식은 단정하게 유지돼요.</p>
+          
+          <p>돌고래는 무료예요. 판다, 올빼미, 플라밍고, 꿀벌은 Premium에 포함돼요. 라이트, 다크, 시스템 설정 — 원하는 대로 고르세요.</p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="화면 설정: 라이트, 다크, 시스템 모드와 여섯 가지 마스코트 테마"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="파란 돌고래 테마의 홈 화면"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/bee-home.webp" srcset="/screenshots/en/bee-home-400w.webp 400w, /screenshots/en/bee-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="주황색 꿀벌 테마의 설정 화면"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="ai-calories" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="badge-new">New</span>
+          
+          <h2 class="section-title">식사를 찍으면, 칼로리가 보여요.</h2>
+          
+          <p>GLP-1을 쓰면 먹는 양이 줄기 때문에, 무엇을 먹는지가 더 중요해져요. 사진을 찍으면 Dozify가 접시 위 음식 하나하나의 칼로리와 단백질 추정치를 내 언어로 정리해 줘요. 결과는 언제나 수정 가능한 초안이에요: 양을 고치고, 카메라가 놓친 것을 추가한 뒤, 투여 기록과 체중 옆에 저장하세요. Premium 기능이에요.</p>
+          
+          <p><a href="/ko/ai-calorie-tracker" class="link-arrow">AI 칼로리는 어떻게 작동하나요</a></p>
+          
+        </div>
+        <div class="screenshot-strip">
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-scan.webp" srcset="/screenshots/en/ai-scan-400w.webp 400w, /screenshots/en/ai-scan.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="식사 사진을 읽는 Dozify"></div></figure>
+          
+          <figure class="shot"><div class="device"><img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" loading="lazy" alt="접시 위 음식마다 칼로리와 단백질"></div></figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">작동 방식</h2>
+        
+        <p class="section-lede">세 단계면 끝. 복잡한 설정은 없어요.</p>
+        
+
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h3>약물 추가하기</h3>
+            
+            <p>주 1회 또는 매일 맞는 주사(Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®)나 매일 먹는 알약(Wegovy® 알약, Ozempic® 정제, Rybelsus®, Foundayo™)을 선택하세요. 용량과 일정을 설정하면 돼요.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h3>모든 주사 기록하기</h3>
+            
+            <p>탭 한 번으로 용량, 시간, 주사 부위를 인체 그림에 기록하세요. 스마트 순환 기능이 다음 주사 부위를 제안해요.</p>
+            
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h3>의사와 공유하기</h3>
+            
+            <p>전체 치료 기록, 체중 변화, 부작용 기록이 담긴 PDF 리포트를 내보내세요. 다음 진료에 딱 맞아요.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="section">
+      <div class="container">
+        <h2 class="section-title">Dozify 미리 보기</h2>
+        
+        <p class="section-lede">휴대폰에서 보게 될 화면을 간단히 살펴보세요.</p>
+        
+
+        <div class="screenshot-strip" role="group" tabindex="0" aria-label="Dozify 스크린샷, 옆으로 스크롤하세요">
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/home-next-dose.webp" srcset="/screenshots/en/home-next-dose-400w.webp 400w, /screenshots/en/home-next-dose.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Dozify 홈 화면: 다음 투여까지 남은 시간, 이번 주 주사, 오늘의 단백질과 물, 현재 체중">
+            </div>
+            <figcaption><b>하루를 한눈에</b> <span>다음 투여, 이번 주 주사, 단백질, 물, 체중을 한 화면에서.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/ai-food.webp" srcset="/screenshots/en/ai-food-400w.webp 400w, /screenshots/en/ai-food.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="영양 입력 양식에 채워진 AI 사진 칼로리 추정: 치킨 시저 샐러드, 625 kcal, 단백질 55 g, 불확실성 안내 포함">
+            </div>
+            <figcaption><b>식사를 찍어 보세요</b> <span>사진 한 장으로 AI가 칼로리와 단백질을 채워 줘요 — 언제나 수정 가능한 초안이에요.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/level-curve.webp" srcset="/screenshots/en/level-curve-400w.webp 400w, /screenshots/en/level-curve.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="체중 추세와 현재·최고 비율이 표시된 추정 약물 농도 곡선">
+            </div>
+            <figcaption><b>내 용량이 어떻게 작용하는지 보기</b> <span>추정 농도 곡선을 보면 6일째의 허기가 비로소 이해돼요.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="다음 순환 부위를 제안하는 신체 부위 지도로 주사 기록하기">
+            </div>
+            <figcaption><b>몇 초 만에 주사 기록</b> <span>다음 주사 부위는 인체 지도가 기억하니 따로 외울 필요 없어요.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/weight-and-dose-chart.webp" srcset="/screenshots/en/weight-and-dose-chart-400w.webp 400w, /screenshots/en/weight-and-dose-chart.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="같은 타임라인에 표시된 체중 추세와 추정 약물 농도 곡선">
+            </div>
+            <figcaption><b>체중과 용량을 한 줄에</b> <span>체중 추세를 추정 약물 농도 옆에 보여 줘요.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="돌고래 테마의 Dozify 홈 화면: 바다색 강조색, 물결 연속 기록 배지, AI 식사 카드">
+            </div>
+            <figcaption><b>나만의 스타일로</b> <span>색상, 마스코트, 앱 아이콘까지 함께 바뀌어요 — 돌고래는 무료예요.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="테마 선택 화면: 클래식, 돌고래, 판다, 올빼미, 플라밍고, 꿀벌 팩">
+            </div>
+            <figcaption><b>여섯 가지 개성</b> <span>색상과 친구를 고르세요. 마스코트가 차트와 연속 기록에 함께 나와요.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/victories.webp" srcset="/screenshots/en/victories-400w.webp 400w, /screenshots/en/victories.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="몸에 더 잘 맞는 옷, 한결 쉬워진 계단 같은 항목이 담긴 성취 일지">
+            </div>
+            <figcaption><b>체중계가 못 보는 성과</b> <span>정체기를 위해: 옷, 에너지, 기분을 한 줄로 기록해요.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/lab-results.webp" srcset="/screenshots/en/lab-results-400w.webp 400w, /screenshots/en/lab-results.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="입력한 그대로 저장된 HbA1c와 LDL 항목이 있는 검사 결과 화면">
+            </div>
+            <figcaption><b>투여 기록 옆에 검사 결과</b> <span>HbA1c, 지질, 간 수치 — 입력한 그대로 보관되고 진료용 PDF에 포함돼요.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/vial-stock.webp" srcset="/screenshots/en/vial-stock-400w.webp 400w, /screenshots/en/vial-stock.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="바이알 재고, 남은 투여 횟수, 개봉 후 경과일, 유효기간">
+            </div>
+            <figcaption><b>바이알이 떨어지기 전에 미리 알기</b> <span>남은 투여 횟수, 개봉 후 경과일, 유효기간을 대신 세어 줘요.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="진료용 리포트 만들기: 기간, 포함할 섹션, 물어보고 싶은 질문">
+            </div>
+            <figcaption><b>의사를 위한 깔끔한 PDF</b> <span>기간과 포함할 항목을 고르고, 요약본을 들고 진료실에 들어가세요.</span></figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="device">
+              <img src="/screenshots/en/water-tracking.webp" srcset="/screenshots/en/water-tracking-400w.webp 400w, /screenshots/en/water-tracking.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="컵 계산기와 빠른 추가 버튼이 있는 물 기록">
+            </div>
+            <figcaption><b>물은 컵 단위로</b> <span>밀리리터로 계산할 필요 없어요.</span></figcaption>
+          </figure>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section id="features" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">주요 기능</h2>
+        
+        <p class="section-lede">주 1회 GLP-1 약물을 사용하는 분들을 위해 만들었어요.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v2" /><path d="m5.6 5.6 1.4 1.4" /><path d="m18.4 5.6-1.4 1.4" /><path d="M3 12h2" /><path d="M19 12h2" /><path d="M12 21a6 6 0 0 0 6-6c0-3-2.5-4.5-6-9-3.5 4.5-6 6-6 9a6 6 0 0 0 6 6Z" />
+              </svg>
+            </div>
+            <h3>AI 사진 칼로리 <span class="badge-new">New</span></h3>
+            
+            <p>식사를 찍으면 몇 초 만에 칼로리와 단백질 추정치를 내 언어로 받아 보세요. 항상 수정 가능한 초안으로 표시되니 결정은 내가 해요. Premium. <a href="/ko/ai-calorie-tracker">AI 칼로리 작동 방식</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0E7FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="M4 15c2-6 4-9 6-9s3 2 4 5 2 5 4 5 3-2 4-5" />
+              </svg>
+            </div>
+            <h3>약물 농도 곡선 <span class="badge-new">New</span></h3>
+            
+            <p>주사와 주사 사이에 용량이 어떻게 쌓이고 줄어드는지 보여 주는 추정 곡선이에요. 6일째 허기가 비로소 이해돼요. <a href="/ko/glp1-medication-level">곡선에 대해 알아보기</a></p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="13.5" cy="6.5" r=".5" /><circle cx="17.5" cy="10.5" r=".5" /><circle cx="8.5" cy="7.5" r=".5" /><circle cx="6.5" cy="12.5" r=".5" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" />
+              </svg>
+            </div>
+            <h3>테마 &amp; 마스코트 <span class="badge-new">New</span></h3>
+            
+            <p>색상, 마스코트, 앱 아이콘까지 함께 바뀌어요. 돌고래 🐬는 무료이고, 판다, 올빼미, 플라밍고, 꿀벌은 Premium에 포함돼요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>성취 일지 <span class="badge-new">New</span></h3>
+            
+            <p>체중계가 못 보는 변화: 몸에 맞는 옷, 한결 쉬워진 계단. 정체기를 위해 일부러 무료로 제공해요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.31" /><path d="M14 9.3V2" /><path d="M8.5 2h7" /><path d="M14 9.3a6.5 6.5 0 1 1-4 0" /><path d="M5.52 16h12.96" />
+              </svg>
+            </div>
+            <h3>검사 결과 <span class="badge-new">New</span></h3>
+            
+            <p>HbA1c, 지질, 간 수치 — 입력한 그대로 저장되고 진료용 PDF에 포함돼요. 판정도, 색상 등급도 없어요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+              </svg>
+            </div>
+            <h3>생리 주기 맞춤 보기 <span class="badge-new">New</span></h3>
+            
+            <p>증상을 생리 주기에 맞춰 볼 수 있어요. 직접 켰을 때만 작동하며, 데이터는 기기 밖으로 나가지 않아요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#E0F2FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
+              </svg>
+            </div>
+            <h3>체중 추세 &amp; 예측</h3>
+            
+            <p>깔끔한 차트로 체중을 확인하고, 내 데이터를 바탕으로 목표까지 걸리는 기간 예측을 볼 수 있어요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+              </svg>
+            </div>
+            <h3>스마트 알림</h3>
+            
+            <p>약물 일정에 맞춘 주간 또는 매일 알림.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EFF6FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.5L4 22h16l-6-12.5V2" /><path d="M8.5 2h7" />
+              </svg>
+            </div>
+            <h3>바이알 재고</h3>
+            
+            <p>바이알마다 개봉일, 유효기간 카운트다운, 남은 투여 횟수를 보여 줘요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FCE7F3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" />
+              </svg>
+            </div>
+            <h3>진행 차트</h3>
+            
+            <p>체중 추세, 용량 증량, 부작용 패턴을 한눈에.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFEFF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" />
+              </svg>
+            </div>
+            <h3>PDF 리포트</h3>
+            
+            <p>탭 한 번으로 전체 치료 일정이 담긴 진료용 요약본을 만들어요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEE2E2">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.49 4.04 3 5.5l7 7Z" />
+              </svg>
+            </div>
+            <h3>Apple Health 동기화</h3>
+            
+            <p>iPhone에서는 Apple Health에서 체중을 자동으로 읽어 와요. 다시 기록하기는 선택 사항이며 기본값은 꺼져 있어요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#EDE9FE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2" /><line x1="8" x2="16" y1="6" y2="6" /><line x1="16" x2="16" y1="14" y2="18" /><path d="M8 10h.01" /><path d="M12 10h.01" /><path d="M16 10h.01" /><path d="M8 14h.01" /><path d="M12 14h.01" /><path d="M8 18h.01" /><path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3>내장 계산기</h3>
+            
+            <p>단위 변환(mg ↔ mL ↔ U-100)과 바이알 사용 기간 추정, 무료예요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DBEAFE">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" />
+              </svg>
+            </div>
+            <h3>기록 가져오기</h3>
+            
+            <p>다른 기록 앱에서 옮겨 오시나요? Dozify가 내보낸 파일을 읽고 찾은 내용을 보여 준 뒤, 승인해야만 저장해요. 그 전에 백업도 먼저 해 둬요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#F3E8FF">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="7" height="9" x="3" y="3" rx="1" /><rect width="7" height="5" x="14" y="3" rx="1" /><rect width="7" height="9" x="14" y="12" rx="1" /><rect width="7" height="5" x="3" y="16" rx="1" />
+              </svg>
+            </div>
+            <h3>내가 만드는 홈 화면</h3>
+            
+            <p>카드 순서를 바꾸고, 안 쓰는 카드는 숨기고, 원할 때 다시 꺼내세요. 부작용을 기록하지 않는다면 해당 항목은 아예 나타나지 않아요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF3C7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
+              </svg>
+            </div>
+            <h3>어떤 일정이든, 의사의 계획대로</h3>
+            
+            <p>매주, 매일, 며칠 간격 또는 특정 날짜. 의료진이 정해 준 투여 일정을 저장하면 앱이 알려 줘요. Dozify는 절대 스스로 용량을 정하지 않아요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#DCFCE7">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+            </div>
+            <h3>교육 자료실</h3>
+            
+            <p>투여, 부작용, 주사 방법에 대한 출처를 밝힌 가이드.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#CCFBF1">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" />
+              </svg>
+            </div>
+            <h3>주사 부위 순환</h3>
+            
+            <p>인체 그림이 부위별 기록을 관리하고 다음 주사 위치를 제안해요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FFEDD5">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z" /><path d="m7.5 10.5 2 2" /><path d="m10.5 7.5 2 2" /><path d="m13.5 4.5 2 2" /><path d="m4.5 13.5 2 2" />
+              </svg>
+            </div>
+            <h3>신체 치수</h3>
+            
+            <p>허리, 엉덩이, 체지방 등을 기록하세요. 체중계만으로는 놓치는 변화예요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#FEF9C3">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+            </div>
+            <h3>마일스톤 &amp; 연속 기록</h3>
+            
+            <p>매일 이어지는 연속 기록과 성취 배지가 꾸준함과 동기를 지켜 줘요.</p>
+            
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon" style="background:#ECFCCB">
+              <svg viewbox="0 0 24 24" fill="none" stroke="#65A30D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /><path d="M7 2v20" /><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+              </svg>
+            </div>
+            <h3>식사 &amp; 물 기록</h3>
+            
+            <p>식사, 단백질, 수분 섭취를 치료 기록과 함께 남기세요.</p>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- The differentiator a visitor who already tracks somewhere else is
+         looking for, and the one thing no competitor page tells them. -->
+    <section id="import" class="section">
+      <div class="container split">
+        <div class="split-copy">
+          <h2 class="section-title">이미 다른 곳에서 기록하고 있나요? 그대로 가져오세요.</h2>
+          
+          <p class="section-lede">Dozify는 Shotsy, Glapp, GLPzy, GlucoPal에서 내보낸 파일과 날짜 열이 있는 모든 CSV를 읽어요. 찾은 내용(주사 몇 건, 체중 몇 건, 메모 몇 건)을 확인하기 전에는 아무것도 저장되지 않고, 기존 데이터도 먼저 백업해요. 가져오기는 무료예요.</p>
+          
+          <a href="/ko/switch-glp1-tracker-app" class="link-arrow">옮겨 오는 방법 →</a>
+          
+        </div>
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/log-injection-site-map.webp" srcset="/screenshots/en/log-injection-site-map-400w.webp 400w, /screenshots/en/log-injection-site-map.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Dozify 기록에 가져온 주사: 날짜, 용량, 부위 표시">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-section">
+      <div class="container">
+        <div class="privacy-card">
+          <div class="privacy-icon">
+            <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
+            </svg>
+          </div>
+          <h2>개인 데이터는 휴대폰에만 남아요</h2>
+          
+          <p>계정도, 앱 안의 광고도, 프로필도 없어요. 개인 데이터(주사, 체중, 신체 치수)는 기기 밖으로 나가지 않아요. 앱을 삭제하면 데이터도 사라져요.</p>
+          
+          <a href="/ko/privacy" class="link-arrow">개인정보 처리방침 읽기 →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="report" class="section">
+      <div class="container split split-reverse">
+        <div class="split-shot">
+          <div class="device">
+            <img src="/screenshots/en/doctor-report.webp" srcset="/screenshots/en/doctor-report-400w.webp 400w, /screenshots/en/doctor-report.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="진료용 리포트 만들기: 기간, 포함할 섹션, 물어보고 싶은 질문">
+            
+          </div>
+        </div>
+        <div class="split-copy">
+          <h2 class="section-title">요약본을 들고 진료실에 들어가세요</h2>
+          
+          <p class="section-lede">진료는 10분인데 이야기할 건 석 달 치예요. 기간과 담을 내용(투여, 체중, 부작용, 내 메모, 물어보려던 질문)을 고르면 Dozify가 인쇄하거나 미리 보낼 수 있는 PDF를 만들어 줘요. 담긴 내용은 내 기록이고, 그 의미를 판단하는 건 의사의 몫이에요.</p>
+          
+          <a href="/ko/glp1-appointment-report" class="link-arrow">리포트에 담기는 내용 →</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="medications" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">기록할 수 있는 약물</h2>
+        
+        <p class="section-lede">처방받은 약물을 고르면 Dozify가 일정과 용량 단계를 설정해 줘요. 목록에 없는 약물은 직접 추가할 수 있어요.</p>
+        
+
+        <div class="feature-grid feature-grid-4">
+          <article class="feature">
+            <h3>주 1회 주사</h3>
+            
+            <p>Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®: 주 1회 주사, 그에 맞춰 알림도 주 1회.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>매일 주사</h3>
+            
+            <p>Saxenda®와 Victoza® — 기본 시간이 아니라 실제로 주사하는 시간에 맞춘 매일 일정.</p>
+            
+          </article>
+          <article class="feature">
+            <h3>경구약</h3>
+            
+            <p>Wegovy® 알약, Ozempic® 정제, Rybelsus®, Foundayo™ — 매일 먹는 알약도 같은 기록, 같은 리포트로 관리해요. <a href="/ko/glp1-pill-tracker">알약 기록 방식</a></p>
+            
+          </article>
+          <article class="feature">
+            <h3>그 밖의 약물</h3>
+            
+            <p>약물 이름과 나의 용량, 간격을 직접 입력해 추가하세요. Dozify는 나와 의사가 합의한 계획을 기록할 뿐, 계획을 제안하지 않아요.</p>
+            
+          </article>
+        </div>
+
+        <p class="meta" style="text-align:center;margin-top:24px">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus®, Foundayo™는 각 소유자의 상표예요. Dozify는 이들 회사와 제휴, 보증, 후원 관계가 없어요.</p>
+        
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">출처를 밝히는 가이드</h2>
+        
+        <p class="section-lede">이미 GLP-1을 사용 중인 분들을 위해 썼고, 각 가이드마다 정보 출처(제조사 설명서, FDA, MedlinePlus)를 밝혀요. 어떤 내용도 담당 의료진의 말을 대신하지 않아요.</p>
+        
+
+        <div class="article-list">
+          <a class="article-card" href="/ko/articles/what-is-glp1">
+            <h3>GLP-1이란?</h3>
+            
+            <p>식사 후 장에서 분비되는 호르몬, 약물이 모방하는 것, 그리고 식욕이 변하는 이유.</p>
+            
+          </a>
+          <a class="article-card" href="/ko/articles/how-to-inject-glp1">
+            <h3>GLP-1 펜 주사하는 방법</h3>
+            
+            <p>펜 준비, 부위 선택, 주사 과정, 그리고 사용한 바늘 처리 방법.</p>
+            
+          </a>
+          <a class="article-card" href="/ko/articles/glp1-injection-sites">
+            <h3>어디에 주사하고 어떻게 순환할까</h3>
+            
+            <p>승인된 부위는 복부, 허벅지, 위팔이에요. 어디를 고를지, 그리고 왜 위치를 바꿔야 하는지.</p>
+            
+          </a>
+          <a class="article-card" href="/ko/articles/glp1-side-effects">
+            <h3>흔한 부작용</h3>
+            
+            <p>메스꺼움, 변비, 피로: 대개 도움이 되는 방법과 바로 의사를 찾아야 하는 신호.</p>
+            
+          </a>
+          <a class="article-card" href="/ko/articles/glp1-patches">
+            <h3>GLP-1 패치가 있나요?</h3>
+            
+            <p>FDA나 EMA에서 승인한 패치는 없어요. 그 이름으로 팔리는 제품이 무엇인지, 근거는 무엇을 말하는지.</p>
+            
+          </a>
+          <a class="article-card" href="/ko/articles/missed-glp1-dose">
+            <h3>투여를 놓쳤다면?</h3>
+            
+            <p>같은 성분인데 한 제품은 5일, 다른 제품은 2일. 각 설명서의 내용을 그대로 인용해요.</p>
+            
+          </a>
+          <a class="article-card" href="/ko/articles/storing-glp1-pens">
+            <h3>펜 보관하기</h3>
+            
+            <p>냉장고, 실온, 그리고 보관 일수. 일수는 약 성분만이 아니라 기기에 따라서도 달라요.</p>
+            
+          </a>
+          <a class="article-card" href="/ko/articles">
+            <h3>전체 가이드</h3>
+            
+            <p>모든 페이지 하단에 참고 문헌 목록이 있는 전체 자료실.</p>
+            
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">자주 묻는 질문</h2>
+        
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>Dozify는 무료인가요?</h3>
+            
+            <p>네. 투여 기록, 투여 알림, 주사 부위 순환, 체중·물·부작용 기록, 전체 기록과 사진, 교육 아티클은 무료예요. 투여 기록은 체험 기간이 아니라 영원히 무료예요. Premium은 이해를 돕는 기능이에요: 추정 약물 농도 곡선, 고급 차트와 추세, 체중 예측, 체성분, AI 사진 칼로리 추정이 포함된 영양 기록, 바이알 관리, 진료용 PDF 리포트, 테마, 두 번째 활성 약물. 구독 및 해지 안내는 <a href="/ko/support">지원 페이지</a>에 있어요.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>내 데이터는 안전하게 보호되나요?</h3>
+            
+            <p>건강 기록(투여, 체중, 부작용, 진행 사진)은 기기에 저장되며 절대 업로드되지 않아요. 유일한 예외는 AI 칼로리로 분석하기로 직접 선택한 식사 사진이에요. 동의한 뒤 저희 서버를 거쳐 Google Gemini로 전송되며, 앱에 저장되지 않아요. 계정도 클라우드 동기화도 없고, 앱은 광고를 보여 주지 않아요. 앱 개선을 위해 익명 사용 통계를 수집하지만, 약물 이름이나 증상은 절대 포함되지 않아요. 또한 Dozify는 설치가 자체 App Store 또는 Meta 캠페인에서 왔는지 측정해요. 이 측정은 Apple의 추적 권한에 따라 작동하며 건강 기록은 절대 포함되지 않아요. 앱을 삭제하면 기록도 사라져요.</p>
+            
+          </div>
+
+
+          <div class="faq-item">
+            <h3>Dozify는 어떤 약물을 지원하나요?</h3>
+            
+            <p>Dozify는 Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity®, Victoza® 등 많이 쓰이는 GLP-1 약물과 매일 먹는 알약(Wegovy® 알약, Ozempic® 정제, Rybelsus®, Foundayo™)의 기록을 도와줘요. 이 브랜드명은 각 소유자의 상표이며, Dozify는 이들 회사와 관련이 없어요.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>인터넷 없이도 작동하나요?</h3>
+            
+            <p>네. Dozify는 오프라인 우선으로 설계되어 인터넷 연결 없이도 모든 기능이 작동해요. 사용하려고 로그인하거나 동기화할 필요가 전혀 없어요.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>주사 알림을 받을 수 있나요?</h3>
+            
+            <p>네. 약물 일정에 맞춘 주간 또는 매일 알림을 설정할 수 있어서 루틴을 꾸준히 지키기 쉬워져요.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Dozify가 의사를 대신하나요?</h3>
+            
+            <p>아니요. Dozify는 교육용 기록 도구이며 의료기기가 아니고, 의학적 조언을 제공하지 않아요. 항상 의사와 처방을 따르세요 — <a href="/ko/why">앱이 하지 않는 일</a>을 모두 적어 두었어요.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>체중과 부작용도 기록할 수 있나요?</h3>
+            
+            <p>네. 체중, 신체 치수, 부작용 일지를 기록하고 깔끔한 차트로 추세를 볼 수 있어요. 내 데이터를 바탕으로 한 체중 예측과 목표 도달 예상 기간도 포함돼요.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>다른 GLP-1 앱의 데이터를 가져올 수 있나요?</h3>
+            
+            <p>네, 무료예요. 사용하던 앱에서 내보낸 다음, Dozify에서 설정 &rarr; 기록 가져오기를 열고 파일을 선택하세요. Shotsy, Glapp, GLPzy, GlucoPal에서 내보낸 파일과 날짜 열이 있는 모든 CSV를 읽고, 저장하기 전에 찾은 내용(주사, 체중, 메모 건수)을 보여 주고, 이미 있는 기록은 건너뛰며, 기존 데이터를 먼저 백업해요. <a href="/ko/switch-glp1-tracker-app">옮겨 오기 페이지에서 자세히 보기</a>.</p>
+            
+          </div>
+
+          <div class="faq-item">
+            <h3>Android에서도 쓸 수 있나요?</h3>
+            
+            <p>아직은 아니에요. 지금은 App Store에서 iPhone용으로만 제공돼요.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section section-cta">
+      <div class="container">
+        <h2 class="section-title">앱 받기</h2>
+        
+        <p class="section-lede">Dozify는 App Store에서 iPhone용으로 받을 수 있어요.</p>
+        
+        <div class="store-row">
+          <a class="store-card store-card--live" href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-ko&mt=8" target="_blank" rel="noopener">
+            <div class="store-card-icon">
+              <svg viewbox="0 0 24 24" fill="currentColor">
+                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
+              </svg>
+            </div>
+            <div>
+              <span class="store-card-pretitle">다운로드하기</span>
+              
+              <strong>App Store</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/ko" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+        <p class="footer-tagline">GLP-1 치료를 위한 프라이빗한 동반자.</p>
+        
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>법적 고지</h3>
+          
+          <a href="/ko/privacy">개인정보 처리방침</a>
+          
+          <a href="/en/kvkk">KVKK Aydınlatma</a>
+          <a href="/ko/terms">서비스 이용약관</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>기록</h3>
+          
+          <a href="/ko/glp1-shot-tracker">GLP-1 주사 기록</a>
+          
+          <a href="/ko/injection-site-tracker">주사 부위 기록</a>
+          
+          <a href="/ko/glp1-weight-tracker">GLP-1 체중 기록</a>
+          
+          <a href="/ko/glp1-side-effect-journal">부작용 일지</a>
+          
+          <a href="/ko/glp1-vial-tracker">바이알 기록</a>
+          
+          <a href="/ko/private-glp1-tracker">개인 GLP-1 기록 앱</a>
+          
+          <a href="/ko/glp1-appointment-report">진료용 리포트</a>
+          
+          <a href="/ko/switch-glp1-tracker-app">다른 앱에서 옮겨 오기</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>도움말</h3>
+          
+          <a href="/ko/support">지원</a>
+          
+          <a href="/ko/why">왜 Dozify인가요</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+      <p class="disclaimer">Dozify는 의료기기가 아니며 의학적 조언을 제공하지 않아요. 항상 의사와 상담하세요. Ozempic®, Mounjaro®, Wegovy®, Saxenda®, Zepbound®, Trulicity®, Rybelsus®, Victoza®, Foundayo™는 각 소유자의 상표예요. Dozify는 이들 회사와 관련이 없어요.</p>
+      
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en" hreflang="en" lang="en">English</a> · <a href="/tr" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar" hreflang="ar" lang="ar">العربية</a> · <a href="/cs" hreflang="cs" lang="cs">Čeština</a> · <a href="/da" hreflang="da" lang="da">Dansk</a> · <a href="/de" hreflang="de" lang="de">Deutsch</a> · <a href="/el" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es" hreflang="es" lang="es">Español</a> · <a href="/fi" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr" hreflang="fr" lang="fr">Français</a> · <a href="/hi" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it" hreflang="it" lang="it">Italiano</a> · <a href="/ja" hreflang="ja" lang="ja">日本語</a> · <a href="/ko" hreflang="ko" lang="ko" aria-current="page">한국어</a> · <a href="/nb" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl" hreflang="pl" lang="pl">Polski</a> · <a href="/pt" hreflang="pt" lang="pt">Português</a> · <a href="/ru" hreflang="ru" lang="ru">Русский</a> · <a href="/sv" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk" hreflang="uk" lang="uk">Українська</a> · <a href="/zh" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

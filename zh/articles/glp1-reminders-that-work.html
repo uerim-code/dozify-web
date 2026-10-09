@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>更改注射日，以及真正能送达的提醒</title>
+  <meta name="description" content="说明书用一句附条件的话回答了“可以换注射日吗？”。而提醒没有出现，几乎总是手机设置的问题，而不是应用的问题。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dozify.app/zh/articles/glp1-reminders-that-work">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="更改注射日，以及真正能送达的提醒">
+  <meta property="og:description" content="说明书用一句附条件的话回答了“可以换注射日吗？”。而提醒没有出现，几乎总是手机设置的问题，而不是应用的问题。">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="twitter:title" content="更改注射日，以及真正能送达的提醒">
+  <meta name="twitter:description" content="说明书用一句附条件的话回答了“可以换注射日吗？”。而提醒没有出现，几乎总是手机设置的问题，而不是应用的问题。">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="zh_CN">
+
+  <link rel="canonical" href="https://dozify.app/zh/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/ise-yarayan-hatirlatici">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/glp1-reminders-that-work">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/glp1-reminders-that-work">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/zh",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "zh-Hans"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dozify.app/#author",
+        "name": "Ümit Can Erim",
+        "url": "https://dozify.app/zh/editorial-policy",
+        "description": "Developer of Dozify. Writes these guides from primary sources; not a clinician."
+      },
+      {
+        "@type": [
+          "MedicalWebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/zh/articles/glp1-reminders-that-work#webpage",
+        "url": "https://dozify.app/zh/articles/glp1-reminders-that-work",
+        "name": "更改注射日，以及真正能送达的提醒",
+        "description": "说明书用一句附条件的话回答了“可以换注射日吗？”。而提醒没有出现，几乎总是手机设置的问题，而不是应用的问题。",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "zh-Hans",
+        "breadcrumb": {
+          "@id": "https://dozify.app/zh/articles/glp1-reminders-that-work#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "我可以把注射从周四改到周日吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "对于司美格鲁肽产品，说明书写的是只要上一剂是在 2 天或更早之前注射的，就可以更改注射日。从周四到周日是三天，按字面满足条件，但说明书是一般规则，而你的处方医生了解你的具体情况。其他产品不一定有相同的条款。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "一天中的时间重要吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "这些每周产品的说明书写的是“一天中任何时间”，随餐或不随餐均可。实际上，合适的时间是你能稳定坚持的那个时间，而它并不总是你设置时觉得不错的那个时间。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "应用是打开的，却没有收到通知。是坏了吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "先检查权限，再看那个时间是否开启了专注模式，然后看该应用是否在定时推送摘要中。这三项能解释大部分情况。提醒是在设备上安排的，所以网络连接不在原因之列。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "我是轮班工作的。应该一直换注射日吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "说明书允许在满足条件时更改注射日；它们没有描述轮换式的时间表，本页也不会编造一个。如果固定的某一天总是不行，值得在下次复诊时提出来：也许需要改变的是时间表本身，而不是一直迁就它。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "没有信号或在飞机上，提醒还能用吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "能。它是在设备上安排的，而不是从服务器发送的，所以不需要网络连接就能收到。它仍然需要开启通知权限，而飞行模式本身并不会静音通知：会静音的是专注模式。"
+            }
+          }
+        ],
+        "headline": "一个能应对多变一周的 GLP-1 提醒",
+        "author": {
+          "@id": "https://dozify.app/#author"
+        },
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "image": "https://dozify.app/og-image.png",
+        "datePublished": "2026-08-19",
+        "dateModified": "2026-08-19",
+        "lastReviewed": "2026-08-19",
+        "citation": [
+          {
+            "@type": "WebPage",
+            "name": "DailyMed (NIH) — OZEMPIC prescribing information",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79"
+          },
+          {
+            "@type": "WebPage",
+            "name": "DailyMed (NIH) — WEGOVY prescribing information",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b"
+          },
+          {
+            "@type": "WebPage",
+            "name": "MedlinePlus (NIH) — Dulaglutide Injection",
+            "url": "https://medlineplus.gov/druginfo/meds/a614047.html"
+          },
+          {
+            "@type": "WebPage",
+            "name": "MedlinePlus (NIH) — Semaglutide Injection",
+            "url": "https://medlineplus.gov/druginfo/meds/a618008.html"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Apple — Set up a Focus on iPhone",
+            "url": "https://support.apple.com/guide/iphone/set-up-a-focus-iphd6288a67f/ios"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Apple — Change notification settings on iPhone",
+            "url": "https://support.apple.com/guide/iphone/change-notification-settings-iph7c3d96bab/ios"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/zh/articles/glp1-reminders-that-work#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://dozify.app/zh"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "文章",
+            "item": "https://dozify.app/zh/articles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "提醒",
+            "item": "https://dozify.app/zh/articles/glp1-reminders-that-work"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/zh" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">功能</a>
+        
+        <a href="/zh/support">支持</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="article-wrap">
+      <div class="breadcrumb">
+        <a href="/zh">首页</a>
+        
+        <span aria-hidden="true">/</span>
+        <a href="/zh/articles">文章</a>
+        
+        <span aria-hidden="true">/</span>
+        <span>提醒</span>
+        
+      </div>
+
+      <div class="article-hero">
+        <h1>一个能应对多变一周的 GLP-1 提醒</h1>
+        
+        <p class="article-meta">作者：Ümit Can Erim · 发布于 2026 年 8 月 19 日 · 更新于 2026 年 8 月 19 日 · 来源核对于 2026 年 8 月 19 日 · <a href="/zh/editorial-policy">这些指南是如何撰写的</a></p>
+        
+        <p class="article-lede">每周一次的药物，前提是每一周都重复同样的节奏。轮班工作、一次航班、一个变成医院预约的周四：时间表被打乱了，随之而来的两个问题是“我能换一天吗？”和“为什么手机没提醒我？”。第一个问题的答案就印在说明书上。第二个问题几乎从来都不是应用的原因。</p>
+        
+      </div>
+
+      <div class="prose">
+        <h2>更改注射日：说明书怎么说</h2>
+        <p>这是生产商直接回答的少数几个时间安排问题之一，而对于两款司美格鲁肽产品，答案是同一句话。</p>
+        <ul>
+          <li><strong>Ozempic®</strong>——“你可以更改每周使用 OZEMPIC 的日子，只要上一剂是在 2 天或更早之前注射的。”</li>
+          <li><strong>Wegovy®</strong>——“如果你需要更改每周的注射日，只要上一剂 WEGOVY 是在 2 天或更早之前注射的，就可以这样做。”</li>
+          <li><strong>Trulicity®</strong>——患者信息要求“每周同一天、一天中任何时间”使用，但没有给出相应的更改注射日规则。说明书没有写的时候，这个问题应该问你的处方医生，而不是问互联网。</li>
+        </ul>
+        <p>有两点值得注意。这项许可是有条件的——它关乎距上一剂的间隔，而不是方便与否。而且它针对的是<em>哪一天</em>：说明书对一天中的具体时间很宽松，所以它们都写着“一天中任何时间”。</p>
+
+        
+        
+        
+        
+
+        <h2>为什么提醒没有出现</h2>
+        <p>任何应用的提醒都是由操作系统送达的通知。如果它没有出现，常见原因都在手机上，大致按以下顺序：</p>
+        <ul>
+          <li><strong>从未授予权限，或后来被关闭了。</strong>没有权限，应用就无法显示通知，而 iOS 只会询问一次。设置 → 通知 → 该应用。</li>
+          <li><strong>开启了专注模式。</strong>Apple 自己的描述是，专注模式可以让你将所有通知静音，或只允许特定通知通过。每周的剂量提醒是一条普通通知，所以一个静音所有通知的专注模式也会把它静音，除非该应用在允许列表中。睡眠也算：设在你通常睡觉时间的提醒，恰恰就是会被专注模式拦下的那一条。</li>
+          <li><strong>定时推送摘要。</strong>如果该应用被放进了摘要，它的通知会被收集起来，在设定的时间统一送达，而不是在触发时送达。</li>
+          <li><strong>提醒设在了你不看手机的时间。</strong>这不算故障，但结果是一样的。</li>
+        </ul>
+        <p>这些情况都不需要打开应用，也都不是重新安装应用能解决的。它们只是“设置”里的三个界面。</p>
+
+        
+        
+        
+        
+
+        <h2>时区与出行</h2>
+        <p>每周提醒是按时钟安排的，而你移动时时钟也会变。向东或向西飞行，会改变提醒相对于你身体作息的到达时刻，尽管日历上的日期没有变。最好在出发前就决定，而不是凌晨 3 点在酒店里再想：你希望提醒跟随当地时间，还是保持你离家时的时间表。说明书对一天中具体时间的灵活性，让两种选择都可行：有规则约束的是哪一天。</p>
+
+        
+        
+
+        <h2>提醒不是什么</h2>
+        <p>它是一条通知，不是保证，也不是记录。无论你是否注射，它都会响；无论你是否注意到，它都会消失。所以有用的组合是提醒<em>加上</em>记录：前者是提示，后者才能在一周后回答“我打了吗？”。<a href="/zh/articles/missed-glp1-dose">如果真的漏了一剂</a>，说明书要你怎么做取决于过了多少天，而这个数字只有记录才能给你。</p>
+
+        
+        
+      </div>
+
+      <div class="article-cta">
+        <h3>设置一次，设在你实际注射的时间</h3>
+        
+        <p>每周、每日、每隔几天或指定日期，无论通知是否送达，下一剂都显示在首屏上。Dozify 记录你和医生商定的时间表；它不提出时间表。</p>
+        
+        <a href="/#download" class="btn btn-primary">下载应用</a>
+        
+        <a href="/zh/glp1-shot-tracker" class="link-arrow">了解剂量提醒如何运作 →</a>
+        
+      </div>
+
+      <div class="article-faq">
+        <h2>问题</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>我可以把注射从周四改到周日吗？</h3>
+            
+            <p>对于司美格鲁肽产品，说明书写的是只要上一剂是在 2 天或更早之前注射的，就可以更改注射日。从周四到周日是三天，按字面满足条件，但说明书是一般规则，而你的处方医生了解你的具体情况。其他产品不一定有相同的条款。</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>一天中的时间重要吗？</h3>
+            
+            <p>这些每周产品的说明书写的是“一天中任何时间”，随餐或不随餐均可。实际上，合适的时间是你能稳定坚持的那个时间，而它并不总是你设置时觉得不错的那个时间。</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>应用是打开的，却没有收到通知。是坏了吗？</h3>
+            
+            <p>先检查权限，再看那个时间是否开启了专注模式，然后看该应用是否在定时推送摘要中。这三项能解释大部分情况。提醒是在设备上安排的，所以网络连接不在原因之列。</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>我是轮班工作的。应该一直换注射日吗？</h3>
+            
+            <p>说明书允许在满足条件时更改注射日；它们没有描述轮换式的时间表，本页也不会编造一个。如果固定的某一天总是不行，值得在下次复诊时提出来：也许需要改变的是时间表本身，而不是一直迁就它。</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>没有信号或在飞机上，提醒还能用吗？</h3>
+            
+            <p>能。它是在设备上安排的，而不是从服务器发送的，所以不需要网络连接就能收到。它仍然需要开启通知权限，而飞行模式本身并不会静音通知：会静音的是专注模式。</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        <p>科普信息，不构成医疗建议。Dozify 是一款个人记录应用，不是医疗器械。本页引用公开的药品说明书和平台文档；它不建议任何人更改时间表。请始终遵循药物随附的说明和你的处方医生的指示。</p>
+        
+      </div>
+
+      <div class="references">
+        <h2>参考资料</h2>
+        <ol>
+          <li><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79" rel="nofollow noopener" target="_blank">DailyMed (NIH). OZEMPIC prescribing information</a></li>
+          <li><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b" rel="nofollow noopener" target="_blank">DailyMed (NIH). WEGOVY prescribing information</a></li>
+          <li><a href="https://medlineplus.gov/druginfo/meds/a614047.html" rel="nofollow noopener" target="_blank">MedlinePlus (NIH). Dulaglutide Injection</a></li>
+          <li><a href="https://medlineplus.gov/druginfo/meds/a618008.html" rel="nofollow noopener" target="_blank">MedlinePlus (NIH). Semaglutide Injection</a></li>
+          <li><a href="https://support.apple.com/guide/iphone/set-up-a-focus-iphd6288a67f/ios" rel="nofollow noopener" target="_blank">Apple. Set up a Focus on iPhone</a></li>
+          <li><a href="https://support.apple.com/guide/iphone/change-notification-settings-iph7c3d96bab/ios" rel="nofollow noopener" target="_blank">Apple. Change notification settings on iPhone</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/zh" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>法律信息</h3>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/zh/terms">条款</a>
+          
+          <a href="/zh/editorial-policy">编辑方针</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>帮助</h3>
+          
+          <a href="/zh/support">支持</a>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/articles/glp1-reminders-that-work" hreflang="en" lang="en">English</a> · <a href="/tr/makaleler/ise-yarayan-hatirlatici" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/articles/glp1-reminders-that-work" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/articles/glp1-reminders-that-work" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/articles/glp1-reminders-that-work" hreflang="da" lang="da">Dansk</a> · <a href="/de/articles/glp1-reminders-that-work" hreflang="de" lang="de">Deutsch</a> · <a href="/el/articles/glp1-reminders-that-work" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/articles/glp1-reminders-that-work" hreflang="es" lang="es">Español</a> · <a href="/fi/articles/glp1-reminders-that-work" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/articles/glp1-reminders-that-work" hreflang="fr" lang="fr">Français</a> · <a href="/hi/articles/glp1-reminders-that-work" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/articles/glp1-reminders-that-work" hreflang="it" lang="it">Italiano</a> · <a href="/ja/articles/glp1-reminders-that-work" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/articles/glp1-reminders-that-work" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/articles/glp1-reminders-that-work" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/articles/glp1-reminders-that-work" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/articles/glp1-reminders-that-work" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/articles/glp1-reminders-that-work" hreflang="pt" lang="pt">Português</a> · <a href="/ru/articles/glp1-reminders-that-work" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/articles/glp1-reminders-that-work" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/articles/glp1-reminders-that-work" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/articles/glp1-reminders-that-work" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

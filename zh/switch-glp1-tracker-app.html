@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>换用Dozify：导入你的GLP-1历史记录</title>
+  <meta name="description" content="可从 Shotsy、Glapp、GLPzy、GlucoPal 或普通 CSV 导入。写入任何内容之前，你都能准确看到将要写入什么，而且完全免费。">
+  <meta property="og:url" content="https://dozify.app/zh/switch-glp1-tracker-app">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta property="og:title" content="换用Dozify：导入你的GLP-1历史记录">
+  <meta property="og:description" content="可从 Shotsy、Glapp、GLPzy、GlucoPal 或普通 CSV 导入。写入任何内容之前，你都能准确看到将要写入什么，而且完全免费。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="twitter:title" content="换用Dozify：导入你的GLP-1历史记录">
+  <meta name="twitter:description" content="可从 Shotsy、Glapp、GLPzy、GlucoPal 或普通 CSV 导入。写入任何内容之前，你都能准确看到将要写入什么，而且完全免费。">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="zh_CN">
+
+  <link rel="canonical" href="https://dozify.app/zh/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/baska-uygulamadan-gecis">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/switch-glp1-tracker-app">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/switch-glp1-tracker-app">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/zh",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "zh-Hans"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/zh",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "记录 GLP-1 注射和每日口服药，轮换注射部位，追踪体重、副作用和食物噪音，拍照即可用 AI 估算卡路里和蛋白质。iPhone 应用。",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "zh-Hans"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/zh/switch-glp1-tracker-app#webpage",
+        "url": "https://dozify.app/zh/switch-glp1-tracker-app",
+        "name": "换用Dozify：导入你的GLP-1历史记录",
+        "description": "可从 Shotsy、Glapp、GLPzy、GlucoPal 或普通 CSV 导入。写入任何内容之前，你都能准确看到将要写入什么，而且完全免费。",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "zh-Hans",
+        "breadcrumb": {
+          "@id": "https://dozify.app/zh/switch-glp1-tracker-app#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "可以从哪些应用导入？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "能识别 Shotsy、Glapp、GLPzy 和 GlucoPal 的导出文件，以及 Dozify 自己的备份文件和任何带有日期列的 CSV。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "我用的应用不在列表上。该怎么办？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "从它导出一个 CSV 试试：唯一的要求是有日期列。如果文件无法识别，Dozify 会告诉你，而不是悄悄什么都不导入，你可以在“设置 → 提个功能建议”中把它发送给我们。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "导入两次会让所有记录都重复吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不会。与 Dozify 中已有记录相匹配的记录会被计为重复项并跳过，所以再次导入同一个文件是安全的。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "如果导入进行到一半失败了会怎样？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不会出现这种情况。写入是一次完整的事务：要么全部完成，要么全部回滚，而且在开始前会立即自动备份。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "文件会被发送到任何地方吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不会。它在你的手机上读取。导入过程不涉及任何账户或服务器。"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/zh/switch-glp1-tracker-app#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://dozify.app/zh"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "迁移",
+            "item": "https://dozify.app/zh/switch-glp1-tracker-app"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/zh" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">功能</a>
+        
+        <a href="/#privacy">隐私</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/zh">首页</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>迁移</span>
+      
+    </div>
+    <h1>把你的历史记录一起带过来</h1>
+    
+    <p class="meta">可从 Shotsy、Glapp、GLPzy、GlucoPal 或普通 CSV 导入。写入任何内容之前，你都能准确看到将要发生什么，而且免费。</p>
+    
+
+    <h2>问题所在</h2>
+    <p>几个月的注射、称重和副作用记录，是人们留在一款已经不喜欢的应用里的原因。从头开始，就意味着失去关于第一针情况的唯一记录，而没有人会把一整年的注射重新输入一遍。</p>
+
+    
+    
+
+    <h2>Dozify 能做什么</h2>
+    <h3>读取你旧应用生成的文件</h3>
+    <p>从另一个应用导出，打开 Dozify →“设置 → 导入你的历史记录”，选择文件。Dozify 能识别 Shotsy、Glapp、GLPzy 和 GlucoPal 的导出文件、它自己的 JSON 备份，以及任何带有日期列的 CSV。它会自己判断是哪一种，而不用问你。</p>
+    <h3>写入任何内容之前先给你看数字</h3>
+    <p>找到了多少条体重、注射和副作用记录，它们覆盖的日期范围，其中多少条已在 Dozify 中，以及有多少行无法读取。在你轻点确认之前，什么都不会写入。</p>
+    <h3>同一个文件导入两次不会有任何影响</h3>
+    <p>与已有记录相匹配的记录会被计为重复项并跳过，所以再导入一次是安全的：如果你几周后再次导出，这会很有用。</p>
+    <h3>先备份，并且要么全部写入、要么全不写入</h3>
+    <p>Dozify 会在导入前立即在你的设备上自动备份。导入本身是一次完整的事务：任何一步失败都会全部回滚，因为只导入一半的历史比完全没有更糟：你分不清哪一半是你的。</p>
+    <h3>文件从不离开你的手机</h3>
+    <p>它在设备上读取。不上传任何内容，没有账户，也没有服务器能看到你的记录。</p>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/home-next-dose.webp" srcset="/screenshots/en/home-next-dose-400w.webp 400w, /screenshots/en/home-next-dose.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="导入后的 Dozify：来自之前应用的历史记录已就位"></div></figure>
+      
+    </div>
+
+    <h2>哪些会迁移过来，哪些不会</h2>
+    <p><strong>会导入：</strong>体重记录、注射记录（日期、时间、剂量、部位、备注）以及副作用及其严重程度。</p>
+    <p><strong>不会导入：</strong>药瓶、进度照片和打卡记录。要么另一个应用没有对应项，要么映射只能靠猜，而一条猜出来的记录比没有记录更糟。</p>
+    <p><strong>导入注射记录前请先添加药物。</strong>每一次注射记录都必须属于某种药物，所以如果你还没有设置药物，Dozify 会在预览界面上告诉你，并只导入你的体重和副作用。添加药物后再次导入同一个文件：已有的记录不会被重复添加。</p>
+
+    
+    
+    
+    
+
+    <h2>从某个特定应用迁移</h2>
+    <p>以下每个页面都列出了 Dozify 在该应用导出文件中查找的列名，你可以在开始之前核对文件的表头行。</p>
+    <ul>
+      <li><a href="/zh/shotsy-alternative">从 Shotsy 迁移</a></li>
+      <li><a href="/zh/glapp-alternative">从 Glapp 迁移</a></li>
+      <li><a href="/zh/glucopal-alternative">从 GlucoPal 迁移</a></li>
+    </ul>
+
+    
+    
+    
+
+    <h2>如果文件无法识别</h2>
+    <p>Dozify 会明确告诉你，而不是悄悄导入零行。任何带有日期列的 CSV 都能读取；如果你的文件读不了，请在“设置 → 提个功能建议”中发送给我们，我们会添加该格式：读不了的文件是我们的不足，不是你的问题。</p>
+
+    
+    
+
+
+    <h2>适合谁</h2>
+    <p>适合要离开 Shotsy、Glapp、GLPzy 或 GlucoPal 的人，以及当前应用能导出 CSV 的任何人。它正是为这样一个时刻而写：历史记录成了让人留在一款已经不喜欢的应用里的唯一理由。</p>
+
+    
+    
+
+    <h2>它的边界</h2>
+    <p>体重、注射和副作用会迁移过来。药瓶、进度照片和打卡记录不会：要么另一个应用没有对应项，要么映射只能靠猜，而医疗记录中一条猜出来的记录比缺失一条更糟。Dozify 无法读取的行会作为未读取项报告给你，而不是被悄悄丢弃；并且必须先在 Dozify 中有某种药物，注射记录才能关联到它。</p>
+
+    
+    
+
+    <h2>默认私密</h2>
+    <p>你的健康记录保存在你的设备上，永远不会上传；唯一的例外是你选择用 AI 卡路里分析的餐食照片，只会在你同意后发送，且应用不会保存。没有账户，也没有云同步。使用统计从不包含药物名称或症状，详见<a href="/zh/privacy">隐私政策</a>。</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-switch-glp1-tracker-app-zh&mt=8" class="btn btn-primary">在 App Store 下载</a></p>
+
+
+    <h2>问题</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>可以从哪些应用导入？</h3>
+        
+        <p>能识别 Shotsy、Glapp、GLPzy 和 GlucoPal 的导出文件，以及 Dozify 自己的备份文件和任何带有日期列的 CSV。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>我用的应用不在列表上。该怎么办？</h3>
+        
+        <p>从它导出一个 CSV 试试：唯一的要求是有日期列。如果文件无法识别，Dozify 会告诉你，而不是悄悄什么都不导入，你可以在“设置 → 提个功能建议”中把它发送给我们。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>导入两次会让所有记录都重复吗？</h3>
+        
+        <p>不会。与 Dozify 中已有记录相匹配的记录会被计为重复项并跳过，所以再次导入同一个文件是安全的。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>如果导入进行到一半失败了会怎样？</h3>
+        
+        <p>不会出现这种情况。写入是一次完整的事务：要么全部完成，要么全部回滚，而且在开始前会立即自动备份。</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>文件会被发送到任何地方吗？</h3>
+        
+        <p>不会。它在你的手机上读取。导入过程不涉及任何账户或服务器。</p>
+        
+      </div>
+    </div>
+
+    <h2>接下来阅读</h2>
+    <p>注明出处的指南：<a href="/zh/articles/what-is-glp1">GLP-1 到底是什么</a>、<a href="/zh/articles/glp1-injection-sites">在哪里注射以及如何轮换</a>以及<a href="/zh/articles/how-to-inject-glp1">如何使用注射笔，分步说明</a>。</p>
+    <p>Dozify 的其他功能：<a href="/zh/glp1-shot-tracker">注射记录</a>和<a href="/zh/private-glp1-tracker">这里的隐私如何运作</a>。</p>
+    <p>Dozify 新功能：拍下一餐，应用会为每样食物估算卡路里和蛋白质草稿，供你修改——<a href="/zh/ai-calorie-tracker">AI 卡路里记录</a>（Premium）；每日服用的 GLP-1 片剂也有了专属的<a href="/zh/glp1-pill-tracker">口服药记录</a>。</p>
+
+    
+    
+    
+    
+
+    <p class="meta">Dozify 是一款记录工具，不是医疗器械。它不推荐剂量，也不提供医疗建议。Shotsy、Glapp、GLPzy 和 GlucoPal 是其各自所有者的商标，在此提及仅为描述 Dozify 能够读取的文件格式；Dozify 与它们没有关联。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza® 和 Rybelsus® 是其各自所有者的商标；Dozify 与这些公司没有关联。</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/zh" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>法律信息</h3>
+          
+          <a href="/zh/privacy">隐私政策</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/zh/terms">条款</a>
+          
+          <a href="/zh/editorial-policy">编辑方针</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>记录</h3>
+          
+          <a href="/zh/glp1-shot-tracker">GLP-1 注射记录</a>
+          
+          <a href="/zh/injection-site-tracker">注射部位记录</a>
+          
+          <a href="/zh/glp1-weight-tracker">GLP-1 体重记录</a>
+          
+          <a href="/zh/glp1-side-effect-journal">副作用日记</a>
+          
+          <a href="/zh/glp1-vial-tracker">药瓶记录</a>
+          
+          <a href="/zh/private-glp1-tracker">私密 GLP-1 记录</a>
+          
+          <a href="/zh/glp1-appointment-report">就诊报告</a>
+          
+          <a href="/zh/switch-glp1-tracker-app">从其他应用迁移</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>帮助</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/switch-glp1-tracker-app" hreflang="en" lang="en">English</a> · <a href="/tr/baska-uygulamadan-gecis" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/switch-glp1-tracker-app" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/switch-glp1-tracker-app" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/switch-glp1-tracker-app" hreflang="da" lang="da">Dansk</a> · <a href="/de/switch-glp1-tracker-app" hreflang="de" lang="de">Deutsch</a> · <a href="/el/switch-glp1-tracker-app" hreflang="el" lang="el">Ελληνικά</a> · <a href="/es/switch-glp1-tracker-app" hreflang="es" lang="es">Español</a> · <a href="/fi/switch-glp1-tracker-app" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/switch-glp1-tracker-app" hreflang="fr" lang="fr">Français</a> · <a href="/hi/switch-glp1-tracker-app" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/switch-glp1-tracker-app" hreflang="it" lang="it">Italiano</a> · <a href="/ja/switch-glp1-tracker-app" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/switch-glp1-tracker-app" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/switch-glp1-tracker-app" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/switch-glp1-tracker-app" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/switch-glp1-tracker-app" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/switch-glp1-tracker-app" hreflang="pt" lang="pt">Português</a> · <a href="/ru/switch-glp1-tracker-app" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/switch-glp1-tracker-app" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/switch-glp1-tracker-app" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/switch-glp1-tracker-app" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

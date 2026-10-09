@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "title": "بديل Glapp — انقل سجل GLP-1 الخاص بك",
+  "description": "تغادر Glapp؟ يقرأ Dozify الملف المصدَّر، ويعاين كل سجل قبل الكتابة، ويخبرك بالأعمدة التي لم يستطع تحديد مكانها. مجاناً، ولا يُرفع شيء."
+ },
+ "t": {
+  "Glapp alternative": "بديل Glapp",
+  "Coming from Glapp? Bring the history with you": "قادم من Glapp؟ انقل سجلك معك",
+  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "صدّر من Glapp، وافتحه في Dozify، وشاهد كل سجل على وشك أن يُكتب قبل كتابة أيٍّ منها. مجاناً، والملف لا يغادر هاتفك أبداً.",
+  "The columns Dozify looks for in a Glapp export": "الأعمدة التي يبحث عنها Dozify في ملف Glapp المصدَّر",
+  "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
+  "<code>time</code>": "<code>time</code>",
+  "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
+  "<strong>Site</strong>": "<strong>الموضع</strong>",
+  "<code>site · body site</code>": "<code>site · body site</code>",
+  "<strong>Medication</strong>": "<strong>الدواء</strong>",
+  "<code>medication · product</code>": "<code>medication · product</code>",
+  "<code>weight · weight kg · body weight</code>": "<code>weight · weight kg · body weight</code>",
+  "<strong>Side effect</strong>": "<strong>الأثر الجانبي</strong>",
+  "<code>symptom · side effect · side-effect</code>": "<code>symptom · side effect · side-effect</code>",
+  "<strong>Severity</strong>": "<strong>الشدّة</strong>",
+  "<code>severity · intensity</code>": "<code>severity · intensity</code>",
+  "<code>notes · note</code>": "<code>notes · note</code>",
+  "If your dose column is headed “units”": "إذا كان عنوان عمود الجرعة لديك «units»",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "تُعرض عليك تلك الصفوف بدلاً من تحويلها. الوحدة حجم على الحقنة، وعدد المليغرامات فيها يعتمد على تركيز قارورتك — وهو رقم لا يحمله الملف. كتابتها في حقل المليغرامات ستسجّل جرعة خاطئة دون أن يعترض على ذلك أي شيء لاحقاً، لذا يعرضها Dozify ويتيح لك إدخال الكمية التي يستخدمها طبيبك. <a href=\"/en/articles/units-vs-milligrams\">لماذا لا يوجد تحويل واحد ←</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify أداة تتبّع وليس جهازاً طبياً. لا يوصي بجرعات ولا يقدّم استشارات طبية. Glapp علامة تجارية مملوكة لصاحبها وتُذكر هنا فقط لوصف صيغة ملف يستطيع Dozify قراءتها؛ وDozify غير تابع لـ Glapp وهذه الصفحة غير معتمدة منها. Ozempic® وWegovy® وMounjaro® وSaxenda® وZepbound® وTrulicity® وVictoza® وRybelsus® علامات تجارية مملوكة لأصحابها؛ وDozify غير تابع لهذه الشركات.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">حمّله من App Store</a>"
+ }
+}

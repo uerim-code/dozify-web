@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Καταγραφή βάρους GLP-1 — βάρος και δόση μαζί</title>
+  <meta property="og:url" content="https://dozify.app/el/glp1-weight-tracker">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
+       Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
+       ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
+       tıklandı" sinyalini taşır, ziyaretçi ilgi alanı profiline eklenmez.
+       Gizlilik metninde açıkça yazılıdır (bkz. /privacy, bölüm 5). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18301393109"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', { 'ad_personalization': 'denied', 'ad_user_data': 'denied' });
+    gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
+  </script>
+  <script src="/assets/store-click.js" defer></script>
+  <meta name="description" content="Η τάση του βάρους σας δίπλα στις δόσεις, σε ένα χρονολόγιο. Καταγράψτε το βάρος σε δευτερόλεπτα και δείτε το σχήμα των μηνών, όχι μεμονωμένους αριθμούς.">
+  <meta property="og:title" content="Καταγραφή βάρους GLP-1 — βάρος και δόση μαζί">
+  <meta property="og:description" content="Η τάση του βάρους σας δίπλα στις δόσεις, σε ένα χρονολόγιο. Καταγράψτε το βάρος σε δευτερόλεπτα και δείτε το σχήμα των μηνών, όχι μεμονωμένους αριθμούς.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="Dozify">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dozify.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dozify — ιδιωτική εφαρμογή καταγραφής ενέσεων GLP-1 και βάρους για iPhone">
+  <meta name="twitter:title" content="Καταγραφή βάρους GLP-1 — βάρος και δόση μαζί">
+  <meta name="twitter:description" content="Η τάση του βάρους σας δίπλα στις δόσεις, σε ένα χρονολόγιο. Καταγράψτε το βάρος σε δευτερόλεπτα και δείτε το σχήμα των μηνών, όχι μεμονωμένους αριθμούς.">
+  <meta name="twitter:image" content="https://dozify.app/og-image.png">
+  <meta name="twitter:image:alt" content="Dozify — ιδιωτική εφαρμογή καταγραφής ενέσεων GLP-1 και βάρους για iPhone">
+  <meta name="theme-color" content="#0D9488">
+  <meta name="apple-itunes-app" content="app-id=6764325653">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta property="og:locale" content="el_GR">
+
+  <link rel="canonical" href="https://dozify.app/el/glp1-weight-tracker">
+  <link rel="alternate" hreflang="en" href="https://dozify.app/en/glp1-weight-tracker">
+  <link rel="alternate" hreflang="tr" href="https://dozify.app/tr/glp1-kilo-takibi">
+  <link rel="alternate" hreflang="ar" href="https://dozify.app/ar/glp1-weight-tracker">
+  <link rel="alternate" hreflang="cs" href="https://dozify.app/cs/glp1-weight-tracker">
+  <link rel="alternate" hreflang="da" href="https://dozify.app/da/glp1-weight-tracker">
+  <link rel="alternate" hreflang="de" href="https://dozify.app/de/glp1-weight-tracker">
+  <link rel="alternate" hreflang="el" href="https://dozify.app/el/glp1-weight-tracker">
+  <link rel="alternate" hreflang="es" href="https://dozify.app/es/glp1-weight-tracker">
+  <link rel="alternate" hreflang="fi" href="https://dozify.app/fi/glp1-weight-tracker">
+  <link rel="alternate" hreflang="fr" href="https://dozify.app/fr/glp1-weight-tracker">
+  <link rel="alternate" hreflang="hi" href="https://dozify.app/hi/glp1-weight-tracker">
+  <link rel="alternate" hreflang="it" href="https://dozify.app/it/glp1-weight-tracker">
+  <link rel="alternate" hreflang="ja" href="https://dozify.app/ja/glp1-weight-tracker">
+  <link rel="alternate" hreflang="ko" href="https://dozify.app/ko/glp1-weight-tracker">
+  <link rel="alternate" hreflang="nb" href="https://dozify.app/nb/glp1-weight-tracker">
+  <link rel="alternate" hreflang="nl" href="https://dozify.app/nl/glp1-weight-tracker">
+  <link rel="alternate" hreflang="pl" href="https://dozify.app/pl/glp1-weight-tracker">
+  <link rel="alternate" hreflang="pt" href="https://dozify.app/pt/glp1-weight-tracker">
+  <link rel="alternate" hreflang="ru" href="https://dozify.app/ru/glp1-weight-tracker">
+  <link rel="alternate" hreflang="sv" href="https://dozify.app/sv/glp1-weight-tracker">
+  <link rel="alternate" hreflang="uk" href="https://dozify.app/uk/glp1-weight-tracker">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/glp1-weight-tracker">
+  <link rel="alternate" hreflang="x-default" href="https://dozify.app/en/glp1-weight-tracker">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dozify.app/#organization",
+        "name": "Dozify",
+        "url": "https://dozify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dozify.app/og-image.png",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dozify.app/#website",
+        "name": "Dozify",
+        "url": "https://dozify.app/el",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "inLanguage": "el"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://dozify.app/#app",
+        "name": "Dozify",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "url": "https://dozify.app/el",
+        "downloadUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "installUrl": "https://apps.apple.com/app/dozify/id6764325653",
+        "description": "Καταγράψτε ενέσεις και χάπια GLP-1, εναλλάξτε σημεία ένεσης, παρακολουθήστε βάρος και παρενέργειες και βγάλτε φωτογραφία στο φαγητό για θερμίδες με AI.",
+        "publisher": {
+          "@id": "https://dozify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": "el"
+      },
+      {
+        "@type": [
+          "WebPage",
+          "FAQPage"
+        ],
+        "@id": "https://dozify.app/el/glp1-weight-tracker#webpage",
+        "url": "https://dozify.app/el/glp1-weight-tracker",
+        "name": "Καταγραφή βάρους GLP-1 — βάρος και δόση μαζί",
+        "description": "Η τάση του βάρους σας δίπλα στις δόσεις, σε ένα χρονολόγιο. Καταγράψτε το βάρος σε δευτερόλεπτα και δείτε το σχήμα των μηνών, όχι μεμονωμένους αριθμούς.",
+        "isPartOf": {
+          "@id": "https://dozify.app/#website"
+        },
+        "inLanguage": "el",
+        "breadcrumb": {
+          "@id": "https://dozify.app/el/glp1-weight-tracker#breadcrumb"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Διαβάζει το βάρος μου από το Apple Health;",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Στο iPhone, ναι. Αν η ζυγαριά σας ή άλλη εφαρμογή γράφει το βάρος στην Υγεία, το Dozify το διαβάζει και δεν πληκτρολογείτε τίποτα. Μπορείτε επίσης να το καταχωρίσετε με το χέρι."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Κιλά ή λίβρες;",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Οποιοδήποτε. Η μονάδα είναι ρύθμιση, και η αλλαγή της μετατρέπει όσα υπάρχουν ήδη αντί να ερμηνεύει ξανά τους αριθμούς."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Μου λέει η πρόβλεψη πότε θα φτάσω τον στόχο μου;",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Σας λέει πότε θα τον φτάνατε αν η τάση στις δικές σας καταχωρίσεις συνεχιζόταν αμετάβλητη. Ο οργανισμός δεν λειτουργεί έτσι, και η εφαρμογή το λέει στην οθόνη αντί να παρουσιάζει την ημερομηνία ως πλάνο."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Μπορώ να καταγράφω και μετρήσεις;",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ναι, μέση, γοφούς και τα υπόλοιπα, στο ίδιο χρονολόγιο με το βάρος, για τους μήνες όπου η ζυγαριά κινείται λιγότερο από τη μεζούρα."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Φεύγει το βάρος μου από το κινητό;",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Όχι. Αποθηκεύεται στη συσκευή όπως και τα υπόλοιπα δεδομένα σας. Η ανάγνωση από το Apple Health γίνεται στο κινητό· τίποτα δεν ανεβαίνει."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://dozify.app/el/glp1-weight-tracker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Αρχική",
+            "item": "https://dozify.app/el"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Τάση βάρους",
+            "item": "https://dozify.app/el/glp1-weight-tracker"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/el" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewbox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#0D9488" />
+            <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+          </svg>
+        </span>
+        <span class="brand-name">Dozify</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#features">Λειτουργίες</a>
+        
+        <a href="/#privacy">Απόρρητο</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <div class="breadcrumb">
+      <a href="/el">Αρχική</a>
+      
+      <span aria-hidden="true">/</span>
+      <span>Τάση βάρους</span>
+      
+    </div>
+    <h1>Το βάρος και οι δόσεις σας σε μία γραμμή</h1>
+    
+    <p class="meta">Το βάρος σε μία εφαρμογή και οι ενέσεις σε άλλη είναι δύο μισά της ίδιας εικόνας. Το Dozify τα κρατά στο ίδιο χρονολόγιο.</p>
+    
+
+    <h2>Το πρόβλημα</h2>
+    <p>Το ερώτημα δεν είναι ποτέ απλώς «πόσο ζυγίζω». Είναι πώς ήταν οι τελευταίες εβδομάδες και τι συνέβαινε μέσα σε αυτές: ποια δόση, ποια εβδομάδα, τι άλλο καταγράψατε.</p>
+
+    
+    
+
+    <h2>Τι κάνει το Dozify</h2>
+    <h3>Μια τάση, όχι ένας αριθμός</h3>
+    <p>Το βάρος σας για τρεις μήνες, έξι ή έναν χρόνο, με τον ρυθμό που κινείται και την απόσταση από τον στόχο σας.</p>
+    <h3>Το Apple Health κάνει την πληκτρολόγηση</h3>
+    <p>Στο iPhone, το βάρος διαβάζεται αυτόματα από την εφαρμογή Υγεία. Αν η ζυγαριά σας γράφει εκεί, δεν καταχωρίζετε τίποτα με το χέρι.</p>
+    <h3>Καμία πρόβλεψη ντυμένη υπόσχεση</h3>
+    <p>Η εφαρμογή δείχνει τι έχουν κάνει οι δικές σας καταχωρίσεις. Δεν σας λέει τι θα κάνει ο οργανισμός σας στη συνέχεια.</p>
+
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="screenshot-strip">
+      <figure class="shot"><div class="device"><img src="/screenshots/en/weight-and-dose-chart.webp" srcset="/screenshots/en/weight-and-dose-chart-400w.webp 400w, /screenshots/en/weight-and-dose-chart.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" alt="Το βάρος και οι δόσεις σας σε μία γραμμή"></div></figure>
+      
+    </div>
+
+
+    <h2>Σε ποιους απευθύνεται</h2>
+    <p>Όσους θέλουν το σχήμα μερικών μηνών και όχι τον σημερινό αριθμό, και όσους το βάρος τους περνά ήδη στο Apple Health από μια ζυγαριά. Είναι επίσης για όποιον ρωτήθηκε σε ένα ραντεβού πώς κινήθηκε το βάρος από την τελευταία αλλαγή δόσης και αναγκάστηκε να μαντέψει.</p>
+
+    
+    
+
+    <h2>Πού σταματά</h2>
+    <p>Η πρόβλεψη είναι αριθμητική πάνω στις καταχωρίσεις που έχετε κάνει: προεκτείνει ό,τι έχουν κάνει οι δικοί σας αριθμοί και τίποτα παραπάνω. Δεν είναι πρόβλεψη του τι θα κάνει ο οργανισμός σας, δεν λαμβάνει υπόψη μια αλλαγή δόσης, μια ασθένεια ή διακοπές, και δεν είναι στόχος που σας έχει ορίσει κάποιος. Το Dozify δεν προτείνει βάρος, ρυθμό απώλειας ή δίαιτα.</p>
+
+    
+    
+
+    <h2>Ιδιωτικό από προεπιλογή</h2>
+    <p>Τα δεδομένα υγείας σας μένουν στη συσκευή σας και δεν ανεβαίνουν ποτέ πουθενά· η μόνη εξαίρεση είναι μια φωτογραφία γεύματος που επιλέγετε να αναλύσετε με τις θερμίδες AI, η οποία αποστέλλεται μόνο αφού συμφωνήσετε και δεν αποθηκεύεται από την εφαρμογή. Δεν υπάρχει λογαριασμός ούτε συγχρονισμός στο cloud. Τα στατιστικά χρήσης δεν περιέχουν ποτέ όνομα φαρμάκου ή σύμπτωμα· λεπτομέρειες στην <a href="/el/privacy">πολιτική απορρήτου</a>.</p>
+
+    
+    
+
+    <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-el&mt=8" class="btn btn-primary">Λήψη από το App Store</a></p>
+
+
+    <h2>Ερωτήσεις</h2>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Διαβάζει το βάρος μου από το Apple Health;</h3>
+        
+        <p>Στο iPhone, ναι. Αν η ζυγαριά σας ή άλλη εφαρμογή γράφει το βάρος στην Υγεία, το Dozify το διαβάζει και δεν πληκτρολογείτε τίποτα. Μπορείτε επίσης να το καταχωρίσετε με το χέρι.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Κιλά ή λίβρες;</h3>
+        
+        <p>Οποιοδήποτε. Η μονάδα είναι ρύθμιση, και η αλλαγή της μετατρέπει όσα υπάρχουν ήδη αντί να ερμηνεύει ξανά τους αριθμούς.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Μου λέει η πρόβλεψη πότε θα φτάσω τον στόχο μου;</h3>
+        
+        <p>Σας λέει πότε θα τον φτάνατε αν η τάση στις δικές σας καταχωρίσεις συνεχιζόταν αμετάβλητη. Ο οργανισμός δεν λειτουργεί έτσι, και η εφαρμογή το λέει στην οθόνη αντί να παρουσιάζει την ημερομηνία ως πλάνο.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Μπορώ να καταγράφω και μετρήσεις;</h3>
+        
+        <p>Ναι, μέση, γοφούς και τα υπόλοιπα, στο ίδιο χρονολόγιο με το βάρος, για τους μήνες όπου η ζυγαριά κινείται λιγότερο από τη μεζούρα.</p>
+        
+      </div>
+      <div class="faq-item">
+        <h3>Φεύγει το βάρος μου από το κινητό;</h3>
+        
+        <p>Όχι. Αποθηκεύεται στη συσκευή όπως και τα υπόλοιπα δεδομένα σας. Η ανάγνωση από το Apple Health γίνεται στο κινητό· τίποτα δεν ανεβαίνει.</p>
+        
+      </div>
+    </div>
+
+    <h2>Διαβάστε επίσης</h2>
+    <p>Οδηγοί, με κατονομασμένες πηγές: <a href="/el/articles/what-is-glp1">τι είναι στην πραγματικότητα το GLP-1</a>, <a href="/el/articles/glp1-side-effects">διαχείριση των συχνών παρενεργειών</a>, <a href="/el/articles/how-to-inject-glp1">πώς να κάνετε ένεση με πένα, βήμα προς βήμα</a>, <a href="/el/articles/reading-a-weight-trend">πώς να διαβάζετε μια τάση όταν η ζυγαριά έχει κολλήσει</a> και <a href="/el/articles/measurements-vs-scale">όταν η μεζούρα κινείται και η ζυγαριά όχι</a>.</p>
+    <p>Επίσης στο Dozify: <a href="/el/glp1-appointment-report">η αναφορά για τον γιατρό</a> και <a href="/el/glp1-shot-tracker">η καταγραφή ενέσεων</a>.</p>
+    <p>Νέο στο Dozify: φωτογραφίστε ένα γεύμα και η εφαρμογή ετοιμάζει ένα προσχέδιο με θερμίδες και πρωτεΐνη ανά τρόφιμο, που μπορείτε να διορθώσετε — <a href="/el/ai-calorie-tracker">καταμέτρηση θερμίδων με AI</a> (Premium) — και τα καθημερινά δισκία GLP-1 έχουν πλέον τη δική τους <a href="/el/glp1-pill-tracker">καταγραφή χαπιών</a>.</p>
+
+    
+    
+    
+    
+
+    <p class="meta">Το Dozify είναι εργαλείο καταγραφής, όχι ιατροτεχνολογικό προϊόν. Δεν προτείνει δόσεις και δεν παρέχει ιατρικές συμβουλές. Τα Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® και Rybelsus® είναι εμπορικά σήματα των αντίστοιχων κατόχων τους· το Dozify δεν συνδέεται με αυτές τις εταιρείες.</p>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/el" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewbox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="#0D9488" />
+              <path fill="#fff" fill-rule="evenodd" d="M8.5 6.5 H16 A9.5 9.5 0 0 1 16 25.5 H8.5 Z M13.5 11.5 H16 A4.5 4.5 0 0 1 16 20.5 H13.5 Z" /><path fill="#fff" d="M16.2 11.8 C 17.6 14, 18.6 15.4, 18.6 17.2 A 2.4 2.4 0 1 1 13.8 17.2 C 13.8 15.4, 14.8 14, 16.2 11.8 Z" />
+            </svg>
+          </span>
+          <span class="brand-name">Dozify</span>
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>Νομικά</h3>
+          
+          <a href="/el/privacy">Πολιτική απορρήτου</a>
+          
+          <a href="/en/kvkk">KVKK</a>
+          <a href="/el/terms">Όροι χρήσης</a>
+          
+          <a href="/el/editorial-policy">Πολιτική σύνταξης</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Καταγραφή</h3>
+          
+          <a href="/el/glp1-shot-tracker">Καταγραφή ενέσεων GLP-1</a>
+          
+          <a href="/el/injection-site-tracker">Καταγραφή σημείων ένεσης</a>
+          
+          <a href="/el/glp1-weight-tracker">Καταγραφή βάρους με GLP-1</a>
+          
+          <a href="/el/glp1-side-effect-journal">Ημερολόγιο παρενεργειών</a>
+          
+          <a href="/el/glp1-vial-tracker">Καταγραφή φιαλιδίων</a>
+          
+          <a href="/el/private-glp1-tracker">Ιδιωτική καταγραφή GLP-1</a>
+          
+          <a href="/el/glp1-appointment-report">Αναφορά για τον γιατρό</a>
+          
+          <a href="/el/switch-glp1-tracker-app">Μεταφορά από άλλη εφαρμογή</a>
+          
+        </div>
+        <div class="footer-col">
+          <h3>Βοήθεια</h3>
+          
+          <a href="mailto:support@dozify.app">support@dozify.app</a>
+          <a href="mailto:privacy@dozify.app">privacy@dozify.app</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 UCE</p>
+    </div>
+  <!--langs--><div class="container lang-list" translate="no"><a href="/en/glp1-weight-tracker" hreflang="en" lang="en">English</a> · <a href="/tr/glp1-kilo-takibi" hreflang="tr" lang="tr">Türkçe</a> · <a href="/ar/glp1-weight-tracker" hreflang="ar" lang="ar">العربية</a> · <a href="/cs/glp1-weight-tracker" hreflang="cs" lang="cs">Čeština</a> · <a href="/da/glp1-weight-tracker" hreflang="da" lang="da">Dansk</a> · <a href="/de/glp1-weight-tracker" hreflang="de" lang="de">Deutsch</a> · <a href="/el/glp1-weight-tracker" hreflang="el" lang="el" aria-current="page">Ελληνικά</a> · <a href="/es/glp1-weight-tracker" hreflang="es" lang="es">Español</a> · <a href="/fi/glp1-weight-tracker" hreflang="fi" lang="fi">Suomi</a> · <a href="/fr/glp1-weight-tracker" hreflang="fr" lang="fr">Français</a> · <a href="/hi/glp1-weight-tracker" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/it/glp1-weight-tracker" hreflang="it" lang="it">Italiano</a> · <a href="/ja/glp1-weight-tracker" hreflang="ja" lang="ja">日本語</a> · <a href="/ko/glp1-weight-tracker" hreflang="ko" lang="ko">한국어</a> · <a href="/nb/glp1-weight-tracker" hreflang="nb" lang="nb">Norsk</a> · <a href="/nl/glp1-weight-tracker" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/glp1-weight-tracker" hreflang="pl" lang="pl">Polski</a> · <a href="/pt/glp1-weight-tracker" hreflang="pt" lang="pt">Português</a> · <a href="/ru/glp1-weight-tracker" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/glp1-weight-tracker" hreflang="sv" lang="sv">Svenska</a> · <a href="/uk/glp1-weight-tracker" hreflang="uk" lang="uk">Українська</a> · <a href="/zh/glp1-weight-tracker" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></div><!--/langs--></footer>
+</body>
+</html>

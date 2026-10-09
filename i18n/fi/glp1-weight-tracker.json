@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "title": "GLP-1-painonseuranta – paino ja annos yhdessä",
+  "description": "Painon kehitys sen tuottaneiden annosten vieressä samalla aikajanalla. Kirjaa paino sekunneissa ja näe kuukausien muoto yksittäisten lukujen sijaan."
+ },
+ "t": {
+  "Weight trend": "Painon kehitys",
+  "Your weight and your doses on one line": "Painosi ja annoksesi samalla viivalla",
+  "Weight in one app and injections in another is two halves of the same picture. Dozify keeps them on the same timeline.": "Paino yhdessä sovelluksessa ja pistokset toisessa ovat saman kuvan kaksi puoliskoa. Dozify pitää ne samalla aikajanalla.",
+  "The question is never just \"what do I weigh\". It is what the last few weeks have looked like, and what was happening in them, which dose, which week, what else you logged.": "Kysymys ei ole koskaan pelkästään ”paljonko painan”. Se on se, miltä viime viikot ovat näyttäneet ja mitä niissä tapahtui: mikä annos, mikä viikko, mitä muuta kirjasit.",
+  "A trend, not a number": "Trendi, ei luku",
+  "Your weight over three months, six, or a year, with the rate it has been moving and how far it is from your goal.": "Painosi kolmen kuukauden, kuuden kuukauden tai vuoden ajalta, sen muutosnopeus ja etäisyys tavoitteestasi.",
+  "Apple Health does the typing": "Apple Health hoitaa näppäilyn",
+  "On iPhone, weight is read from Health automatically. If your scale writes there, you do not enter anything by hand.": "iPhonessa paino luetaan automaattisesti Apple Health -sovelluksesta. Jos vaakasi kirjoittaa sinne, sinun ei tarvitse syöttää mitään käsin.",
+  "No projection dressed up as a promise": "Ei lupaukseksi puettua ennustetta",
+  "The app shows what your own entries have done. It does not tell you what your body will do next.": "Sovellus näyttää, mitä omat merkintäsi ovat tehneet. Se ei kerro, mitä kehosi tekee seuraavaksi.",
+  "People who want the shape of a few months rather than this morning's number, and people whose weight is already going into Apple Health from a scale. It is also for anyone who has been asked at an appointment how the weight has moved since the last dose change and has had to guess.": "Ihmisille, jotka haluavat nähdä muutaman kuukauden muodon tämän aamun lukeman sijaan, ja niille, joiden paino menee jo vaa’asta Apple Health -sovellukseen. Se on myös kaikille, joilta on vastaanotolla kysytty, miten paino on muuttunut edellisen annosmuutoksen jälkeen, ja jotka ovat joutuneet arvaamaan.",
+  "The projection is arithmetic on the entries you have made: it extends what your own numbers have done and nothing more. It is not a prediction of what your body will do, it does not account for a dose change, an illness or a holiday, and it is not a target anyone has set for you. Dozify does not recommend a weight, a rate of loss or a diet.": "Ennuste on laskutoimitus tekemistäsi merkinnöistä: se jatkaa sitä, mitä omat lukusi ovat tehneet, eikä mitään muuta. Se ei ole ennuste siitä, mitä kehosi tekee, se ei ota huomioon annosmuutosta, sairautta tai lomaa, eikä se ole kenenkään sinulle asettama tavoite. Dozify ei suosittele painoa, laihtumisnopeutta tai ruokavaliota.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glp1-weight-tracker-en&mt=8\" class=\"btn btn-primary\">Lataa App Storesta</a>",
+  "Does it read my weight from Apple Health?": "Lukeeko se painoni Apple Health -sovelluksesta?",
+  "On iPhone, yes. If your scale or another app writes weight to Health, Dozify reads it and you do not type anything. You can also enter it by hand.": "iPhonessa kyllä. Jos vaakasi tai jokin muu sovellus kirjoittaa painon Apple Health -sovellukseen, Dozify lukee sen, eikä sinun tarvitse näppäillä mitään. Voit myös syöttää sen käsin.",
+  "Kilograms or pounds?": "Kilot vai paunat?",
+  "Either. The unit is a setting and changing it converts what is already there rather than reinterpreting the numbers.": "Kumpi tahansa. Yksikkö on asetus, ja sen vaihtaminen muuntaa jo olemassa olevat arvot eikä tulkitse lukuja uudelleen.",
+  "Does the projection tell me when I will reach my goal?": "Kertooko ennuste, milloin saavutan tavoitteeni?",
+  "It tells you when you would reach it if the trend in your own entries continued unchanged. Bodies do not work like that, and the app says so on the screen rather than presenting the date as a plan.": "Se kertoo, milloin saavuttaisit sen, jos omien merkintöjesi trendi jatkuisi muuttumattomana. Kehot eivät toimi niin, ja sovellus sanoo sen näytöllä sen sijaan, että esittäisi päivämäärän suunnitelmana.",
+  "Can I log measurements as well?": "Voinko kirjata myös mittoja?",
+  "Yes, waist, hip and the rest, on the same timeline as weight, for the months where the scale moves less than the tape does.": "Kyllä, vyötärön, lantion ja muut samalle aikajanalle painon kanssa niitä kuukausia varten, joina vaaka liikkuu vähemmän kuin mittanauha.",
+  "Does my weight leave the phone?": "Lähteekö painoni puhelimesta?",
+  "No. It is stored on the device like the rest of your records. Reading from Apple Health happens on the phone; nothing is uploaded.": "Ei. Se tallennetaan laitteelle kuten muutkin merkintäsi. Lukeminen Apple Health -sovelluksesta tapahtuu puhelimessa; mitään ei ladata palvelimelle.",
+  "Guides, with their sources named: <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/reading-a-weight-trend\">how to read a trend when the scale has stalled</a> and <a href=\"/en/articles/measurements-vs-scale\">when the tape moves and the scale does not</a>.": "Oppaat, joiden lähteet on nimetty: <a href=\"/en/articles/what-is-glp1\">mitä GLP-1 oikeastaan on</a>, <a href=\"/en/articles/glp1-side-effects\">yleisten sivuvaikutusten hallinta</a>, <a href=\"/en/articles/how-to-inject-glp1\">miten kynällä pistetään vaihe vaiheelta</a>, <a href=\"/en/articles/reading-a-weight-trend\">miten lukea trendiä, kun vaaka on jumissa</a> ja <a href=\"/en/articles/measurements-vs-scale\">kun mittanauha liikkuu mutta vaaka ei</a>.",
+  "Elsewhere in Dozify: <a href=\"/en/glp1-appointment-report\">the doctor report</a> and <a href=\"/en/glp1-shot-tracker\">the shot tracker</a>.": "Muualla Dozifyssa: <a href=\"/en/glp1-appointment-report\">lääkäriraportti</a> ja <a href=\"/en/glp1-shot-tracker\">pistosseuranta</a>."
+ }
+}

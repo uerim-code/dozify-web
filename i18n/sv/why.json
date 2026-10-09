@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "title": "Varför Dozify – vad appen gör och vad den vägrar göra",
+  "description": "Byggd för dig som redan har fått GLP-1 utskrivet. Den registrerar vad du och din läkare bestämmer; den föreslår inga doser och tolkar inga resultat."
+ },
+ "t": {
+  "← Back to home": "← Tillbaka till startsidan",
+  "Five things this app is built around. Each one is a claim you can check against how it behaves.": "Fem saker som appen är byggd kring. Var och en är ett påstående som du kan kontrollera mot hur den beter sig.",
+  "Your records stay on your phone": "Dina uppgifter stannar i din telefon",
+  "Doses, weights, side effects and photos are stored in a database on your device. Usage analytics never carries a medication name or a symptom, and progress photos are never uploaded anywhere. The one photo that does leave the phone is a meal photo you choose to analyse with <a href=\"/en/ai-calorie-tracker\">AI calories</a>: it goes, after you agree, through our server to Google Gemini for the estimate and is not stored by the app. The <a href=\"/en/privacy\">privacy policy</a> lists exactly what leaves the device and why.": "Doser, vikter, biverkningar och foton sparas i en databas på din enhet. Användningsstatistiken innehåller aldrig något läkemedelsnamn eller symtom, och framstegsbilder laddas aldrig upp någonstans. Det enda foto som lämnar telefonen är ett måltidsfoto som du väljer att analysera med <a href=\"/en/ai-calorie-tracker\">AI-kalorier</a>: det skickas, efter att du har godkänt det, via vår server till Google Gemini för uppskattningen och sparas inte av appen. <a href=\"/en/privacy\">Integritetspolicyn</a> listar exakt vad som lämnar enheten och varför.",
+  "Only what you track": "Bara det du loggar",
+  "The home screen is built from the things you said you care about: cards can be reordered, hidden, or brought back whenever you like. An app that shows everyone everything is an app nobody reads. If food matters to you, the <a href=\"/en/ai-calorie-tracker\">AI meal card</a> turns a photo into an editable calorie and protein draft; if you take a tablet, the <a href=\"/en/glp1-pill-tracker\">pill tracker</a> follows a daily rhythm.": "Startskärmen byggs av det du har sagt att du bryr dig om: korten kan flyttas, döljas eller tas tillbaka när du vill. En app som visar allt för alla är en app som ingen läser. Om maten är viktig för dig gör <a href=\"/en/ai-calorie-tracker\">AI-måltidskortet</a> om ett foto till ett redigerbart utkast med kalorier och protein; om du tar en tablett följer <a href=\"/en/glp1-pill-tracker\">tablettloggen</a> en daglig rytm.",
+  "Sources you can follow": "Källor du kan följa",
+  "Every article in the education section names where it came from (MedlinePlus (NIH), FDA, NIDDK, TİTCK) and links straight to it. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "Varje artikel i kunskapsavsnittet anger var den kommer ifrån (MedlinePlus (NIH), FDA, NIDDK, TİTCK) och länkar direkt dit. Dozify är ett loggverktyg: den rekommenderar inga doser och tolkar inga resultat.",
+  "Feedback goes to a person": "Feedback går till en människa",
+  "Suggestions arrive as mail read by the person who writes the app, from Settings → Suggest a feature or at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. There is no ticket queue in between.": "Förslag kommer fram som mejl som läses av personen som skriver appen, via Inställningar → Föreslå en funktion eller på <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. Det finns ingen ärendekö emellan.",
+  "Still being worked on": "Fortfarande under arbete",
+  "Fixes and additions ship as they are ready, and each release says what changed. Most of what has been added since launch started as a message from someone using the app.": "Rättningar och tillägg släpps när de är klara, och varje version säger vad som har ändrats. Det mesta som har lagts till sedan lanseringen började som ett meddelande från någon som använder appen.",
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Hämta i App Store</a>"
+ }
+}
