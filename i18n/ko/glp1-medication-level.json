@@ -27,7 +27,7 @@
   "Why is there no curve for my tablet?": "내 정제에는 왜 곡선이 없나요?",
   "The app has no profile for oral medicines, so for a medication taken only by mouth it shows no curve rather than a number it cannot stand behind. Your tablet doses are still logged and reminded as usual.": "앱에 경구약 프로필이 없어서, 먹는 약만 사용하는 경우 책임질 수 없는 숫자 대신 곡선을 보여 주지 않아요. 정제 복용도 평소처럼 기록되고 알림이 와요.",
   "Is the medication-level chart free?": "약물 농도 그래프는 무료인가요?",
-  "It is part of Premium, alongside the <a href=\"/en/ai-calorie-tracker\">AI meal photo</a> (after its 3 free analyses) and the doctor report. Logging doses and getting reminders are free permanently.": "<a href=\"/en/ai-calorie-tracker\">AI 식사 사진</a>(무료 분석 3회 이후), 진료용 리포트와 함께 Premium에 포함돼요. 투여 기록과 알림은 영구 무료예요.",
+  "It is part of Premium, alongside the <a href=\"/en/ai-calorie-tracker\">AI meal photo</a> (after its first free analysis) and the doctor report. Logging doses and getting reminders are free permanently.": "<a href=\"/en/ai-calorie-tracker\">AI 식사 사진</a>(첫 무료 분석 이후), 진료용 리포트와 함께 Premium에 포함돼요. 투여 기록과 알림은 영구 무료예요.",
   "Can I use the curve to decide when to take my next dose?": "곡선을 보고 다음 투여 시점을 정해도 되나요?",
   "No. Your schedule and dose are your prescriber's to set. The curve is there to help you understand and describe your weeks, not to time or change a dose.": "아니요. 일정과 용량은 처방의가 정해요. 곡선은 나의 한 주 한 주를 이해하고 설명하는 데 도움을 주려는 것이지, 투여 시점을 정하거나 용량을 바꾸려는 게 아니에요.",
   "What if I forgot to log a dose?": "투여를 기록하는 걸 잊었다면요?",

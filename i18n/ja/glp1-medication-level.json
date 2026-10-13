@@ -27,7 +27,7 @@
   "Why is there no curve for my tablet?": "錠剤のカーブがないのはなぜですか？",
   "The app has no profile for oral medicines, so for a medication taken only by mouth it shows no curve rather than a number it cannot stand behind. Your tablet doses are still logged and reminded as usual.": "アプリには飲み薬のプロファイルがないため、飲み薬だけを使っている場合は、責任を持てない数字を出すのではなく、カーブを表示しません。錠剤の服用は、これまでどおり記録とリマインダーの対象です。",
   "Is the medication-level chart free?": "濃度グラフは無料ですか？",
-  "It is part of Premium, alongside the <a href=\"/en/ai-calorie-tracker\">AI meal photo</a> (after its 3 free analyses) and the doctor report. Logging doses and getting reminders are free permanently.": "Premiumの機能で、<a href=\"/en/ai-calorie-tracker\">AI食事写真</a>（3回の無料分析のあと）や医師向けレポートと同じです。用量の記録とリマインダーはずっと無料です。",
+  "It is part of Premium, alongside the <a href=\"/en/ai-calorie-tracker\">AI meal photo</a> (after its first free analysis) and the doctor report. Logging doses and getting reminders are free permanently.": "Premiumの機能で、<a href=\"/en/ai-calorie-tracker\">AI食事写真</a>（最初の無料分析のあと）や医師向けレポートと同じです。用量の記録とリマインダーはずっと無料です。",
   "Can I use the curve to decide when to take my next dose?": "カーブを見て次の投与のタイミングを決めてもいいですか？",
   "No. Your schedule and dose are your prescriber's to set. The curve is there to help you understand and describe your weeks, not to time or change a dose.": "いいえ。スケジュールと用量は処方医が決めるものです。カーブは、あなたが自分の1週間を理解し、説明するためのもので、投与のタイミングや用量を決めたり変えたりするためのものではありません。",
   "What if I forgot to log a dose?": "用量を記録し忘れたら？",

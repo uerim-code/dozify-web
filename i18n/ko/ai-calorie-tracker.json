@@ -27,7 +27,7 @@
   "How accurate is the calorie count from a photo?": "사진으로 계산한 칼로리는 얼마나 정확한가요?",
   "It is an estimate, and the app labels it as one. Portion size, cooking fat and hidden ingredients are hard to read from a picture. That is why the result is a draft you edit before saving rather than a number written straight into your log.": "추정치이고, 앱에서도 추정치라고 표시해요. 양, 조리용 기름, 숨은 재료는 사진으로 읽기 어려워요. 그래서 결과는 기록에 바로 들어가는 숫자가 아니라 저장 전에 수정하는 초안이에요.",
   "Is the AI meal photo free?": "AI 식사 사진은 무료인가요?",
-  "Your first 3 photo analyses are free. After that it is part of Premium, together with the estimated <a href=\"/en/glp1-medication-level\">medication-level curve</a> and the doctor report. Dose logging and reminders are free permanently.": "처음 3회의 사진 분석은 무료예요. 그 후에는 추정 <a href=\"/en/glp1-medication-level\">약물 농도 곡선</a>, 진료용 리포트와 함께 Premium에 포함돼요. 투여 기록과 알림은 영구 무료예요.",
+  "Your first photo analysis is free. After that it is part of Premium — start the 14-day free trial — together with the estimated <a href=\"/en/glp1-medication-level\">medication-level curve</a> and the doctor report. Dose logging and reminders are free permanently.": "첫 사진 분석은 무료예요. 그 후에는 추정 <a href=\"/en/glp1-medication-level\">약물 농도 곡선</a>, 진료용 리포트와 함께 Premium에 포함돼요. 14일 무료 체험으로 시작해 보세요. 투여 기록과 알림은 영구 무료예요.",
   "Does Dozify keep my food photos?": "Dozify가 음식 사진을 보관하나요?",
   "No. The photo is sent through Dozify's server to Google Gemini for the analysis and is not stored by the app. You are asked for your consent before the first use.": "아니요. 사진은 분석을 위해 Dozify 서버를 거쳐 Google Gemini로 전송되며 앱에 저장되지 않아요. 처음 사용하기 전에 동의를 구해요.",
   "Which language does it answer in?": "어떤 언어로 답하나요?",
