@@ -27,7 +27,7 @@
   "Why is there no curve for my tablet?": "为什么我的片剂没有曲线？",
   "The app has no profile for oral medicines, so for a medication taken only by mouth it shows no curve rather than a number it cannot stand behind. Your tablet doses are still logged and reminded as usual.": "应用中没有口服药物的特征曲线，所以对于只口服的药物，它宁可不显示曲线，也不显示一个它无法担保的数字。你的片剂剂量照常记录和提醒。",
   "Is the medication-level chart free?": "药物水平图免费吗？",
-  "It is part of Premium, alongside the <a href=\"/en/ai-calorie-tracker\">AI meal photo</a> and the doctor report. Logging doses and getting reminders are free permanently.": "它属于 Premium，同样属于 Premium 的还有<a href=\"/en/ai-calorie-tracker\">AI 餐食拍照</a>和就诊报告。记录剂量和接收提醒永久免费。",
+  "It is part of Premium, alongside the <a href=\"/en/ai-calorie-tracker\">AI meal photo</a> (after its 3 free analyses) and the doctor report. Logging doses and getting reminders are free permanently.": "它属于 Premium，同样属于 Premium 的还有<a href=\"/en/ai-calorie-tracker\">AI 餐食拍照</a>（用完 3 次免费分析后）和就诊报告。记录剂量和接收提醒永久免费。",
   "Can I use the curve to decide when to take my next dose?": "我可以用这条曲线来决定何时打下一剂吗？",
   "No. Your schedule and dose are your prescriber's to set. The curve is there to help you understand and describe your weeks, not to time or change a dose.": "不可以。你的时间表和剂量由你的处方医生决定。曲线是用来帮助你理解和描述你的每一周，而不是用来安排或更改剂量。",
   "What if I forgot to log a dose?": "如果我忘了记录某一剂怎么办？",

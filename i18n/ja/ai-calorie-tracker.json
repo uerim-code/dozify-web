@@ -27,7 +27,7 @@
   "How accurate is the calorie count from a photo?": "写真からのカロリー計算はどのくらい正確ですか？",
   "It is an estimate, and the app labels it as one. Portion size, cooking fat and hidden ingredients are hard to read from a picture. That is why the result is a draft you edit before saving rather than a number written straight into your log.": "推定値であり、アプリでもそのように表示しています。量、調理に使った油、隠れた食材は写真からは読み取りにくいものです。そのため結果は、記録に直接書き込まれる数字ではなく、保存前に編集する下書きになっています。",
   "Is the AI meal photo free?": "AI食事写真は無料ですか？",
-  "No, it is part of Premium, together with the estimated <a href=\"/en/glp1-medication-level\">medication-level curve</a> and the doctor report. Dose logging and reminders are free permanently.": "いいえ、Premiumに含まれます。推定の<a href=\"/en/glp1-medication-level\">濃度カーブ</a>や医師向けレポートも同様です。用量の記録とリマインダーはずっと無料です。",
+  "Your first 3 photo analyses are free. After that it is part of Premium, together with the estimated <a href=\"/en/glp1-medication-level\">medication-level curve</a> and the doctor report. Dose logging and reminders are free permanently.": "最初の3回の写真分析は無料です。その後はPremiumに含まれます。推定の<a href=\"/en/glp1-medication-level\">濃度カーブ</a>や医師向けレポートも同様です。用量の記録とリマインダーはずっと無料です。",
   "Does Dozify keep my food photos?": "Dozifyは食事の写真を保存しますか？",
   "No. The photo is sent through Dozify's server to Google Gemini for the analysis and is not stored by the app. You are asked for your consent before the first use.": "いいえ。写真は分析のためにDozifyのサーバーを経由してGoogle Geminiに送られ、アプリには保存されません。初めて使う前に同意を求めます。",
   "Which language does it answer in?": "どの言語で答えてくれますか？",

@@ -27,7 +27,7 @@
   "How accurate is the calorie count from a photo?": "根据照片计算的卡路里有多准确？",
   "It is an estimate, and the app labels it as one. Portion size, cooking fat and hidden ingredients are hard to read from a picture. That is why the result is a draft you edit before saving rather than a number written straight into your log.": "这是估算值，应用也明确标注为估算。份量、烹饪用油和隐藏的配料很难从图片中看出来。正因如此，结果是一份你在保存前修改的草稿，而不是直接写进记录的数字。",
   "Is the AI meal photo free?": "AI 餐食拍照免费吗？",
-  "No, it is part of Premium, together with the estimated <a href=\"/en/glp1-medication-level\">medication-level curve</a> and the doctor report. Dose logging and reminders are free permanently.": "不免费，它属于 Premium，同样属于 Premium 的还有估算的<a href=\"/en/glp1-medication-level\">药物水平曲线</a>和就诊报告。剂量记录和提醒永久免费。",
+  "Your first 3 photo analyses are free. After that it is part of Premium, together with the estimated <a href=\"/en/glp1-medication-level\">medication-level curve</a> and the doctor report. Dose logging and reminders are free permanently.": "前 3 次照片分析免费。之后它属于 Premium，同样属于 Premium 的还有估算的<a href=\"/en/glp1-medication-level\">药物水平曲线</a>和就诊报告。剂量记录和提醒永久免费。",
   "Does Dozify keep my food photos?": "Dozify 会保存我的食物照片吗？",
   "No. The photo is sent through Dozify's server to Google Gemini for the analysis and is not stored by the app. You are asked for your consent before the first use.": "不会。照片会经由 Dozify 的服务器发送给 Google Gemini 进行分析，应用不会保存。首次使用前会征求你的同意。",
   "Which language does it answer in?": "它用什么语言回答？",

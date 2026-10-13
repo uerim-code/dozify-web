@@ -28,7 +28,7 @@
   "How accurate is the calorie count from a photo?",
   "It is an estimate, and the app labels it as one. Portion size, cooking fat and hidden ingredients are hard to read from a picture. That is why the result is a draft you edit before saving rather than a number written straight into your log.",
   "Is the AI meal photo free?",
-  "No, it is part of Premium, together with the estimated <a href=\"/en/glp1-medication-level\">medication-level curve</a> and the doctor report. Dose logging and reminders are free permanently.",
+  "Your first 3 photo analyses are free. After that it is part of Premium, together with the estimated <a href=\"/en/glp1-medication-level\">medication-level curve</a> and the doctor report. Dose logging and reminders are free permanently.",
   "Does Dozify keep my food photos?",
   "No. The photo is sent through Dozify's server to Google Gemini for the analysis and is not stored by the app. You are asked for your consent before the first use.",
   "Which language does it answer in?",
