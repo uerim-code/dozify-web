@@ -19,7 +19,10 @@ on:
 
 jobs:
   gate:
-    runs-on: ubuntu-latest
+    # On the VPS runner (unv-vps-runner-dozify-web), never GitHub-hosted
+    # (Ümit, 2026-10-19). The runner has Python 3.12; check.sh needs only the
+    # standard library, so there is no setup-python step.
+    runs-on: [self-hosted, vps]
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,9 +32,6 @@ jobs:
           # tarihine duser, commit'lenmis sitemap'le tutmaz ve kapi 72 URL'de
           # fark gorup duser -- icerikte hicbir sey degismemis olsa bile.
           fetch-depth: 0
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
       # Local checks only. The --live pass fetches dozify.app, which on a
       # pre-merge run still serves the old pages — it would fail on exactly the
       # pages this commit is adding. Run it after a deploy instead.
