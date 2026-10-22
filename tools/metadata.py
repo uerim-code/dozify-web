@@ -340,10 +340,10 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Yemek gürültüsü (food noise) nedir, araştırmacılar nasıl tanımlıyor, hafta içinde neden değişebilir ve GLP-1 dozlarınızın yanında nasıl kaydedilir."),
     },
     "articles/protein-on-glp1": {
-        "en": ("Protein on a GLP-1: How Much, and How to Actually Reach It",
-               "Where the 1.2–1.6 g/kg protein figure for GLP-1 users comes from, which body weight to use, and food-first ways to reach it when appetite is small."),
-        "tr": ("GLP-1'de Protein: Ne Kadar Gerekir, Nasıl Yetişir",
-               "GLP-1 kullananlar için 1,2–1,6 g/kg protein rakamı nereden geliyor, hangi kiloyla çarpılır ve iştah azken hedefe yiyecekle nasıl ulaşılır."),
+        "en": ("How Much Protein on GLP-1? 1.2–1.6 g/kg Explained",
+               "How much protein do you need on a GLP-1? Guidance says 1.2–1.6 g per kg a day. Which weight to use, and easy foods to reach it when appetite is low."),
+        "tr": ("GLP-1 Kullanırken Ne Kadar Protein? 1,2–1,6 g/kg Rehberi",
+               "GLP-1 kullanırken günde ne kadar protein gerekir? Rehberler kilo başına 1,2–1,6 g diyor. Hangi kiloyla çarpılır, iştah azken hangi yiyeceklerle yetişir?"),
     },
     "ai-calorie-tracker": {
         "en": ("AI Calorie Counter for GLP-1 — Calories and Protein",
