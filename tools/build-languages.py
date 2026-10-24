@@ -114,7 +114,7 @@ SWITCHER = {
 
 
 def url_for(lang: str, slug: str) -> str:
-    # No trailing slash: vercel.json sets trailingSlash false, so /en/ 308s to
+    # No trailing slash: site-config.json sets trailingSlash false, so /en/ 308s to
     # /en. A canonical pointing at a URL that redirects is a hop Google has to
     # follow to reach the page it was just told is canonical.
     return f"{SITE}/{lang}" if slug == "" else f"{SITE}/{lang}/{slug}"
@@ -399,7 +399,7 @@ def write_vercelignore() -> int:
 # --- CSP -------------------------------------------------------------------
 
 # Sayfalardaki satır içi gtag başlatma betiği için sha256. ELLE YAZILMAZ:
-# üretilen sayfalardan hesaplanır ve vercel.json'a buradan geçirilir. Aksi
+# üretilen sayfalardan hesaplanır ve site-config.json'a buradan geçirilir. Aksi
 # halde betiğin bir karakteri değiştiği anda hash tutmaz, tarayıcı betiği
 # SESSİZCE bloklar ve reklam dönüşüm ölçümü durur — sayfa normal görünürken.
 #
@@ -464,11 +464,11 @@ def inline_script_hash(pages: list[str]) -> str:
 
 
 def write_csp(pages: list[str]) -> str:
-    """vercel.json'daki CSP başlığını üretilen sayfalara göre günceller."""
+    """site-config.json'daki CSP başlığını üretilen sayfalara göre günceller."""
     import json
 
     csp = "; ".join(CSP_YONERGELERI).format(hash=inline_script_hash(pages))
-    yol = ROOT / "vercel.json"
+    yol = ROOT / "site-config.json"
     d = json.loads(yol.read_text(encoding="utf-8"))
     for kural in d["headers"]:
         basliklar = kural["headers"]
