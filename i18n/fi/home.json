@@ -178,6 +178,8 @@
   "Not on a medication yet? <span class=\"badge-new\">New</span>": "Etkö vielä käytä lääkettä? <span class=\"badge-new\">Uusi</span>",
   "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "Aloita painosta ja aterioista: kirjaa painosi, kuvaa ateria ja näe sen kalorit. Lisää lääke, kun aloitat sellaisen.",
   "Premium previews on your own data <span class=\"badge-new\">New</span>": "Premium-esikatselut omilla tiedoillasi <span class=\"badge-new\">Uusi</span>",
-  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Ennen päätöstä lukitut näkymät näyttävät omilla merkinnöilläsi, mitä Premium tuo, esimerkiksi arvioidun lääkeainetasosi. Piirretään laitteellasi; mitään ei lähetetä."
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Ennen päätöstä lukitut näkymät näyttävät omilla merkinnöilläsi, mitä Premium tuo, esimerkiksi arvioidun lääkeainetasosi. Piirretään laitteellasi; mitään ei lähetetä.",
+  "<b>Not on a medication yet?</b> <span>Start with your weight and meals. Add a medication whenever you begin one.</span>": "<b>Etkö vielä käytä lääkettä?</b> <span>Aloita painosta ja aterioista. Lisää lääke, kun aloitat sellaisen.</span>",
+  "The Dozify home screen without a medication: buttons to log your weight and photograph a meal": "Dozifyn aloitusnäkymä ilman lääkettä: painikkeet painon kirjaamiseen ja aterian kuvaamiseen"
  }
 }

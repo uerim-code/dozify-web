@@ -178,6 +178,8 @@
   "Not on a medication yet? <span class=\"badge-new\">New</span>": "Tar du inget läkemedel än? <span class=\"badge-new\">Nytt</span>",
   "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "Börja med din vikt och dina måltider: logga din vikt, fota en måltid och se dess kalorier. Lägg till ett läkemedel när du börjar med ett.",
   "Premium previews on your own data <span class=\"badge-new\">New</span>": "Premium-förhandsvisningar med dina egna data <span class=\"badge-new\">Nytt</span>",
-  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Innan du bestämmer dig visar låsta skärmar vad Premium tillför med dina egna registreringar, till exempel din uppskattade läkemedelsnivå. Ritas på din enhet; inget skickas."
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Innan du bestämmer dig visar låsta skärmar vad Premium tillför med dina egna registreringar, till exempel din uppskattade läkemedelsnivå. Ritas på din enhet; inget skickas.",
+  "<b>Not on a medication yet?</b> <span>Start with your weight and meals. Add a medication whenever you begin one.</span>": "<b>Tar du inget läkemedel än?</b> <span>Börja med din vikt och dina måltider. Lägg till ett läkemedel när du börjar med ett.</span>",
+  "The Dozify home screen without a medication: buttons to log your weight and photograph a meal": "Dozifys startskärm utan läkemedel: knappar för att logga vikten och fota en måltid"
  }
 }

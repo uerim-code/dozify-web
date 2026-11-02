@@ -178,6 +178,8 @@
   "Not on a medication yet? <span class=\"badge-new\">New</span>": "अभी कोई दवा नहीं ले रहे? <span class=\"badge-new\">नया</span>",
   "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "अपने वज़न और भोजन से शुरू करें: वज़न दर्ज करें, भोजन की फ़ोटो लें और उसकी कैलोरी देखें। दवा शुरू करने पर उसे जोड़ें।",
   "Premium previews on your own data <span class=\"badge-new\">New</span>": "आपके अपने डेटा पर Premium प्रीव्यू <span class=\"badge-new\">नया</span>",
-  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "फ़ैसला करने से पहले, लॉक स्क्रीन आपकी अपनी प्रविष्टियों से दिखाती हैं कि Premium क्या जोड़ता है, जैसे आपका अनुमानित दवा स्तर। आपके डिवाइस पर बनता है; कुछ भी नहीं भेजा जाता।"
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "फ़ैसला करने से पहले, लॉक स्क्रीन आपकी अपनी प्रविष्टियों से दिखाती हैं कि Premium क्या जोड़ता है, जैसे आपका अनुमानित दवा स्तर। आपके डिवाइस पर बनता है; कुछ भी नहीं भेजा जाता।",
+  "<b>Not on a medication yet?</b> <span>Start with your weight and meals. Add a medication whenever you begin one.</span>": "<b>अभी कोई दवा नहीं ले रहे?</b> <span>अपने वज़न और भोजन से शुरू करें। दवा शुरू करने पर उसे जोड़ें।</span>",
+  "The Dozify home screen without a medication: buttons to log your weight and photograph a meal": "बिना दवा के Dozify की होम स्क्रीन: वज़न दर्ज करने और भोजन की फ़ोटो लेने के बटन"
  }
 }

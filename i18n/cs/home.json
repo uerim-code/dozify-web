@@ -178,6 +178,8 @@
   "Not on a medication yet? <span class=\"badge-new\">New</span>": "Zatím neužíváte lék? <span class=\"badge-new\">Novinka</span>",
   "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "Začněte s váhou a jídly: zapište svou váhu, vyfoťte jídlo a podívejte se na jeho kalorie. Lék přidejte, až ho začnete užívat.",
   "Premium previews on your own data <span class=\"badge-new\">New</span>": "Náhledy Premium na vašich datech <span class=\"badge-new\">Novinka</span>",
-  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Než se rozhodnete, zamčené obrazovky na vašich záznamech ukážou, co Premium přidává, například odhadovanou hladinu léku. Kreslí se ve vašem zařízení; nic se neodesílá."
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Než se rozhodnete, zamčené obrazovky na vašich záznamech ukážou, co Premium přidává, například odhadovanou hladinu léku. Kreslí se ve vašem zařízení; nic se neodesílá.",
+  "<b>Not on a medication yet?</b> <span>Start with your weight and meals. Add a medication whenever you begin one.</span>": "<b>Zatím neužíváte lék?</b> <span>Začněte s váhou a jídly. Lék přidejte, až ho začnete užívat.</span>",
+  "The Dozify home screen without a medication: buttons to log your weight and photograph a meal": "Domovská obrazovka Dozify bez léku: tlačítka pro zápis váhy a vyfocení jídla"
  }
 }

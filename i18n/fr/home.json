@@ -178,6 +178,8 @@
   "Not on a medication yet? <span class=\"badge-new\">New</span>": "Pas encore de médicament ? <span class=\"badge-new\">Nouveau</span>",
   "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "Commencez par votre poids et vos repas : enregistrez votre poids, photographiez un repas et voyez ses calories. Ajoutez un médicament dès que vous en commencez un.",
   "Premium previews on your own data <span class=\"badge-new\">New</span>": "Aperçus Premium sur vos propres données <span class=\"badge-new\">Nouveau</span>",
-  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Avant de décider, les écrans verrouillés montrent ce que Premium ajoute à partir de vos propres saisies, comme le niveau estimé de votre médicament. Dessiné sur votre appareil ; rien n'est envoyé."
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Avant de décider, les écrans verrouillés montrent ce que Premium ajoute à partir de vos propres saisies, comme le niveau estimé de votre médicament. Dessiné sur votre appareil ; rien n'est envoyé.",
+  "<b>Not on a medication yet?</b> <span>Start with your weight and meals. Add a medication whenever you begin one.</span>": "<b>Pas encore de médicament ?</b> <span>Commencez par votre poids et vos repas. Ajoutez un médicament dès que vous en commencez un.</span>",
+  "The Dozify home screen without a medication: buttons to log your weight and photograph a meal": "Écran d’accueil de Dozify sans médicament : boutons pour enregistrer le poids et photographier un repas"
  }
 }

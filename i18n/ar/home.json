@@ -178,6 +178,8 @@
   "Not on a medication yet? <span class=\"badge-new\">New</span>": "لا تتناول دواءً بعد؟ <span class=\"badge-new\">جديد</span>",
   "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "ابدأ بوزنك ووجباتك: سجّل وزنك، وصوّر وجبة، واطّلع على سعراتها. أضف دواءً عندما تبدأ به.",
   "Premium previews on your own data <span class=\"badge-new\">New</span>": "معاينات Premium ببياناتك أنت <span class=\"badge-new\">جديد</span>",
-  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "قبل أن تقرّر، تعرض الشاشات المقفلة ما يضيفه Premium باستخدام إدخالاتك أنت، مثل مستوى الدواء التقديري. تُرسم على جهازك؛ ولا يُرسل أي شيء."
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "قبل أن تقرّر، تعرض الشاشات المقفلة ما يضيفه Premium باستخدام إدخالاتك أنت، مثل مستوى الدواء التقديري. تُرسم على جهازك؛ ولا يُرسل أي شيء.",
+  "<b>Not on a medication yet?</b> <span>Start with your weight and meals. Add a medication whenever you begin one.</span>": "<b>لا تتناول دواءً بعد؟</b> <span>ابدأ بوزنك ووجباتك. أضف دواءً عندما تبدأ به.</span>",
+  "The Dozify home screen without a medication: buttons to log your weight and photograph a meal": "الشاشة الرئيسية في Dozify بدون دواء: زر لتسجيل الوزن وزر لتصوير وجبة"
  }
 }

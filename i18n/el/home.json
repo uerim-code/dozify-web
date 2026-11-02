@@ -178,6 +178,8 @@
   "Not on a medication yet? <span class=\"badge-new\">New</span>": "Δεν παίρνετε ακόμη φάρμακο; <span class=\"badge-new\">Νέο</span>",
   "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "Ξεκινήστε με το βάρος και τα γεύματά σας: καταγράψτε το βάρος σας, φωτογραφίστε ένα γεύμα και δείτε τις θερμίδες του. Προσθέστε φάρμακο όταν ξεκινήσετε κάποιο.",
   "Premium previews on your own data <span class=\"badge-new\">New</span>": "Προεπισκοπήσεις Premium με τα δικά σας δεδομένα <span class=\"badge-new\">Νέο</span>",
-  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Πριν αποφασίσετε, οι κλειδωμένες οθόνες δείχνουν τι προσθέτει το Premium με τις δικές σας καταχωρίσεις, όπως το εκτιμώμενο επίπεδο φαρμάκου. Σχεδιάζεται στη συσκευή σας· δεν αποστέλλεται τίποτα."
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Πριν αποφασίσετε, οι κλειδωμένες οθόνες δείχνουν τι προσθέτει το Premium με τις δικές σας καταχωρίσεις, όπως το εκτιμώμενο επίπεδο φαρμάκου. Σχεδιάζεται στη συσκευή σας· δεν αποστέλλεται τίποτα.",
+  "<b>Not on a medication yet?</b> <span>Start with your weight and meals. Add a medication whenever you begin one.</span>": "<b>Δεν παίρνετε ακόμη φάρμακο;</b> <span>Ξεκινήστε με το βάρος και τα γεύματά σας. Προσθέστε φάρμακο όταν ξεκινήσετε κάποιο.</span>",
+  "The Dozify home screen without a medication: buttons to log your weight and photograph a meal": "Η αρχική οθόνη του Dozify χωρίς φάρμακο: κουμπιά για καταγραφή βάρους και φωτογράφιση γεύματος"
  }
 }
