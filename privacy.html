@@ -51,13 +51,13 @@
 
     <h1 data-lang="en">Privacy Policy</h1>
     <h1 data-lang="tr">Gizlilik Politikası</h1>
-    <p class="meta" data-lang="en">Last updated: October 3, 2026 · Effective: October 3, 2026</p>
-    <p class="meta" data-lang="tr">Son güncelleme: 3 Ekim 2026 · Yürürlük: 3 Ekim 2026</p>
+    <p class="meta" data-lang="en">Last updated: November 2, 2026 · Effective: November 2, 2026</p>
+    <p class="meta" data-lang="tr">Son güncelleme: 2 Kasım 2026 · Yürürlük: 2 Kasım 2026</p>
 
     <div data-lang="en">
       <h2>1. Introduction</h2>
       <p>Dozify ("we", "our") is a medication tracking application designed to help users manage GLP-1 medications such as Ozempic, Mounjaro, Wegovy, Saxenda, and similar treatments. This Privacy Policy explains how we handle information when you use the Dozify mobile application (the "App").</p>
-      <p><strong>Dozify is offline-first. The health data you enter is not collected, transmitted, or stored on our servers, and we cannot see it.</strong> All data you enter into the App stays on your device. The App does use a small number of third-party services for analytics, push notifications, and subscriptions; exactly what each one receives is listed in section 5.</p>
+      <p><strong>Dozify is offline-first. The health data you enter is not collected, transmitted, or stored on our servers, and we cannot see it.</strong> All data you enter into the App stays on your device. The only exception is a meal photo you choose to send for the optional AI analysis (section 5). The App also uses a few third-party services for anonymous analytics, ad-install measurement and subscriptions; section 5 lists exactly what each one receives.</p>
 
       <h2>2. Data We Do Not Collect</h2>
       <p>The App does <strong>not</strong> collect, transmit, or store the following on any external server:</p>
@@ -67,7 +67,7 @@
         <li>Location data</li>
         <li>Advertising identifiers, unless you explicitly allow tracking on Apple's App Tracking Transparency prompt: see the ad measurement paragraph in section 5</li>
       </ul>
-      <p>The App does receive the anonymous identifiers described in section 5 (an analytics app-instance ID and a push token). They exist only so anonymous usage counts and your notifications work, they are not linked to your name or email, and they are not used to track you across other apps or websites.</p>
+      <p>The App does receive the anonymous identifiers described in section 5 (an analytics app-instance ID and an anonymous subscription user ID). They exist only so anonymous usage counts and your subscription work, they are not linked to your name or email, and they are not used to track you across other apps or websites.</p>
       <p><strong>Your health data is never used for advertising.</strong> Nothing you log (medications, doses, injections, weight, blood glucose, side effects, notes, photos) is ever used for ad targeting or shared with an advertising network, whatever you answer on the tracking prompt.</p>
 
       <h2>3. Data Stored Locally on Your Device</h2>
@@ -81,11 +81,12 @@
         <li>App settings (language, theme, units)</li>
       </ul>
       <p>This data never leaves your device unless you explicitly export it (e.g., generating a PDF report and sharing it via email or another app of your choice). Deleting the App removes all data permanently.</p>
+      <p>Previews of Premium features, for example your estimated medication level on a locked screen, are drawn on your device from this data; nothing is sent for them. If you track weight and meals without a medication, that choice is stored on your device too.</p>
 
       <h2>4. Permissions We Request</h2>
       <ul>
-        <li><strong>Notifications:</strong> to deliver injection reminders and vial expiry alerts. You may revoke this permission at any time in your device settings.</li>
-        <li><strong>Camera and Photo Library (optional):</strong> only if you choose to attach a progress photo: the photo is stored locally on your device, same as your other data.</li>
+        <li><strong>Notifications:</strong> for dose reminders and vial expiry alerts. They are scheduled on your device; you can turn them off at any time in your device settings.</li>
+        <li><strong>Camera and Photo Library (optional):</strong> only when you attach a progress photo (kept on your device) or photograph a meal for the optional AI analysis (section 5).</li>
         <li><strong>Apple Health (optional):</strong> only if you turn on weight sync in Settings. Dozify reads and writes your weight so it stays in sync with your other Health apps.</li>
         <li><strong>Storage (Android only):</strong> to save PDF reports you generate.</li>
       </ul>
@@ -93,16 +94,16 @@
 
       <h2>5. Third-Party Services</h2>
       <p>The App uses <strong>Firebase Analytics</strong> (Google Analytics for Firebase) to collect anonymous usage statistics such as screen views, in-app actions (e.g. which features are used), and subscription conversion events. This data is tied to an anonymous app-instance identifier, not to your name, email, or any other personally identifiable information. Your health data (injection history, weight, blood glucose, side effects, diary entries) is <strong>never</strong> sent to Firebase. See <a href="https://firebase.google.com/support/privacy" rel="nofollow noopener" target="_blank">Firebase Privacy</a> for details.</p>
-      <p>The App uses <strong>OneSignal</strong> to deliver push notifications (e.g. dose and refill reminders). OneSignal receives a device push token so it can deliver notifications to your device, and the language you use the App in (Turkish or English) so announcements are sent in that language; it does not receive your medication, dose, or other health data. See <a href="https://onesignal.com/privacy_policy" rel="nofollow noopener" target="_blank">OneSignal's Privacy Policy</a> for details.</p>
+      <p><strong>Notifications:</strong> reminders are local notifications scheduled by your device's operating system. The App uses no push-notification service and sends no push token anywhere.</p>
       <p>The App uses the <strong>Meta (Facebook) SDK</strong> for one purpose: measuring whether an app install came from one of our ads. On iOS the App asks for your permission first, through Apple's App Tracking Transparency prompt. If you decline, or never answer, <strong>no advertising identifier (IDFA) is collected</strong> and Meta receives only Apple's privacy-preserving aggregate SKAdNetwork signal. If you allow it, your device's advertising identifier is shared with Meta so that the install can be attributed to the ad you saw. What is sent is limited to install and app-open attribution signals, your health data (medications, doses, injections, weight, blood glucose, side effects, notes) is <strong>never</strong> sent to Meta. You can change your answer at any time in iOS Settings → Privacy &amp; Security → Tracking. See <a href="https://www.facebook.com/privacy/policy" rel="nofollow noopener" target="_blank">Meta's Privacy Policy</a> for details.</p>
       <p>Dozify Premium is an optional auto-renewable subscription processed by Apple App Store or Google Play. Those transactions are governed by Apple's and Google's respective privacy policies; we (via <strong>RevenueCat</strong>, our subscription-management provider) receive only your purchase and subscription status (whether Premium is active), linked to an anonymous app user ID, not your name and not your payment details. No payment card information is ever handled by Dozify.</p>
 
-      <p><strong>AI meal-photo analysis (optional, Premium):</strong> if you use the meal-photo feature, the photo you pick is sent over an encrypted connection, through our server, to <strong>Google Gemini</strong> (Google LLC) to estimate calories and protein; the estimate comes back to your device. The photo is used only for this analysis — Dozify does not store it and it is never used for advertising. No identifier travels with the photo beyond an anonymous subscription check. If you never use the feature, no photo ever leaves your device. The first use asks for your explicit confirmation.</p>
+      <p><strong>AI meal-photo analysis (optional; the first analysis is free, further ones need Premium):</strong> the photo you pick is sent over an encrypted connection, through our server, to <strong>Google Gemini</strong> (Google LLC) to estimate calories and protein; the estimate comes back to your device for you to check. The photo is used only for this analysis; it is not stored and never used for advertising. Our server keeps only an anonymous count of analyses for the free-use limit. Before the first photo is sent, the App names Google Gemini and asks for your explicit permission; you can withdraw it any time in Settings → Privacy, and Delete My Data resets it. If you never use the feature, no photo leaves your device.</p>
 
       <p><strong>This website (dozify.app)</strong> (separate from the App) loads a <strong>Google Ads conversion tag</strong>. It records one thing: that a visitor clicked an App Store or Google Play button, and on which page. It is configured for measurement only: ad personalization and Google signals are disabled, so your visit is not added to an advertising interest profile, and no health information you read or enter here is sent to Google. The App itself does not use this tag.</p>
 
       <h2>6. Children's Privacy</h2>
-      <p>Dozify is not for young children: our <a href="/terms">Terms of Service</a> require you to be at least 13, and the App asks you to confirm your date of birth before you can use it. We do not knowingly collect any data from anyone under 13. In some countries a person must be older than 13 to consent on their own to the processing of health data — 16 in Germany and the Netherlands, 15 in France, 14 in Spain and Italy. If you are under that age where you live, use the App only with the consent of a parent or guardian. In every case your entries stay on your device: no personal data is transmitted to us, and deleting the App removes everything stored locally.</p>
+      <p>Dozify is not for young children: our <a href="/terms">Terms of Service</a> require you to be at least 13, and the App asks you to confirm that you are at least 13 before you can use it. We do not knowingly collect any data from anyone under 13. In some countries a person must be older than 13 to consent on their own to the processing of health data — 16 in Germany and the Netherlands, 15 in France, 14 in Spain and Italy. If you are under that age where you live, use the App only with the consent of a parent or guardian. In every case your entries stay on your device: no personal data is transmitted to us, and deleting the App removes everything stored locally.</p>
 
       <h2>7. Your Rights</h2>
       <p>Because we do not collect or store your data on our servers, traditional rights of access, deletion, or portability are exercised directly through the App:</p>
@@ -129,7 +130,7 @@
     <div data-lang="tr">
       <h2>1. Giriş</h2>
       <p>Dozify ("biz", "bizim"), Ozempic, Mounjaro, Wegovy, Saxenda ve benzeri GLP-1 ilaçlarının yönetimine yardımcı olmak için tasarlanmış bir ilaç takip uygulamasıdır. Bu Gizlilik Politikası, Dozify mobil uygulamasını ("Uygulama") kullandığınızda bilgileri nasıl ele aldığımızı açıklar.</p>
-      <p><strong>Dozify çevrimdışı çalışır. Girdiğiniz sağlık verileri sunucularımızda toplanmaz, iletilmez veya saklanmaz; biz bu verileri göremeyiz.</strong> Uygulamaya girdiğiniz tüm veriler cihazınızda kalır. Uygulama; analitik, bildirim ve abonelik için sınırlı sayıda üçüncü taraf hizmeti kullanır: her birinin tam olarak neyi aldığı 5. bölümde listelenmiştir.</p>
+      <p><strong>Dozify çevrimdışı çalışır. Girdiğiniz sağlık verileri sunucularımızda toplanmaz, iletilmez veya saklanmaz; biz bu verileri göremeyiz.</strong> Uygulamaya girdiğiniz tüm veriler cihazınızda kalır. Tek istisna, isteğe bağlı AI analizi için kendi seçtiğiniz bir öğün fotoğrafıdır (5. bölüm). Uygulama ayrıca anonim analitik, reklamdan gelen kurulum ölçümü ve abonelik için birkaç üçüncü taraf hizmeti kullanır: her birinin tam olarak neyi aldığı 5. bölümde listelenmiştir.</p>
 
       <h2>2. Toplamadığımız Veriler</h2>
       <p>Uygulama aşağıdaki verileri herhangi bir harici sunucuda <strong>toplamaz, iletmez veya saklamaz</strong>:</p>
@@ -139,7 +140,7 @@
         <li>Konum bilgisi</li>
         <li>Reklam tanımlayıcıları. Apple'ın İzleme Şeffaflığı (ATT) ekranında açıkça izin vermediğiniz sürece; bkz. 5. bölümdeki reklam ölçümü paragrafı</li>
       </ul>
-      <p>Uygulama, 5. bölümde açıklanan anonim tanımlayıcıları (analitik uygulama-örneği kimliği ve bildirim anahtarı) alır. Bunlar yalnızca anonim kullanım sayımlarının ve bildirimlerinizin çalışması için vardır; adınıza veya e-postanıza bağlı değildir ve sizi başka uygulamalarda ya da sitelerde takip etmek için kullanılmaz.</p>
+      <p>Uygulama, 5. bölümde açıklanan anonim tanımlayıcıları (analitik uygulama-örneği kimliği ve abonelik için anonim kullanıcı kimliği) alır. Bunlar yalnızca anonim kullanım sayımlarının ve aboneliğinizin çalışması için vardır; adınıza veya e-postanıza bağlı değildir ve sizi başka uygulamalarda ya da sitelerde takip etmek için kullanılmaz.</p>
       <p><strong>Sağlık verileriniz reklam için asla kullanılmaz.</strong> Kaydettiğiniz hiçbir şey (ilaçlar, dozlar, enjeksiyonlar, kilo, kan şekeri, yan etkiler, notlar, fotoğraflar) izleme ekranında ne cevap verirseniz verin reklam hedeflemesinde kullanılmaz ve bir reklam ağıyla paylaşılmaz.</p>
 
       <h2>3. Cihazınızda Yerel Olarak Saklanan Veriler</h2>
@@ -153,11 +154,12 @@
         <li>Uygulama ayarları (dil, tema, birimler)</li>
       </ul>
       <p>Bu veriler, sizin açık tercihinizle dışa aktarmadığınız sürece (örneğin PDF rapor üretip e-posta ile paylaşma) cihazınızdan asla çıkmaz. Uygulamayı silmek tüm verileri kalıcı olarak kaldırır.</p>
+      <p>Premium özelliklerin önizlemeleri (örneğin kilitli bir ekrandaki tahmini ilaç seviyeniz) bu verilerden cihazınızda çizilir; bunlar için hiçbir şey gönderilmez. İlaç kullanmadan yalnızca kilo ve öğün takibi yapmayı seçerseniz bu tercih de cihazınızda saklanır.</p>
 
       <h2>4. Talep Ettiğimiz İzinler</h2>
       <ul>
-        <li><strong>Bildirimler:</strong> enjeksiyon hatırlatıcıları ve flakon son kullanma uyarıları için. Bu izni cihaz ayarlarından istediğiniz zaman geri alabilirsiniz.</li>
-        <li><strong>Kamera ve Fotoğraf Kitaplığı (isteğe bağlı):</strong> yalnızca bir ilerleme fotoğrafı eklemeyi seçerseniz: fotoğraf, diğer verileriniz gibi yalnızca cihazınızda saklanır.</li>
+        <li><strong>Bildirimler:</strong> doz hatırlatıcıları ve flakon son kullanma uyarıları için. Cihazınızda planlanır; cihaz ayarlarından istediğiniz zaman kapatabilirsiniz.</li>
+        <li><strong>Kamera ve Fotoğraf Kitaplığı (isteğe bağlı):</strong> yalnızca bir ilerleme fotoğrafı eklediğinizde (cihazınızda kalır) veya isteğe bağlı AI analizi için bir öğünün fotoğrafını çektiğinizde (5. bölüm).</li>
         <li><strong>Apple Health (isteğe bağlı):</strong> yalnızca Ayarlar'dan kilo senkronizasyonunu açarsanız. Dozify, diğer Health uygulamalarınızla senkron kalması için kilonuzu okur ve yazar.</li>
         <li><strong>Depolama (yalnızca Android):</strong> ürettiğiniz PDF raporları kaydetmek için.</li>
       </ul>
@@ -165,16 +167,16 @@
 
       <h2>5. Üçüncü Taraf Hizmetler</h2>
       <p>Uygulama, anonim kullanım istatistikleri (ekran görüntülemeleri, uygulama içi etkileşimler, abonelik dönüşüm olayları) toplamak için <strong>Firebase Analytics</strong> (Google Analytics for Firebase) kullanır. Bu veriler anonim bir uygulama-örneği tanımlayıcısıyla ilişkilendirilir, adınız, e-postanız veya başka bir kişisel tanımlayıcıyla değil. Sağlık verileriniz (enjeksiyon geçmişi, kilo, kan şekeri, yan etkiler, günlük girişleri), Firebase'e <strong>asla</strong> gönderilmez. Detaylar için <a href="https://firebase.google.com/support/privacy" rel="nofollow noopener" target="_blank">Firebase Gizlilik</a> sayfasına bakın.</p>
-      <p>Uygulama, push bildirimlerini (örn. doz ve yenileme hatırlatıcıları) göndermek için <strong>OneSignal</strong> kullanır. OneSignal, bildirimleri cihazınıza gönderebilmek için bir cihaz push token'ı ve duyuruların doğru dilde gitmesi için uygulamayı kullandığınız dili (Türkçe veya İngilizce) alır; ilaç, doz veya diğer sağlık verilerinizi almaz. Detaylar için <a href="https://onesignal.com/privacy_policy" rel="nofollow noopener" target="_blank">OneSignal Gizlilik Politikası</a>'na bakın.</p>
+      <p><strong>Bildirimler:</strong> hatırlatıcılar, cihazınızın işletim sisteminin planladığı yerel bildirimlerdir. Uygulama hiçbir push bildirim hizmeti kullanmaz ve hiçbir yere push anahtarı göndermez.</p>
       <p>Uygulama, <strong>Meta (Facebook) SDK</strong>'sını tek bir amaçla kullanır: bir uygulama kurulumunun bizim reklamlarımızdan gelip gelmediğini ölçmek. iOS'ta Uygulama önce Apple'ın İzleme Şeffaflığı (App Tracking Transparency) ekranıyla izninizi ister. İzin vermezseniz ya da hiç yanıtlamazsanız <strong>hiçbir reklam tanımlayıcısı (IDFA) toplanmaz</strong> ve Meta yalnızca Apple'ın gizliliği koruyan toplu SKAdNetwork sinyalini görür. İzin verirseniz, kurulumun gördüğünüz reklamla ilişkilendirilebilmesi için cihazınızın reklam tanımlayıcısı Meta ile paylaşılır. Gönderilen şey kurulum ve uygulama açılışı ilişkilendirme sinyalleriyle sınırlıdır, sağlık verileriniz (ilaçlar, dozlar, enjeksiyonlar, kilo, kan şekeri, yan etkiler, notlar), Meta'ya <strong>asla</strong> gönderilmez. Yanıtınızı istediğiniz zaman iOS Ayarlar → Gizlilik ve Güvenlik → İzleme bölümünden değiştirebilirsiniz. Detaylar için <a href="https://www.facebook.com/privacy/policy" rel="nofollow noopener" target="_blank">Meta Gizlilik Politikası</a>'na bakın.</p>
       <p>Dozify Premium, Apple App Store veya Google Play tarafından işlenen isteğe bağlı bir otomatik yenilenen abonelik hizmetidir. Bu işlemler Apple ve Google'ın ilgili gizlilik politikalarına tabidir; biz (abonelik yönetim sağlayıcımız <strong>RevenueCat</strong> aracılığıyla) yalnızca satın alma ve abonelik durumunuzu (Premium'un aktif olup olmadığını) anonim bir uygulama kullanıcı kimliğine bağlı olarak alırız; adınızı ve ödeme bilgilerinizi almayız. Hiçbir kart bilgisi Dozify tarafından işlenmez.</p>
 
-      <p><strong>AI öğün fotoğrafı analizi (isteğe bağlı, Premium):</strong> öğün fotoğrafı özelliğini kullanırsanız seçtiğiniz fotoğraf, kalori ve protein tahmini için şifreli bağlantıyla sunucumuz üzerinden <strong>Google Gemini</strong>'ye (Google LLC) gönderilir; tahmin cihazınıza geri döner. Fotoğraf yalnızca bu analiz için kullanılır — Dozify fotoğrafı saklamaz ve asla reklam için kullanılmaz. Fotoğrafla birlikte anonim abonelik doğrulaması dışında hiçbir kimlik gönderilmez. Özelliği hiç kullanmazsanız hiçbir fotoğraf cihazınızdan çıkmaz. İlk kullanımda açık onayınız istenir.</p>
+      <p><strong>AI öğün fotoğrafı analizi (isteğe bağlı; ilk analiz ücretsizdir, sonrakiler Premium gerektirir):</strong> seçtiğiniz fotoğraf, kalori ve protein tahmini için şifreli bağlantıyla sunucumuz üzerinden <strong>Google Gemini</strong>'ye (Google LLC) gönderilir; tahmin, kontrol etmeniz için cihazınıza geri döner. Fotoğraf yalnızca bu analiz için kullanılır; saklanmaz ve asla reklam için kullanılmaz. Sunucumuz yalnızca ücretsiz kullanım sınırı için anonim bir analiz sayısı tutar. İlk fotoğraf gönderilmeden önce Uygulama Google Gemini'nin adını verir ve açık izninizi ister; bu izni Ayarlar → Gizlilik'ten istediğiniz an geri alabilirsiniz, "Verilerimi Sil" de izni sıfırlar. Özelliği hiç kullanmazsanız hiçbir fotoğraf cihazınızdan çıkmaz.</p>
 
       <p><strong>Bu web sitesi (dozify.app)</strong> (Uygulamadan ayrı olarak) bir <strong>Google Ads dönüşüm etiketi</strong> yükler. Tek kaydettiği şey şudur: bir ziyaretçinin App Store veya Google Play düğmesine tıklaması ve bunun hangi sayfada olduğu. Etiket yalnızca ölçüm için yapılandırılmıştır: reklam kişiselleştirme ve Google sinyalleri kapalıdır, dolayısıyla ziyaretiniz bir reklam ilgi-alanı profiline eklenmez ve burada okuduğunuz ya da girdiğiniz hiçbir sağlık bilgisi Google'a gönderilmez. Uygulamanın kendisi bu etiketi kullanmaz.</p>
 
       <h2>6. Çocukların Gizliliği</h2>
-      <p>Dozify küçük çocuklar için değildir: <a href="/terms">Kullanım Koşullarımız</a> en az 13 yaşında olmanızı şart koşar ve Uygulama, kullanıma başlamadan önce doğum tarihinizi onaylamanızı ister. 13 yaşın altındaki hiç kimseden bilerek veri toplamayız. Bazı ülkelerde sağlık verilerinin işlenmesine tek başına onay verebilmek için 13'ten büyük olmak gerekir — Almanya ve Hollanda'da 16, Fransa'da 15, İspanya ve İtalya'da 14. Yaşadığınız ülkedeki bu sınırın altındaysanız Uygulamayı yalnızca ebeveyn veya vasinizin onayıyla kullanın. Her durumda girdileriniz cihazınızda kalır: bize hiçbir kişisel veri iletilmez ve uygulamayı silmek yerelde saklanan her şeyi kaldırır.</p>
+      <p>Dozify küçük çocuklar için değildir: <a href="/terms">Kullanım Koşullarımız</a> en az 13 yaşında olmanızı şart koşar ve Uygulama, kullanıma başlamadan önce en az 13 yaşında olduğunuzu onaylamanızı ister. 13 yaşın altındaki hiç kimseden bilerek veri toplamayız. Bazı ülkelerde sağlık verilerinin işlenmesine tek başına onay verebilmek için 13'ten büyük olmak gerekir — Almanya ve Hollanda'da 16, Fransa'da 15, İspanya ve İtalya'da 14. Yaşadığınız ülkedeki bu sınırın altındaysanız Uygulamayı yalnızca ebeveyn veya vasinizin onayıyla kullanın. Her durumda girdileriniz cihazınızda kalır: bize hiçbir kişisel veri iletilmez ve uygulamayı silmek yerelde saklanan her şeyi kaldırır.</p>
 
       <h2>7. Haklarınız</h2>
       <p>Verilerinizi sunucularımızda toplamadığımız için, geleneksel erişim, silme veya taşıma hakları doğrudan Uygulama üzerinden kullanılır:</p>

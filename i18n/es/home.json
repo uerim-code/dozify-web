@@ -174,6 +174,10 @@
   "Water tracking with a glass calculator and quick-add amounts": "Registro de agua con una calculadora de vasos y cantidades de añadido rápido",
   "An imported injection in the Dozify log, with its date, dose and site": "Una inyección importada en el registro de Dozify, con su fecha, dosis y zona",
   "New in Dozify": "Novedades de Dozify",
-  "Dozify screenshots, scroll sideways": "Capturas de pantalla de Dozify, desliza de lado"
+  "Dozify screenshots, scroll sideways": "Capturas de pantalla de Dozify, desliza de lado",
+  "Not on a medication yet? <span class=\"badge-new\">New</span>": "¿Aún no tomas ningún medicamento? <span class=\"badge-new\">Nuevo</span>",
+  "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "Empieza con tu peso y tus comidas: registra tu peso, fotografía una comida y mira sus calorías. Añade un medicamento cuando empieces uno.",
+  "Premium previews on your own data <span class=\"badge-new\">New</span>": "Vistas previas de Premium con tus propios datos <span class=\"badge-new\">Nuevo</span>",
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Antes de decidir, las pantallas bloqueadas muestran lo que añade Premium con tus propios registros, como el nivel estimado de tu medicamento. Se dibuja en tu dispositivo; no se envía nada."
  }
 }

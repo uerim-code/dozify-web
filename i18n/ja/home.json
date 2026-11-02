@@ -174,6 +174,10 @@
   "Water tracking with a glass calculator and quick-add amounts": "コップ計算機と簡単追加ボタンのある水分記録画面",
   "An imported injection in the Dozify log, with its date, dose and site": "Dozifyの記録に取り込まれた注射。日付、用量、部位つき",
   "New in Dozify": "Dozifyの新機能",
-  "Dozify screenshots, scroll sideways": "Dozifyのスクリーンショット（横にスクロールできます）"
+  "Dozify screenshots, scroll sideways": "Dozifyのスクリーンショット（横にスクロールできます）",
+  "Not on a medication yet? <span class=\"badge-new\">New</span>": "まだ薬を使っていませんか？ <span class=\"badge-new\">New</span>",
+  "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "体重と食事から始めましょう。体重を記録し、食事を撮影してカロリーを確認できます。薬を始めたら追加してください。",
+  "Premium previews on your own data <span class=\"badge-new\">New</span>": "ご自身のデータで Premium をプレビュー <span class=\"badge-new\">New</span>",
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "決める前に、ロックされた画面がご自身の記録を使って Premium で増える内容を表示します（例：推定薬物レベル）。端末上で描画され、何も送信されません。"
  }
 }

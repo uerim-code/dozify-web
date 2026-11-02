@@ -48,10 +48,10 @@
 
   <main class="wrap">
       <h1>Integritetspolicy</h1>
-      <p class="meta">Senast uppdaterad: 3 oktober 2026 · Gäller från 3 oktober 2026</p>
+      <p class="meta">Senast uppdaterad: 2 november 2026 · Gäller från 2 november 2026</p>
       <h2>1. Inledning</h2>
       <p>Dozify («vi») är en app för att hålla koll på läkemedel, gjord för GLP-1-behandlingar med läkemedel som Ozempic, Mounjaro, Wegovy, Saxenda och liknande. Den här policyn förklarar hur vi hanterar information när du använder mobilappen Dozify («Appen»).</p>
-      <p>Dozify fungerar i första hand offline. De hälsouppgifter du fyller i samlas inte in, skickas inte vidare och sparas inte på våra servrar, och vi kan inte se dem. Allt du fyller i i Appen stannar på din enhet. Appen använder däremot ett fåtal tredjepartstjänster för anonym statistik, aviseringar och prenumerationer; vad var och en av dem får reda på står i avsnitt 5.</p>
+      <p>Dozify fungerar i första hand offline. Hälsodata som du skriver in samlas inte in, överförs inte och lagras inte på våra servrar, och vi kan inte se dem; de stannar på din enhet. Det enda undantaget är ett måltidsfoto som du själv skickar för den valfria AI-analysen (avsnitt 5). Appen använder också några tjänster från tredje part för anonym användningsstatistik, mätning av installationer från annonser och prenumerationer; avsnitt 5 anger exakt vad var och en får.</p>
       <h2>2. Uppgifter vi inte samlar in</h2>
       <p>Appen samlar inte in, skickar inte vidare och lagrar inte på någon extern server:</p>
       <ul>
@@ -60,7 +60,7 @@
         <li>platsuppgifter;</li>
         <li>annonsidentifierare, om du inte uttryckligen godkänner spårning i Apples App Tracking Transparency-fråga: se stycket om annonsmätning i avsnitt 5.</li>
       </ul>
-      <p>Appen tar däremot emot de anonyma identifierare som beskrivs i avsnitt 5 (en identifierare för appinstansen, för statistiken, och en identifierare för aviseringar). De finns bara till för att den anonyma användningsräkningen och dina aviseringar ska fungera, är inte kopplade till ditt namn eller din e-postadress och används inte för att följa dig i andra appar eller på andra webbplatser.</p>
+      <p>Appen tar emot de anonyma id:n som beskrivs i avsnitt 5 (ett id för analysinstansen och ett anonymt användar-id för prenumerationen). De finns bara för att anonym statistik och din prenumeration ska fungera, är inte kopplade till ditt namn eller din e-post och används inte för att spåra dig i andra appar eller på webbplatser.</p>
       <p class="note">Dina hälsouppgifter används aldrig i reklamsyfte. Ingenting av det du registrerar (läkemedel, doser, injektioner, vikt, blodsocker, biverkningar, anteckningar, bilder) används för annonsriktning eller delas med något annonsnätverk, oavsett vad du svarar på frågan om spårning.</p>
       <h2>3. Uppgifter som lagras lokalt på din enhet</h2>
       <p>Appen sparar följande information enbart på din enhet, i en lokal SQLite-databas och i systemets krypterade lagring:</p>
@@ -73,23 +73,24 @@
         <li>Appens inställningar (språk, utseende, enheter).</li>
       </ul>
       <p>Dessa uppgifter lämnar aldrig din enhet, om du inte själv exporterar dem (till exempel genom att skapa en PDF-rapport och dela den via e-post eller en annan app du väljer). Raderar du Appen tas alla uppgifter bort permanent.</p>
+      <p>Förhandsvisningar av Premium-funktioner, till exempel din uppskattade läkemedelsnivå på en låst skärm, ritas på din enhet utifrån dessa data; inget skickas för dem. Om du följer vikt och måltider utan läkemedel sparas även det valet på din enhet.</p>
       <h2>4. Behörigheter vi ber om</h2>
       <ul>
-        <li>Aviseringar: för att skicka injektionspåminnelser och varningar om flaskors hållbarhet. Du kan när som helst ta tillbaka den behörigheten i enhetens inställningar.</li>
-        <li>Kamera och bildbibliotek (valfritt): bara om du väljer att lägga till en framstegsbild; bilden sparas lokalt på din enhet, precis som resten av dina uppgifter.</li>
+        <li>Notiser: för dospåminnelser och varningar om flaskors utgångsdatum. De schemaläggs på din enhet; du kan stänga av dem när som helst i enhetens inställningar.</li>
+        <li>Kamera och bildbibliotek (valfritt): bara när du bifogar en framstegsbild (sparas på din enhet) eller fotograferar en måltid för den valfria AI-analysen (avsnitt 5).</li>
         <li>Apple Hälsa (valfritt): bara om du slår på viktsynkroniseringen i inställningarna. Dozify läser och skriver din vikt så att den stämmer med dina andra Hälsa-appar.</li>
         <li>Lagring (endast Android): för att spara de PDF-rapporter du skapar.</li>
       </ul>
       <p>Appen ber inte om åtkomst till mikrofon, kontakter eller plats. Kamera, bildbibliotek och Apple Hälsa är valfria och efterfrågas först när du använder motsvarande funktion.</p>
       <h2>5. Tredjepartstjänster</h2>
       <p>Appen använder Firebase Analytics (Google Analytics for Firebase) för att samla in anonym användningsstatistik, som besökta skärmar, handlingar i appen (till exempel vilka funktioner som används) och prenumerationskonverteringar. Uppgifterna kopplas till en anonym identifierare för appinstansen, inte till ditt namn, din e-postadress eller några andra uppgifter som identifierar dig. Dina hälsouppgifter (injektionshistorik, vikt, blodsocker, biverkningar, dagbokposter) skickas aldrig till Firebase.</p>
-      <p>Appen använder OneSignal för att skicka push-aviseringar (till exempel påminnelser om dos och påfyllning). OneSignal tar emot en aviseringsidentifierare från din enhet, som behövs för att kunna leverera dem, och språket du använder Appen på, så att meddelandena kommer på det språket; den får inte veta ditt läkemedel, din dos eller några andra hälsouppgifter.</p>
+      <p>Notiser: påminnelser är lokala notiser som enhetens operativsystem schemalägger. Appen använder ingen push-tjänst och skickar ingen push-token någonstans.</p>
       <p>Appen använder Metas (Facebooks) SDK i ett enda syfte: att mäta om en installation kommer från någon av våra annonser. På iOS frågar Appen först om din tillåtelse via Apples App Tracking Transparency. Säger du nej, eller svarar inte alls, samlas ingen annonsidentifierare (IDFA) in och Meta får bara Apples aggregerade SKAdNetwork-signal, som värnar din integritet. Säger du ja delas enhetens annonsidentifierare med Meta så att installationen kan kopplas till annonsen du såg. Det som skickas begränsas till signaler om installation och appöppning; dina hälsouppgifter (läkemedel, doser, injektioner, vikt, blodsocker, biverkningar, anteckningar) skickas aldrig till Meta. Du kan ändra ditt svar när som helst under Inställningar på iPhone → Integritet och säkerhet → Spårning.</p>
       <p>Appen använder RevenueCat för att hantera prenumerationer. RevenueCat tar emot en anonym användaridentifierare och status för ditt köp; betalningarna hanteras av Apple eller Google, och vi ser aldrig dina betaluppgifter.</p>
-      <p>AI-analys av måltidsfoton (valfritt, Premium): om du använder måltidsfotofunktionen skickas det valda fotot krypterat, via vår server, till Google Gemini (Google LLC) för att uppskatta kalorier och protein; uppskattningen kommer tillbaka till din enhet. Fotot används bara för denna analys — Dozify sparar det inte och det används aldrig för reklam. Ingen identifierare följer med fotot utöver en anonym prenumerationskontroll. Använder du aldrig funktionen lämnar inget foto din enhet. Första användningen kräver din uttryckliga bekräftelse.</p>
+      <p>AI-analys av måltidsfoton (valfritt; den första analysen är gratis, fler kräver Premium): fotot du väljer skickas krypterat, via vår server, till Google Gemini (Google LLC) för att uppskatta kalorier och protein; uppskattningen kommer tillbaka till din enhet så att du kan granska den. Fotot används bara för denna analys; det sparas inte och används aldrig för reklam. Vår server sparar bara ett anonymt antal analyser för gratisgränsen. Innan det första fotot skickas namnger Appen Google Gemini och ber om ditt uttryckliga tillstånd; du kan återkalla det när som helst under Inställningar → Integritet, och ”Radera mina data” återställer det. Om du aldrig använder funktionen lämnar inget foto din enhet.</p>
       <p>Den här webbplatsen (dozify.app), skild från Appen, laddar en konverteringstagg från Google Ads. Den registrerar en enda sak: att en besökare klickade på en knapp för App Store eller Google Play, och på vilken sida. Den är inställd enbart för mätning: annonsanpassning och Google-signaler är avstängda, så ditt besök läggs inte till någon intresseprofil för annonser, och ingen hälsoinformation som du läser eller skriver in här skickas till Google. Appen själv använder inte den här taggen.</p>
       <h2>6. Barns integritet</h2>
-      <p>Dozify är inte till för små barn: våra användarvillkor kräver att du har fyllt 13 år, och Appen ber dig bekräfta ditt födelsedatum innan du kan använda den. Vi samlar inte medvetet in uppgifter om någon under 13 år. I Sverige kan du själv lämna samtycke till behandling av hälsouppgifter först från 13 års ålder, men i flera andra länder går gränsen högre — 16 år i Tyskland och Nederländerna, 15 i Frankrike. Är du under gränsen där du bor, använd Appen bara med samtycke från en vårdnadshavare. Oavsett vilket stannar dina uppgifter på din enhet: inga personuppgifter skickas till oss, och raderar du Appen försvinner allt som sparats lokalt.</p>
+      <p>Dozify är inte till för små barn: våra användarvillkor kräver att du har fyllt 13 år, och Appen ber dig bekräfta att du har fyllt 13 år innan du kan använda den. Vi samlar inte medvetet in uppgifter om någon under 13 år. I Sverige kan du själv lämna samtycke till behandling av hälsouppgifter först från 13 års ålder, men i flera andra länder går gränsen högre — 16 år i Tyskland och Nederländerna, 15 i Frankrike. Är du under gränsen där du bor, använd Appen bara med samtycke från en vårdnadshavare. Oavsett vilket stannar dina uppgifter på din enhet: inga personuppgifter skickas till oss, och raderar du Appen försvinner allt som sparats lokalt.</p>
       <h2>7. Dina rättigheter</h2>
       <p>Eftersom vi varken samlar in eller lagrar dina uppgifter på våra servrar utövar du rätten till tillgång, radering och dataportabilitet direkt i Appen:</p>
       <ul>

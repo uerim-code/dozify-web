@@ -174,6 +174,10 @@
   "Water tracking with a glass calculator and quick-add amounts": "Vattenloggning med glasräknare och snabbval för mängder",
   "An imported injection in the Dozify log, with its date, dose and site": "En importerad injektion i Dozifys logg, med datum, dos och ställe",
   "New in Dozify": "Nytt i Dozify",
-  "Dozify screenshots, scroll sideways": "Skärmbilder från Dozify, scrolla i sidled"
+  "Dozify screenshots, scroll sideways": "Skärmbilder från Dozify, scrolla i sidled",
+  "Not on a medication yet? <span class=\"badge-new\">New</span>": "Tar du inget läkemedel än? <span class=\"badge-new\">Nytt</span>",
+  "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "Börja med din vikt och dina måltider: logga din vikt, fota en måltid och se dess kalorier. Lägg till ett läkemedel när du börjar med ett.",
+  "Premium previews on your own data <span class=\"badge-new\">New</span>": "Premium-förhandsvisningar med dina egna data <span class=\"badge-new\">Nytt</span>",
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Innan du bestämmer dig visar låsta skärmar vad Premium tillför med dina egna registreringar, till exempel din uppskattade läkemedelsnivå. Ritas på din enhet; inget skickas."
  }
 }

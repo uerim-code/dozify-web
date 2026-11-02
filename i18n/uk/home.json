@@ -174,6 +174,10 @@
   "Water tracking with a glass calculator and quick-add amounts": "Облік води з калькулятором склянок і швидким додаванням об’єму",
   "An imported injection in the Dozify log, with its date, dose and site": "Імпортована ін’єкція в журналі Dozify з датою, дозою й місцем",
   "New in Dozify": "Нове в Dozify",
-  "Dozify screenshots, scroll sideways": "Знімки екрана Dozify, гортайте вбік"
+  "Dozify screenshots, scroll sideways": "Знімки екрана Dozify, гортайте вбік",
+  "Not on a medication yet? <span class=\"badge-new\">New</span>": "Ще не приймаєте препарат? <span class=\"badge-new\">Нове</span>",
+  "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "Почніть із ваги та харчування: записуйте вагу, фотографуйте їжу й дивіться її калорійність. Додайте препарат, коли почнете приймання.",
+  "Premium previews on your own data <span class=\"badge-new\">New</span>": "Попередній перегляд Premium на ваших даних <span class=\"badge-new\">Нове</span>",
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "Перш ніж ви вирішите, закриті екрани показують на ваших записах, що додає Premium, наприклад розрахунковий рівень препарату. Малюється на вашому пристрої; нічого не надсилається."
  }
 }

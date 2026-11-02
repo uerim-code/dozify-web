@@ -174,6 +174,10 @@
   "Water tracking with a glass calculator and quick-add amounts": "饮水记录，带按杯计算器和快速添加量",
   "An imported injection in the Dozify log, with its date, dose and site": "Dozify 记录中一条导入的注射记录，含日期、剂量和部位",
   "New in Dozify": "Dozify 新功能",
-  "Dozify screenshots, scroll sideways": "Dozify 截图，左右滑动查看"
+  "Dozify screenshots, scroll sideways": "Dozify 截图，左右滑动查看",
+  "Not on a medication yet? <span class=\"badge-new\">New</span>": "还没有用药？ <span class=\"badge-new\">新</span>",
+  "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "从体重和饮食开始：记录体重，拍下餐食并查看热量。开始用药后再添加药物。",
+  "Premium previews on your own data <span class=\"badge-new\">New</span>": "用你自己的数据预览 Premium <span class=\"badge-new\">新</span>",
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "在你决定之前，锁定页面会用你自己的记录展示 Premium 增加的内容，例如估算药物水平。在你的设备上绘制，不发送任何内容。"
  }
 }

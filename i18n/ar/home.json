@@ -174,6 +174,10 @@
   "Water tracking with a glass calculator and quick-add amounts": "تتبّع الماء مع حاسبة أكواب وكميات إضافة سريعة",
   "An imported injection in the Dozify log, with its date, dose and site": "حقنة مستوردة في سجل Dozify، مع تاريخها وجرعتها وموضعها",
   "New in Dozify": "الجديد في Dozify",
-  "Dozify screenshots, scroll sideways": "لقطات شاشة Dozify، مرّر جانبياً"
+  "Dozify screenshots, scroll sideways": "لقطات شاشة Dozify، مرّر جانبياً",
+  "Not on a medication yet? <span class=\"badge-new\">New</span>": "لا تتناول دواءً بعد؟ <span class=\"badge-new\">جديد</span>",
+  "Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.": "ابدأ بوزنك ووجباتك: سجّل وزنك، وصوّر وجبة، واطّلع على سعراتها. أضف دواءً عندما تبدأ به.",
+  "Premium previews on your own data <span class=\"badge-new\">New</span>": "معاينات Premium ببياناتك أنت <span class=\"badge-new\">جديد</span>",
+  "Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.": "قبل أن تقرّر، تعرض الشاشات المقفلة ما يضيفه Premium باستخدام إدخالاتك أنت، مثل مستوى الدواء التقديري. تُرسم على جهازك؛ ولا يُرسل أي شيء."
  }
 }
