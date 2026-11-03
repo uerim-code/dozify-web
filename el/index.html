@@ -20,7 +20,7 @@
   <link rel="icon" href="/favicon.ico" sizes="32x32">
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="stylesheet" href="/styles.css?v=27b20e0a">
+  <link rel="stylesheet" href="/styles.css?v=af1d53e4">
   <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
        Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
        ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
@@ -35,6 +35,7 @@
     gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
   </script>
   <script src="/assets/store-click.js" defer></script>
+  <script src="/assets/home.js" defer></script>
   <meta property="og:site_name" content="Dozify">
   <meta property="og:image:alt" content="Dozify — ιδιωτική εφαρμογή καταγραφής ενέσεων GLP-1 και βάρους για iPhone">
   <meta name="twitter:title" content="Εφαρμογή GLP-1: ενέσεις, χάπια, βάρος &amp; θερμίδες AI">
@@ -236,13 +237,28 @@
   <main>
     <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-copy">
-        <img class="hero-icon" src="/favicon.svg" width="96" height="96" alt="Dozify" />
-        <span class="pill">Για Ozempic® · Wegovy® πένα &amp; χάπι · Mounjaro® · Zepbound®</span>
-        
-
         <h1>Η ρουτίνα σας με GLP-1, <span class="accent">σε μία οθόνη.</span></h1>
         
+
+        <div class="hero-copy">
+        <p class="lede">Καταγράψτε κάθε ένεση ή καθημερινό χάπι, φωτογραφίστε ένα γεύμα και πάρτε θερμίδες και πρωτεΐνη σε δευτερόλεπτα, και δείτε το βάρος σας δίπλα σε μια εκτιμώμενη καμπύλη του φαρμάκου σας. Κάντε το δικό σας με μια μασκότ και ένα χρωματικό θέμα. Η καταγραφή δόσεων και οι υπενθυμίσεις είναι δωρεάν, για πάντα. Καταγράφετε ήδη κάπου αλλού; <a href="/el/switch-glp1-tracker-app">Φέρτε μαζί σας το ιστορικό σας.</a></p>
+        
+
+        <div class="cta-row">
+          <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-el&mt=8" target="_blank" rel="noopener" class="btn btn-primary">Λήψη από το App Store</a>
+          
+        </div>
+
+        <p class="pill">Για Ozempic® · Wegovy® πένα &amp; χάπι · Mounjaro® · Zepbound®</p>
+        
+
+        <!-- The three things a visitor deciding on a health app wants settled
+             before they tap Download, said before they have to look for them. -->
+        <ul class="trust-row">
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" /> <path d="m9 12 2 2 4-4" /> </svg> <span>Χωρίς λογαριασμό, λειτουργεί offline: τα δεδομένα υγείας σας μένουν στη συσκευή</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" /> </svg> <span>Χωρίς διαφημίσεις μέσα στην εφαρμογή, και τα δεδομένα υγείας σας δεν χρησιμοποιούνται ποτέ για στόχευση διαφημίσεων</span></li>
+          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M12 8h.01M11 12h1v4h1" /> </svg> <span>Εργαλείο καταγραφής, όχι ιατροτεχνολογικό προϊόν: καταγράφει το πλάνο σας, δεν προτείνει ποτέ ένα</span></li>
+        </ul>
 
         <ul class="new-chips" aria-label="Νέο στο Dozify">
           <li><a href="/el/ai-calorie-tracker">Θερμίδες από φωτογραφία με AI</a></li>
@@ -254,37 +270,21 @@
           <li><a href="/el/glp1-medication-level">Καμπύλη επιπέδου φαρμάκου</a></li>
           
         </ul>
-
-        <p class="lede">Καταγράψτε κάθε ένεση ή καθημερινό χάπι, φωτογραφίστε ένα γεύμα και πάρτε θερμίδες και πρωτεΐνη σε δευτερόλεπτα, και δείτε το βάρος σας δίπλα σε μια εκτιμώμενη καμπύλη του φαρμάκου σας. Κάντε το δικό σας με μια μασκότ και ένα χρωματικό θέμα. Η καταγραφή δόσεων και οι υπενθυμίσεις είναι δωρεάν, για πάντα. Καταγράφετε ήδη κάπου αλλού; <a href="/el/switch-glp1-tracker-app">Φέρτε μαζί σας το ιστορικό σας.</a></p>
-        
-
-        <div class="cta-row">
-          <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-el&mt=8" target="_blank" rel="noopener" class="btn btn-primary">Λήψη από το App Store</a>
-          
-        </div>
-
-        <!-- The three things a visitor deciding on a health app wants settled
-             before they tap Download, said before they have to look for them. -->
-        <ul class="trust-row">
-          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" /> <path d="m9 12 2 2 4-4" /> </svg> <span>Χωρίς λογαριασμό, λειτουργεί offline: τα δεδομένα υγείας σας μένουν στη συσκευή</span></li>
-          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M5.6 5.6l12.8 12.8" /> </svg> <span>Χωρίς διαφημίσεις μέσα στην εφαρμογή, και τα δεδομένα υγείας σας δεν χρησιμοποιούνται ποτέ για στόχευση διαφημίσεων</span></li>
-          <li><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="9" /><path d="M12 8h.01M11 12h1v4h1" /> </svg> <span>Εργαλείο καταγραφής, όχι ιατροτεχνολογικό προϊόν: καταγράφει το πλάνο σας, δεν προτείνει ποτέ ένα</span></li>
-        </ul>
         </div>
 
         <!-- The product itself, above the fold. The page used to open on an app
              icon and four paragraphs, which asks a visitor to take the app's
              word for what it looks like. -->
-        <div class="hero-shot hero-fan" aria-hidden="false">
-          <div class="device fan-left">
+        <div class="hero-phones">
+          <div class="device phone-b">
             <img src="/screenshots/el/ai-result.webp" srcset="/screenshots/el/ai-result-400w.webp 400w, /screenshots/el/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" decoding="async" alt="Αποτέλεσμα AI: κάθε τρόφιμο που βρέθηκε στο πιάτο με τις θερμίδες και την πρωτεΐνη του, έτοιμο για επεξεργασία">
             
           </div>
-          <div class="device fan-right">
+          <div class="device phone-c">
             <img src="/screenshots/el/themes.webp" srcset="/screenshots/el/themes-400w.webp 400w, /screenshots/el/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" decoding="async" alt="Επιλογή θέματος με έξι μασκότ: Κλασικό, Δελφίνι, Πάντα, Κουκουβάγια, Φλαμίνγκο και Μέλισσα">
             
           </div>
-          <div class="device fan-center">
+          <div class="device phone-a">
             <img src="/screenshots/el/dolphin-home.webp" srcset="/screenshots/el/dolphin-home-400w.webp 400w, /screenshots/el/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" fetchpriority="high" decoding="async" alt="Η αρχική οθόνη του Dozify με το θέμα Δελφίνι: επόμενη δόση, φωτογραφία γεύματος, επίπεδο φαρμάκου, πρωτεΐνη, νερό και βάρος">
             
           </div>
@@ -295,9 +295,9 @@
     <section id="themes" class="section section-light">
       <div class="container split">
         <div class="split-copy">
-          <span class="badge-new">Νέο</span>
-          
           <h2 class="section-title">Διαλέξτε μια μασκότ. Όλη η εφαρμογή ακολουθεί.</h2>
+          
+          <span class="badge-new">Νέο</span>
           
           <p>Έξι θέματα, το καθένα με ένα χρώμα και έναν σύντροφο: Κλασικό, Δελφίνι, Πάντα, Κουκουβάγια, Φλαμίνγκο και Μέλισσα. Το χρώμα διατρέχει κάθε οθόνη, η μασκότ σάς υποδέχεται στην αρχική οθόνη, χαίρεται με κάθε δόση που καταγράφετε και κάθεται στο γράφημα βάρους σας, και το εικονίδιο της εφαρμογής στην αρχική σας οθόνη αλλάζει μαζί. Το Κλασικό κρατά τα πράγματα λιτά.</p>
           
@@ -318,9 +318,9 @@
     <section id="ai-calories" class="section">
       <div class="container split">
         <div class="split-copy">
-          <span class="badge-new">Νέο</span>
-          
           <h2 class="section-title">Φωτογραφίστε το γεύμα σας. Δείτε τις θερμίδες.</h2>
+          
+          <span class="badge-new">Νέο</span>
           
           <p>Με GLP-1 τρώτε λιγότερο, οπότε αυτό που τρώτε μετράει περισσότερο. Τραβήξτε μια φωτογραφία και το Dozify απαριθμεί κάθε τρόφιμο στο πιάτο με μια εκτίμηση των θερμίδων και της πρωτεΐνης του, στη γλώσσα σας. Είναι πάντα ένα επεξεργάσιμο προσχέδιο: διορθώστε μια μερίδα, προσθέστε ό,τι δεν είδε η κάμερα και μετά αποθηκεύστε το δίπλα στις δόσεις και στο βάρος σας. Η πρώτη φωτογραφία σας είναι δωρεάν· μετά είναι Premium, με δωρεάν δοκιμή 14 ημερών.</p>
           
@@ -343,29 +343,26 @@
         <p class="section-lede">Τρία βήματα. Χωρίς κόπο στη ρύθμιση.</p>
         
 
-        <div class="steps">
-          <div class="step">
-            <span class="step-num">1</span>
+        <ol class="steps">
+          <li class="step">
             <h3>Προσθέστε το φάρμακό σας</h3>
             
             <p>Επιλέξτε μια εβδομαδιαία ή καθημερινή ένεση — Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® — ή ένα καθημερινό δισκίο: Wegovy® σε χάπι, Ozempic® σε δισκίο, Rybelsus® ή Foundayo™. Ορίστε τη δόση και το πρόγραμμά σας.</p>
             
-          </div>
-          <div class="step">
-            <span class="step-num">2</span>
+          </li>
+          <li class="step">
             <h3>Καταγράψτε κάθε ένεση</h3>
             
             <p>Πατήστε για να καταγράψετε τη δόση, την ώρα και το σημείο της ένεσης πάνω σε ένα διάγραμμα του σώματος. Η έξυπνη εναλλαγή προτείνει το επόμενο σημείο.</p>
             
-          </div>
-          <div class="step">
-            <span class="step-num">3</span>
+          </li>
+          <li class="step">
             <h3>Μοιραστείτε τα με τον γιατρό σας</h3>
             
             <p>Εξαγάγετε μια αναφορά PDF με όλο το ιστορικό της θεραπείας, την πορεία του βάρους και το ημερολόγιο παρενεργειών: ιδανική για την επόμενη επίσκεψή σας.</p>
             
-          </div>
-        </div>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -483,11 +480,6 @@
 
         <div class="feature-grid feature-grid-4">
           <article class="feature">
-            <div class="feature-icon" style="background:#CCFBF1">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 3v2" /><path d="m5.6 5.6 1.4 1.4" /><path d="m18.4 5.6-1.4 1.4" /><path d="M3 12h2" /><path d="M19 12h2" /><path d="M12 21a6 6 0 0 0 6-6c0-3-2.5-4.5-6-9-3.5 4.5-6 6-6 9a6 6 0 0 0 6 6Z" />
-              </svg>
-            </div>
             <h3>Θερμίδες από φωτογραφία με AI <span class="badge-new">Νέο</span></h3>
             
             <p>Φωτογραφίστε το γεύμα σας και λάβετε εκτιμήσεις θερμίδων και πρωτεΐνης σε δευτερόλεπτα, στη γλώσσα σας. Εμφανίζονται πάντα ως προσχέδιο που μπορείτε να διορθώσετε — τον έλεγχο τον έχετε εσείς. Πρώτη φωτογραφία δωρεάν, μετά Premium. <a href="/el/ai-calorie-tracker">Πώς λειτουργούν οι θερμίδες AI</a></p>
@@ -495,33 +487,18 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#DCFCE7">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#15803D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" /><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" /><path d="M7 21h10" /><path d="M12 3v18" /><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
-              </svg>
-            </div>
             <h3>Δεν παίρνετε ακόμη φάρμακο; <span class="badge-new">Νέο</span></h3>
             
             <p>Ξεκινήστε με το βάρος και τα γεύματά σας: καταγράψτε το βάρος σας, φωτογραφίστε ένα γεύμα και δείτε τις θερμίδες του. Προσθέστε φάρμακο όταν ξεκινήσετε κάποιο.</p>
             
           </article>
           <article class="feature">
-            <div class="feature-icon" style="background:#EDE9FE">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#6D28D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" />
-              </svg>
-            </div>
             <h3>Προεπισκοπήσεις Premium με τα δικά σας δεδομένα <span class="badge-new">Νέο</span></h3>
             
             <p>Πριν αποφασίσετε, οι κλειδωμένες οθόνες δείχνουν τι προσθέτει το Premium με τις δικές σας καταχωρίσεις, όπως το εκτιμώμενο επίπεδο φαρμάκου. Σχεδιάζεται στη συσκευή σας· δεν αποστέλλεται τίποτα.</p>
             
           </article>
           <article class="feature">
-            <div class="feature-icon" style="background:#E0E7FF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 3v18h18" /><path d="M4 15c2-6 4-9 6-9s3 2 4 5 2 5 4 5 3-2 4-5" />
-              </svg>
-            </div>
             <h3>Καμπύλη επιπέδου φαρμάκου <span class="badge-new">Νέο</span></h3>
             
             <p>Μια εκτιμώμενη καμπύλη του πώς η δόση σας ανεβαίνει και σβήνει ανάμεσα στις ενέσεις — ώστε η πείνα της 6ης ημέρας να βγάζει επιτέλους νόημα. <a href="/el/glp1-medication-level">Σχετικά με την καμπύλη</a></p>
@@ -529,11 +506,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FCE7F3">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="13.5" cy="6.5" r=".5" /><circle cx="17.5" cy="10.5" r=".5" /><circle cx="8.5" cy="7.5" r=".5" /><circle cx="6.5" cy="12.5" r=".5" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" />
-              </svg>
-            </div>
             <h3>Θέματα &amp; μασκότ <span class="badge-new">Νέο</span></h3>
             
             <p>Χρώμα, μασκότ ακόμη και το εικονίδιο της εφαρμογής αλλάζουν μαζί. Το Δελφίνι είναι δωρεάν· το πάντα, η κουκουβάγια, το φλαμίνγκο και η μέλισσα περιλαμβάνονται στο Premium.</p>
@@ -541,11 +513,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF3C7">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
-              </svg>
-            </div>
             <h3>Ημερολόγιο νικών <span class="badge-new">Νέο</span></h3>
             
             <p>Πρόοδος που η ζυγαριά δεν βλέπει: ρούχα που σας κάνουν, σκάλες που έγιναν πιο εύκολες. Δωρεάν, σκόπιμα — για τις εβδομάδες στασιμότητας.</p>
@@ -553,11 +520,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#ECFEFF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M10 2v7.31" /><path d="M14 9.3V2" /><path d="M8.5 2h7" /><path d="M14 9.3a6.5 6.5 0 1 1-4 0" /><path d="M5.52 16h12.96" />
-              </svg>
-            </div>
             <h3>Αποτελέσματα εξετάσεων <span class="badge-new">Νέο</span></h3>
             
             <p>HbA1c, λιπίδια, ηπατικές τιμές — αποθηκεύονται ακριβώς όπως τις καταχωρίζετε και περιλαμβάνονται στο PDF για τον γιατρό. Χωρίς ετυμηγορίες, χωρίς χρωματικές βαθμολογίες.</p>
@@ -565,11 +527,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#F3E8FF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-              </svg>
-            </div>
             <h3>Συσχέτιση με τον κύκλο <span class="badge-new">Νέο</span></h3>
             
             <p>Δείτε τα συμπτώματά σας σε σχέση με τον έμμηνο κύκλο σας — μόνο αν το ενεργοποιήσετε, και τα δεδομένα δεν φεύγουν ποτέ από τη συσκευή σας.</p>
@@ -577,11 +534,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#E0F2FE">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
-              </svg>
-            </div>
             <h3>Τάση &amp; πρόβλεψη βάρους</h3>
             
             <p>Δείτε το βάρος σας σε καθαρά γραφήματα, με πρόβλεψη χρόνου μέχρι τον στόχο βασισμένη στα δικά σας δεδομένα.</p>
@@ -589,11 +541,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF3C7">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
-              </svg>
-            </div>
             <h3>Έξυπνες υπενθυμίσεις</h3>
             
             <p>Εβδομαδιαίες ή καθημερινές υπενθυμίσεις που ταιριάζουν με το πρόγραμμα του φαρμάκου σας.</p>
@@ -601,11 +548,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#EFF6FF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M10 2v7.5L4 22h16l-6-12.5V2" /><path d="M8.5 2h7" />
-              </svg>
-            </div>
             <h3>Απόθεμα φιαλιδίων</h3>
             
             <p>Ημερομηνίες ανοίγματος, αντίστροφη μέτρηση λήξης και δόσεις που απομένουν για κάθε φιαλίδιο.</p>
@@ -613,11 +555,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FCE7F3">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" />
-              </svg>
-            </div>
             <h3>Γραφήματα προόδου</h3>
             
             <p>Τάση βάρους, κλιμάκωση δόσης και μοτίβα παρενεργειών με μια ματιά.</p>
@@ -625,11 +562,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#ECFEFF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" />
-              </svg>
-            </div>
             <h3>Αναφορές PDF</h3>
             
             <p>Συνόψεις έτοιμες για τον γιατρό με ένα πάτημα, με όλο το χρονολόγιο της θεραπείας σας.</p>
@@ -637,11 +569,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEE2E2">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.49 4.04 3 5.5l7 7Z" />
-              </svg>
-            </div>
             <h3>Συγχρονισμός με Apple Health</h3>
             
             <p>Στο iPhone, το βάρος διαβάζεται αυτόματα από το Apple Health. Η εγγραφή προς τα εκεί είναι προαιρετική και απενεργοποιημένη από προεπιλογή.</p>
@@ -649,11 +576,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#EDE9FE">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="4" y="2" width="16" height="20" rx="2" /><line x1="8" x2="16" y1="6" y2="6" /><line x1="16" x2="16" y1="14" y2="18" /><path d="M8 10h.01" /><path d="M12 10h.01" /><path d="M16 10h.01" /><path d="M8 14h.01" /><path d="M12 14h.01" /><path d="M8 18h.01" /><path d="M12 18h.01" />
-              </svg>
-            </div>
             <h3>Ενσωματωμένοι υπολογιστές</h3>
             
             <p>Μετατροπή μονάδων (mg ↔ mL ↔ U-100) και εκτίμηση διάρκειας φιαλιδίου, δωρεάν.</p>
@@ -661,11 +583,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#DBEAFE">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" />
-              </svg>
-            </div>
             <h3>Φέρτε το ιστορικό σας</h3>
             
             <p>Έρχεστε από άλλη εφαρμογή καταγραφής; Το Dozify διαβάζει το αρχείο εξαγωγής σας, σας δείχνει τι βρήκε και το αποθηκεύει μόνο όταν εγκρίνετε: αφού πρώτα κρατήσει αντίγραφο ασφαλείας.</p>
@@ -673,11 +590,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#F3E8FF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect width="7" height="9" x="3" y="3" rx="1" /><rect width="7" height="5" x="14" y="3" rx="1" /><rect width="7" height="9" x="14" y="12" rx="1" /><rect width="7" height="5" x="3" y="16" rx="1" />
-              </svg>
-            </div>
             <h3>Μια αρχική οθόνη που φτιάχνετε εσείς</h3>
             
             <p>Αλλάξτε τη σειρά των καρτών, κρύψτε όσες δεν χρησιμοποιείτε, επαναφέρετέ τες όποτε θέλετε. Αν δεν καταγράφετε παρενέργειες, αυτά τα πεδία δεν εμφανίζονται ποτέ.</p>
@@ -685,11 +597,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF3C7">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
-              </svg>
-            </div>
             <h3>Οποιοδήποτε πρόγραμμα, και το πλάνο του γιατρού σας</h3>
             
             <p>Εβδομαδιαία, καθημερινά, κάθε λίγες ημέρες ή σε συγκεκριμένες ημερομηνίες. Αποθηκεύστε το πρόγραμμα δόσεων που σας έδωσε ο γιατρός σας και αφήστε την εφαρμογή να σας το υπενθυμίζει. Το Dozify δεν επιλέγει ποτέ το ίδιο μια δόση.</p>
@@ -697,11 +604,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#DCFCE7">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-              </svg>
-            </div>
             <h3>Βιβλιοθήκη γνώσεων</h3>
             
             <p>Οδηγοί με παραπομπές σε πηγές για τη δοσολογία, τις παρενέργειες και την τεχνική της ένεσης.</p>
@@ -709,11 +611,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#CCFBF1">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" />
-              </svg>
-            </div>
             <h3>Εναλλαγή σημείων ένεσης</h3>
             
             <p>Ένα διάγραμμα του σώματος καταγράφει κάθε σημείο και προτείνει πού να γίνει η επόμενη ένεση.</p>
@@ -721,11 +618,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FFEDD5">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z" /><path d="m7.5 10.5 2 2" /><path d="m10.5 7.5 2 2" /><path d="m13.5 4.5 2 2" /><path d="m4.5 13.5 2 2" />
-              </svg>
-            </div>
             <h3>Σωματικές μετρήσεις</h3>
             
             <p>Καταγράψτε μέση, γοφούς, λίπος σώματος και άλλα: την πρόοδο που η ζυγαριά μόνη της δεν δείχνει.</p>
@@ -733,11 +625,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF9C3">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
-              </svg>
-            </div>
             <h3>Ορόσημα &amp; σερί</h3>
             
             <p>Καθημερινά σερί και διακρίσεις επιτευγμάτων σας κρατούν συνεπείς και με κίνητρο.</p>
@@ -745,11 +632,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#ECFCCB">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#65A30D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /><path d="M7 2v20" /><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
-              </svg>
-            </div>
             <h3>Ημερολόγιο φαγητού &amp; νερού</h3>
             
             <p>Καταγράψτε γεύματα, πρωτεΐνη και ενυδάτωση ακριβώς δίπλα στη θεραπεία σας.</p>
@@ -783,14 +665,11 @@
     <section id="privacy" class="section privacy-section">
       <div class="container">
         <div class="privacy-card">
-          <div class="privacy-icon">
-            <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
-            </svg>
-          </div>
           <h2>Τα προσωπικά σας δεδομένα μένουν στο κινητό σας</h2>
           
           <p>Χωρίς λογαριασμό, χωρίς διαφημίσεις μέσα στην εφαρμογή, χωρίς προφίλ. Τα προσωπικά σας δεδομένα (ενέσεις, βάρος, μετρήσεις) δεν φεύγουν ποτέ από τη συσκευή σας. Διαγράψτε την εφαρμογή και τα δεδομένα σας χάνονται.</p>
+          
+          <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-el&mt=8" target="_blank" rel="noopener" class="btn btn-light">Λήψη από το App Store</a>
           
           <a href="/el/privacy" class="link-arrow">Διαβάστε την Πολιτική απορρήτου →</a>
           
@@ -851,7 +730,7 @@
           </article>
         </div>
 
-        <p class="meta" style="text-align:center;margin-top:24px">Τα Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® και Foundayo™ είναι εμπορικά σήματα των αντίστοιχων κατόχων τους. Το Dozify δεν συνδέεται με αυτές τις εταιρείες ούτε έχει την έγκριση ή τη χορηγία τους.</p>
+        <p class="meta trademarks">Τα Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® και Foundayo™ είναι εμπορικά σήματα των αντίστοιχων κατόχων τους. Το Dozify δεν συνδέεται με αυτές τις εταιρείες ούτε έχει την έγκριση ή τη χορηγία τους.</p>
         
       </div>
     </section>
@@ -922,75 +801,76 @@
         
 
         <div class="faq-list">
-          <div class="faq-item">
-            <h3>Είναι το Dozify δωρεάν;</h3>
-            
+          <details class="faq-item" open>
+            <summary><h3>Είναι το Dozify δωρεάν;</h3>
+            </summary>
             <p>Ναι. Η καταγραφή δόσεων, οι υπενθυμίσεις δόσεων, η εναλλαγή σημείων ένεσης, η καταγραφή βάρους, νερού και παρενεργειών, όλο το ιστορικό και οι φωτογραφίες σας, τα εκπαιδευτικά άρθρα, καθώς και η πρώτη ανάλυση φωτογραφίας γεύματος με AI είναι δωρεάν — η καταγραφή δόσεων μένει δωρεάν για πάντα, όχι για μια δοκιμαστική περίοδο. Το Premium είναι το επίπεδο κατανόησης: η καμπύλη εκτιμώμενου επιπέδου φαρμάκου, προηγμένα γραφήματα και τάσεις, πρόβλεψη βάρους, σύσταση σώματος, καταγραφή διατροφής και εκτιμήσεις θερμίδων από φωτογραφία με AI μετά την πρώτη, διαχείριση φιαλιδίων, αναφορές PDF για τον γιατρό, θέματα και ένα δεύτερο ενεργό φάρμακο. Λεπτομέρειες για τη συνδρομή και την ακύρωση υπάρχουν στη <a href="/el/support">σελίδα υποστήριξης</a>.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Είναι ιδιωτικά τα δεδομένα μου;</h3>
-            
+          <details class="faq-item" open>
+            <summary><h3>Είναι ιδιωτικά τα δεδομένα μου;</h3>
+            </summary>
             <p>Τα δεδομένα υγείας σας (δόσεις, βάρος, παρενέργειες, φωτογραφίες προόδου) αποθηκεύονται στη συσκευή σας και δεν ανεβαίνουν ποτέ. Η μόνη εξαίρεση είναι μια φωτογραφία γεύματος που επιλέγετε να αναλύσετε με τις θερμίδες AI: αποστέλλεται, αφού συμφωνήσετε, μέσω του διακομιστή μας στο Google Gemini και δεν αποθηκεύεται από την εφαρμογή. Δεν υπάρχει λογαριασμός ούτε συγχρονισμός στο cloud, και η εφαρμογή δεν προβάλλει διαφημίσεις. Συλλέγονται ανώνυμα στατιστικά χρήσης για τη βελτίωση της εφαρμογής, τα οποία δεν περιέχουν ποτέ όνομα φαρμάκου ή σύμπτωμα. Το Dozify μετρά επίσης αν μια εγκατάσταση προήλθε από μία από τις δικές του καμπάνιες στο App Store ή στη Meta· αυτή η μέτρηση γίνεται μόνο με την άδεια παρακολούθησης της Apple και δεν περιλαμβάνει ποτέ τα δεδομένα υγείας σας. Διαγράψτε την εφαρμογή και τα δεδομένα σας χάνονται.</p>
             
-          </div>
+          </details>
 
 
-          <div class="faq-item">
-            <h3>Ποια φάρμακα υποστηρίζει το Dozify;</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Ποια φάρμακα υποστηρίζει το Dozify;</h3>
+            </summary>
             <p>Το Dozify σάς βοηθά να καταγράφετε δημοφιλή φάρμακα GLP-1, όπως τα Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® και Victoza®, καθώς και καθημερινά δισκία: το Wegovy® σε χάπι, το Ozempic® σε δισκίο, το Rybelsus® και το Foundayo™. Αυτές οι εμπορικές ονομασίες είναι εμπορικά σήματα των αντίστοιχων κατόχων τους και το Dozify δεν συνδέεται με αυτές τις εταιρείες.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Λειτουργεί το Dozify χωρίς internet;</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Λειτουργεί το Dozify χωρίς internet;</h3>
+            </summary>
             <p>Ναι. Το Dozify είναι σχεδιασμένο να λειτουργεί πρώτα offline και δουλεύει πλήρως χωρίς σύνδεση στο internet. Δεν χρειάζεται ποτέ να συνδεθείτε ή να συγχρονίσετε για να το χρησιμοποιήσετε.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Μπορεί το Dozify να μου υπενθυμίζει την ένεση;</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Μπορεί το Dozify να μου υπενθυμίζει την ένεση;</h3>
+            </summary>
             <p>Ναι. Μπορείτε να ορίσετε μια εβδομαδιαία ή καθημερινή υπενθύμιση που ταιριάζει με το πρόγραμμα του φαρμάκου σας, ώστε να είναι πιο εύκολο να μένετε συνεπείς στη ρουτίνα σας.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Αντικαθιστά το Dozify τον γιατρό μου;</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Αντικαθιστά το Dozify τον γιατρό μου;</h3>
+            </summary>
             <p>Όχι. Το Dozify είναι εκπαιδευτικό εργαλείο καταγραφής, όχι ιατροτεχνολογικό προϊόν, και δεν παρέχει ιατρικές συμβουλές. Ακολουθείτε πάντα τον γιατρό σας και τη συνταγή σας — <a href="/el/why">όσα αρνείται να κάνει η εφαρμογή</a> είναι γραμμένα αναλυτικά.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Μπορώ να καταγράφω βάρος και παρενέργειες;</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Μπορώ να καταγράφω βάρος και παρενέργειες;</h3>
+            </summary>
             <p>Ναι. Μπορείτε να καταγράφετε το βάρος σας, τις σωματικές μετρήσεις και ένα ημερολόγιο παρενεργειών, και να βλέπετε την τάση σας σε καθαρά γραφήματα: μαζί με πρόβλεψη βάρους και εκτίμηση χρόνου μέχρι τον στόχο βασισμένη στα δικά σας δεδομένα.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Μπορώ να φέρω τα δεδομένα μου από άλλη εφαρμογή GLP-1;</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Μπορώ να φέρω τα δεδομένα μου από άλλη εφαρμογή GLP-1;</h3>
+            </summary>
             <p>Ναι, και είναι δωρεάν. Κάντε εξαγωγή από την εφαρμογή που αφήνετε, ανοίξτε Ρυθμίσεις &rarr; «Εισαγωγή του ιστορικού σου» στο Dozify και επιλέξτε το αρχείο. Διαβάζει αρχεία εξαγωγής από Shotsy, Glapp, GLPzy και GlucoPal και οποιοδήποτε CSV με στήλη ημερομηνίας, σας δείχνει τι βρήκε (πόσες ενέσεις, βάρη και σημειώσεις) πριν αποθηκεύσει οτιδήποτε, παραλείπει εγγραφές που έχετε ήδη και κρατά πρώτα αντίγραφο ασφαλείας των υπαρχόντων δεδομένων σας. <a href="/el/switch-glp1-tracker-app">Περισσότερα στη σελίδα μεταφοράς</a>.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Είναι διαθέσιμο το Dozify για Android;</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Είναι διαθέσιμο το Dozify για Android;</h3>
+            </summary>
             <p>Όχι ακόμη. Το Dozify είναι προς το παρόν μόνο για iPhone, στο App Store.</p>
             
-          </div>
+          </details>
         </div>
       </div>
     </section>
 
     <section id="download" class="section section-cta">
-      <div class="container">
+      <div class="container cta-grid">
+        <div class="cta-copy">
         <h2 class="section-title">Αποκτήστε την εφαρμογή</h2>
         
         <p class="section-lede">Το Dozify είναι διαθέσιμο στο App Store, για iPhone.</p>
@@ -1008,6 +888,13 @@
               <strong>App Store</strong>
             </div>
           </a>
+        </div>
+        </div>
+        <div class="cta-phone">
+          <div class="device">
+            <img src="/screenshots/el/bee-home.webp" srcset="/screenshots/el/bee-home-400w.webp 400w, /screenshots/el/bee-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Ρυθμίσεις με το πορτοκαλί θέμα Μέλισσα">
+            
+          </div>
         </div>
       </div>
     </section>

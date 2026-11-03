@@ -20,7 +20,7 @@
   <link rel="icon" href="/favicon.ico" sizes="32x32">
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="stylesheet" href="/styles.css?v=27b20e0a">
+  <link rel="stylesheet" href="/styles.css?v=af1d53e4">
   <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
        Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
        ad_personalization ve google_signals KAPALI: etiket yalnızca "mağaza düğmesine
@@ -35,6 +35,7 @@
     gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
   </script>
   <script src="/assets/store-click.js" defer></script>
+  <script src="/assets/home.js" defer></script>
   <meta name="keywords" content="glp-1 tracker app, glp-1, glp1, tracker, ozempic, wegovy, mounjaro, zepbound, semaglutide, tirzepatide, injection, dose, weight, side effects, vial, titration, reminder">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:image:alt" content="Dozify — a private GLP-1 injection and weight tracker for iPhone">
@@ -238,25 +239,10 @@
   <main>
     <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-copy">
-        <img class="hero-icon" src="/favicon.svg" width="96" height="96" alt="Dozify" />
-        <span class="pill">For Ozempic® · Wegovy® pen &amp; pill · Mounjaro® · Zepbound®</span>
-        
-
         <h1>Your GLP-1 routine, <span class="accent">on one screen.</span></h1>
         
 
-        <ul class="new-chips" aria-label="New in Dozify">
-          <li><a href="/en/ai-calorie-tracker">AI photo calories</a></li>
-          
-          <li><a href="#themes">Mascots &amp; themes</a></li>
-          
-          <li><a href="/en/glp1-pill-tracker">Pill tracking</a></li>
-          
-          <li><a href="/en/glp1-medication-level">Medication-level curve</a></li>
-          
-        </ul>
-
+        <div class="hero-copy">
         <p class="lede">
           Log every shot or daily pill, snap a meal and get calories and protein in seconds, and watch
           your weight next to an estimated curve of your medication. Make it yours with a mascot and a
@@ -269,6 +255,9 @@
           <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-en&mt=8" target="_blank" rel="noopener" class="btn btn-primary">Download on the App Store</a>
           
         </div>
+
+        <p class="pill">For Ozempic® · Wegovy® pen &amp; pill · Mounjaro® · Zepbound®</p>
+        
 
         <!-- The three things a visitor deciding on a health app wants settled
              before they tap Download, said before they have to look for them. -->
@@ -296,21 +285,32 @@
             
           </li>
         </ul>
+
+        <ul class="new-chips" aria-label="New in Dozify">
+          <li><a href="/en/ai-calorie-tracker">AI photo calories</a></li>
+          
+          <li><a href="#themes">Mascots &amp; themes</a></li>
+          
+          <li><a href="/en/glp1-pill-tracker">Pill tracking</a></li>
+          
+          <li><a href="/en/glp1-medication-level">Medication-level curve</a></li>
+          
+        </ul>
         </div>
 
         <!-- The product itself, above the fold. The page used to open on an app
              icon and four paragraphs, which asks a visitor to take the app's
              word for what it looks like. -->
-        <div class="hero-shot hero-fan" aria-hidden="false">
-          <div class="device fan-left">
+        <div class="hero-phones">
+          <div class="device phone-b">
             <img src="/screenshots/en/ai-result.webp" srcset="/screenshots/en/ai-result-400w.webp 400w, /screenshots/en/ai-result.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1631" decoding="async" alt="AI result: each item found on the plate with its calories and protein, ready to edit">
             
           </div>
-          <div class="device fan-right">
+          <div class="device phone-c">
             <img src="/screenshots/en/themes.webp" srcset="/screenshots/en/themes-400w.webp 400w, /screenshots/en/themes.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" decoding="async" alt="Theme picker with six mascots: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee">
             
           </div>
-          <div class="device fan-center">
+          <div class="device phone-a">
             <img src="/screenshots/en/dolphin-home.webp" srcset="/screenshots/en/dolphin-home-400w.webp 400w, /screenshots/en/dolphin-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" fetchpriority="high" decoding="async" alt="The Dozify home screen in the Dolphin theme: next dose, snap your meal, medication level, protein, water and weight">
             
           </div>
@@ -321,9 +321,9 @@
     <section id="themes" class="section section-light">
       <div class="container split">
         <div class="split-copy">
-          <span class="badge-new">New</span>
-          
           <h2 class="section-title">Pick a mascot. The whole app follows.</h2>
+          
+          <span class="badge-new">New</span>
           
           <p>Six themes, each a colour and a companion: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee. The colour runs through every screen, the mascot greets you on the home screen, cheers every dose you log and rides your weight chart, and the app icon on your home screen changes with it. Classic keeps things plain.</p>
           
@@ -344,9 +344,9 @@
     <section id="ai-calories" class="section">
       <div class="container split">
         <div class="split-copy">
-          <span class="badge-new">New</span>
-          
           <h2 class="section-title">Snap your meal. See the calories.</h2>
+          
+          <span class="badge-new">New</span>
           
           <p>On a GLP-1 you eat less, so what you do eat matters more. Take a photo and Dozify lists each item on the plate with an estimate of its calories and protein, in your language. It is always an editable draft: fix a portion, add what the camera missed, then save it next to your doses and weight. Your first photo is free; after that it is Premium, with a 14-day free trial.</p>
           
@@ -369,29 +369,26 @@
         <p class="section-lede">Three steps. No setup headache.</p>
         
 
-        <div class="steps">
-          <div class="step">
-            <span class="step-num">1</span>
+        <ol class="steps">
+          <li class="step">
             <h3>Add your medication</h3>
             
             <p>Pick a weekly or daily injection — Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® — or a daily tablet: Wegovy® pill, Ozempic® tablet, Rybelsus® or Foundayo™. Set your dose and schedule.</p>
             
-          </div>
-          <div class="step">
-            <span class="step-num">2</span>
+          </li>
+          <li class="step">
             <h3>Log every injection</h3>
             
             <p>Tap to record the dose, time, and injection site on a body diagram. Smart rotation suggests your next site.</p>
             
-          </div>
-          <div class="step">
-            <span class="step-num">3</span>
+          </li>
+          <li class="step">
             <h3>Share with your doctor</h3>
             
             <p>Export a PDF report with your full treatment history, weight progress, and side-effect log: perfect for your next visit.</p>
             
-          </div>
-        </div>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -548,11 +545,6 @@
 
         <div class="feature-grid feature-grid-4">
           <article class="feature">
-            <div class="feature-icon" style="background:#CCFBF1">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 3v2" /><path d="m5.6 5.6 1.4 1.4" /><path d="m18.4 5.6-1.4 1.4" /><path d="M3 12h2" /><path d="M19 12h2" /><path d="M12 21a6 6 0 0 0 6-6c0-3-2.5-4.5-6-9-3.5 4.5-6 6-6 9a6 6 0 0 0 6 6Z" />
-              </svg>
-            </div>
             <h3>AI photo calories <span class="badge-new">New</span></h3>
             
             <p>Snap your meal and get calorie and protein estimates in seconds, in your language. Always shown as an editable draft — you stay in charge. First photo free, then Premium. <a href="/en/ai-calorie-tracker">How AI calories work</a></p>
@@ -560,33 +552,18 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#DCFCE7">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#15803D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" /><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" /><path d="M7 21h10" /><path d="M12 3v18" /><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
-              </svg>
-            </div>
             <h3>Not on a medication yet? <span class="badge-new">New</span></h3>
             
             <p>Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.</p>
             
           </article>
           <article class="feature">
-            <div class="feature-icon" style="background:#EDE9FE">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#6D28D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" />
-              </svg>
-            </div>
             <h3>Premium previews on your own data <span class="badge-new">New</span></h3>
             
             <p>Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.</p>
             
           </article>
           <article class="feature">
-            <div class="feature-icon" style="background:#E0E7FF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 3v18h18" /><path d="M4 15c2-6 4-9 6-9s3 2 4 5 2 5 4 5 3-2 4-5" />
-              </svg>
-            </div>
             <h3>Medication-level curve <span class="badge-new">New</span></h3>
             
             <p>An estimated curve of how your dose builds up and fades between shots — so day-6 hunger finally makes sense. <a href="/en/glp1-medication-level">About the curve</a></p>
@@ -594,11 +571,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FCE7F3">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="13.5" cy="6.5" r=".5" /><circle cx="17.5" cy="10.5" r=".5" /><circle cx="8.5" cy="7.5" r=".5" /><circle cx="6.5" cy="12.5" r=".5" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" />
-              </svg>
-            </div>
             <h3>Themes &amp; mascots <span class="badge-new">New</span></h3>
             
             <p>Color, mascot and even the app icon change together. Dolphin is free; panda, owl, flamingo and bee come with Premium.</p>
@@ -606,11 +578,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF3C7">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
-              </svg>
-            </div>
             <h3>Victories journal <span class="badge-new">New</span></h3>
             
             <p>Progress the scale can't see: clothes that fit, stairs that got easier. Free, on purpose — for the plateau weeks.</p>
@@ -618,11 +585,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#ECFEFF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M10 2v7.31" /><path d="M14 9.3V2" /><path d="M8.5 2h7" /><path d="M14 9.3a6.5 6.5 0 1 1-4 0" /><path d="M5.52 16h12.96" />
-              </svg>
-            </div>
             <h3>Lab results <span class="badge-new">New</span></h3>
             
             <p>HbA1c, lipids, liver values — stored exactly as you enter them and included in the doctor PDF. No verdicts, no color grades.</p>
@@ -630,11 +592,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#F3E8FF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-              </svg>
-            </div>
             <h3>Cycle alignment <span class="badge-new">New</span></h3>
             
             <p>See your symptoms aligned to your menstrual cycle — only if you turn it on, and the data never leaves your device.</p>
@@ -642,11 +599,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#E0F2FE">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
-              </svg>
-            </div>
             <h3>Weight trend &amp; projection</h3>
             
             <p>See your weight on clear charts with a time-to-goal projection based on your own data.</p>
@@ -654,11 +606,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF3C7">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
-              </svg>
-            </div>
             <h3>Smart reminders</h3>
             
             <p>Weekly or daily reminders that match your medication's schedule.</p>
@@ -666,11 +613,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#EFF6FF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M10 2v7.5L4 22h16l-6-12.5V2" /><path d="M8.5 2h7" />
-              </svg>
-            </div>
             <h3>Vial stock</h3>
             
             <p>Open dates, expiry countdown, and remaining doses for every vial.</p>
@@ -678,11 +620,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FCE7F3">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 3v18h18" /><path d="m19 9-5 5-4-4-3 3" />
-              </svg>
-            </div>
             <h3>Progress charts</h3>
             
             <p>Weight trend, dose escalation, and side-effect patterns at a glance.</p>
@@ -690,11 +627,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#ECFEFF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" />
-              </svg>
-            </div>
             <h3>PDF reports</h3>
             
             <p>One-tap doctor-ready summaries with your full treatment timeline.</p>
@@ -702,11 +634,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEE2E2">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.49 4.04 3 5.5l7 7Z" />
-              </svg>
-            </div>
             <h3>Apple Health sync</h3>
             
             <p>On iPhone, weight is read from Apple Health automatically. Writing back is optional and off by default.</p>
@@ -714,11 +641,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#EDE9FE">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="4" y="2" width="16" height="20" rx="2" /><line x1="8" x2="16" y1="6" y2="6" /><line x1="16" x2="16" y1="14" y2="18" /><path d="M8 10h.01" /><path d="M12 10h.01" /><path d="M16 10h.01" /><path d="M8 14h.01" /><path d="M12 14h.01" /><path d="M8 18h.01" /><path d="M12 18h.01" />
-              </svg>
-            </div>
             <h3>Built-in calculators</h3>
             
             <p>Unit conversion (mg ↔ mL ↔ U-100) and vial-duration estimates, free.</p>
@@ -726,11 +648,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#DBEAFE">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" />
-              </svg>
-            </div>
             <h3>Bring your history</h3>
             
             <p>Moving from another tracker? Dozify reads your exported file, shows you what it found, and writes it only once you approve: with a backup taken first.</p>
@@ -738,11 +655,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#F3E8FF">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect width="7" height="9" x="3" y="3" rx="1" /><rect width="7" height="5" x="14" y="3" rx="1" /><rect width="7" height="9" x="14" y="12" rx="1" /><rect width="7" height="5" x="3" y="16" rx="1" />
-              </svg>
-            </div>
             <h3>A home screen you build</h3>
             
             <p>Reorder cards, hide the ones you do not use, bring them back whenever you like. If you do not track side effects, those fields never appear.</p>
@@ -750,11 +662,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF3C7">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
-              </svg>
-            </div>
             <h3>Any schedule, and your doctor&#39;s plan</h3>
             
             <p>Weekly, daily, every few days or specific dates. Save the dose schedule your clinician gave you and let the app remind you. Dozify never picks a dose itself.</p>
@@ -762,11 +669,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#DCFCE7">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-              </svg>
-            </div>
             <h3>Education library</h3>
             
             <p>Source-cited guides on dosing, side effects, and injection technique.</p>
@@ -774,11 +676,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#CCFBF1">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" />
-              </svg>
-            </div>
             <h3>Injection site rotation</h3>
             
             <p>A body diagram tracks each site and suggests where to inject next.</p>
@@ -786,11 +683,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FFEDD5">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z" /><path d="m7.5 10.5 2 2" /><path d="m10.5 7.5 2 2" /><path d="m13.5 4.5 2 2" /><path d="m4.5 13.5 2 2" />
-              </svg>
-            </div>
             <h3>Body measurements</h3>
             
             <p>Track waist, hip, body-fat and more: the progress the scale alone misses.</p>
@@ -798,11 +690,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF9C3">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
-              </svg>
-            </div>
             <h3>Milestones &amp; streaks</h3>
             
             <p>Daily streaks and achievement badges keep you consistent and motivated.</p>
@@ -810,11 +697,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#ECFCCB">
-              <svg viewbox="0 0 24 24" fill="none" stroke="#65A30D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /><path d="M7 2v20" /><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
-              </svg>
-            </div>
             <h3>Food &amp; water log</h3>
             
             <p>Log meals, protein and hydration right alongside your treatment.</p>
@@ -848,17 +730,14 @@
     <section id="privacy" class="section privacy-section">
       <div class="container">
         <div class="privacy-card">
-          <div class="privacy-icon">
-            <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
-            </svg>
-          </div>
           <h2>Your personal data stays on your phone</h2>
           
           <p>
             No account, no in-app ads, no profile. Your personal data (injections, weight, measurements) never leaves your device.
             Delete the app and your data is gone.
           </p>
+          
+          <a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-home-en&mt=8" target="_blank" rel="noopener" class="btn btn-light">Download on the App Store</a>
           
           <a href="/en/privacy" class="link-arrow">Read the Privacy Policy →</a>
           
@@ -919,7 +798,7 @@
           </article>
         </div>
 
-        <p class="meta" style="text-align:center;margin-top:24px">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® and Foundayo™ are trademarks of their respective owners. Dozify is not affiliated with, endorsed by or sponsored by these companies.</p>
+        <p class="meta trademarks">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® and Foundayo™ are trademarks of their respective owners. Dozify is not affiliated with, endorsed by or sponsored by these companies.</p>
         
       </div>
     </section>
@@ -990,75 +869,76 @@
         
 
         <div class="faq-list">
-          <div class="faq-item">
-            <h3>Is Dozify free?</h3>
-            
+          <details class="faq-item" open>
+            <summary><h3>Is Dozify free?</h3>
+            </summary>
             <p>Yes. Dose logging, dose reminders, injection-site rotation, weight, water and side-effect logging, your whole history and photos, the education articles and your first AI meal-photo analysis are free — dose tracking stays free forever, not for a trial window. Premium is the understanding layer: the estimated medication-level curve, advanced charts and trends, weight projection, body composition, nutrition tracking and AI photo calories after the first one, vial management, doctor PDF reports, themes, and a second active medication. Subscription and cancellation details are on the <a href="/en/support">support page</a>.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Is my data private?</h3>
-            
+          <details class="faq-item" open>
+            <summary><h3>Is my data private?</h3>
+            </summary>
             <p>Your health records (doses, weight, side effects, progress photos) are stored on your device and never uploaded. The one exception is a meal photo you choose to analyse with AI calories: it is sent, after you agree, through our server to Google Gemini and is not stored by the app. There is no account and no cloud sync, and the app shows no advertising. Anonymous usage statistics are collected so the app can be improved, and they never carry a medication name or a symptom. Dozify also measures whether an install came from one of its own App Store or Meta campaigns; that measurement runs behind Apple's tracking permission and never includes your health records. Delete the app and your records are gone.</p>
             
-          </div>
+          </details>
 
 
-          <div class="faq-item">
-            <h3>Which medications does Dozify support?</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Which medications does Dozify support?</h3>
+            </summary>
             <p>Dozify helps you track popular GLP-1 medications, including Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity®, and Victoza®, plus daily tablets: the Wegovy® pill, Ozempic® tablet, Rybelsus® and Foundayo™. These brand names are trademarks of their respective owners, and Dozify is not affiliated with these companies.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Does Dozify work without internet?</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Does Dozify work without internet?</h3>
+            </summary>
             <p>Yes. Dozify is offline-first and works fully without an internet connection. You never need to sign in or sync to use it.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Can Dozify remind me of my injection?</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Can Dozify remind me of my injection?</h3>
+            </summary>
             <p>Yes. You can set a weekly or daily reminder that matches your medication's schedule, so it is easier to stay consistent with your routine.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Does Dozify replace my doctor?</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Does Dozify replace my doctor?</h3>
+            </summary>
             <p>No. Dozify is an educational tracking tool, not a medical device, and it does not provide medical advice. Always follow your doctor and your prescription — <a href="/en/why">what the app refuses to do</a> is written out in full.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Can I track weight and side effects?</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Can I track weight and side effects?</h3>
+            </summary>
             <p>Yes. You can record your weight, body measurements, and a side-effect diary, and see your trend on clear charts: including a weight projection and a time-to-goal estimate based on your own data.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Can I bring my data from another GLP-1 app?</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Can I bring my data from another GLP-1 app?</h3>
+            </summary>
             <p>Yes, and it is free. Export from the app you are leaving, open Settings &rarr; Import in Dozify and pick the file. It reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column, shows you what it found (how many injections, weights and notes) before writing anything, skips records you already have, and backs up your existing data first. <a href="/en/switch-glp1-tracker-app">More on the switching page</a>.</p>
             
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3>Is Dozify available on Android?</h3>
-            
+          <details class="faq-item">
+            <summary><h3>Is Dozify available on Android?</h3>
+            </summary>
             <p>Not yet. Dozify is iPhone only for now, on the App Store.</p>
             
-          </div>
+          </details>
         </div>
       </div>
     </section>
 
     <section id="download" class="section section-cta">
-      <div class="container">
+      <div class="container cta-grid">
+        <div class="cta-copy">
         <h2 class="section-title">Get the app</h2>
         
         <p class="section-lede">Dozify is on the App Store, for iPhone.</p>
@@ -1076,6 +956,13 @@
               <strong>App Store</strong>
             </div>
           </a>
+        </div>
+        </div>
+        <div class="cta-phone">
+          <div class="device">
+            <img src="/screenshots/en/bee-home.webp" srcset="/screenshots/en/bee-home-400w.webp 400w, /screenshots/en/bee-home.webp 750w" sizes="(min-width: 900px) 300px, 72vw" width="750" height="1630" loading="lazy" decoding="async" alt="Settings in the orange Honeybee theme">
+            
+          </div>
         </div>
       </div>
     </section>

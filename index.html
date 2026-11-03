@@ -37,6 +37,7 @@
     gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
   </script>
   <script src="/assets/store-click.js" defer></script>
+  <script src="/assets/home.js" defer></script>
 </head>
 <body>
   <header class="nav">
@@ -68,25 +69,10 @@
   <main>
     <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-copy">
-        <img class="hero-icon" src="favicon.svg" width="96" height="96" alt="Dozify" />
-        <span class="pill" data-lang="en">For Ozempic® · Wegovy® pen &amp; pill · Mounjaro® · Zepbound®</span>
-        <span class="pill" data-lang="tr">Ozempic® · Wegovy® kalem ve hap · Mounjaro® · Zepbound® kullananlar için</span>
-
         <h1 data-lang="en">Your GLP-1 routine, <span class="accent">on one screen.</span></h1>
         <h1 data-lang="tr">GLP-1 rutininiz, <span class="accent">tek ekranda.</span></h1>
 
-        <ul class="new-chips" aria-label="New in Dozify">
-          <li data-lang="en"><a href="/ai-calorie-tracker">AI photo calories</a></li>
-          <li data-lang="tr"><a href="/ai-calorie-tracker">Fotoğraftan AI kalori</a></li>
-          <li data-lang="en"><a href="#themes">Mascots &amp; themes</a></li>
-          <li data-lang="tr"><a href="#themes">Maskot ve temalar</a></li>
-          <li data-lang="en"><a href="/glp1-pill-tracker">Pill tracking</a></li>
-          <li data-lang="tr"><a href="/glp1-pill-tracker">Hap takibi</a></li>
-          <li data-lang="en"><a href="/glp1-medication-level">Medication-level curve</a></li>
-          <li data-lang="tr"><a href="/glp1-medication-level">İlaç seviyesi eğrisi</a></li>
-        </ul>
-
+        <div class="hero-copy">
         <p class="lede" data-lang="en">
           Log every shot or daily pill, snap a meal and get calories and protein in seconds, and watch
           your weight next to an estimated curve of your medication. Make it yours with a mascot and a
@@ -105,6 +91,9 @@
           <a href="https://apps.apple.com/app/dozify/id6764325653" target="_blank" rel="noopener" class="btn btn-primary" data-lang="en">Download on the App Store</a>
           <a href="https://apps.apple.com/app/dozify/id6764325653" target="_blank" rel="noopener" class="btn btn-primary" data-lang="tr">App Store'dan indir</a>
         </div>
+
+        <p class="pill" data-lang="en">For Ozempic® · Wegovy® pen &amp; pill · Mounjaro® · Zepbound®</p>
+        <p class="pill" data-lang="tr">Ozempic® · Wegovy® kalem ve hap · Mounjaro® · Zepbound® kullananlar için</p>
 
         <!-- The three things a visitor deciding on a health app wants settled
              before they tap Download, said before they have to look for them. -->
@@ -132,25 +121,36 @@
             <span data-lang="tr">Takip aracı, tıbbi cihaz değil: planınızı kaydeder, asla plan önermez</span>
           </li>
         </ul>
+
+        <ul class="new-chips" aria-label="New in Dozify">
+          <li data-lang="en"><a href="/ai-calorie-tracker">AI photo calories</a></li>
+          <li data-lang="tr"><a href="/ai-calorie-tracker">Fotoğraftan AI kalori</a></li>
+          <li data-lang="en"><a href="#themes">Mascots &amp; themes</a></li>
+          <li data-lang="tr"><a href="#themes">Maskot ve temalar</a></li>
+          <li data-lang="en"><a href="/glp1-pill-tracker">Pill tracking</a></li>
+          <li data-lang="tr"><a href="/glp1-pill-tracker">Hap takibi</a></li>
+          <li data-lang="en"><a href="/glp1-medication-level">Medication-level curve</a></li>
+          <li data-lang="tr"><a href="/glp1-medication-level">İlaç seviyesi eğrisi</a></li>
+        </ul>
         </div>
 
         <!-- The product itself, above the fold. The page used to open on an app
              icon and four paragraphs, which asks a visitor to take the app's
              word for what it looks like. -->
-        <div class="hero-shot hero-fan" aria-hidden="false">
-          <div class="device fan-left">
+        <div class="hero-phones">
+          <div class="device phone-b">
             <img data-lang="en" src="screenshots/en/ai-result.webp" width="750" height="1631" decoding="async"
                  alt="AI result: each item found on the plate with its calories and protein, ready to edit">
             <img data-lang="tr" src="screenshots/tr/ai-result.webp" width="750" height="1631" decoding="async"
                  alt="AI sonucu: tabakta bulunan her öğe kalori ve proteiniyle, düzenlenmeye hazır">
           </div>
-          <div class="device fan-right">
+          <div class="device phone-c">
             <img data-lang="en" src="screenshots/en/themes.webp" width="750" height="1630" decoding="async"
                  alt="Theme picker with six mascots: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee">
             <img data-lang="tr" src="screenshots/tr/themes.webp" width="750" height="1630" decoding="async"
                  alt="Altı maskotlu tema seçici: Klasik, Yunus, Panda, Gece Kuşu, Flamingo ve Arı">
           </div>
-          <div class="device fan-center">
+          <div class="device phone-a">
             <img data-lang="en" src="screenshots/en/dolphin-home.webp" width="750" height="1630"
                  fetchpriority="high" decoding="async"
                  alt="The Dozify home screen in the Dolphin theme: next dose, snap your meal, medication level, protein, water and weight">
@@ -165,10 +165,10 @@
     <section id="themes" class="section section-light">
       <div class="container split">
         <div class="split-copy">
-          <span class="badge-new" data-lang="en">New</span>
-          <span class="badge-new" data-lang="tr">Yeni</span>
           <h2 class="section-title" data-lang="en">Pick a mascot. The whole app follows.</h2>
           <h2 class="section-title" data-lang="tr">Bir maskot seç. Bütün uygulama ona uyar.</h2>
+          <span class="badge-new" data-lang="en">New</span>
+          <span class="badge-new" data-lang="tr">Yeni</span>
           <p data-lang="en">Six themes, each a colour and a companion: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee. The colour runs through every screen, the mascot greets you on the home screen, cheers every dose you log and rides your weight chart, and the app icon on your home screen changes with it. Classic keeps things plain.</p>
           <p data-lang="tr">Altı tema, her biri bir renk ve bir yol arkadaşı: Klasik, Yunus, Panda, Gece Kuşu, Flamingo ve Arı. Renk her ekrana yayılır, maskot ana ekranda seni karşılar, kaydettiğin her dozda seninle sevinir ve kilo grafiğinde görünür, ana ekranındaki uygulama ikonu da onunla birlikte değişir. Sade sevenler için Klasik var.</p>
           <p data-lang="en">Dolphin is free. Panda, Night Owl, Flamingo and Honeybee come with Premium. Light, dark or follow the system — your choice.</p>
@@ -188,10 +188,10 @@
     <section id="ai-calories" class="section">
       <div class="container split">
         <div class="split-copy">
-          <span class="badge-new" data-lang="en">New</span>
-          <span class="badge-new" data-lang="tr">Yeni</span>
           <h2 class="section-title" data-lang="en">Snap your meal. See the calories.</h2>
           <h2 class="section-title" data-lang="tr">Öğününü çek. Kaloriyi gör.</h2>
+          <span class="badge-new" data-lang="en">New</span>
+          <span class="badge-new" data-lang="tr">Yeni</span>
           <p data-lang="en">On a GLP-1 you eat less, so what you do eat matters more. Take a photo and Dozify lists each item on the plate with an estimate of its calories and protein, in your language. It is always an editable draft: fix a portion, add what the camera missed, then save it next to your doses and weight. Your first photo is free; after that it is Premium, with a 14-day free trial.</p>
           <p data-lang="tr">GLP-1 kullanırken daha az yersin; bu yüzden yediğin şey daha çok önem kazanır. Bir fotoğraf çek, Dozify tabaktaki her öğeyi kalori ve protein tahminiyle, kendi dilinde listelesin. Sonuç her zaman düzenlenebilir bir taslaktır: porsiyonu düzelt, kameranın kaçırdığını ekle, sonra dozlarının ve kilonun yanına kaydet. İlk fotoğraf ücretsiz, sonrası Premium; 14 gün ücretsiz deneyebilirsin.</p>
           <p data-lang="en"><a href="/ai-calorie-tracker" class="link-arrow">How AI calories work</a></p>
@@ -213,29 +213,26 @@
         <p class="section-lede" data-lang="en">Three steps. No setup headache.</p>
         <p class="section-lede" data-lang="tr">Üç adım. Karmaşık kurulum yok.</p>
 
-        <div class="steps">
-          <div class="step">
-            <span class="step-num">1</span>
+        <ol class="steps">
+          <li class="step">
             <h3 data-lang="en">Add your medication</h3>
             <h3 data-lang="tr">İlacınızı ekleyin</h3>
             <p data-lang="en">Pick a weekly or daily injection — Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® — or a daily tablet: Wegovy® pill, Ozempic® tablet, Rybelsus® or Foundayo™. Set your dose and schedule.</p>
             <p data-lang="tr">Haftalık ya da günlük bir iğne seçin — Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza® — ya da günlük bir hap: Wegovy® hap, Ozempic® tablet, Rybelsus® veya Foundayo™. Doz ve programınızı belirleyin.</p>
-          </div>
-          <div class="step">
-            <span class="step-num">2</span>
+          </li>
+          <li class="step">
             <h3 data-lang="en">Log every injection</h3>
             <h3 data-lang="tr">Her enjeksiyonu kaydedin</h3>
             <p data-lang="en">Tap to record the dose, time, and injection site on a body diagram. Smart rotation suggests your next site.</p>
             <p data-lang="tr">Tek dokunuşla doz, saat ve enjeksiyon bölgesini vücut diyagramına kaydedin. Akıllı rotasyon bir sonraki bölgeyi önerir.</p>
-          </div>
-          <div class="step">
-            <span class="step-num">3</span>
+          </li>
+          <li class="step">
             <h3 data-lang="en">Share with your doctor</h3>
             <h3 data-lang="tr">Doktorunuzla paylaşın</h3>
             <p data-lang="en">Export a PDF report with your full treatment history, weight progress, and side-effect log: perfect for your next visit.</p>
             <p data-lang="tr">Tüm tedavi geçmişi, kilo takibi ve yan etki kaydını içeren PDF rapor oluşturun: bir sonraki randevunuza hazır.</p>
-          </div>
-        </div>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -497,11 +494,6 @@
 
         <div class="feature-grid feature-grid-4">
           <article class="feature">
-            <div class="feature-icon" style="background:#CCFBF1">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 3v2"/><path d="m5.6 5.6 1.4 1.4"/><path d="m18.4 5.6-1.4 1.4"/><path d="M3 12h2"/><path d="M19 12h2"/><path d="M12 21a6 6 0 0 0 6-6c0-3-2.5-4.5-6-9-3.5 4.5-6 6-6 9a6 6 0 0 0 6 6Z"/>
-              </svg>
-            </div>
             <h3 data-lang="en">AI photo calories <span class="badge-new">New</span></h3>
             <h3 data-lang="tr">AI fotoğraf kalorisi <span class="badge-new">Yeni</span></h3>
             <p data-lang="en">Snap your meal and get calorie and protein estimates in seconds, in your language. Always shown as an editable draft — you stay in charge. First photo free, then Premium. <a href="/ai-calorie-tracker">How AI calories work</a></p>
@@ -509,33 +501,18 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#DCFCE7">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#15803D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Not on a medication yet? <span class="badge-new">New</span></h3>
             <h3 data-lang="tr">Henüz ilaç kullanmıyor musunuz? <span class="badge-new">Yeni</span></h3>
             <p data-lang="en">Start with your weight and meals: log your weight, photograph a meal and see its calories. Add a medication whenever you begin one.</p>
             <p data-lang="tr">Kilonuz ve öğünlerinizle başlayın: kilonuzu kaydedin, öğününüzün fotoğrafını çekip kalorisini görün. Bir ilaca başladığınızda ekleyin.</p>
           </article>
           <article class="feature">
-            <div class="feature-icon" style="background:#EDE9FE">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#6D28D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Premium previews on your own data <span class="badge-new">New</span></h3>
             <h3 data-lang="tr">Kendi verinizle Premium önizlemesi <span class="badge-new">Yeni</span></h3>
             <p data-lang="en">Before you decide, locked screens show what Premium adds using your own entries, such as your estimated medication level. Drawn on your device; nothing is sent.</p>
             <p data-lang="tr">Karar vermeden önce kilitli ekranlar, Premium'un ne eklediğini kendi kayıtlarınızla gösterir; örneğin tahmini ilaç seviyeniz. Cihazınızda çizilir, hiçbir şey gönderilmez.</p>
           </article>
           <article class="feature">
-            <div class="feature-icon" style="background:#E0E7FF">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 3v18h18"/><path d="M4 15c2-6 4-9 6-9s3 2 4 5 2 5 4 5 3-2 4-5"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Medication-level curve <span class="badge-new">New</span></h3>
             <h3 data-lang="tr">İlaç seviye eğrisi <span class="badge-new">Yeni</span></h3>
             <p data-lang="en">An estimated curve of how your dose builds up and fades between shots — so day-6 hunger finally makes sense. <a href="/glp1-medication-level">About the curve</a></p>
@@ -543,11 +520,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FCE7F3">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Themes &amp; mascots <span class="badge-new">New</span></h3>
             <h3 data-lang="tr">Temalar ve maskotlar <span class="badge-new">Yeni</span></h3>
             <p data-lang="en">Color, mascot and even the app icon change together. Dolphin is free; panda, owl, flamingo and bee come with Premium.</p>
@@ -555,11 +527,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF3C7">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Victories journal <span class="badge-new">New</span></h3>
             <h3 data-lang="tr">Zaferler günlüğü <span class="badge-new">Yeni</span></h3>
             <p data-lang="en">Progress the scale can't see: clothes that fit, stairs that got easier. Free, on purpose — for the plateau weeks.</p>
@@ -567,11 +534,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#ECFEFF">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M10 2v7.31"/><path d="M14 9.3V2"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Lab results <span class="badge-new">New</span></h3>
             <h3 data-lang="tr">Tahlil sonuçları <span class="badge-new">Yeni</span></h3>
             <p data-lang="en">HbA1c, lipids, liver values — stored exactly as you enter them and included in the doctor PDF. No verdicts, no color grades.</p>
@@ -579,11 +541,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#F3E8FF">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Cycle alignment <span class="badge-new">New</span></h3>
             <h3 data-lang="tr">Döngü hizalaması <span class="badge-new">Yeni</span></h3>
             <p data-lang="en">See your symptoms aligned to your menstrual cycle — only if you turn it on, and the data never leaves your device.</p>
@@ -591,11 +548,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#E0F2FE">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Weight trend &amp; projection</h3>
             <h3 data-lang="tr">Kilo trendi ve projeksiyon</h3>
             <p data-lang="en">See your weight on clear charts with a time-to-goal projection based on your own data.</p>
@@ -603,11 +555,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF3C7">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Smart reminders</h3>
             <h3 data-lang="tr">Akıllı hatırlatıcılar</h3>
             <p data-lang="en">Weekly or daily reminders that match your medication's schedule.</p>
@@ -615,11 +562,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#EFF6FF">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M10 2v7.5L4 22h16l-6-12.5V2"/><path d="M8.5 2h7"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Vial stock</h3>
             <h3 data-lang="tr">Flakon stoğu</h3>
             <p data-lang="en">Open dates, expiry countdown, and remaining doses for every vial.</p>
@@ -627,11 +569,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FCE7F3">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Progress charts</h3>
             <h3 data-lang="tr">İlerleme grafikleri</h3>
             <p data-lang="en">Weight trend, dose escalation, and side-effect patterns at a glance.</p>
@@ -639,11 +576,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#ECFEFF">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/>
-              </svg>
-            </div>
             <h3 data-lang="en">PDF reports</h3>
             <h3 data-lang="tr">PDF raporlar</h3>
             <p data-lang="en">One-tap doctor-ready summaries with your full treatment timeline.</p>
@@ -651,11 +583,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEE2E2">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.49 4.04 3 5.5l7 7Z"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Apple Health sync</h3>
             <h3 data-lang="tr">Apple Health senkronizasyonu</h3>
             <p data-lang="en">On iPhone, weight is read from Apple Health automatically. Writing back is optional and off by default.</p>
@@ -663,11 +590,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#EDE9FE">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M8 10h.01"/><path d="M12 10h.01"/><path d="M16 10h.01"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Built-in calculators</h3>
             <h3 data-lang="tr">Yerleşik hesaplayıcılar</h3>
             <p data-lang="en">Unit conversion (mg ↔ mL ↔ U-100) and vial-duration estimates, free.</p>
@@ -675,11 +597,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#DBEAFE">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Bring your history</h3>
             <h3 data-lang="tr">Geçmişinizi getirin</h3>
             <p data-lang="en">Moving from another tracker? Dozify reads your exported file, shows you what it found, and writes it only once you approve: with a backup taken first.</p>
@@ -687,11 +604,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#F3E8FF">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#9333EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/>
-              </svg>
-            </div>
             <h3 data-lang="en">A home screen you build</h3>
             <h3 data-lang="tr">Kendi kurduğunuz ana ekran</h3>
             <p data-lang="en">Reorder cards, hide the ones you do not use, bring them back whenever you like. If you do not track side effects, those fields never appear.</p>
@@ -699,11 +611,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF3C7">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Any schedule, and your doctor&#39;s plan</h3>
             <h3 data-lang="tr">Her program ve doktorunuzun planı</h3>
             <p data-lang="en">Weekly, daily, every few days or specific dates. Save the dose schedule your clinician gave you and let the app remind you. Dozify never picks a dose itself.</p>
@@ -711,11 +618,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#DCFCE7">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Education library</h3>
             <h3 data-lang="tr">Eğitim kütüphanesi</h3>
             <p data-lang="en">Source-cited guides on dosing, side effects, and injection technique.</p>
@@ -723,11 +625,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#CCFBF1">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Injection site rotation</h3>
             <h3 data-lang="tr">Enjeksiyon bölge rotasyonu</h3>
             <p data-lang="en">A body diagram tracks each site and suggests where to inject next.</p>
@@ -735,11 +632,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FFEDD5">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z"/><path d="m7.5 10.5 2 2"/><path d="m10.5 7.5 2 2"/><path d="m13.5 4.5 2 2"/><path d="m4.5 13.5 2 2"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Body measurements</h3>
             <h3 data-lang="tr">Vücut ölçüleri</h3>
             <p data-lang="en">Track waist, hip, body-fat and more: the progress the scale alone misses.</p>
@@ -747,11 +639,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#FEF9C3">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Milestones &amp; streaks</h3>
             <h3 data-lang="tr">Kilometre taşları ve seriler</h3>
             <p data-lang="en">Daily streaks and achievement badges keep you consistent and motivated.</p>
@@ -759,11 +646,6 @@
           </article>
 
           <article class="feature">
-            <div class="feature-icon" style="background:#ECFCCB">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#65A30D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>
-              </svg>
-            </div>
             <h3 data-lang="en">Food &amp; water log</h3>
             <h3 data-lang="tr">Yemek ve su takibi</h3>
             <p data-lang="en">Log meals, protein and hydration right alongside your treatment.</p>
@@ -797,11 +679,6 @@
     <section id="privacy" class="section privacy-section">
       <div class="container">
         <div class="privacy-card">
-          <div class="privacy-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z"/>
-            </svg>
-          </div>
           <h2 data-lang="en">Your personal data stays on your phone</h2>
           <h2 data-lang="tr">Kişisel verileriniz telefonunuzda kalır</h2>
           <p data-lang="en">
@@ -812,6 +689,8 @@
             Hesap yok, uygulama içinde reklam yok, profil yok. Kişisel verileriniz (enjeksiyonlar, kilo, ölçüler) cihazınızdan çıkmaz.
             Uygulamayı silerseniz veriniz de silinir.
           </p>
+          <a href="https://apps.apple.com/app/dozify/id6764325653" target="_blank" rel="noopener" class="btn btn-light" data-lang="en">Download on the App Store</a>
+          <a href="https://apps.apple.com/app/dozify/id6764325653" target="_blank" rel="noopener" class="btn btn-light" data-lang="tr">App Store'dan indir</a>
           <a href="/privacy" class="link-arrow" data-lang="en">Read the Privacy Policy →</a>
           <a href="/privacy" class="link-arrow" data-lang="tr">Gizlilik Politikasını Oku →</a>
         </div>
@@ -871,8 +750,8 @@
           </article>
         </div>
 
-        <p class="meta" style="text-align:center;margin-top:24px" data-lang="en">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® and Foundayo™ are trademarks of their respective owners. Dozify is not affiliated with, endorsed by or sponsored by these companies.</p>
-        <p class="meta" style="text-align:center;margin-top:24px" data-lang="tr">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® ve Foundayo™ ilgili sahiplerinin tescilli markalarıdır. Dozify bu firmalarla bağlantılı değildir, onlar tarafından onaylanmamış ve desteklenmemektedir.</p>
+        <p class="meta trademarks" data-lang="en">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® and Foundayo™ are trademarks of their respective owners. Dozify is not affiliated with, endorsed by or sponsored by these companies.</p>
+        <p class="meta trademarks" data-lang="tr">Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Trulicity®, Saxenda®, Victoza®, Rybelsus® ve Foundayo™ ilgili sahiplerinin tescilli markalarıdır. Dozify bu firmalarla bağlantılı değildir, onlar tarafından onaylanmamış ve desteklenmemektedir.</p>
       </div>
     </section>
 
@@ -942,75 +821,76 @@
         <h2 class="section-title" data-lang="tr">Sık sorulan sorular</h2>
 
         <div class="faq-list">
-          <div class="faq-item">
-            <h3 data-lang="en">Is Dozify free?</h3>
-            <h3 data-lang="tr">Dozify ücretsiz mi?</h3>
+          <details class="faq-item" open>
+            <summary><h3 data-lang="en">Is Dozify free?</h3>
+            <h3 data-lang="tr">Dozify ücretsiz mi?</h3></summary>
             <p data-lang="en">Yes. Dose logging, dose reminders, injection-site rotation, weight, water and side-effect logging, your whole history and photos, the education articles and your first AI meal-photo analysis are free — dose tracking stays free forever, not for a trial window. Premium is the understanding layer: the estimated medication-level curve, advanced charts and trends, weight projection, body composition, nutrition tracking and AI photo calories after the first one, vial management, doctor PDF reports, themes, and a second active medication. Subscription and cancellation details are on the <a href="/support">support page</a>.</p>
             <p data-lang="tr">Evet. Doz kaydı, doz hatırlatıcıları, bölge rotasyonu, kilo, su ve yan etki kaydı, tüm geçmişiniz ve fotoğraflarınız, eğitim makaleleri ve ilk AI yemek fotoğrafı analizi ücretsiz — doz takibi deneme süresiyle değil, sonsuza dek ücretsiz. Premium ise anlama katmanı: tahmini ilaç seviye eğrisi, gelişmiş grafik ve trendler, kilo tahmini, vücut kompozisyonu, beslenme takibi ve ilkinden sonra AI fotoğraf kalorisi, flakon yönetimi, doktor PDF raporları, temalar ve ikinci aktif ilaç. Abonelik ve iptal ayrıntıları <a href="/support">destek sayfasında</a>.</p>
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3 data-lang="en">Is my data private?</h3>
-            <h3 data-lang="tr">Verilerim gizli mi?</h3>
+          <details class="faq-item" open>
+            <summary><h3 data-lang="en">Is my data private?</h3>
+            <h3 data-lang="tr">Verilerim gizli mi?</h3></summary>
             <p data-lang="en">Your health records (doses, weight, side effects, progress photos) are stored on your device and never uploaded. The one exception is a meal photo you choose to analyse with AI calories: it is sent, after you agree, through our server to Google Gemini and is not stored by the app. There is no account and no cloud sync, and the app shows no advertising. Anonymous usage statistics are collected so the app can be improved, and they never carry a medication name or a symptom. Dozify also measures whether an install came from one of its own App Store or Meta campaigns; that measurement runs behind Apple's tracking permission and never includes your health records. Delete the app and your records are gone.</p>
             <p data-lang="tr">Sağlık kayıtlarınız (dozlar, kilo, yan etkiler, ilerleme fotoğrafları) cihazınızda tutulur ve hiçbir yere yüklenmez. Tek istisna, AI kalori ile analiz etmeyi seçtiğiniz öğün fotoğrafıdır: onay verdikten sonra sunucumuz üzerinden Google Gemini'ye gönderilir ve uygulama tarafından saklanmaz. Hesap yok, bulut senkronu yok ve uygulama hiçbir reklam göstermez. Uygulamanın geliştirilebilmesi için anonim kullanım istatistikleri toplanır; bunlar hiçbir zaman ilaç adı veya belirti taşımaz. Dozify ayrıca bir kurulumun kendi App Store veya Meta kampanyalarından gelip gelmediğini ölçer; bu ölçüm Apple'ın takip izninin arkasında çalışır ve sağlık kayıtlarınızı asla içermez. Uygulamayı silerseniz kayıtlarınız da silinir.</p>
-          </div>
+          </details>
 
 
-          <div class="faq-item">
-            <h3 data-lang="en">Which medications does Dozify support?</h3>
-            <h3 data-lang="tr">Dozify hangi ilaçları destekler?</h3>
+          <details class="faq-item">
+            <summary><h3 data-lang="en">Which medications does Dozify support?</h3>
+            <h3 data-lang="tr">Dozify hangi ilaçları destekler?</h3></summary>
             <p data-lang="en">Dozify helps you track popular GLP-1 medications, including Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity®, and Victoza®, plus daily tablets: the Wegovy® pill, Ozempic® tablet, Rybelsus® and Foundayo™. These brand names are trademarks of their respective owners, and Dozify is not affiliated with these companies.</p>
             <p data-lang="tr">Dozify, Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Saxenda®, Trulicity® ve Victoza® gibi popüler GLP-1 ilaçlarının yanı sıra Wegovy® hap, Ozempic® tablet, Rybelsus® ve Foundayo™ gibi günlük hapları takip etmenize yardımcı olur. Bu marka adları ilgili sahiplerinin tescilli markalarıdır ve Dozify bu firmalarla bağlantılı değildir.</p>
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3 data-lang="en">Does Dozify work without internet?</h3>
-            <h3 data-lang="tr">Dozify internet olmadan çalışır mı?</h3>
+          <details class="faq-item">
+            <summary><h3 data-lang="en">Does Dozify work without internet?</h3>
+            <h3 data-lang="tr">Dozify internet olmadan çalışır mı?</h3></summary>
             <p data-lang="en">Yes. Dozify is offline-first and works fully without an internet connection. You never need to sign in or sync to use it.</p>
             <p data-lang="tr">Evet. Dozify çevrimdışı öncelikli çalışır ve internet bağlantısı olmadan tam olarak işlev görür. Kullanmak için oturum açmanız veya senkronize etmeniz gerekmez.</p>
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3 data-lang="en">Can Dozify remind me of my injection?</h3>
-            <h3 data-lang="tr">Dozify enjeksiyonumu hatırlatabilir mi?</h3>
+          <details class="faq-item">
+            <summary><h3 data-lang="en">Can Dozify remind me of my injection?</h3>
+            <h3 data-lang="tr">Dozify enjeksiyonumu hatırlatabilir mi?</h3></summary>
             <p data-lang="en">Yes. You can set a weekly or daily reminder that matches your medication's schedule, so it is easier to stay consistent with your routine.</p>
             <p data-lang="tr">Evet. İlacınızın programına uygun haftalık veya günlük bir hatırlatıcı kurabilirsiniz; böylece rutininize sadık kalmak daha kolay olur.</p>
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3 data-lang="en">Does Dozify replace my doctor?</h3>
-            <h3 data-lang="tr">Dozify doktorumun yerini tutar mı?</h3>
+          <details class="faq-item">
+            <summary><h3 data-lang="en">Does Dozify replace my doctor?</h3>
+            <h3 data-lang="tr">Dozify doktorumun yerini tutar mı?</h3></summary>
             <p data-lang="en">No. Dozify is an educational tracking tool, not a medical device, and it does not provide medical advice. Always follow your doctor and your prescription — <a href="/why">what the app refuses to do</a> is written out in full.</p>
             <p data-lang="tr">Hayır. Dozify bir eğitim ve takip aracıdır; tıbbi cihaz değildir ve tıbbi tavsiye sunmaz. Her zaman doktorunuza ve reçetenize uyun — <a href="/why">uygulamanın yapmayı reddettikleri</a> ayrıntısıyla yazılı.</p>
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3 data-lang="en">Can I track weight and side effects?</h3>
-            <h3 data-lang="tr">Kilo ve yan etkileri takip edebilir miyim?</h3>
+          <details class="faq-item">
+            <summary><h3 data-lang="en">Can I track weight and side effects?</h3>
+            <h3 data-lang="tr">Kilo ve yan etkileri takip edebilir miyim?</h3></summary>
             <p data-lang="en">Yes. You can record your weight, body measurements, and a side-effect diary, and see your trend on clear charts: including a weight projection and a time-to-goal estimate based on your own data.</p>
             <p data-lang="tr">Evet. Kilonuzu, vücut ölçülerinizi ve yan etki günlüğünüzü kaydedebilir; trendinizi net grafiklerde görebilirsiniz: kendi verinize dayalı kilo projeksiyonu ve hedefe kalan süre tahmini dahil.</p>
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3 data-lang="en">Can I bring my data from another GLP-1 app?</h3>
-            <h3 data-lang="tr">Verilerimi başka bir GLP-1 uygulamasından getirebilir miyim?</h3>
+          <details class="faq-item">
+            <summary><h3 data-lang="en">Can I bring my data from another GLP-1 app?</h3>
+            <h3 data-lang="tr">Verilerimi başka bir GLP-1 uygulamasından getirebilir miyim?</h3></summary>
             <p data-lang="en">Yes, and it is free. Export from the app you are leaving, open Settings &rarr; Import in Dozify and pick the file. It reads Shotsy, Glapp, GLPzy and GlucoPal exports and any CSV with a date column, shows you what it found (how many injections, weights and notes) before writing anything, skips records you already have, and backs up your existing data first. <a href="/switch-glp1-tracker-app">More on the switching page</a>.</p>
             <p data-lang="tr">Evet, üstelik ücretsiz. Ayrıldığınız uygulamadan dışa aktarın, Dozify'da Ayarlar &rarr; İçe aktar'ı açıp dosyayı seçin. Shotsy, Glapp, GLPzy ve GlucoPal dışa aktarımlarını ve tarih sütunu olan her CSV'yi okur; hiçbir şey yazmadan önce ne bulduğunu (kaç enjeksiyon, kaç kilo kaydı, kaç not) gösterir, sizde zaten olan kayıtları atlar ve önce mevcut verinizin yedeğini alır. <a href="/switch-glp1-tracker-app">Ayrıntılar geçiş sayfasında</a>.</p>
-          </div>
+          </details>
 
-          <div class="faq-item">
-            <h3 data-lang="en">Is Dozify available on Android?</h3>
-            <h3 data-lang="tr">Dozify Android'de var mı?</h3>
+          <details class="faq-item">
+            <summary><h3 data-lang="en">Is Dozify available on Android?</h3>
+            <h3 data-lang="tr">Dozify Android'de var mı?</h3></summary>
             <p data-lang="en">Not yet. Dozify is iPhone only for now, on the App Store.</p>
             <p data-lang="tr">Henüz yok. Dozify şimdilik yalnızca iPhone'da, App Store üzerinden.</p>
-          </div>
+          </details>
         </div>
       </div>
     </section>
 
     <section id="download" class="section section-cta">
-      <div class="container">
+      <div class="container cta-grid">
+        <div class="cta-copy">
         <h2 class="section-title" data-lang="en">Get the app</h2>
         <h2 class="section-title" data-lang="tr">Uygulamayı indir</h2>
         <p class="section-lede" data-lang="en">Dozify is on the App Store, for iPhone.</p>
@@ -1028,6 +908,13 @@
               <strong>App Store</strong>
             </div>
           </a>
+        </div>
+        </div>
+        <div class="cta-phone">
+          <div class="device">
+            <img data-lang="en" src="screenshots/en/bee-home.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Settings in the orange Honeybee theme">
+            <img data-lang="tr" src="screenshots/tr/bee-home.webp" width="750" height="1630" loading="lazy" decoding="async" alt="Turuncu Arı temasında ayarlar">
+          </div>
         </div>
       </div>
     </section>
