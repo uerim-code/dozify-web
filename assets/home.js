@@ -109,7 +109,9 @@
       '#themes .shot, #ai-calories .shot, .step, .feature, .article-card, ' +
       '.faq-item, .privacy-card > *, .cta-copy > *, .cta-phone .device, .trademarks'
     );
+    var answered = false;
     var io = new IntersectionObserver(function (entries) {
+      answered = true;
       entries.forEach(function (entry) {
         if (!entry.isIntersecting) return;
         io.unobserve(entry.target);
@@ -123,6 +125,11 @@
       el.classList.add('rv');
       io.observe(el);
     });
+    // Gözlemci ilk çağrıyı hiç yapmazsa içerik görünmez kalmasın.
+    setTimeout(function () {
+      if (answered) return;
+      [].forEach.call(parts, function (el) { el.classList.remove('rv'); });
+    }, 3000);
   }
 
   function drift() {

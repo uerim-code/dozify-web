@@ -27,7 +27,7 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -48,6 +48,7 @@ a { color: var(--teal-700); text-decoration: underline; text-underline-offset: 2
 .footer-col a, .footer-brand a, .back-link, .faq-item > a {
   text-decoration: none;
 }
+.footer-col a { text-wrap: balance; }
 .footer-col a:hover { text-decoration: underline; }
 a:hover { color: var(--teal-700); }
 
@@ -296,6 +297,7 @@ footer {
   padding: 56px 24px 96px;
 }
 .legal-page h1 {
+  line-height: 1.15;
   font-size: clamp(28px, 4vw, 36px);
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -321,9 +323,10 @@ footer {
   margin-bottom: 8px;
   color: var(--slate-700);
 }
+.legal-page p + p { margin-block-start: 12px; }
 .legal-page p, .legal-page li {
   color: var(--slate-700);
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.7;
 }
 .legal-page ul { padding-left: 24px; margin-bottom: 12px; }
@@ -356,6 +359,9 @@ footer {
 }
 .back-link:hover { color: var(--teal-700); }
 
+.compare { border-collapse: collapse; width: 100%; margin-block: 16px; }
+.compare th, .compare td { padding: 8px 16px 8px 0; padding-inline: 0 16px; text-align: start; vertical-align: top; font-size: 16px; line-height: 1.45; overflow-wrap: anywhere; }
+
 /* LANGUAGE */
 html[lang="en"] [data-lang="tr"],
 html[lang="tr"] [data-lang="en"] {
@@ -363,7 +369,7 @@ html[lang="tr"] [data-lang="en"] {
 }
 
 /* ── Articles & FAQ (SEO content) ───────────────────────────── */
-.article-wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+.article-wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
 .breadcrumb { font-size: 14px; color: #64748B; margin: 24px 0 8px; }
 .breadcrumb a { color: var(--teal-700); text-decoration: underline; text-underline-offset: 2px; }
 .article-hero { padding: 16px 0 8px; }
@@ -436,7 +442,10 @@ html[lang="tr"] [data-lang="en"] {
   font-size: 13px;
   line-height: 1.9;
   color: var(--muted, #64748b);
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 14px;
 }
 .lang-list a { color: inherit; text-decoration: none; white-space: nowrap; }
 .lang-list a:hover { text-decoration: underline; }
@@ -504,6 +513,8 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
 #ai-calories .shot:nth-of-type(2) { flex-grow: 58; margin-block-start: 0; }
 .strip-count { font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; }
 .is-viewer + .sr-only + .strip-count { display: none; }
+:lang(ar) .strip-count { text-align: right; }
+.section-action { margin: 40px 0 0; }
 
 .steps { list-style: none; display: grid; gap: 40px; counter-reset: step; }
 .step { counter-increment: step; }
@@ -517,6 +528,7 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
 #screenshots .shot { width: 66vw; max-width: 280px; }
 #screenshots .shot figcaption { text-align: start; }
 #screenshots .shot figcaption b { font-size: 17px; min-height: 0; }
+#screenshots .shot figcaption span { text-wrap: pretty; }
 #screenshots .shot figcaption span { font-size: 17px; color: var(--slate-900); }
 #screenshots .screenshot-strip.is-viewer {
   display: grid;
@@ -585,7 +597,7 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
 
 #faq .faq-list { margin: 0; max-width: none; }
 #faq .faq-item { border: 0; padding: 0; margin-block-end: 8px; }
-#faq summary {
+#faq summary, .legal-page summary {
   display: grid;
   grid-template-columns: 1fr 12px;
   align-items: center;
@@ -595,17 +607,20 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
   cursor: pointer;
   list-style: none;
 }
-#faq summary::-webkit-details-marker { display: none; }
-#faq summary::after {
+#faq summary::-webkit-details-marker, .legal-page summary::-webkit-details-marker { display: none; }
+#faq summary::after, .legal-page summary::after {
   content: "";
   width: 9px;
   height: 9px;
-  border-inline-end: 2px solid var(--teal-700);
-  border-block-end: 2px solid var(--teal-700);
+  border-right: 2px solid var(--teal-700);
+  border-bottom: 2px solid var(--teal-700);
   transform: rotate(45deg);
   transition: transform 0.15s ease;
 }
-#faq details[open] summary::after { transform: rotate(-135deg); }
+#faq details[open] summary::after, .legal-page details[open] summary::after { transform: rotate(-135deg); }
+.legal-page summary { font-weight: 600; }
+.legal-page details { margin-block-end: 8px; }
+.legal-page details > p { padding-block-end: 16px; }
 #faq summary h3 { margin: 0; }
 #faq .faq-item p { padding-block-end: 20px; }
 #faq .faq-item h3 { font-size: 20px; line-height: 1.25; letter-spacing: -0.01em; color: var(--slate-900); }

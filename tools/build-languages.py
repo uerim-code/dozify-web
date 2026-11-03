@@ -135,6 +135,9 @@ def rewrite_links(html: str, lang: str) -> str:
         html = html.replace(f'href="{old}"', f'href="{new}"')
     # Home last, and only as an exact href, or it matches every path.
     html = html.replace('href="/"', f'href="/{lang}"')
+    # A home-page anchor stays in the visitor's language; "/" would send it through
+    # the Accept-Language redirect.
+    html = html.replace('href="/#', f'href="/{lang}#')
     return html
 
 

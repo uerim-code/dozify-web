@@ -264,6 +264,7 @@ def render(lang: str, en_slug: str, html: str, page_t: dict, common_t: dict) -> 
             return f'href="/{lang}' + (f"/{slug}" if slug else "") + '"'
         return m.group(0)
     html = re.sub(r'href="(/en(?:/[^"#?]*)?)"', link, html)
+    html = html.replace('href="/en#', f'href="/{lang}#')
     html = re.sub(r"(ct=web-[a-z0-9-]*-)en\b", rf"\g<1>{lang}", html)
 
     graph = sd.build_graph(lang=lang, slug=en_slug, en_slug=en_slug, url=self_url, page=html,

@@ -87,7 +87,7 @@ def lang_list(en_slug: str, tr_slug: str, current: str) -> str:
         cur = ' aria-current="page"' if code == current else ""
         links.append(f'<a href="{href}" hreflang="{hl}" lang="{hl}"{cur}>{NATIVE[code]}</a>')
     return (f'{LANG_LIST_START}<div class="container lang-list" translate="no">'
-            + " · ".join(links) + f"</div>{LANG_LIST_END}")
+            + "".join(links) + f"</div>{LANG_LIST_END}")
 
 
 def with_lang_list(html: str, en_slug: str, tr_slug: str, current: str) -> str:
