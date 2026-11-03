@@ -20,6 +20,30 @@
     live.className = 'sr-only';
     live.setAttribute('role', 'status');
     strip.parentNode.insertBefore(live, strip.nextSibling);
+    // Şerit modunda konum: rakam olduğu için çevirisi yok.
+    var count = document.createElement('p');
+    count.className = 'strip-count';
+    count.setAttribute('aria-hidden', 'true');
+    live.parentNode.insertBefore(count, live.nextSibling);
+
+    function position() {
+      var mid = strip.getBoundingClientRect().left + strip.clientWidth / 2;
+      var best = 0;
+      var gap = Infinity;
+      shots.forEach(function (shot, i) {
+        var r = shot.getBoundingClientRect();
+        var d = Math.abs(r.left + r.width / 2 - mid);
+        if (d < gap) { gap = d; best = i; }
+      });
+      // İlk ve son karede şerit ortalanamaz; uçlara dayanınca kesin konumu yaz.
+      var max = strip.scrollWidth - strip.clientWidth;
+      var x = Math.abs(strip.scrollLeft);
+      if (x < 8) best = 0;
+      if (max - x < 8) best = shots.length - 1;
+      count.textContent = (best + 1) + ' / ' + shots.length;
+    }
+    strip.addEventListener('scroll', position, { passive: true });
+    position();
 
     var started = false;
 

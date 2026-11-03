@@ -78,6 +78,7 @@ img, svg { display: block; max-width: 100%; }
 .brand {
   display: inline-flex;
   align-items: center;
+  min-height: 44px;
   gap: 10px;
   color: var(--slate-900);
   font-weight: 700;
@@ -89,8 +90,9 @@ img, svg { display: block; max-width: 100%; }
   gap: 28px;
 }
 .nav-links a {
-  display: inline-block;
-  padding-block: 11px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   color: var(--slate-600);
   font-size: 14px;
   font-weight: 500;
@@ -138,7 +140,7 @@ img, svg { display: block; max-width: 100%; }
   padding: 0 24px;
   border-radius: 999px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 17px;
   transition: background-color 0.15s ease, transform 0.15s ease;
   cursor: pointer;
   border: none;
@@ -448,8 +450,8 @@ html[lang="tr"] [data-lang="en"] {
    Order of a section is carried by the DOM, so the same rules hold in the
    right-to-left pages: only logical properties below. */
 .hero { background: var(--mint); padding: 56px 0 0; overflow: hidden; }
+.hero h1, .privacy-section h2, .section-cta .section-title { font-size: clamp(30px, 8.7vw, 64px); }
 .hero h1 {
-  font-size: clamp(30px, 8.7vw, 64px);
   line-height: 1.02;
   letter-spacing: -0.035em;
   font-weight: 700;
@@ -494,13 +496,19 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
 .split-shot { display: flex; justify-content: center; }
 .split-shot .device { width: min(320px, 72vw); }
 
-#themes .screenshot-strip, #ai-calories .screenshot-strip { gap: 16px; align-items: flex-start; padding: 0; overflow-x: auto; scrollbar-width: none; }
-#themes .shot, #ai-calories .shot { width: 58vw; max-width: 300px; }
+#themes .screenshot-strip, #ai-calories .screenshot-strip { gap: 10px; align-items: flex-start; padding: 0; overflow: visible; }
+#themes .shot, #ai-calories .shot { width: auto; min-width: 0; flex: 44 1 0; }
+#themes .shot:nth-of-type(2) { flex-grow: 32; margin-block-start: 40px; }
+#themes .shot:nth-of-type(3) { flex-grow: 24; margin-block-start: 16px; }
+#ai-calories .shot { flex-grow: 42; margin-block-start: 56px; }
+#ai-calories .shot:nth-of-type(2) { flex-grow: 58; margin-block-start: 0; }
+.strip-count { font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; }
+.is-viewer + .sr-only + .strip-count { display: none; }
 
 .steps { list-style: none; display: grid; gap: 40px; counter-reset: step; }
 .step { counter-increment: step; }
 .step h3::before { content: counter(step) ". "; color: var(--teal-700); }
-#how { padding-block-start: 0; }
+
 .step h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.2; letter-spacing: -0.015em; font-weight: 700; margin-bottom: 8px; }
 .step p { font-size: 17px; max-width: 36em; }
 
@@ -560,7 +568,7 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
 
 .privacy-section { background: var(--teal-900); color: #fff; }
 .privacy-card { display: grid; gap: 24px; justify-items: start; }
-.privacy-section h2 { font-size: clamp(32px, 7vw, 96px); line-height: 1.02; letter-spacing: -0.035em; font-weight: 700; }
+.privacy-section h2 { line-height: 1.02; letter-spacing: -0.035em; font-weight: 700; }
 .privacy-card p { font-size: 20px; line-height: 1.5; max-width: 30em; margin-bottom: 20px; }
 .btn-light { background: #fff; color: var(--teal-900); }
 .btn-light:hover { background: var(--mint); color: var(--teal-900); }
@@ -604,7 +612,7 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
 #faq .faq-item p { font-size: 17px; line-height: 1.6; color: var(--slate-900); max-width: 38em; }
 
 .section-cta { background: var(--teal-700); color: #fff; padding: 72px 0 0; overflow: hidden; }
-.section-cta .section-title { font-size: clamp(40px, 7vw, 96px); letter-spacing: -0.035em; line-height: 1.02; }
+.section-cta .section-title { letter-spacing: -0.035em; line-height: 1.02; }
 .cta-grid { display: grid; gap: 40px; }
 .store-row { display: flex; }
 .store-card {
@@ -634,7 +642,7 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
 }
 
 @media (min-width: 720px) {
-  .hero h1 { font-size: clamp(52px, 7vw, 96px); }
+  .hero h1, .privacy-section h2, .section-cta .section-title { font-size: clamp(52px, 7vw, 96px); }
   .feature-grid { columns: 2; column-gap: 48px; }
   #education .article-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   #medications .feature-grid { columns: 2; }
@@ -663,16 +671,14 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
   .split-reverse > :not(.split-copy) { grid-column: 1 / 6; grid-row: 1; }
   .split-shot .device { width: 340px; }
 
-  #themes .screenshot-strip, #ai-calories .screenshot-strip { overflow: visible; }
   #themes .split-copy { grid-column: 1 / 6; }
   #themes .screenshot-strip { grid-column: 6 / -1; }
-  #themes .shot { width: 38%; max-width: none; }
-  #themes .shot:nth-of-type(2) { width: 34%; margin-block-start: 96px; }
-  #themes .shot:nth-of-type(3) { width: 26%; margin-block-start: 32px; }
+  #themes .shot:nth-of-type(2) { margin-block-start: 96px; }
+  #themes .shot:nth-of-type(3) { margin-block-start: 32px; }
   #ai-calories .split-copy { grid-column: 7 / -1; grid-row: 1; }
   #ai-calories .screenshot-strip { grid-column: 1 / 6; grid-row: 1; }
-  #ai-calories .shot { width: 42%; max-width: none; margin-block-start: 120px; }
-  #ai-calories .shot:nth-of-type(2) { width: 58%; margin-block-start: 0; }
+  #ai-calories .shot { margin-block-start: 120px; }
+  #ai-calories .shot:nth-of-type(2) { margin-block-start: 0; }
 
   #how .container, #faq .container, #education .container {
     display: grid;
@@ -703,8 +709,9 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
   .cta-phone { grid-column: 9 / -1; height: 340px; }
 }
 
-@media (max-width: 959px) {
-  #themes .screenshot-strip, #ai-calories .screenshot-strip { margin-inline-end: -24px; }
+@media (max-width: 599px) {
+  #themes .shot:nth-of-type(n+2) .device, .phone-b, #ai-calories .shot:first-of-type .device { padding: 4px; border-radius: 18px; }
+  #themes .shot:nth-of-type(n+2) .device img, .phone-b img, #ai-calories .shot:first-of-type .device img { border-radius: 14px; }
 }
 
 @media (max-width: 480px) {
@@ -733,8 +740,7 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
    compact list. */
 @media (pointer: coarse) {
   .footer-col a { margin-bottom: 0; padding-block: 11px; }
-  .footer-brand .brand { min-height: 44px; }
-  .lang-list a { display: inline-block; padding: 8px 6px; }
+  .lang-list a { display: inline-block; padding: 10px 6px; }
 }
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

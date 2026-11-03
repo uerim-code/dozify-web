@@ -225,6 +225,12 @@ def render(lang: str, en_slug: str, html: str, page_t: dict, common_t: dict) -> 
         return "/" + local if (ROOT / local).exists() else m.group(0)
     html = re.sub(r"/screenshots/en/([\w.-]+\.webp)", shot, html)
 
+    # In right-to-left text a trademark sign is neutral, so "Ozempic®" shows it on
+    # the wrong side of the word. A left-to-right mark keeps it with the name.
+    if lang in RTL:
+        head, sep, rest = html.partition("<body")
+        html = head + sep + re.sub(r"[®™]", lambda m: m.group(0) + "\u200e", rest)
+
     code, og_locale = LANGS[lang]
     title, desc = page_t["meta"]["title"], page_t["meta"]["description"]
     ta, da = _attr(title), _attr(desc)
