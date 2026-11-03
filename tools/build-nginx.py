@@ -86,6 +86,16 @@ def render() -> str:
         lines.append(f'    add_header {key} "{value}" always;')
     lines += [
         '    add_header Strict-Transport-Security "max-age=31536000" always;',
+        "    # no-transform stops Cloudflare injecting its analytics beacon, which this CSP",
+        "    # blocks and the privacy policy does not list. It also stops edge compression,",
+        "    # so the origin compresses (gzip_proxied: every request here comes through proxies).",
+        '    add_header Cache-Control "no-transform" always;',
+        "    gzip on;",
+        "    gzip_vary on;",
+        "    gzip_proxied any;",
+        "    gzip_comp_level 6;",
+        "    gzip_min_length 1024;",
+        "    gzip_types text/css application/javascript image/svg+xml application/xml text/plain;",
         "",
         "    # Build inputs and notes are not part of the site.",
         "    location ~ ^/(tools|docs|deploy|\\.github)(/|$) { return 404; }",

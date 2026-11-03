@@ -512,7 +512,6 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
 #ai-calories .shot { flex-grow: 42; margin-block-start: 56px; }
 #ai-calories .shot:nth-of-type(2) { flex-grow: 58; margin-block-start: 0; }
 .strip-count { font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; }
-.is-viewer + .sr-only + .strip-count { display: none; }
 :lang(ar) .strip-count { text-align: right; }
 .section-action { margin: 40px 0 0; }
 
@@ -530,47 +529,64 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
 #screenshots .shot figcaption b { font-size: 17px; min-height: 0; }
 #screenshots .shot figcaption span { text-wrap: pretty; }
 #screenshots .shot figcaption span { font-size: 17px; color: var(--slate-900); }
-#screenshots .screenshot-strip.is-viewer {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-content: start;
-  gap: 4px 16px;
-  position: relative;
-  --phone: min(360px, calc((100svh - 140px) * 0.46));
-  min-height: calc(var(--phone) * 2.2);
-  padding: 0;
-  padding-inline-end: calc(var(--phone) + 60px);
-  overflow: visible;
+/* Gallery on wide screens. The layout is CSS, in place before the first paint:
+   built from script, it moved everything below it once the page had drawn. The
+   script uses the same query and only adds the buttons. */
+@media (min-width: 960px) and (scripting: enabled) {
+  #screenshots .screenshot-strip {
+    --phone: min(360px, calc((100svh - 140px) * 0.46));
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-content: start;
+    gap: 4px 16px;
+    position: relative;
+    min-height: calc(var(--phone) * 2.2);
+    padding: 0;
+    padding-inline-end: calc(var(--phone) + 60px);
+    overflow: visible;
+  }
+  #screenshots .shot { width: auto; max-width: none; }
+  #screenshots .shot .device {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: 0;
+    width: var(--phone);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s;
+  }
+  #screenshots .shot.is-active .device,
+  #screenshots .screenshot-strip:not(.is-viewer) .shot:first-of-type .device { opacity: 1; visibility: visible; }
+  #screenshots .shot figcaption {
+    margin: 0;
+    height: 100%;
+    padding: 14px 16px;
+    border-radius: var(--radius-md);
+    background: rgba(255, 255, 255, 0.4);
+    transition: background-color 0.15s ease;
+  }
+  #screenshots .shot.is-active figcaption,
+  #screenshots .screenshot-strip:not(.is-viewer) .shot:first-of-type figcaption { background: #fff; }
+  #screenshots .shot figcaption button {
+    display: block;
+    width: calc(100% + 32px);
+    height: calc(100% + 28px);
+    min-height: 44px;
+    margin: -14px -16px;
+    padding: 14px 16px;
+    font: inherit;
+    color: inherit;
+    text-align: start;
+    background: transparent;
+    border: 0;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+  }
+  .strip-count { display: none; }
 }
-.is-viewer .shot { width: auto !important; max-width: none !important; }
-.is-viewer .device {
-  position: absolute;
-  inset-block-start: 0;
-  inset-inline-end: 0;
-  width: var(--phone);
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease, visibility 0.5s;
+@media (min-width: 960px) and (scripting: enabled) and (hover: hover) {
+  #screenshots .shot:not(.is-active) figcaption:hover { background: rgba(255, 255, 255, 0.75); }
 }
-.is-viewer .is-active .device { opacity: 1; visibility: visible; }
-.is-viewer figcaption { margin: 0; height: 100%; }
-.is-viewer figcaption button {
-  display: block;
-  width: 100%;
-  height: 100%;
-  min-height: 44px;
-  padding: 14px 16px;
-  font: inherit;
-  color: inherit;
-  text-align: start;
-  background: rgba(255, 255, 255, 0.4);
-  border: 0;
-  border-radius: var(--radius-md);
-  cursor: pointer;
-  transition: background-color 0.15s ease;
-}
-@media (hover: hover) { .is-viewer figcaption button:hover { background: rgba(255, 255, 255, 0.75); } }
-.is-viewer figcaption button[aria-pressed="true"] { background: #fff; }
 
 .feature-grid { columns: 1; }
 .feature { break-inside: avoid; padding-block-end: 32px; }

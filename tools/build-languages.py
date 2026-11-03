@@ -256,10 +256,11 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
         if "srcset=" in tag:
             return tag
         small = path.replace(".webp", "-400w.webp")
+        # A page whose phones differ in size states its own `sizes` per image.
+        sizes = '' if "sizes=" in tag else ' sizes="(min-width: 900px) 300px, 72vw"'
         return tag.replace(
             f'src="{path}"',
-            f'src="{path}" srcset="{small} 400w, {path} 750w" '
-            'sizes="(min-width: 900px) 300px, 72vw"',
+            f'src="{path}" srcset="{small} 400w, {path} 750w"{sizes}',
         )
 
     html = re.sub(r'<img[^>]+src="(/screenshots/[^"]+\.webp)"[^>]*>', responsive, html)

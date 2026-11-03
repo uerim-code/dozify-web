@@ -14,7 +14,7 @@
     var strip = document.querySelector('#screenshots .screenshot-strip');
     if (!strip) return;
     var heading = document.querySelector('#screenshots h2');
-    var wide = window.matchMedia('(min-width: 960px)');
+    var wide = window.matchMedia('(min-width: 960px) and (scripting: enabled)');
     var shots = [].slice.call(strip.querySelectorAll('.shot'));
     var live = document.createElement('p');
     live.className = 'sr-only';
@@ -39,11 +39,11 @@
       var max = strip.scrollWidth - strip.clientWidth;
       var x = Math.abs(strip.scrollLeft);
       if (x < 8) best = 0;
-      if (max - x < 8) best = shots.length - 1;
+      if (max > 8 && max - x < 8) best = shots.length - 1;
       count.textContent = (best + 1) + ' / ' + shots.length;
     }
     strip.addEventListener('scroll', position, { passive: true });
-    position();
+    count.textContent = '1 / ' + shots.length;
 
     var started = false;
 
@@ -109,20 +109,22 @@
       '#themes .shot, #ai-calories .shot, .step, .feature, .article-card, ' +
       '.faq-item, .privacy-card > *, .cta-copy > *, .cta-phone .device, .trademarks'
     );
+    var below = new WeakSet();
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-        io.unobserve(entry.target);
-        entry.target.classList.add('rv-in');
+        var el = entry.target;
+        if (entry.isIntersecting) {
+          io.unobserve(el);
+          if (below.has(el)) el.classList.add('rv-in');
+        } else if (!below.has(el)) {
+          // İlk bildirimde ekran dışındaysa aşağıdan gelecek; ekrandakiler hiç oynamaz.
+          below.add(el);
+          el.style.transitionDelay = Math.min([].indexOf.call(el.parentNode.children, el), 4) * 70 + 'ms';
+          el.classList.add('rv');
+        }
       });
     }, { rootMargin: '0px 0px -8% 0px' });
-    [].forEach.call(parts, function (el) {
-      if (el.getBoundingClientRect().top < window.innerHeight) return;
-      var i = [].indexOf.call(el.parentNode.children, el);
-      el.style.transitionDelay = Math.min(i, 4) * 70 + 'ms';
-      el.classList.add('rv');
-      io.observe(el);
-    });
+    [].forEach.call(parts, function (el) { io.observe(el); });
   }
 
   function drift() {
