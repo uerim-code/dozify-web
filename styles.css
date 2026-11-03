@@ -741,15 +741,17 @@ h3 .badge-new { display: inline; margin: 0 0 0 6px; }
 :lang(ko) .hero h1, :lang(ko) .section-title, :lang(ko) .privacy-section h2,
 :lang(zh) .hero h1, :lang(zh) .section-title, :lang(zh) .privacy-section h2 { letter-spacing: 0; line-height: 1.2; }
 
-.rv { opacity: 0; transform: translateY(24px); }
-.rv-in { opacity: 1; transform: none; transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1); }
+/* Rise only: text is readable from the first frame, so a fast scroll or an
+   anchor jump never lands on a blank section. */
+.rv { transform: translateY(24px); }
+.rv-in { transform: none; transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1); }
 @media (prefers-reduced-motion: no-preference) {
   .hero-phones .device { animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
   .hero-phones .phone-b { animation-delay: 0.08s; }
   .hero-phones .phone-c { animation-delay: 0.16s; }
 }
 @keyframes rise { from { transform: translateY(40px); } }
-@media print { .rv { opacity: 1; transform: none; } }
+@media print { .rv { transform: none; } }
 
 /* Fingers: footer rows open up where the pointer is coarse; a mouse keeps the
    compact list. */
