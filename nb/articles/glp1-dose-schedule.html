@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GLP-1-doseplan: opptrappingstrinnene i preparatomtalen</title>
-  <meta name="description" content="Doseringstabeller for semaglutid og tirzepatid slik hver amerikanske preparatomtale oppgir dem: Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Med kilder.">
+  <title>GLP-1-doseringstabell: semaglutid og tirzepatid per produkt</title>
+  <meta name="description" content="Doseringstabell for semaglutid og tirzepatid per amerikansk preparatomtale: start, uker per trinn, vedlikehold, maks og ml for Wegovy, Ozempic, Mounjaro, Zepbound.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://dozify.app/nb/articles/glp1-dose-schedule">
   <meta property="og:image" content="https://dozify.app/og-image.png">
@@ -17,6 +17,8 @@
     .dose-table th, .dose-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #E2E8F0; vertical-align: top; }
     .dose-table th { color: #0F172A; font-weight: 600; background: #F8FAFC; }
     .table-source { font-size: 13.5px; color: #64748B; margin: 0 0 20px; }
+    .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .table-scroll .dose-table { min-width: 620px; }
   </style>
   <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
        Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
@@ -32,14 +34,14 @@
     gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
   </script>
   <script src="/assets/store-click.js" defer></script>
-  <meta property="og:title" content="GLP-1-doseplan: opptrappingstrinnene i preparatomtalen">
-  <meta property="og:description" content="Doseringstabeller for semaglutid og tirzepatid slik hver amerikanske preparatomtale oppgir dem: Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Med kilder.">
+  <meta property="og:title" content="GLP-1-doseringstabell: semaglutid og tirzepatid per produkt">
+  <meta property="og:description" content="Doseringstabell for semaglutid og tirzepatid per amerikansk preparatomtale: start, uker per trinn, vedlikehold, maks og ml for Wegovy, Ozempic, Mounjaro, Zepbound.">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify – en privat GLP-1-sprøyte- og vektlogg for iPhone">
-  <meta name="twitter:title" content="GLP-1-doseplan: opptrappingstrinnene i preparatomtalen">
-  <meta name="twitter:description" content="Doseringstabeller for semaglutid og tirzepatid slik hver amerikanske preparatomtale oppgir dem: Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Med kilder.">
+  <meta name="twitter:title" content="GLP-1-doseringstabell: semaglutid og tirzepatid per produkt">
+  <meta name="twitter:description" content="Doseringstabell for semaglutid og tirzepatid per amerikansk preparatomtale: start, uker per trinn, vedlikehold, maks og ml for Wegovy, Ozempic, Mounjaro, Zepbound.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify – en privat GLP-1-sprøyte- og vektlogg for iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -111,8 +113,8 @@
         ],
         "@id": "https://dozify.app/nb/articles/glp1-dose-schedule#webpage",
         "url": "https://dozify.app/nb/articles/glp1-dose-schedule",
-        "name": "GLP-1-doseplan: opptrappingstrinnene i preparatomtalen",
-        "description": "Doseringstabeller for semaglutid og tirzepatid slik hver amerikanske preparatomtale oppgir dem: Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Med kilder.",
+        "name": "GLP-1-doseringstabell: semaglutid og tirzepatid per produkt",
+        "description": "Doseringstabell for semaglutid og tirzepatid per amerikansk preparatomtale: start, uker per trinn, vedlikehold, maks og ml for Wegovy, Ozempic, Mounjaro, Zepbound.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -121,6 +123,38 @@
           "@id": "https://dozify.app/nb/articles/glp1-dose-schedule#breadcrumb"
         },
         "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hvor ofte økes GLP-1-doser?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "I disse amerikanske preparatomtalene trappes ukentlige injeksjoner opp tidligst etter 4 uker, og daglige tabletter etter 30 dager. Senere trinn er ofte betinget: preparatomtalene for Ozempic®, Mounjaro® og Foundayo™ knytter dem til blodsukkerkontroll eller til respons og hvordan dosen tåles. Forskriveren din kan også la deg bli på et trinn lenger."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hva er en GLP-1-vedlikeholdsdose?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Det er styrken du blir værende på etter opptrappingen. Preparatomtaler oppgir ofte mer enn én: 1,7 eller 2,4 mg for Wegovy®-injeksjon, 0,5, 1 eller 2 mg for Ozempic®-injeksjon og 5, 10 eller 15 mg for Zepbound® ved vektreduksjon. Forskriveren din velger, ut fra preparatomtalens kriterier som respons, hvordan dosen tåles eller blodsukkerkontroll."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hvor mange doseringstrinn har semaglutid og tirzepatid?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Regnet som økninger fra startdosen: Wegovy®-injeksjon når 2,4 mg etter 4 økninger, i uke 17. Ozempic®-injeksjon når 2 mg etter 3, tidligst i uke 13. Mounjaro® og Zepbound® når 15 mg etter 5, tidligst i uke 21. Dette er de korteste veiene preparatomtalene tillater, ikke der alle ender."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Finnes det en tabell for å regne om semaglutid til tirzepatid?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ikke i disse preparatomtalene. Ingen av dem oppgir en tilsvarende dose mellom de to legemidlene. Hvis du bytter legemiddel, er den nye startdosen forskriverens beslutning."
+            }
+          },
           {
             "@type": "Question",
             "name": "Kan jeg gå til neste trinn tidligere hvis jeg føler meg fin?",
@@ -162,7 +196,7 @@
             }
           }
         ],
-        "headline": "GLP-1-doseplan: opptrappingstrinnene hver preparatomtale oppgir",
+        "headline": "GLP-1-doseringstabell: opptrappingstrinnene hver amerikansk preparatomtale oppgir",
         "author": {
           "@id": "https://dozify.app/#author"
         },
@@ -171,8 +205,8 @@
         },
         "image": "https://dozify.app/og-image.png",
         "datePublished": "2026-10-09",
-        "dateModified": "2026-10-09",
-        "lastReviewed": "2026-10-09",
+        "dateModified": "2026-11-04",
+        "lastReviewed": "2026-11-04",
         "citation": [
           {
             "@type": "WebPage",
@@ -274,20 +308,43 @@
       </div>
 
       <div class="article-hero">
-        <h1>GLP-1-doseplan: opptrappingstrinnene hver preparatomtale oppgir</h1>
+        <h1>GLP-1-doseringstabell: opptrappingstrinnene hver amerikansk preparatomtale oppgir</h1>
         
-        <p class="article-meta">Av Ümit Can Erim · Publisert 9. oktober 2026 · Oppdatert 9. oktober 2026 · Kilder sjekket 9. oktober 2026 · <a href="/nb/editorial-policy">Slik skrives disse veiledningene</a></p>
+        <p class="article-meta">Av Ümit Can Erim · Publisert 9. oktober 2026 · Oppdatert 4. november 2026 · Kilder sjekket 4. november 2026 · <a href="/nb/editorial-policy">Slik skrives disse veiledningene</a></p>
         
         <p class="article-lede">Søker du etter en doseringstabell for semaglutid eller tirzepatid, finner du mange, de fleste uten kilde. Nedenfor står trinnene nøyaktig slik hvert produkts amerikanske preparatomtale oppgir dem, med delen de er hentet fra. Les dem for det de er: utgangspunktet og de langsomste økningene en preparatomtale beskriver, skrevet for å redusere bivirkninger fra magen. De er ikke en plan. Det er forskriveren din som bestemmer når du går opp, om du blir stående, og om du går tilbake, og pakningsvedlegget i ditt eget land kan si noe annet.</p>
         
       </div>
 
       <div class="disclaimer">
-        <p><strong>Les dette først.</strong> Disse tabellene gjengir de amerikanske preparatomtalene på DailyMed per 9. oktober 2026. Det samme merket kan ha andre indikasjoner, styrker og trinn i Storbritannia, EU eller Tyrkia. Ikke bruk denne siden til å endre en dose eller gå videre til neste trinn på egen hånd; hvis et trinn er vanskelig å tåle, er det noe du tar opp med forskriveren din.</p>
+        <p><strong>Les dette først.</strong> Disse tabellene gjengir de amerikanske preparatomtalene på DailyMed per 4. november 2026. Det samme merket kan ha andre indikasjoner, styrker og trinn i Storbritannia, EU eller Tyrkia. Ikke bruk denne siden til å endre en dose eller gå videre til neste trinn på egen hånd; hvis et trinn er vanskelig å tåle, er det noe du tar opp med forskriveren din.</p>
         
       </div>
 
       <div class="prose">
+        <h2>GLP-1-doseringstabell på et blikk</h2>
+        
+        <p>Titrering betyr å starte lavt og øke dosen i trinn; de amerikanske preparatomtalene nedenfor gjør det for å redusere risikoen for bivirkninger i mage og tarm. Ukentlige injeksjoner trappes opp tidligst etter 4 uker, og daglige tabletter etter 30 dager. Tabellen viser hvert produkts start, tid på hvert trinn, vedlikehold og høyeste styrke. De fullstendige trinnene følger.</p>
+        
+        <div class="table-scroll" tabindex="0">
+        <table class="dose-table">
+          <thead><tr><th>Produkt</th><th>Starter på</th><th>Tid på hvert trinn</th><th>Oppført vedlikehold</th><th>Høyeste oppførte styrke</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy®-injeksjon</td><td>0,25 mg ukentlig</td><td>4 uker</td><td>1,7 eller 2,4 mg</td><td>7,2 mg for vektreduksjon hos voksne; ellers 2,4 mg</td></tr>
+            <tr><td>Ozempic®-injeksjon</td><td>0,25 mg ukentlig</td><td>4 uker, deretter minst 4 uker</td><td>0,5, 1 eller 2 mg</td><td>2 mg</td></tr>
+            <tr><td>Mounjaro®</td><td>2,5 mg ukentlig</td><td>Minst 4 uker</td><td>Ut fra blodsukkerkontroll</td><td>15 mg hos voksne; 10 mg hos barn fra 10 år</td></tr>
+            <tr><td>Zepbound®</td><td>2,5 mg ukentlig</td><td>4 uker, deretter minst 4 uker</td><td>5, 10 eller 15 mg for vektreduksjon; 10 eller 15 mg for obstruktiv søvnapné</td><td>15 mg</td></tr>
+            <tr><td>Wegovy®-tabletter</td><td>1,5 mg daglig</td><td>30 dager</td><td>25 mg</td><td>25 mg</td></tr>
+            <tr><td>Ozempic®-tabletter</td><td>1,5 mg daglig</td><td>30 dager</td><td>4 eller 9 mg</td><td>9 mg</td></tr>
+            <tr><td>Rybelsus®</td><td>3 mg daglig</td><td>30 dager</td><td>7 eller 14 mg</td><td>14 mg</td></tr>
+            <tr><td>Foundayo™</td><td>0,8 mg daglig</td><td>Minst 30 dager</td><td>Ut fra respons og hvordan dosen tåles</td><td>17,2 mg</td></tr>
+          </tbody>
+        </table>
+        </div>
+        
+        <p class="table-source">Kilde: del 2 i hver amerikansk preparatomtale, sjekket 4. november 2026 [1–6]. Tid på hvert trinn er den korteste preparatomtalen oppgir, ikke et mål.</p>
+        
+
         <h2>Slik leser du tabellene</h2>
         
         <p>Tre ting i preparatomtalenes egen ordlyd endrer hvordan en tabell bør leses. For det første er intervallene minimum: «etter minst 4 uker» betyr ikke tidligere, ikke «i uke 5». For det andre sier flere preparatomtaler at hvis et trinn ikke tåles, kan forskriveren vurdere å utsette det neste eller velge en lavere vedlikeholdsdose. For det tredje er vedlikehold ofte et spenn snarere enn en mållinje, valgt ut fra respons og hvordan dosen tåles. En tabell som viser én pil rett til den høyeste styrken, utelater alle tre.</p>
@@ -399,6 +456,46 @@
         <p class="table-source">Kilde: Foundayo, amerikansk preparatomtale, del 2.1–2.2 [6]. Preparatomtalen setter et lavere tak for dosen (9 mg) når den tas sammen med en sterk CYP3A4-hemmer, en gruppe andre legemidler, og det er enda en grunn til at riktig trinn avhenger av hele legemiddellisten din.</p>
         
 
+        <h2>GLP-1-doseringstabell i ml: hva hver pakning rommer</h2>
+        
+        <p>Milligram er dosen. Milliliter forteller bare hvor mye væske som bærer den, og det varierer med produkt og pakning: 2,5 mg tirzepatid er 0,5 ml i en endosepenn og 0,6 ml i et flerdose-hetteglass. Dette er volumene hver preparatomtale oppgir.</p>
+        
+        <table class="dose-table">
+          <thead><tr><th>Produkt og pakning</th><th>Styrke per dose</th><th>Oppført volum</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® endosepenn</td><td>0,25, 0,5 eller 1 mg</td><td>0,5 ml</td></tr>
+            <tr><td>Wegovy® endosepenn</td><td>1,7, 2,4 eller 7,2 mg</td><td>0,75 ml</td></tr>
+            <tr><td>Wegovy® FlexTouch-penn</td><td>2,4 mg</td><td>Penn på 3 ml, 4 doser</td></tr>
+            <tr><td>Ozempic® endosesprøyte</td><td>0,25, 0,5 eller 1 mg</td><td>0,5 ml</td></tr>
+            <tr><td>Ozempic® flerdosepenn</td><td>0,25 til 2 mg</td><td>Penn på 3 ml, flere doser</td></tr>
+            <tr><td>Mounjaro® eller Zepbound® endosepenn eller endosehetteglass</td><td>2,5 til 15 mg</td><td>0,5 ml</td></tr>
+            <tr><td>Mounjaro® eller Zepbound® flerdose-hetteglass</td><td>2,5 til 15 mg</td><td>0,6 ml</td></tr>
+            <tr><td>Mounjaro® eller Zepbound® KwikPen</td><td>2,5 til 15 mg</td><td>Penn på 2,4 ml, 4 doser</td></tr>
+          </tbody>
+        </table>
+        
+        <p class="table-source">Kilde: del 3 i hver amerikansk preparatomtale [1–4]. Ikke bruk denne tabellen til å måle opp en dose. Spesialtilberedte (compounded) produkter står ikke i disse preparatomtalene, og styrken deres per ml varierer, så disse volumene gjelder ikke for dem; gå etter resepten din og spør apoteket. Se <a href="/nb/articles/units-vs-milligrams">hvorfor enheter og milligram ikke har én enkelt omregning</a>.</p>
+        
+
+        <h2>GLP-1-doseomregning: de eneste byttene preparatomtalene beskriver</h2>
+        
+        <p>En tabell som gjør om en hvilken som helst GLP-1-dose til en annen, finnes ikke i disse preparatomtalene. De oppgir ingen tilsvarende dose mellom semaglutid og tirzepatid, og doseringsdelene i preparatomtalene for Mounjaro, Zepbound og Foundayo oppgir ikke noe bytteskjema. Preparatomtalene for semaglutid beskriver bare byttene nedenfor, mellom sine egne produkter.</p>
+        
+        <table class="dose-table">
+          <thead><tr><th>Fra</th><th>Til</th><th>Start det nye produktet</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® 2,4 mg injeksjon</td><td>Wegovy® 25 mg tabletter</td><td>En uke etter at injeksjonen er stoppet</td></tr>
+            <tr><td>Wegovy® 25 mg tabletter</td><td>Wegovy® 2,4 mg injeksjon</td><td>Dagen etter at tablettene er stoppet</td></tr>
+            <tr><td>Ozempic® 0,5 mg injeksjon</td><td>Rybelsus® 7 eller 14 mg</td><td>En uke etter at injeksjonen er stoppet</td></tr>
+            <tr><td>Ozempic® 0,5 mg injeksjon</td><td>Ozempic®-tabletter 4 eller 9 mg</td><td>En uke etter at injeksjonen er stoppet</td></tr>
+            <tr><td>Rybelsus® 7 mg</td><td>Ozempic®-tabletter 4 mg, eller omvendt</td><td>Dagen etter at behandlingen er stoppet; ikke i løpet av de første 30 dagene</td></tr>
+            <tr><td>Rybelsus® 14 mg</td><td>Ozempic®-tabletter 9 mg, eller omvendt</td><td>Dagen etter at behandlingen er stoppet; ikke i løpet av de første 30 dagene</td></tr>
+          </tbody>
+        </table>
+        
+        <p class="table-source">Kilde: Wegovy, amerikansk preparatomtale, del 2.5 [1]; Ozempic-tabletter og Rybelsus, amerikansk preparatomtale, del 2.3–2.4 [5]. Om du skal bytte, og til hva, er forskriverens beslutning.</p>
+        
+
         <h2>Hva tabellene utelater</h2>
         
         <p>Indikasjonen endrer planen. Ozempic og Wegovy er samme molekyl med forskjellige trinn og forskjellige maksimumsdoser, fordi den ene preparatomtalen er skrevet for blodsukker og den andre for vekt. Opphold endrer den også: preparatomtalen for Wegovy-injeksjonen ber forskrivere starte opptrappingen på nytt fra en lavere dose etter to eller flere glemte doser på rad, og preparatomtalen for Foundayo sier det samme etter sju eller flere glemte tabletter på rad. Hva du gjør etter én enkelt glemt dose, er igjen forskjellig for hvert produkt; det er sitert i <a href="/nb/articles/missed-glp1-dose">hva hvert pakningsvedlegg sier om en glemt dose</a>. Ingenting av dette passer i en tabell, og alt sammen er det forskriveren din som anvender.</p>
@@ -436,6 +533,30 @@
         <h2>Spørsmål</h2>
         
         <div class="faq-list">
+          <div class="faq-item">
+            <h3>Hvor ofte økes GLP-1-doser?</h3>
+            
+            <p>I disse amerikanske preparatomtalene trappes ukentlige injeksjoner opp tidligst etter 4 uker, og daglige tabletter etter 30 dager. Senere trinn er ofte betinget: preparatomtalene for Ozempic®, Mounjaro® og Foundayo™ knytter dem til blodsukkerkontroll eller til respons og hvordan dosen tåles. Forskriveren din kan også la deg bli på et trinn lenger.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Hva er en GLP-1-vedlikeholdsdose?</h3>
+            
+            <p>Det er styrken du blir værende på etter opptrappingen. Preparatomtaler oppgir ofte mer enn én: 1,7 eller 2,4 mg for Wegovy®-injeksjon, 0,5, 1 eller 2 mg for Ozempic®-injeksjon og 5, 10 eller 15 mg for Zepbound® ved vektreduksjon. Forskriveren din velger, ut fra preparatomtalens kriterier som respons, hvordan dosen tåles eller blodsukkerkontroll.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Hvor mange doseringstrinn har semaglutid og tirzepatid?</h3>
+            
+            <p>Regnet som økninger fra startdosen: Wegovy®-injeksjon når 2,4 mg etter 4 økninger, i uke 17. Ozempic®-injeksjon når 2 mg etter 3, tidligst i uke 13. Mounjaro® og Zepbound® når 15 mg etter 5, tidligst i uke 21. Dette er de korteste veiene preparatomtalene tillater, ikke der alle ender.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Finnes det en tabell for å regne om semaglutid til tirzepatid?</h3>
+            
+            <p>Ikke i disse preparatomtalene. Ingen av dem oppgir en tilsvarende dose mellom de to legemidlene. Hvis du bytter legemiddel, er den nye startdosen forskriverens beslutning.</p>
+            
+          </div>
           <div class="faq-item">
             <h3>Kan jeg gå til neste trinn tidligere hvis jeg føler meg fin?</h3>
             

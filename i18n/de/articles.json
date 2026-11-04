@@ -10,7 +10,6 @@
   "Medication": "Medikament",
   "Wegovy pill: how the daily tablet is taken": "Wegovy-Tablette: So wird die tägliche Tablette genommen",
   "Empty stomach, a little water, a wait before eating — what the label says, plus missed doses, storage and switching from the pen.": "Nüchterner Magen, wenig Wasser, Wartezeit vor dem Essen – was die Fachinformation sagt, dazu vergessene Dosen, Lagerung und der Wechsel vom Pen.",
-  "GLP-1 dose schedule: the steps each label lists": "GLP-1-Dosierungsplan: die Stufen aus jeder Fachinformation",
   "Semaglutide and tirzepatide escalation steps as the US labels list them, each one sourced. Not a plan — your prescriber decides.": "Steigerungsstufen für Semaglutid und Tirzepatid laut US-Fachinformationen, jede mit Quelle. Kein Plan – das entscheidet deine Ärztin oder dein Arzt.",
   "Appetite": "Appetit",
   "Food noise on a GLP-1, and how to track it": "Food Noise unter GLP-1, und wie du es trackst",
@@ -62,6 +61,7 @@
   "Forms": "Darreichungsformen",
   "GLP-1 patches: where do you put one, and do they exist?": "GLP-1-Pflaster: Wo klebt man es hin, und gibt es das überhaupt?",
   "No approved GLP-1 medicine is a skin patch. What the products sold under that name actually are, why skin delivery doesn't work for these molecules, and what form a prescription really takes.": "Kein zugelassenes GLP-1-Medikament ist ein Hautpflaster. Was die unter diesem Namen verkauften Produkte wirklich sind, warum die Aufnahme über die Haut bei diesen Molekülen nicht funktioniert und in welcher Form ein Rezept tatsächlich kommt.",
-  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Diese Artikel dienen nur der Aufklärung und stellen keine medizinische Beratung, Diagnose oder Behandlung dar. Sprich immer mit deiner Ärztin, deinem Arzt oder einer qualifizierten Fachperson, bevor du Entscheidungen zu deinen Medikamenten triffst."
+  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Diese Artikel dienen nur der Aufklärung und stellen keine medizinische Beratung, Diagnose oder Behandlung dar. Sprich immer mit deiner Ärztin, deinem Arzt oder einer qualifizierten Fachperson, bevor du Entscheidungen zu deinen Medikamenten triffst.",
+  "GLP-1 dosage chart: the steps each label lists": "GLP-1-Dosierungstabelle: die Stufen aus jeder Fachinformation"
  }
 }

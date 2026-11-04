@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calendrier des doses GLP-1 : les paliers de chaque notice</title>
-  <meta name="description" content="Les paliers de dose du sémaglutide et du tirzépatide selon chaque notice américaine : Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Sourcés, pas un plan.">
+  <title>Tableau des doses GLP-1 : sémaglutide et tirzépatide par notice</title>
+  <meta name="description" content="Doses du sémaglutide et du tirzépatide selon chaque notice US : début, semaines par palier, entretien, maximum et mL de Wegovy, Ozempic, Mounjaro, Zepbound.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://dozify.app/fr/articles/glp1-dose-schedule">
   <meta property="og:image" content="https://dozify.app/og-image.png">
@@ -17,6 +17,8 @@
     .dose-table th, .dose-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #E2E8F0; vertical-align: top; }
     .dose-table th { color: #0F172A; font-weight: 600; background: #F8FAFC; }
     .table-source { font-size: 13.5px; color: #64748B; margin: 0 0 20px; }
+    .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .table-scroll .dose-table { min-width: 620px; }
   </style>
   <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
        Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
@@ -32,14 +34,14 @@
     gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
   </script>
   <script src="/assets/store-click.js" defer></script>
-  <meta property="og:title" content="Calendrier des doses GLP-1 : les paliers de chaque notice">
-  <meta property="og:description" content="Les paliers de dose du sémaglutide et du tirzépatide selon chaque notice américaine : Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Sourcés, pas un plan.">
+  <meta property="og:title" content="Tableau des doses GLP-1 : sémaglutide et tirzépatide par notice">
+  <meta property="og:description" content="Doses du sémaglutide et du tirzépatide selon chaque notice US : début, semaines par palier, entretien, maximum et mL de Wegovy, Ozempic, Mounjaro, Zepbound.">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — suivi GLP-1 privé des injections et du poids pour iPhone">
-  <meta name="twitter:title" content="Calendrier des doses GLP-1 : les paliers de chaque notice">
-  <meta name="twitter:description" content="Les paliers de dose du sémaglutide et du tirzépatide selon chaque notice américaine : Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Sourcés, pas un plan.">
+  <meta name="twitter:title" content="Tableau des doses GLP-1 : sémaglutide et tirzépatide par notice">
+  <meta name="twitter:description" content="Doses du sémaglutide et du tirzépatide selon chaque notice US : début, semaines par palier, entretien, maximum et mL de Wegovy, Ozempic, Mounjaro, Zepbound.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — suivi GLP-1 privé des injections et du poids pour iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -111,8 +113,8 @@
         ],
         "@id": "https://dozify.app/fr/articles/glp1-dose-schedule#webpage",
         "url": "https://dozify.app/fr/articles/glp1-dose-schedule",
-        "name": "Calendrier des doses GLP-1 : les paliers de chaque notice",
-        "description": "Les paliers de dose du sémaglutide et du tirzépatide selon chaque notice américaine : Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Sourcés, pas un plan.",
+        "name": "Tableau des doses GLP-1 : sémaglutide et tirzépatide par notice",
+        "description": "Doses du sémaglutide et du tirzépatide selon chaque notice US : début, semaines par palier, entretien, maximum et mL de Wegovy, Ozempic, Mounjaro, Zepbound.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -121,6 +123,38 @@
           "@id": "https://dozify.app/fr/articles/glp1-dose-schedule#breadcrumb"
         },
         "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "À quelle fréquence les doses de GLP-1 sont-elles augmentées ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dans ces notices américaines, les injections hebdomadaires augmentent au plus tôt après 4 semaines et les comprimés quotidiens après 30 jours. Les paliers suivants sont souvent conditionnels : les notices d’Ozempic®, de Mounjaro® et de Foundayo™ les lient au contrôle glycémique ou à la réponse et à la tolérance. Votre prescripteur peut aussi vous maintenir plus longtemps sur un palier."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qu’est-ce que la dose d’entretien d’un GLP-1 ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "C’est le dosage auquel vous restez après la montée en dose. Les notices en indiquent souvent plusieurs : 1,7 ou 2,4 mg pour Wegovy® injectable, 0,5, 1 ou 2 mg pour Ozempic® injectable, et 5, 10 ou 15 mg pour Zepbound® dans la réduction du poids. Votre prescripteur choisit, selon les critères de la notice comme la réponse, la tolérance ou le contrôle glycémique."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Combien de paliers de dose y a-t-il pour le sémaglutide et le tirzépatide ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "En comptant les augmentations à partir de la dose de départ : Wegovy® injectable atteint 2,4 mg après 4 augmentations, à la semaine 17. Ozempic® injectable atteint 2 mg après 3, à la semaine 13 au plus tôt. Mounjaro® et Zepbound® atteignent 15 mg après 5, à la semaine 21 au plus tôt. Ce sont les trajets les plus courts que permettent les notices, pas le point d’arrivée de tout le monde."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Existe-t-il un tableau pour convertir le sémaglutide en tirzépatide ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pas dans ces notices. Aucune n’indique de dose équivalente entre les deux médicaments. Si vous changez de médicament, la nouvelle dose de départ relève de la décision de votre prescripteur."
+            }
+          },
           {
             "@type": "Question",
             "name": "Puis-je passer au palier suivant plus tôt si je me sens bien ?",
@@ -162,7 +196,7 @@
             }
           }
         ],
-        "headline": "Calendrier des doses GLP-1 : les paliers de titration indiqués par chaque notice",
+        "headline": "Tableau des doses GLP-1 : les paliers de titration indiqués par chaque notice américaine",
         "author": {
           "@id": "https://dozify.app/#author"
         },
@@ -171,8 +205,8 @@
         },
         "image": "https://dozify.app/og-image.png",
         "datePublished": "2026-10-09",
-        "dateModified": "2026-10-09",
-        "lastReviewed": "2026-10-09",
+        "dateModified": "2026-11-04",
+        "lastReviewed": "2026-11-04",
         "citation": [
           {
             "@type": "WebPage",
@@ -274,20 +308,43 @@
       </div>
 
       <div class="article-hero">
-        <h1>Calendrier des doses GLP-1 : les paliers de titration indiqués par chaque notice</h1>
+        <h1>Tableau des doses GLP-1 : les paliers de titration indiqués par chaque notice américaine</h1>
         
-        <p class="article-meta">Par Ümit Can Erim · Publié le 9 octobre 2026 · Mis à jour le 9 octobre 2026 · Sources vérifiées le 9 octobre 2026 · <a href="/fr/editorial-policy">Comment ces guides sont rédigés</a></p>
+        <p class="article-meta">Par Ümit Can Erim · Publié le 9 octobre 2026 · Mis à jour le 4 novembre 2026 · Sources vérifiées le 4 novembre 2026 · <a href="/fr/editorial-policy">Comment ces guides sont rédigés</a></p>
         
         <p class="article-lede">Cherchez un tableau des doses de sémaglutide ou de tirzépatide et vous en trouverez beaucoup, la plupart sans source. Ci-dessous figurent les paliers exactement tels que les informations de prescription américaines (US) de chaque produit les indiquent, avec la section d’où ils proviennent. Lisez-les pour ce qu’ils sont : le point de départ et les augmentations les plus lentes prévues par une notice, conçues pour limiter les effets secondaires digestifs. Ce n’est pas un plan. Votre prescripteur décide quand vous montez, si vous restez au même palier et si vous redescendez, et la notice de votre propre pays peut dire autre chose.</p>
         
       </div>
 
       <div class="disclaimer">
-        <p><strong>À lire d’abord.</strong> Ces tableaux reproduisent les notices américaines publiées sur DailyMed au 9 octobre 2026. Une même marque peut avoir des indications, des dosages et des paliers différents au Royaume-Uni, dans l’UE ou en Turquie. N’utilisez pas cette page pour modifier une dose ou passer seul au palier suivant ; si un palier est difficile à tolérer, c’est une discussion à avoir avec votre prescripteur.</p>
+        <p><strong>À lire d’abord.</strong> Ces tableaux reproduisent les notices américaines publiées sur DailyMed au 4 novembre 2026. Une même marque peut avoir des indications, des dosages et des paliers différents au Royaume-Uni, dans l’UE ou en Turquie. N’utilisez pas cette page pour modifier une dose ou passer seul au palier suivant ; si un palier est difficile à tolérer, c’est une discussion à avoir avec votre prescripteur.</p>
         
       </div>
 
       <div class="prose">
+        <h2>Tableau des doses GLP-1 en un coup d’œil</h2>
+        
+        <p>La titration consiste à commencer bas et à augmenter la dose par paliers ; les notices américaines ci-dessous procèdent ainsi pour réduire le risque d’effets secondaires gastro-intestinaux. Les injections hebdomadaires augmentent au plus tôt après 4 semaines, et les comprimés quotidiens après 30 jours. Le tableau indique pour chaque produit le début, la durée de chaque palier, l’entretien et le dosage le plus élevé. Les paliers complets suivent.</p>
+        
+        <div class="table-scroll" tabindex="0">
+        <table class="dose-table">
+          <thead><tr><th>Produit</th><th>Début à</th><th>Durée de chaque palier</th><th>Entretien indiqué</th><th>Dosage maximal indiqué</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® injectable</td><td>0,25 mg par semaine</td><td>4 semaines</td><td>1,7 ou 2,4 mg</td><td>7,2 mg pour la réduction du poids chez l’adulte ; sinon 2,4 mg</td></tr>
+            <tr><td>Ozempic® injectable</td><td>0,25 mg par semaine</td><td>4 semaines, puis au moins 4 semaines</td><td>0,5, 1 ou 2 mg</td><td>2 mg</td></tr>
+            <tr><td>Mounjaro®</td><td>2,5 mg par semaine</td><td>Au moins 4 semaines</td><td>Selon le contrôle glycémique</td><td>15 mg chez l’adulte ; 10 mg chez l’enfant de 10 ans et plus</td></tr>
+            <tr><td>Zepbound®</td><td>2,5 mg par semaine</td><td>4 semaines, puis au moins 4 semaines</td><td>5, 10 ou 15 mg pour la réduction du poids ; 10 ou 15 mg pour l’apnée obstructive du sommeil</td><td>15 mg</td></tr>
+            <tr><td>Wegovy® en comprimés</td><td>1,5 mg par jour</td><td>30 jours</td><td>25 mg</td><td>25 mg</td></tr>
+            <tr><td>Ozempic® en comprimés</td><td>1,5 mg par jour</td><td>30 jours</td><td>4 ou 9 mg</td><td>9 mg</td></tr>
+            <tr><td>Rybelsus®</td><td>3 mg par jour</td><td>30 jours</td><td>7 ou 14 mg</td><td>14 mg</td></tr>
+            <tr><td>Foundayo™</td><td>0,8 mg par jour</td><td>Au moins 30 jours</td><td>Selon la réponse et la tolérance</td><td>17,2 mg</td></tr>
+          </tbody>
+        </table>
+        </div>
+        
+        <p class="table-source">Source : section 2 de chacune des informations de prescription américaines (US), vérifiée le 4 novembre 2026 [1–6]. La durée de chaque palier est la plus courte que la notice indique, pas un objectif.</p>
+        
+
         <h2>Comment lire ces tableaux</h2>
         
         <p>Trois éléments, dans la formulation même des notices, changent la façon de lire un tableau. D’abord, les intervalles sont des minimums : « après au moins 4 semaines » signifie pas plus tôt, et non « à la semaine 5 ». Ensuite, plusieurs notices précisent que si un palier n’est pas toléré, le prescripteur peut envisager de retarder le suivant ou de choisir une dose d’entretien plus faible. Enfin, l’entretien est souvent une fourchette plutôt qu’une ligne d’arrivée, choisie selon la réponse et la tolérance. Un tableau qui montre une seule flèche jusqu’au dosage maximal laisse ces trois points de côté.</p>
@@ -399,6 +456,46 @@
         <p class="table-source">Source : informations de prescription américaines (US) de Foundayo, sections 2.1–2.2 [6]. La notice plafonne la dose plus bas (9 mg) lorsqu’il est pris avec un inhibiteur puissant du CYP3A4, un groupe d’autres médicaments : une raison de plus pour laquelle le bon palier dépend de l’ensemble de vos médicaments.</p>
         
 
+        <h2>Tableau des doses GLP-1 en mL : ce que contient chaque dispositif</h2>
+        
+        <p>Les milligrammes sont la dose. Les millilitres indiquent seulement quelle quantité de liquide la contient, et cela change selon le produit et le dispositif : 2,5 mg de tirzépatide correspondent à 0,5 mL dans un stylo unidose et à 0,6 mL dans un flacon multidose. Voici les volumes indiqués par chaque notice.</p>
+        
+        <table class="dose-table">
+          <thead><tr><th>Produit et dispositif</th><th>Dosage par dose</th><th>Volume indiqué</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® stylo unidose</td><td>0,25, 0,5 ou 1 mg</td><td>0,5 mL</td></tr>
+            <tr><td>Wegovy® stylo unidose</td><td>1,7, 2,4 ou 7,2 mg</td><td>0,75 mL</td></tr>
+            <tr><td>Wegovy® stylo FlexTouch</td><td>2,4 mg</td><td>Stylo de 3 mL, 4 doses</td></tr>
+            <tr><td>Ozempic® seringue unidose</td><td>0,25, 0,5 ou 1 mg</td><td>0,5 mL</td></tr>
+            <tr><td>Ozempic® stylo multidose</td><td>0,25 à 2 mg</td><td>Stylo de 3 mL, plusieurs doses</td></tr>
+            <tr><td>Mounjaro® ou Zepbound® stylo unidose ou flacon</td><td>2,5 à 15 mg</td><td>0,5 mL</td></tr>
+            <tr><td>Mounjaro® ou Zepbound® flacon multidose</td><td>2,5 à 15 mg</td><td>0,6 mL</td></tr>
+            <tr><td>Mounjaro® ou Zepbound® KwikPen</td><td>2,5 à 15 mg</td><td>Stylo de 2,4 mL, 4 doses</td></tr>
+          </tbody>
+        </table>
+        
+        <p class="table-source">Source : section 3 de chacune des informations de prescription américaines (US) [1–4]. N’utilisez pas ce tableau pour mesurer une dose. Les produits en préparation magistrale ne figurent pas dans ces notices et leur dosage par mL varie, donc ces volumes ne s’y appliquent pas ; suivez votre ordonnance et demandez à votre pharmacien. Voir <a href="/fr/articles/units-vs-milligrams">pourquoi les unités et les milligrammes n’ont pas de conversion unique</a>.</p>
+        
+
+        <h2>Conversion des doses GLP-1 : les seuls changements que les notices détaillent</h2>
+        
+        <p>Un tableau qui convertit n’importe quelle dose de GLP-1 en une autre n’existe pas dans ces notices. Elles ne donnent aucune dose équivalente entre le sémaglutide et le tirzépatide, et les sections de posologie des notices de Mounjaro, Zepbound et Foundayo n’indiquent aucun calendrier de changement. Les notices du sémaglutide ne décrivent que les changements ci-dessous, entre leurs propres produits.</p>
+        
+        <table class="dose-table">
+          <thead><tr><th>De</th><th>Vers</th><th>Début du nouveau produit</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® 2,4 mg injectable</td><td>Wegovy® 25 mg en comprimés</td><td>Une semaine après l’arrêt de l’injection</td></tr>
+            <tr><td>Wegovy® 25 mg en comprimés</td><td>Wegovy® 2,4 mg injectable</td><td>Le lendemain de l’arrêt des comprimés</td></tr>
+            <tr><td>Ozempic® 0,5 mg injectable</td><td>Rybelsus® 7 ou 14 mg</td><td>Une semaine après l’arrêt de l’injection</td></tr>
+            <tr><td>Ozempic® 0,5 mg injectable</td><td>Ozempic® en comprimés 4 ou 9 mg</td><td>Une semaine après l’arrêt de l’injection</td></tr>
+            <tr><td>Rybelsus® 7 mg</td><td>Ozempic® en comprimés 4 mg, ou l’inverse</td><td>Le lendemain de l’arrêt ; pas pendant les 30 premiers jours</td></tr>
+            <tr><td>Rybelsus® 14 mg</td><td>Ozempic® en comprimés 9 mg, ou l’inverse</td><td>Le lendemain de l’arrêt ; pas pendant les 30 premiers jours</td></tr>
+          </tbody>
+        </table>
+        
+        <p class="table-source">Source : informations de prescription américaines (US) de Wegovy, section 2.5 [1] ; informations de prescription américaines (US) d’Ozempic en comprimés et de Rybelsus, sections 2.3–2.4 [5]. Changer ou non, et pour quoi, relève de la décision de votre prescripteur.</p>
+        
+
         <h2>Ce que les tableaux ne disent pas</h2>
         
         <p>L’indication change le calendrier. Ozempic et Wegovy sont la même molécule avec des paliers et des maximums différents, parce qu’une notice est écrite pour la glycémie et l’autre pour le poids. Les interruptions le changent aussi : la notice de Wegovy injectable demande aux prescripteurs de reprendre l’augmentation à une dose plus faible après deux doses consécutives oubliées ou plus, et la notice de Foundayo dit la même chose après sept comprimés consécutifs oubliés ou plus. Que faire après une seule dose oubliée diffère encore selon chaque produit ; c’est cité dans <a href="/fr/articles/missed-glp1-dose">ce que dit chaque notice en cas de dose oubliée</a>. Rien de tout cela ne tient dans un tableau, et c’est à votre prescripteur de l’appliquer.</p>
@@ -436,6 +533,30 @@
         <h2>Questions</h2>
         
         <div class="faq-list">
+          <div class="faq-item">
+            <h3>À quelle fréquence les doses de GLP-1 sont-elles augmentées ?</h3>
+            
+            <p>Dans ces notices américaines, les injections hebdomadaires augmentent au plus tôt après 4 semaines et les comprimés quotidiens après 30 jours. Les paliers suivants sont souvent conditionnels : les notices d’Ozempic®, de Mounjaro® et de Foundayo™ les lient au contrôle glycémique ou à la réponse et à la tolérance. Votre prescripteur peut aussi vous maintenir plus longtemps sur un palier.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Qu’est-ce que la dose d’entretien d’un GLP-1 ?</h3>
+            
+            <p>C’est le dosage auquel vous restez après la montée en dose. Les notices en indiquent souvent plusieurs : 1,7 ou 2,4 mg pour Wegovy® injectable, 0,5, 1 ou 2 mg pour Ozempic® injectable, et 5, 10 ou 15 mg pour Zepbound® dans la réduction du poids. Votre prescripteur choisit, selon les critères de la notice comme la réponse, la tolérance ou le contrôle glycémique.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Combien de paliers de dose y a-t-il pour le sémaglutide et le tirzépatide ?</h3>
+            
+            <p>En comptant les augmentations à partir de la dose de départ : Wegovy® injectable atteint 2,4 mg après 4 augmentations, à la semaine 17. Ozempic® injectable atteint 2 mg après 3, à la semaine 13 au plus tôt. Mounjaro® et Zepbound® atteignent 15 mg après 5, à la semaine 21 au plus tôt. Ce sont les trajets les plus courts que permettent les notices, pas le point d’arrivée de tout le monde.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>Existe-t-il un tableau pour convertir le sémaglutide en tirzépatide ?</h3>
+            
+            <p>Pas dans ces notices. Aucune n’indique de dose équivalente entre les deux médicaments. Si vous changez de médicament, la nouvelle dose de départ relève de la décision de votre prescripteur.</p>
+            
+          </div>
           <div class="faq-item">
             <h3>Puis-je passer au palier suivant plus tôt si je me sens bien ?</h3>
             

@@ -10,7 +10,6 @@
   "Medication": "الدواء",
   "Wegovy pill: how the daily tablet is taken": "قرص Wegovy: كيف يُؤخذ القرص اليومي",
   "Empty stomach, a little water, a wait before eating — what the label says, plus missed doses, storage and switching from the pen.": "معدة فارغة، وقليل من الماء، وانتظار قبل الأكل — ما تقوله النشرة، إضافة إلى الجرعات الفائتة والتخزين والانتقال من القلم.",
-  "GLP-1 dose schedule: the steps each label lists": "جدول جرعات GLP-1: الخطوات التي تذكرها كل نشرة",
   "Semaglutide and tirzepatide escalation steps as the US labels list them, each one sourced. Not a plan — your prescriber decides.": "خطوات تصعيد السيماغلوتيد والتيرزيباتيد كما تذكرها النشرات الأمريكية، وكل منها بمصدره. ليست خطة — طبيبك هو من يقرّر.",
   "Appetite": "الشهية",
   "Food noise on a GLP-1, and how to track it": "ضجيج الطعام مع GLP-1، وكيف تتتبّعه",
@@ -62,6 +61,7 @@
   "Forms": "الأشكال الدوائية",
   "GLP-1 patches: where do you put one, and do they exist?": "لصقات GLP-1: أين توضع، وهل هي موجودة أصلاً؟",
   "No approved GLP-1 medicine is a skin patch. What the products sold under that name actually are, why skin delivery doesn't work for these molecules, and what form a prescription really takes.": "لا يوجد دواء GLP-1 معتمد على شكل لصقة جلدية. ما هي المنتجات التي تُباع بهذا الاسم فعلاً، ولماذا لا ينجح الإيصال عبر الجلد مع هذه الجزيئات، وما الشكل الذي تأخذه الوصفة حقاً.",
-  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "هذه المقالات لأغراض تثقيفية فقط ولا تشكّل استشارة طبية أو تشخيصاً أو علاجاً. استشر دائماً طبيبك أو مقدّم رعاية صحية مؤهلاً قبل اتخاذ أي قرار بشأن دوائك."
+  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "هذه المقالات لأغراض تثقيفية فقط ولا تشكّل استشارة طبية أو تشخيصاً أو علاجاً. استشر دائماً طبيبك أو مقدّم رعاية صحية مؤهلاً قبل اتخاذ أي قرار بشأن دوائك.",
+  "GLP-1 dosage chart: the steps each label lists": "جدول جرعات GLP-1: الخطوات التي تذكرها كل نشرة"
  }
 }

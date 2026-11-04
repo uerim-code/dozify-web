@@ -10,7 +10,6 @@
   "Medication": "Legemidler",
   "Wegovy pill: how the daily tablet is taken": "Wegovy-tablett: slik tas den daglige tabletten",
   "Empty stomach, a little water, a wait before eating — what the label says, plus missed doses, storage and switching from the pen.": "Tom mage, litt vann, venting før mat – hva preparatomtalen sier, pluss glemte doser, oppbevaring og bytte fra pennen.",
-  "GLP-1 dose schedule: the steps each label lists": "GLP-1-doseplan: trinnene hver preparatomtale oppgir",
   "Semaglutide and tirzepatide escalation steps as the US labels list them, each one sourced. Not a plan — your prescriber decides.": "Opptrappingstrinn for semaglutid og tirzepatid slik de amerikanske preparatomtalene oppgir dem, alle med kilde. Ikke en plan – forskriveren din bestemmer.",
   "Appetite": "Appetitt",
   "Food noise on a GLP-1, and how to track it": "Matstøy med GLP-1, og hvordan du logger det",
@@ -62,6 +61,7 @@
   "Forms": "Former",
   "GLP-1 patches: where do you put one, and do they exist?": "GLP-1-plaster: hvor setter man det, og finnes det?",
   "No approved GLP-1 medicine is a skin patch. What the products sold under that name actually are, why skin delivery doesn't work for these molecules, and what form a prescription really takes.": "Ingen godkjente GLP-1-legemidler er hudplaster. Hva produktene som selges under det navnet faktisk er, hvorfor levering gjennom huden ikke fungerer for disse molekylene, og hvilken form en resept faktisk har.",
-  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Disse artiklene er kun ment som opplæring og utgjør ikke medisinske råd, diagnose eller behandling. Rådfør deg alltid med legen din eller annet kvalifisert helsepersonell før du tar beslutninger om legemidlene dine."
+  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Disse artiklene er kun ment som opplæring og utgjør ikke medisinske råd, diagnose eller behandling. Rådfør deg alltid med legen din eller annet kvalifisert helsepersonell før du tar beslutninger om legemidlene dine.",
+  "GLP-1 dosage chart: the steps each label lists": "GLP-1-doseringstabell: trinnene hver preparatomtale oppgir"
  }
 }

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GLP-1剂量时间表：各说明书列出的滴定阶梯</title>
-  <meta name="description" content="按美国说明书列出的司美格鲁肽和替尔泊肽剂量表：Wegovy、Ozempic、Mounjaro、Zepbound、Foundayo。注明来源的阶梯，不是用药方案。">
+  <title>GLP-1 剂量表：司美格鲁肽与替尔泊肽各说明书的阶梯</title>
+  <meta name="description" content="按美国说明书整理的司美格鲁肽和替尔泊肽剂量表：Wegovy、Ozempic、Mounjaro、Zepbound 的起始剂量、每阶梯周数、维持、最高剂量和 mL。">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://dozify.app/zh/articles/glp1-dose-schedule">
   <meta property="og:image" content="https://dozify.app/og-image.png">
@@ -17,6 +17,8 @@
     .dose-table th, .dose-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #E2E8F0; vertical-align: top; }
     .dose-table th { color: #0F172A; font-weight: 600; background: #F8FAFC; }
     .table-source { font-size: 13.5px; color: #64748B; margin: 0 0 20px; }
+    .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .table-scroll .dose-table { min-width: 620px; }
   </style>
   <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
        Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
@@ -32,14 +34,14 @@
     gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
   </script>
   <script src="/assets/store-click.js" defer></script>
-  <meta property="og:title" content="GLP-1剂量时间表：各说明书列出的滴定阶梯">
-  <meta property="og:description" content="按美国说明书列出的司美格鲁肽和替尔泊肽剂量表：Wegovy、Ozempic、Mounjaro、Zepbound、Foundayo。注明来源的阶梯，不是用药方案。">
+  <meta property="og:title" content="GLP-1 剂量表：司美格鲁肽与替尔泊肽各说明书的阶梯">
+  <meta property="og:description" content="按美国说明书整理的司美格鲁肽和替尔泊肽剂量表：Wegovy、Ozempic、Mounjaro、Zepbound 的起始剂量、每阶梯周数、维持、最高剂量和 mL。">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
-  <meta name="twitter:title" content="GLP-1剂量时间表：各说明书列出的滴定阶梯">
-  <meta name="twitter:description" content="按美国说明书列出的司美格鲁肽和替尔泊肽剂量表：Wegovy、Ozempic、Mounjaro、Zepbound、Foundayo。注明来源的阶梯，不是用药方案。">
+  <meta name="twitter:title" content="GLP-1 剂量表：司美格鲁肽与替尔泊肽各说明书的阶梯">
+  <meta name="twitter:description" content="按美国说明书整理的司美格鲁肽和替尔泊肽剂量表：Wegovy、Ozempic、Mounjaro、Zepbound 的起始剂量、每阶梯周数、维持、最高剂量和 mL。">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — 一款注重隐私的 iPhone GLP-1 注射与体重记录应用">
   <meta name="theme-color" content="#0D9488">
@@ -111,8 +113,8 @@
         ],
         "@id": "https://dozify.app/zh/articles/glp1-dose-schedule#webpage",
         "url": "https://dozify.app/zh/articles/glp1-dose-schedule",
-        "name": "GLP-1剂量时间表：各说明书列出的滴定阶梯",
-        "description": "按美国说明书列出的司美格鲁肽和替尔泊肽剂量表：Wegovy、Ozempic、Mounjaro、Zepbound、Foundayo。注明来源的阶梯，不是用药方案。",
+        "name": "GLP-1 剂量表：司美格鲁肽与替尔泊肽各说明书的阶梯",
+        "description": "按美国说明书整理的司美格鲁肽和替尔泊肽剂量表：Wegovy、Ozempic、Mounjaro、Zepbound 的起始剂量、每阶梯周数、维持、最高剂量和 mL。",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -121,6 +123,38 @@
           "@id": "https://dozify.app/zh/articles/glp1-dose-schedule#breadcrumb"
         },
         "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "GLP-1 剂量多久加一次？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "在这些美国说明书中，每周注射剂最早在 4 周后加量，每日片剂最早在 30 天后加量。后续阶梯往往附有条件：Ozempic®、Mounjaro® 和 Foundayo™ 的说明书将其与血糖控制，或与疗效和耐受性挂钩。你的处方医生也可以让你在某个阶梯上停留更久。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "什么是 GLP-1 维持剂量？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "它是加量完成后你一直使用的规格。说明书通常列出不止一个：Wegovy® 注射剂为 1.7 或 2.4 mg，Ozempic® 注射剂为 0.5、1 或 2 mg，用于减重的 Zepbound® 为 5、10 或 15 mg。由你的处方医生根据说明书的标准（如疗效、耐受性或血糖控制）来选择。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "司美格鲁肽和替尔泊肽各有多少个剂量阶梯？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "按从起始剂量起的加量次数计算：Wegovy® 注射剂加 4 次后达到 2.4 mg，在第 17 周。Ozempic® 注射剂加 3 次后达到 2 mg，最早在第 13 周。Mounjaro® 和 Zepbound® 加 5 次后达到 15 mg，最早在第 21 周。这些是说明书允许的最短路径，并不是每个人最终会到达的剂量。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "有没有把司美格鲁肽换算成替尔泊肽的图表？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "这些说明书上没有。其中没有一份列出两种药物之间的等效剂量。如果你要换药，新的起始剂量由你的处方医生决定。"
+            }
+          },
           {
             "@type": "Question",
             "name": "如果我感觉良好，可以提前进入下一阶段吗？",
@@ -162,7 +196,7 @@
             }
           }
         ],
-        "headline": "GLP-1 剂量时间表：各说明书列出的滴定阶梯",
+        "headline": "GLP-1 剂量表：美国各说明书列出的滴定阶梯",
         "author": {
           "@id": "https://dozify.app/#author"
         },
@@ -171,8 +205,8 @@
         },
         "image": "https://dozify.app/og-image.png",
         "datePublished": "2026-10-09",
-        "dateModified": "2026-10-09",
-        "lastReviewed": "2026-10-09",
+        "dateModified": "2026-11-04",
+        "lastReviewed": "2026-11-04",
         "citation": [
           {
             "@type": "WebPage",
@@ -274,20 +308,43 @@
       </div>
 
       <div class="article-hero">
-        <h1>GLP-1 剂量时间表：各说明书列出的滴定阶梯</h1>
+        <h1>GLP-1 剂量表：美国各说明书列出的滴定阶梯</h1>
         
-        <p class="article-meta">作者：Ümit Can Erim · 发布于 2026 年 10 月 9 日 · 更新于 2026 年 10 月 9 日 · 来源核对于 2026 年 10 月 9 日 · <a href="/zh/editorial-policy">这些指南是如何撰写的</a></p>
+        <p class="article-meta">作者：Ümit Can Erim · 发布于 2026 年 10 月 9 日 · 更新于 2026 年 11 月 4 日 · 来源核对于 2026 年 11 月 4 日 · <a href="/zh/editorial-policy">这些指南是如何撰写的</a></p>
         
         <p class="article-lede">搜索司美格鲁肽或替尔泊肽的剂量表，你会找到很多，但大多没有注明来源。下面是各产品美国处方信息中列出的原样阶梯，并注明了出自哪一节。请按它们本来的意义去读：说明书设定的起始点和最慢的加量节奏，目的是减少胃肠道副作用。它们不是用药方案。何时加量、是否维持、是否回调，由你的处方医生决定，而你所在国家的说明书可能写得不一样。</p>
         
       </div>
 
       <div class="disclaimer">
-        <p><strong>请先阅读这一段。</strong>这些表格复制的是截至 2026 年 10 月 9 日 DailyMed 上的美国说明书。同一品牌在英国、欧盟或土耳其可能有不同的适应症、规格和阶梯。不要用本页来自行调整剂量或进入下一阶段；如果某个阶段难以耐受，请和你的处方医生沟通。</p>
+        <p><strong>请先阅读这一段。</strong>这些表格复制的是截至 2026 年 11 月 4 日 DailyMed 上的美国说明书。同一品牌在英国、欧盟或土耳其可能有不同的适应症、规格和阶梯。不要用本页来自行调整剂量或进入下一阶段；如果某个阶段难以耐受，请和你的处方医生沟通。</p>
         
       </div>
 
       <div class="prose">
+        <h2>GLP-1 剂量表一览</h2>
+        
+        <p>滴定是指从低剂量开始，分阶梯逐步加量；下面的美国说明书这样做，是为了降低胃肠道副作用的风险。每周注射剂最早在 4 周后进入下一阶梯，每日片剂最早在 30 天后。这张表列出了各产品的起始剂量、每个阶梯的用时、维持剂量和最高规格。完整阶梯见下文。</p>
+        
+        <div class="table-scroll" tabindex="0">
+        <table class="dose-table">
+          <thead><tr><th>产品</th><th>起始剂量</th><th>每个阶梯的用时</th><th>列出的维持剂量</th><th>列出的最高规格</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® 注射剂</td><td>每周 0.25 mg</td><td>4 周</td><td>1.7 或 2.4 mg</td><td>成人减重 7.2 mg；其他情况 2.4 mg</td></tr>
+            <tr><td>Ozempic® 注射剂</td><td>每周 0.25 mg</td><td>4 周，之后至少 4 周</td><td>0.5、1 或 2 mg</td><td>2 mg</td></tr>
+            <tr><td>Mounjaro®</td><td>每周 2.5 mg</td><td>至少 4 周</td><td>根据血糖控制情况</td><td>成人 15 mg；10 岁及以上儿童 10 mg</td></tr>
+            <tr><td>Zepbound®</td><td>每周 2.5 mg</td><td>4 周，之后至少 4 周</td><td>减重：5、10 或 15 mg；阻塞性睡眠呼吸暂停：10 或 15 mg</td><td>15 mg</td></tr>
+            <tr><td>Wegovy® 片剂</td><td>每日 1.5 mg</td><td>30 天</td><td>25 mg</td><td>25 mg</td></tr>
+            <tr><td>Ozempic® 片剂</td><td>每日 1.5 mg</td><td>30 天</td><td>4 或 9 mg</td><td>9 mg</td></tr>
+            <tr><td>Rybelsus®</td><td>每日 3 mg</td><td>30 天</td><td>7 或 14 mg</td><td>14 mg</td></tr>
+            <tr><td>Foundayo™</td><td>每日 0.8 mg</td><td>至少 30 天</td><td>根据疗效和耐受性</td><td>17.2 mg</td></tr>
+          </tbody>
+        </table>
+        </div>
+        
+        <p class="table-source">来源：美国各处方信息第 2 节，核对于 2026 年 11 月 4 日 [1–6]。每个阶梯的用时是说明书列出的最短时间，而不是目标。</p>
+        
+
         <h2>如何阅读这些表格</h2>
         
         <p>说明书本身的措辞中有三点会改变剂量表的读法。第一，间隔是最短时间：“至少 4 周后”的意思是不能更早，而不是“第 5 周”。第二，有几份说明书指出，如果某个阶段无法耐受，处方医生可以考虑推迟下一阶段，或选择较低的维持剂量。第三，维持剂量往往是一个范围，而不是终点线，要根据疗效和耐受性来选择。一张只画一个箭头直指最高规格的图表，把这三点全都漏掉了。</p>
@@ -399,6 +456,46 @@
         <p class="table-source">来源：Foundayo 美国处方信息，第 2.1–2.2 节 [6]。与强效 CYP3A4 抑制剂（一类其他药物）同服时，说明书将剂量上限设得更低（9 mg），这也是合适的阶段取决于你全部用药清单的又一个原因。</p>
         
 
+        <h2>以 mL 表示的 GLP-1 剂量表：各装置装多少</h2>
+        
+        <p>剂量以毫克计。毫升只说明承载这个剂量的液体有多少，会随产品和装置而变：2.5 mg 替尔泊肽，在单剂量注射笔中是 0.5 mL，在多剂量药瓶中是 0.6 mL。这些是各说明书列出的容量。</p>
+        
+        <table class="dose-table">
+          <thead><tr><th>产品和装置</th><th>每剂规格</th><th>列出的容量</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® 单剂量注射笔</td><td>0.25、0.5 或 1 mg</td><td>0.5 mL</td></tr>
+            <tr><td>Wegovy® 单剂量注射笔</td><td>1.7、2.4 或 7.2 mg</td><td>0.75 mL</td></tr>
+            <tr><td>Wegovy® FlexTouch 注射笔</td><td>2.4 mg</td><td>3 mL 注射笔，4 剂</td></tr>
+            <tr><td>Ozempic® 单剂量注射器</td><td>0.25、0.5 或 1 mg</td><td>0.5 mL</td></tr>
+            <tr><td>Ozempic® 多剂量注射笔</td><td>0.25 至 2 mg</td><td>3 mL 注射笔，多剂</td></tr>
+            <tr><td>Mounjaro® 或 Zepbound® 单剂量注射笔或药瓶</td><td>2.5 至 15 mg</td><td>0.5 mL</td></tr>
+            <tr><td>Mounjaro® 或 Zepbound® 多剂量药瓶</td><td>2.5 至 15 mg</td><td>0.6 mL</td></tr>
+            <tr><td>Mounjaro® 或 Zepbound® KwikPen</td><td>2.5 至 15 mg</td><td>2.4 mL 注射笔，4 剂</td></tr>
+          </tbody>
+        </table>
+        
+        <p class="table-source">来源：美国各处方信息第 3 节 [1–4]。请勿用此表量取剂量。调配产品不在这些说明书上，其每毫升的规格各不相同，因此这些容量不适用于它们；请以你的处方为准，并询问药剂师。参见<a href="/zh/articles/units-vs-milligrams">为什么单位和毫克没有统一的换算</a>。</p>
+        
+
+        <h2>GLP-1 剂量换算：说明书明确列出的仅有几种转换</h2>
+        
+        <p>这些说明书上没有能把任何一种 GLP-1 剂量换成另一种的图表。它们没有给出司美格鲁肽与替尔泊肽之间的等效剂量，Mounjaro、Zepbound 和 Foundayo 说明书的剂量部分也没有列出转换方案。司美格鲁肽说明书只描述了下面这些转换，且仅限于它们自己的产品之间。</p>
+        
+        <table class="dose-table">
+          <thead><tr><th>从</th><th>转为</th><th>开始使用新产品的时间</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® 2.4 mg 注射剂</td><td>Wegovy® 25 mg 片剂</td><td>停用注射剂一周后</td></tr>
+            <tr><td>Wegovy® 25 mg 片剂</td><td>Wegovy® 2.4 mg 注射剂</td><td>停用片剂后的第二天</td></tr>
+            <tr><td>Ozempic® 0.5 mg 注射剂</td><td>Rybelsus® 7 或 14 mg</td><td>停用注射剂一周后</td></tr>
+            <tr><td>Ozempic® 0.5 mg 注射剂</td><td>Ozempic® 片剂 4 或 9 mg</td><td>停用注射剂一周后</td></tr>
+            <tr><td>Rybelsus® 7 mg</td><td>Ozempic® 片剂 4 mg，或反向转换</td><td>停用后的第二天；前 30 天内除外</td></tr>
+            <tr><td>Rybelsus® 14 mg</td><td>Ozempic® 片剂 9 mg，或反向转换</td><td>停用后的第二天；前 30 天内除外</td></tr>
+          </tbody>
+        </table>
+        
+        <p class="table-source">来源：Wegovy 美国处方信息，第 2.5 节 [1]；Ozempic 片剂和 Rybelsus 美国处方信息，第 2.3–2.4 节 [5]。是否转换、转换成什么，由你的处方医生决定。</p>
+        
+
         <h2>表格没有体现的内容</h2>
         
         <p>适应症会改变时间表。Ozempic 和 Wegovy 是同一种分子，却有不同的阶梯和不同的最高剂量，因为一份说明书针对血糖，另一份针对体重。中断也会改变时间表：Wegovy 注射剂说明书要求处方医生在连续漏打两剂或以上后，从较低剂量重新开始递增；Foundayo 说明书在连续漏服七片或以上后也有同样的要求。漏掉单独一剂后该怎么做，每种产品又各不相同；原文引用在<a href="/zh/articles/missed-glp1-dose">各说明书对漏打一剂是怎么说的</a>中。这些都放不进一张图表，而且全都应由你的处方医生来应用。</p>
@@ -436,6 +533,30 @@
         <h2>问题</h2>
         
         <div class="faq-list">
+          <div class="faq-item">
+            <h3>GLP-1 剂量多久加一次？</h3>
+            
+            <p>在这些美国说明书中，每周注射剂最早在 4 周后加量，每日片剂最早在 30 天后加量。后续阶梯往往附有条件：Ozempic®、Mounjaro® 和 Foundayo™ 的说明书将其与血糖控制，或与疗效和耐受性挂钩。你的处方医生也可以让你在某个阶梯上停留更久。</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>什么是 GLP-1 维持剂量？</h3>
+            
+            <p>它是加量完成后你一直使用的规格。说明书通常列出不止一个：Wegovy® 注射剂为 1.7 或 2.4 mg，Ozempic® 注射剂为 0.5、1 或 2 mg，用于减重的 Zepbound® 为 5、10 或 15 mg。由你的处方医生根据说明书的标准（如疗效、耐受性或血糖控制）来选择。</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>司美格鲁肽和替尔泊肽各有多少个剂量阶梯？</h3>
+            
+            <p>按从起始剂量起的加量次数计算：Wegovy® 注射剂加 4 次后达到 2.4 mg，在第 17 周。Ozempic® 注射剂加 3 次后达到 2 mg，最早在第 13 周。Mounjaro® 和 Zepbound® 加 5 次后达到 15 mg，最早在第 21 周。这些是说明书允许的最短路径，并不是每个人最终会到达的剂量。</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>有没有把司美格鲁肽换算成替尔泊肽的图表？</h3>
+            
+            <p>这些说明书上没有。其中没有一份列出两种药物之间的等效剂量。如果你要换药，新的起始剂量由你的处方医生决定。</p>
+            
+          </div>
           <div class="faq-item">
             <h3>如果我感觉良好，可以提前进入下一阶段吗？</h3>
             

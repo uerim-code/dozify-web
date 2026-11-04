@@ -10,7 +10,6 @@
   "Medication": "Lægemidler",
   "Wegovy pill: how the daily tablet is taken": "Wegovy pille: sådan tages den daglige tablet",
   "Empty stomach, a little water, a wait before eating — what the label says, plus missed doses, storage and switching from the pen.": "Tom mave, lidt vand, en ventetid før du spiser – hvad produktinformationen siger, plus glemte doser, opbevaring og skift fra pennen.",
-  "GLP-1 dose schedule: the steps each label lists": "GLP-1-dosisplan: trinene i hver produktinformation",
   "Semaglutide and tirzepatide escalation steps as the US labels list them, each one sourced. Not a plan — your prescriber decides.": "Optrapningstrin for semaglutid og tirzepatid, som de amerikanske produktinformationer angiver dem, hver med kilde. Ikke en plan – din læge bestemmer.",
   "Appetite": "Appetit",
   "Food noise on a GLP-1, and how to track it": "Madstøj på GLP-1, og hvordan du følger den",
@@ -62,6 +61,7 @@
   "Forms": "Former",
   "GLP-1 patches: where do you put one, and do they exist?": "GLP-1-plastre: hvor sætter man et, og findes de overhovedet?",
   "No approved GLP-1 medicine is a skin patch. What the products sold under that name actually are, why skin delivery doesn't work for these molecules, and what form a prescription really takes.": "Intet godkendt GLP-1-lægemiddel er et plaster på huden. Hvad de produkter, der sælges under det navn, egentlig er, hvorfor optagelse gennem huden ikke virker for disse molekyler, og hvilken form en recept reelt har.",
-  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Disse artikler er kun til oplysning og udgør ikke medicinsk rådgivning, diagnose eller behandling. Spørg altid din læge eller en kvalificeret sundhedsperson, før du træffer beslutninger om din medicin."
+  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Disse artikler er kun til oplysning og udgør ikke medicinsk rådgivning, diagnose eller behandling. Spørg altid din læge eller en kvalificeret sundhedsperson, før du træffer beslutninger om din medicin.",
+  "GLP-1 dosage chart: the steps each label lists": "GLP-1-doseringstabel: trinene i hver produktinformation"
  }
 }

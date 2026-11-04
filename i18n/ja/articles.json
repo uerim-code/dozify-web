@@ -10,7 +10,6 @@
   "Medication": "お薬",
   "Wegovy pill: how the daily tablet is taken": "Wegovy錠：毎日の錠剤の飲み方",
   "Empty stomach, a little water, a wait before eating — what the label says, plus missed doses, storage and switching from the pen.": "空腹時に、少量の水で、食事まで待つ — 添付文書に書かれていることと、飲み忘れ、保管、ペンからの切り替え。",
-  "GLP-1 dose schedule: the steps each label lists": "GLP-1の用量スケジュール：各添付文書に記載されたステップ",
   "Semaglutide and tirzepatide escalation steps as the US labels list them, each one sourced. Not a plan — your prescriber decides.": "米国の添付文書に記載されたセマグルチドとチルゼパチドの増量ステップを、それぞれ出典つきで。治療計画ではありません — 決めるのは処方医です。",
   "Appetite": "食欲",
   "Food noise on a GLP-1, and how to track it": "GLP-1治療中のフードノイズと、その記録のしかた",
@@ -62,6 +61,7 @@
   "Forms": "剤形",
   "GLP-1 patches: where do you put one, and do they exist?": "GLP-1パッチ：どこに貼る？ そもそも存在する？",
   "No approved GLP-1 medicine is a skin patch. What the products sold under that name actually are, why skin delivery doesn't work for these molecules, and what form a prescription really takes.": "承認されたGLP-1のお薬に、皮膚に貼るパッチはありません。その名前で売られている製品の正体、これらの分子が皮膚から届かない理由、そして処方薬が実際にどんな形なのか。",
-  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "これらの記事は教育目的のものであり、医学的な助言、診断、治療を構成するものではありません。お薬について何かを決める前に、必ず医師または資格のある医療者に相談してください。"
+  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "これらの記事は教育目的のものであり、医学的な助言、診断、治療を構成するものではありません。お薬について何かを決める前に、必ず医師または資格のある医療者に相談してください。",
+  "GLP-1 dosage chart: the steps each label lists": "GLP-1用量表：各添付文書に記載されたステップ"
  }
 }

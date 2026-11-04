@@ -10,7 +10,6 @@
   "Medication": "Léky",
   "Wegovy pill: how the daily tablet is taken": "Tableta Wegovy: jak se denní tableta užívá",
   "Empty stomach, a little water, a wait before eating — what the label says, plus missed doses, storage and switching from the pen.": "Nalačno, trocha vody, čekání před jídlem — co uvádí informace o přípravku, a k tomu vynechané dávky, uchovávání a přechod z pera.",
-  "GLP-1 dose schedule: the steps each label lists": "Rozpis dávek GLP-1: kroky podle jednotlivých informací o přípravku",
   "Semaglutide and tirzepatide escalation steps as the US labels list them, each one sourced. Not a plan — your prescriber decides.": "Kroky zvyšování dávky semaglutidu a tirzepatidu tak, jak je uvádějí americké informace o přípravcích, každý se zdrojem. Není to plán — rozhoduje tvůj lékař.",
   "Appetite": "Chuť k jídlu",
   "Food noise on a GLP-1, and how to track it": "Food noise na GLP-1 a jak ho sledovat",
@@ -62,6 +61,7 @@
   "Forms": "Lékové formy",
   "GLP-1 patches: where do you put one, and do they exist?": "Náplasti GLP-1: kam se lepí a existují vůbec?",
   "No approved GLP-1 medicine is a skin patch. What the products sold under that name actually are, why skin delivery doesn't work for these molecules, and what form a prescription really takes.": "Žádný schválený lék GLP-1 není kožní náplast. Co jsou výrobky prodávané pod tímto názvem doopravdy, proč podání přes kůži u těchto molekul nefunguje a jakou formu má skutečný předpis.",
-  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Tyto články slouží pouze ke vzdělávacím účelům a nepředstavují lékařskou radu, diagnózu ani léčbu. Před jakýmkoli rozhodnutím o svém léku se vždy poraď se svým lékařem nebo kvalifikovaným zdravotníkem."
+  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Tyto články slouží pouze ke vzdělávacím účelům a nepředstavují lékařskou radu, diagnózu ani léčbu. Před jakýmkoli rozhodnutím o svém léku se vždy poraď se svým lékařem nebo kvalifikovaným zdravotníkem.",
+  "GLP-1 dosage chart: the steps each label lists": "Tabulka dávkování GLP-1: kroky podle jednotlivých informací o přípravku"
  }
 }

@@ -76,6 +76,7 @@
   "Your health records stay on your device and are never uploaded; the one exception is a meal photo you choose to analyse with AI calories, sent only after you agree and not stored by the app. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom, details in the <a href=\"/en/privacy\">privacy policy</a>.": "Twoje dane zdrowotne zostają na Twoim urządzeniu i nigdy nie są wysyłane; jedynym wyjątkiem jest zdjęcie posiłku, które sam zdecydujesz się przeanalizować funkcją kalorii z AI — wysyłane dopiero po Twojej zgodzie i nieprzechowywane przez aplikację. Nie ma konta ani synchronizacji z chmurą. Statystyki użytkowania nigdy nie zawierają nazwy leku ani objawu, szczegóły w <a href=\"/en/privacy\">polityce prywatności</a>.",
   "privacy@dozify.app": "privacy@dozify.app",
   "support@dozify.app": "support@dozify.app",
-  "© 2026 UCE": "© 2026 UCE"
+  "© 2026 UCE": "© 2026 UCE",
+  "See the GLP-1 dosage chart →": "Zobacz tabelę dawkowania GLP-1 →"
  }
 }

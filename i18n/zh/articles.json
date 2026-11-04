@@ -10,7 +10,6 @@
   "Medication": "用药",
   "Wegovy pill: how the daily tablet is taken": "Wegovy 口服片：每日片剂怎么服用",
   "Empty stomach, a little water, a wait before eating — what the label says, plus missed doses, storage and switching from the pen.": "空腹、少量水、进食前等待——说明书怎么说，以及漏服、储存和从注射笔换用。",
-  "GLP-1 dose schedule: the steps each label lists": "GLP-1 剂量时间表：各说明书列出的阶梯",
   "Semaglutide and tirzepatide escalation steps as the US labels list them, each one sourced. Not a plan — your prescriber decides.": "美国说明书列出的司美格鲁肽和替尔泊肽递增阶梯，每一个都注明来源。不是用药方案——由你的处方医生决定。",
   "Appetite": "食欲",
   "Food noise on a GLP-1, and how to track it": "使用 GLP-1 期间的食物噪音，以及如何记录",
@@ -62,6 +61,7 @@
   "Forms": "剂型",
   "GLP-1 patches: where do you put one, and do they exist?": "GLP-1 贴片：贴在哪里？它真的存在吗？",
   "No approved GLP-1 medicine is a skin patch. What the products sold under that name actually are, why skin delivery doesn't work for these molecules, and what form a prescription really takes.": "没有任何获批的 GLP-1 药物是皮肤贴片。以这个名义出售的产品究竟是什么，为什么经皮给药对这些分子不起作用，以及处方药的真实剂型是什么。",
-  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "这些文章仅供科普，不构成医疗建议、诊断或治疗。在做出任何用药决定之前，请务必咨询你的医生或合格的医疗专业人员。"
+  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "这些文章仅供科普，不构成医疗建议、诊断或治疗。在做出任何用药决定之前，请务必咨询你的医生或合格的医疗专业人员。",
+  "GLP-1 dosage chart: the steps each label lists": "GLP-1 剂量表：各说明书列出的阶梯"
  }
 }

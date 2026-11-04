@@ -10,7 +10,6 @@
   "Medication": "Lääkitys",
   "Wegovy pill: how the daily tablet is taken": "Wegovy-tabletti: näin päivittäinen tabletti otetaan",
   "Empty stomach, a little water, a wait before eating — what the label says, plus missed doses, storage and switching from the pen.": "Tyhjä maha, vähän vettä, odotus ennen syömistä — mitä valmisteyhteenveto sanoo, sekä unohtuneet annokset, säilytys ja vaihto kynästä.",
-  "GLP-1 dose schedule: the steps each label lists": "GLP-1-annosaikataulu: kunkin valmisteyhteenvedon portaat",
   "Semaglutide and tirzepatide escalation steps as the US labels list them, each one sourced. Not a plan — your prescriber decides.": "Semaglutidin ja tirtsepatidin annosportaat sellaisina kuin Yhdysvaltain valmisteyhteenvedot ne luettelevat, kukin lähteineen. Ei suunnitelma — lääkärisi päättää.",
   "Appetite": "Ruokahalu",
   "Food noise on a GLP-1, and how to track it": "Ruokamelu GLP-1-hoidossa ja miten sitä seurataan",
@@ -62,6 +61,7 @@
   "Forms": "Lääkemuodot",
   "GLP-1 patches: where do you put one, and do they exist?": "GLP-1-laastarit: mihin sellainen laitetaan, ja onko niitä olemassa?",
   "No approved GLP-1 medicine is a skin patch. What the products sold under that name actually are, why skin delivery doesn't work for these molecules, and what form a prescription really takes.": "Yksikään hyväksytty GLP-1-lääke ei ole ihoon kiinnitettävä laastari. Mitä tällä nimellä myydyt tuotteet oikeasti ovat, miksi ihon kautta annostelu ei toimi näillä molekyyleillä ja missä muodossa resepti todella annetaan.",
-  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Nämä artikkelit ovat vain opetuksellisia eivätkä ole lääketieteellistä neuvontaa, diagnoosia tai hoitoa. Keskustele aina lääkärisi tai muun pätevän terveydenhuollon ammattilaisen kanssa ennen lääkitystäsi koskevia päätöksiä."
+  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Nämä artikkelit ovat vain opetuksellisia eivätkä ole lääketieteellistä neuvontaa, diagnoosia tai hoitoa. Keskustele aina lääkärisi tai muun pätevän terveydenhuollon ammattilaisen kanssa ennen lääkitystäsi koskevia päätöksiä.",
+  "GLP-1 dosage chart: the steps each label lists": "GLP-1-annostaulukko: kunkin valmisteyhteenvedon portaat"
  }
 }

@@ -10,7 +10,6 @@
   "Medication": "Medicamento",
   "Wegovy pill: how the daily tablet is taken": "Comprimido Wegovy: como se toma o comprimido diário",
   "Empty stomach, a little water, a wait before eating — what the label says, plus missed doses, storage and switching from the pen.": "Estômago vazio, pouca água, uma espera antes de comer — o que diz o folheto, mais doses esquecidas, conservação e a mudança a partir da caneta.",
-  "GLP-1 dose schedule: the steps each label lists": "Esquema de doses GLP-1: os degraus que cada folheto indica",
   "Semaglutide and tirzepatide escalation steps as the US labels list them, each one sourced. Not a plan — your prescriber decides.": "Degraus de aumento do semaglutido e da tirzepatida como os indicam os folhetos dos EUA, cada um com fonte. Não é um plano — quem decide é quem o prescreve.",
   "Appetite": "Apetite",
   "Food noise on a GLP-1, and how to track it": "Food noise com GLP-1 e como registá-lo",
@@ -62,6 +61,7 @@
   "Forms": "Formas",
   "GLP-1 patches: where do you put one, and do they exist?": "Adesivos de GLP-1: onde se põem e existem mesmo?",
   "No approved GLP-1 medicine is a skin patch. What the products sold under that name actually are, why skin delivery doesn't work for these molecules, and what form a prescription really takes.": "Nenhum medicamento GLP-1 aprovado é um adesivo cutâneo. O que são realmente os produtos vendidos com esse nome, porque é que a administração pela pele não funciona para estas moléculas e que forma tem de facto uma receita.",
-  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Estes artigos destinam-se apenas a fins educativos e não constituem aconselhamento médico, diagnóstico ou tratamento. Consulte sempre o seu médico ou um profissional de saúde qualificado antes de tomar qualquer decisão sobre a sua medicação."
+  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Estes artigos destinam-se apenas a fins educativos e não constituem aconselhamento médico, diagnóstico ou tratamento. Consulte sempre o seu médico ou um profissional de saúde qualificado antes de tomar qualquer decisão sobre a sua medicação.",
+  "GLP-1 dosage chart: the steps each label lists": "Tabela de doses GLP-1: os degraus que cada folheto indica"
  }
 }

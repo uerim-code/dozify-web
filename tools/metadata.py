@@ -328,10 +328,10 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "Wegovy hap (ağızdan semaglutid) prospektüse göre nasıl alınır: aç karnına, az suyla, 30 dakika bekleyerek. Kaçırılan doz, saklama ve kalemden geçiş."),
     },
     "articles/glp1-dose-schedule": {
-        "en": ("GLP-1 Dose Schedule: The Titration Steps Each Label Lists",
-               "Semaglutide and tirzepatide dosage charts as each US label lists them: Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Sourced steps, not a plan."),
-        "tr": ("GLP-1 Doz Takvimi: Her Prospektüsün Sıraladığı Adımlar",
-               "Wegovy, Ozempic, Mounjaro, Zepbound ve Foundayo için doz artış adımları, ABD prospektüsünde yazdığı gibi ve kaynağıyla. Plan değil; kararı hekiminiz verir."),
+        "en": ("GLP-1 Dosage Chart: Semaglutide & Tirzepatide Steps by Label",
+               "Semaglutide and tirzepatide dosage chart from each US label: start, weeks per step, maintenance, maximum and mL for Wegovy, Ozempic, Mounjaro and Zepbound."),
+        "tr": ("GLP-1 Doz Takvimi ve Tablosu: Prospektüslerin Adımları",
+               "Her ABD prospektüsünden semaglutid ve tirzepatid doz tablosu: başlangıç, adım süresi, idame, en yüksek güç ve mL. Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo."),
     },
     "articles/food-noise": {
         "en": ("Food Noise on a GLP-1: What It Means and How to Track It",

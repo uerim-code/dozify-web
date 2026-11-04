@@ -10,7 +10,6 @@
   "Medication": "Препарати",
   "Wegovy pill: how the daily tablet is taken": "Wegovy у таблетках: як приймати щоденну таблетку",
   "Empty stomach, a little water, a wait before eating — what the label says, plus missed doses, storage and switching from the pen.": "Натщесерце, трохи води, очікування перед їжею — що сказано в інструкції, а також про пропущені дози, зберігання й перехід зі шприц-ручки.",
-  "GLP-1 dose schedule: the steps each label lists": "Графік доз GLP-1: кроки з кожної інструкції",
   "Semaglutide and tirzepatide escalation steps as the US labels list them, each one sourced. Not a plan — your prescriber decides.": "Кроки підвищення дози семаглутиду й тирзепатиду за інструкціями США, кожен із джерелом. Це не план — вирішує ваш лікар.",
   "Appetite": "Апетит",
   "Food noise on a GLP-1, and how to track it": "«Харчовий шум» на GLP-1 і як його відстежувати",
@@ -62,6 +61,7 @@
   "Forms": "Форми",
   "GLP-1 patches: where do you put one, and do they exist?": "Пластирі GLP-1: куди їх клеїти і чи вони взагалі існують?",
   "No approved GLP-1 medicine is a skin patch. What the products sold under that name actually are, why skin delivery doesn't work for these molecules, and what form a prescription really takes.": "Жоден схвалений препарат GLP-1 не є пластирем. Що насправді продають під цією назвою, чому доставка через шкіру не працює для цих молекул і в якій формі насправді призначають препарат.",
-  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Ці статті мають лише освітній характер і не є медичною порадою, діагнозом чи лікуванням. Завжди консультуйтеся з лікарем або кваліфікованим медичним працівником, перш ніж ухвалювати будь-які рішення щодо ліків."
+  "These articles are for educational purposes only and do not constitute medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider before making any decisions about your medication.": "Ці статті мають лише освітній характер і не є медичною порадою, діагнозом чи лікуванням. Завжди консультуйтеся з лікарем або кваліфікованим медичним працівником, перш ніж ухвалювати будь-які рішення щодо ліків.",
+  "GLP-1 dosage chart: the steps each label lists": "Таблиця дозування GLP-1: кроки з кожної інструкції"
  }
 }

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pauta de dosis GLP-1: los escalones que recoge cada ficha</title>
-  <meta name="description" content="Tablas de dosis de semaglutida y tirzepatida según cada ficha de EE. UU.: Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Escalones con fuente, no un plan.">
+  <title>Tabla de dosis GLP-1: semaglutida y tirzepatida por ficha</title>
+  <meta name="description" content="Dosis de semaglutida y tirzepatida según cada ficha de EE. UU.: inicio, semanas por escalón, mantenimiento, máximo y mL de Wegovy, Ozempic, Mounjaro, Zepbound.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://dozify.app/es/articles/glp1-dose-schedule">
   <meta property="og:image" content="https://dozify.app/og-image.png">
@@ -17,6 +17,8 @@
     .dose-table th, .dose-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #E2E8F0; vertical-align: top; }
     .dose-table th { color: #0F172A; font-weight: 600; background: #F8FAFC; }
     .table-source { font-size: 13.5px; color: #64748B; margin: 0 0 20px; }
+    .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .table-scroll .dose-table { min-width: 620px; }
   </style>
   <!-- Google Ads dönüşüm etiketi — YALNIZ ölçüm.
        Sağlık konulu bir sitede kişiselleştirilmiş reklam kitlesi oluşturulmasın diye
@@ -32,14 +34,14 @@
     gtag('config', 'AW-18301393109', { 'allow_ad_personalization_signals': false, 'allow_google_signals': false });
   </script>
   <script src="/assets/store-click.js" defer></script>
-  <meta property="og:title" content="Pauta de dosis GLP-1: los escalones que recoge cada ficha">
-  <meta property="og:description" content="Tablas de dosis de semaglutida y tirzepatida según cada ficha de EE. UU.: Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Escalones con fuente, no un plan.">
+  <meta property="og:title" content="Tabla de dosis GLP-1: semaglutida y tirzepatida por ficha">
+  <meta property="og:description" content="Dosis de semaglutida y tirzepatida según cada ficha de EE. UU.: inicio, semanas por escalón, mantenimiento, máximo y mL de Wegovy, Ozempic, Mounjaro, Zepbound.">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify: registro privado de inyecciones GLP-1 y de peso para iPhone">
-  <meta name="twitter:title" content="Pauta de dosis GLP-1: los escalones que recoge cada ficha">
-  <meta name="twitter:description" content="Tablas de dosis de semaglutida y tirzepatida según cada ficha de EE. UU.: Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Escalones con fuente, no un plan.">
+  <meta name="twitter:title" content="Tabla de dosis GLP-1: semaglutida y tirzepatida por ficha">
+  <meta name="twitter:description" content="Dosis de semaglutida y tirzepatida según cada ficha de EE. UU.: inicio, semanas por escalón, mantenimiento, máximo y mL de Wegovy, Ozempic, Mounjaro, Zepbound.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify: registro privado de inyecciones GLP-1 y de peso para iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -111,8 +113,8 @@
         ],
         "@id": "https://dozify.app/es/articles/glp1-dose-schedule#webpage",
         "url": "https://dozify.app/es/articles/glp1-dose-schedule",
-        "name": "Pauta de dosis GLP-1: los escalones que recoge cada ficha",
-        "description": "Tablas de dosis de semaglutida y tirzepatida según cada ficha de EE. UU.: Wegovy, Ozempic, Mounjaro, Zepbound, Foundayo. Escalones con fuente, no un plan.",
+        "name": "Tabla de dosis GLP-1: semaglutida y tirzepatida por ficha",
+        "description": "Dosis de semaglutida y tirzepatida según cada ficha de EE. UU.: inicio, semanas por escalón, mantenimiento, máximo y mL de Wegovy, Ozempic, Mounjaro, Zepbound.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -121,6 +123,38 @@
           "@id": "https://dozify.app/es/articles/glp1-dose-schedule#breadcrumb"
         },
         "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cada cuánto se suben las dosis de GLP-1?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "En estas fichas de EE. UU., las inyecciones semanales suben como pronto tras 4 semanas y los comprimidos diarios tras 30 días. Los escalones posteriores suelen estar condicionados: las fichas de Ozempic®, Mounjaro® y Foundayo™ los vinculan al control de la glucosa o a la respuesta y la tolerancia. Quien te receta también puede mantenerte más tiempo en un escalón."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué es una dosis de mantenimiento de GLP-1?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Es la concentración en la que te quedas después de la subida. Las fichas suelen indicar más de una: 1,7 o 2,4 mg para Wegovy® inyectable, 0,5, 1 o 2 mg para Ozempic® inyectable y 5, 10 o 15 mg para Zepbound® en reducción de peso. Quien te receta elige, según los criterios de la ficha, como la respuesta, la tolerancia o el control de la glucosa."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuántos escalones de dosis tienen la semaglutida y la tirzepatida?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Contando los aumentos desde la dosis inicial: Wegovy® inyectable llega a 2,4 mg tras 4 aumentos, en la semana 17. Ozempic® inyectable llega a 2 mg tras 3, en la semana 13 como pronto. Mounjaro® y Zepbound® llegan a 15 mg tras 5, en la semana 21 como pronto. Son los caminos más cortos que permiten las fichas, no el punto al que llega todo el mundo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Existe una tabla para pasar de semaglutida a tirzepatida?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No en estas fichas. Ninguna recoge una dosis equivalente entre los dos medicamentos. Si cambias de medicamento, la nueva dosis inicial la decide quien te lo receta."
+            }
+          },
           {
             "@type": "Question",
             "name": "¿Puedo pasar antes al siguiente escalón si me encuentro bien?",
@@ -162,7 +196,7 @@
             }
           }
         ],
-        "headline": "Pauta de dosis GLP-1: los escalones de titulación que recoge cada ficha",
+        "headline": "Tabla de dosis GLP-1: los escalones de titulación que recoge cada ficha de EE. UU.",
         "author": {
           "@id": "https://dozify.app/#author"
         },
@@ -171,8 +205,8 @@
         },
         "image": "https://dozify.app/og-image.png",
         "datePublished": "2026-10-09",
-        "dateModified": "2026-10-09",
-        "lastReviewed": "2026-10-09",
+        "dateModified": "2026-11-04",
+        "lastReviewed": "2026-11-04",
         "citation": [
           {
             "@type": "WebPage",
@@ -274,20 +308,43 @@
       </div>
 
       <div class="article-hero">
-        <h1>Pauta de dosis GLP-1: los escalones de titulación que recoge cada ficha</h1>
+        <h1>Tabla de dosis GLP-1: los escalones de titulación que recoge cada ficha de EE. UU.</h1>
         
-        <p class="article-meta">Por Ümit Can Erim · Publicado el 9 de octubre de 2026 · Actualizado el 9 de octubre de 2026 · Fuentes revisadas el 9 de octubre de 2026 · <a href="/es/editorial-policy">Cómo se escriben estas guías</a></p>
+        <p class="article-meta">Por Ümit Can Erim · Publicado el 9 de octubre de 2026 · Actualizado el 4 de noviembre de 2026 · Fuentes revisadas el 4 de noviembre de 2026 · <a href="/es/editorial-policy">Cómo se escriben estas guías</a></p>
         
         <p class="article-lede">Busca una tabla de dosis de semaglutida o tirzepatida y encontrarás muchas, la mayoría sin fuente. Abajo están los escalones exactamente como los recoge la ficha técnica de EE. UU. de cada producto, con la sección de la que proceden. Léelos por lo que son: el punto de partida y los aumentos más lentos que fija una ficha, pensados para reducir los efectos secundarios digestivos. No son un plan. Quien te lo receta decide cuándo subes, si te quedas y si vuelves atrás, y el prospecto de tu país puede decir algo distinto.</p>
         
       </div>
 
       <div class="disclaimer">
-        <p><strong>Lee esto primero.</strong> Estas tablas reproducen las fichas técnicas de EE. UU. publicadas en DailyMed a 9 de octubre de 2026. La misma marca puede tener indicaciones, concentraciones y escalones diferentes en el Reino Unido, la UE o Turquía. No uses esta página para cambiar una dosis ni para pasar al siguiente escalón por tu cuenta; si un escalón te cuesta tolerarlo, eso es algo que hay que hablar con quien te lo receta.</p>
+        <p><strong>Lee esto primero.</strong> Estas tablas reproducen las fichas técnicas de EE. UU. publicadas en DailyMed a 4 de noviembre de 2026. La misma marca puede tener indicaciones, concentraciones y escalones diferentes en el Reino Unido, la UE o Turquía. No uses esta página para cambiar una dosis ni para pasar al siguiente escalón por tu cuenta; si un escalón te cuesta tolerarlo, eso es algo que hay que hablar con quien te lo receta.</p>
         
       </div>
 
       <div class="prose">
+        <h2>Tabla de dosis GLP-1 de un vistazo</h2>
+        
+        <p>La titulación consiste en empezar con una dosis baja y subirla por escalones; las fichas de EE. UU. de abajo lo hacen para reducir el riesgo de efectos secundarios digestivos. Las inyecciones semanales suben como pronto tras 4 semanas, y los comprimidos diarios tras 30 días. La tabla recoge para cada producto el inicio, el tiempo en cada escalón, el mantenimiento y la concentración más alta. Los escalones completos van a continuación.</p>
+        
+        <div class="table-scroll" tabindex="0">
+        <table class="dose-table">
+          <thead><tr><th>Producto</th><th>Empieza en</th><th>Tiempo en cada escalón</th><th>Mantenimiento indicado</th><th>Concentración máxima indicada</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® inyectable</td><td>0,25 mg semanales</td><td>4 semanas</td><td>1,7 o 2,4 mg</td><td>7,2 mg para reducción de peso en adultos; si no, 2,4 mg</td></tr>
+            <tr><td>Ozempic® inyectable</td><td>0,25 mg semanales</td><td>4 semanas y después al menos 4 semanas</td><td>0,5, 1 o 2 mg</td><td>2 mg</td></tr>
+            <tr><td>Mounjaro®</td><td>2,5 mg semanales</td><td>Al menos 4 semanas</td><td>Según el control de la glucosa</td><td>15 mg en adultos; 10 mg en niños de 10 años o más</td></tr>
+            <tr><td>Zepbound®</td><td>2,5 mg semanales</td><td>4 semanas y después al menos 4 semanas</td><td>5, 10 o 15 mg para la reducción de peso; 10 o 15 mg para la apnea obstructiva del sueño</td><td>15 mg</td></tr>
+            <tr><td>Wegovy® en comprimidos</td><td>1,5 mg diarios</td><td>30 días</td><td>25 mg</td><td>25 mg</td></tr>
+            <tr><td>Ozempic® en comprimidos</td><td>1,5 mg diarios</td><td>30 días</td><td>4 o 9 mg</td><td>9 mg</td></tr>
+            <tr><td>Rybelsus®</td><td>3 mg diarios</td><td>30 días</td><td>7 o 14 mg</td><td>14 mg</td></tr>
+            <tr><td>Foundayo™</td><td>0,8 mg diarios</td><td>Al menos 30 días</td><td>Según la respuesta y la tolerancia</td><td>17,2 mg</td></tr>
+          </tbody>
+        </table>
+        </div>
+        
+        <p class="table-source">Fuente: sección 2 de cada ficha técnica de EE. UU., revisada el 4 de noviembre de 2026 [1–6]. El tiempo en cada escalón es el más corto que recoge la ficha, no un objetivo.</p>
+        
+
         <h2>Cómo leer estas tablas</h2>
         
         <p>Hay tres cosas, en las propias palabras de las fichas, que cambian cómo debe leerse una tabla. Primero, los intervalos son mínimos: «después de al menos 4 semanas» significa no antes, no «en la semana 5». Segundo, varias fichas dicen que, si un escalón no se tolera, quien receta puede plantearse retrasar el siguiente o elegir una dosis de mantenimiento más baja. Tercero, el mantenimiento suele ser un rango y no una línea de meta, que se elige según la respuesta y la tolerancia. Una tabla que muestra una sola flecha hasta la concentración máxima deja fuera las tres cosas.</p>
@@ -399,6 +456,46 @@
         <p class="table-source">Fuente: ficha técnica de Foundayo en EE. UU., secciones 2.1–2.2 [6]. La ficha limita la dosis a un máximo más bajo (9 mg) cuando se toma con un inhibidor potente del CYP3A4, un grupo de otros medicamentos, lo que es una razón más por la que el escalón adecuado depende de toda tu lista de medicamentos.</p>
         
 
+        <h2>Tabla de dosis GLP-1 en mL: qué contiene cada dispositivo</h2>
+        
+        <p>Los miligramos son la dosis. Los mililitros solo indican cuánto líquido la contiene, y eso cambia según el producto y el dispositivo: 2,5 mg de tirzepatida son 0,5 mL en una pluma de dosis única y 0,6 mL en un vial multidosis. Estos son los volúmenes que recoge cada ficha.</p>
+        
+        <table class="dose-table">
+          <thead><tr><th>Producto y dispositivo</th><th>Concentración por dosis</th><th>Volumen indicado</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® pluma de dosis única</td><td>0,25, 0,5 o 1 mg</td><td>0,5 mL</td></tr>
+            <tr><td>Wegovy® pluma de dosis única</td><td>1,7, 2,4 o 7,2 mg</td><td>0,75 mL</td></tr>
+            <tr><td>Wegovy® pluma FlexTouch</td><td>2,4 mg</td><td>Pluma de 3 mL, 4 dosis</td></tr>
+            <tr><td>Ozempic® jeringa de dosis única</td><td>0,25, 0,5 o 1 mg</td><td>0,5 mL</td></tr>
+            <tr><td>Ozempic® pluma multidosis</td><td>0,25 a 2 mg</td><td>Pluma de 3 mL, varias dosis</td></tr>
+            <tr><td>Mounjaro® o Zepbound® pluma de dosis única o vial</td><td>2,5 a 15 mg</td><td>0,5 mL</td></tr>
+            <tr><td>Mounjaro® o Zepbound® vial multidosis</td><td>2,5 a 15 mg</td><td>0,6 mL</td></tr>
+            <tr><td>Mounjaro® o Zepbound® KwikPen</td><td>2,5 a 15 mg</td><td>Pluma de 2,4 mL, 4 dosis</td></tr>
+          </tbody>
+        </table>
+        
+        <p class="table-source">Fuente: sección 3 de cada ficha técnica de EE. UU. [1–4]. No uses esta tabla para medir una dosis. Los productos de formulación magistral no figuran en estas fichas y su concentración por mL varía, así que estos volúmenes no se aplican a ellos; guíate por tu receta y pregunta en tu farmacia. Consulta <a href="/es/articles/units-vs-milligrams">por qué las unidades y los miligramos no tienen una única conversión</a>.</p>
+        
+
+        <h2>Conversión de dosis GLP-1: los únicos cambios que las fichas detallan</h2>
+        
+        <p>Una tabla que convierta cualquier dosis de GLP-1 en otra no existe en estas fichas. No dan ninguna dosis equivalente entre semaglutida y tirzepatida, y las secciones de dosificación de las fichas de Mounjaro, Zepbound y Foundayo no recogen ninguna pauta de cambio. Las fichas de semaglutida describen solo los cambios que siguen, entre sus propios productos.</p>
+        
+        <table class="dose-table">
+          <thead><tr><th>De</th><th>A</th><th>Empezar el producto nuevo</th></tr></thead>
+          <tbody>
+            <tr><td>Wegovy® 2,4 mg inyectable</td><td>Wegovy® 25 mg comprimidos</td><td>Una semana después de dejar la inyección</td></tr>
+            <tr><td>Wegovy® 25 mg comprimidos</td><td>Wegovy® 2,4 mg inyectable</td><td>El día después de dejar los comprimidos</td></tr>
+            <tr><td>Ozempic® 0,5 mg inyectable</td><td>Rybelsus® 7 o 14 mg</td><td>Una semana después de dejar la inyección</td></tr>
+            <tr><td>Ozempic® 0,5 mg inyectable</td><td>Ozempic® comprimidos 4 o 9 mg</td><td>Una semana después de dejar la inyección</td></tr>
+            <tr><td>Rybelsus® 7 mg</td><td>Ozempic® comprimidos 4 mg, o al revés</td><td>El día después de dejarlo; no durante los primeros 30 días</td></tr>
+            <tr><td>Rybelsus® 14 mg</td><td>Ozempic® comprimidos 9 mg, o al revés</td><td>El día después de dejarlo; no durante los primeros 30 días</td></tr>
+          </tbody>
+        </table>
+        
+        <p class="table-source">Fuente: ficha técnica de Wegovy en EE. UU., sección 2.5 [1]; ficha técnica de Ozempic comprimidos y Rybelsus en EE. UU., secciones 2.3–2.4 [5]. Si cambiar, y a qué, lo decide quien te lo receta.</p>
+        
+
         <h2>Lo que las tablas dejan fuera</h2>
         
         <p>La indicación cambia la pauta. Ozempic y Wegovy son la misma molécula con escalones distintos y máximos distintos, porque una ficha está escrita para la glucosa en sangre y la otra para el peso. Las interrupciones también la cambian: la ficha de Wegovy inyectable indica a quien receta que reinicie la escalada con una dosis más baja después de dos o más dosis olvidadas seguidas, y la ficha de Foundayo dice lo mismo después de siete o más comprimidos olvidados seguidos. Qué hacer tras una sola dosis olvidada vuelve a ser distinto en cada producto; está citado en <a href="/es/articles/missed-glp1-dose">lo que dice cada prospecto sobre una dosis olvidada</a>. Nada de eso cabe en una tabla, y aplicarlo le corresponde a quien te lo receta.</p>
@@ -436,6 +533,30 @@
         <h2>Preguntas</h2>
         
         <div class="faq-list">
+          <div class="faq-item">
+            <h3>¿Cada cuánto se suben las dosis de GLP-1?</h3>
+            
+            <p>En estas fichas de EE. UU., las inyecciones semanales suben como pronto tras 4 semanas y los comprimidos diarios tras 30 días. Los escalones posteriores suelen estar condicionados: las fichas de Ozempic®, Mounjaro® y Foundayo™ los vinculan al control de la glucosa o a la respuesta y la tolerancia. Quien te receta también puede mantenerte más tiempo en un escalón.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>¿Qué es una dosis de mantenimiento de GLP-1?</h3>
+            
+            <p>Es la concentración en la que te quedas después de la subida. Las fichas suelen indicar más de una: 1,7 o 2,4 mg para Wegovy® inyectable, 0,5, 1 o 2 mg para Ozempic® inyectable y 5, 10 o 15 mg para Zepbound® en reducción de peso. Quien te receta elige, según los criterios de la ficha, como la respuesta, la tolerancia o el control de la glucosa.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>¿Cuántos escalones de dosis tienen la semaglutida y la tirzepatida?</h3>
+            
+            <p>Contando los aumentos desde la dosis inicial: Wegovy® inyectable llega a 2,4 mg tras 4 aumentos, en la semana 17. Ozempic® inyectable llega a 2 mg tras 3, en la semana 13 como pronto. Mounjaro® y Zepbound® llegan a 15 mg tras 5, en la semana 21 como pronto. Son los caminos más cortos que permiten las fichas, no el punto al que llega todo el mundo.</p>
+            
+          </div>
+          <div class="faq-item">
+            <h3>¿Existe una tabla para pasar de semaglutida a tirzepatida?</h3>
+            
+            <p>No en estas fichas. Ninguna recoge una dosis equivalente entre los dos medicamentos. Si cambias de medicamento, la nueva dosis inicial la decide quien te lo receta.</p>
+            
+          </div>
           <div class="faq-item">
             <h3>¿Puedo pasar antes al siguiente escalón si me encuentro bien?</h3>
             

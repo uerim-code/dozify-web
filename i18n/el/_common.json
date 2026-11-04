@@ -76,6 +76,7 @@
   "Your health records stay on your device and are never uploaded; the one exception is a meal photo you choose to analyse with AI calories, sent only after you agree and not stored by the app. There is no account and no cloud sync. Usage statistics never carry a medication name or a symptom, details in the <a href=\"/en/privacy\">privacy policy</a>.": "Τα δεδομένα υγείας σας μένουν στη συσκευή σας και δεν ανεβαίνουν ποτέ πουθενά· η μόνη εξαίρεση είναι μια φωτογραφία γεύματος που επιλέγετε να αναλύσετε με τις θερμίδες AI, η οποία αποστέλλεται μόνο αφού συμφωνήσετε και δεν αποθηκεύεται από την εφαρμογή. Δεν υπάρχει λογαριασμός ούτε συγχρονισμός στο cloud. Τα στατιστικά χρήσης δεν περιέχουν ποτέ όνομα φαρμάκου ή σύμπτωμα· λεπτομέρειες στην <a href=\"/en/privacy\">πολιτική απορρήτου</a>.",
   "privacy@dozify.app": "privacy@dozify.app",
   "support@dozify.app": "support@dozify.app",
-  "© 2026 UCE": "© 2026 UCE"
+  "© 2026 UCE": "© 2026 UCE",
+  "See the GLP-1 dosage chart →": "Δείτε τον πίνακα δόσεων GLP-1 →"
  }
 }
