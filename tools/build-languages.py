@@ -31,6 +31,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from split_languages import split  # noqa: E402
+import tr_links  # noqa: E402
 from metadata import META, keywords as page_keywords  # noqa: E402
 from structured_data import build_graph, strip_jsonld  # noqa: E402
 
@@ -158,6 +159,8 @@ def head_tags(lang: str, en_slug: str, tr_slug: str) -> str:
 def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
     raw = (ROOT / src).read_text(encoding="utf-8")
     html, _ = split(raw, lang)
+    if lang == "tr":
+        html = tr_links.add(html, en_slug)
 
     html = re.sub(r'<html\s+lang="[^"]*"', f'<html lang="{lang}"', html, count=1)
 
