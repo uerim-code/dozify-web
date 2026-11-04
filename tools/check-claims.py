@@ -58,6 +58,29 @@ BANNED: list[tuple[str, str]] = [
     (r"\b(recommends|suggests) (a |your |the )?dos",
      "the app never recommends a dose"),
     (r"doz öner(?!mez|isi sunmaz|i vermez)(ir|iyor|imiz)", "the app never recommends a dose"),
+    # From the 1.3.8 claims audit. Each of these was on the site while the app
+    # did something else; the scan reported clean the whole time because no rule
+    # looked for them. English and Turkish first, then the translated forms the
+    # old copy actually used, so a re-translation cannot bring one back.
+    (r"60\+", "the library holds 26 guides in English and 29 in Turkish"),
+    (r"specific dates|belirli tarihler|özel tarihler|bestimmte Daten|feste Termine|dates précises|dates spécifiques"
+     r"|fechas concretas|fechas específicas|date specifiche|date precise|specifieke data|vaste data|datas específicas"
+     r"|konkretne daty|konkrétní data|konkrétní datumy|bestemte datoer|bestämda datum|specifika datum|tietyt päivät"
+     r"|tiettyinä päivinä|конкретные даты|конкретні дати|συγκεκριμένες ημερομηνίες|تواريخ محد[ّ]?دة|विशिष्ट तिथि"
+     r"|तय तारीख़ें|特定の日付|특정 날짜|指定日期|特定日期",
+     "the schedule form offers weekly, daily or every N days, nothing else"),
+    (r"each a colou?r and a companion|her biri bir renk ve bir yol arkadaşı",
+     "Classic has no companion; five of the six themes do"),
+    (r"six[- ]mascot|six mascots|altı maskot", "Classic has no mascot; five of the six themes do"),
+    (r"fully offline|works fully|tamamen çevrimdışı|tam olarak işlev gör",
+     "AI meal photos and buying Premium need a connection"),
+    (r"encrypted local database|encrypted system storage|şifreli yerel|şifrelenmiş sistem",
+     "the local database is not encrypted; only the optional backup file is"),
+    (r"one[- ]tap|tek dokunuş", "reports and logging take several taps"),
+    (r"nothing leaves your phone|telefonundan çıkmıyor", "analytics, install measurement, subscription status and a chosen meal photo do leave"),
+    (r"free,? forever|forever free|free permanently|sonsuza dek|kalıcı olarak ücretsiz",
+     'a promise about the future; say "free, with no time limit"'),
+    (r"google play", "Dozify is iPhone only; there is no Play listing"),
 ]
 
 GUARDED: list[tuple[str, str, str]] = [
