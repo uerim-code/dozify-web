@@ -21,16 +21,13 @@
   "<strong>Time</strong>": "<strong>الوقت</strong>",
   "<strong>Weight</strong>": "<strong>الوزن</strong>",
   "Articles": "المقالات",
-  "By Ümit Can Erim · Published 18 August 2026 · Updated 18 August 2026 · Sources checked 18 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "بقلم Ümit Can Erim · نُشر في 18 أغسطس 2026 · حُدّث في 18 أغسطس 2026 · رُوجعت المصادر في 18 أغسطس 2026 · <a href=\"/en/editorial-policy\">كيف تُكتب هذه الأدلة</a>",
   "By Ümit Can Erim · Published 19 August 2026 · Updated 19 August 2026 · Sources checked 19 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "بقلم Ümit Can Erim · نُشر في 19 أغسطس 2026 · حُدّث في 19 أغسطس 2026 · رُوجعت المصادر في 19 أغسطس 2026 · <a href=\"/en/editorial-policy\">كيف تُكتب هذه الأدلة</a>",
   "By Ümit Can Erim · Published 20 August 2026 · Updated 20 August 2026 · Sources checked 20 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "بقلم Ümit Can Erim · نُشر في 20 أغسطس 2026 · حُدّث في 20 أغسطس 2026 · رُوجعت المصادر في 20 أغسطس 2026 · <a href=\"/en/editorial-policy\">كيف تُكتب هذه الأدلة</a>",
   "By Ümit Can Erim · Published 9 October 2026 · Updated 9 October 2026 · Sources checked 9 October 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "بقلم Ümit Can Erim · نُشر في 9 أكتوبر 2026 · حُدّث في 9 أكتوبر 2026 · رُوجعت المصادر في 9 أكتوبر 2026 · <a href=\"/en/editorial-policy\">كيف تُكتب هذه الأدلة</a>",
   "Doctor report": "تقرير للطبيب",
   "Download the app": "حمّل التطبيق",
   "Dozify": "Dozify",
-  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders: fully offline, with your data staying on your device.": "يساعدك Dozify على تتبّع حقن GLP-1، وتبديل مواضع الحقن، وتسجيل الوزن، وتلقّي التذكيرات: يعمل دون إنترنت بالكامل، وتبقى بياناتك على جهازك.",
   "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify أداة تتبّع وليس جهازاً طبياً. لا يوصي بجرعات ولا يقدّم استشارات طبية. Ozempic® وWegovy® وMounjaro® وSaxenda® وZepbound® وTrulicity® وVictoza® وRybelsus® علامات تجارية مملوكة لأصحابها؛ وDozify غير تابع لهذه الشركات.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "يخبرك Dozify بذلك بدلاً من أن يستورد صفر سجلات بصمت. أي ملف CSV فيه عمود للتاريخ يمكن قراءته. وإن لم يُقرأ ملفك، فأرسله من الإعدادات ← اقترح ميزة وستُضاف صيغته: الملف الذي لا نستطيع قراءته تقصيرٌ منّا لا منك.",
   "Editorial policy": "السياسة التحريرية",
   "Features": "الميزات",
   "Field": "الحقل",
@@ -48,7 +45,6 @@
   "Months of injections, weigh-ins and side effects are the reason people stay in an app they have stopped liking. Nobody retypes a year of shots, so the record becomes the lock. Moving it across is the only part that matters.": "شهور من الحقن والأوزان والآثار الجانبية هي السبب الذي يُبقي الناس في تطبيق لم يعودوا يحبّونه. لا أحد يعيد كتابة سنة كاملة من الحقن، فيصبح السجل هو القيد. ونقله هو الجزء الوحيد الذي يهمّ فعلاً.",
   "New in Dozify: snap a meal and the app drafts calories and protein per item for you to edit — <a href=\"/en/ai-calorie-tracker\">AI calorie tracking</a> (Premium) — and daily GLP-1 tablets have their own <a href=\"/en/glp1-pill-tracker\">pill tracker</a>.": "جديد في Dozify: صوّر وجبتك وسيُعدّ التطبيق مسودة بالسعرات والبروتين لكل صنف لتعدّلها بنفسك — <a href=\"/en/ai-calorie-tracker\">حساب السعرات بالذكاء الاصطناعي</a> (Premium) — وأصبح لأقراص GLP-1 اليومية <a href=\"/en/glp1-pill-tracker\">متتبع أقراص</a> خاص بها.",
   "Nothing is written until you say so": "لا يُكتب شيء حتى توافق",
-  "Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.": "افتح الملف الذي صدّرته وقارن صف العناوين. يطابق Dozify العمود بأيٍّ من هذه الأسماء، ولا تهمّه الأحرف الكبيرة أو الصغيرة ولا الوحدة المكتوبة بين قوسين. وأي عمود لا يستطيع تحديد مكانه يُعرض باسمه في شاشة المعاينة، لترى ما تُرك بدلاً من أن تتساءل.",
   "Privacy": "الخصوصية",
   "Privacy Policy": "سياسة الخصوصية",
   "Private GLP-1 tracker": "متتبع GLP-1 خاص",
@@ -77,6 +73,8 @@
   "privacy@dozify.app": "privacy@dozify.app",
   "support@dozify.app": "support@dozify.app",
   "© 2026 UCE": "© 2026 UCE",
-  "See the GLP-1 dosage chart →": "عرض جدول جرعات GLP-1 ←"
+  "See the GLP-1 dosage chart →": "عرض جدول جرعات GLP-1 ←",
+  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "يساعدك Dozify على تتبّع حقن GLP-1، وتبديل مواضع الحقن، وتسجيل الوزن، وتلقّي التذكيرات، وكل ذلك يعمل دون إنترنت، مع حفظ سجلاتك على جهازك.",
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "يخبرك Dozify بذلك بدلاً من أن يستورد صفر سجلات بصمت. أي ملف CSV فيه عمود للتاريخ وعمود للوزن أو الجرعة أو العَرَض يمكن قراءته. وإن لم يُقرأ ملفك، فأرسله من الإعدادات ← اقترح ميزة وستُضاف صيغته: الملف الذي لا نستطيع قراءته تقصيرٌ منّا لا منك."
  }
 }

@@ -22,12 +22,13 @@
   "Where does the in-use limit come from?": "使用期間の上限はどこから来ていますか？",
   "From the storage instructions for that medication: how long it may be kept once opened, and at what temperature. Dozify shows the one that applies and counts the days; it does not invent a number.": "そのお薬の保管の指示からです：開封後どのくらいの期間、何度で保管できるか。Dozifyは当てはまるものを表示して日数を数えるだけで、数字を作り出すことはありません。",
   "What if the pen spends a day out of the fridge?": "ペンを1日冷蔵庫の外に出していたら？",
-  "Log it as a storage event, with how long and roughly how warm. It stays on the vial's record so it is there when you decide, or when you ask a pharmacist.": "どのくらいの時間、だいたい何度だったかとともに、保管イベントとして記録してください。バイアルの記録に残るので、自分で判断するときや薬剤師に聞くときに確認できます。",
   "Will it warn me before a vial runs out?": "バイアルがなくなる前に知らせてくれますか？",
   "It shows doses remaining and days remaining on the card, so the end is visible weeks ahead rather than the evening a dose is due.": "カードに残りの回数と残りの日数が表示されるので、投与の当日の夜ではなく、数週間前から終わりが見えます。",
   "Does this work for pens as well as vials?": "バイアルだけでなくペンにも使えますか？",
   "Yes. A pen with several doses in it is tracked the same way: what is left, how long it has been open, and when it expires.": "はい。数回分が入ったペンも同じように記録できます：残りの量、開封してからの期間、使用期限。",
   "Guides, with their sources named: <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a>, <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a>, <a href=\"/en/articles/storing-glp1-pens\">what each label says about storing a pen</a> and <a href=\"/en/articles/travelling-with-a-glp1-pen\">what the rules say about flying with one</a>.": "出典を明記したガイド：<a href=\"/en/articles/how-to-inject-glp1\">ペンの注射のしかた（ステップごと）</a>、<a href=\"/en/articles/glp1-injection-sites\">どこに注射し、どうローテーションするか</a>、<a href=\"/en/articles/what-is-glp1\">GLP-1とは何か</a>、<a href=\"/en/articles/storing-glp1-pens\">ペンの保管について各添付文書に書かれていること</a>、<a href=\"/en/articles/travelling-with-a-glp1-pen\">ペンを持って飛行機に乗るときの規則</a>。",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Dozifyのそのほかの機能：<a href=\"/en/glp1-shot-tracker\">注射トラッカー</a>と<a href=\"/en/glp1-appointment-report\">医師向けレポート</a>。"
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-appointment-report\">the doctor report</a>.": "Dozifyのそのほかの機能：<a href=\"/en/glp1-shot-tracker\">注射トラッカー</a>と<a href=\"/en/glp1-appointment-report\">医師向けレポート</a>。",
+  "This is part of Premium; dose logging and reminders stay free.": "これはPremiumの機能です。用量の記録とリマインダーは引き続き無料です。",
+  "Log it as a storage event, with roughly how long. It stays on the vial's record so it is there when you decide, or when you ask a pharmacist.": "だいたいどのくらいの時間だったかとともに、保管イベントとして記録してください。バイアルの記録に残るので、自分で判断するときや薬剤師に聞くときに確認できます。"
  }
 }

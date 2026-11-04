@@ -55,9 +55,9 @@
   "Sources": "参考来源",
   "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>": "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>",
   "Log every injection with Dozify": "用 Dozify 记录每一次注射",
-  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due: all offline, on your device.": "Dozify 记录每次注射的日期、剂量和部位，建议轮换中的下一个部位，并在下一剂到期时提醒你：全部离线，在你的设备上完成。",
   "See how injection logging works →": "了解注射记录如何运作 →",
   "And if a dose is late →": "如果某一剂晚了 →",
-  "And where the pen lives between doses →": "以及两次注射之间注射笔放在哪里 →"
+  "And where the pen lives between doses →": "以及两次注射之间注射笔放在哪里 →",
+  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due; all of this works offline, on your device.": "Dozify 记录每次注射的日期、剂量和部位，建议轮换中的下一个部位，并在下一剂到期时提醒你；所有这些都可离线使用，在你的设备上完成。"
  }
 }

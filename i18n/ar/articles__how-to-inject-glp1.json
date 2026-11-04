@@ -55,9 +55,9 @@
   "Sources": "المصادر",
   "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>": "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>",
   "Log every injection with Dozify": "سجّل كل حقنة مع Dozify",
-  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due: all offline, on your device.": "يسجّل Dozify تاريخ كل حقنة وجرعتها وموضعها، ويقترح الموضع التالي في التبديل، ويذكّرك بموعد جرعتك القادمة: كل ذلك دون إنترنت، على جهازك.",
   "See how injection logging works →": "تعرّف على طريقة تسجيل الحقن ←",
   "And if a dose is late →": "وإذا تأخّرت جرعة ←",
-  "And where the pen lives between doses →": "وأين يُحفظ القلم بين الجرعات ←"
+  "And where the pen lives between doses →": "وأين يُحفظ القلم بين الجرعات ←",
+  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due; all of this works offline, on your device.": "يسجّل Dozify تاريخ كل حقنة وجرعتها وموضعها، ويقترح الموضع التالي في التبديل، ويذكّرك بموعد جرعتك القادمة؛ وكل ذلك يعمل دون إنترنت، على جهازك."
  }
 }

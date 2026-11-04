@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Passa a Dozify: importa il tuo storico GLP-1</title>
-  <meta name="description" content="Importa da Shotsy, Glapp, GLPzy, GlucoPal o da un semplice CSV. Vedi esattamente cosa verrà salvato prima che succeda, e non costa nulla.">
+  <meta name="description" content="Importa da un export di Shotsy, GLPzy o GlucoPal o da un semplice CSV. Vedi quanti dati ha trovato prima che venga salvato qualsiasi cosa, e non costa nulla.">
   <meta property="og:url" content="https://dozify.app/it/switch-glp1-tracker-app">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="Passa a Dozify: importa il tuo storico GLP-1">
-  <meta property="og:description" content="Importa da Shotsy, Glapp, GLPzy, GlucoPal o da un semplice CSV. Vedi esattamente cosa verrà salvato prima che succeda, e non costa nulla.">
+  <meta property="og:description" content="Importa da un export di Shotsy, GLPzy o GlucoPal o da un semplice CSV. Vedi quanti dati ha trovato prima che venga salvato qualsiasi cosa, e non costa nulla.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — un tracker privato per iniezioni GLP-1 e peso per iPhone">
   <meta name="twitter:title" content="Passa a Dozify: importa il tuo storico GLP-1">
-  <meta name="twitter:description" content="Importa da Shotsy, Glapp, GLPzy, GlucoPal o da un semplice CSV. Vedi esattamente cosa verrà salvato prima che succeda, e non costa nulla.">
+  <meta name="twitter:description" content="Importa da un export di Shotsy, GLPzy o GlucoPal o da un semplice CSV. Vedi quanti dati ha trovato prima che venga salvato qualsiasi cosa, e non costa nulla.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — un tracker privato per iniezioni GLP-1 e peso per iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -119,7 +119,7 @@
         "@id": "https://dozify.app/it/switch-glp1-tracker-app#webpage",
         "url": "https://dozify.app/it/switch-glp1-tracker-app",
         "name": "Passa a Dozify: importa il tuo storico GLP-1",
-        "description": "Importa da Shotsy, Glapp, GLPzy, GlucoPal o da un semplice CSV. Vedi esattamente cosa verrà salvato prima che succeda, e non costa nulla.",
+        "description": "Importa da un export di Shotsy, GLPzy o GlucoPal o da un semplice CSV. Vedi quanti dati ha trovato prima che venga salvato qualsiasi cosa, e non costa nulla.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -133,7 +133,7 @@
             "name": "Da quali app posso importare?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Vengono riconosciuti gli export di Shotsy, Glapp, GLPzy e GlucoPal, insieme ai file di backup di Dozify e a qualsiasi CSV con una colonna data."
+              "text": "Dozify è pensata per riconoscere gli export di Shotsy, GLPzy e GlucoPal a partire dai loro formati pubblicati, insieme ai propri file di backup e a qualsiasi CSV con una colonna data e una colonna di peso, dose o sintomi. Un CSV dei tuoi dati di Glapp può essere letto, se riesci a ottenerne uno. Non tutti i formati sono stati provati con un export reale."
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "La mia app non è nell’elenco. E adesso?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Esporta un CSV e prova con quello: l’unico requisito è una colonna data. Se il file non viene riconosciuto, Dozify te lo dice invece di non importare nulla in silenzio, e puoi inviarcelo da Impostazioni → Proponi una funzione."
+              "text": "Esporta un CSV e prova con quello: servono una colonna data e una colonna di peso, dose o sintomi. Se il file non viene riconosciuto, Dozify te lo dice invece di non importare nulla in silenzio, e puoi inviarcelo da Impostazioni → Proponi una funzione."
             }
           },
           {
@@ -223,7 +223,7 @@
     </div>
     <h1>Porta con te il tuo storico</h1>
     
-    <p class="meta">Importa da Shotsy, Glapp, GLPzy, GlucoPal o da un semplice CSV. Vedi esattamente cosa sta per succedere prima che venga salvato qualsiasi cosa, ed è gratis.</p>
+    <p class="meta">Importa da un export di Shotsy, GLPzy o GlucoPal o da un semplice CSV, anche uno dei tuoi dati di Glapp, se riesci a ottenerlo. Vedi quanti dati ha trovato prima che venga salvato qualsiasi cosa, ed è gratis.</p>
     
 
     <h2>Il problema</h2>
@@ -234,14 +234,14 @@
 
     <h2>Cosa fa Dozify</h2>
     <h3>Legge il file creato dalla tua vecchia app</h3>
-    <p>Esporta dall’altra app, apri Dozify → Impostazioni → Importa il tuo storico e scegli il file. Dozify riconosce gli export di Shotsy, Glapp, GLPzy e GlucoPal, il proprio backup JSON e qualsiasi CSV con una colonna data. Capisce da solo di che file si tratta, invece di chiedertelo.</p>
+    <p>Esporta dall’altra app, apri Dozify → Impostazioni → Importa il tuo storico e scegli il file. Dozify è pensata per riconoscere gli export di Shotsy, GLPzy e GlucoPal a partire dai loro formati pubblicati, il proprio backup JSON e qualsiasi CSV con una colonna data e una colonna di peso, dose o sintomi. Se riesci a ottenere un CSV dei tuoi dati di Glapp, Dozify può leggerlo. Non tutti i formati sono stati provati con un export reale; l’anteprima mostra cosa è stato letto prima che venga salvato qualsiasi cosa. Capisce da solo di che file si tratta, invece di chiedertelo.</p>
     <h3>Ti mostra i numeri prima di salvare qualsiasi cosa</h3>
     <p>Quanti pesi, iniezioni ed effetti collaterali ha trovato, il periodo che coprono, quanti sono già in Dozify e quante righe non è riuscito a leggere. Nulla viene salvato finché non tocchi “Importa”.</p>
     <h3>Importare due volte lo stesso file non fa nulla</h3>
     <p>I dati che corrispondono a qualcosa già presente vengono contati come duplicati e saltati, quindi una seconda importazione è sicura: utile se esporti di nuovo dopo qualche settimana.</p>
     <h3>Prima un backup, poi un salvataggio tutto-o-niente</h3>
     <p>Dozify salva un backup automatico sul tuo dispositivo subito prima dell’importazione. L’importazione è un’unica transazione: se qualcosa va storto viene annullata completamente, perché uno storico importato a metà è peggio di nessuno storico: non sapresti quale metà è tua.</p>
-    <h3>Il file non lascia mai il tuo telefono</h3>
+    <h3>Dozify non carica il file online</h3>
     <p>Viene letto sul dispositivo. Nulla viene caricato online, non c’è nessun account e nessun server vede i tuoi dati.</p>
 
     
@@ -284,7 +284,7 @@
     
 
     <h2>Se il file non viene riconosciuto</h2>
-    <p>Dozify te lo dice, invece di importare zero righe senza avvisarti. Qualsiasi CSV con una colonna data viene letto; se il tuo non funziona, inviacelo da Impostazioni → Proponi una funzione e il formato verrà aggiunto: un file che non riusciamo a leggere è una nostra lacuna, non tua.</p>
+    <p>Dozify te lo dice, invece di importare zero righe senza avvisarti. Qualsiasi CSV con una colonna data e una colonna di peso, dose o sintomi viene letto; se il tuo non funziona, inviacelo da Impostazioni → Proponi una funzione e il formato verrà aggiunto: un file che non riusciamo a leggere è una nostra lacuna, non tua.</p>
 
     
     
@@ -317,13 +317,13 @@
       <div class="faq-item">
         <h3>Da quali app posso importare?</h3>
         
-        <p>Vengono riconosciuti gli export di Shotsy, Glapp, GLPzy e GlucoPal, insieme ai file di backup di Dozify e a qualsiasi CSV con una colonna data.</p>
+        <p>Dozify è pensata per riconoscere gli export di Shotsy, GLPzy e GlucoPal a partire dai loro formati pubblicati, insieme ai propri file di backup e a qualsiasi CSV con una colonna data e una colonna di peso, dose o sintomi. Un CSV dei tuoi dati di Glapp può essere letto, se riesci a ottenerne uno. Non tutti i formati sono stati provati con un export reale.</p>
         
       </div>
       <div class="faq-item">
         <h3>La mia app non è nell’elenco. E adesso?</h3>
         
-        <p>Esporta un CSV e prova con quello: l’unico requisito è una colonna data. Se il file non viene riconosciuto, Dozify te lo dice invece di non importare nulla in silenzio, e puoi inviarcelo da Impostazioni → Proponi una funzione.</p>
+        <p>Esporta un CSV e prova con quello: servono una colonna data e una colonna di peso, dose o sintomi. Se il file non viene riconosciuto, Dozify te lo dice invece di non importare nulla in silenzio, e puoi inviarcelo da Impostazioni → Proponi una funzione.</p>
         
       </div>
       <div class="faq-item">
@@ -356,7 +356,7 @@
     
     
 
-    <p class="meta">Dozify è uno strumento di monitoraggio, non un dispositivo medico. Non consiglia dosi e non fornisce consulenza medica. Shotsy, Glapp, GLPzy e GlucoPal sono marchi dei rispettivi titolari e sono citati qui solo per descrivere formati di file che Dozify sa leggere; Dozify non è affiliata a essi. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® e Rybelsus® sono marchi dei rispettivi titolari; Dozify non è affiliata a queste aziende.</p>
+    <p class="meta">Dozify è uno strumento di monitoraggio, non un dispositivo medico. Non consiglia dosi e non fornisce consulenza medica. Shotsy, Glapp, GLPzy e GlucoPal sono marchi dei rispettivi titolari e sono citati qui solo per descrivere formati di file che Dozify è pensata per leggere; Dozify non è affiliata a essi. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® e Rybelsus® sono marchi dei rispettivi titolari; Dozify non è affiliata a queste aziende.</p>
 
     
   </main>

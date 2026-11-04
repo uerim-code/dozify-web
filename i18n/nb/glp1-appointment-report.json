@@ -5,12 +5,10 @@
  },
  "t": {
   "Walk in with a summary, not a memory": "Møt opp med et sammendrag, ikke med hukommelsen",
-  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Ett trykk gjør tre måneder med dine egne registreringer om til en side legen kan lese på de ti minuttene dere har.",
   "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "En legetime er kort, og det som skal dekkes, er mye: hva du tok og når, hvordan vekten har beveget seg, hvilke bivirkninger og når, og de to spørsmålene du hadde tenkt å stille.",
   "A clinical summary, generated on the device": "Et klinisk sammendrag, laget på enheten",
   "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Doser og intervaller, vekttrend, bivirkninger, rotasjon av stikksteder, åpne hetteglass: over 30, 90 eller 180 dager.",
   "Your questions, printed at the end": "Spørsmålene dine, skrevet ut til slutt",
-  "Write them down as they occur to you during the month. They come out on the last page.": "Skriv dem ned når du kommer på dem i løpet av måneden. De kommer med på siste side.",
   "Yours to share, or not": "Din å dele, eller ikke",
   "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDF-en lages på telefonen din. Ingenting lastes opp; du bestemmer om den skal noe sted.",
   "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Folk med en kort kontrolltime og en lang periode å beskrive, og folk som bytter til en ny behandler som aldri har sett historikken deres. Den er også for legetimen der en doseendring er på bordet, der det som har skjedd de siste åtte ukene, er akkurat det beslutningen hviler på.",
@@ -27,6 +25,9 @@
   "Is anything uploaded to make it?": "Lastes noe opp for å lage den?",
   "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Nei. Den lages på enheten fra registreringer som allerede ligger der. Ingenting sendes noe sted for å lage den.",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Veiledninger med kildene oppgitt: <a href=\"/en/articles/glp1-side-effects\">håndtere vanlige bivirkninger</a>, <a href=\"/en/articles/what-is-glp1\">hva GLP-1 egentlig er</a> og <a href=\"/en/articles/glp1-injection-sites\">hvor du setter sprøyta og hvordan du roterer</a> og <a href=\"/en/articles/glp1-appointment-checklist\">hva du bør ha klart til selve legetimen</a>.",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Ellers i Dozify: <a href=\"/en/glp1-side-effect-journal\">bivirkningsdagboken</a> og <a href=\"/en/glp1-weight-tracker\">vekttrenden</a>."
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Ellers i Dozify: <a href=\"/en/glp1-side-effect-journal\">bivirkningsdagboken</a> og <a href=\"/en/glp1-weight-tracker\">vekttrenden</a>.",
+  "A few taps turn three months of your own records into a page your doctor can read in the ten minutes you have.": "Noen få trykk gjør tre måneder med dine egne registreringer om til en side legen kan lese på de ti minuttene dere har.",
+  "The summary PDF is free twice a month; the doctor-visit report is Premium.": "Sammendrags-PDF-en er gratis to ganger i måneden; rapporten til legetimen er Premium.",
+  "Add your questions when you build the report. They are printed at the end.": "Legg til spørsmålene dine når du lager rapporten. De skrives ut til slutt."
  }
 }

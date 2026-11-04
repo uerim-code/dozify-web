@@ -21,16 +21,13 @@
   "<strong>Time</strong>": "<strong>Čas</strong>",
   "<strong>Weight</strong>": "<strong>Hmotnost</strong>",
   "Articles": "Články",
-  "By Ümit Can Erim · Published 18 August 2026 · Updated 18 August 2026 · Sources checked 18 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Autor: Ümit Can Erim · Publikováno 18. srpna 2026 · Aktualizováno 18. srpna 2026 · Zdroje ověřeny 18. srpna 2026 · <a href=\"/en/editorial-policy\">Jak tyto průvodce píšeme</a>",
   "By Ümit Can Erim · Published 19 August 2026 · Updated 19 August 2026 · Sources checked 19 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Autor: Ümit Can Erim · Publikováno 19. srpna 2026 · Aktualizováno 19. srpna 2026 · Zdroje ověřeny 19. srpna 2026 · <a href=\"/en/editorial-policy\">Jak tyto průvodce píšeme</a>",
   "By Ümit Can Erim · Published 20 August 2026 · Updated 20 August 2026 · Sources checked 20 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Autor: Ümit Can Erim · Publikováno 20. srpna 2026 · Aktualizováno 20. srpna 2026 · Zdroje ověřeny 20. srpna 2026 · <a href=\"/en/editorial-policy\">Jak tyto průvodce píšeme</a>",
   "By Ümit Can Erim · Published 9 October 2026 · Updated 9 October 2026 · Sources checked 9 October 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Autor: Ümit Can Erim · Publikováno 9. října 2026 · Aktualizováno 9. října 2026 · Zdroje ověřeny 9. října 2026 · <a href=\"/en/editorial-policy\">Jak tyto průvodce píšeme</a>",
   "Doctor report": "Zpráva pro lékaře",
   "Download the app": "Stáhnout aplikaci",
   "Dozify": "Dozify",
-  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders: fully offline, with your data staying on your device.": "Dozify ti pomáhá sledovat injekce GLP-1, střídat místa vpichu, zapisovat hmotnost a dostávat připomínky: zcela offline, data zůstávají ve tvém zařízení.",
   "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify je nástroj pro sledování, nikoli zdravotnický prostředek. Nedoporučuje dávky a neposkytuje lékařské rady. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® a Rybelsus® jsou ochranné známky příslušných vlastníků; Dozify s těmito společnostmi není nijak spojeno.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify ti to řekne, místo aby potichu naimportovalo nula řádků. Načíst lze jakýkoli CSV soubor se sloupcem s datem. Pokud ten tvůj nejde, pošli ho přes Nastavení → Navrhni funkci a formát doplníme: soubor, který neumíme přečíst, je naše mezera, ne tvoje.",
   "Editorial policy": "Redakční zásady",
   "Features": "Funkce",
   "Field": "Pole",
@@ -48,7 +45,6 @@
   "Months of injections, weigh-ins and side effects are the reason people stay in an app they have stopped liking. Nobody retypes a year of shots, so the record becomes the lock. Moving it across is the only part that matters.": "Měsíce injekcí, vážení a nežádoucích účinků jsou důvodem, proč lidé zůstávají v aplikaci, která je už nebaví. Nikdo nebude znovu přepisovat rok injekcí, a tak se z historie stává zámek. Přenést ji je jediné, na čem opravdu záleží.",
   "New in Dozify: snap a meal and the app drafts calories and protein per item for you to edit — <a href=\"/en/ai-calorie-tracker\">AI calorie tracking</a> (Premium) — and daily GLP-1 tablets have their own <a href=\"/en/glp1-pill-tracker\">pill tracker</a>.": "Novinka v Dozify: vyfoť jídlo a aplikace pro tebe připraví návrh kalorií a bílkovin u každé položky, který můžeš upravit — <a href=\"/en/ai-calorie-tracker\">počítání kalorií s AI</a> (Premium) — a denní tablety GLP-1 mají vlastní <a href=\"/en/glp1-pill-tracker\">sledování tablet</a>.",
   "Nothing is written until you say so": "Nic se neuloží, dokud to nepotvrdíš",
-  "Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.": "Otevři exportovaný soubor a porovnej řádek záhlaví. Dozify přiřadí sloupec podle kteréhokoli z těchto názvů a nevadí mu velká písmena ani jednotka v závorce. Vše, co nedokáže zařadit, uvidíš jmenovitě na obrazovce náhledu, takže víš, co zůstalo stranou, a nemusíš hádat.",
   "Privacy": "Soukromí",
   "Privacy Policy": "Zásady ochrany osobních údajů",
   "Private GLP-1 tracker": "Soukromé sledování GLP-1",
@@ -77,6 +73,8 @@
   "privacy@dozify.app": "privacy@dozify.app",
   "support@dozify.app": "support@dozify.app",
   "© 2026 UCE": "© 2026 UCE",
-  "See the GLP-1 dosage chart →": "Podívej se na tabulku dávkování GLP-1 →"
+  "See the GLP-1 dosage chart →": "Podívej se na tabulku dávkování GLP-1 →",
+  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify ti pomáhá sledovat injekce GLP-1, střídat místa vpichu, zapisovat hmotnost a dostávat připomínky, a to vše funguje offline, se záznamy uloženými ve tvém zařízení.",
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify ti to řekne, místo aby potichu naimportovalo nula řádků. Načíst lze jakýkoli CSV soubor se sloupcem s datem a sloupcem s hmotností, dávkou nebo příznakem. Pokud ten tvůj nejde, pošli ho přes Nastavení → Navrhni funkci a formát doplníme: soubor, který neumíme přečíst, je naše mezera, ne tvoje."
  }
 }

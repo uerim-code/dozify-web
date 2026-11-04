@@ -1,13 +1,11 @@
 {
  "meta": {
   "title": "Glappの代わりに｜GLP-1の履歴を移せるDozify",
-  "description": "Glappから乗り換えますか？ Dozifyは書き出しファイルを読み込み、書き込む前にすべての記録をプレビューし、判別できなかった列も教えます。無料で、何もアップロードされません。"
+  "description": "Glappから乗り換えますか？ データのCSVを入手できれば、Dozifyで読み込めます。書き込む前に件数を表示し、判別できなかった列も名前で示します。無料で、アップロードはありません。"
  },
  "t": {
   "Glapp alternative": "Glappの代わりに",
   "Coming from Glapp? Bring the history with you": "Glappから移りますか？ 履歴を一緒に持ってこられます",
-  "Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.": "Glappから書き出し、Dozifyで開けば、記録が1件でも書き込まれる前に、書き込まれる予定のすべての記録を確認できます。無料で、ファイルがスマートフォンから出ることはありません。",
-  "The columns Dozify looks for in a Glapp export": "DozifyがGlappの書き出しファイルで探す列",
   "<code>date · datum · entry date</code>": "<code>date · datum · entry date</code>",
   "<code>time</code>": "<code>time</code>",
   "<code>dose · dose mg · units</code>": "<code>dose · dose mg · units</code>",
@@ -22,8 +20,11 @@
   "<code>severity · intensity</code>": "<code>severity · intensity</code>",
   "<code>notes · note</code>": "<code>notes · note</code>",
   "If your dose column is headed “units”": "用量の列の見出しが「units」の場合",
-  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "それらの行は換算されずに一覧表示されます。単位はシリンジ上の容積であり、そこに何ミリグラム入っているかはバイアルの濃度によって決まりますが、ファイルにはその数字が含まれていません。それをミリグラムの欄に書き込むと、その後どこでも疑われることなく間違った用量が記録されてしまうので、Dozifyはそれらを表示し、処方医が使っている量を入力できるようにします。<a href=\"/en/articles/units-vs-milligrams\">換算方法がひとつではない理由 →</a>",
-  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozifyは記録用のツールであり、医療機器ではありません。用量を推奨することはなく、医学的な助言も行いません。Glappは所有者の商標であり、ここではDozifyが読み込めるファイル形式を説明するためだけに名前を挙げています。DozifyはGlappと提携しておらず、このページはGlappによって承認されたものではありません。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza®、Rybelsus®は各所有者の商標です。Dozifyはこれらの企業と提携していません。",
-  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>"
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-en&mt=8\" class=\"btn btn-primary\">App Storeからダウンロード</a>",
+  "If you can get a CSV of your Glapp data, Dozify can read it. You see how many records it found, and which columns it read, before anything is written. Free, and Dozify does not upload the file.": "GlappのデータのCSVを入手できれば、Dozifyで読み込めます。何かが書き込まれる前に、見つかった記録の件数と読み取った列を確認できます。無料で、Dozifyがファイルをアップロードすることはありません。",
+  "The columns Dozify looks for in a Glapp CSV": "DozifyがGlappのCSVで探す列",
+  "Not every format has been tested with a real export; the preview shows what was read before anything is written. Open your CSV and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.": "すべての形式を実際の書き出しファイルで検証したわけではありません。何かが書き込まれる前に、読み取られた内容がプレビューに表示されます。お手元のCSVを開いて、見出し行を見比べてください。Dozifyは以下のいずれかの名前で列を判別します。大文字・小文字の違いや、かっこ書きの単位は気にしません。判別できなかった列はプレビュー画面に名前で一覧表示されるので、何が取り込まれなかったのかを迷わず確認できます。",
+  "Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify lists them as skipped; you can log those doses by hand in the amount your prescriber uses. <a href=\"/en/articles/units-vs-milligrams\">Why there is no one conversion →</a>": "それらの行は換算されずに一覧表示されます。単位はシリンジ上の容積であり、そこに何ミリグラム入っているかはバイアルの濃度によって決まりますが、ファイルにはその数字が含まれていません。それをミリグラムの欄に書き込むと、その後どこでも疑われることなく間違った用量が記録されてしまうので、Dozifyはそれらをスキップした行として一覧表示します。これらの用量は、処方医が使っている量で手動で記録できます。<a href=\"/en/articles/units-vs-milligrams\">換算方法がひとつではない理由 →</a>",
+  "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to identify the app your data may come from; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozifyは記録用のツールであり、医療機器ではありません。用量を推奨することはなく、医学的な助言も行いません。Glappは所有者の商標であり、ここではあなたのデータの出どころとなりうるアプリを示すためだけに名前を挙げています。DozifyはGlappと提携しておらず、このページはGlappによって承認されたものではありません。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza®、Rybelsus®は各所有者の商標です。Dozifyはこれらの企業と提携していません。"
  }
 }

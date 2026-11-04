@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vaihda Dozifyyn – tuo GLP-1-historiasi</title>
-  <meta name="description" content="Tuo tiedot Shotsy-, Glapp-, GLPzy- tai GlucoPal-sovelluksesta tai tavallisesta CSV-tiedostosta. Näet tarkalleen, mitä tallennetaan, ennen tallennusta. Ilmaista.">
+  <meta name="description" content="Tuo tiedot Shotsy-, GLPzy- tai GlucoPal-viennistä tai tavallisesta CSV-tiedostosta. Näet ennen tallennusta, montako merkintää löytyi. Ilmaista.">
   <meta property="og:url" content="https://dozify.app/fi/switch-glp1-tracker-app">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="Vaihda Dozifyyn – tuo GLP-1-historiasi">
-  <meta property="og:description" content="Tuo tiedot Shotsy-, Glapp-, GLPzy- tai GlucoPal-sovelluksesta tai tavallisesta CSV-tiedostosta. Näet tarkalleen, mitä tallennetaan, ennen tallennusta. Ilmaista.">
+  <meta property="og:description" content="Tuo tiedot Shotsy-, GLPzy- tai GlucoPal-viennistä tai tavallisesta CSV-tiedostosta. Näet ennen tallennusta, montako merkintää löytyi. Ilmaista.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — yksityinen GLP-1-pistos- ja painonseuranta iPhonelle">
   <meta name="twitter:title" content="Vaihda Dozifyyn – tuo GLP-1-historiasi">
-  <meta name="twitter:description" content="Tuo tiedot Shotsy-, Glapp-, GLPzy- tai GlucoPal-sovelluksesta tai tavallisesta CSV-tiedostosta. Näet tarkalleen, mitä tallennetaan, ennen tallennusta. Ilmaista.">
+  <meta name="twitter:description" content="Tuo tiedot Shotsy-, GLPzy- tai GlucoPal-viennistä tai tavallisesta CSV-tiedostosta. Näet ennen tallennusta, montako merkintää löytyi. Ilmaista.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — yksityinen GLP-1-pistos- ja painonseuranta iPhonelle">
   <meta name="theme-color" content="#0D9488">
@@ -119,7 +119,7 @@
         "@id": "https://dozify.app/fi/switch-glp1-tracker-app#webpage",
         "url": "https://dozify.app/fi/switch-glp1-tracker-app",
         "name": "Vaihda Dozifyyn – tuo GLP-1-historiasi",
-        "description": "Tuo tiedot Shotsy-, Glapp-, GLPzy- tai GlucoPal-sovelluksesta tai tavallisesta CSV-tiedostosta. Näet tarkalleen, mitä tallennetaan, ennen tallennusta. Ilmaista.",
+        "description": "Tuo tiedot Shotsy-, GLPzy- tai GlucoPal-viennistä tai tavallisesta CSV-tiedostosta. Näet ennen tallennusta, montako merkintää löytyi. Ilmaista.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -133,7 +133,7 @@
             "name": "Mistä sovelluksista voin tuoda tietoja?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Shotsy-, Glapp-, GLPzy- ja GlucoPal-viennit tunnistetaan, samoin Dozifyn omat varmuuskopiotiedostot ja mikä tahansa CSV-tiedosto, jossa on päivämääräsarake."
+              "text": "Dozify on tehty tunnistamaan Shotsy-, GLPzy- ja GlucoPal-viennit niiden julkaistujen muotojen pohjalta, samoin omat varmuuskopiotiedostonsa ja mikä tahansa CSV-tiedosto, jossa on päivämääräsarake ja paino-, annos- tai oiresarake. Glapp-tiedoistasi tehty CSV-tiedosto voidaan lukea, jos saat sellaisen. Kaikkia muotoja ei ole testattu oikealla viennillä."
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "Sovellukseni ei ole listalla. Mitä nyt?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Vie siitä CSV-tiedosto ja kokeile sitä: päivämääräsarake on ainoa vaatimus. Jos tiedostoa ei tunnisteta, Dozify kertoo sen sen sijaan, että toisi hiljaa ei mitään, ja voit lähettää sen meille kohdasta Asetukset → Ehdota ominaisuutta."
+              "text": "Vie siitä CSV-tiedosto ja kokeile sitä: siinä täytyy olla päivämääräsarake ja paino-, annos- tai oiresarake. Jos tiedostoa ei tunnisteta, Dozify kertoo sen sen sijaan, että toisi hiljaa ei mitään, ja voit lähettää sen meille kohdasta Asetukset → Ehdota ominaisuutta."
             }
           },
           {
@@ -223,7 +223,7 @@
     </div>
     <h1>Tuo historiasi mukanasi</h1>
     
-    <p class="meta">Tuo tiedot Shotsy-, Glapp-, GLPzy- tai GlucoPal-sovelluksesta tai tavallisesta CSV-tiedostosta. Näet tarkalleen, mitä on tapahtumassa, ennen kuin mitään tallennetaan, ja se on ilmaista.</p>
+    <p class="meta">Tuo tiedot Shotsy-, GLPzy- tai GlucoPal-viennistä tai tavallisesta CSV-tiedostosta, myös Glapp-tiedoistasi tehdystä, jos saat sellaisen. Näet, montako merkintää se löysi, ennen kuin mitään tallennetaan, ja se on ilmaista.</p>
     
 
     <h2>Ongelma</h2>
@@ -234,14 +234,14 @@
 
     <h2>Mitä Dozify tekee</h2>
     <h3>Lukee tiedoston, jonka vanha sovelluksesi kirjoitti</h3>
-    <p>Vie tiedot toisesta sovelluksesta, avaa Dozify → Asetukset → Tuo historiasi ja valitse tiedosto. Dozify tunnistaa Shotsy-, Glapp-, GLPzy- ja GlucoPal-viennit, oman JSON-varmuuskopionsa ja minkä tahansa CSV-tiedoston, jossa on päivämääräsarake. Se päättelee itse, mikä tiedosto on kyseessä, eikä kysy sinulta.</p>
+    <p>Vie tiedot toisesta sovelluksesta, avaa Dozify → Asetukset → Tuo historiasi ja valitse tiedosto. Dozify on tehty tunnistamaan Shotsy-, GLPzy- ja GlucoPal-viennit niiden julkaistujen muotojen pohjalta, oma JSON-varmuuskopionsa ja mikä tahansa CSV-tiedosto, jossa on päivämääräsarake ja paino-, annos- tai oiresarake. Jos saat Glapp-tiedoistasi CSV-tiedoston, Dozify osaa lukea sen. Kaikkia muotoja ei ole testattu oikealla viennillä; esikatselu näyttää, mitä luettiin, ennen kuin mitään tallennetaan. Se päättelee itse, mikä tiedosto on kyseessä, eikä kysy sinulta.</p>
     <h3>Näyttää luvut ennen kuin tallentaa mitään</h3>
     <p>Montako painoa, pistosta ja sivuvaikutusta se löysi, miltä ajalta ne ovat, montako on jo Dozifyssa ja montako riviä se ei osannut lukea. Mitään ei tallenneta ennen kuin napautat Vahvista.</p>
     <h3>Saman tiedoston tuominen kahdesti ei tee mitään</h3>
     <p>Merkinnät, jotka vastaavat jo olemassa olevaa, lasketaan kaksoiskappaleiksi ja ohitetaan, joten toinen ajo on turvallinen: hyödyllistä, jos viet tiedot uudelleen muutaman viikon päästä.</p>
     <h3>Ensin varmuuskopio, ja tallennus kaikki tai ei mitään</h3>
     <p>Dozify tekee automaattisen varmuuskopion laitteellesi välittömästi ennen tuontia. Itse tuonti on yksi transaktio: jos jokin epäonnistuu, se perutaan kokonaan, koska puoliksi tuotu historia on huonompi kuin ei mitään: et voi tietää, kumpi puolisko on sinun.</p>
-    <h3>Tiedosto ei koskaan poistu puhelimestasi</h3>
+    <h3>Dozify ei lataa tiedostoa palvelimelle</h3>
     <p>Se luetaan laitteella. Mitään ei ladata palvelimelle, tiliä ei ole, eikä mikään palvelin näe merkintöjäsi.</p>
 
     
@@ -284,7 +284,7 @@
     
 
     <h2>Jos tiedostoa ei tunnisteta</h2>
-    <p>Dozify kertoo sen sen sijaan, että toisi hiljaa nolla riviä. Mikä tahansa CSV-tiedosto, jossa on päivämääräsarake, voidaan lukea; jos omasi ei toimi, lähetä se meille kohdasta Asetukset → Ehdota ominaisuutta, niin muoto lisätään: tiedosto, jota emme osaa lukea, on meidän puutteemme, ei sinun.</p>
+    <p>Dozify kertoo sen sen sijaan, että toisi hiljaa nolla riviä. Mikä tahansa CSV-tiedosto, jossa on päivämääräsarake ja paino-, annos- tai oiresarake, voidaan lukea; jos omasi ei toimi, lähetä se meille kohdasta Asetukset → Ehdota ominaisuutta, niin muoto lisätään: tiedosto, jota emme osaa lukea, on meidän puutteemme, ei sinun.</p>
 
     
     
@@ -317,13 +317,13 @@
       <div class="faq-item">
         <h3>Mistä sovelluksista voin tuoda tietoja?</h3>
         
-        <p>Shotsy-, Glapp-, GLPzy- ja GlucoPal-viennit tunnistetaan, samoin Dozifyn omat varmuuskopiotiedostot ja mikä tahansa CSV-tiedosto, jossa on päivämääräsarake.</p>
+        <p>Dozify on tehty tunnistamaan Shotsy-, GLPzy- ja GlucoPal-viennit niiden julkaistujen muotojen pohjalta, samoin omat varmuuskopiotiedostonsa ja mikä tahansa CSV-tiedosto, jossa on päivämääräsarake ja paino-, annos- tai oiresarake. Glapp-tiedoistasi tehty CSV-tiedosto voidaan lukea, jos saat sellaisen. Kaikkia muotoja ei ole testattu oikealla viennillä.</p>
         
       </div>
       <div class="faq-item">
         <h3>Sovellukseni ei ole listalla. Mitä nyt?</h3>
         
-        <p>Vie siitä CSV-tiedosto ja kokeile sitä: päivämääräsarake on ainoa vaatimus. Jos tiedostoa ei tunnisteta, Dozify kertoo sen sen sijaan, että toisi hiljaa ei mitään, ja voit lähettää sen meille kohdasta Asetukset → Ehdota ominaisuutta.</p>
+        <p>Vie siitä CSV-tiedosto ja kokeile sitä: siinä täytyy olla päivämääräsarake ja paino-, annos- tai oiresarake. Jos tiedostoa ei tunnisteta, Dozify kertoo sen sen sijaan, että toisi hiljaa ei mitään, ja voit lähettää sen meille kohdasta Asetukset → Ehdota ominaisuutta.</p>
         
       </div>
       <div class="faq-item">
@@ -356,7 +356,7 @@
     
     
 
-    <p class="meta">Dozify on seurantatyökalu, ei lääkinnällinen laite. Se ei suosittele annoksia eikä anna lääketieteellisiä neuvoja. Shotsy, Glapp, GLPzy ja GlucoPal ovat omistajiensa tavaramerkkejä, ja ne mainitaan tässä vain kuvaamaan tiedostomuotoja, joita Dozify osaa lukea; Dozify ei ole sidoksissa niihin. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® ja Rybelsus® ovat omistajiensa tavaramerkkejä; Dozify ei ole sidoksissa näihin yrityksiin.</p>
+    <p class="meta">Dozify on seurantatyökalu, ei lääkinnällinen laite. Se ei suosittele annoksia eikä anna lääketieteellisiä neuvoja. Shotsy, Glapp, GLPzy ja GlucoPal ovat omistajiensa tavaramerkkejä, ja ne mainitaan tässä vain kuvaamaan tiedostomuotoja, joiden lukemiseen Dozify on tehty; Dozify ei ole sidoksissa niihin. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® ja Rybelsus® ovat omistajiensa tavaramerkkejä; Dozify ei ole sidoksissa näihin yrityksiin.</p>
 
     
   </main>

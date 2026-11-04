@@ -5,12 +5,10 @@
  },
  "t": {
   "Walk in with a summary, not a memory": "Přijď se shrnutím, ne se vzpomínkami",
-  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Jedno klepnutí promění tři měsíce tvých vlastních záznamů ve stránku, kterou lékař přečte během deseti minut, které máš.",
   "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Kontrola je krátká a toho, co probrat, je hodně: co a kdy sis bral(a), jak se měnila váha, jaké nežádoucí účinky a v jakém okamžiku a dvě otázky, které jsi chtěl(a) položit.",
   "A clinical summary, generated on the device": "Klinické shrnutí vytvořené v zařízení",
   "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Dávky a intervaly, trend váhy, nežádoucí účinky, střídání míst vpichu, otevřené lahvičky: za 30, 90 nebo 180 dní.",
   "Your questions, printed at the end": "Tvoje otázky, vytištěné na konci",
-  "Write them down as they occur to you during the month. They come out on the last page.": "Zapisuj si je, jak tě během měsíce napadají. Objeví se na poslední stránce.",
   "Yours to share, or not": "Sdílet, nebo ne – rozhoduješ ty",
   "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDF se vytvoří v tvém telefonu. Nic se nenahrává; ty rozhoduješ, zda ho někam pošleš.",
   "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Lidem s krátkou kontrolou a dlouhým obdobím k popsání a lidem, kteří přecházejí k novému lékaři, jenž jejich historii nikdy neviděl. Je to také pro kontrolu, kde se řeší změna dávky a kde je to, co se stalo za posledních osm týdnů, přesně tím, na čem rozhodnutí stojí.",
@@ -27,6 +25,9 @@
   "Is anything uploaded to make it?": "Nahrává se něco, aby mohla vzniknout?",
   "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Ne. Vytváří se v zařízení ze záznamů, které už tam jsou. K jejímu vytvoření se nic nikam neposílá.",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Průvodci s uvedenými zdroji: <a href=\"/en/articles/glp1-side-effects\">jak zvládat časté nežádoucí účinky</a>, <a href=\"/en/articles/what-is-glp1\">co GLP-1 doopravdy je</a> a <a href=\"/en/articles/glp1-injection-sites\">kam píchat a jak místa střídat</a> a <a href=\"/en/articles/glp1-appointment-checklist\">co mít připravené na samotnou kontrolu</a>.",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Další v Dozify: <a href=\"/en/glp1-side-effect-journal\">deník nežádoucích účinků</a> a <a href=\"/en/glp1-weight-tracker\">trend váhy</a>."
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Další v Dozify: <a href=\"/en/glp1-side-effect-journal\">deník nežádoucích účinků</a> a <a href=\"/en/glp1-weight-tracker\">trend váhy</a>.",
+  "A few taps turn three months of your own records into a page your doctor can read in the ten minutes you have.": "Pár klepnutí promění tři měsíce tvých vlastních záznamů ve stránku, kterou lékař přečte během deseti minut, které máš.",
+  "The summary PDF is free twice a month; the doctor-visit report is Premium.": "Souhrnné PDF je zdarma dvakrát za měsíc; zpráva k návštěvě lékaře je v Premium.",
+  "Add your questions when you build the report. They are printed at the end.": "Přidej své otázky při vytváření zprávy. Vytisknou se na konci."
  }
 }

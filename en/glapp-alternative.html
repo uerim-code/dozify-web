@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Glapp Alternative — Bring Your GLP-1 History</title>
-  <meta name="description" content="Leaving Glapp? Dozify reads the export, previews every record before writing, and tells you which columns it could not place. Free, nothing uploaded.">
+  <meta name="description" content="Leaving Glapp? If you can get a CSV of your data, Dozify can read it, shows the counts before writing and names columns it could not place. Free, no upload.">
   <meta property="og:url" content="https://dozify.app/en/glapp-alternative">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -25,7 +25,7 @@
   <script src="/assets/store-click.js" defer></script>
   <meta name="keywords" content="glapp alternative, glp-1, glp1, tracker, ozempic, wegovy, mounjaro, zepbound, semaglutide, tirzepatide, injection, dose, weight, side effects, vial, titration, reminder">
   <meta property="og:title" content="Glapp Alternative — Bring Your GLP-1 History">
-  <meta property="og:description" content="Leaving Glapp? Dozify reads the export, previews every record before writing, and tells you which columns it could not place. Free, nothing uploaded.">
+  <meta property="og:description" content="Leaving Glapp? If you can get a CSV of your data, Dozify can read it, shows the counts before writing and names columns it could not place. Free, no upload.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -34,7 +34,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — a private GLP-1 injection and weight tracker for iPhone">
   <meta name="twitter:title" content="Glapp Alternative — Bring Your GLP-1 History">
-  <meta name="twitter:description" content="Leaving Glapp? Dozify reads the export, previews every record before writing, and tells you which columns it could not place. Free, nothing uploaded.">
+  <meta name="twitter:description" content="Leaving Glapp? If you can get a CSV of your data, Dozify can read it, shows the counts before writing and names columns it could not place. Free, no upload.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — a private GLP-1 injection and weight tracker for iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -98,7 +98,7 @@
         "@id": "https://dozify.app/en/glapp-alternative#webpage",
         "url": "https://dozify.app/en/glapp-alternative",
         "name": "Glapp Alternative — Bring Your GLP-1 History",
-        "description": "Leaving Glapp? Dozify reads the export, previews every record before writing, and tells you which columns it could not place. Free, nothing uploaded.",
+        "description": "Leaving Glapp? If you can get a CSV of your data, Dozify can read it, shows the counts before writing and names columns it could not place. Free, no upload.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -160,7 +160,7 @@
     </div>
     <h1>Coming from Glapp? Bring the history with you</h1>
     
-    <p class="meta">Export from Glapp, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.</p>
+    <p class="meta">If you can get a CSV of your Glapp data, Dozify can read it. You see how many records it found, and which columns it read, before anything is written. Free, and Dozify does not upload the file.</p>
     
 
     <h2>Why the history is the hard part</h2>
@@ -168,8 +168,8 @@
     
     
 
-    <h2>The columns Dozify looks for in a Glapp export</h2>
-    <p>Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.</p>
+    <h2>The columns Dozify looks for in a Glapp CSV</h2>
+    <p>Not every format has been tested with a real export; the preview shows what was read before anything is written. Open your CSV and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.</p>
     <table class="compare">
       <thead><tr><th>Field</th><th>Header names it accepts</th></tr></thead>
       <tbody>
@@ -193,7 +193,7 @@
     
 
     <h2>If your dose column is headed “units”</h2>
-    <p>Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href="/en/articles/units-vs-milligrams">Why there is no one conversion →</a></p>
+    <p>Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify lists them as skipped; you can log those doses by hand in the amount your prescriber uses. <a href="/en/articles/units-vs-milligrams">Why there is no one conversion →</a></p>
     
     
 
@@ -207,11 +207,11 @@
     
 
     <h2>If the file is not recognised</h2>
-    <p>Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.</p>
+    <p>Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.</p>
     
     
 
-    <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
+    <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Glapp is a trademark of its owner and is named here only to identify the app your data may come from; Dozify is not affiliated with Glapp and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
     
 
     <p style="text-align:center;margin:32px 0">

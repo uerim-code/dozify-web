@@ -55,9 +55,9 @@
   "Sources": "Lähteet",
   "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>": "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>",
   "Log every injection with Dozify": "Kirjaa jokainen pistos Dozifylla",
-  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due: all offline, on your device.": "Dozify kirjaa jokaisen pistoksen päivämäärän, annoksen ja pistoskohdan, ehdottaa kierrossa seuraavaa kohtaa ja muistuttaa, kun seuraava annos on edessä: kaikki offline-tilassa, laitteellasi.",
   "See how injection logging works →": "Katso, miten pistosten kirjaus toimii →",
   "And if a dose is late →": "Ja jos annos myöhästyy →",
-  "And where the pen lives between doses →": "Ja missä kynä on annosten välillä →"
+  "And where the pen lives between doses →": "Ja missä kynä on annosten välillä →",
+  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due; all of this works offline, on your device.": "Dozify kirjaa jokaisen pistoksen päivämäärän, annoksen ja pistoskohdan, ehdottaa kierrossa seuraavaa kohtaa ja muistuttaa, kun seuraava annos on edessä; kaikki tämä toimii offline-tilassa, laitteellasi."
  }
 }

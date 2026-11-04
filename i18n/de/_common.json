@@ -21,16 +21,13 @@
   "<strong>Time</strong>": "<strong>Uhrzeit</strong>",
   "<strong>Weight</strong>": "<strong>Gewicht</strong>",
   "Articles": "Artikel",
-  "By Ümit Can Erim · Published 18 August 2026 · Updated 18 August 2026 · Sources checked 18 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Von Ümit Can Erim · Veröffentlicht am 18. August 2026 · Aktualisiert am 18. August 2026 · Quellen geprüft am 18. August 2026 · <a href=\"/en/editorial-policy\">So entstehen diese Ratgeber</a>",
   "By Ümit Can Erim · Published 19 August 2026 · Updated 19 August 2026 · Sources checked 19 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Von Ümit Can Erim · Veröffentlicht am 19. August 2026 · Aktualisiert am 19. August 2026 · Quellen geprüft am 19. August 2026 · <a href=\"/en/editorial-policy\">So entstehen diese Ratgeber</a>",
   "By Ümit Can Erim · Published 20 August 2026 · Updated 20 August 2026 · Sources checked 20 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Von Ümit Can Erim · Veröffentlicht am 20. August 2026 · Aktualisiert am 20. August 2026 · Quellen geprüft am 20. August 2026 · <a href=\"/en/editorial-policy\">So entstehen diese Ratgeber</a>",
   "By Ümit Can Erim · Published 9 October 2026 · Updated 9 October 2026 · Sources checked 9 October 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Von Ümit Can Erim · Veröffentlicht am 9. Oktober 2026 · Aktualisiert am 9. Oktober 2026 · Quellen geprüft am 9. Oktober 2026 · <a href=\"/en/editorial-policy\">So entstehen diese Ratgeber</a>",
   "Doctor report": "Arztbericht",
   "Download the app": "App herunterladen",
   "Dozify": "Dozify",
-  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders: fully offline, with your data staying on your device.": "Mit Dozify protokollierst du GLP-1-Spritzen, wechselst die Einstichstellen, trackst dein Gewicht und bekommst Erinnerungen – komplett offline, deine Daten bleiben auf deinem Gerät.",
   "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify ist ein Tracking-Tool, kein Medizinprodukt. Es empfiehlt keine Dosen und bietet keine medizinische Beratung. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® und Rybelsus® sind Marken ihrer jeweiligen Inhaber; Dozify steht in keiner Verbindung zu diesen Unternehmen.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify sagt es dir, statt stillschweigend null Zeilen zu importieren. Jede CSV-Datei mit einer Datumsspalte kann gelesen werden. Wenn deine nicht klappt, schick sie über Einstellungen → Funktion vorschlagen, und das Format wird ergänzt: Eine Datei, die wir nicht lesen können, ist unsere Lücke, nicht deine.",
   "Editorial policy": "Redaktionelle Richtlinien",
   "Features": "Funktionen",
   "Field": "Feld",
@@ -48,7 +45,6 @@
   "Months of injections, weigh-ins and side effects are the reason people stay in an app they have stopped liking. Nobody retypes a year of shots, so the record becomes the lock. Moving it across is the only part that matters.": "Monate an Spritzen, Wiegeergebnissen und Nebenwirkungen sind der Grund, warum Leute in einer App bleiben, die sie gar nicht mehr mögen. Niemand tippt ein ganzes Jahr an Spritzen neu ab – so wird die Historie zur Fessel. Sie mitzunehmen ist das Einzige, was zählt.",
   "New in Dozify: snap a meal and the app drafts calories and protein per item for you to edit — <a href=\"/en/ai-calorie-tracker\">AI calorie tracking</a> (Premium) — and daily GLP-1 tablets have their own <a href=\"/en/glp1-pill-tracker\">pill tracker</a>.": "Neu in Dozify: Fotografiere eine Mahlzeit, und die App erstellt einen Entwurf mit Kalorien und Protein pro Lebensmittel, den du bearbeiten kannst – <a href=\"/en/ai-calorie-tracker\">KI-Kalorientracking</a> (Premium) – und tägliche GLP-1-Tabletten haben jetzt ihren eigenen <a href=\"/en/glp1-pill-tracker\">Tabletten-Tracker</a>.",
   "Nothing is written until you say so": "Nichts wird gespeichert, bevor du zustimmst",
-  "Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.": "Öffne deine exportierte Datei und vergleiche die Kopfzeile. Dozify ordnet eine Spalte über jeden dieser Namen zu; Groß- und Kleinschreibung oder eine Einheit in Klammern spielen keine Rolle. Alles, was es nicht zuordnen kann, wird in der Vorschau namentlich aufgelistet – so siehst du, was weggelassen wurde, statt zu rätseln.",
   "Privacy": "Datenschutz",
   "Privacy Policy": "Datenschutzerklärung",
   "Private GLP-1 tracker": "Privater GLP-1-Tracker",
@@ -77,6 +73,8 @@
   "privacy@dozify.app": "privacy@dozify.app",
   "support@dozify.app": "support@dozify.app",
   "© 2026 UCE": "© 2026 UCE",
-  "See the GLP-1 dosage chart →": "Zur GLP-1-Dosierungstabelle →"
+  "See the GLP-1 dosage chart →": "Zur GLP-1-Dosierungstabelle →",
+  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Mit Dozify protokollierst du GLP-1-Spritzen, wechselst die Einstichstellen, trackst dein Gewicht und bekommst Erinnerungen – all das funktioniert offline, und deine Daten werden auf deinem Gerät gespeichert.",
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify sagt es dir, statt stillschweigend null Zeilen zu importieren. Jede CSV-Datei mit einer Datumsspalte und einer Spalte für Gewicht, Dosis oder Symptome kann gelesen werden. Wenn deine nicht klappt, schick sie über Einstellungen → Funktion vorschlagen, und das Format wird ergänzt: Eine Datei, die wir nicht lesen können, ist unsere Lücke, nicht deine."
  }
 }

@@ -11,11 +11,11 @@
   "Only what you track": "只显示你记录的内容",
   "The home screen is built from the things you said you care about: cards can be reordered, hidden, or brought back whenever you like. An app that shows everyone everything is an app nobody reads. If food matters to you, the <a href=\"/en/ai-calorie-tracker\">AI meal card</a> turns a photo into an editable calorie and protein draft; if you take a tablet, the <a href=\"/en/glp1-pill-tracker\">pill tracker</a> follows a daily rhythm.": "主屏幕由你说过自己在意的内容构成：卡片可以随时重新排列、隐藏或恢复。一款向所有人展示所有内容的应用，是一款没人会看的应用。如果你在意饮食，<a href=\"/en/ai-calorie-tracker\">AI 餐食卡片</a>会把一张照片变成可修改的卡路里和蛋白质草稿；如果你服用片剂，<a href=\"/en/glp1-pill-tracker\">口服药记录</a>会按每日节奏进行。",
   "Sources you can follow": "可以追溯的来源",
-  "Every article in the education section names where it came from (MedlinePlus (NIH), FDA, NIDDK, TİTCK) and links straight to it. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "科普栏目中的每篇文章都注明了出处（MedlinePlus (NIH)、FDA、NIDDK、TİTCK），并直接链接到原文。Dozify 是一款记录工具：它不推荐剂量，也不解读结果。",
   "Feedback goes to a person": "反馈会送到一个真人手上",
   "Suggestions arrive as mail read by the person who writes the app, from Settings → Suggest a feature or at <a href=\"mailto:support@dozify.app\">support@dozify.app</a>. There is no ticket queue in between.": "建议会以邮件形式送达，由编写这款应用的人亲自阅读，可以通过“设置 → 提个功能建议”或 <a href=\"mailto:support@dozify.app\">support@dozify.app</a> 发送。中间没有工单队列。",
   "Still being worked on": "仍在持续改进",
   "Fixes and additions ship as they are ready, and each release says what changed. Most of what has been added since launch started as a message from someone using the app.": "修复和新功能一旦准备好就会发布，每个版本都会说明改了什么。上线以来新增的大部分内容，最初都来自某位用户的一条消息。",
-  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">在 App Store 下载</a>"
+  "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">Download on the App Store</a>": "<a href=\"https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-why-en&mt=8\" class=\"btn btn-primary\">在 App Store 下载</a>",
+  "Every article in the education section lists sources for its topic (MedlinePlus (NIH), FDA, NIDDK, TİTCK) with links. Dozify is a tracking tool: it does not recommend doses and does not interpret results.": "科普栏目中的每篇文章都列出了该主题的来源（MedlinePlus (NIH)、FDA、NIDDK、TİTCK）并附有链接。Dozify 是一款记录工具：它不推荐剂量，也不解读结果。"
  }
 }

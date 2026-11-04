@@ -48,7 +48,7 @@
 
   <main class="wrap">
       <h1>Informativa sulla privacy</h1>
-      <p class="meta">Ultimo aggiornamento: 2 novembre 2026 · In vigore dal 2 novembre 2026</p>
+      <p class="meta">Ultimo aggiornamento: 5 novembre 2026 · In vigore dal 2 novembre 2026</p>
       <h2>1. Introduzione</h2>
       <p>Dozify («noi») è un'app per il monitoraggio dei farmaci, pensata per accompagnare le terapie GLP-1 come Ozempic, Mounjaro, Wegovy, Saxenda e simili. Questa informativa spiega come trattiamo le informazioni quando usi l'applicazione mobile Dozify (l'«App»).</p>
       <p>Dozify funziona prima di tutto offline. I dati sanitari che inserisci non vengono raccolti, trasmessi né salvati sui nostri server, e noi non possiamo vederli; restano sul tuo dispositivo. L'unica eccezione è una foto di un pasto che scegli di inviare per l'analisi IA facoltativa (sezione 5). L'App usa inoltre alcuni servizi di terze parti per statistiche d'uso anonime, la misurazione delle installazioni da annunci e gli abbonamenti; la sezione 5 indica esattamente cosa riceve ciascuno.</p>
@@ -63,7 +63,7 @@
       <p>L'App riceve gli identificatori anonimi descritti nella sezione 5 (un ID di istanza per le statistiche e un ID utente anonimo per l'abbonamento). Esistono solo perché funzionino le statistiche anonime e il tuo abbonamento, non sono collegati al tuo nome o alla tua email e non servono a seguirti su altre app o siti.</p>
       <p class="note">I tuoi dati sanitari non vengono mai usati a fini pubblicitari. Nulla di ciò che registri (farmaci, dosi, iniezioni, peso, glicemia, effetti collaterali, note, foto) viene mai impiegato per la profilazione pubblicitaria né condiviso con alcun circuito pubblicitario, qualunque risposta tu dia alla richiesta di tracciamento.</p>
       <h2>3. Dati conservati localmente sul tuo dispositivo</h2>
-      <p>L'App salva le informazioni seguenti solo sul tuo dispositivo, in un database SQLite locale e nell'archivio cifrato del sistema:</p>
+      <p>L'App salva le informazioni seguenti solo sul tuo dispositivo, in un database locale nella sandbox protetta dell'app:</p>
       <ul>
         <li>i farmaci, le dosi e la frequenza delle iniezioni che inserisci;</li>
         <li>lo storico delle iniezioni e le voci del diario;</li>
@@ -72,37 +72,36 @@
         <li>le preferenze per le notifiche e i promemoria;</li>
         <li>le impostazioni dell'App (lingua, aspetto, unità di misura).</li>
       </ul>
-      <p>Questi dati non lasciano mai il tuo dispositivo, a meno che non sia tu a esportarli (per esempio generando un referto PDF e condividendolo per e-mail o tramite un'altra app che scegli). Se disinstalli l'App, tutti i dati vengono cancellati definitivamente.</p>
+      <p>Dozify non carica mai questi dati online. Lasciano il tuo dispositivo solo se sei tu a esportarli (per esempio generando un referto PDF e condividendolo per e-mail o tramite un'altra app che scegli) o se il backup del tuo iPhone o iCloud include l'App. Elimini l'App e i dati su questo telefono se ne vanno con lei. I file che hai esportato, ciò che hai scritto in Apple Salute e i tuoi backup dell'iPhone sono separati.</p>
       <p>Le anteprime delle funzioni Premium, per esempio il livello stimato del farmaco su una schermata bloccata, vengono disegnate sul tuo dispositivo a partire da questi dati; per esse non viene inviato nulla. Se registri peso e pasti senza un farmaco, anche questa scelta resta sul tuo dispositivo.</p>
       <h2>4. Permessi che chiediamo</h2>
       <ul>
         <li>Notifiche: per i promemoria delle dosi e gli avvisi di scadenza dei flaconi. Sono programmate sul tuo dispositivo; puoi disattivarle in qualsiasi momento nelle impostazioni del dispositivo.</li>
         <li>Fotocamera e libreria foto (facoltative): solo se alleghi una foto dei progressi (resta sul tuo dispositivo) o fotografi un pasto per l'analisi IA facoltativa (sezione 5).</li>
-        <li>Apple Salute (facoltativo): solo se attivi la sincronizzazione del peso nelle impostazioni. Dozify legge e scrive il tuo peso perché coincida con le altre app di Salute.</li>
-        <li>Archiviazione (solo Android): per salvare i referti PDF che generi.</li>
+        <li>Apple Salute (facoltativo): solo le categorie che attivi. Dozify può leggere peso, percentuale di grasso corporeo e flusso mestruale; il flusso viene usato solo sul dispositivo. Scrive il peso solo se attivi questa opzione separatamente.</li>
       </ul>
       <p>L'App non chiede l'accesso al microfono, ai contatti o alla posizione. Fotocamera, libreria foto e Apple Salute sono facoltativi e vengono richiesti solo nel momento in cui usi la funzione corrispondente.</p>
       <h2>5. Servizi di terze parti</h2>
       <p>L'App usa Firebase Analytics (Google Analytics per Firebase) per raccogliere statistiche d'uso anonime, come le schermate visitate, le azioni all'interno dell'app (per esempio quali funzioni vengono usate) e le conversioni in abbonamento. Questi dati sono associati a un identificativo anonimo dell'istanza dell'applicazione, non al tuo nome, alla tua e-mail o ad altri dati che ti identifichino. I tuoi dati sanitari (storico delle iniezioni, peso, glicemia, effetti collaterali, voci del diario) non vengono mai inviati a Firebase.</p>
       <p>Notifiche: i promemoria sono notifiche locali programmate dal sistema operativo del tuo dispositivo. L'App non usa alcun servizio di notifiche push e non invia token push da nessuna parte.</p>
       <p>L'App usa l'SDK di Meta (Facebook) per un unico scopo: misurare se un'installazione proviene da uno dei nostri annunci. Su iOS l'App chiede prima il tuo permesso tramite la richiesta App Tracking Transparency di Apple. Se rifiuti, o non rispondi, non viene raccolto alcun identificativo pubblicitario (IDFA) e Meta riceve soltanto il segnale aggregato SKAdNetwork di Apple, che tutela la privacy. Se acconsenti, l'identificativo pubblicitario del tuo dispositivo viene condiviso con Meta per poter attribuire l'installazione all'annuncio che hai visto. Ciò che viene inviato si limita ai segnali di attribuzione dell'installazione e dell'apertura dell'app; i tuoi dati sanitari (farmaci, dosi, iniezioni, peso, glicemia, effetti collaterali, note) non vengono mai inviati a Meta. Puoi cambiare la tua risposta quando vuoi in Impostazioni iOS → Privacy e sicurezza → Tracciamento.</p>
-      <p>L'App usa RevenueCat per gestire gli abbonamenti. RevenueCat riceve un identificativo utente anonimo e lo stato del tuo acquisto; i pagamenti sono gestiti da Apple o da Google, e noi non vediamo mai i tuoi dati di pagamento.</p>
+      <p>L'App usa RevenueCat per gestire gli abbonamenti. RevenueCat riceve un identificativo utente anonimo e lo stato del tuo acquisto; i pagamenti sono gestiti da Apple, e noi non vediamo mai i tuoi dati di pagamento.</p>
       <p>Analisi IA delle foto dei pasti (facoltativa; la prima analisi è gratuita, le successive richiedono Premium): la foto che scegli viene inviata in modo cifrato, tramite il nostro server, a Google Gemini (Google LLC) per stimare calorie e proteine; la stima torna sul tuo dispositivo perché tu possa controllarla. La foto serve solo a questa analisi; non viene conservata e non è mai usata per la pubblicità. Il nostro server tiene solo un conteggio anonimo delle analisi per il limite gratuito. Prima dell'invio della prima foto, l'App nomina Google Gemini e ti chiede un permesso esplicito; puoi revocarlo in qualsiasi momento in Impostazioni → Privacy, e «Elimina i miei dati» lo azzera. Se non usi mai la funzione, nessuna foto lascia il tuo dispositivo.</p>
-      <p>Questo sito web (dozify.app), separato dall'App, carica un tag di conversione di Google Ads. Registra una sola cosa: che un visitatore ha fatto clic su un pulsante App Store o Google Play, e su quale pagina. È configurato solo per la misurazione: la personalizzazione degli annunci e gli indicatori Google sono disattivati, quindi la tua visita non viene aggiunta a nessun profilo di interessi pubblicitari, e nessuna informazione sulla salute che leggi o inserisci qui viene inviata a Google. L'App stessa non usa questo tag.</p>
+      <p>Questo sito web (dozify.app), separato dall'App, carica un tag di conversione di Google Ads. Registra una sola cosa: che un visitatore ha fatto clic su un pulsante App Store, e su quale pagina. È configurato solo per la misurazione: la personalizzazione degli annunci e gli indicatori Google sono disattivati, quindi la tua visita non viene aggiunta a nessun profilo di interessi pubblicitari, e nessuna informazione sulla salute che leggi o inserisci qui viene inviata a Google. L'App stessa non usa questo tag.</p>
       <h2>6. Privacy dei minori</h2>
-      <p>Dozify non è per i bambini piccoli: le nostre condizioni del servizio richiedono di avere almeno 13 anni, e l'App ti chiede di confermare di avere almeno 13 anni prima di poterla usare. Non raccogliamo consapevolmente dati di minori di 13 anni. In Italia puoi acconsentire da solo al trattamento dei dati sanitari a partire dai 14 anni; se sei più giovane, usa l'App soltanto con il consenso di un genitore o di chi esercita la responsabilità genitoriale. In ogni caso i tuoi dati restano sul tuo dispositivo: a noi non viene trasmesso alcun dato personale, e disinstallare l'App cancella tutto ciò che è salvato localmente.</p>
+      <p>Dozify non è per i bambini piccoli: le nostre condizioni del servizio richiedono di avere almeno 13 anni, e l'App ti chiede di confermare di avere almeno 13 anni prima di poterla usare. Non raccogliamo consapevolmente dati di minori di 13 anni. In Italia puoi acconsentire da solo al trattamento dei dati sanitari a partire dai 14 anni; se sei più giovane, usa l'App soltanto con il consenso di un genitore o di chi esercita la responsabilità genitoriale. In ogni caso i tuoi dati restano sul tuo dispositivo: a noi non viene trasmesso alcun dato personale, e disinstallare l'App cancella i dati su questo telefono.</p>
       <h2>7. I tuoi diritti</h2>
       <p>Poiché non raccogliamo né conserviamo i tuoi dati sui nostri server, i diritti di accesso, cancellazione e portabilità si esercitano direttamente dall'App:</p>
       <ul>
         <li>Accesso: tutti i tuoi dati sono visibili all'interno dell'App.</li>
         <li>Portabilità: puoi generare referti PDF dei tuoi dati quando vuoi.</li>
-        <li>Cancellazione: in Impostazioni → Elimina i miei dati puoi cancellarne una parte o tutti. Anche disinstallare l'App elimina tutti i dati locali.</li>
+        <li>Cancellazione: in Impostazioni → Elimina i miei dati puoi cancellarne una parte o tutti. Anche disinstallare l'App elimina i dati su questo telefono.</li>
       </ul>
       <p>Chi risiede nell'UE e nel Regno Unito ha i diritti riconosciuti dal GDPR, e chi risiede in Turchia quelli riconosciuti dalla legge turca KVKK (Legge n. 6698).</p>
       <h2>8. Avvertenza medica</h2>
       <p>Dozify non è un dispositivo medico e non fornisce consigli medici, diagnosi o terapie. Le informazioni presenti nell'App servono unicamente al tuo monitoraggio personale. Consulta sempre il tuo medico o un professionista sanitario qualificato prima di prendere decisioni sulla tua terapia.</p>
       <h2>9. Sicurezza dei dati</h2>
-      <p>I dati locali sono salvati nello spazio protetto che il dispositivo riserva all'app. Ti consigliamo di attivare un codice di sblocco, il blocco biometrico e la cifratura completa dell'archivio (attiva per impostazione predefinita sui dispositivi iOS e Android attuali).</p>
+      <p>I dati locali sono salvati nello spazio protetto che il dispositivo riserva all'app. Ti consigliamo di attivare un codice di sblocco, il blocco biometrico e la cifratura completa dell'archivio (attiva per impostazione predefinita sui dispositivi iOS attuali).</p>
       <h2>10. Modifiche a questa informativa</h2>
       <p>Possiamo aggiornare di tanto in tanto questa informativa sulla privacy. Le modifiche importanti si riflettono nella data di aggiornamento indicata sopra. Continuare a usare l'App dopo una modifica significa accettare l'informativa aggiornata.</p>
       <h2>11. Contatti</h2>

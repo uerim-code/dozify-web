@@ -55,7 +55,6 @@
   "<a href=\"/en/articles/missed-glp1-dose\">Missed a GLP-1 dose? What each leaflet says</a>": "<a href=\"/en/articles/missed-glp1-dose\">GLP-1 투여를 놓쳤나요? 각 설명서의 안내</a>",
   "<a href=\"/en/articles/what-is-glp1\">What is GLP-1?</a>": "<a href=\"/en/articles/what-is-glp1\">GLP-1이란?</a>",
   "<a href=\"/en/articles/protein-on-glp1\">How much protein on a GLP-1, and how to reach it</a>": "<a href=\"/en/articles/protein-on-glp1\">GLP-1 사용 중 단백질은 얼마나, 어떻게 채울까</a>",
-  "A daily tablet, logged in one tap": "매일 먹는 정제, 탭 한 번으로 기록",
   "Daily doses, the step you are on and the date each one started, on your phone. Dozify records what you and your prescriber decided; it never proposes a dose.": "매일의 투여, 현재 단계, 각 단계 시작일을 휴대폰에. Dozify는 나와 처방의가 결정한 것을 기록할 뿐, 용량을 제안하지 않아요.",
   "See how pill tracking works →": "알약 기록 방식 보기 →",
   "Can I take the Wegovy® pill with coffee?": "Wegovy® 알약을 커피와 함께 먹어도 되나요?",
@@ -72,6 +71,7 @@
   "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Wegovy (semaglutide) injection and tablets: US prescribing information and Medication Guide</a>": "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Wegovy (semaglutide) injection and tablets: US prescribing information and Medication Guide</a>",
   "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Ozempic tablets and Rybelsus (oral semaglutide): US prescribing information</a>": "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Ozempic tablets and Rybelsus (oral semaglutide): US prescribing information</a>",
   "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Foundayo (orforglipron) tablets: US prescribing information</a>": "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Foundayo (orforglipron) tablets: US prescribing information</a>",
-  "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 dosage chart: the titration steps each label lists</a>": "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 용량표: 각 허가사항에 나온 증량 단계</a>"
+  "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 dosage chart: the titration steps each label lists</a>": "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 용량표: 각 허가사항에 나온 증량 단계</a>",
+  "A daily tablet, logged in a few taps": "매일 먹는 정제, 몇 번의 탭으로 기록"
  }
 }

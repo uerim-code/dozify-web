@@ -55,7 +55,6 @@
   "<a href=\"/en/articles/missed-glp1-dose\">Missed a GLP-1 dose? What each leaflet says</a>": "<a href=\"/en/articles/missed-glp1-dose\">GLP-1 डोज़ छूट गया? हर लीफ़लेट क्या कहता है</a>",
   "<a href=\"/en/articles/what-is-glp1\">What is GLP-1?</a>": "<a href=\"/en/articles/what-is-glp1\">GLP-1 क्या है?</a>",
   "<a href=\"/en/articles/protein-on-glp1\">How much protein on a GLP-1, and how to reach it</a>": "<a href=\"/en/articles/protein-on-glp1\">GLP-1 पर कितना प्रोटीन, और उस तक कैसे पहुँचें</a>",
-  "A daily tablet, logged in one tap": "रोज़ की गोली, एक टैप में दर्ज",
   "Daily doses, the step you are on and the date each one started, on your phone. Dozify records what you and your prescriber decided; it never proposes a dose.": "रोज़ के डोज़, आप किस कदम पर हैं और हर कदम कब शुरू हुआ, आपके फ़ोन पर। Dozify वह दर्ज करता है जो आपने और आपके डॉक्टर ने तय किया; यह खुद कभी कोई डोज़ नहीं सुझाता।",
   "See how pill tracking works →": "देखें कि गोली ट्रैकिंग कैसे काम करती है →",
   "Can I take the Wegovy® pill with coffee?": "क्या मैं Wegovy® गोली कॉफ़ी के साथ ले सकता/सकती हूँ?",
@@ -72,6 +71,7 @@
   "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Wegovy (semaglutide) injection and tablets: US prescribing information and Medication Guide</a>": "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Wegovy (semaglutide) injection and tablets: US prescribing information and Medication Guide</a>",
   "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Ozempic tablets and Rybelsus (oral semaglutide): US prescribing information</a>": "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Ozempic tablets and Rybelsus (oral semaglutide): US prescribing information</a>",
   "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Foundayo (orforglipron) tablets: US prescribing information</a>": "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Foundayo (orforglipron) tablets: US prescribing information</a>",
-  "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 dosage chart: the titration steps each label lists</a>": "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 डोज़ चार्ट: हर लेबल में दिए टाइट्रेशन कदम</a>"
+  "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 dosage chart: the titration steps each label lists</a>": "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 डोज़ चार्ट: हर लेबल में दिए टाइट्रेशन कदम</a>",
+  "A daily tablet, logged in a few taps": "रोज़ की गोली, कुछ टैप में दर्ज"
  }
 }

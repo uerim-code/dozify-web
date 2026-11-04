@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alternativa a GlucoPal: trae tu historial de GLP-1</title>
-  <meta name="description" content="¿Dejas GlucoPal? Dozify lee la exportación, te muestra los recuentos antes de guardar nada y enumera las columnas que ignoró. Gratis y en tu dispositivo.">
+  <meta name="description" content="¿Dejas GlucoPal? Dozify está diseñada para leer la exportación, muestra los recuentos antes de guardar y enumera las columnas ignoradas. Gratis, en tu dispositivo.">
   <meta property="og:url" content="https://dozify.app/es/glucopal-alternative">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="Alternativa a GlucoPal: trae tu historial de GLP-1">
-  <meta property="og:description" content="¿Dejas GlucoPal? Dozify lee la exportación, te muestra los recuentos antes de guardar nada y enumera las columnas que ignoró. Gratis y en tu dispositivo.">
+  <meta property="og:description" content="¿Dejas GlucoPal? Dozify está diseñada para leer la exportación, muestra los recuentos antes de guardar y enumera las columnas ignoradas. Gratis, en tu dispositivo.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify: registro privado de inyecciones GLP-1 y de peso para iPhone">
   <meta name="twitter:title" content="Alternativa a GlucoPal: trae tu historial de GLP-1">
-  <meta name="twitter:description" content="¿Dejas GlucoPal? Dozify lee la exportación, te muestra los recuentos antes de guardar nada y enumera las columnas que ignoró. Gratis y en tu dispositivo.">
+  <meta name="twitter:description" content="¿Dejas GlucoPal? Dozify está diseñada para leer la exportación, muestra los recuentos antes de guardar y enumera las columnas ignoradas. Gratis, en tu dispositivo.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify: registro privado de inyecciones GLP-1 y de peso para iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -96,7 +96,7 @@
         "@id": "https://dozify.app/es/glucopal-alternative#webpage",
         "url": "https://dozify.app/es/glucopal-alternative",
         "name": "Alternativa a GlucoPal: trae tu historial de GLP-1",
-        "description": "¿Dejas GlucoPal? Dozify lee la exportación, te muestra los recuentos antes de guardar nada y enumera las columnas que ignoró. Gratis y en tu dispositivo.",
+        "description": "¿Dejas GlucoPal? Dozify está diseñada para leer la exportación, muestra los recuentos antes de guardar y enumera las columnas ignoradas. Gratis, en tu dispositivo.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -158,7 +158,7 @@
     </div>
     <h1>¿Vienes de GlucoPal? Trae tu historial contigo</h1>
     
-    <p class="meta">Exporta desde GlucoPal, ábrelo en Dozify y ve cada registro que se va a guardar antes de que se guarde ninguno. Gratis, y el archivo nunca sale de tu móvil.</p>
+    <p class="meta">Exporta desde GlucoPal, ábrelo en Dozify y ve cuántos registros ha encontrado, y qué columnas ha leído, antes de guardar nada. Gratis, y Dozify no sube el archivo.</p>
     
 
     <h2>Por qué el historial es lo difícil</h2>
@@ -167,13 +167,13 @@
     
 
     <h2>Las columnas que busca Dozify en una exportación de GlucoPal</h2>
-    <p>Abre el archivo exportado y compara la fila de encabezados. Dozify reconoce una columna por cualquiera de estos nombres, y le da igual si van en mayúsculas o minúsculas o si la unidad está entre paréntesis. Todo lo que no sabe dónde colocar aparece por su nombre en la pantalla de vista previa, para que veas qué se ha quedado fuera en vez de preguntártelo.</p>
+    <p>Dozify está diseñada para leer las exportaciones de GlucoPal a partir de su formato publicado. No todos los formatos se han probado con una exportación real; la vista previa muestra lo que se ha leído antes de guardar nada. Abre el archivo exportado y compara la fila de encabezados. Dozify reconoce una columna por cualquiera de estos nombres, y le da igual si van en mayúsculas o minúsculas o si la unidad está entre paréntesis. Todo lo que no sabe dónde colocar aparece por su nombre en la pantalla de vista previa, para que veas qué se ha quedado fuera en vez de preguntártelo.</p>
     <table class="compare">
       <thead><tr><th>Campo</th><th>Nombres de encabezado que acepta</th></tr></thead>
       <tbody>
       <tr><td><strong>Fecha</strong></td><td><code>date · log date</code></td></tr>
       <tr><td><strong>Hora</strong></td><td><code>time · log time</code></td></tr>
-      <tr><td><strong>Dosis</strong></td><td><code>dose · insulin · units</code></td></tr>
+      <tr><td><strong>Dosis</strong></td><td><code>dose · units</code></td></tr>
       <tr><td><strong>Peso</strong></td><td><code>weight · weight (kg) · weight (lb)</code></td></tr>
       <tr><td><strong>Efecto secundario</strong></td><td><code>symptom · note type</code></td></tr>
       <tr><td><strong>Intensidad</strong></td><td><code>severity</code></td></tr>
@@ -189,7 +189,7 @@
     
 
     <h2>Si tu columna de dosis se titula «units»</h2>
-    <p>Esas filas se te muestran en lugar de convertirse. Una unidad es un volumen en una jeringa, y cuántos miligramos contiene depende de la concentración de tu vial, una cifra que el archivo no incluye. Escribirlas en un campo de miligramos registraría una dosis equivocada sin que nada de lo que viene después lo cuestionara, así que Dozify te las muestra y te deja introducir la cantidad que usa quien te lo receta. <a href="/es/articles/units-vs-milligrams">Por qué no hay una única conversión →</a></p>
+    <p>Esas filas se te muestran en lugar de convertirse. Una unidad es un volumen en una jeringa, y cuántos miligramos contiene depende de la concentración de tu vial, una cifra que el archivo no incluye. Escribirlas en un campo de miligramos registraría una dosis equivocada sin que nada de lo que viene después lo cuestionara, así que Dozify las muestra como omitidas; puedes registrar esas dosis a mano en la cantidad que usa quien te lo receta. <a href="/es/articles/units-vs-milligrams">Por qué no hay una única conversión →</a></p>
     
     
 
@@ -203,11 +203,11 @@
     
 
     <h2>Si el archivo no se reconoce</h2>
-    <p>Dozify te lo dice en lugar de importar cero filas sin avisar. Se puede leer cualquier CSV que tenga una columna de fecha. Si el tuyo no se lee, envíalo desde Ajustes → Proponer una función y añadiremos el formato: un archivo que no sabemos leer es un fallo nuestro, no tuyo.</p>
+    <p>Dozify te lo dice en lugar de importar cero filas sin avisar. Se puede leer cualquier CSV que tenga una columna de fecha y una columna de peso, dosis o síntoma. Si el tuyo no se lee, envíalo desde Ajustes → Proponer una función y añadiremos el formato: un archivo que no sabemos leer es un fallo nuestro, no tuyo.</p>
     
     
 
-    <p class="meta">Dozify es una herramienta de registro, no un producto sanitario. No recomienda dosis ni ofrece consejo médico. GlucoPal es una marca registrada de su titular y se menciona aquí solo para describir un formato de archivo que Dozify puede leer; Dozify no está afiliada a GlucoPal y esta página no cuenta con su respaldo. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® y Rybelsus® son marcas registradas de sus respectivos titulares; Dozify no está afiliada a estas empresas.</p>
+    <p class="meta">Dozify es una herramienta de registro, no un producto sanitario. No recomienda dosis ni ofrece consejo médico. GlucoPal es una marca registrada de su titular y se menciona aquí solo para describir un formato de archivo que Dozify está diseñada para leer; Dozify no está afiliada a GlucoPal y esta página no cuenta con su respaldo. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® y Rybelsus® son marcas registradas de sus respectivos titulares; Dozify no está afiliada a estas empresas.</p>
     
 
     <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glucopal-alternative-es&mt=8" class="btn btn-primary">Descárgalo en el App Store</a></p>

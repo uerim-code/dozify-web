@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GlucoPal Alternative — Bring Your GLP-1 History</title>
-  <meta name="description" content="Switching from GlucoPal? Dozify reads the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device.">
+  <meta name="description" content="Switching from GlucoPal? Dozify is built to read the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device.">
   <meta property="og:url" content="https://dozify.app/en/glucopal-alternative">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -25,7 +25,7 @@
   <script src="/assets/store-click.js" defer></script>
   <meta name="keywords" content="glucopal alternative, glp-1, glp1, tracker, ozempic, wegovy, mounjaro, zepbound, semaglutide, tirzepatide, injection, dose, weight, side effects, vial, titration, reminder">
   <meta property="og:title" content="GlucoPal Alternative — Bring Your GLP-1 History">
-  <meta property="og:description" content="Switching from GlucoPal? Dozify reads the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device.">
+  <meta property="og:description" content="Switching from GlucoPal? Dozify is built to read the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -34,7 +34,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — a private GLP-1 injection and weight tracker for iPhone">
   <meta name="twitter:title" content="GlucoPal Alternative — Bring Your GLP-1 History">
-  <meta name="twitter:description" content="Switching from GlucoPal? Dozify reads the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device.">
+  <meta name="twitter:description" content="Switching from GlucoPal? Dozify is built to read the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — a private GLP-1 injection and weight tracker for iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -98,7 +98,7 @@
         "@id": "https://dozify.app/en/glucopal-alternative#webpage",
         "url": "https://dozify.app/en/glucopal-alternative",
         "name": "GlucoPal Alternative — Bring Your GLP-1 History",
-        "description": "Switching from GlucoPal? Dozify reads the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device.",
+        "description": "Switching from GlucoPal? Dozify is built to read the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -160,7 +160,7 @@
     </div>
     <h1>Coming from GlucoPal? Bring the history with you</h1>
     
-    <p class="meta">Export from GlucoPal, open it in Dozify, and see every record that is about to be written before one of them is. Free, and the file never leaves your phone.</p>
+    <p class="meta">Export from GlucoPal, open it in Dozify, and see how many records it found, and which columns it read, before anything is written. Free, and Dozify does not upload the file.</p>
     
 
     <h2>Why the history is the hard part</h2>
@@ -169,13 +169,13 @@
     
 
     <h2>The columns Dozify looks for in a GlucoPal export</h2>
-    <p>Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.</p>
+    <p>Dozify is built to read GlucoPal exports from their published format. Not every format has been tested with a real export; the preview shows what was read before anything is written. Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.</p>
     <table class="compare">
       <thead><tr><th>Field</th><th>Header names it accepts</th></tr></thead>
       <tbody>
       <tr><td><strong>Date</strong></td><td><code>date · log date</code></td></tr>
       <tr><td><strong>Time</strong></td><td><code>time · log time</code></td></tr>
-      <tr><td><strong>Dose</strong></td><td><code>dose · insulin · units</code></td></tr>
+      <tr><td><strong>Dose</strong></td><td><code>dose · units</code></td></tr>
       <tr><td><strong>Weight</strong></td><td><code>weight · weight (kg) · weight (lb)</code></td></tr>
       <tr><td><strong>Side effect</strong></td><td><code>symptom · note type</code></td></tr>
       <tr><td><strong>Severity</strong></td><td><code>severity</code></td></tr>
@@ -191,7 +191,7 @@
     
 
     <h2>If your dose column is headed “units”</h2>
-    <p>Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify shows them and lets you enter the amount your prescriber uses. <a href="/en/articles/units-vs-milligrams">Why there is no one conversion →</a></p>
+    <p>Those rows are listed for you instead of being converted. A unit is a volume on a syringe, and how many milligrams sit in it depends on the concentration of your vial — a number the file does not carry. Writing them into a milligram field would record the wrong dose without anything downstream questioning it, so Dozify lists them as skipped; you can log those doses by hand in the amount your prescriber uses. <a href="/en/articles/units-vs-milligrams">Why there is no one conversion →</a></p>
     
     
 
@@ -205,11 +205,11 @@
     
 
     <h2>If the file is not recognised</h2>
-    <p>Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.</p>
+    <p>Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.</p>
     
     
 
-    <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. GlucoPal is a trademark of its owner and is named here only to describe a file format Dozify can read; Dozify is not affiliated with GlucoPal and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
+    <p class="meta">Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. GlucoPal is a trademark of its owner and is named here only to describe a file format Dozify is built to read; Dozify is not affiliated with GlucoPal and this page is not endorsed by them. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.</p>
     
 
     <p style="text-align:center;margin:32px 0">

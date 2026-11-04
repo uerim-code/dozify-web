@@ -21,16 +21,13 @@
   "<strong>Time</strong>": "<strong>Tidspunkt</strong>",
   "<strong>Weight</strong>": "<strong>Vægt</strong>",
   "Articles": "Artikler",
-  "By Ümit Can Erim · Published 18 August 2026 · Updated 18 August 2026 · Sources checked 18 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Af Ümit Can Erim · Udgivet 18. august 2026 · Opdateret 18. august 2026 · Kilder tjekket 18. august 2026 · <a href=\"/en/editorial-policy\">Sådan skrives disse guides</a>",
   "By Ümit Can Erim · Published 19 August 2026 · Updated 19 August 2026 · Sources checked 19 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Af Ümit Can Erim · Udgivet 19. august 2026 · Opdateret 19. august 2026 · Kilder tjekket 19. august 2026 · <a href=\"/en/editorial-policy\">Sådan skrives disse guides</a>",
   "By Ümit Can Erim · Published 20 August 2026 · Updated 20 August 2026 · Sources checked 20 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Af Ümit Can Erim · Udgivet 20. august 2026 · Opdateret 20. august 2026 · Kilder tjekket 20. august 2026 · <a href=\"/en/editorial-policy\">Sådan skrives disse guides</a>",
   "By Ümit Can Erim · Published 9 October 2026 · Updated 9 October 2026 · Sources checked 9 October 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Af Ümit Can Erim · Udgivet 9. oktober 2026 · Opdateret 9. oktober 2026 · Kilder tjekket 9. oktober 2026 · <a href=\"/en/editorial-policy\">Sådan skrives disse guides</a>",
   "Doctor report": "Lægerapport",
   "Download the app": "Hent appen",
   "Dozify": "Dozify",
-  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders: fully offline, with your data staying on your device.": "Dozify hjælper dig med at holde styr på GLP-1-injektioner, skifte injektionssted, registrere din vægt og få påmindelser: helt offline, og dine data bliver på din enhed.",
   "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify er et registreringsværktøj, ikke medicinsk udstyr. Appen anbefaler ikke doser og giver ikke medicinsk rådgivning. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® og Rybelsus® er varemærker tilhørende deres respektive ejere; Dozify er ikke tilknyttet disse virksomheder.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify siger det i stedet for stille og roligt at importere nul rækker. Enhver CSV-fil med en datokolonne kan læses. Kan din ikke, så send den via Indstillinger → Foreslå en funktion, så bliver formatet tilføjet: en fil, vi ikke kan læse, er vores mangel, ikke din.",
   "Editorial policy": "Redaktionel politik",
   "Features": "Funktioner",
   "Field": "Felt",
@@ -48,7 +45,6 @@
   "Months of injections, weigh-ins and side effects are the reason people stay in an app they have stopped liking. Nobody retypes a year of shots, so the record becomes the lock. Moving it across is the only part that matters.": "Måneders injektioner, vejninger og bivirkninger er grunden til, at folk bliver i en app, de er holdt op med at kunne lide. Ingen taster et helt års injektioner ind igen, så historikken bliver til en lås. At få den flyttet med er det eneste, der betyder noget.",
   "New in Dozify: snap a meal and the app drafts calories and protein per item for you to edit — <a href=\"/en/ai-calorie-tracker\">AI calorie tracking</a> (Premium) — and daily GLP-1 tablets have their own <a href=\"/en/glp1-pill-tracker\">pill tracker</a>.": "Nyt i Dozify: tag et billede af et måltid, så laver appen et udkast med kalorier og protein pr. del, som du selv kan rette – <a href=\"/en/ai-calorie-tracker\">AI-kalorietæller</a> (Premium) – og daglige GLP-1-tabletter har fået deres egen <a href=\"/en/glp1-pill-tracker\">pilletracker</a>.",
   "Nothing is written until you say so": "Intet bliver gemt, før du siger til",
-  "Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.": "Åbn din eksporterede fil, og sammenlign overskriftsrækken. Dozify genkender en kolonne ud fra et hvilket som helst af disse navne og er ligeglad med store og små bogstaver eller en enhed i parentes. Alt, hvad den ikke kan placere, står med navn på forhåndsvisningen, så du kan se, hvad der blev udeladt, i stedet for at undre dig.",
   "Privacy": "Privatliv",
   "Privacy Policy": "Privatlivspolitik",
   "Private GLP-1 tracker": "Privat GLP-1-tracker",
@@ -77,6 +73,8 @@
   "privacy@dozify.app": "privacy@dozify.app",
   "support@dozify.app": "support@dozify.app",
   "© 2026 UCE": "© 2026 UCE",
-  "See the GLP-1 dosage chart →": "Se GLP-1-doseringstabellen →"
+  "See the GLP-1 dosage chart →": "Se GLP-1-doseringstabellen →",
+  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify hjælper dig med at holde styr på GLP-1-injektioner, skifte injektionssted, registrere din vægt og få påmindelser; alt dette virker offline, og dine data gemmes på din enhed.",
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify siger det i stedet for stille og roligt at importere nul rækker. Enhver CSV-fil med en datokolonne og en kolonne for vægt, dosis eller symptomer kan læses. Kan din ikke, så send den via Indstillinger → Foreslå en funktion, så bliver formatet tilføjet: en fil, vi ikke kan læse, er vores mangel, ikke din."
  }
 }

@@ -21,16 +21,13 @@
   "<strong>Time</strong>": "<strong>时间</strong>",
   "<strong>Weight</strong>": "<strong>体重</strong>",
   "Articles": "文章",
-  "By Ümit Can Erim · Published 18 August 2026 · Updated 18 August 2026 · Sources checked 18 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "作者：Ümit Can Erim · 发布于 2026 年 8 月 18 日 · 更新于 2026 年 8 月 18 日 · 来源核对于 2026 年 8 月 18 日 · <a href=\"/en/editorial-policy\">这些指南是如何撰写的</a>",
   "By Ümit Can Erim · Published 19 August 2026 · Updated 19 August 2026 · Sources checked 19 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "作者：Ümit Can Erim · 发布于 2026 年 8 月 19 日 · 更新于 2026 年 8 月 19 日 · 来源核对于 2026 年 8 月 19 日 · <a href=\"/en/editorial-policy\">这些指南是如何撰写的</a>",
   "By Ümit Can Erim · Published 20 August 2026 · Updated 20 August 2026 · Sources checked 20 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "作者：Ümit Can Erim · 发布于 2026 年 8 月 20 日 · 更新于 2026 年 8 月 20 日 · 来源核对于 2026 年 8 月 20 日 · <a href=\"/en/editorial-policy\">这些指南是如何撰写的</a>",
   "By Ümit Can Erim · Published 9 October 2026 · Updated 9 October 2026 · Sources checked 9 October 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "作者：Ümit Can Erim · 发布于 2026 年 10 月 9 日 · 更新于 2026 年 10 月 9 日 · 来源核对于 2026 年 10 月 9 日 · <a href=\"/en/editorial-policy\">这些指南是如何撰写的</a>",
   "Doctor report": "就诊报告",
   "Download the app": "下载应用",
   "Dozify": "Dozify",
-  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders: fully offline, with your data staying on your device.": "Dozify 帮你记录 GLP-1 注射、轮换注射部位、记录体重并接收提醒：完全离线，数据始终保存在你的设备上。",
   "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify 是一款记录工具，不是医疗器械。它不推荐剂量，也不提供医疗建议。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza® 和 Rybelsus® 是其各自所有者的商标；Dozify 与这些公司没有关联。",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify 会明确告诉你，而不是悄悄导入零行。任何带有日期列的 CSV 都能读取。如果你的文件读不了，请在“设置 → 提个功能建议”中发送给我们，我们会添加该格式：读不了的文件是我们的不足，不是你的问题。",
   "Editorial policy": "编辑方针",
   "Features": "功能",
   "Field": "字段",
@@ -48,7 +45,6 @@
   "Months of injections, weigh-ins and side effects are the reason people stay in an app they have stopped liking. Nobody retypes a year of shots, so the record becomes the lock. Moving it across is the only part that matters.": "几个月的注射、称重和副作用记录，是人们留在一款已经不喜欢的应用里的原因。没有人会把一整年的注射重新输入一遍，于是这些记录就成了枷锁。把它们迁移过来，才是唯一重要的部分。",
   "New in Dozify: snap a meal and the app drafts calories and protein per item for you to edit — <a href=\"/en/ai-calorie-tracker\">AI calorie tracking</a> (Premium) — and daily GLP-1 tablets have their own <a href=\"/en/glp1-pill-tracker\">pill tracker</a>.": "Dozify 新功能：拍下一餐，应用会为每样食物估算卡路里和蛋白质草稿，供你修改——<a href=\"/en/ai-calorie-tracker\">AI 卡路里记录</a>（Premium）；每日服用的 GLP-1 片剂也有了专属的<a href=\"/en/glp1-pill-tracker\">口服药记录</a>。",
   "Nothing is written until you say so": "在你确认之前，什么都不会写入",
-  "Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.": "打开你导出的文件，对照表头行。Dozify 会按以下任一名称匹配列，不区分大小写，也不在意括号里写的单位。任何无法对应的列都会在预览界面上按名称列出，让你清楚看到哪些被略过，而不必猜测。",
   "Privacy": "隐私",
   "Privacy Policy": "隐私政策",
   "Private GLP-1 tracker": "私密 GLP-1 记录",
@@ -77,6 +73,8 @@
   "privacy@dozify.app": "privacy@dozify.app",
   "support@dozify.app": "support@dozify.app",
   "© 2026 UCE": "© 2026 UCE",
-  "See the GLP-1 dosage chart →": "查看 GLP-1 剂量表 →"
+  "See the GLP-1 dosage chart →": "查看 GLP-1 剂量表 →",
+  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify 帮你记录 GLP-1 注射、轮换注射部位、记录体重并接收提醒，这些功能都可离线使用，记录保存在你的设备上。",
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify 会明确告诉你，而不是悄悄导入零行。任何带有日期列以及体重、剂量或症状列的 CSV都能读取。如果你的文件读不了，请在“设置 → 提个功能建议”中发送给我们，我们会添加该格式：读不了的文件是我们的不足，不是你的问题。"
  }
 }

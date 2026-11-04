@@ -5,12 +5,10 @@
  },
  "t": {
   "Walk in with a summary, not a memory": "ادخل ومعك ملخّص، لا ذاكرة",
-  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "لمسة واحدة تحوّل ثلاثة أشهر من سجلاتك إلى صفحة يستطيع طبيبك قراءتها في الدقائق العشر المتاحة لك.",
   "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "الموعد قصير والمساحة التي يجب تغطيتها طويلة: ما أخذته ومتى، وكيف تحرّك الوزن، وأي آثار جانبية وفي أي مرحلة، والسؤالان اللذان كنت تنوي طرحهما.",
   "A clinical summary, generated on the device": "ملخّص سريري، يُنشأ على الجهاز",
   "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "الجرعات والفواصل بينها، واتجاه الوزن، والآثار الجانبية، وتبديل المواضع، والقوارير المفتوحة: على مدى 30 أو 90 أو 180 يوماً.",
   "Your questions, printed at the end": "أسئلتك، مطبوعة في النهاية",
-  "Write them down as they occur to you during the month. They come out on the last page.": "دوّنها كلما خطرت لك خلال الشهر. وتظهر في الصفحة الأخيرة.",
   "Yours to share, or not": "لك أن تشاركه، أو لا",
   "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "يُصنع ملف PDF على هاتفك. لا يُرفع شيء؛ وأنت تقرّر ما إذا كان سيذهب إلى أي مكان.",
   "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "لمن لديهم موعد متابعة قصير وفترة طويلة يصفونها، ولمن ينتقلون إلى طبيب جديد لم يرَ سجلهم من قبل. وهو أيضاً للموعد الذي يكون فيه تغيير الجرعة مطروحاً، حيث يكون ما حدث في الأسابيع الثمانية الأخيرة هو بالضبط ما يقوم عليه القرار.",
@@ -27,6 +25,9 @@
   "Is anything uploaded to make it?": "هل يُرفع أي شيء لإنشائه؟",
   "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "لا. يُنشأ على الجهاز من سجلات موجودة فيه بالفعل. لا يُرسل أي شيء إلى أي مكان لإنتاجه.",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "أدلة تذكر مصادرها: <a href=\"/en/articles/glp1-side-effects\">التعامل مع الآثار الجانبية الشائعة</a>، و<a href=\"/en/articles/what-is-glp1\">ما هو GLP-1 فعلاً</a>، و<a href=\"/en/articles/glp1-injection-sites\">أين تحقن وكيف تبدّل الموضع</a>، و<a href=\"/en/articles/glp1-appointment-checklist\">ما تجهّزه للموعد نفسه</a>.",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "في أماكن أخرى من Dozify: <a href=\"/en/glp1-side-effect-journal\">يوميات الآثار الجانبية</a> و<a href=\"/en/glp1-weight-tracker\">اتجاه الوزن</a>."
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "في أماكن أخرى من Dozify: <a href=\"/en/glp1-side-effect-journal\">يوميات الآثار الجانبية</a> و<a href=\"/en/glp1-weight-tracker\">اتجاه الوزن</a>.",
+  "A few taps turn three months of your own records into a page your doctor can read in the ten minutes you have.": "بضع لمسات تحوّل ثلاثة أشهر من سجلاتك إلى صفحة يستطيع طبيبك قراءتها في الدقائق العشر المتاحة لك.",
+  "The summary PDF is free twice a month; the doctor-visit report is Premium.": "ملف PDF الملخّص مجاني مرتين في الشهر؛ أما تقرير زيارة الطبيب فضمن Premium.",
+  "Add your questions when you build the report. They are printed at the end.": "أضف أسئلتك عند إعداد التقرير. وتُطبع في نهايته."
  }
 }

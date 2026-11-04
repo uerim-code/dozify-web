@@ -48,7 +48,7 @@
 
   <main class="wrap">
       <h1>Integritetspolicy</h1>
-      <p class="meta">Senast uppdaterad: 2 november 2026 · Gäller från 2 november 2026</p>
+      <p class="meta">Senast uppdaterad: 5 november 2026 · Gäller från 2 november 2026</p>
       <h2>1. Inledning</h2>
       <p>Dozify («vi») är en app för att hålla koll på läkemedel, gjord för GLP-1-behandlingar med läkemedel som Ozempic, Mounjaro, Wegovy, Saxenda och liknande. Den här policyn förklarar hur vi hanterar information när du använder mobilappen Dozify («Appen»).</p>
       <p>Dozify fungerar i första hand offline. Hälsodata som du skriver in samlas inte in, överförs inte och lagras inte på våra servrar, och vi kan inte se dem; de stannar på din enhet. Det enda undantaget är ett måltidsfoto som du själv skickar för den valfria AI-analysen (avsnitt 5). Appen använder också några tjänster från tredje part för anonym användningsstatistik, mätning av installationer från annonser och prenumerationer; avsnitt 5 anger exakt vad var och en får.</p>
@@ -63,7 +63,7 @@
       <p>Appen tar emot de anonyma id:n som beskrivs i avsnitt 5 (ett id för analysinstansen och ett anonymt användar-id för prenumerationen). De finns bara för att anonym statistik och din prenumeration ska fungera, är inte kopplade till ditt namn eller din e-post och används inte för att spåra dig i andra appar eller på webbplatser.</p>
       <p class="note">Dina hälsouppgifter används aldrig i reklamsyfte. Ingenting av det du registrerar (läkemedel, doser, injektioner, vikt, blodsocker, biverkningar, anteckningar, bilder) används för annonsriktning eller delas med något annonsnätverk, oavsett vad du svarar på frågan om spårning.</p>
       <h2>3. Uppgifter som lagras lokalt på din enhet</h2>
-      <p>Appen sparar följande information enbart på din enhet, i en lokal SQLite-databas och i systemets krypterade lagring:</p>
+      <p>Appen sparar följande information enbart på din enhet, i en lokal databas i Appens skyddade sandlåda:</p>
       <ul>
         <li>läkemedlen, doserna och injektionsscheman du fyller i;</li>
         <li>injektionshistoriken och posterna i dagboken;</li>
@@ -72,37 +72,36 @@
         <li>dina inställningar för aviseringar och påminnelser;</li>
         <li>Appens inställningar (språk, utseende, enheter).</li>
       </ul>
-      <p>Dessa uppgifter lämnar aldrig din enhet, om du inte själv exporterar dem (till exempel genom att skapa en PDF-rapport och dela den via e-post eller en annan app du väljer). Raderar du Appen tas alla uppgifter bort permanent.</p>
+      <p>Dozify laddar aldrig upp dessa uppgifter. De lämnar din enhet bara om du själv exporterar dem (till exempel genom att skapa en PDF-rapport och dela den via e-post eller en annan app du väljer) eller om din egen säkerhetskopia i iPhone eller iCloud omfattar Appen. Tar du bort Appen försvinner uppgifterna på den här telefonen. Exporterade filer, allt du har skrivit till Apple Hälsa och dina egna iPhone-säkerhetskopior är separata.</p>
       <p>Förhandsvisningar av Premium-funktioner, till exempel din uppskattade läkemedelsnivå på en låst skärm, ritas på din enhet utifrån dessa data; inget skickas för dem. Om du följer vikt och måltider utan läkemedel sparas även det valet på din enhet.</p>
       <h2>4. Behörigheter vi ber om</h2>
       <ul>
         <li>Notiser: för dospåminnelser och varningar om flaskors utgångsdatum. De schemaläggs på din enhet; du kan stänga av dem när som helst i enhetens inställningar.</li>
         <li>Kamera och bildbibliotek (valfritt): bara när du bifogar en framstegsbild (sparas på din enhet) eller fotograferar en måltid för den valfria AI-analysen (avsnitt 5).</li>
-        <li>Apple Hälsa (valfritt): bara om du slår på viktsynkroniseringen i inställningarna. Dozify läser och skriver din vikt så att den stämmer med dina andra Hälsa-appar.</li>
-        <li>Lagring (endast Android): för att spara de PDF-rapporter du skapar.</li>
+        <li>Apple Hälsa (valfritt): bara de kategorier du slår på. Dozify kan läsa vikt, kroppsfettprocent och menstruationsflöde; flödet används bara på enheten. Den skriver vikt bara om du slår på det separat.</li>
       </ul>
       <p>Appen ber inte om åtkomst till mikrofon, kontakter eller plats. Kamera, bildbibliotek och Apple Hälsa är valfria och efterfrågas först när du använder motsvarande funktion.</p>
       <h2>5. Tredjepartstjänster</h2>
       <p>Appen använder Firebase Analytics (Google Analytics for Firebase) för att samla in anonym användningsstatistik, som besökta skärmar, handlingar i appen (till exempel vilka funktioner som används) och prenumerationskonverteringar. Uppgifterna kopplas till en anonym identifierare för appinstansen, inte till ditt namn, din e-postadress eller några andra uppgifter som identifierar dig. Dina hälsouppgifter (injektionshistorik, vikt, blodsocker, biverkningar, dagbokposter) skickas aldrig till Firebase.</p>
       <p>Notiser: påminnelser är lokala notiser som enhetens operativsystem schemalägger. Appen använder ingen push-tjänst och skickar ingen push-token någonstans.</p>
       <p>Appen använder Metas (Facebooks) SDK i ett enda syfte: att mäta om en installation kommer från någon av våra annonser. På iOS frågar Appen först om din tillåtelse via Apples App Tracking Transparency. Säger du nej, eller svarar inte alls, samlas ingen annonsidentifierare (IDFA) in och Meta får bara Apples aggregerade SKAdNetwork-signal, som värnar din integritet. Säger du ja delas enhetens annonsidentifierare med Meta så att installationen kan kopplas till annonsen du såg. Det som skickas begränsas till signaler om installation och appöppning; dina hälsouppgifter (läkemedel, doser, injektioner, vikt, blodsocker, biverkningar, anteckningar) skickas aldrig till Meta. Du kan ändra ditt svar när som helst under Inställningar på iPhone → Integritet och säkerhet → Spårning.</p>
-      <p>Appen använder RevenueCat för att hantera prenumerationer. RevenueCat tar emot en anonym användaridentifierare och status för ditt köp; betalningarna hanteras av Apple eller Google, och vi ser aldrig dina betaluppgifter.</p>
+      <p>Appen använder RevenueCat för att hantera prenumerationer. RevenueCat tar emot en anonym användaridentifierare och status för ditt köp; betalningarna hanteras av Apple, och vi ser aldrig dina betaluppgifter.</p>
       <p>AI-analys av måltidsfoton (valfritt; den första analysen är gratis, fler kräver Premium): fotot du väljer skickas krypterat, via vår server, till Google Gemini (Google LLC) för att uppskatta kalorier och protein; uppskattningen kommer tillbaka till din enhet så att du kan granska den. Fotot används bara för denna analys; det sparas inte och används aldrig för reklam. Vår server sparar bara ett anonymt antal analyser för gratisgränsen. Innan det första fotot skickas namnger Appen Google Gemini och ber om ditt uttryckliga tillstånd; du kan återkalla det när som helst under Inställningar → Integritet, och ”Radera mina data” återställer det. Om du aldrig använder funktionen lämnar inget foto din enhet.</p>
-      <p>Den här webbplatsen (dozify.app), skild från Appen, laddar en konverteringstagg från Google Ads. Den registrerar en enda sak: att en besökare klickade på en knapp för App Store eller Google Play, och på vilken sida. Den är inställd enbart för mätning: annonsanpassning och Google-signaler är avstängda, så ditt besök läggs inte till någon intresseprofil för annonser, och ingen hälsoinformation som du läser eller skriver in här skickas till Google. Appen själv använder inte den här taggen.</p>
+      <p>Den här webbplatsen (dozify.app), skild från Appen, laddar en konverteringstagg från Google Ads. Den registrerar en enda sak: att en besökare klickade på en knapp för App Store, och på vilken sida. Den är inställd enbart för mätning: annonsanpassning och Google-signaler är avstängda, så ditt besök läggs inte till någon intresseprofil för annonser, och ingen hälsoinformation som du läser eller skriver in här skickas till Google. Appen själv använder inte den här taggen.</p>
       <h2>6. Barns integritet</h2>
-      <p>Dozify är inte till för små barn: våra användarvillkor kräver att du har fyllt 13 år, och Appen ber dig bekräfta att du har fyllt 13 år innan du kan använda den. Vi samlar inte medvetet in uppgifter om någon under 13 år. I Sverige kan du själv lämna samtycke till behandling av hälsouppgifter först från 13 års ålder, men i flera andra länder går gränsen högre — 16 år i Tyskland och Nederländerna, 15 i Frankrike. Är du under gränsen där du bor, använd Appen bara med samtycke från en vårdnadshavare. Oavsett vilket stannar dina uppgifter på din enhet: inga personuppgifter skickas till oss, och raderar du Appen försvinner allt som sparats lokalt.</p>
+      <p>Dozify är inte till för små barn: våra användarvillkor kräver att du har fyllt 13 år, och Appen ber dig bekräfta att du har fyllt 13 år innan du kan använda den. Vi samlar inte medvetet in uppgifter om någon under 13 år. I Sverige kan du själv lämna samtycke till behandling av hälsouppgifter först från 13 års ålder, men i flera andra länder går gränsen högre — 16 år i Tyskland och Nederländerna, 15 i Frankrike. Är du under gränsen där du bor, använd Appen bara med samtycke från en vårdnadshavare. Oavsett vilket stannar dina uppgifter på din enhet: inga personuppgifter skickas till oss, och raderar du Appen försvinner uppgifterna på den här telefonen.</p>
       <h2>7. Dina rättigheter</h2>
       <p>Eftersom vi varken samlar in eller lagrar dina uppgifter på våra servrar utövar du rätten till tillgång, radering och dataportabilitet direkt i Appen:</p>
       <ul>
         <li>Tillgång: alla dina uppgifter är synliga för dig inne i Appen.</li>
         <li>Dataportabilitet: du kan när som helst skapa PDF-rapporter med dina uppgifter.</li>
-        <li>Radering: under Inställningar → Radera mina uppgifter kan du ta bort delar eller allt. Avinstallerar du Appen försvinner också alla lokala uppgifter.</li>
+        <li>Radering: under Inställningar → Radera mina uppgifter kan du ta bort delar eller allt. Avinstallerar du Appen försvinner också uppgifterna på den här telefonen.</li>
       </ul>
       <p>Den som bor i EU eller Storbritannien har rättigheterna enligt GDPR, och den som bor i Turkiet rättigheterna enligt den turkiska lagen KVKK (lag nr 6698).</p>
       <h2>8. Medicinsk information</h2>
       <p>Dozify är ingen medicinteknisk produkt och ger varken medicinsk rådgivning, diagnos eller behandling. Informationen i Appen är enbart till för din egen uppföljning. Rådgör alltid med din läkare eller annan legitimerad vårdpersonal innan du fattar beslut om din behandling.</p>
       <h2>9. Säkerhet</h2>
-      <p>De lokala uppgifterna ligger i det skyddade utrymme som enheten reserverar för appen. Vi rekommenderar att du slår på en kod, biometriskt lås och full kryptering av lagringen (på dagens iOS- och Android-enheter är den påslagen som standard).</p>
+      <p>De lokala uppgifterna ligger i det skyddade utrymme som enheten reserverar för appen. Vi rekommenderar att du slår på en kod, biometriskt lås och full kryptering av lagringen (på dagens iOS-enheter är den påslagen som standard).</p>
       <h2>10. Ändringar i policyn</h2>
       <p>Vi kan komma att uppdatera den här integritetspolicyn då och då. Viktiga ändringar syns på uppdateringsdatumet ovan. Fortsätter du använda Appen efter en ändring godtar du den uppdaterade policyn.</p>
       <h2>11. Kontakt</h2>

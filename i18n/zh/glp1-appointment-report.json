@@ -5,12 +5,10 @@
  },
  "t": {
   "Walk in with a summary, not a memory": "带着摘要去就诊，而不是靠记忆",
-  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "轻点一下，就能把你自己三个月的记录变成一页医生在短短十分钟内就能看懂的报告。",
   "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "就诊时间很短，要讲的内容却很多：你用了什么药、什么时候用的，体重如何变化，出现了哪些副作用、在什么时间点，还有你本想问的那两个问题。",
   "A clinical summary, generated on the device": "在设备上生成的临床摘要",
   "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "剂量和间隔、体重趋势、副作用、注射部位轮换、开封的药瓶：可选 30、90 或 180 天。",
   "Your questions, printed at the end": "你的问题，打印在最后",
-  "Write them down as they occur to you during the month. They come out on the last page.": "在这个月里想到问题时随手写下来。它们会出现在最后一页。",
   "Yours to share, or not": "分享与否，由你决定",
   "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDF 在你的手机上生成。不上传任何内容；它是否发往任何地方，由你决定。",
   "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "适合复诊时间短、却有很长一段时间需要描述的人，以及换了一位从未看过自己病史的新医生的人。也适合剂量调整正在讨论之中的那次复诊，因为过去八周发生的事，正是这个决定所依据的内容。",
@@ -27,6 +25,9 @@
   "Is anything uploaded to make it?": "生成报告需要上传什么吗？",
   "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "不需要。它在设备上根据已有的记录生成。生成过程中不会向任何地方发送任何内容。",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "注明出处的指南：<a href=\"/en/articles/glp1-side-effects\">应对常见副作用</a>、<a href=\"/en/articles/what-is-glp1\">GLP-1 到底是什么</a>、<a href=\"/en/articles/glp1-injection-sites\">在哪里注射以及如何轮换</a>以及<a href=\"/en/articles/glp1-appointment-checklist\">复诊本身需要准备什么</a>。",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Dozify 的其他功能：<a href=\"/en/glp1-side-effect-journal\">副作用日记</a>和<a href=\"/en/glp1-weight-tracker\">体重趋势</a>。"
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Dozify 的其他功能：<a href=\"/en/glp1-side-effect-journal\">副作用日记</a>和<a href=\"/en/glp1-weight-tracker\">体重趋势</a>。",
+  "A few taps turn three months of your own records into a page your doctor can read in the ten minutes you have.": "轻点几下，就能把你自己三个月的记录变成一页医生在短短十分钟内就能看懂的报告。",
+  "The summary PDF is free twice a month; the doctor-visit report is Premium.": "摘要 PDF 每月可免费生成两次；就诊报告属于 Premium。",
+  "Add your questions when you build the report. They are printed at the end.": "在生成报告时添加你的问题。它们会打印在最后。"
  }
 }

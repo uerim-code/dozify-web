@@ -21,16 +21,13 @@
   "<strong>Time</strong>": "<strong>Ώρα</strong>",
   "<strong>Weight</strong>": "<strong>Βάρος</strong>",
   "Articles": "Άρθρα",
-  "By Ümit Can Erim · Published 18 August 2026 · Updated 18 August 2026 · Sources checked 18 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Από τον Ümit Can Erim · Δημοσίευση 18 Αυγούστου 2026 · Ενημέρωση 18 Αυγούστου 2026 · Έλεγχος πηγών 18 Αυγούστου 2026 · <a href=\"/en/editorial-policy\">Πώς γράφονται αυτοί οι οδηγοί</a>",
   "By Ümit Can Erim · Published 19 August 2026 · Updated 19 August 2026 · Sources checked 19 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Από τον Ümit Can Erim · Δημοσίευση 19 Αυγούστου 2026 · Ενημέρωση 19 Αυγούστου 2026 · Έλεγχος πηγών 19 Αυγούστου 2026 · <a href=\"/en/editorial-policy\">Πώς γράφονται αυτοί οι οδηγοί</a>",
   "By Ümit Can Erim · Published 20 August 2026 · Updated 20 August 2026 · Sources checked 20 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Από τον Ümit Can Erim · Δημοσίευση 20 Αυγούστου 2026 · Ενημέρωση 20 Αυγούστου 2026 · Έλεγχος πηγών 20 Αυγούστου 2026 · <a href=\"/en/editorial-policy\">Πώς γράφονται αυτοί οι οδηγοί</a>",
   "By Ümit Can Erim · Published 9 October 2026 · Updated 9 October 2026 · Sources checked 9 October 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Από τον Ümit Can Erim · Δημοσίευση 9 Οκτωβρίου 2026 · Ενημέρωση 9 Οκτωβρίου 2026 · Έλεγχος πηγών 9 Οκτωβρίου 2026 · <a href=\"/en/editorial-policy\">Πώς γράφονται αυτοί οι οδηγοί</a>",
   "Doctor report": "Αναφορά για τον γιατρό",
   "Download the app": "Κατεβάστε την εφαρμογή",
   "Dozify": "Dozify",
-  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders: fully offline, with your data staying on your device.": "Το Dozify σάς βοηθά να καταγράφετε τις ενέσεις GLP-1, να εναλλάσσετε τα σημεία ένεσης, να σημειώνετε το βάρος σας και να λαμβάνετε υπενθυμίσεις: εντελώς offline, με τα δεδομένα σας να μένουν στη συσκευή σας.",
   "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Το Dozify είναι εργαλείο καταγραφής, όχι ιατροτεχνολογικό προϊόν. Δεν προτείνει δόσεις και δεν παρέχει ιατρικές συμβουλές. Τα Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® και Rybelsus® είναι εμπορικά σήματα των αντίστοιχων κατόχων τους· το Dozify δεν συνδέεται με αυτές τις εταιρείες.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Το Dozify σάς το λέει, αντί να εισαγάγει σιωπηλά μηδέν γραμμές. Οποιοδήποτε CSV με στήλη ημερομηνίας μπορεί να διαβαστεί. Αν το δικό σας δεν διαβάζεται, στείλτε το από Ρυθμίσεις → «Πρότεινε μια λειτουργία» και η μορφή θα προστεθεί: ένα αρχείο που δεν μπορούμε να διαβάσουμε είναι δικό μας κενό, όχι δικό σας.",
   "Editorial policy": "Πολιτική σύνταξης",
   "Features": "Λειτουργίες",
   "Field": "Πεδίο",
@@ -48,7 +45,6 @@
   "Months of injections, weigh-ins and side effects are the reason people stay in an app they have stopped liking. Nobody retypes a year of shots, so the record becomes the lock. Moving it across is the only part that matters.": "Μήνες ενέσεων, ζυγισμάτων και παρενεργειών είναι ο λόγος που οι άνθρωποι μένουν σε μια εφαρμογή που δεν τους αρέσει πια. Κανείς δεν ξαναπληκτρολογεί έναν χρόνο ενέσεων, οπότε το ιστορικό γίνεται η κλειδαριά. Η μεταφορά του είναι το μόνο που μετράει.",
   "New in Dozify: snap a meal and the app drafts calories and protein per item for you to edit — <a href=\"/en/ai-calorie-tracker\">AI calorie tracking</a> (Premium) — and daily GLP-1 tablets have their own <a href=\"/en/glp1-pill-tracker\">pill tracker</a>.": "Νέο στο Dozify: φωτογραφίστε ένα γεύμα και η εφαρμογή ετοιμάζει ένα προσχέδιο με θερμίδες και πρωτεΐνη ανά τρόφιμο, που μπορείτε να διορθώσετε — <a href=\"/en/ai-calorie-tracker\">καταμέτρηση θερμίδων με AI</a> (Premium) — και τα καθημερινά δισκία GLP-1 έχουν πλέον τη δική τους <a href=\"/en/glp1-pill-tracker\">καταγραφή χαπιών</a>.",
   "Nothing is written until you say so": "Τίποτα δεν αποθηκεύεται μέχρι να το πείτε εσείς",
-  "Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.": "Ανοίξτε το αρχείο που εξαγάγατε και συγκρίνετε τη γραμμή κεφαλίδων. Το Dozify αντιστοιχίζει μια στήλη με οποιοδήποτε από αυτά τα ονόματα και δεν το επηρεάζουν τα κεφαλαία ή μια μονάδα σε παρένθεση. Ό,τι δεν μπορεί να τοποθετήσει εμφανίζεται ονομαστικά στην οθόνη προεπισκόπησης, ώστε να βλέπετε τι έμεινε έξω αντί να αναρωτιέστε.",
   "Privacy": "Απόρρητο",
   "Privacy Policy": "Πολιτική απορρήτου",
   "Private GLP-1 tracker": "Ιδιωτική καταγραφή GLP-1",
@@ -77,6 +73,8 @@
   "privacy@dozify.app": "privacy@dozify.app",
   "support@dozify.app": "support@dozify.app",
   "© 2026 UCE": "© 2026 UCE",
-  "See the GLP-1 dosage chart →": "Δείτε τον πίνακα δόσεων GLP-1 →"
+  "See the GLP-1 dosage chart →": "Δείτε τον πίνακα δόσεων GLP-1 →",
+  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Το Dozify σάς βοηθά να καταγράφετε τις ενέσεις GLP-1, να εναλλάσσετε τα σημεία ένεσης, να σημειώνετε το βάρος σας και να λαμβάνετε υπενθυμίσεις· όλα αυτά λειτουργούν offline, με τις καταγραφές σας αποθηκευμένες στη συσκευή σας.",
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Το Dozify σάς το λέει, αντί να εισαγάγει σιωπηλά μηδέν γραμμές. Οποιοδήποτε CSV με στήλη ημερομηνίας και στήλη βάρους, δόσης ή συμπτώματος μπορεί να διαβαστεί. Αν το δικό σας δεν διαβάζεται, στείλτε το από Ρυθμίσεις → «Πρότεινε μια λειτουργία» και η μορφή θα προστεθεί: ένα αρχείο που δεν μπορούμε να διαβάσουμε είναι δικό μας κενό, όχι δικό σας."
  }
 }

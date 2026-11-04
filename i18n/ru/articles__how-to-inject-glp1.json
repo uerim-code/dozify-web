@@ -55,9 +55,9 @@
   "Sources": "Источники",
   "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>": "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>",
   "Log every injection with Dozify": "Записывайте каждый укол в Dozify",
-  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due: all offline, on your device.": "Dozify записывает дату, дозу и место каждого укола, подсказывает следующее место по очереди и напоминает, когда пора следующая доза, — всё офлайн, на вашем устройстве.",
   "See how injection logging works →": "Как работает журнал уколов →",
   "And if a dose is late →": "А если доза опаздывает →",
-  "And where the pen lives between doses →": "А где хранить ручку между дозами →"
+  "And where the pen lives between doses →": "А где хранить ручку между дозами →",
+  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due; all of this works offline, on your device.": "Dozify записывает дату, дозу и место каждого укола, подсказывает следующее место по очереди и напоминает, когда пора следующая доза; всё это работает офлайн, на вашем устройстве."
  }
 }

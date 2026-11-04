@@ -55,9 +55,9 @@
   "Sources": "Źródła",
   "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>": "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>",
   "Log every injection with Dozify": "Zapisuj każde wstrzyknięcie z Dozify",
-  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due: all offline, on your device.": "Dozify zapisuje datę, dawkę i miejsce każdego wstrzyknięcia, podpowiada następne miejsce w rotacji i przypomina o kolejnej dawce: wszystko offline, na Twoim urządzeniu.",
   "See how injection logging works →": "Zobacz, jak działa zapisywanie wstrzyknięć →",
   "And if a dose is late →": "A jeśli dawka się spóźni →",
-  "And where the pen lives between doses →": "A gdzie przechowywać wstrzykiwacz między dawkami →"
+  "And where the pen lives between doses →": "A gdzie przechowywać wstrzykiwacz między dawkami →",
+  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due; all of this works offline, on your device.": "Dozify zapisuje datę, dawkę i miejsce każdego wstrzyknięcia, podpowiada następne miejsce w rotacji i przypomina o kolejnej dawce; wszystko to działa offline, na Twoim urządzeniu."
  }
 }

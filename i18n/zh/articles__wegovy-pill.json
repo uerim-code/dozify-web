@@ -55,7 +55,6 @@
   "<a href=\"/en/articles/missed-glp1-dose\">Missed a GLP-1 dose? What each leaflet says</a>": "<a href=\"/en/articles/missed-glp1-dose\">漏打了一剂 GLP-1？各说明书怎么说</a>",
   "<a href=\"/en/articles/what-is-glp1\">What is GLP-1?</a>": "<a href=\"/en/articles/what-is-glp1\">什么是 GLP-1？</a>",
   "<a href=\"/en/articles/protein-on-glp1\">How much protein on a GLP-1, and how to reach it</a>": "<a href=\"/en/articles/protein-on-glp1\">使用 GLP-1 期间需要多少蛋白质，以及如何达到</a>",
-  "A daily tablet, logged in one tap": "每日片剂，一键记录",
   "Daily doses, the step you are on and the date each one started, on your phone. Dozify records what you and your prescriber decided; it never proposes a dose.": "每日剂量、你所处的阶段以及每个阶段的开始日期，都在你的手机上。Dozify 记录你和处方医生的决定；它从不提出剂量。",
   "See how pill tracking works →": "了解口服药记录如何运作 →",
   "Can I take the Wegovy® pill with coffee?": "可以用咖啡送服 Wegovy® 口服片吗？",
@@ -72,6 +71,7 @@
   "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Wegovy (semaglutide) injection and tablets: US prescribing information and Medication Guide</a>": "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Wegovy (semaglutide) injection and tablets: US prescribing information and Medication Guide</a>",
   "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Ozempic tablets and Rybelsus (oral semaglutide): US prescribing information</a>": "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Ozempic tablets and Rybelsus (oral semaglutide): US prescribing information</a>",
   "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Foundayo (orforglipron) tablets: US prescribing information</a>": "<a href=\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62\" rel=\"nofollow noopener\" target=\"_blank\">DailyMed (NLM). Foundayo (orforglipron) tablets: US prescribing information</a>",
-  "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 dosage chart: the titration steps each label lists</a>": "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 剂量表：各说明书列出的滴定阶梯</a>"
+  "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 dosage chart: the titration steps each label lists</a>": "<a href=\"/en/articles/glp1-dose-schedule\">GLP-1 剂量表：各说明书列出的滴定阶梯</a>",
+  "A daily tablet, logged in a few taps": "每日片剂，轻点几下就能记录"
  }
 }

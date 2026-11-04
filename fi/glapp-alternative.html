@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Glapp-vaihtoehto – tuo GLP-1-historiasi mukanasi</title>
-  <meta name="description" content="Luovutko Glapp-sovelluksesta? Dozify lukee viennin, näyttää jokaisen merkinnän ennen tallennusta ja kertoo, mitä sarakkeita se ei sijoittanut. Ilmainen.">
+  <meta name="description" content="Luovutko Glappista? Jos saat tiedoistasi CSV-tiedoston, Dozify osaa lukea sen, näyttää määrät ensin ja nimeää sijoittamatta jääneet sarakkeet. Ilmainen, ei latausta.">
   <meta property="og:url" content="https://dozify.app/fi/glapp-alternative">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="Glapp-vaihtoehto – tuo GLP-1-historiasi mukanasi">
-  <meta property="og:description" content="Luovutko Glapp-sovelluksesta? Dozify lukee viennin, näyttää jokaisen merkinnän ennen tallennusta ja kertoo, mitä sarakkeita se ei sijoittanut. Ilmainen.">
+  <meta property="og:description" content="Luovutko Glappista? Jos saat tiedoistasi CSV-tiedoston, Dozify osaa lukea sen, näyttää määrät ensin ja nimeää sijoittamatta jääneet sarakkeet. Ilmainen, ei latausta.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — yksityinen GLP-1-pistos- ja painonseuranta iPhonelle">
   <meta name="twitter:title" content="Glapp-vaihtoehto – tuo GLP-1-historiasi mukanasi">
-  <meta name="twitter:description" content="Luovutko Glapp-sovelluksesta? Dozify lukee viennin, näyttää jokaisen merkinnän ennen tallennusta ja kertoo, mitä sarakkeita se ei sijoittanut. Ilmainen.">
+  <meta name="twitter:description" content="Luovutko Glappista? Jos saat tiedoistasi CSV-tiedoston, Dozify osaa lukea sen, näyttää määrät ensin ja nimeää sijoittamatta jääneet sarakkeet. Ilmainen, ei latausta.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — yksityinen GLP-1-pistos- ja painonseuranta iPhonelle">
   <meta name="theme-color" content="#0D9488">
@@ -96,7 +96,7 @@
         "@id": "https://dozify.app/fi/glapp-alternative#webpage",
         "url": "https://dozify.app/fi/glapp-alternative",
         "name": "Glapp-vaihtoehto – tuo GLP-1-historiasi mukanasi",
-        "description": "Luovutko Glapp-sovelluksesta? Dozify lukee viennin, näyttää jokaisen merkinnän ennen tallennusta ja kertoo, mitä sarakkeita se ei sijoittanut. Ilmainen.",
+        "description": "Luovutko Glappista? Jos saat tiedoistasi CSV-tiedoston, Dozify osaa lukea sen, näyttää määrät ensin ja nimeää sijoittamatta jääneet sarakkeet. Ilmainen, ei latausta.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -158,7 +158,7 @@
     </div>
     <h1>Siirrytkö Glapp-sovelluksesta? Tuo historia mukanasi</h1>
     
-    <p class="meta">Vie tiedot Glapp-sovelluksesta, avaa ne Dozifyssa ja näe jokainen tallennettava merkintä ennen kuin yhtäkään tallennetaan. Ilmaista, eikä tiedosto koskaan poistu puhelimestasi.</p>
+    <p class="meta">Jos saat Glapp-tiedoistasi CSV-tiedoston, Dozify osaa lukea sen. Näet, montako merkintää se löysi ja mitkä sarakkeet se luki, ennen kuin mitään tallennetaan. Ilmaista, eikä Dozify lataa tiedostoa palvelimelle.</p>
     
 
     <h2>Miksi historia on vaikein osa</h2>
@@ -166,8 +166,8 @@
     
     
 
-    <h2>Sarakkeet, joita Dozify etsii Glapp-viennistä</h2>
-    <p>Avaa viemäsi tiedosto ja vertaa otsikkoriviä. Dozify tunnistaa sarakkeen millä tahansa näistä nimistä, eikä isoilla kirjaimilla tai sulkeissa olevalla yksiköllä ole väliä. Kaikki, mitä se ei osaa sijoittaa, näytetään nimeltä esikatselunäkymässä, joten näet, mitä jäi pois, eikä sinun tarvitse arvailla.</p>
+    <h2>Sarakkeet, joita Dozify etsii Glapp-CSV-tiedostosta</h2>
+    <p>Kaikkia muotoja ei ole testattu oikealla viennillä; esikatselu näyttää, mitä luettiin, ennen kuin mitään tallennetaan. Avaa CSV-tiedostosi ja vertaa otsikkoriviä. Dozify tunnistaa sarakkeen millä tahansa näistä nimistä, eikä isoilla kirjaimilla tai sulkeissa olevalla yksiköllä ole väliä. Kaikki, mitä se ei osaa sijoittaa, näytetään nimeltä esikatselunäkymässä, joten näet, mitä jäi pois, eikä sinun tarvitse arvailla.</p>
     <table class="compare">
       <thead><tr><th>Kenttä</th><th>Hyväksytyt sarakeotsikot</th></tr></thead>
       <tbody>
@@ -191,7 +191,7 @@
     
 
     <h2>Jos annossarakkeen otsikko on ”units”</h2>
-    <p>Nuo rivit luetellaan sinulle sen sijaan, että ne muunnettaisiin. Yksikkö on tilavuus ruiskussa, ja se, montako milligrammaa siinä on, riippuu injektiopullosi pitoisuudesta — luvusta, jota tiedosto ei sisällä. Niiden kirjoittaminen milligrammakenttään kirjaisi väärän annoksen ilman, että mikään myöhemmin kyseenalaistaisi sitä, joten Dozify näyttää ne ja antaa sinun syöttää lääkärisi käyttämän määrän. <a href="/fi/articles/units-vs-milligrams">Miksi yhtä muuntokerrointa ei ole →</a></p>
+    <p>Nuo rivit luetellaan sinulle sen sijaan, että ne muunnettaisiin. Yksikkö on tilavuus ruiskussa, ja se, montako milligrammaa siinä on, riippuu injektiopullosi pitoisuudesta — luvusta, jota tiedosto ei sisällä. Niiden kirjoittaminen milligrammakenttään kirjaisi väärän annoksen ilman, että mikään myöhemmin kyseenalaistaisi sitä, joten Dozify luettelee ne ohitettuina; voit kirjata nämä annokset käsin lääkärisi käyttämänä määränä. <a href="/fi/articles/units-vs-milligrams">Miksi yhtä muuntokerrointa ei ole →</a></p>
     
     
 
@@ -205,11 +205,11 @@
     
 
     <h2>Jos tiedostoa ei tunnisteta</h2>
-    <p>Dozify kertoo sen sen sijaan, että toisi hiljaa nolla riviä. Mikä tahansa CSV-tiedosto, jossa on päivämääräsarake, voidaan lukea. Jos omasi ei toimi, lähetä se kohdasta Asetukset → Ehdota ominaisuutta, niin muoto lisätään: tiedosto, jota emme osaa lukea, on meidän puutteemme, ei sinun.</p>
+    <p>Dozify kertoo sen sen sijaan, että toisi hiljaa nolla riviä. Mikä tahansa CSV-tiedosto, jossa on päivämääräsarake ja paino-, annos- tai oiresarake, voidaan lukea. Jos omasi ei toimi, lähetä se kohdasta Asetukset → Ehdota ominaisuutta, niin muoto lisätään: tiedosto, jota emme osaa lukea, on meidän puutteemme, ei sinun.</p>
     
     
 
-    <p class="meta">Dozify on seurantatyökalu, ei lääkinnällinen laite. Se ei suosittele annoksia eikä anna lääketieteellisiä neuvoja. Glapp on omistajansa tavaramerkki, ja se mainitaan tässä vain kuvaamaan tiedostomuotoa, jonka Dozify osaa lukea; Dozify ei ole sidoksissa Glapp-sovellukseen, eikä sen omistaja ole hyväksynyt tätä sivua. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® ja Rybelsus® ovat omistajiensa tavaramerkkejä; Dozify ei ole sidoksissa näihin yrityksiin.</p>
+    <p class="meta">Dozify on seurantatyökalu, ei lääkinnällinen laite. Se ei suosittele annoksia eikä anna lääketieteellisiä neuvoja. Glapp on omistajansa tavaramerkki, ja se mainitaan tässä vain sen sovelluksen tunnistamiseksi, josta tietosi voivat olla peräisin; Dozify ei ole sidoksissa Glapp-sovellukseen, eikä sen omistaja ole hyväksynyt tätä sivua. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® ja Rybelsus® ovat omistajiensa tavaramerkkejä; Dozify ei ole sidoksissa näihin yrityksiin.</p>
     
 
     <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-fi&mt=8" class="btn btn-primary">Lataa App Storesta</a></p>

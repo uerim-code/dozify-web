@@ -5,12 +5,10 @@
  },
  "t": {
   "Walk in with a summary, not a memory": "기억이 아니라 요약본을 들고 진료실에 들어가세요",
-  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "탭 한 번으로 석 달 치 내 기록이 주어진 10분 안에 의사가 읽을 수 있는 한 페이지가 돼요.",
   "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "진료는 짧은데 다룰 건 많아요: 무엇을 언제 투여했는지, 체중이 어떻게 변했는지, 어떤 부작용이 언제 있었는지, 그리고 물어보려던 질문 두 가지.",
   "A clinical summary, generated on the device": "기기에서 만들어지는 임상 요약",
   "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "투여와 간격, 체중 추세, 부작용, 부위 순환, 개봉한 바이알: 30일, 90일, 180일 단위로.",
   "Your questions, printed at the end": "마지막에 인쇄되는 내 질문",
-  "Write them down as they occur to you during the month. They come out on the last page.": "한 달 동안 떠오를 때마다 적어 두세요. 마지막 페이지에 나와요.",
   "Yours to share, or not": "공유할지는 내가 결정해요",
   "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDF는 휴대폰에서 만들어져요. 아무것도 업로드되지 않고, 어디로 보낼지는 내가 정해요.",
   "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "짧은 추적 진료에서 긴 기간을 설명해야 하는 분, 내 기록을 본 적 없는 새 의료진으로 옮기는 분을 위해서예요. 용량 변경이 논의되는 진료를 위한 것이기도 해요. 그 결정은 바로 지난 8주 동안 있었던 일에 달려 있으니까요.",
@@ -27,6 +25,9 @@
   "Is anything uploaded to make it?": "리포트를 만들려고 업로드되는 게 있나요?",
   "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "아니요. 이미 기기에 있는 기록으로 기기 안에서 만들어져요. 리포트를 만들려고 어디로도 전송되지 않아요.",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "출처를 밝힌 가이드: <a href=\"/en/articles/glp1-side-effects\">흔한 부작용 관리하기</a>, <a href=\"/en/articles/what-is-glp1\">GLP-1이란 무엇인가</a>, <a href=\"/en/articles/glp1-injection-sites\">어디에 주사하고 어떻게 순환할까</a>, <a href=\"/en/articles/glp1-appointment-checklist\">진료 당일 준비할 것</a>.",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Dozify의 다른 기능: <a href=\"/en/glp1-side-effect-journal\">부작용 일지</a>와 <a href=\"/en/glp1-weight-tracker\">체중 추세</a>."
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Dozify의 다른 기능: <a href=\"/en/glp1-side-effect-journal\">부작용 일지</a>와 <a href=\"/en/glp1-weight-tracker\">체중 추세</a>.",
+  "A few taps turn three months of your own records into a page your doctor can read in the ten minutes you have.": "몇 번의 탭으로 석 달 치 내 기록이 주어진 10분 안에 의사가 읽을 수 있는 한 페이지가 돼요.",
+  "The summary PDF is free twice a month; the doctor-visit report is Premium.": "요약 PDF는 한 달에 두 번 무료이고, 진료용 리포트는 Premium이에요.",
+  "Add your questions when you build the report. They are printed at the end.": "리포트를 만들 때 질문을 추가하세요. 마지막에 인쇄돼요."
  }
 }

@@ -5,12 +5,10 @@
  },
  "t": {
   "Walk in with a summary, not a memory": "Приходьте з підсумком, а не зі спогадами",
-  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Один дотик перетворює три місяці ваших власних записів на сторінку, яку лікар зможе прочитати за ті десять хвилин, що у вас є.",
   "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Прийом короткий, а охопити треба багато: що ви приймали і коли, як змінювалася вага, які побічні ефекти і в який момент, і два запитання, які ви хотіли поставити.",
   "A clinical summary, generated on the device": "Клінічний підсумок, створений на пристрої",
   "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Дози й інтервали, тренд ваги, побічні ефекти, чергування місць, відкриті флакони: за 30, 90 або 180 днів.",
   "Your questions, printed at the end": "Ваші запитання — надруковані в кінці",
-  "Write them down as they occur to you during the month. They come out on the last page.": "Записуйте їх протягом місяця, щойно вони спадають на думку. Вони з’являться на останній сторінці.",
   "Yours to share, or not": "Ділитися чи ні — вирішуєте ви",
   "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDF створюється на вашому телефоні. Нічого не завантажується на сервер; куди він піде, вирішуєте ви.",
   "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Для людей із коротким контрольним прийомом і довгим періодом, який треба описати, а також для тих, хто переходить до нового лікаря, який ніколи не бачив їхньої історії. І для прийому, на якому обговорюватимуть зміну дози, коли рішення ґрунтується саме на тому, що відбувалося останні вісім тижнів.",
@@ -27,6 +25,9 @@
   "Is anything uploaded to make it?": "Чи завантажується щось на сервер для його створення?",
   "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Ні. Він створюється на пристрої із записів, які вже там є. Для його створення нічого нікуди не надсилається.",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Посібники з указаними джерелами: <a href=\"/en/articles/glp1-side-effects\">як упоратися з поширеними побічними ефектами</a>, <a href=\"/en/articles/what-is-glp1\">що насправді таке GLP-1</a> і <a href=\"/en/articles/glp1-injection-sites\">куди колоти і як чергувати місця</a>, а також <a href=\"/en/articles/glp1-appointment-checklist\">що підготувати до самого прийому</a>.",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Інше в Dozify: <a href=\"/en/glp1-side-effect-journal\">щоденник побічних ефектів</a> і <a href=\"/en/glp1-weight-tracker\">тренд ваги</a>."
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Інше в Dozify: <a href=\"/en/glp1-side-effect-journal\">щоденник побічних ефектів</a> і <a href=\"/en/glp1-weight-tracker\">тренд ваги</a>.",
+  "A few taps turn three months of your own records into a page your doctor can read in the ten minutes you have.": "Кілька дотиків перетворюють три місяці ваших власних записів на сторінку, яку лікар зможе прочитати за ті десять хвилин, що у вас є.",
+  "The summary PDF is free twice a month; the doctor-visit report is Premium.": "Підсумковий PDF безкоштовний двічі на місяць; звіт до візиту лікаря входить до Premium.",
+  "Add your questions when you build the report. They are printed at the end.": "Додайте свої запитання під час створення звіту. Вони будуть надруковані наприкінці."
  }
 }

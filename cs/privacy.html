@@ -48,7 +48,7 @@
 
   <main class="wrap">
       <h1>Zásady ochrany soukromí</h1>
-      <p class="meta">Poslední aktualizace: 2. listopadu 2026 · Účinnost: 2. listopadu 2026</p>
+      <p class="meta">Poslední aktualizace: 5. listopadu 2026 · Účinnost: 2. listopadu 2026</p>
       <h2>1. Úvod</h2>
       <p>Dozify („my“) je aplikace pro sledování léků, která má pomoct lidem s GLP-1 léčbou, jako je Ozempic, Mounjaro, Wegovy, Saxenda a podobné přípravky. Tyhle zásady ochrany soukromí vysvětlují, jak nakládáme s informacemi, když používáš mobilní aplikaci Dozify („Aplikace“).</p>
       <p>Dozify funguje především offline. Zdravotní údaje, které zadáváš, se neshromažďují, nepřenášejí ani neukládají na naše servery a nemůžeme je vidět; zůstávají v tvém zařízení. Jedinou výjimkou je fotka jídla, kterou sám odešleš k volitelné analýze AI (oddíl 5). Aplikace také používá několik služeb třetích stran pro anonymní statistiky používání, měření instalací z reklam a předplatné; oddíl 5 přesně uvádí, co každá z nich dostává.</p>
@@ -63,7 +63,7 @@
       <p>Aplikace dostává anonymní identifikátory popsané v oddílu 5 (identifikátor instance analytiky a anonymní identifikátor uživatele pro předplatné). Existují jen proto, aby fungovaly anonymní statistiky a tvoje předplatné, nejsou spojené s tvým jménem ani e-mailem a nepoužívají se ke sledování v jiných aplikacích či na webech.</p>
       <p class="note">Tvoje zdravotní údaje se nikdy nepoužívají k reklamě. Nic z toho, co si zapíšeš (léky, dávky, injekce, váha, glykémie, nežádoucí účinky, poznámky, fotky), se nikdy nepoužije k cílení reklamy ani se nesdílí s reklamní sítí — ať už na výzvu ke sledování odpovíš jakkoli.</p>
       <h2>3. Data uložená lokálně ve tvém zařízení</h2>
-      <p>Aplikace ukládá následující informace jen ve tvém zařízení, do místní databáze SQLite a do šifrovaného systémového úložiště:</p>
+      <p>Aplikace ukládá následující informace jen ve tvém zařízení, do místní databáze v chráněném sandboxu aplikace:</p>
       <ul>
         <li>Léky, dávky a rozvrhy injekcí, které zadáš</li>
         <li>Historii injekcí a záznamy v deníku</li>
@@ -72,37 +72,36 @@
         <li>Nastavení oznámení a připomenutí</li>
         <li>Nastavení aplikace (jazyk, motiv, jednotky)</li>
       </ul>
-      <p>Tahle data nikdy neopustí tvoje zařízení, pokud je sám nevyexportuješ (například vytvořením PDF zprávy a jejím sdílením e-mailem nebo jinou aplikací podle tvé volby). Smazáním Aplikace se všechna data trvale odstraní.</p>
+      <p>Dozify tahle data nikdy nenahrává. Tvoje zařízení opustí, jen pokud je sám vyexportuješ (například vytvořením PDF zprávy a jejím sdílením e-mailem nebo jinou aplikací podle tvé volby) nebo pokud Aplikaci zahrnuje tvoje vlastní záloha iPhonu nebo iCloudu. Smažeš Aplikaci a záznamy v tomto telefonu zmizí s ní. Exportované soubory, cokoli, co jsi zapsal do Apple Health, a tvoje vlastní zálohy iPhonu jsou oddělené.</p>
       <p>Náhledy funkcí Premium, například odhadovaná hladina léku na zamčené obrazovce, se kreslí v tvém zařízení z těchto údajů; nic se kvůli nim neodesílá. Pokud sleduješ váhu a jídla bez léku, i tato volba se ukládá v tvém zařízení.</p>
       <h2>4. Oprávnění, o která žádáme</h2>
       <ul>
         <li>Oznámení: pro připomínky dávek a upozornění na expiraci lahviček. Plánují se v tvém zařízení; kdykoli je můžeš vypnout v nastavení zařízení.</li>
         <li>Fotoaparát a knihovna fotek (volitelné): jen když přikládáš fotku pokroku (zůstává v zařízení) nebo fotíš jídlo pro volitelnou analýzu AI (oddíl 5).</li>
-        <li>Apple Health (nepovinné): jen pokud si v Nastavení zapneš synchronizaci váhy. Dozify tvoji váhu čte a zapisuje, aby zůstala v souladu s tvými ostatními aplikacemi Health.</li>
-        <li>Úložiště (jen Android): kvůli uložení PDF zpráv, které vytvoříš.</li>
+        <li>Apple Health (nepovinné): jen kategorie, které zapneš. Dozify může číst hmotnost, procento tělesného tuku a menstruační krvácení; krvácení se používá jen v zařízení. Hmotnost zapisuje, jen pokud to zapneš zvlášť.</li>
       </ul>
       <p>Aplikace nežádá o přístup k mikrofonu, kontaktům ani k poloze. Fotoaparát, knihovna fotek a Apple Health jsou nepovinné a žádá se o ně až ve chvíli, kdy odpovídající funkci použiješ.</p>
       <h2>5. Služby třetích stran</h2>
       <p>Aplikace používá Firebase Analytics (Google Analytics for Firebase) ke sběru anonymních statistik používání, jako jsou zobrazení obrazovek, akce v aplikaci (např. které funkce se používají) a události konverze předplatného. Tahle data jsou navázaná na anonymní identifikátor instance aplikace, ne na tvoje jméno, e-mail nebo jiný osobní údaj. Tvoje zdravotní údaje (historie injekcí, váha, glykémie, nežádoucí účinky, záznamy v deníku) se do Firebase nikdy neposílají.</p>
       <p>Oznámení: připomínky jsou místní oznámení, která plánuje operační systém tvého zařízení. Aplikace nepoužívá žádnou službu push a nikam neodesílá push token.</p>
       <p>Aplikace používá Meta (Facebook) SDK za jediným účelem: změřit, jestli instalace aplikace přišla z některé z našich reklam. Na iOS tě Aplikace nejdřív požádá o svolení přes výzvu App Tracking Transparency od Applu. Pokud odmítneš nebo neodpovíš, nesbírá se žádný reklamní identifikátor (IDFA) a Meta dostane jen souhrnný signál SKAdNetwork od Applu, který chrání soukromí. Pokud to povolíš, reklamní identifikátor tvého zařízení se sdílí s Metou, aby šla instalace přiřadit k reklamě, kterou jsi viděl. Posílají se jen signály pro přiřazení instalace a otevření aplikace; tvoje zdravotní údaje (léky, dávky, injekce, váha, glykémie, nežádoucí účinky, poznámky) se Metě nikdy neposílají. Svou odpověď můžeš kdykoli změnit v iOS: Nastavení → Soukromí a zabezpečení → Sledování.</p>
-      <p>Aplikace používá ke správě předplatného RevenueCat. RevenueCat dostává anonymní ID uživatele a stav tvého nákupu; platby zpracovává Apple nebo Google a my tvoje platební údaje nikdy nevidíme.</p>
+      <p>Aplikace používá ke správě předplatného RevenueCat. RevenueCat dostává anonymní ID uživatele a stav tvého nákupu; platby zpracovává Apple a my tvoje platební údaje nikdy nevidíme.</p>
       <p>Analýza fotek jídla pomocí AI (volitelná; první analýza je zdarma, další vyžadují Premium): vybraná fotka se šifrovaně odešle přes náš server do Google Gemini (Google LLC) k odhadu kalorií a bílkovin; odhad se vrátí do tvého zařízení ke kontrole. Fotka se použije jen pro tuto analýzu; neukládá se a nikdy se nepoužívá k reklamě. Náš server uchovává jen anonymní počet analýz kvůli bezplatnému limitu. Před odesláním první fotky Aplikace uvede Google Gemini a požádá o tvůj výslovný souhlas; kdykoli ho můžeš odvolat v Nastavení → Soukromí a „Smazat moje data“ ho vynuluje. Pokud funkci nikdy nepoužiješ, žádná fotka tvé zařízení neopustí.</p>
-      <p>Tento web (dozify.app), oddělený od Aplikace, načítá konverzní značku Google Ads. Zaznamenává jedinou věc: že návštěvník klikl na tlačítko App Store nebo Google Play, a na které stránce. Je nastavená pouze pro měření: personalizace reklam a signály Google jsou vypnuté, takže tvoje návštěva se nepřidává do žádného reklamního profilu zájmů a žádné zdravotní informace, které tu čteš nebo zadáváš, se do Googlu neposílají. Samotná Aplikace tuto značku nepoužívá.</p>
+      <p>Tento web (dozify.app), oddělený od Aplikace, načítá konverzní značku Google Ads. Zaznamenává jedinou věc: že návštěvník klikl na tlačítko App Store, a na které stránce. Je nastavená pouze pro měření: personalizace reklam a signály Google jsou vypnuté, takže tvoje návštěva se nepřidává do žádného reklamního profilu zájmů a žádné zdravotní informace, které tu čteš nebo zadáváš, se do Googlu neposílají. Samotná Aplikace tuto značku nepoužívá.</p>
       <h2>6. Soukromí dětí</h2>
-      <p>Dozify není pro malé děti: naše podmínky služby vyžadují, aby ti bylo aspoň 13 let, a Aplikace tě před použitím požádá o potvrzení, že ti je aspoň 13 let. Vědomě nesbíráme žádná data od nikoho mladšího 13 let. V Česku můžeš sám dát souhlas se zpracováním osobních údajů až od 15 let; v jiných zemích je hranice jinde — 16 v Německu a Nizozemsku, 15 ve Francii, 14 ve Španělsku a Itálii. Pokud jsi mladší, než je tahle hranice tam, kde žiješ, používej Aplikaci jen se souhlasem rodiče nebo zákonného zástupce. V každém případě tvoje záznamy zůstávají ve tvém zařízení: žádné osobní údaje se k nám nepřenášejí a smazáním aplikace se odstraní všechno, co je uložené lokálně.</p>
+      <p>Dozify není pro malé děti: naše podmínky služby vyžadují, aby ti bylo aspoň 13 let, a Aplikace tě před použitím požádá o potvrzení, že ti je aspoň 13 let. Vědomě nesbíráme žádná data od nikoho mladšího 13 let. V Česku můžeš sám dát souhlas se zpracováním osobních údajů až od 15 let; v jiných zemích je hranice jinde — 16 v Německu a Nizozemsku, 15 ve Francii, 14 ve Španělsku a Itálii. Pokud jsi mladší, než je tahle hranice tam, kde žiješ, používej Aplikaci jen se souhlasem rodiče nebo zákonného zástupce. V každém případě tvoje záznamy zůstávají ve tvém zařízení: žádné osobní údaje se k nám nepřenášejí a smazáním aplikace se odstraní záznamy v tomto telefonu.</p>
       <h2>7. Tvoje práva</h2>
       <p>Protože tvoje data nesbíráme ani neukládáme na svých serverech, obvyklá práva na přístup, výmaz nebo přenositelnost uplatňuješ přímo v Aplikaci:</p>
       <ul>
         <li>Přístup: všechna tvoje data vidíš přímo v Aplikaci.</li>
         <li>Export: PDF zprávy ze svých dat si můžeš vytvořit kdykoli.</li>
-        <li>Výmaz: v Nastavení → Smazat moje data můžeš data vymazat vybraně nebo úplně. Odinstalováním Aplikace se rovněž smažou všechna lokální data.</li>
+        <li>Výmaz: v Nastavení → Smazat moje data můžeš data vymazat vybraně nebo úplně. Odinstalováním Aplikace se rovněž smažou záznamy v tomto telefonu.</li>
       </ul>
       <p>Jako obyvatel Česka a EU máš práva podle GDPR: přístup, opravu, výmaz, omezení zpracování a přenositelnost. Můžeš je uplatnit přímo v Aplikaci, jak je popsáno výš, nebo nám napsat na privacy@dozify.app. Se stížností se můžeš obrátit na Úřad pro ochranu osobních údajů (uoou.gov.cz).</p>
       <h2>8. Zdravotní upozornění</h2>
       <p>Dozify není zdravotnický prostředek a neposkytuje lékařské rady, diagnózu ani léčbu. Informace v Aplikaci slouží jen k osobnímu sledování. Než uděláš rozhodnutí o lécích, vždycky se poraď se svým lékařem nebo jiným kvalifikovaným zdravotníkem.</p>
       <h2>9. Zabezpečení dat</h2>
-      <p>Lokální data se ukládají do chráněné sandbox oblasti aplikace ve tvém zařízení. Doporučujeme mít zapnutý kód zařízení, biometrické odemykání a šifrování celého disku (na dnešních iOS a Android zařízeních je zapnuté ve výchozím stavu).</p>
+      <p>Lokální data se ukládají do chráněné sandbox oblasti aplikace ve tvém zařízení. Doporučujeme mít zapnutý kód zařízení, biometrické odemykání a šifrování celého disku (na dnešních iOS zařízeních je zapnuté ve výchozím stavu).</p>
       <h2>10. Změny těchto zásad</h2>
       <p>Tyhle zásady ochrany soukromí můžeme čas od času aktualizovat. Podstatné změny se projeví aktualizací data „Poslední aktualizace“ nahoře. Pokud Aplikaci používáš dál i po změnách, znamená to, že aktualizované zásady přijímáš.</p>
       <h2>11. Kontakt</h2>

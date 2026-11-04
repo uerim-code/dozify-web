@@ -5,12 +5,10 @@
  },
  "t": {
   "Walk in with a summary, not a memory": "Mit einer Zusammenfassung zum Termin, nicht mit Erinnerungen",
-  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Ein Tippen macht aus drei Monaten deiner eigenen Aufzeichnungen eine Seite, die deine Ärztin oder dein Arzt in den zehn Minuten lesen kann, die ihr habt.",
   "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Ein Termin ist kurz, und es gibt viel abzudecken: was du wann genommen hast, wie sich das Gewicht entwickelt hat, welche Nebenwirkungen zu welchem Zeitpunkt auftraten, und die zwei Fragen, die du stellen wolltest.",
   "A clinical summary, generated on the device": "Eine klinische Zusammenfassung, auf dem Gerät erstellt",
   "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Dosen und Abstände, Gewichtstrend, Nebenwirkungen, Rotation der Einstichstellen, angebrochene Vials: über 30, 90 oder 180 Tage.",
   "Your questions, printed at the end": "Deine Fragen, am Ende ausgedruckt",
-  "Write them down as they occur to you during the month. They come out on the last page.": "Schreib sie auf, wenn sie dir im Laufe des Monats einfallen. Sie erscheinen auf der letzten Seite.",
   "Yours to share, or not": "Du entscheidest, ob du ihn teilst",
   "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "Das PDF wird auf deinem Handy erstellt. Nichts wird hochgeladen; du entscheidest, ob es irgendwohin geht.",
   "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Für Menschen mit einem kurzen Kontrolltermin und einem langen Zeitraum, den sie beschreiben müssen, und für Menschen, die zu einer neuen Ärztin oder einem neuen Arzt wechseln, die ihre Vorgeschichte noch nie gesehen haben. Und für den Termin, bei dem eine Dosisänderung im Raum steht – wo das, was in den letzten acht Wochen passiert ist, genau das ist, worauf die Entscheidung beruht.",
@@ -27,6 +25,9 @@
   "Is anything uploaded to make it?": "Wird dafür etwas hochgeladen?",
   "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Nein. Es wird auf dem Gerät aus Aufzeichnungen erstellt, die bereits dort sind. Nichts wird irgendwohin gesendet, um es zu erzeugen.",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Ratgeber mit genannten Quellen: <a href=\"/en/articles/glp1-side-effects\">häufige Nebenwirkungen im Griff</a>, <a href=\"/en/articles/what-is-glp1\">was GLP-1 eigentlich ist</a> und <a href=\"/en/articles/glp1-injection-sites\">wo spritzen und wie rotieren</a> sowie <a href=\"/en/articles/glp1-appointment-checklist\">was du für den Termin selbst bereithalten solltest</a>.",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Außerdem in Dozify: <a href=\"/en/glp1-side-effect-journal\">das Nebenwirkungs-Tagebuch</a> und <a href=\"/en/glp1-weight-tracker\">der Gewichtstrend</a>."
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Außerdem in Dozify: <a href=\"/en/glp1-side-effect-journal\">das Nebenwirkungs-Tagebuch</a> und <a href=\"/en/glp1-weight-tracker\">der Gewichtstrend</a>.",
+  "A few taps turn three months of your own records into a page your doctor can read in the ten minutes you have.": "Mit wenigen Fingertipps machst du aus drei Monaten deiner eigenen Aufzeichnungen eine Seite, die deine Ärztin oder dein Arzt in den zehn Minuten lesen kann, die ihr habt.",
+  "The summary PDF is free twice a month; the doctor-visit report is Premium.": "Das Zusammenfassungs-PDF ist zweimal im Monat kostenlos; der Bericht für den Arztbesuch ist Premium.",
+  "Add your questions when you build the report. They are printed at the end.": "Füge deine Fragen hinzu, wenn du den Bericht erstellst. Sie erscheinen am Ende."
  }
 }

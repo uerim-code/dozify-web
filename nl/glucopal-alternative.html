@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GlucoPal-alternatief — neem je GLP-1-geschiedenis mee</title>
-  <meta name="description" content="Stap je over van GlucoPal? Dozify leest de export, toont de aantallen voordat er iets wordt opgeslagen en noemt de genegeerde kolommen. Gratis, op je toestel.">
+  <meta name="description" content="Stap je over van GlucoPal? Dozify is gemaakt om de export te lezen, toont de aantallen vóór het opslaan en noemt de genegeerde kolommen. Gratis, op je toestel.">
   <meta property="og:url" content="https://dozify.app/nl/glucopal-alternative">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="GlucoPal-alternatief — neem je GLP-1-geschiedenis mee">
-  <meta property="og:description" content="Stap je over van GlucoPal? Dozify leest de export, toont de aantallen voordat er iets wordt opgeslagen en noemt de genegeerde kolommen. Gratis, op je toestel.">
+  <meta property="og:description" content="Stap je over van GlucoPal? Dozify is gemaakt om de export te lezen, toont de aantallen vóór het opslaan en noemt de genegeerde kolommen. Gratis, op je toestel.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — een privé GLP-1-injectie- en gewichtstracker voor iPhone">
   <meta name="twitter:title" content="GlucoPal-alternatief — neem je GLP-1-geschiedenis mee">
-  <meta name="twitter:description" content="Stap je over van GlucoPal? Dozify leest de export, toont de aantallen voordat er iets wordt opgeslagen en noemt de genegeerde kolommen. Gratis, op je toestel.">
+  <meta name="twitter:description" content="Stap je over van GlucoPal? Dozify is gemaakt om de export te lezen, toont de aantallen vóór het opslaan en noemt de genegeerde kolommen. Gratis, op je toestel.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — een privé GLP-1-injectie- en gewichtstracker voor iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -96,7 +96,7 @@
         "@id": "https://dozify.app/nl/glucopal-alternative#webpage",
         "url": "https://dozify.app/nl/glucopal-alternative",
         "name": "GlucoPal-alternatief — neem je GLP-1-geschiedenis mee",
-        "description": "Stap je over van GlucoPal? Dozify leest de export, toont de aantallen voordat er iets wordt opgeslagen en noemt de genegeerde kolommen. Gratis, op je toestel.",
+        "description": "Stap je over van GlucoPal? Dozify is gemaakt om de export te lezen, toont de aantallen vóór het opslaan en noemt de genegeerde kolommen. Gratis, op je toestel.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -158,7 +158,7 @@
     </div>
     <h1>Kom je van GlucoPal? Neem je geschiedenis mee</h1>
     
-    <p class="meta">Exporteer vanuit GlucoPal, open het in Dozify en zie elke registratie die wordt opgeslagen voordat er ook maar één wordt opgeslagen. Gratis, en het bestand verlaat je telefoon nooit.</p>
+    <p class="meta">Exporteer vanuit GlucoPal, open het in Dozify en zie hoeveel registraties er zijn gevonden en welke kolommen zijn gelezen, voordat er iets wordt opgeslagen. Gratis, en Dozify uploadt het bestand niet.</p>
     
 
     <h2>Waarom de geschiedenis het lastige deel is</h2>
@@ -167,13 +167,13 @@
     
 
     <h2>De kolommen waar Dozify naar zoekt in een GlucoPal-export</h2>
-    <p>Open je geëxporteerde bestand en vergelijk de kopregel. Dozify herkent een kolom aan elk van deze namen, en hoofdletters of een eenheid tussen haakjes maken niet uit. Alles wat het niet kan plaatsen, staat op het previewscherm bij naam vermeld, zodat je ziet wat er is weggelaten in plaats van dat je je dat afvraagt.</p>
+    <p>Dozify is gemaakt om GlucoPal-exports te lezen op basis van hun gepubliceerde formaat. Niet elk formaat is getest met een echte export; de preview laat zien wat er is gelezen voordat er iets wordt opgeslagen. Open je geëxporteerde bestand en vergelijk de kopregel. Dozify herkent een kolom aan elk van deze namen, en hoofdletters of een eenheid tussen haakjes maken niet uit. Alles wat het niet kan plaatsen, staat op het previewscherm bij naam vermeld, zodat je ziet wat er is weggelaten in plaats van dat je je dat afvraagt.</p>
     <table class="compare">
       <thead><tr><th>Veld</th><th>Kolomnamen die het herkent</th></tr></thead>
       <tbody>
       <tr><td><strong>Datum</strong></td><td><code>date · log date</code></td></tr>
       <tr><td><strong>Tijd</strong></td><td><code>time · log time</code></td></tr>
-      <tr><td><strong>Dosis</strong></td><td><code>dose · insulin · units</code></td></tr>
+      <tr><td><strong>Dosis</strong></td><td><code>dose · units</code></td></tr>
       <tr><td><strong>Gewicht</strong></td><td><code>weight · weight (kg) · weight (lb)</code></td></tr>
       <tr><td><strong>Bijwerking</strong></td><td><code>symptom · note type</code></td></tr>
       <tr><td><strong>Ernst</strong></td><td><code>severity</code></td></tr>
@@ -189,7 +189,7 @@
     
 
     <h2>Als je dosiskolom “units” (eenheden) heet</h2>
-    <p>Die rijen worden voor je opgesomd in plaats van omgerekend. Een eenheid is een volume op een spuit, en hoeveel milligram erin zit, hangt af van de concentratie van je flacon — een getal dat het bestand niet bevat. Ze in een milligramveld zetten zou de verkeerde dosis vastleggen zonder dat iets verderop dat in twijfel trekt, dus Dozify toont ze en laat je de hoeveelheid invoeren die je voorschrijver gebruikt. <a href="/nl/articles/units-vs-milligrams">Waarom er niet één omrekening is →</a></p>
+    <p>Die rijen worden voor je opgesomd in plaats van omgerekend. Een eenheid is een volume op een spuit, en hoeveel milligram erin zit, hangt af van de concentratie van je flacon — een getal dat het bestand niet bevat. Ze in een milligramveld zetten zou de verkeerde dosis vastleggen zonder dat iets verderop dat in twijfel trekt, dus Dozify vermeldt ze als overgeslagen; je kunt die doses met de hand loggen in de hoeveelheid die je voorschrijver gebruikt. <a href="/nl/articles/units-vs-milligrams">Waarom er niet één omrekening is →</a></p>
     
     
 
@@ -203,11 +203,11 @@
     
 
     <h2>Als het bestand niet wordt herkend</h2>
-    <p>Dozify zegt dat eerlijk in plaats van stilletjes nul rijen te importeren. Elke CSV met een datumkolom wordt gelezen. Lukt dat bij jouw bestand niet, stuur het dan via Instellingen → Een functie voorstellen en het formaat wordt toegevoegd: een bestand dat wij niet kunnen lezen is ons gat, niet het jouwe.</p>
+    <p>Dozify zegt dat eerlijk in plaats van stilletjes nul rijen te importeren. Elke CSV met een datumkolom en een kolom voor gewicht, dosis of klachten wordt gelezen. Lukt dat bij jouw bestand niet, stuur het dan via Instellingen → Een functie voorstellen en het formaat wordt toegevoegd: een bestand dat wij niet kunnen lezen is ons gat, niet het jouwe.</p>
     
     
 
-    <p class="meta">Dozify is een hulpmiddel om bij te houden, geen medisch hulpmiddel. Het adviseert geen doses en geeft geen medisch advies. GlucoPal is een handelsmerk van de eigenaar en wordt hier alleen genoemd om een bestandsformaat te beschrijven dat Dozify kan lezen; Dozify is niet verbonden aan GlucoPal en deze pagina wordt niet door hen onderschreven. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® en Rybelsus® zijn handelsmerken van hun respectieve eigenaren; Dozify is niet verbonden aan deze bedrijven.</p>
+    <p class="meta">Dozify is een hulpmiddel om bij te houden, geen medisch hulpmiddel. Het adviseert geen doses en geeft geen medisch advies. GlucoPal is een handelsmerk van de eigenaar en wordt hier alleen genoemd om een bestandsformaat te beschrijven dat Dozify is gemaakt om te lezen; Dozify is niet verbonden aan GlucoPal en deze pagina wordt niet door hen onderschreven. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® en Rybelsus® zijn handelsmerken van hun respectieve eigenaren; Dozify is niet verbonden aan deze bedrijven.</p>
     
 
     <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glucopal-alternative-nl&mt=8" class="btn btn-primary">Download in de App Store</a></p>

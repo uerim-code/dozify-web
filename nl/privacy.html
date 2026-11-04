@@ -48,7 +48,7 @@
 
   <main class="wrap">
       <h1>Privacybeleid</h1>
-      <p class="meta">Laatst bijgewerkt: 2 november 2026 · Van kracht sinds 2 november 2026</p>
+      <p class="meta">Laatst bijgewerkt: 5 november 2026 · Van kracht sinds 2 november 2026</p>
       <h2>1. Inleiding</h2>
       <p>Dozify («wij») is een app om medicijnen bij te houden, gemaakt voor GLP-1-behandelingen zoals Ozempic, Mounjaro, Wegovy, Saxenda en vergelijkbare middelen. Dit privacybeleid legt uit hoe wij met informatie omgaan wanneer je de mobiele app Dozify (de «App») gebruikt.</p>
       <p>Dozify werkt in de eerste plaats offline. De gezondheidsgegevens die je invoert, worden niet verzameld, verstuurd of op onze servers opgeslagen, en wij kunnen ze niet zien; ze blijven op je apparaat. De enige uitzondering is een maaltijdfoto die je zelf verstuurt voor de optionele AI-analyse (sectie 5). Daarnaast gebruikt de App een paar diensten van derden voor anonieme gebruiksstatistieken, het meten van installaties uit advertenties en abonnementen; sectie 5 vermeldt precies wat elke dienst ontvangt.</p>
@@ -63,7 +63,7 @@
       <p>De App ontvangt de anonieme ID's uit sectie 5 (een analyse-instantie-ID en een anonieme gebruikers-ID voor het abonnement). Ze bestaan alleen zodat anonieme gebruikscijfers en je abonnement werken, zijn niet gekoppeld aan je naam of e-mailadres en worden niet gebruikt om je te volgen in andere apps of op andere websites.</p>
       <p class="note">Je gezondheidsgegevens worden nooit voor advertentiedoeleinden gebruikt. Niets van wat je noteert (medicijnen, doses, injecties, gewicht, bloedsuiker, bijwerkingen, notities, foto's) wordt ooit ingezet voor advertentietargeting of gedeeld met een advertentienetwerk, wat je ook antwoordt op het trackingverzoek.</p>
       <h2>3. Gegevens die lokaal op je toestel worden bewaard</h2>
-      <p>De App bewaart de volgende informatie uitsluitend op je toestel, in een lokale SQLite-database en in de versleutelde opslag van het systeem:</p>
+      <p>De App bewaart de volgende informatie uitsluitend op je toestel, in een lokale database in de beschermde sandbox van de App:</p>
       <ul>
         <li>de medicijnen, doses en injectieschema's die je invult;</li>
         <li>de injectiegeschiedenis en de items in je dagboek;</li>
@@ -72,37 +72,36 @@
         <li>je meldingsvoorkeuren en herinneringen;</li>
         <li>de instellingen van de App (taal, weergave, eenheden).</li>
       </ul>
-      <p>Deze gegevens verlaten je toestel nooit, tenzij je ze zelf exporteert (bijvoorbeeld door een pdf-rapport te maken en dat per e-mail of via een andere app naar keuze te delen). Verwijder je de App, dan worden alle gegevens definitief gewist.</p>
+      <p>Dozify uploadt deze gegevens nooit. Ze verlaten je toestel alleen als je ze zelf exporteert (bijvoorbeeld door een pdf-rapport te maken en dat per e-mail of via een andere app naar keuze te delen) of als je eigen iPhone- of iCloud-back-up de App meeneemt. Verwijder je de App, dan verdwijnen de gegevens op deze telefoon. Geëxporteerde bestanden, alles wat je naar Apple Gezondheid hebt geschreven en je eigen iPhone-back-ups staan daar los van.</p>
       <p>Voorbeelden van Premium-functies, zoals je geschatte medicijnniveau op een vergrendeld scherm, worden op je apparaat uit deze gegevens getekend; daarvoor wordt niets verstuurd. Houd je zonder medicijn alleen gewicht en maaltijden bij, dan wordt ook die keuze op je apparaat bewaard.</p>
       <h2>4. Toestemmingen die wij vragen</h2>
       <ul>
         <li>Meldingen: voor dosisherinneringen en waarschuwingen over de houdbaarheid van flacons. Ze worden op je apparaat ingepland; je kunt ze altijd uitzetten in de instellingen van je apparaat.</li>
         <li>Camera en fotobibliotheek (optioneel): alleen als je een voortgangsfoto toevoegt (die op je apparaat blijft) of een maaltijd fotografeert voor de optionele AI-analyse (sectie 5).</li>
-        <li>Apple Gezondheid (optioneel): alleen als je de gewichtssynchronisatie in de instellingen aanzet. Dozify leest en schrijft je gewicht zodat het overeenkomt met je andere Gezondheid-apps.</li>
-        <li>Opslag (alleen Android): om de pdf-rapporten te bewaren die je maakt.</li>
+        <li>Apple Gezondheid (optioneel): alleen de categorieën die je aanzet. Dozify kan gewicht, lichaamsvetpercentage en menstruatiebloeding lezen; menstruatiebloeding wordt alleen op het toestel gebruikt. Het schrijft gewicht alleen als je dat apart aanzet.</li>
       </ul>
       <p>De App vraagt geen toegang tot de microfoon, je contacten of je locatie. Camera, fotobibliotheek en Apple Gezondheid zijn optioneel en worden pas gevraagd op het moment dat je de bijbehorende functie gebruikt.</p>
       <h2>5. Diensten van derden</h2>
       <p>De App gebruikt Firebase Analytics (Google Analytics for Firebase) om anonieme gebruiksstatistieken te verzamelen, zoals bekeken schermen, handelingen in de app (bijvoorbeeld welke functies worden gebruikt) en abonnementsconversies. Deze gegevens horen bij een anonieme app-instantie-identificator, niet bij je naam, je e-mailadres of andere gegevens die jou identificeren. Je gezondheidsgegevens (injectiegeschiedenis, gewicht, bloedsuiker, bijwerkingen, dagboekitems) worden nooit naar Firebase gestuurd.</p>
       <p>Meldingen: herinneringen zijn lokale meldingen die het besturingssysteem van je apparaat inplant. De App gebruikt geen pushdienst en verstuurt nergens een pushtoken naartoe.</p>
       <p>De App gebruikt de SDK van Meta (Facebook) met één doel: meten of een installatie uit een van onze advertenties komt. Op iOS vraagt de App eerst je toestemming via het App Tracking Transparency-verzoek van Apple. Weiger je, of antwoord je niet, dan wordt er geen advertentie-identificator (IDFA) verzameld en ontvangt Meta alleen het geaggregeerde SKAdNetwork-signaal van Apple, dat je privacy beschermt. Geef je wel toestemming, dan wordt de advertentie-identificator van je toestel met Meta gedeeld om de installatie aan de advertentie te kunnen koppelen die je zag. Wat er wordt verstuurd blijft beperkt tot signalen over de installatie en het openen van de app; je gezondheidsgegevens (medicijnen, doses, injecties, gewicht, bloedsuiker, bijwerkingen, notities) worden nooit naar Meta gestuurd. Je kunt je antwoord altijd wijzigen via Instellingen op je iPhone → Privacy en beveiliging → Tracking.</p>
-      <p>De App gebruikt RevenueCat om abonnementen te beheren. RevenueCat ontvangt een anonieme gebruikersidentificator en de status van je aankoop; de betalingen worden door Apple of Google verwerkt, en wij zien je betaalgegevens nooit.</p>
+      <p>De App gebruikt RevenueCat om abonnementen te beheren. RevenueCat ontvangt een anonieme gebruikersidentificator en de status van je aankoop; de betalingen worden door Apple verwerkt, en wij zien je betaalgegevens nooit.</p>
       <p>AI-analyse van maaltijdfoto's (optioneel; de eerste analyse is gratis, volgende vereisen Premium): de foto die je kiest, wordt versleuteld via onze server naar Google Gemini (Google LLC) gestuurd om calorieën en eiwit te schatten; de schatting komt terug op je apparaat zodat je die kunt controleren. De foto wordt alleen voor deze analyse gebruikt, niet bewaard en nooit voor advertenties gebruikt. Onze server houdt alleen een anoniem aantal analyses bij voor de gratis limiet. Voordat de eerste foto wordt verstuurd, noemt de App Google Gemini en vraagt om je uitdrukkelijke toestemming; je kunt die altijd intrekken via Instellingen → Privacy, en 'Mijn gegevens verwijderen' zet haar terug. Gebruik je de functie nooit, dan verlaat geen enkele foto je apparaat.</p>
-      <p>Deze website (dozify.app), los van de App, laadt een Google Ads-conversietag. Die legt één ding vast: dat een bezoeker op een knop voor de App Store of Google Play heeft geklikt, en op welke pagina. Hij is alleen voor meting ingesteld: advertentiepersonalisatie en Google-signalen staan uit, dus je bezoek wordt niet aan een advertentie-interesseprofiel toegevoegd, en geen gezondheidsinformatie die je hier leest of invoert wordt naar Google gestuurd. De App zelf gebruikt deze tag niet.</p>
+      <p>Deze website (dozify.app), los van de App, laadt een Google Ads-conversietag. Die legt één ding vast: dat een bezoeker op een knop voor de App Store heeft geklikt, en op welke pagina. Hij is alleen voor meting ingesteld: advertentiepersonalisatie en Google-signalen staan uit, dus je bezoek wordt niet aan een advertentie-interesseprofiel toegevoegd, en geen gezondheidsinformatie die je hier leest of invoert wordt naar Google gestuurd. De App zelf gebruikt deze tag niet.</p>
       <h2>6. Privacy van minderjarigen</h2>
-      <p>Dozify is niet voor jonge kinderen: onze servicevoorwaarden vereisen dat je minstens 13 jaar bent, en de App vraagt je te bevestigen dat je minstens 13 jaar bent voordat je hem kunt gebruiken. Wij verzamelen niet bewust gegevens van personen onder de 13. In Nederland mag je pas vanaf 16 jaar zelf toestemming geven voor het verwerken van gezondheidsgegevens; in België ligt die grens op 13 jaar. Ben je jonger dan de grens die in jouw land geldt, gebruik de App dan alleen met toestemming van een ouder of voogd. In alle gevallen blijven je gegevens op je toestel: er worden geen persoonsgegevens naar ons verstuurd, en de App verwijderen wist alles wat lokaal is opgeslagen.</p>
+      <p>Dozify is niet voor jonge kinderen: onze servicevoorwaarden vereisen dat je minstens 13 jaar bent, en de App vraagt je te bevestigen dat je minstens 13 jaar bent voordat je hem kunt gebruiken. Wij verzamelen niet bewust gegevens van personen onder de 13. In Nederland mag je pas vanaf 16 jaar zelf toestemming geven voor het verwerken van gezondheidsgegevens; in België ligt die grens op 13 jaar. Ben je jonger dan de grens die in jouw land geldt, gebruik de App dan alleen met toestemming van een ouder of voogd. In alle gevallen blijven je gegevens op je toestel: er worden geen persoonsgegevens naar ons verstuurd, en de App verwijderen wist de gegevens op deze telefoon.</p>
       <h2>7. Je rechten</h2>
       <p>Omdat wij je gegevens niet verzamelen of op onze servers bewaren, oefen je je rechten op inzage, wissen en overdraagbaarheid rechtstreeks in de App uit:</p>
       <ul>
         <li>Inzage: al je gegevens zijn voor jou zichtbaar in de App.</li>
         <li>Overdraagbaarheid: je kunt altijd pdf-rapporten van je gegevens maken.</li>
-        <li>Wissen: bij Instellingen → Mijn gegevens verwijderen kun je een deel of alles wissen. De App verwijderen wist ook alle lokale gegevens.</li>
+        <li>Wissen: bij Instellingen → Mijn gegevens verwijderen kun je een deel of alles wissen. De App verwijderen wist ook de gegevens op deze telefoon.</li>
       </ul>
       <p>Wie in de EU of het Verenigd Koninkrijk woont, heeft de rechten uit de AVG (GDPR); wie in Turkije woont, die uit de Turkse wet KVKK (wet nr. 6698).</p>
       <h2>8. Medische kennisgeving</h2>
       <p>Dozify is geen medisch hulpmiddel en geeft geen medisch advies, geen diagnose en geen behandeling. De informatie in de App dient uitsluitend om je eigen gegevens bij te houden. Overleg altijd met je arts of een andere bevoegde zorgverlener voordat je beslissingen neemt over je medicatie.</p>
       <h2>9. Beveiliging van de gegevens</h2>
-      <p>De lokale gegevens staan in de afgeschermde ruimte die het toestel voor de app reserveert. We raden aan een toegangscode, biometrische vergrendeling en volledige schijfversleuteling aan te zetten (op recente iOS- en Android-toestellen staat die standaard aan).</p>
+      <p>De lokale gegevens staan in de afgeschermde ruimte die het toestel voor de app reserveert. We raden aan een toegangscode, biometrische vergrendeling en volledige schijfversleuteling aan te zetten (op recente iOS-toestellen staat die standaard aan).</p>
       <h2>10. Wijzigingen in dit beleid</h2>
       <p>We kunnen dit privacybeleid van tijd tot tijd bijwerken. Belangrijke wijzigingen zie je terug in de datum bovenaan. Blijf je de App na een wijziging gebruiken, dan aanvaard je het bijgewerkte beleid.</p>
       <h2>11. Contact</h2>

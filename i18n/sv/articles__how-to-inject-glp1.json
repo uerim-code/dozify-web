@@ -55,9 +55,9 @@
   "Sources": "Källor",
   "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>": "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>",
   "Log every injection with Dozify": "Logga varje injektion med Dozify",
-  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due: all offline, on your device.": "Dozify registrerar datum, dos och ställe för varje injektion, föreslår nästa ställe i rotationen och påminner dig när nästa dos ska tas: allt offline, på din enhet.",
   "See how injection logging works →": "Se hur injektionsloggningen fungerar →",
   "And if a dose is late →": "Och om en dos blir sen →",
-  "And where the pen lives between doses →": "Och var pennan bor mellan doserna →"
+  "And where the pen lives between doses →": "Och var pennan bor mellan doserna →",
+  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due; all of this works offline, on your device.": "Dozify registrerar datum, dos och ställe för varje injektion, föreslår nästa ställe i rotationen och påminner dig när nästa dos ska tas; allt detta fungerar offline, på din enhet."
  }
 }

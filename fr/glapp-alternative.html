@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alternative à Glapp : gardez votre historique GLP-1</title>
-  <meta name="description" content="Vous quittez Glapp ? Dozify lit l’export, affiche chaque donnée avant de l’enregistrer et signale les colonnes non placées. Gratuit, rien n’est envoyé.">
+  <meta name="description" content="Vous quittez Glapp ? Si vous obtenez un CSV de vos données, Dozify peut le lire, affiche les totaux d’abord et nomme les colonnes non placées. Gratuit, sans envoi.">
   <meta property="og:url" content="https://dozify.app/fr/glapp-alternative">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="Alternative à Glapp : gardez votre historique GLP-1">
-  <meta property="og:description" content="Vous quittez Glapp ? Dozify lit l’export, affiche chaque donnée avant de l’enregistrer et signale les colonnes non placées. Gratuit, rien n’est envoyé.">
+  <meta property="og:description" content="Vous quittez Glapp ? Si vous obtenez un CSV de vos données, Dozify peut le lire, affiche les totaux d’abord et nomme les colonnes non placées. Gratuit, sans envoi.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — suivi GLP-1 privé des injections et du poids pour iPhone">
   <meta name="twitter:title" content="Alternative à Glapp : gardez votre historique GLP-1">
-  <meta name="twitter:description" content="Vous quittez Glapp ? Dozify lit l’export, affiche chaque donnée avant de l’enregistrer et signale les colonnes non placées. Gratuit, rien n’est envoyé.">
+  <meta name="twitter:description" content="Vous quittez Glapp ? Si vous obtenez un CSV de vos données, Dozify peut le lire, affiche les totaux d’abord et nomme les colonnes non placées. Gratuit, sans envoi.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — suivi GLP-1 privé des injections et du poids pour iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -96,7 +96,7 @@
         "@id": "https://dozify.app/fr/glapp-alternative#webpage",
         "url": "https://dozify.app/fr/glapp-alternative",
         "name": "Alternative à Glapp : gardez votre historique GLP-1",
-        "description": "Vous quittez Glapp ? Dozify lit l’export, affiche chaque donnée avant de l’enregistrer et signale les colonnes non placées. Gratuit, rien n’est envoyé.",
+        "description": "Vous quittez Glapp ? Si vous obtenez un CSV de vos données, Dozify peut le lire, affiche les totaux d’abord et nomme les colonnes non placées. Gratuit, sans envoi.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -158,7 +158,7 @@
     </div>
     <h1>Vous venez de Glapp ? Emportez votre historique</h1>
     
-    <p class="meta">Exportez depuis Glapp, ouvrez le fichier dans Dozify et voyez chaque donnée qui va être enregistrée avant qu’aucune ne le soit. Gratuit, et le fichier ne quitte jamais votre téléphone.</p>
+    <p class="meta">Si vous pouvez obtenir un CSV de vos données Glapp, Dozify peut le lire. Vous voyez combien de données il a trouvées, et quelles colonnes il a lues, avant que quoi que ce soit soit enregistré. Gratuit, et Dozify n’envoie pas le fichier en ligne.</p>
     
 
     <h2>Pourquoi l’historique est le plus difficile</h2>
@@ -166,8 +166,8 @@
     
     
 
-    <h2>Les colonnes que Dozify recherche dans un export Glapp</h2>
-    <p>Ouvrez votre fichier exporté et comparez la ligne d’en-tête. Dozify reconnaît une colonne sous n’importe lequel de ces noms, sans tenir compte des majuscules ni d’une unité écrite entre parenthèses. Tout ce qu’il ne sait pas placer est listé par nom sur l’écran d’aperçu : vous voyez ce qui a été laissé de côté au lieu de vous le demander.</p>
+    <h2>Les colonnes que Dozify recherche dans un CSV Glapp</h2>
+    <p>Tous les formats n’ont pas été testés avec un véritable export ; l’aperçu montre ce qui a été lu avant que quoi que ce soit soit enregistré. Ouvrez votre CSV et comparez la ligne d’en-tête. Dozify reconnaît une colonne sous n’importe lequel de ces noms, sans tenir compte des majuscules ni d’une unité écrite entre parenthèses. Tout ce qu’il ne sait pas placer est listé par nom sur l’écran d’aperçu : vous voyez ce qui a été laissé de côté au lieu de vous le demander.</p>
     <table class="compare">
       <thead><tr><th>Champ</th><th>Noms de colonnes acceptés</th></tr></thead>
       <tbody>
@@ -191,7 +191,7 @@
     
 
     <h2>Si votre colonne de dose s’intitule « units »</h2>
-    <p>Ces lignes vous sont listées au lieu d’être converties. Une unité est un volume sur une seringue, et le nombre de milligrammes qu’elle contient dépend de la concentration de votre flacon — un chiffre que le fichier ne contient pas. Les inscrire dans un champ en milligrammes enregistrerait une dose erronée sans que rien en aval ne le remette en question : Dozify vous les montre donc et vous laisse saisir la quantité qu’utilise votre prescripteur. <a href="/fr/articles/units-vs-milligrams">Pourquoi il n’existe pas de conversion unique →</a></p>
+    <p>Ces lignes vous sont listées au lieu d’être converties. Une unité est un volume sur une seringue, et le nombre de milligrammes qu’elle contient dépend de la concentration de votre flacon — un chiffre que le fichier ne contient pas. Les inscrire dans un champ en milligrammes enregistrerait une dose erronée sans que rien en aval ne le remette en question : Dozify les liste donc comme ignorées ; vous pouvez noter ces doses à la main dans la quantité qu’utilise votre prescripteur. <a href="/fr/articles/units-vs-milligrams">Pourquoi il n’existe pas de conversion unique →</a></p>
     
     
 
@@ -205,11 +205,11 @@
     
 
     <h2>Si le fichier n’est pas reconnu</h2>
-    <p>Dozify vous le dit au lieu d’importer zéro ligne en silence. Tout CSV comportant une colonne de date peut être lu. Si le vôtre ne l’est pas, envoyez-le depuis Réglages → Proposer une fonctionnalité et le format sera ajouté : un fichier que nous ne savons pas lire, c’est notre lacune, pas la vôtre.</p>
+    <p>Dozify vous le dit au lieu d’importer zéro ligne en silence. Tout CSV comportant une colonne de date et une colonne de poids, de dose ou de symptôme peut être lu. Si le vôtre ne l’est pas, envoyez-le depuis Réglages → Proposer une fonctionnalité et le format sera ajouté : un fichier que nous ne savons pas lire, c’est notre lacune, pas la vôtre.</p>
     
     
 
-    <p class="meta">Dozify est un outil de suivi, pas un dispositif médical. Il ne recommande pas de doses et ne fournit pas d’avis médical. Glapp est une marque de son propriétaire et n’est citée ici que pour décrire un format de fichier que Dozify sait lire ; Dozify n’est pas affilié à Glapp et cette page n’est pas approuvée par eux. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® et Rybelsus® sont des marques de leurs propriétaires respectifs ; Dozify n’est pas affilié à ces entreprises.</p>
+    <p class="meta">Dozify est un outil de suivi, pas un dispositif médical. Il ne recommande pas de doses et ne fournit pas d’avis médical. Glapp est une marque de son propriétaire et n’est citée ici que pour identifier l’app dont vos données peuvent provenir ; Dozify n’est pas affilié à Glapp et cette page n’est pas approuvée par eux. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® et Rybelsus® sont des marques de leurs propriétaires respectifs ; Dozify n’est pas affilié à ces entreprises.</p>
     
 
     <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glapp-alternative-fr&mt=8" class="btn btn-primary">Télécharger dans l’App Store</a></p>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Byt till Dozify – importera din GLP-1-historik</title>
-  <meta name="description" content="Importera från Shotsy, Glapp, GLPzy, GlucoPal eller en vanlig CSV-fil. Du ser exakt vad som kommer att sparas innan något sparas, och det kostar ingenting.">
+  <meta name="description" content="Importera från en export från Shotsy, GLPzy eller GlucoPal eller en vanlig CSV-fil. Se hur många poster som hittades innan något sparas, och det kostar ingenting.">
   <meta property="og:url" content="https://dozify.app/sv/switch-glp1-tracker-app">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="Byt till Dozify – importera din GLP-1-historik">
-  <meta property="og:description" content="Importera från Shotsy, Glapp, GLPzy, GlucoPal eller en vanlig CSV-fil. Du ser exakt vad som kommer att sparas innan något sparas, och det kostar ingenting.">
+  <meta property="og:description" content="Importera från en export från Shotsy, GLPzy eller GlucoPal eller en vanlig CSV-fil. Se hur många poster som hittades innan något sparas, och det kostar ingenting.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify – en privat GLP-1-tracker för sprutor och vikt för iPhone">
   <meta name="twitter:title" content="Byt till Dozify – importera din GLP-1-historik">
-  <meta name="twitter:description" content="Importera från Shotsy, Glapp, GLPzy, GlucoPal eller en vanlig CSV-fil. Du ser exakt vad som kommer att sparas innan något sparas, och det kostar ingenting.">
+  <meta name="twitter:description" content="Importera från en export från Shotsy, GLPzy eller GlucoPal eller en vanlig CSV-fil. Se hur många poster som hittades innan något sparas, och det kostar ingenting.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify – en privat GLP-1-tracker för sprutor och vikt för iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -119,7 +119,7 @@
         "@id": "https://dozify.app/sv/switch-glp1-tracker-app#webpage",
         "url": "https://dozify.app/sv/switch-glp1-tracker-app",
         "name": "Byt till Dozify – importera din GLP-1-historik",
-        "description": "Importera från Shotsy, Glapp, GLPzy, GlucoPal eller en vanlig CSV-fil. Du ser exakt vad som kommer att sparas innan något sparas, och det kostar ingenting.",
+        "description": "Importera från en export från Shotsy, GLPzy eller GlucoPal eller en vanlig CSV-fil. Se hur många poster som hittades innan något sparas, och det kostar ingenting.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -133,7 +133,7 @@
             "name": "Vilka appar kan jag importera från?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Exporter från Shotsy, Glapp, GLPzy och GlucoPal känns igen, liksom Dozifys egna säkerhetskopior och alla CSV-filer som har en datumkolumn."
+              "text": "Dozify är byggt för att känna igen exporter från Shotsy, GLPzy och GlucoPal utifrån deras publicerade format, liksom sina egna säkerhetskopior och alla CSV-filer som har en datumkolumn och en kolumn för vikt, dos eller symtom. En CSV-fil med dina Glapp-data kan läsas om du kan få fram en. Alla format har inte testats med en riktig export."
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "Min app finns inte med i listan. Vad gör jag nu?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Exportera en CSV-fil från den och prova med den: en datumkolumn är det enda kravet. Om filen inte känns igen säger Dozify det i stället för att i tysthet importera ingenting, och du kan skicka den till oss via Inställningar → Föreslå en funktion."
+              "text": "Exportera en CSV-fil från den och prova med den: den behöver en datumkolumn och en kolumn för vikt, dos eller symtom. Om filen inte känns igen säger Dozify det i stället för att i tysthet importera ingenting, och du kan skicka den till oss via Inställningar → Föreslå en funktion."
             }
           },
           {
@@ -223,7 +223,7 @@
     </div>
     <h1>Ta med dig din historik</h1>
     
-    <p class="meta">Importera från Shotsy, Glapp, GLPzy, GlucoPal eller en vanlig CSV-fil. Du ser exakt vad som ska hända innan något sparas, och det är gratis.</p>
+    <p class="meta">Importera från en export från Shotsy, GLPzy eller GlucoPal eller en vanlig CSV-fil, även en med dina Glapp-data om du kan få fram den. Du ser hur många poster som hittades innan något sparas, och det är gratis.</p>
     
 
     <h2>Problemet</h2>
@@ -234,14 +234,14 @@
 
     <h2>Vad Dozify gör</h2>
     <h3>Läser filen som din gamla app skrev</h3>
-    <p>Exportera från den andra appen, öppna Dozify → Inställningar → Importera din historik och välj filen. Dozify känner igen exporter från Shotsy, Glapp, GLPzy och GlucoPal, sin egen JSON-säkerhetskopia och alla CSV-filer med en datumkolumn. Den räknar själv ut vilken det är i stället för att fråga dig.</p>
+    <p>Exportera från den andra appen, öppna Dozify → Inställningar → Importera din historik och välj filen. Dozify är byggt för att känna igen exporter från Shotsy, GLPzy och GlucoPal utifrån deras publicerade format, sin egen JSON-säkerhetskopia och alla CSV-filer med en datumkolumn och en kolumn för vikt, dos eller symtom. Om du kan få fram en CSV-fil med dina Glapp-data kan Dozify läsa den. Alla format har inte testats med en riktig export; förhandsvisningen visar vad som lästes innan något sparas. Dozify räknar själv ut vilken det är i stället för att fråga dig.</p>
     <h3>Visar siffrorna innan något sparas</h3>
     <p>Hur många vikter, injektioner och biverkningar den hittade, vilka datum de sträcker sig över, hur många som redan finns i Dozify och hur många rader den inte kunde läsa. Inget sparas förrän du trycker på bekräfta.</p>
     <h3>Att importera samma fil två gånger gör ingenting</h3>
     <p>Poster som matchar något som redan finns här räknas som dubbletter och hoppas över, så en andra körning är säker: praktiskt om du exporterar igen efter några veckor till.</p>
     <h3>Säkerhetskopia först, och allt eller inget</h3>
     <p>Dozify gör en automatisk säkerhetskopia på din enhet direkt före importen. Själva importen är en enda transaktion: om något går fel rullas allt tillbaka, eftersom en halvt importerad historik är sämre än ingen – du kan inte avgöra vilken halva som är din.</p>
-    <h3>Filen lämnar aldrig din telefon</h3>
+    <h3>Dozify laddar inte upp filen</h3>
     <p>Den läses på enheten. Inget laddas upp, det finns inget konto och ingen server ser dina uppgifter.</p>
 
     
@@ -284,7 +284,7 @@
     
 
     <h2>Om filen inte känns igen</h2>
-    <p>Då säger Dozify det i stället för att i tysthet importera noll rader. Alla CSV-filer med en datumkolumn går att läsa; om din inte gör det, skicka den till oss via Inställningar → Föreslå en funktion så läggs formatet till: en fil vi inte kan läsa är vår brist, inte din.</p>
+    <p>Då säger Dozify det i stället för att i tysthet importera noll rader. Alla CSV-filer med en datumkolumn och en kolumn för vikt, dos eller symtom går att läsa; om din inte gör det, skicka den till oss via Inställningar → Föreslå en funktion så läggs formatet till: en fil vi inte kan läsa är vår brist, inte din.</p>
 
     
     
@@ -317,13 +317,13 @@
       <div class="faq-item">
         <h3>Vilka appar kan jag importera från?</h3>
         
-        <p>Exporter från Shotsy, Glapp, GLPzy och GlucoPal känns igen, liksom Dozifys egna säkerhetskopior och alla CSV-filer som har en datumkolumn.</p>
+        <p>Dozify är byggt för att känna igen exporter från Shotsy, GLPzy och GlucoPal utifrån deras publicerade format, liksom sina egna säkerhetskopior och alla CSV-filer som har en datumkolumn och en kolumn för vikt, dos eller symtom. En CSV-fil med dina Glapp-data kan läsas om du kan få fram en. Alla format har inte testats med en riktig export.</p>
         
       </div>
       <div class="faq-item">
         <h3>Min app finns inte med i listan. Vad gör jag nu?</h3>
         
-        <p>Exportera en CSV-fil från den och prova med den: en datumkolumn är det enda kravet. Om filen inte känns igen säger Dozify det i stället för att i tysthet importera ingenting, och du kan skicka den till oss via Inställningar → Föreslå en funktion.</p>
+        <p>Exportera en CSV-fil från den och prova med den: den behöver en datumkolumn och en kolumn för vikt, dos eller symtom. Om filen inte känns igen säger Dozify det i stället för att i tysthet importera ingenting, och du kan skicka den till oss via Inställningar → Föreslå en funktion.</p>
         
       </div>
       <div class="faq-item">
@@ -356,7 +356,7 @@
     
     
 
-    <p class="meta">Dozify är ett loggverktyg, inte en medicinteknisk produkt. Appen rekommenderar inga doser och ger inga medicinska råd. Shotsy, Glapp, GLPzy och GlucoPal är varumärken som tillhör respektive ägare och nämns här bara för att beskriva filformat som Dozify kan läsa; Dozify har ingen koppling till dem. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® och Rybelsus® är varumärken som tillhör respektive ägare; Dozify har ingen koppling till dessa företag.</p>
+    <p class="meta">Dozify är ett loggverktyg, inte en medicinteknisk produkt. Appen rekommenderar inga doser och ger inga medicinska råd. Shotsy, Glapp, GLPzy och GlucoPal är varumärken som tillhör respektive ägare och nämns här bara för att beskriva filformat som Dozify är byggt för att läsa; Dozify har ingen koppling till dem. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® och Rybelsus® är varumärken som tillhör respektive ägare; Dozify har ingen koppling till dessa företag.</p>
 
     
   </main>

@@ -21,16 +21,13 @@
   "<strong>Time</strong>": "<strong>Hora</strong>",
   "<strong>Weight</strong>": "<strong>Peso</strong>",
   "Articles": "Artículos",
-  "By Ümit Can Erim · Published 18 August 2026 · Updated 18 August 2026 · Sources checked 18 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Por Ümit Can Erim · Publicado el 18 de agosto de 2026 · Actualizado el 18 de agosto de 2026 · Fuentes revisadas el 18 de agosto de 2026 · <a href=\"/en/editorial-policy\">Cómo se escriben estas guías</a>",
   "By Ümit Can Erim · Published 19 August 2026 · Updated 19 August 2026 · Sources checked 19 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Por Ümit Can Erim · Publicado el 19 de agosto de 2026 · Actualizado el 19 de agosto de 2026 · Fuentes revisadas el 19 de agosto de 2026 · <a href=\"/en/editorial-policy\">Cómo se escriben estas guías</a>",
   "By Ümit Can Erim · Published 20 August 2026 · Updated 20 August 2026 · Sources checked 20 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Por Ümit Can Erim · Publicado el 20 de agosto de 2026 · Actualizado el 20 de agosto de 2026 · Fuentes revisadas el 20 de agosto de 2026 · <a href=\"/en/editorial-policy\">Cómo se escriben estas guías</a>",
   "By Ümit Can Erim · Published 9 October 2026 · Updated 9 October 2026 · Sources checked 9 October 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Por Ümit Can Erim · Publicado el 9 de octubre de 2026 · Actualizado el 9 de octubre de 2026 · Fuentes revisadas el 9 de octubre de 2026 · <a href=\"/en/editorial-policy\">Cómo se escriben estas guías</a>",
   "Doctor report": "Informe para el médico",
   "Download the app": "Descarga la app",
   "Dozify": "Dozify",
-  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders: fully offline, with your data staying on your device.": "Dozify te ayuda a registrar tus inyecciones GLP-1, rotar las zonas, anotar tu peso y recibir recordatorios: totalmente sin conexión y con tus datos guardados en tu dispositivo.",
   "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify es una herramienta de registro, no un producto sanitario. No recomienda dosis ni ofrece consejo médico. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® y Rybelsus® son marcas registradas de sus respectivos titulares; Dozify no está afiliada a estas empresas.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify te lo dice en lugar de importar cero filas sin avisar. Se puede leer cualquier CSV que tenga una columna de fecha. Si el tuyo no se lee, envíalo desde Ajustes → Proponer una función y añadiremos el formato: un archivo que no sabemos leer es un fallo nuestro, no tuyo.",
   "Editorial policy": "Política editorial",
   "Features": "Funciones",
   "Field": "Campo",
@@ -48,7 +45,6 @@
   "Months of injections, weigh-ins and side effects are the reason people stay in an app they have stopped liking. Nobody retypes a year of shots, so the record becomes the lock. Moving it across is the only part that matters.": "Meses de inyecciones, pesajes y efectos secundarios son la razón por la que la gente sigue en una app que ya no le gusta. Nadie vuelve a teclear un año de inyecciones, así que el historial se convierte en el candado. Trasladarlo es lo único que importa.",
   "New in Dozify: snap a meal and the app drafts calories and protein per item for you to edit — <a href=\"/en/ai-calorie-tracker\">AI calorie tracking</a> (Premium) — and daily GLP-1 tablets have their own <a href=\"/en/glp1-pill-tracker\">pill tracker</a>.": "Novedad en Dozify: haz una foto a tu comida y la app te prepara un borrador de calorías y proteínas por alimento para que lo edites (<a href=\"/en/ai-calorie-tracker\">conteo de calorías con IA</a>, Premium), y las pastillas GLP-1 diarias tienen su propio <a href=\"/en/glp1-pill-tracker\">registro de pastillas</a>.",
   "Nothing is written until you say so": "No se guarda nada hasta que tú lo digas",
-  "Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.": "Abre el archivo exportado y compara la fila de encabezados. Dozify reconoce una columna por cualquiera de estos nombres, y le da igual si van en mayúsculas o minúsculas o si la unidad está entre paréntesis. Todo lo que no sabe dónde colocar aparece por su nombre en la pantalla de vista previa, para que veas qué se ha quedado fuera en vez de preguntártelo.",
   "Privacy": "Privacidad",
   "Privacy Policy": "Política de privacidad",
   "Private GLP-1 tracker": "Registro GLP-1 privado",
@@ -77,6 +73,8 @@
   "privacy@dozify.app": "privacy@dozify.app",
   "support@dozify.app": "support@dozify.app",
   "© 2026 UCE": "© 2026 UCE",
-  "See the GLP-1 dosage chart →": "Ver la tabla de dosis GLP-1 →"
+  "See the GLP-1 dosage chart →": "Ver la tabla de dosis GLP-1 →",
+  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify te ayuda a registrar tus inyecciones GLP-1, rotar las zonas, anotar tu peso y recibir recordatorios, todo lo cual funciona sin conexión, con tus registros guardados en tu dispositivo.",
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify te lo dice en lugar de importar cero filas sin avisar. Se puede leer cualquier CSV que tenga una columna de fecha y una columna de peso, dosis o síntoma. Si el tuyo no se lee, envíalo desde Ajustes → Proponer una función y añadiremos el formato: un archivo que no sabemos leer es un fallo nuestro, no tuyo."
  }
 }

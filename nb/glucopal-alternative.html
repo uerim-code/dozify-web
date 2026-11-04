@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GlucoPal-alternativ – ta med GLP-1-historikken din</title>
-  <meta name="description" content="Bytter du fra GlucoPal? Dozify leser eksporten, viser antallene før noe lagres, og lister opp kolonnene den hoppet over. Gratis, på enheten din.">
+  <meta name="description" content="Bytter du fra GlucoPal? Dozify er laget for å lese eksporten, viser antallene før noe lagres, og lister opp kolonnene den hoppet over. Gratis, på enheten din.">
   <meta property="og:url" content="https://dozify.app/nb/glucopal-alternative">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="GlucoPal-alternativ – ta med GLP-1-historikken din">
-  <meta property="og:description" content="Bytter du fra GlucoPal? Dozify leser eksporten, viser antallene før noe lagres, og lister opp kolonnene den hoppet over. Gratis, på enheten din.">
+  <meta property="og:description" content="Bytter du fra GlucoPal? Dozify er laget for å lese eksporten, viser antallene før noe lagres, og lister opp kolonnene den hoppet over. Gratis, på enheten din.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify – en privat GLP-1-sprøyte- og vektlogg for iPhone">
   <meta name="twitter:title" content="GlucoPal-alternativ – ta med GLP-1-historikken din">
-  <meta name="twitter:description" content="Bytter du fra GlucoPal? Dozify leser eksporten, viser antallene før noe lagres, og lister opp kolonnene den hoppet over. Gratis, på enheten din.">
+  <meta name="twitter:description" content="Bytter du fra GlucoPal? Dozify er laget for å lese eksporten, viser antallene før noe lagres, og lister opp kolonnene den hoppet over. Gratis, på enheten din.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify – en privat GLP-1-sprøyte- og vektlogg for iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -96,7 +96,7 @@
         "@id": "https://dozify.app/nb/glucopal-alternative#webpage",
         "url": "https://dozify.app/nb/glucopal-alternative",
         "name": "GlucoPal-alternativ – ta med GLP-1-historikken din",
-        "description": "Bytter du fra GlucoPal? Dozify leser eksporten, viser antallene før noe lagres, og lister opp kolonnene den hoppet over. Gratis, på enheten din.",
+        "description": "Bytter du fra GlucoPal? Dozify er laget for å lese eksporten, viser antallene før noe lagres, og lister opp kolonnene den hoppet over. Gratis, på enheten din.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -158,7 +158,7 @@
     </div>
     <h1>Kommer du fra GlucoPal? Ta med deg historikken</h1>
     
-    <p class="meta">Eksporter fra GlucoPal, åpne filen i Dozify, og se hver registrering som skal lagres før noen av dem blir det. Gratis, og filen forlater aldri telefonen din.</p>
+    <p class="meta">Eksporter fra GlucoPal, åpne filen i Dozify, og se hvor mange registreringer den fant, og hvilke kolonner den leste, før noe lagres. Gratis, og Dozify laster ikke opp filen.</p>
     
 
     <h2>Hvorfor historikken er den vanskelige delen</h2>
@@ -167,13 +167,13 @@
     
 
     <h2>Kolonnene Dozify ser etter i en eksport fra GlucoPal</h2>
-    <p>Åpne den eksporterte filen og sammenlign overskriftsraden. Dozify kobler en kolonne til et felt ut fra hvilket som helst av disse navnene, og bryr seg ikke om store eller små bokstaver eller en enhet i parentes. Alt den ikke klarer å plassere, listes opp med navn på forhåndsvisningsskjermen, så du ser hva som ble utelatt i stedet for å lure.</p>
+    <p>Dozify er laget for å lese eksporter fra GlucoPal ut fra det publiserte formatet. Ikke alle formater er testet med en ekte eksport; forhåndsvisningen viser hva som ble lest før noe lagres. Åpne den eksporterte filen og sammenlign overskriftsraden. Dozify kobler en kolonne til et felt ut fra hvilket som helst av disse navnene, og bryr seg ikke om store eller små bokstaver eller en enhet i parentes. Alt den ikke klarer å plassere, listes opp med navn på forhåndsvisningsskjermen, så du ser hva som ble utelatt i stedet for å lure.</p>
     <table class="compare">
       <thead><tr><th>Felt</th><th>Kolonnenavn den godtar</th></tr></thead>
       <tbody>
       <tr><td><strong>Dato</strong></td><td><code>date · log date</code></td></tr>
       <tr><td><strong>Klokkeslett</strong></td><td><code>time · log time</code></td></tr>
-      <tr><td><strong>Dose</strong></td><td><code>dose · insulin · units</code></td></tr>
+      <tr><td><strong>Dose</strong></td><td><code>dose · units</code></td></tr>
       <tr><td><strong>Vekt</strong></td><td><code>weight · weight (kg) · weight (lb)</code></td></tr>
       <tr><td><strong>Bivirkning</strong></td><td><code>symptom · note type</code></td></tr>
       <tr><td><strong>Alvorlighetsgrad</strong></td><td><code>severity</code></td></tr>
@@ -189,7 +189,7 @@
     
 
     <h2>Hvis dosekolonnen din heter «units»</h2>
-    <p>De radene blir listet opp for deg i stedet for å bli regnet om. En enhet er et volum på en sprøyte, og hvor mange milligram den inneholder, avhenger av konsentrasjonen i hetteglasset ditt – et tall filen ikke inneholder. Å skrive dem inn i et milligramfelt ville registrert feil dose uten at noe senere i kjeden stilte spørsmål ved det, så Dozify viser dem og lar deg legge inn mengden forskriveren din bruker. <a href="/nb/articles/units-vs-milligrams">Hvorfor det ikke finnes én omregning →</a></p>
+    <p>De radene blir listet opp for deg i stedet for å bli regnet om. En enhet er et volum på en sprøyte, og hvor mange milligram den inneholder, avhenger av konsentrasjonen i hetteglasset ditt – et tall filen ikke inneholder. Å skrive dem inn i et milligramfelt ville registrert feil dose uten at noe senere i kjeden stilte spørsmål ved det, så Dozify lister dem opp som hoppet over; du kan logge de dosene manuelt i den mengden forskriveren din bruker. <a href="/nb/articles/units-vs-milligrams">Hvorfor det ikke finnes én omregning →</a></p>
     
     
 
@@ -203,11 +203,11 @@
     
 
     <h2>Hvis filen ikke gjenkjennes</h2>
-    <p>Da sier Dozify fra i stedet for å stille importere null rader. Alle CSV-filer med en datokolonne kan leses. Hvis din ikke kan det, send den fra Innstillinger → Foreslå en funksjon, så blir formatet lagt til: en fil vi ikke kan lese, er vår mangel, ikke din.</p>
+    <p>Da sier Dozify fra i stedet for å stille importere null rader. Alle CSV-filer med en datokolonne og en kolonne for vekt, dose eller symptom kan leses. Hvis din ikke kan det, send den fra Innstillinger → Foreslå en funksjon, så blir formatet lagt til: en fil vi ikke kan lese, er vår mangel, ikke din.</p>
     
     
 
-    <p class="meta">Dozify er et loggeverktøy, ikke medisinsk utstyr. Appen anbefaler ikke doser og gir ikke medisinske råd. GlucoPal er et varemerke som tilhører sin eier og nevnes her bare for å beskrive et filformat Dozify kan lese; Dozify er ikke tilknyttet GlucoPal, og denne siden er ikke godkjent av dem. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® og Rybelsus® er varemerker som tilhører sine respektive eiere; Dozify er ikke tilknyttet disse selskapene.</p>
+    <p class="meta">Dozify er et loggeverktøy, ikke medisinsk utstyr. Appen anbefaler ikke doser og gir ikke medisinske råd. GlucoPal er et varemerke som tilhører sin eier og nevnes her bare for å beskrive et filformat Dozify er laget for å lese; Dozify er ikke tilknyttet GlucoPal, og denne siden er ikke godkjent av dem. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® og Rybelsus® er varemerker som tilhører sine respektive eiere; Dozify er ikke tilknyttet disse selskapene.</p>
     
 
     <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glucopal-alternative-nb&mt=8" class="btn btn-primary">Last ned fra App Store</a></p>

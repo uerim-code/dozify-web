@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Přechod na Dozify — import historie GLP-1</title>
-  <meta name="description" content="Import ze Shotsy, Glapp, GLPzy, GlucoPal nebo z obyčejného CSV. Přesně uvidíš, co se uloží, než se cokoli zapíše, a nic to nestojí.">
+  <meta name="description" content="Import z exportu Shotsy, GLPzy nebo GlucoPal nebo z obyčejného CSV. Než se cokoli uloží, uvidíš, kolik záznamů se našlo, a nic to nestojí.">
   <meta property="og:url" content="https://dozify.app/cs/switch-glp1-tracker-app">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="Přechod na Dozify — import historie GLP-1">
-  <meta property="og:description" content="Import ze Shotsy, Glapp, GLPzy, GlucoPal nebo z obyčejného CSV. Přesně uvidíš, co se uloží, než se cokoli zapíše, a nic to nestojí.">
+  <meta property="og:description" content="Import z exportu Shotsy, GLPzy nebo GlucoPal nebo z obyčejného CSV. Než se cokoli uloží, uvidíš, kolik záznamů se našlo, a nic to nestojí.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — soukromé sledování injekcí GLP-1 a hmotnosti pro iPhone">
   <meta name="twitter:title" content="Přechod na Dozify — import historie GLP-1">
-  <meta name="twitter:description" content="Import ze Shotsy, Glapp, GLPzy, GlucoPal nebo z obyčejného CSV. Přesně uvidíš, co se uloží, než se cokoli zapíše, a nic to nestojí.">
+  <meta name="twitter:description" content="Import z exportu Shotsy, GLPzy nebo GlucoPal nebo z obyčejného CSV. Než se cokoli uloží, uvidíš, kolik záznamů se našlo, a nic to nestojí.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — soukromé sledování injekcí GLP-1 a hmotnosti pro iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -119,7 +119,7 @@
         "@id": "https://dozify.app/cs/switch-glp1-tracker-app#webpage",
         "url": "https://dozify.app/cs/switch-glp1-tracker-app",
         "name": "Přechod na Dozify — import historie GLP-1",
-        "description": "Import ze Shotsy, Glapp, GLPzy, GlucoPal nebo z obyčejného CSV. Přesně uvidíš, co se uloží, než se cokoli zapíše, a nic to nestojí.",
+        "description": "Import z exportu Shotsy, GLPzy nebo GlucoPal nebo z obyčejného CSV. Než se cokoli uloží, uvidíš, kolik záznamů se našlo, a nic to nestojí.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -133,7 +133,7 @@
             "name": "Ze kterých aplikací můžu importovat?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Rozpoznávají se exporty ze Shotsy, Glapp, GLPzy a GlucoPal, vlastní záložní soubory Dozify a jakýkoli CSV soubor se sloupcem s datem."
+              "text": "Dozify je navržené tak, aby rozpoznalo exporty ze Shotsy, GLPzy a GlucoPal podle jejich zveřejněných formátů, vlastní záložní soubory a jakýkoli CSV soubor se sloupcem s datem a sloupcem s hmotností, dávkou nebo příznakem. CSV s tvými daty z Glapp lze přečíst, pokud se ti ho podaří získat. Ne každý formát byl vyzkoušen se skutečným exportem."
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "Moje aplikace v seznamu není. Co teď?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Exportuj z ní CSV a zkus ho: jediným požadavkem je sloupec s datem. Pokud soubor není rozpoznán, Dozify ti to řekne, místo aby potichu nic nenaimportovalo, a můžeš nám ho poslat přes Nastavení → Navrhni funkci."
+              "text": "Exportuj z ní CSV a zkus ho: potřebuje sloupec s datem a sloupec s hmotností, dávkou nebo příznakem. Pokud soubor není rozpoznán, Dozify ti to řekne, místo aby potichu nic nenaimportovalo, a můžeš nám ho poslat přes Nastavení → Navrhni funkci."
             }
           },
           {
@@ -223,7 +223,7 @@
     </div>
     <h1>Vezmi si svou historii s sebou</h1>
     
-    <p class="meta">Import ze Shotsy, Glapp, GLPzy, GlucoPal nebo z obyčejného CSV. Přesně uvidíš, co se stane, než se cokoli uloží, a je to zdarma.</p>
+    <p class="meta">Import z exportu Shotsy, GLPzy nebo GlucoPal nebo z obyčejného CSV, včetně CSV s tvými daty z Glapp, pokud se ti ho podaří získat. Než se cokoli uloží, uvidíš, kolik záznamů se našlo, a je to zdarma.</p>
     
 
     <h2>Problém</h2>
@@ -234,14 +234,14 @@
 
     <h2>Co Dozify dělá</h2>
     <h3>Přečte soubor, který zapsala tvoje stará aplikace</h3>
-    <p>Exportuj data z jiné aplikace, otevři Dozify → Nastavení → Import tvojí historie a vyber soubor. Dozify rozpozná exporty ze Shotsy, Glapp, GLPzy a GlucoPal, vlastní zálohu ve formátu JSON a jakýkoli CSV soubor se sloupcem s datem. Samo zjistí, o který jde, místo aby se tě ptalo.</p>
+    <p>Exportuj data z jiné aplikace, otevři Dozify → Nastavení → Import tvojí historie a vyber soubor. Dozify je navržené tak, aby rozpoznalo exporty ze Shotsy, GLPzy a GlucoPal podle jejich zveřejněných formátů, vlastní zálohu ve formátu JSON a jakýkoli CSV soubor se sloupcem s datem a sloupcem s hmotností, dávkou nebo příznakem. Pokud se ti podaří získat CSV se svými daty z Glapp, Dozify ho umí přečíst. Ne každý formát byl vyzkoušen se skutečným exportem; náhled ukáže, co se načetlo, dřív, než se cokoli uloží. Samo zjistí, o který jde, místo aby se tě ptalo.</p>
     <h3>Ukáže ti čísla dřív, než cokoli uloží</h3>
     <p>Kolik záznamů hmotnosti, injekcí a nežádoucích účinků našlo, jaké období pokrývají, kolik jich už v Dozify je a kolik řádků nedokázalo přečíst. Nic se neuloží, dokud neklepneš na potvrzení.</p>
     <h3>Dvojí import stejného souboru nic neudělá</h3>
     <p>Záznamy, které odpovídají něčemu, co už v aplikaci je, se počítají jako duplikáty a přeskočí se, takže druhý import je bezpečný: hodí se, pokud po pár týdnech exportuješ znovu.</p>
     <h3>Nejdřív záloha a zápis všechno, nebo nic</h3>
     <p>Dozify těsně před importem uloží do tvého zařízení automatickou zálohu. Samotný import proběhne jako jedna transakce: pokud cokoli selže, vrátí se celý zpět, protože napůl naimportovaná historie je horší než žádná: nepoznáš, která polovina je tvoje.</p>
-    <h3>Soubor nikdy neopustí tvůj telefon</h3>
+    <h3>Dozify soubor nenahrává</h3>
     <p>Čte se v zařízení. Nic se nenahrává, není tu žádný účet a žádný server tvoje záznamy nevidí.</p>
 
     
@@ -284,7 +284,7 @@
     
 
     <h2>Když soubor není rozpoznán</h2>
-    <p>Dozify ti to řekne, místo aby potichu naimportovalo nula řádků. Načíst lze jakýkoli CSV soubor se sloupcem s datem; pokud ten tvůj nejde, pošli nám ho přes Nastavení → Navrhni funkci a formát doplníme: soubor, který neumíme přečíst, je naše mezera, ne tvoje.</p>
+    <p>Dozify ti to řekne, místo aby potichu naimportovalo nula řádků. Načíst lze jakýkoli CSV soubor se sloupcem s datem a sloupcem s hmotností, dávkou nebo příznakem; pokud ten tvůj nejde, pošli nám ho přes Nastavení → Navrhni funkci a formát doplníme: soubor, který neumíme přečíst, je naše mezera, ne tvoje.</p>
 
     
     
@@ -317,13 +317,13 @@
       <div class="faq-item">
         <h3>Ze kterých aplikací můžu importovat?</h3>
         
-        <p>Rozpoznávají se exporty ze Shotsy, Glapp, GLPzy a GlucoPal, vlastní záložní soubory Dozify a jakýkoli CSV soubor se sloupcem s datem.</p>
+        <p>Dozify je navržené tak, aby rozpoznalo exporty ze Shotsy, GLPzy a GlucoPal podle jejich zveřejněných formátů, vlastní záložní soubory a jakýkoli CSV soubor se sloupcem s datem a sloupcem s hmotností, dávkou nebo příznakem. CSV s tvými daty z Glapp lze přečíst, pokud se ti ho podaří získat. Ne každý formát byl vyzkoušen se skutečným exportem.</p>
         
       </div>
       <div class="faq-item">
         <h3>Moje aplikace v seznamu není. Co teď?</h3>
         
-        <p>Exportuj z ní CSV a zkus ho: jediným požadavkem je sloupec s datem. Pokud soubor není rozpoznán, Dozify ti to řekne, místo aby potichu nic nenaimportovalo, a můžeš nám ho poslat přes Nastavení → Navrhni funkci.</p>
+        <p>Exportuj z ní CSV a zkus ho: potřebuje sloupec s datem a sloupec s hmotností, dávkou nebo příznakem. Pokud soubor není rozpoznán, Dozify ti to řekne, místo aby potichu nic nenaimportovalo, a můžeš nám ho poslat přes Nastavení → Navrhni funkci.</p>
         
       </div>
       <div class="faq-item">
@@ -356,7 +356,7 @@
     
     
 
-    <p class="meta">Dozify je nástroj pro sledování, nikoli zdravotnický prostředek. Nedoporučuje dávky a neposkytuje lékařské rady. Shotsy, Glapp, GLPzy a GlucoPal jsou ochranné známky příslušných vlastníků a jsou zde uvedeny pouze k popisu formátů souborů, které Dozify umí přečíst; Dozify s nimi není spojeno. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® a Rybelsus® jsou ochranné známky příslušných vlastníků; Dozify s těmito společnostmi není spojeno.</p>
+    <p class="meta">Dozify je nástroj pro sledování, nikoli zdravotnický prostředek. Nedoporučuje dávky a neposkytuje lékařské rady. Shotsy, Glapp, GLPzy a GlucoPal jsou ochranné známky příslušných vlastníků a jsou zde uvedeny pouze k popisu formátů souborů, pro jejichž čtení je Dozify navržené; Dozify s nimi není spojeno. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® a Rybelsus® jsou ochranné známky příslušných vlastníků; Dozify s těmito společnostmi není spojeno.</p>
 
     
   </main>

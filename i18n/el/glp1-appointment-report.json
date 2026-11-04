@@ -5,12 +5,10 @@
  },
  "t": {
   "Walk in with a summary, not a memory": "Μπείτε στο ραντεβού με μια σύνοψη, όχι με μια ανάμνηση",
-  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Ένα πάτημα μετατρέπει τρεις μήνες από τις δικές σας καταγραφές σε μια σελίδα που ο γιατρός σας μπορεί να διαβάσει στα δέκα λεπτά που έχετε.",
   "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Ένα ραντεβού είναι σύντομο και τα θέματα πολλά: τι πήρατε και πότε, πώς κινήθηκε το βάρος, ποιες παρενέργειες και σε ποιο σημείο, και οι δύο ερωτήσεις που θέλατε να κάνετε.",
   "A clinical summary, generated on the device": "Μια κλινική σύνοψη, που δημιουργείται στη συσκευή",
   "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Δόσεις και διαστήματα, τάση βάρους, παρενέργειες, εναλλαγή σημείων, ανοιχτά φιαλίδια: για 30, 90 ή 180 ημέρες.",
   "Your questions, printed at the end": "Οι ερωτήσεις σας, τυπωμένες στο τέλος",
-  "Write them down as they occur to you during the month. They come out on the last page.": "Γράψτε τις όπως σας έρχονται μέσα στον μήνα. Εμφανίζονται στην τελευταία σελίδα.",
   "Yours to share, or not": "Δικό σας να το μοιραστείτε, ή όχι",
   "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "Το PDF δημιουργείται στο κινητό σας. Τίποτα δεν ανεβαίνει· εσείς αποφασίζετε αν θα πάει κάπου.",
   "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Όσοι έχουν σύντομο ραντεβού παρακολούθησης και ένα μεγάλο διάστημα να περιγράψουν, και όσοι πηγαίνουν σε νέο γιατρό που δεν έχει δει ποτέ το ιστορικό τους. Είναι επίσης για το ραντεβού όπου συζητείται αλλαγή δόσης, όπου ό,τι συνέβη τις τελευταίες οκτώ εβδομάδες είναι ακριβώς αυτό πάνω στο οποίο στηρίζεται η απόφαση.",
@@ -27,6 +25,9 @@
   "Is anything uploaded to make it?": "Ανεβαίνει κάτι για να δημιουργηθεί;",
   "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Όχι. Δημιουργείται στη συσκευή από καταγραφές που υπάρχουν ήδη εκεί. Τίποτα δεν στέλνεται πουθενά για να δημιουργηθεί.",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Οδηγοί, με κατονομασμένες πηγές: <a href=\"/en/articles/glp1-side-effects\">διαχείριση των συχνών παρενεργειών</a>, <a href=\"/en/articles/what-is-glp1\">τι είναι στην πραγματικότητα το GLP-1</a> και <a href=\"/en/articles/glp1-injection-sites\">πού να κάνετε την ένεση και πώς να εναλλάσσετε</a> και <a href=\"/en/articles/glp1-appointment-checklist\">τι να έχετε έτοιμο για το ίδιο το ραντεβού</a>.",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Επίσης στο Dozify: <a href=\"/en/glp1-side-effect-journal\">το ημερολόγιο παρενεργειών</a> και <a href=\"/en/glp1-weight-tracker\">η τάση βάρους</a>."
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Επίσης στο Dozify: <a href=\"/en/glp1-side-effect-journal\">το ημερολόγιο παρενεργειών</a> και <a href=\"/en/glp1-weight-tracker\">η τάση βάρους</a>.",
+  "A few taps turn three months of your own records into a page your doctor can read in the ten minutes you have.": "Λίγα πατήματα μετατρέπουν τρεις μήνες από τις δικές σας καταγραφές σε μια σελίδα που ο γιατρός σας μπορεί να διαβάσει στα δέκα λεπτά που έχετε.",
+  "The summary PDF is free twice a month; the doctor-visit report is Premium.": "Το συνοπτικό PDF είναι δωρεάν δύο φορές τον μήνα· η αναφορά για την ιατρική επίσκεψη ανήκει στο Premium.",
+  "Add your questions when you build the report. They are printed at the end.": "Προσθέστε τις ερωτήσεις σας όταν δημιουργείτε την αναφορά. Εκτυπώνονται στο τέλος."
  }
 }

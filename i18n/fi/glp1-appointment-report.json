@@ -5,12 +5,10 @@
  },
  "t": {
   "Walk in with a summary, not a memory": "Mene vastaanotolle yhteenvedon kanssa, älä muistin varassa",
-  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Yksi napautus muuttaa kolmen kuukauden omat merkintäsi sivuksi, jonka lääkärisi ehtii lukea käytössäsi olevan kymmenen minuutin aikana.",
   "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Vastaanotto on lyhyt ja läpikäytävää on paljon: mitä otit ja milloin, miten paino muuttui, mitä sivuvaikutuksia ja missä vaiheessa sekä ne kaksi kysymystä, jotka aioit kysyä.",
   "A clinical summary, generated on the device": "Kliininen yhteenveto, luotu laitteella",
   "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Annokset ja annosvälit, painon kehitys, sivuvaikutukset, pistoskohtien kierto, avatut injektiopullot: 30, 90 tai 180 päivän ajalta.",
   "Your questions, printed at the end": "Kysymyksesi tulostettuina loppuun",
-  "Write them down as they occur to you during the month. They come out on the last page.": "Kirjoita ne ylös sitä mukaa kuin ne tulevat mieleen kuukauden aikana. Ne tulevat viimeiselle sivulle.",
   "Yours to share, or not": "Sinun jaettavaksesi, tai ei",
   "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "PDF tehdään puhelimessasi. Mitään ei ladata palvelimelle; sinä päätät, meneekö se minnekään.",
   "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Ihmisille, joilla on lyhyt seurantakäynti ja pitkä jakso kuvattavana, ja ihmisille, jotka siirtyvät uudelle kliinikolle, joka ei ole koskaan nähnyt heidän historiaansa. Se on myös sitä vastaanottoa varten, jossa annoksen muutos on esillä ja jossa päätös perustuu juuri siihen, mitä viimeisten kahdeksan viikon aikana tapahtui.",
@@ -27,6 +25,9 @@
   "Is anything uploaded to make it?": "Ladataanko mitään palvelimelle sen tekemiseksi?",
   "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "Ei. Se luodaan laitteella jo siellä olevista merkinnöistä. Mitään ei lähetetä minnekään sen tuottamiseksi.",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Oppaat, joiden lähteet on nimetty: <a href=\"/en/articles/glp1-side-effects\">yleisten sivuvaikutusten hallinta</a>, <a href=\"/en/articles/what-is-glp1\">mitä GLP-1 oikeastaan on</a> ja <a href=\"/en/articles/glp1-injection-sites\">mihin pistää ja miten kohtia vaihdellaan</a> sekä <a href=\"/en/articles/glp1-appointment-checklist\">mitä pitää olla valmiina itse vastaanotolle</a>.",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Muualla Dozifyssa: <a href=\"/en/glp1-side-effect-journal\">sivuvaikutuspäiväkirja</a> ja <a href=\"/en/glp1-weight-tracker\">painon kehitys</a>."
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Muualla Dozifyssa: <a href=\"/en/glp1-side-effect-journal\">sivuvaikutuspäiväkirja</a> ja <a href=\"/en/glp1-weight-tracker\">painon kehitys</a>.",
+  "A few taps turn three months of your own records into a page your doctor can read in the ten minutes you have.": "Muutama napautus muuttaa kolmen kuukauden omat merkintäsi sivuksi, jonka lääkärisi ehtii lukea käytössäsi olevan kymmenen minuutin aikana.",
+  "The summary PDF is free twice a month; the doctor-visit report is Premium.": "Yhteenveto-PDF on ilmainen kahdesti kuukaudessa; lääkärikäynnin raportti kuuluu Premiumiin.",
+  "Add your questions when you build the report. They are printed at the end.": "Lisää kysymyksesi, kun koostat raportin. Ne tulostetaan loppuun."
  }
 }

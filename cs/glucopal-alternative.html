@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alternativa ke GlucoPal — přenes historii GLP-1</title>
-  <meta name="description" content="Přecházíš z GlucoPal? Dozify přečte export, ukáže počty dřív, než cokoli uloží, a vypíše sloupce, které vynechalo. Zdarma, přímo ve tvém zařízení.">
+  <meta name="description" content="Přecházíš z GlucoPal? Dozify je navržené pro čtení exportu, ukáže počty dřív, než cokoli uloží, a vypíše vynechané sloupce. Zdarma, přímo ve tvém zařízení.">
   <meta property="og:url" content="https://dozify.app/cs/glucopal-alternative">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="Alternativa ke GlucoPal — přenes historii GLP-1">
-  <meta property="og:description" content="Přecházíš z GlucoPal? Dozify přečte export, ukáže počty dřív, než cokoli uloží, a vypíše sloupce, které vynechalo. Zdarma, přímo ve tvém zařízení.">
+  <meta property="og:description" content="Přecházíš z GlucoPal? Dozify je navržené pro čtení exportu, ukáže počty dřív, než cokoli uloží, a vypíše vynechané sloupce. Zdarma, přímo ve tvém zařízení.">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — soukromé sledování injekcí GLP-1 a hmotnosti pro iPhone">
   <meta name="twitter:title" content="Alternativa ke GlucoPal — přenes historii GLP-1">
-  <meta name="twitter:description" content="Přecházíš z GlucoPal? Dozify přečte export, ukáže počty dřív, než cokoli uloží, a vypíše sloupce, které vynechalo. Zdarma, přímo ve tvém zařízení.">
+  <meta name="twitter:description" content="Přecházíš z GlucoPal? Dozify je navržené pro čtení exportu, ukáže počty dřív, než cokoli uloží, a vypíše vynechané sloupce. Zdarma, přímo ve tvém zařízení.">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — soukromé sledování injekcí GLP-1 a hmotnosti pro iPhone">
   <meta name="theme-color" content="#0D9488">
@@ -96,7 +96,7 @@
         "@id": "https://dozify.app/cs/glucopal-alternative#webpage",
         "url": "https://dozify.app/cs/glucopal-alternative",
         "name": "Alternativa ke GlucoPal — přenes historii GLP-1",
-        "description": "Přecházíš z GlucoPal? Dozify přečte export, ukáže počty dřív, než cokoli uloží, a vypíše sloupce, které vynechalo. Zdarma, přímo ve tvém zařízení.",
+        "description": "Přecházíš z GlucoPal? Dozify je navržené pro čtení exportu, ukáže počty dřív, než cokoli uloží, a vypíše vynechané sloupce. Zdarma, přímo ve tvém zařízení.",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -158,7 +158,7 @@
     </div>
     <h1>Přecházíš z GlucoPal? Vezmi si historii s sebou</h1>
     
-    <p class="meta">Exportuj data z GlucoPal, otevři je v Dozify a uvidíš každý záznam, který se má uložit, dřív, než se uloží. Zdarma a soubor nikdy neopustí tvůj telefon.</p>
+    <p class="meta">Exportuj data z GlucoPal, otevři je v Dozify a uvidíš, kolik záznamů našlo a které sloupce načetlo, dřív, než se cokoli uloží. Zdarma a Dozify soubor nenahrává.</p>
     
 
     <h2>Proč je historie to nejtěžší</h2>
@@ -167,13 +167,13 @@
     
 
     <h2>Sloupce, které Dozify hledá v exportu z GlucoPal</h2>
-    <p>Otevři exportovaný soubor a porovnej řádek záhlaví. Dozify přiřadí sloupec podle kteréhokoli z těchto názvů a nevadí mu velká písmena ani jednotka v závorce. Vše, co nedokáže zařadit, uvidíš jmenovitě na obrazovce náhledu, takže víš, co zůstalo stranou, a nemusíš hádat.</p>
+    <p>Dozify je navržené tak, aby četlo exporty z GlucoPal podle jejich zveřejněného formátu. Ne každý formát byl vyzkoušen se skutečným exportem; náhled ukáže, co se načetlo, dřív, než se cokoli uloží. Otevři exportovaný soubor a porovnej řádek záhlaví. Dozify přiřadí sloupec podle kteréhokoli z těchto názvů a nevadí mu velká písmena ani jednotka v závorce. Vše, co nedokáže zařadit, uvidíš jmenovitě na obrazovce náhledu, takže víš, co zůstalo stranou, a nemusíš hádat.</p>
     <table class="compare">
       <thead><tr><th>Pole</th><th>Přijímané názvy záhlaví</th></tr></thead>
       <tbody>
       <tr><td><strong>Datum</strong></td><td><code>date · log date</code></td></tr>
       <tr><td><strong>Čas</strong></td><td><code>time · log time</code></td></tr>
-      <tr><td><strong>Dávka</strong></td><td><code>dose · insulin · units</code></td></tr>
+      <tr><td><strong>Dávka</strong></td><td><code>dose · units</code></td></tr>
       <tr><td><strong>Hmotnost</strong></td><td><code>weight · weight (kg) · weight (lb)</code></td></tr>
       <tr><td><strong>Nežádoucí účinek</strong></td><td><code>symptom · note type</code></td></tr>
       <tr><td><strong>Závažnost</strong></td><td><code>severity</code></td></tr>
@@ -189,7 +189,7 @@
     
 
     <h2>Pokud má tvůj sloupec dávky záhlaví „units“</h2>
-    <p>Tyto řádky se ti vypíšou, místo aby se převedly. Jednotka je objem na stříkačce a kolik miligramů v ní je, závisí na koncentraci tvé lahvičky — čísle, které soubor neobsahuje. Zapsat je do pole pro miligramy by zaznamenalo špatnou dávku, aniž by to cokoli dalšího zpochybnilo, takže je Dozify zobrazí a nechá tě zadat množství, které používá tvůj lékař. <a href="/cs/articles/units-vs-milligrams">Proč neexistuje jeden převod →</a></p>
+    <p>Tyto řádky se ti vypíšou, místo aby se převedly. Jednotka je objem na stříkačce a kolik miligramů v ní je, závisí na koncentraci tvé lahvičky — čísle, které soubor neobsahuje. Zapsat je do pole pro miligramy by zaznamenalo špatnou dávku, aniž by to cokoli dalšího zpochybnilo, takže je Dozify vypíše jako přeskočené; tyto dávky můžeš zapsat ručně v množství, které používá tvůj lékař. <a href="/cs/articles/units-vs-milligrams">Proč neexistuje jeden převod →</a></p>
     
     
 
@@ -203,11 +203,11 @@
     
 
     <h2>Když soubor není rozpoznán</h2>
-    <p>Dozify ti to řekne, místo aby potichu naimportovalo nula řádků. Načíst lze jakýkoli CSV soubor se sloupcem s datem. Pokud ten tvůj nejde, pošli ho přes Nastavení → Navrhni funkci a formát doplníme: soubor, který neumíme přečíst, je naše mezera, ne tvoje.</p>
+    <p>Dozify ti to řekne, místo aby potichu naimportovalo nula řádků. Načíst lze jakýkoli CSV soubor se sloupcem s datem a sloupcem s hmotností, dávkou nebo příznakem. Pokud ten tvůj nejde, pošli ho přes Nastavení → Navrhni funkci a formát doplníme: soubor, který neumíme přečíst, je naše mezera, ne tvoje.</p>
     
     
 
-    <p class="meta">Dozify je nástroj pro sledování, nikoli zdravotnický prostředek. Nedoporučuje dávky a neposkytuje lékařské rady. GlucoPal je ochranná známka svého vlastníka a je zde uvedena pouze k popisu formátu souboru, který Dozify umí přečíst; Dozify s GlucoPal není spojeno a tato stránka není jimi podporována. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® a Rybelsus® jsou ochranné známky příslušných vlastníků; Dozify s těmito společnostmi není spojeno.</p>
+    <p class="meta">Dozify je nástroj pro sledování, nikoli zdravotnický prostředek. Nedoporučuje dávky a neposkytuje lékařské rady. GlucoPal je ochranná známka svého vlastníka a je zde uvedena pouze k popisu formátu souboru, pro jehož čtení je Dozify navržené; Dozify s GlucoPal není spojeno a tato stránka není jimi podporována. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® a Rybelsus® jsou ochranné známky příslušných vlastníků; Dozify s těmito společnostmi není spojeno.</p>
     
 
     <p style="text-align:center;margin:32px 0"><a href="https://apps.apple.com/app/dozify/id6764325653?pt=128799689&ct=web-glucopal-alternative-cs&mt=8" class="btn btn-primary">Stáhnout v App Store</a></p>

@@ -145,9 +145,9 @@ META: dict[str, dict[str, tuple[str, str]]] = {
     },
     "private-glp1-tracker": {
         "en": ("Private GLP-1 Tracker — No Account, No Cloud",
-               "Your doses, weight and symptoms stay on your phone. No sign-up, no sync, no in-app ads. Delete the app and the records go with it."),
+               "Your doses, weight and symptoms stay on your phone. No sign-up, no sync, no in-app ads. Delete the app and the records on this phone go with it."),
         "tr": ("Gizli GLP-1 Takibi — Hesap Yok, Bulut Yok",
-               "Dozların, kilon ve belirtilerin telefonunda kalır. Kayıt yok, senkron yok, uygulama içinde reklam yok. Uygulamayı silersen kayıtlar da gider."),
+               "Dozların, kilon ve belirtilerin telefonunda kalır. Kayıt yok, senkron yok, uygulama içinde reklam yok. Uygulamayı silersen bu telefondaki kayıtlar da gider."),
     },
     "glp1-appointment-report": {
         "en": ("GLP-1 Doctor Report — Walk In With a Summary",
@@ -157,9 +157,9 @@ META: dict[str, dict[str, tuple[str, str]]] = {
     },
     "switch-glp1-tracker-app": {
         "en": ("Switch to Dozify — Import Your GLP-1 History",
-               "Import from Shotsy, Glapp, GLPzy, GlucoPal or a plain CSV. You see exactly what will be written before anything is, and it costs nothing."),
+               "Import from a Shotsy, GLPzy or GlucoPal export or a plain CSV. See how many records were found before anything is written, and it costs nothing."),
         "tr": ("Dozify'a Geç — GLP-1 Geçmişini Yanında Getir",
-               "Shotsy, Glapp, GLPzy, GlucoPal ya da düz bir CSV dosyasından aktar. Hiçbir şey yazılmadan önce ne yazılacağını görürsün, üstelik ücretsiz."),
+               "Shotsy, GLPzy ya da GlucoPal dışa aktarımından veya düz bir CSV'den aktar. Yazılmadan önce kaç kayıt bulunduğunu görürsün, üstelik ücretsiz."),
     },
     "why": {
         "en": ("Why Dozify — What It Does and What It Refuses To",
@@ -181,9 +181,9 @@ META: dict[str, dict[str, tuple[str, str]]] = {
     },
     "privacy": {
         "en": ("Dozify Privacy Policy — What Stays on Your Phone",
-               "What Dozify stores on your device, the anonymous statistics it collects, what it never collects, and how to delete everything at once."),
+               "What Dozify stores on your device, the usage statistics it collects, what it never collects, and how to delete everything at once."),
         "tr": ("Dozify Gizlilik Politikası — Telefonunda Ne Kalır",
-               "Dozify'ın cihazında ne sakladığı, topladığı anonim istatistikler, asla toplamadıkları ve tüm kayıtlarını tek seferde nasıl sileceğin."),
+               "Dozify'ın cihazında ne sakladığı, topladığı kullanım istatistikleri, asla toplamadıkları ve tüm kayıtlarını tek seferde nasıl sileceğin."),
     },
     "terms": {
         "en": ("Dozify Terms of Service — Subscription and Use",
@@ -307,21 +307,21 @@ META: dict[str, dict[str, tuple[str, str]]] = {
     },
     "shotsy-alternative": {
         "en": ("Shotsy Alternative — Bring Your GLP-1 History",
-               "Moving off Shotsy? Dozify reads the export, shows every record before it writes one, and names any column it did not recognise. Free, on your device."),
+               "Moving off Shotsy? Dozify is built to read the export, shows the counts before anything is written, and names any column it did not recognise. Free, on your device."),
         "tr": ("Shotsy Alternatifi — GLP-1 Geçmişini Getir",
-               "Shotsy'den mi çıkıyorsun? Dozify dışa aktarımı okur, tek satır yazmadan hepsini gösterir ve tanımadığı sütunu adıyla söyler. Ücretsiz, cihazında."),
+               "Shotsy'den mi çıkıyorsun? Dozify dışa aktarımı okumak için yapıldı, yazmadan önce sayıları gösterir, tanımadığı sütunu adıyla söyler. Ücretsiz, cihazında."),
     },
     "glapp-alternative": {
         "en": ("Glapp Alternative — Bring Your GLP-1 History",
-               "Leaving Glapp? Dozify reads the export, previews every record before writing, and tells you which columns it could not place. Free, nothing uploaded."),
+               "Leaving Glapp? If you can get a CSV of your data, Dozify can read it, shows the counts before writing and names columns it could not place. Free, no upload."),
         "tr": ("Glapp Alternatifi — GLP-1 Geçmişini Getir",
-               "Glapp'ten mi ayrılıyorsun? Dozify dışa aktarımı okur, yazmadan önce hepsini önizler ve yerleştiremediği sütunu söyler. Ücretsiz, hiçbir şey yüklenmez."),
+               "Glapp'ten mi ayrılıyorsun? Verilerinin bir CSV'sini alabilirsen Dozify okuyabilir, yazmadan önce sayıları gösterir, yerleştiremediği sütunu söyler. Ücretsiz."),
     },
     "glucopal-alternative": {
         "en": ("GlucoPal Alternative — Bring Your GLP-1 History",
-               "Switching from GlucoPal? Dozify reads the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device."),
+               "Switching from GlucoPal? Dozify is built to read the export, shows the counts before anything is written, and lists the columns it ignored. Free, on your device."),
         "tr": ("GlucoPal Alternatifi — GLP-1 Geçmişini Getir",
-               "GlucoPal'dan mı geçiyorsun? Dozify dışa aktarımı okur, hiçbir şey yazılmadan sayıları gösterir ve okumadığı sütunları listeler. Ücretsiz, cihazında."),
+               "GlucoPal'dan mı geçiyorsun? Dozify dışa aktarımı okumak için yapıldı, yazılmadan önce sayıları gösterir, okumadığı sütunları listeler. Ücretsiz, cihazında."),
     },
     "articles/wegovy-pill": {
         "en": ("Wegovy Pill: How the Daily Tablet Is Taken, Per the Label",

@@ -5,12 +5,10 @@
  },
  "t": {
   "Walk in with a summary, not a memory": "Arriva con un riepilogo, non con i ricordi",
-  "One tap turns three months of your own records into a page your doctor can read in the ten minutes you have.": "Con un tocco, tre mesi dei tuoi dati diventano una pagina che il medico riesce a leggere nei dieci minuti che hai.",
   "An appointment is short and the ground to cover is long: what you took and when, how the weight moved, which side effects and at what point, and the two questions you meant to ask.": "Una visita è breve e c’è tanto da raccontare: cosa hai preso e quando, come si è mosso il peso, quali effetti collaterali e in che momento, e le due domande che volevi fare.",
   "A clinical summary, generated on the device": "Un riepilogo clinico, generato sul dispositivo",
   "Doses and intervals, weight trend, side effects, site rotation, open vials: over 30, 90 or 180 days.": "Dosi e intervalli, andamento del peso, effetti collaterali, rotazione delle sedi, flaconcini aperti: su 30, 90 o 180 giorni.",
   "Your questions, printed at the end": "Le tue domande, stampate in fondo",
-  "Write them down as they occur to you during the month. They come out on the last page.": "Annotale man mano che ti vengono in mente durante il mese. Compaiono nell’ultima pagina.",
   "Yours to share, or not": "Sta a te condividerlo, o no",
   "The PDF is made on your phone. Nothing is uploaded; you decide whether it goes anywhere.": "Il PDF viene creato sul tuo telefono. Nulla viene caricato online; decidi tu se mandarlo da qualche parte.",
   "People with a short follow-up and a long stretch to describe, and people moving to a new clinician who has never seen their history. It is also for the appointment where a dose change is on the table, where what happened in the last eight weeks is exactly what the decision rests on.": "Chi ha un controllo breve e un lungo periodo da descrivere, e chi passa a un nuovo medico che non ha mai visto il suo storico. È utile anche per la visita in cui si parla di cambiare la dose, quando ciò che è successo nelle ultime otto settimane è esattamente ciò su cui si basa la decisione.",
@@ -27,6 +25,9 @@
   "Is anything uploaded to make it?": "Viene caricato qualcosa online per crearlo?",
   "No. It is generated on the device from records that are already there. Nothing is sent anywhere to produce it.": "No. Viene generato sul dispositivo a partire dai dati che ci sono già. Nulla viene inviato da nessuna parte per produrlo.",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a>, <a href=\"/en/articles/what-is-glp1\">what GLP-1 actually is</a> and <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a> and <a href=\"/en/articles/glp1-appointment-checklist\">what to have ready for the appointment itself</a>.": "Guide con le fonti indicate: <a href=\"/en/articles/glp1-side-effects\">gestire gli effetti collaterali comuni</a>, <a href=\"/en/articles/what-is-glp1\">che cos’è davvero il GLP-1</a> e <a href=\"/en/articles/glp1-injection-sites\">dove fare l’iniezione e come alternare le sedi</a> e <a href=\"/en/articles/glp1-appointment-checklist\">cosa tenere pronto per la visita</a>.",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Altro in Dozify: <a href=\"/en/glp1-side-effect-journal\">il diario degli effetti collaterali</a> e <a href=\"/en/glp1-weight-tracker\">l’andamento del peso</a>."
+  "Elsewhere in Dozify: <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a> and <a href=\"/en/glp1-weight-tracker\">the weight trend</a>.": "Altro in Dozify: <a href=\"/en/glp1-side-effect-journal\">il diario degli effetti collaterali</a> e <a href=\"/en/glp1-weight-tracker\">l’andamento del peso</a>.",
+  "A few taps turn three months of your own records into a page your doctor can read in the ten minutes you have.": "Con pochi tocchi, tre mesi dei tuoi dati diventano una pagina che il medico riesce a leggere nei dieci minuti che hai.",
+  "The summary PDF is free twice a month; the doctor-visit report is Premium.": "Il PDF di riepilogo è gratuito due volte al mese; il report per la visita medica è Premium.",
+  "Add your questions when you build the report. They are printed at the end.": "Aggiungi le tue domande quando crei il report. Vengono stampate alla fine."
  }
 }

@@ -55,9 +55,9 @@
   "Sources": "출처",
   "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>": "<a href=\"https://medlineplus.gov/ency/article/007430.htm\" rel=\"nofollow noopener\" target=\"_blank\">MedlinePlus (NIH). Injection site care</a>",
   "Log every injection with Dozify": "Dozify로 모든 주사 기록하기",
-  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due: all offline, on your device.": "Dozify는 주사마다 날짜, 용량, 부위를 기록하고, 순환 순서상 다음 부위를 제안하고, 다음 투여일에 알려 줘요. 모두 오프라인으로, 기기 안에서요.",
   "See how injection logging works →": "주사 기록 방식 보기 →",
   "And if a dose is late →": "투여가 늦어졌다면 →",
-  "And where the pen lives between doses →": "투여 사이 펜 보관은 →"
+  "And where the pen lives between doses →": "투여 사이 펜 보관은 →",
+  "Dozify records the date, dose, and site of each injection, suggests the next site in rotation, and reminds you when your next dose is due; all of this works offline, on your device.": "Dozify는 주사마다 날짜, 용량, 부위를 기록하고, 순환 순서상 다음 부위를 제안하고, 다음 투여일에 알려 줘요. 이 모든 기능은 오프라인으로, 기기 안에서 작동해요."
  }
 }

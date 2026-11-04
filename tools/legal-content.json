@@ -3,7 +3,7 @@
     "privacy": {
       "title": "Datenschutzerklärung",
       "description": "Wie Dozify mit deinen Daten umgeht: Gesundheitsdaten bleiben auf deinem Gerät und werden nicht an unsere Server gesendet.",
-      "updated": "Zuletzt aktualisiert: 2. November 2026 · Gültig ab: 2. November 2026",
+      "updated": "Zuletzt aktualisiert: 5. November 2026 · Gültig ab: 2. November 2026",
       "blocks": [
         {
           "t": "h2",
@@ -48,7 +48,7 @@
         },
         {
           "t": "p",
-          "v": "Die App speichert die folgenden Angaben ausschließlich auf deinem Gerät, in einer lokalen SQLite-Datenbank und im verschlüsselten Systemspeicher:"
+          "v": "Die App speichert die folgenden Angaben ausschließlich auf deinem Gerät, in einer lokalen Datenbank in der geschützten Sandbox der App:"
         },
         {
           "t": "ul",
@@ -63,7 +63,7 @@
         },
         {
           "t": "p",
-          "v": "Diese Daten verlassen dein Gerät nur, wenn du sie ausdrücklich exportierst (zum Beispiel indem du einen PDF-Bericht erstellst und ihn per E-Mail oder über eine App deiner Wahl teilst). Wenn du die App löschst, werden alle Daten dauerhaft entfernt."
+          "v": "Dozify lädt diese Daten nie hoch. Sie verlassen dein Gerät nur, wenn du sie ausdrücklich exportierst (zum Beispiel indem du einen PDF-Bericht erstellst und ihn per E-Mail oder über eine App deiner Wahl teilst) oder wenn dein eigenes iPhone- oder iCloud-Backup die App einschließt. Löschst du die App, verschwinden die Daten auf diesem Handy. Exportierte Dateien, alles, was du in Apple Health geschrieben hast, und deine eigenen iPhone-Backups sind davon getrennt."
         },
         {
           "t": "p",
@@ -78,8 +78,7 @@
           "v": [
             "Benachrichtigungen: für Dosiserinnerungen und Hinweise zum Ablauf von Durchstechflaschen. Sie werden auf deinem Gerät geplant; du kannst sie jederzeit in den Geräteeinstellungen abschalten.",
             "Kamera und Fotomediathek (optional): nur wenn du ein Fortschrittsfoto anhängst (es bleibt auf deinem Gerät) oder eine Mahlzeit für die optionale KI-Analyse fotografierst (Abschnitt 5).",
-            "Apple Health (optional): nur wenn du die Gewichtssynchronisierung in den Einstellungen aktivierst. Dozify liest und schreibt dann dein Gewicht, damit es mit deinen anderen Health-Apps übereinstimmt.",
-            "Speicher (nur Android): um die PDF-Berichte zu sichern, die du erstellst."
+            "Apple Health (optional): nur die Kategorien, die du einschaltest. Dozify kann Gewicht, Körperfettanteil und Menstruationsblutung lesen; die Blutung wird nur auf dem Gerät verwendet. Gewicht schreibt es nur, wenn du das separat aktivierst."
           ]
         },
         {
@@ -104,7 +103,7 @@
         },
         {
           "t": "p",
-          "v": "Die App nutzt RevenueCat zur Verwaltung von Abonnements. RevenueCat erhält eine anonyme Nutzerkennung und den Status deines Kaufs; Zahlungen selbst werden von Apple beziehungsweise Google abgewickelt, und wir sehen deine Zahlungsdaten nie."
+          "v": "Die App nutzt RevenueCat zur Verwaltung von Abonnements. RevenueCat erhält eine anonyme Nutzerkennung und den Status deines Kaufs; Zahlungen selbst werden von Apple abgewickelt, und wir sehen deine Zahlungsdaten nie."
         },
         {
           "t": "p",
@@ -112,7 +111,7 @@
         },
         {
           "t": "p",
-          "v": "Diese Website (dozify.app), unabhängig von der App, lädt ein Google-Ads-Conversion-Tag. Es erfasst genau eine Sache: dass ein Besucher auf eine Schaltfläche für den App Store oder Google Play geklickt hat, und auf welcher Seite. Es ist nur zur Messung eingerichtet: Anzeigenpersonalisierung und Google-Signale sind deaktiviert, dein Besuch wird also keinem Werbe-Interessenprofil hinzugefügt, und keine Gesundheitsinformation, die du hier liest oder eingibst, wird an Google gesendet. Die App selbst verwendet dieses Tag nicht."
+          "v": "Diese Website (dozify.app), unabhängig von der App, lädt ein Google-Ads-Conversion-Tag. Es erfasst genau eine Sache: dass ein Besucher auf eine Schaltfläche für den App Store geklickt hat, und auf welcher Seite. Es ist nur zur Messung eingerichtet: Anzeigenpersonalisierung und Google-Signale sind deaktiviert, dein Besuch wird also keinem Werbe-Interessenprofil hinzugefügt, und keine Gesundheitsinformation, die du hier liest oder eingibst, wird an Google gesendet. Die App selbst verwendet dieses Tag nicht."
         },
         {
           "t": "h2",
@@ -120,7 +119,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify ist nicht für kleine Kinder: Unsere Nutzungsbedingungen setzen ein Mindestalter von 13 Jahren voraus, und die App bittet dich vor der Nutzung zu bestätigen, dass du mindestens 13 Jahre alt bist. Von Personen unter 13 Jahren erheben wir wissentlich keine Daten. In Deutschland kannst du erst ab 16 Jahren selbst in die Verarbeitung von Gesundheitsdaten einwilligen; bist du jünger, nutze die App nur mit Einwilligung eines Elternteils oder Erziehungsberechtigten. In jedem Fall bleiben deine Eingaben auf deinem Gerät: An uns werden keine personenbezogenen Daten übermittelt, und das Löschen der App entfernt alles lokal Gespeicherte."
+          "v": "Dozify ist nicht für kleine Kinder: Unsere Nutzungsbedingungen setzen ein Mindestalter von 13 Jahren voraus, und die App bittet dich vor der Nutzung zu bestätigen, dass du mindestens 13 Jahre alt bist. Von Personen unter 13 Jahren erheben wir wissentlich keine Daten. In Deutschland kannst du erst ab 16 Jahren selbst in die Verarbeitung von Gesundheitsdaten einwilligen; bist du jünger, nutze die App nur mit Einwilligung eines Elternteils oder Erziehungsberechtigten. In jedem Fall bleiben deine Eingaben auf deinem Gerät: An uns werden keine personenbezogenen Daten übermittelt, und das Löschen der App entfernt die Daten auf diesem Handy."
         },
         {
           "t": "h2",
@@ -135,7 +134,7 @@
           "v": [
             "Auskunft: Alle deine Daten sind für dich in der App einsehbar.",
             "Übertragbarkeit: Du kannst jederzeit PDF-Berichte deiner Daten erstellen.",
-            "Löschung: Über Einstellungen → Meine Daten löschen kannst du einzelne Bereiche oder alles löschen. Auch das Deinstallieren der App entfernt sämtliche lokalen Daten."
+            "Löschung: Über Einstellungen → Meine Daten löschen kannst du einzelne Bereiche oder alles löschen. Auch das Deinstallieren der App entfernt die Daten auf diesem Handy."
           ]
         },
         {
@@ -156,7 +155,7 @@
         },
         {
           "t": "p",
-          "v": "Die lokalen Daten liegen im geschützten App-Bereich deines Geräts. Wir empfehlen, einen Gerätecode, eine biometrische Sperre und die vollständige Geräteverschlüsselung zu aktivieren (auf aktuellen iOS- und Android-Geräten standardmäßig eingeschaltet)."
+          "v": "Die lokalen Daten liegen im geschützten App-Bereich deines Geräts. Wir empfehlen, einen Gerätecode, eine biometrische Sperre und die vollständige Geräteverschlüsselung zu aktivieren (auf aktuellen iOS-Geräten standardmäßig eingeschaltet)."
         },
         {
           "t": "h2",
@@ -179,7 +178,7 @@
     "terms": {
       "title": "Nutzungsbedingungen",
       "description": "Die Nutzungsbedingungen für die App Dozify, einschließlich der Bedingungen für das Abonnement Dozify Premium.",
-      "updated": "Zuletzt aktualisiert: 2. November 2026",
+      "updated": "Zuletzt aktualisiert: 5. November 2026",
       "blocks": [
         {
           "t": "note",
@@ -243,7 +242,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify bietet ein optionales, sich automatisch verlängerndes Abonnement an („Dozify Premium“, monatlich oder jährlich), das zusätzliche Funktionen freischaltet, darunter KI-Analysen von Essensfotos nach der ersten, ein zweites aktives Medikament, die Kurve des geschätzten Wirkstoffspiegels, Verlaufsdiagramme und die Gewichtsprognose, Berichte für den Arztbesuch, die Verwaltung von Durchstechflaschen und neue Fortschrittsfotos. Abonnements können einen kostenlosen Testzeitraum enthalten, der beim Kauf angezeigt wird. Die Zahlung wird bei Bestätigung des Kaufs deiner Apple-ID oder deinem Google-Konto belastet. Abonnements verlängern sich automatisch um denselben Zeitraum zum beim Kauf angezeigten Preis, sofern die automatische Verlängerung nicht mindestens 24 Stunden vor Ende des laufenden Zeitraums abgeschaltet wird. Du kannst dein Abonnement jederzeit in den Einstellungen deiner Apple-ID oder deines Google-Play-Kontos verwalten oder kündigen; eine Kündigung erstattet den laufenden Zeitraum nicht. Alle Käufe in der App und alle Abonnements werden von Apple oder Google abgewickelt und unterliegen deren jeweiligen Bedingungen."
+          "v": "Dozify bietet ein optionales, sich automatisch verlängerndes Abonnement an („Dozify Premium“, monatlich oder jährlich), das zusätzliche Funktionen freischaltet, darunter KI-Analysen von Essensfotos nach der ersten, ein zweites aktives Medikament, die Kurve des geschätzten Wirkstoffspiegels, Verlaufsdiagramme und die Gewichtsprognose, Berichte für den Arztbesuch, die Verwaltung von Durchstechflaschen und neue Fortschrittsfotos. Abonnements können einen kostenlosen Testzeitraum enthalten, der beim Kauf angezeigt wird. Die Zahlung wird bei Bestätigung des Kaufs deiner Apple-ID belastet. Abonnements verlängern sich automatisch um denselben Zeitraum zum beim Kauf angezeigten Preis, sofern die automatische Verlängerung nicht mindestens 24 Stunden vor Ende des laufenden Zeitraums abgeschaltet wird. Du kannst dein Abonnement jederzeit in den Einstellungen deiner Apple-ID verwalten oder kündigen; eine Kündigung erstattet den laufenden Zeitraum nicht. Alle Käufe in der App und alle Abonnements werden von Apple abgewickelt und unterliegen den Bedingungen von Apple."
         },
         {
           "t": "h2",
@@ -284,7 +283,7 @@
     "privacy": {
       "title": "Politique de confidentialité",
       "description": "Comment Dozify traite tes données : tes données de santé restent sur ton appareil et ne sont pas envoyées à nos serveurs.",
-      "updated": "Dernière mise à jour : 2 novembre 2026 · En vigueur depuis le 2 novembre 2026",
+      "updated": "Dernière mise à jour : 5 novembre 2026 · En vigueur depuis le 2 novembre 2026",
       "blocks": [
         {
           "t": "h2",
@@ -329,7 +328,7 @@
         },
         {
           "t": "p",
-          "v": "L'App enregistre les informations suivantes uniquement sur ton appareil, dans une base de données SQLite locale et dans le stockage système chiffré :"
+          "v": "L'App enregistre les informations suivantes uniquement sur ton appareil, dans une base de données locale, dans le bac à sable protégé de l'app :"
         },
         {
           "t": "ul",
@@ -344,7 +343,7 @@
         },
         {
           "t": "p",
-          "v": "Ces données ne quittent jamais ton appareil, sauf si tu les exportes toi-même (par exemple en générant un rapport PDF et en le partageant par e-mail ou via une autre app de ton choix). Supprimer l'App efface définitivement toutes les données."
+          "v": "Dozify n'envoie jamais ces données en ligne. Elles ne quittent ton appareil que si tu les exportes toi-même (par exemple en générant un rapport PDF et en le partageant par e-mail ou via une autre app de ton choix) ou si ta propre sauvegarde iPhone ou iCloud inclut l'App. Supprime l'App et les données de ce téléphone partent avec elle. Les fichiers que tu as exportés, tout ce que tu as écrit dans Apple Santé et tes propres sauvegardes iPhone sont distincts."
         },
         {
           "t": "p",
@@ -359,8 +358,7 @@
           "v": [
             "Notifications : pour les rappels de dose et les alertes de péremption des flacons. Elles sont programmées sur ton appareil ; tu peux les désactiver à tout moment dans les réglages de l'appareil.",
             "Appareil photo et photothèque (facultatif) : seulement si tu joins une photo de progression (gardée sur ton appareil) ou photographies un repas pour l'analyse IA facultative (section 5).",
-            "Apple Santé (facultatif) : uniquement si tu actives la synchronisation du poids dans les réglages. Dozify lit et écrit alors ton poids pour qu'il reste cohérent avec tes autres apps Santé.",
-            "Stockage (Android uniquement) : pour enregistrer les rapports PDF que tu génères."
+            "Apple Santé (facultatif) : uniquement les catégories que tu actives. Dozify peut lire le poids, le pourcentage de masse grasse et le flux menstruel ; le flux est utilisé uniquement sur l'appareil. Il n'écrit le poids que si tu l'actives séparément."
           ]
         },
         {
@@ -385,7 +383,7 @@
         },
         {
           "t": "p",
-          "v": "L'App utilise RevenueCat pour gérer les abonnements. RevenueCat reçoit un identifiant utilisateur anonyme et l'état de ton achat ; les paiements eux-mêmes sont traités par Apple ou Google, et nous ne voyons jamais tes informations de paiement."
+          "v": "L'App utilise RevenueCat pour gérer les abonnements. RevenueCat reçoit un identifiant utilisateur anonyme et l'état de ton achat ; les paiements eux-mêmes sont traités par Apple, et nous ne voyons jamais tes informations de paiement."
         },
         {
           "t": "p",
@@ -393,7 +391,7 @@
         },
         {
           "t": "p",
-          "v": "Ce site web (dozify.app), distinct de l'App, charge une balise de conversion Google Ads. Elle enregistre une seule chose : qu'un visiteur a cliqué sur un bouton App Store ou Google Play, et sur quelle page. Elle est configurée uniquement pour la mesure : la personnalisation des annonces et les signaux Google sont désactivés, ta visite n'est donc ajoutée à aucun profil d'intérêts publicitaires, et aucune information de santé que tu lis ou saisis ici n'est envoyée à Google. L'App elle-même n'utilise pas cette balise."
+          "v": "Ce site web (dozify.app), distinct de l'App, charge une balise de conversion Google Ads. Elle enregistre une seule chose : qu'un visiteur a cliqué sur un bouton App Store, et sur quelle page. Elle est configurée uniquement pour la mesure : la personnalisation des annonces et les signaux Google sont désactivés, ta visite n'est donc ajoutée à aucun profil d'intérêts publicitaires, et aucune information de santé que tu lis ou saisis ici n'est envoyée à Google. L'App elle-même n'utilise pas cette balise."
         },
         {
           "t": "h2",
@@ -401,7 +399,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify n'est pas destinée aux jeunes enfants : nos conditions d'utilisation exigent d'avoir au moins 13 ans, et l'App te demande de confirmer que tu as au moins 13 ans avant de pouvoir l'utiliser. Nous ne collectons sciemment aucune donnée concernant les personnes de moins de 13 ans. En France, tu ne peux consentir seul au traitement de données de santé qu'à partir de 15 ans ; en dessous de cet âge, utilise l'App uniquement avec le consentement d'un parent ou tuteur. Dans tous les cas, tes saisies restent sur ton appareil : aucune donnée personnelle ne nous est transmise, et supprimer l'App efface tout ce qui est stocké localement."
+          "v": "Dozify n'est pas destinée aux jeunes enfants : nos conditions d'utilisation exigent d'avoir au moins 13 ans, et l'App te demande de confirmer que tu as au moins 13 ans avant de pouvoir l'utiliser. Nous ne collectons sciemment aucune donnée concernant les personnes de moins de 13 ans. En France, tu ne peux consentir seul au traitement de données de santé qu'à partir de 15 ans ; en dessous de cet âge, utilise l'App uniquement avec le consentement d'un parent ou tuteur. Dans tous les cas, tes saisies restent sur ton appareil : aucune donnée personnelle ne nous est transmise, et supprimer l'App efface les données de ce téléphone."
         },
         {
           "t": "h2",
@@ -416,7 +414,7 @@
           "v": [
             "Accès : toutes tes données te sont visibles dans l'App.",
             "Portabilité : tu peux générer à tout moment des rapports PDF de tes données.",
-            "Effacement : via Réglages → Supprimer mes données, tu peux effacer une partie ou la totalité. Désinstaller l'App supprime également toutes les données locales."
+            "Effacement : via Réglages → Supprimer mes données, tu peux effacer une partie ou la totalité. Désinstaller l'App supprime également les données de ce téléphone."
           ]
         },
         {
@@ -437,7 +435,7 @@
         },
         {
           "t": "p",
-          "v": "Les données locales sont enregistrées dans l'espace protégé réservé à l'app sur ton appareil. Nous te recommandons d'activer un code d'accès, un verrouillage biométrique et le chiffrement complet du stockage (activé par défaut sur les appareils iOS et Android récents)."
+          "v": "Les données locales sont enregistrées dans l'espace protégé réservé à l'app sur ton appareil. Nous te recommandons d'activer un code d'accès, un verrouillage biométrique et le chiffrement complet du stockage (activé par défaut sur les appareils iOS récents)."
         },
         {
           "t": "h2",
@@ -460,7 +458,7 @@
     "terms": {
       "title": "Conditions d'utilisation",
       "description": "Les conditions d'utilisation de l'application Dozify, y compris celles de l'abonnement Dozify Premium.",
-      "updated": "Dernière mise à jour : 2 novembre 2026",
+      "updated": "Dernière mise à jour : 5 novembre 2026",
       "blocks": [
         {
           "t": "note",
@@ -524,7 +522,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify propose un abonnement facultatif à renouvellement automatique (« Dozify Premium », en formule mensuelle ou annuelle) qui débloque des fonctionnalités supplémentaires : analyses IA de photos de repas après la première, un deuxième médicament actif, la courbe du niveau estimé du médicament, les courbes de tendance et la projection du poids, les rapports pour la consultation, la gestion des flacons et l'ajout de photos de progression. Les abonnements peuvent inclure une période d'essai gratuite, indiquée au moment de l'achat. Le paiement est débité de ton compte Apple ou Google à la confirmation de l'achat. Les abonnements se renouvellent automatiquement pour la même durée et au prix indiqué lors de l'achat, sauf si le renouvellement automatique est désactivé au moins 24 heures avant la fin de la période en cours. Tu peux gérer ou résilier ton abonnement à tout moment dans les réglages de ton compte Apple ou Google Play ; la résiliation ne donne pas lieu au remboursement de la période en cours. Tous les achats intégrés et les abonnements sont traités par Apple ou Google et relèvent de leurs conditions respectives."
+          "v": "Dozify propose un abonnement facultatif à renouvellement automatique (« Dozify Premium », en formule mensuelle ou annuelle) qui débloque des fonctionnalités supplémentaires : analyses IA de photos de repas après la première, un deuxième médicament actif, la courbe du niveau estimé du médicament, les courbes de tendance et la projection du poids, les rapports pour la consultation, la gestion des flacons et l'ajout de photos de progression. Les abonnements peuvent inclure une période d'essai gratuite, indiquée au moment de l'achat. Le paiement est débité de ton identifiant Apple à la confirmation de l'achat. Les abonnements se renouvellent automatiquement pour la même durée et au prix indiqué lors de l'achat, sauf si le renouvellement automatique est désactivé au moins 24 heures avant la fin de la période en cours. Tu peux gérer ou résilier ton abonnement à tout moment dans les réglages de ton identifiant Apple ; la résiliation ne donne pas lieu au remboursement de la période en cours. Tous les achats intégrés et les abonnements sont traités par Apple et relèvent des conditions d'Apple."
         },
         {
           "t": "h2",
@@ -565,7 +563,7 @@
     "privacy": {
       "title": "Política de privacidad",
       "description": "Cómo trata Dozify tus datos: tus datos de salud se quedan en tu dispositivo y no se envían a nuestros servidores.",
-      "updated": "Última actualización: 2 de noviembre de 2026 · En vigor desde el 2 de noviembre de 2026",
+      "updated": "Última actualización: 5 de noviembre de 2026 · En vigor desde el 2 de noviembre de 2026",
       "blocks": [
         {
           "t": "h2",
@@ -610,7 +608,7 @@
         },
         {
           "t": "p",
-          "v": "La App guarda la siguiente información únicamente en tu dispositivo, en una base de datos SQLite local y en el almacenamiento cifrado del sistema:"
+          "v": "La App guarda la siguiente información únicamente en tu dispositivo, en una base de datos local dentro del sandbox protegido de la app:"
         },
         {
           "t": "ul",
@@ -625,7 +623,7 @@
         },
         {
           "t": "p",
-          "v": "Estos datos nunca salen de tu dispositivo salvo que los exportes tú mismo (por ejemplo, generando un informe PDF y compartiéndolo por correo o mediante otra app que elijas). Si eliminas la App, todos los datos se borran de forma permanente."
+          "v": "Dozify nunca sube estos datos. Solo salen de tu dispositivo si los exportas tú mismo (por ejemplo, generando un informe PDF y compartiéndolo por correo o mediante otra app que elijas) o si tu propia copia de seguridad de iPhone o iCloud incluye la App. Si borras la App, los registros de este móvil se van con ella. Los archivos que exportaste, todo lo que escribiste en Apple Salud y tus propias copias de seguridad del iPhone son aparte."
         },
         {
           "t": "p",
@@ -640,8 +638,7 @@
           "v": [
             "Notificaciones: para recordatorios de dosis y avisos de caducidad de viales. Se programan en tu dispositivo; puedes desactivarlas cuando quieras en los ajustes del dispositivo.",
             "Cámara y fototeca (opcional): solo si adjuntas una foto de progreso (se guarda en tu dispositivo) o fotografías una comida para el análisis opcional con IA (sección 5).",
-            "Apple Salud (opcional): solo si activas la sincronización del peso en los ajustes. Dozify lee y escribe tu peso para que coincida con tus otras apps de Salud.",
-            "Almacenamiento (solo Android): para guardar los informes PDF que generas."
+            "Apple Salud (opcional): solo las categorías que actives. Dozify puede leer el peso, el porcentaje de grasa corporal y el flujo menstrual; el flujo solo se usa en el dispositivo. Solo escribe el peso si lo activas por separado."
           ]
         },
         {
@@ -666,7 +663,7 @@
         },
         {
           "t": "p",
-          "v": "La App usa RevenueCat para gestionar las suscripciones. RevenueCat recibe un identificador de usuario anónimo y el estado de tu compra; los pagos los procesan Apple o Google, y nosotros nunca vemos tus datos de pago."
+          "v": "La App usa RevenueCat para gestionar las suscripciones. RevenueCat recibe un identificador de usuario anónimo y el estado de tu compra; los pagos los procesa Apple, y nosotros nunca vemos tus datos de pago."
         },
         {
           "t": "p",
@@ -674,7 +671,7 @@
         },
         {
           "t": "p",
-          "v": "Este sitio web (dozify.app), independiente de la App, carga una etiqueta de conversión de Google Ads. Registra una sola cosa: que un visitante hizo clic en un botón de App Store o Google Play, y en qué página. Está configurada solo para medición: la personalización de anuncios y las señales de Google están desactivadas, así que tu visita no se añade a ningún perfil de intereses publicitarios, y ninguna información de salud que leas o introduzcas aquí se envía a Google. La App en sí no usa esta etiqueta."
+          "v": "Este sitio web (dozify.app), independiente de la App, carga una etiqueta de conversión de Google Ads. Registra una sola cosa: que un visitante hizo clic en un botón de App Store, y en qué página. Está configurada solo para medición: la personalización de anuncios y las señales de Google están desactivadas, así que tu visita no se añade a ningún perfil de intereses publicitarios, y ninguna información de salud que leas o introduzcas aquí se envía a Google. La App en sí no usa esta etiqueta."
         },
         {
           "t": "h2",
@@ -682,7 +679,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify no es para niños pequeños: nuestras condiciones del servicio exigen tener al menos 13 años, y la App te pide confirmar que tienes al menos 13 años antes de poder usarla. No recogemos conscientemente datos de menores de 13 años. En España solo puedes consentir por ti mismo el tratamiento de datos de salud a partir de los 14 años; por debajo de esa edad, usa la App únicamente con el consentimiento de un padre, madre o tutor. En todo caso tus datos permanecen en tu dispositivo: no se nos transmite ningún dato personal, y eliminar la App borra todo lo guardado localmente."
+          "v": "Dozify no es para niños pequeños: nuestras condiciones del servicio exigen tener al menos 13 años, y la App te pide confirmar que tienes al menos 13 años antes de poder usarla. No recogemos conscientemente datos de menores de 13 años. En España solo puedes consentir por ti mismo el tratamiento de datos de salud a partir de los 14 años; por debajo de esa edad, usa la App únicamente con el consentimiento de un padre, madre o tutor. En todo caso tus datos permanecen en tu dispositivo: no se nos transmite ningún dato personal, y eliminar la App borra los registros de este móvil."
         },
         {
           "t": "h2",
@@ -697,7 +694,7 @@
           "v": [
             "Acceso: todos tus datos están visibles para ti dentro de la App.",
             "Portabilidad: puedes generar informes PDF de tus datos cuando quieras.",
-            "Supresión: en Ajustes → Eliminar mis datos puedes borrar parte o todo. Desinstalar la App también elimina todos los datos locales."
+            "Supresión: en Ajustes → Eliminar mis datos puedes borrar parte o todo. Desinstalar la App también elimina los registros de este móvil."
           ]
         },
         {
@@ -718,7 +715,7 @@
         },
         {
           "t": "p",
-          "v": "Los datos locales se guardan en el espacio protegido que el dispositivo reserva a la app. Te recomendamos activar un código de acceso, el bloqueo biométrico y el cifrado completo del almacenamiento (activado por defecto en los dispositivos iOS y Android actuales)."
+          "v": "Los datos locales se guardan en el espacio protegido que el dispositivo reserva a la app. Te recomendamos activar un código de acceso, el bloqueo biométrico y el cifrado completo del almacenamiento (activado por defecto en los dispositivos iOS actuales)."
         },
         {
           "t": "h2",
@@ -741,7 +738,7 @@
     "terms": {
       "title": "Condiciones del servicio",
       "description": "Las condiciones de uso de la aplicación Dozify, incluidas las de la suscripción Dozify Premium.",
-      "updated": "Última actualización: 2 de noviembre de 2026",
+      "updated": "Última actualización: 5 de noviembre de 2026",
       "blocks": [
         {
           "t": "note",
@@ -805,7 +802,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify ofrece una suscripción opcional de renovación automática («Dozify Premium», en modalidad mensual o anual) que desbloquea funciones adicionales como los análisis con IA de fotos de comida después del primero, un segundo medicamento activo, la curva del nivel estimado del medicamento, los gráficos de tendencia y la proyección del peso, los informes para la consulta médica, la gestión de viales y nuevas fotos de progreso. Las suscripciones pueden incluir un periodo de prueba gratuito, que se indica en el momento de la compra. El pago se carga en tu cuenta de Apple o de Google al confirmar la compra. Las suscripciones se renuevan automáticamente por el mismo periodo y al precio indicado en la compra, salvo que se desactive la renovación automática al menos 24 horas antes de que termine el periodo en curso. Puedes gestionar o cancelar tu suscripción cuando quieras en los ajustes de tu cuenta de Apple o de Google Play; cancelar no da derecho al reembolso del periodo en curso. Todas las compras dentro de la app y las suscripciones las procesan Apple o Google y se rigen por sus respectivas condiciones."
+          "v": "Dozify ofrece una suscripción opcional de renovación automática («Dozify Premium», en modalidad mensual o anual) que desbloquea funciones adicionales como los análisis con IA de fotos de comida después del primero, un segundo medicamento activo, la curva del nivel estimado del medicamento, los gráficos de tendencia y la proyección del peso, los informes para la consulta médica, la gestión de viales y nuevas fotos de progreso. Las suscripciones pueden incluir un periodo de prueba gratuito, que se indica en el momento de la compra. El pago se carga en tu ID de Apple al confirmar la compra. Las suscripciones se renuevan automáticamente por el mismo periodo y al precio indicado en la compra, salvo que se desactive la renovación automática al menos 24 horas antes de que termine el periodo en curso. Puedes gestionar o cancelar tu suscripción cuando quieras en los ajustes de tu ID de Apple; cancelar no da derecho al reembolso del periodo en curso. Todas las compras dentro de la app y las suscripciones las procesa Apple y se rigen por las condiciones de Apple."
         },
         {
           "t": "h2",
@@ -846,7 +843,7 @@
     "privacy": {
       "title": "Informativa sulla privacy",
       "description": "Come Dozify tratta i tuoi dati: i dati sanitari restano sul tuo dispositivo e non vengono inviati ai nostri server.",
-      "updated": "Ultimo aggiornamento: 2 novembre 2026 · In vigore dal 2 novembre 2026",
+      "updated": "Ultimo aggiornamento: 5 novembre 2026 · In vigore dal 2 novembre 2026",
       "blocks": [
         {
           "t": "h2",
@@ -891,7 +888,7 @@
         },
         {
           "t": "p",
-          "v": "L'App salva le informazioni seguenti solo sul tuo dispositivo, in un database SQLite locale e nell'archivio cifrato del sistema:"
+          "v": "L'App salva le informazioni seguenti solo sul tuo dispositivo, in un database locale nella sandbox protetta dell'app:"
         },
         {
           "t": "ul",
@@ -906,7 +903,7 @@
         },
         {
           "t": "p",
-          "v": "Questi dati non lasciano mai il tuo dispositivo, a meno che non sia tu a esportarli (per esempio generando un referto PDF e condividendolo per e-mail o tramite un'altra app che scegli). Se disinstalli l'App, tutti i dati vengono cancellati definitivamente."
+          "v": "Dozify non carica mai questi dati online. Lasciano il tuo dispositivo solo se sei tu a esportarli (per esempio generando un referto PDF e condividendolo per e-mail o tramite un'altra app che scegli) o se il backup del tuo iPhone o iCloud include l'App. Elimini l'App e i dati su questo telefono se ne vanno con lei. I file che hai esportato, ciò che hai scritto in Apple Salute e i tuoi backup dell'iPhone sono separati."
         },
         {
           "t": "p",
@@ -921,8 +918,7 @@
           "v": [
             "Notifiche: per i promemoria delle dosi e gli avvisi di scadenza dei flaconi. Sono programmate sul tuo dispositivo; puoi disattivarle in qualsiasi momento nelle impostazioni del dispositivo.",
             "Fotocamera e libreria foto (facoltative): solo se alleghi una foto dei progressi (resta sul tuo dispositivo) o fotografi un pasto per l'analisi IA facoltativa (sezione 5).",
-            "Apple Salute (facoltativo): solo se attivi la sincronizzazione del peso nelle impostazioni. Dozify legge e scrive il tuo peso perché coincida con le altre app di Salute.",
-            "Archiviazione (solo Android): per salvare i referti PDF che generi."
+            "Apple Salute (facoltativo): solo le categorie che attivi. Dozify può leggere peso, percentuale di grasso corporeo e flusso mestruale; il flusso viene usato solo sul dispositivo. Scrive il peso solo se attivi questa opzione separatamente."
           ]
         },
         {
@@ -947,7 +943,7 @@
         },
         {
           "t": "p",
-          "v": "L'App usa RevenueCat per gestire gli abbonamenti. RevenueCat riceve un identificativo utente anonimo e lo stato del tuo acquisto; i pagamenti sono gestiti da Apple o da Google, e noi non vediamo mai i tuoi dati di pagamento."
+          "v": "L'App usa RevenueCat per gestire gli abbonamenti. RevenueCat riceve un identificativo utente anonimo e lo stato del tuo acquisto; i pagamenti sono gestiti da Apple, e noi non vediamo mai i tuoi dati di pagamento."
         },
         {
           "t": "p",
@@ -955,7 +951,7 @@
         },
         {
           "t": "p",
-          "v": "Questo sito web (dozify.app), separato dall'App, carica un tag di conversione di Google Ads. Registra una sola cosa: che un visitatore ha fatto clic su un pulsante App Store o Google Play, e su quale pagina. È configurato solo per la misurazione: la personalizzazione degli annunci e gli indicatori Google sono disattivati, quindi la tua visita non viene aggiunta a nessun profilo di interessi pubblicitari, e nessuna informazione sulla salute che leggi o inserisci qui viene inviata a Google. L'App stessa non usa questo tag."
+          "v": "Questo sito web (dozify.app), separato dall'App, carica un tag di conversione di Google Ads. Registra una sola cosa: che un visitatore ha fatto clic su un pulsante App Store, e su quale pagina. È configurato solo per la misurazione: la personalizzazione degli annunci e gli indicatori Google sono disattivati, quindi la tua visita non viene aggiunta a nessun profilo di interessi pubblicitari, e nessuna informazione sulla salute che leggi o inserisci qui viene inviata a Google. L'App stessa non usa questo tag."
         },
         {
           "t": "h2",
@@ -963,7 +959,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify non è per i bambini piccoli: le nostre condizioni del servizio richiedono di avere almeno 13 anni, e l'App ti chiede di confermare di avere almeno 13 anni prima di poterla usare. Non raccogliamo consapevolmente dati di minori di 13 anni. In Italia puoi acconsentire da solo al trattamento dei dati sanitari a partire dai 14 anni; se sei più giovane, usa l'App soltanto con il consenso di un genitore o di chi esercita la responsabilità genitoriale. In ogni caso i tuoi dati restano sul tuo dispositivo: a noi non viene trasmesso alcun dato personale, e disinstallare l'App cancella tutto ciò che è salvato localmente."
+          "v": "Dozify non è per i bambini piccoli: le nostre condizioni del servizio richiedono di avere almeno 13 anni, e l'App ti chiede di confermare di avere almeno 13 anni prima di poterla usare. Non raccogliamo consapevolmente dati di minori di 13 anni. In Italia puoi acconsentire da solo al trattamento dei dati sanitari a partire dai 14 anni; se sei più giovane, usa l'App soltanto con il consenso di un genitore o di chi esercita la responsabilità genitoriale. In ogni caso i tuoi dati restano sul tuo dispositivo: a noi non viene trasmesso alcun dato personale, e disinstallare l'App cancella i dati su questo telefono."
         },
         {
           "t": "h2",
@@ -978,7 +974,7 @@
           "v": [
             "Accesso: tutti i tuoi dati sono visibili all'interno dell'App.",
             "Portabilità: puoi generare referti PDF dei tuoi dati quando vuoi.",
-            "Cancellazione: in Impostazioni → Elimina i miei dati puoi cancellarne una parte o tutti. Anche disinstallare l'App elimina tutti i dati locali."
+            "Cancellazione: in Impostazioni → Elimina i miei dati puoi cancellarne una parte o tutti. Anche disinstallare l'App elimina i dati su questo telefono."
           ]
         },
         {
@@ -999,7 +995,7 @@
         },
         {
           "t": "p",
-          "v": "I dati locali sono salvati nello spazio protetto che il dispositivo riserva all'app. Ti consigliamo di attivare un codice di sblocco, il blocco biometrico e la cifratura completa dell'archivio (attiva per impostazione predefinita sui dispositivi iOS e Android attuali)."
+          "v": "I dati locali sono salvati nello spazio protetto che il dispositivo riserva all'app. Ti consigliamo di attivare un codice di sblocco, il blocco biometrico e la cifratura completa dell'archivio (attiva per impostazione predefinita sui dispositivi iOS attuali)."
         },
         {
           "t": "h2",
@@ -1022,7 +1018,7 @@
     "terms": {
       "title": "Condizioni del servizio",
       "description": "Le condizioni d'uso dell'app Dozify, incluse quelle dell'abbonamento Dozify Premium.",
-      "updated": "Ultimo aggiornamento: 2 novembre 2026",
+      "updated": "Ultimo aggiornamento: 5 novembre 2026",
       "blocks": [
         {
           "t": "note",
@@ -1086,7 +1082,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify offre un abbonamento facoltativo a rinnovo automatico («Dozify Premium», con formula mensile o annuale) che sblocca funzioni aggiuntive come le analisi IA delle foto dei pasti dopo la prima, un secondo farmaco attivo, la curva del livello stimato del farmaco, i grafici di tendenza e la proiezione del peso, i referti per la visita medica, la gestione dei flaconi e nuove foto dei progressi. Gli abbonamenti possono includere un periodo di prova gratuito, indicato al momento dell'acquisto. Il pagamento viene addebitato sul tuo account Apple o Google alla conferma dell'acquisto. Gli abbonamenti si rinnovano automaticamente per lo stesso periodo e al prezzo indicato all'acquisto, salvo disattivazione del rinnovo automatico almeno 24 ore prima della fine del periodo in corso. Puoi gestire o disdire il tuo abbonamento quando vuoi nelle impostazioni del tuo account Apple o Google Play; la disdetta non dà diritto al rimborso del periodo in corso. Tutti gli acquisti in-app e gli abbonamenti sono gestiti da Apple o da Google e sono soggetti alle rispettive condizioni."
+          "v": "Dozify offre un abbonamento facoltativo a rinnovo automatico («Dozify Premium», con formula mensile o annuale) che sblocca funzioni aggiuntive come le analisi IA delle foto dei pasti dopo la prima, un secondo farmaco attivo, la curva del livello stimato del farmaco, i grafici di tendenza e la proiezione del peso, i referti per la visita medica, la gestione dei flaconi e nuove foto dei progressi. Gli abbonamenti possono includere un periodo di prova gratuito, indicato al momento dell'acquisto. Il pagamento viene addebitato sul tuo ID Apple alla conferma dell'acquisto. Gli abbonamenti si rinnovano automaticamente per lo stesso periodo e al prezzo indicato all'acquisto, salvo disattivazione del rinnovo automatico almeno 24 ore prima della fine del periodo in corso. Puoi gestire o disdire il tuo abbonamento quando vuoi nelle impostazioni del tuo ID Apple; la disdetta non dà diritto al rimborso del periodo in corso. Tutti gli acquisti in-app e gli abbonamenti sono gestiti da Apple e sono soggetti alle condizioni di Apple."
         },
         {
           "t": "h2",
@@ -1127,7 +1123,7 @@
     "privacy": {
       "title": "Política de privacidade",
       "description": "Como o Dozify trata seus dados: seus dados de saúde ficam no seu dispositivo e não são enviados aos nossos servidores.",
-      "updated": "Última atualização: 2 de novembro de 2026 · Em vigor desde 2 de novembro de 2026",
+      "updated": "Última atualização: 5 de novembro de 2026 · Em vigor desde 2 de novembro de 2026",
       "blocks": [
         {
           "t": "h2",
@@ -1172,7 +1168,7 @@
         },
         {
           "t": "p",
-          "v": "O App guarda as informações a seguir apenas no seu dispositivo, em um banco de dados SQLite local e no armazenamento criptografado do sistema:"
+          "v": "O App guarda as informações a seguir apenas no seu dispositivo, em um banco de dados local na sandbox protegida do app:"
         },
         {
           "t": "ul",
@@ -1187,7 +1183,7 @@
         },
         {
           "t": "p",
-          "v": "Esses dados nunca saem do seu dispositivo, a menos que você mesmo os exporte (por exemplo, gerando um relatório em PDF e compartilhando por e-mail ou por outro app que você escolher). Se você desinstalar o App, todos os dados são apagados de forma permanente."
+          "v": "O Dozify nunca envia esses dados. Eles só saem do seu dispositivo se você mesmo os exportar (por exemplo, gerando um relatório em PDF e compartilhando por e-mail ou por outro app que você escolher) ou se o seu próprio backup do iPhone ou do iCloud incluir o App. Apague o App e os registros neste telefone vão com ele. Os arquivos que você exportou, o que você gravou no Apple Saúde e seus próprios backups do iPhone são separados."
         },
         {
           "t": "p",
@@ -1202,8 +1198,7 @@
           "v": [
             "Notificações: para lembretes de dose e avisos de validade dos frascos. Elas são agendadas no seu dispositivo; você pode desativá-las a qualquer momento nos ajustes do dispositivo.",
             "Câmera e fotos (opcional): apenas se você anexar uma foto de progresso (guardada no seu dispositivo) ou fotografar uma refeição para a análise opcional com IA (seção 5).",
-            "Apple Saúde (opcional): só se você ativar a sincronização de peso nos ajustes. O Dozify lê e grava seu peso para que ele fique igual ao dos seus outros apps de Saúde.",
-            "Armazenamento (apenas Android): para salvar os relatórios em PDF que você gera."
+            "Apple Saúde (opcional): só as categorias que você ativar. O Dozify pode ler peso, percentual de gordura corporal e fluxo menstrual; o fluxo é usado apenas no dispositivo. Ele só grava o peso se você ativar isso separadamente."
           ]
         },
         {
@@ -1228,7 +1223,7 @@
         },
         {
           "t": "p",
-          "v": "O App usa o RevenueCat para gerenciar as assinaturas. O RevenueCat recebe um identificador de usuário anônimo e o status da sua compra; os pagamentos são processados pela Apple ou pelo Google, e nós nunca vemos seus dados de pagamento."
+          "v": "O App usa o RevenueCat para gerenciar as assinaturas. O RevenueCat recebe um identificador de usuário anônimo e o status da sua compra; os pagamentos são processados pela Apple, e nós nunca vemos seus dados de pagamento."
         },
         {
           "t": "p",
@@ -1236,7 +1231,7 @@
         },
         {
           "t": "p",
-          "v": "Este site (dozify.app), separado do App, carrega uma tag de conversão do Google Ads. Ela registra uma única coisa: que um visitante clicou em um botão da App Store ou do Google Play, e em qual página. Ela está configurada apenas para medição: a personalização de anúncios e os indicadores do Google estão desativados, então sua visita não é adicionada a nenhum perfil de interesses publicitários, e nenhuma informação de saúde que você lê ou insere aqui é enviada ao Google. O App em si não usa essa tag."
+          "v": "Este site (dozify.app), separado do App, carrega uma tag de conversão do Google Ads. Ela registra uma única coisa: que um visitante clicou em um botão da App Store, e em qual página. Ela está configurada apenas para medição: a personalização de anúncios e os indicadores do Google estão desativados, então sua visita não é adicionada a nenhum perfil de interesses publicitários, e nenhuma informação de saúde que você lê ou insere aqui é enviada ao Google. O App em si não usa essa tag."
         },
         {
           "t": "h2",
@@ -1244,7 +1239,7 @@
         },
         {
           "t": "p",
-          "v": "O Dozify não é para crianças pequenas: nossos termos de serviço exigem ter pelo menos 13 anos, e o App pede que você confirme ter pelo menos 13 anos antes de poder usá-lo. Não coletamos conscientemente dados de menores de 13 anos. Em vários países é preciso ser mais velho que 13 para consentir sozinho com o tratamento de dados de saúde — no Brasil, a LGPD exige o consentimento específico de um dos pais ou do responsável legal para o tratamento de dados de crianças e adolescentes; em Portugal, o limite é 13 anos. Se você é menor de idade, use o App com o consentimento de um dos pais ou do seu responsável. Em todo caso, seus dados ficam no seu dispositivo: nenhum dado pessoal é transmitido para nós, e desinstalar o App apaga tudo o que estava guardado localmente."
+          "v": "O Dozify não é para crianças pequenas: nossos termos de serviço exigem ter pelo menos 13 anos, e o App pede que você confirme ter pelo menos 13 anos antes de poder usá-lo. Não coletamos conscientemente dados de menores de 13 anos. Em vários países é preciso ser mais velho que 13 para consentir sozinho com o tratamento de dados de saúde — no Brasil, a LGPD exige o consentimento específico de um dos pais ou do responsável legal para o tratamento de dados de crianças e adolescentes; em Portugal, o limite é 13 anos. Se você é menor de idade, use o App com o consentimento de um dos pais ou do seu responsável. Em todo caso, seus dados ficam no seu dispositivo: nenhum dado pessoal é transmitido para nós, e desinstalar o App apaga os registros neste telefone."
         },
         {
           "t": "h2",
@@ -1259,7 +1254,7 @@
           "v": [
             "Acesso: todos os seus dados ficam visíveis para você dentro do App.",
             "Portabilidade: você pode gerar relatórios em PDF dos seus dados quando quiser.",
-            "Eliminação: em Ajustes → Excluir meus dados você pode apagar parte ou tudo. Desinstalar o App também remove todos os dados locais."
+            "Eliminação: em Ajustes → Excluir meus dados você pode apagar parte ou tudo. Desinstalar o App também remove os registros neste telefone."
           ]
         },
         {
@@ -1280,7 +1275,7 @@
         },
         {
           "t": "p",
-          "v": "Os dados locais ficam no espaço protegido que o dispositivo reserva ao app. Recomendamos ativar um código de acesso, o bloqueio biométrico e a criptografia completa do armazenamento (ativada por padrão nos dispositivos iOS e Android atuais)."
+          "v": "Os dados locais ficam no espaço protegido que o dispositivo reserva ao app. Recomendamos ativar um código de acesso, o bloqueio biométrico e a criptografia completa do armazenamento (ativada por padrão nos dispositivos iOS atuais)."
         },
         {
           "t": "h2",
@@ -1303,7 +1298,7 @@
     "terms": {
       "title": "Termos de serviço",
       "description": "Os termos de uso do app Dozify, incluindo os da assinatura Dozify Premium.",
-      "updated": "Última atualização: 2 de novembro de 2026",
+      "updated": "Última atualização: 5 de novembro de 2026",
       "blocks": [
         {
           "t": "note",
@@ -1367,7 +1362,7 @@
         },
         {
           "t": "p",
-          "v": "O Dozify oferece uma assinatura opcional de renovação automática («Dozify Premium», nas modalidades mensal ou anual) que libera recursos adicionais como análises de fotos de refeição com IA depois da primeira, um segundo medicamento ativo, a curva do nível estimado do medicamento, gráficos de tendência e projeção de peso, relatórios para a consulta médica, gerenciamento de frascos e novas fotos de progresso. As assinaturas podem incluir um período de teste gratuito, informado no momento da compra. O pagamento é cobrado na sua conta Apple ou Google ao confirmar a compra. As assinaturas se renovam automaticamente pelo mesmo período e pelo preço informado na compra, a menos que a renovação automática seja desativada pelo menos 24 horas antes do fim do período em curso. Você pode gerenciar ou cancelar sua assinatura quando quiser nos ajustes da sua conta Apple ou Google Play; o cancelamento não dá direito a reembolso do período em curso. Todas as compras dentro do app e as assinaturas são processadas pela Apple ou pelo Google e seguem os termos de cada uma."
+          "v": "O Dozify oferece uma assinatura opcional de renovação automática («Dozify Premium», nas modalidades mensal ou anual) que libera recursos adicionais como análises de fotos de refeição com IA depois da primeira, um segundo medicamento ativo, a curva do nível estimado do medicamento, gráficos de tendência e projeção de peso, relatórios para a consulta médica, gerenciamento de frascos e novas fotos de progresso. As assinaturas podem incluir um período de teste gratuito, informado no momento da compra. O pagamento é cobrado no seu ID Apple ao confirmar a compra. As assinaturas se renovam automaticamente pelo mesmo período e pelo preço informado na compra, a menos que a renovação automática seja desativada pelo menos 24 horas antes do fim do período em curso. Você pode gerenciar ou cancelar sua assinatura quando quiser nos ajustes do seu ID Apple; o cancelamento não dá direito a reembolso do período em curso. Todas as compras dentro do app e as assinaturas são processadas pela Apple e seguem os termos da Apple."
         },
         {
           "t": "h2",
@@ -1408,7 +1403,7 @@
     "privacy": {
       "title": "Privacybeleid",
       "description": "Hoe Dozify met je gegevens omgaat: je gezondheidsgegevens blijven op je toestel en gaan niet naar onze servers.",
-      "updated": "Laatst bijgewerkt: 2 november 2026 · Van kracht sinds 2 november 2026",
+      "updated": "Laatst bijgewerkt: 5 november 2026 · Van kracht sinds 2 november 2026",
       "blocks": [
         {
           "t": "h2",
@@ -1453,7 +1448,7 @@
         },
         {
           "t": "p",
-          "v": "De App bewaart de volgende informatie uitsluitend op je toestel, in een lokale SQLite-database en in de versleutelde opslag van het systeem:"
+          "v": "De App bewaart de volgende informatie uitsluitend op je toestel, in een lokale database in de beschermde sandbox van de App:"
         },
         {
           "t": "ul",
@@ -1468,7 +1463,7 @@
         },
         {
           "t": "p",
-          "v": "Deze gegevens verlaten je toestel nooit, tenzij je ze zelf exporteert (bijvoorbeeld door een pdf-rapport te maken en dat per e-mail of via een andere app naar keuze te delen). Verwijder je de App, dan worden alle gegevens definitief gewist."
+          "v": "Dozify uploadt deze gegevens nooit. Ze verlaten je toestel alleen als je ze zelf exporteert (bijvoorbeeld door een pdf-rapport te maken en dat per e-mail of via een andere app naar keuze te delen) of als je eigen iPhone- of iCloud-back-up de App meeneemt. Verwijder je de App, dan verdwijnen de gegevens op deze telefoon. Geëxporteerde bestanden, alles wat je naar Apple Gezondheid hebt geschreven en je eigen iPhone-back-ups staan daar los van."
         },
         {
           "t": "p",
@@ -1483,8 +1478,7 @@
           "v": [
             "Meldingen: voor dosisherinneringen en waarschuwingen over de houdbaarheid van flacons. Ze worden op je apparaat ingepland; je kunt ze altijd uitzetten in de instellingen van je apparaat.",
             "Camera en fotobibliotheek (optioneel): alleen als je een voortgangsfoto toevoegt (die op je apparaat blijft) of een maaltijd fotografeert voor de optionele AI-analyse (sectie 5).",
-            "Apple Gezondheid (optioneel): alleen als je de gewichtssynchronisatie in de instellingen aanzet. Dozify leest en schrijft je gewicht zodat het overeenkomt met je andere Gezondheid-apps.",
-            "Opslag (alleen Android): om de pdf-rapporten te bewaren die je maakt."
+            "Apple Gezondheid (optioneel): alleen de categorieën die je aanzet. Dozify kan gewicht, lichaamsvetpercentage en menstruatiebloeding lezen; menstruatiebloeding wordt alleen op het toestel gebruikt. Het schrijft gewicht alleen als je dat apart aanzet."
           ]
         },
         {
@@ -1509,7 +1503,7 @@
         },
         {
           "t": "p",
-          "v": "De App gebruikt RevenueCat om abonnementen te beheren. RevenueCat ontvangt een anonieme gebruikersidentificator en de status van je aankoop; de betalingen worden door Apple of Google verwerkt, en wij zien je betaalgegevens nooit."
+          "v": "De App gebruikt RevenueCat om abonnementen te beheren. RevenueCat ontvangt een anonieme gebruikersidentificator en de status van je aankoop; de betalingen worden door Apple verwerkt, en wij zien je betaalgegevens nooit."
         },
         {
           "t": "p",
@@ -1517,7 +1511,7 @@
         },
         {
           "t": "p",
-          "v": "Deze website (dozify.app), los van de App, laadt een Google Ads-conversietag. Die legt één ding vast: dat een bezoeker op een knop voor de App Store of Google Play heeft geklikt, en op welke pagina. Hij is alleen voor meting ingesteld: advertentiepersonalisatie en Google-signalen staan uit, dus je bezoek wordt niet aan een advertentie-interesseprofiel toegevoegd, en geen gezondheidsinformatie die je hier leest of invoert wordt naar Google gestuurd. De App zelf gebruikt deze tag niet."
+          "v": "Deze website (dozify.app), los van de App, laadt een Google Ads-conversietag. Die legt één ding vast: dat een bezoeker op een knop voor de App Store heeft geklikt, en op welke pagina. Hij is alleen voor meting ingesteld: advertentiepersonalisatie en Google-signalen staan uit, dus je bezoek wordt niet aan een advertentie-interesseprofiel toegevoegd, en geen gezondheidsinformatie die je hier leest of invoert wordt naar Google gestuurd. De App zelf gebruikt deze tag niet."
         },
         {
           "t": "h2",
@@ -1525,7 +1519,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify is niet voor jonge kinderen: onze servicevoorwaarden vereisen dat je minstens 13 jaar bent, en de App vraagt je te bevestigen dat je minstens 13 jaar bent voordat je hem kunt gebruiken. Wij verzamelen niet bewust gegevens van personen onder de 13. In Nederland mag je pas vanaf 16 jaar zelf toestemming geven voor het verwerken van gezondheidsgegevens; in België ligt die grens op 13 jaar. Ben je jonger dan de grens die in jouw land geldt, gebruik de App dan alleen met toestemming van een ouder of voogd. In alle gevallen blijven je gegevens op je toestel: er worden geen persoonsgegevens naar ons verstuurd, en de App verwijderen wist alles wat lokaal is opgeslagen."
+          "v": "Dozify is niet voor jonge kinderen: onze servicevoorwaarden vereisen dat je minstens 13 jaar bent, en de App vraagt je te bevestigen dat je minstens 13 jaar bent voordat je hem kunt gebruiken. Wij verzamelen niet bewust gegevens van personen onder de 13. In Nederland mag je pas vanaf 16 jaar zelf toestemming geven voor het verwerken van gezondheidsgegevens; in België ligt die grens op 13 jaar. Ben je jonger dan de grens die in jouw land geldt, gebruik de App dan alleen met toestemming van een ouder of voogd. In alle gevallen blijven je gegevens op je toestel: er worden geen persoonsgegevens naar ons verstuurd, en de App verwijderen wist de gegevens op deze telefoon."
         },
         {
           "t": "h2",
@@ -1540,7 +1534,7 @@
           "v": [
             "Inzage: al je gegevens zijn voor jou zichtbaar in de App.",
             "Overdraagbaarheid: je kunt altijd pdf-rapporten van je gegevens maken.",
-            "Wissen: bij Instellingen → Mijn gegevens verwijderen kun je een deel of alles wissen. De App verwijderen wist ook alle lokale gegevens."
+            "Wissen: bij Instellingen → Mijn gegevens verwijderen kun je een deel of alles wissen. De App verwijderen wist ook de gegevens op deze telefoon."
           ]
         },
         {
@@ -1561,7 +1555,7 @@
         },
         {
           "t": "p",
-          "v": "De lokale gegevens staan in de afgeschermde ruimte die het toestel voor de app reserveert. We raden aan een toegangscode, biometrische vergrendeling en volledige schijfversleuteling aan te zetten (op recente iOS- en Android-toestellen staat die standaard aan)."
+          "v": "De lokale gegevens staan in de afgeschermde ruimte die het toestel voor de app reserveert. We raden aan een toegangscode, biometrische vergrendeling en volledige schijfversleuteling aan te zetten (op recente iOS-toestellen staat die standaard aan)."
         },
         {
           "t": "h2",
@@ -1584,7 +1578,7 @@
     "terms": {
       "title": "Servicevoorwaarden",
       "description": "De gebruiksvoorwaarden van de app Dozify, inclusief die van het Dozify Premium-abonnement.",
-      "updated": "Laatst bijgewerkt: 2 november 2026",
+      "updated": "Laatst bijgewerkt: 5 november 2026",
       "blocks": [
         {
           "t": "note",
@@ -1648,7 +1642,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify biedt een optioneel abonnement met automatische verlenging («Dozify Premium», per maand of per jaar) dat extra functies vrijgeeft, zoals AI-analyses van maaltijdfoto's na de eerste, een tweede actief medicijn, de curve van het geschatte medicijnniveau, trendgrafieken en een gewichtsprognose, rapporten voor je doktersbezoek, flaconbeheer en nieuwe voortgangsfoto's. Abonnementen kunnen een gratis proefperiode bevatten, die bij de aankoop wordt vermeld. De betaling wordt bij het bevestigen van de aankoop van je Apple- of Google-account afgeschreven. Abonnementen worden automatisch verlengd voor dezelfde periode en tegen de bij de aankoop vermelde prijs, tenzij de automatische verlenging minstens 24 uur voor het einde van de lopende periode wordt uitgezet. Je kunt je abonnement altijd beheren of opzeggen in de instellingen van je Apple- of Google Play-account; opzeggen geeft geen recht op terugbetaling van de lopende periode. Alle in-app-aankopen en abonnementen worden door Apple of Google verwerkt en vallen onder hun eigen voorwaarden."
+          "v": "Dozify biedt een optioneel abonnement met automatische verlenging («Dozify Premium», per maand of per jaar) dat extra functies vrijgeeft, zoals AI-analyses van maaltijdfoto's na de eerste, een tweede actief medicijn, de curve van het geschatte medicijnniveau, trendgrafieken en een gewichtsprognose, rapporten voor je doktersbezoek, flaconbeheer en nieuwe voortgangsfoto's. Abonnementen kunnen een gratis proefperiode bevatten, die bij de aankoop wordt vermeld. De betaling wordt bij het bevestigen van de aankoop van je Apple-account afgeschreven. Abonnementen worden automatisch verlengd voor dezelfde periode en tegen de bij de aankoop vermelde prijs, tenzij de automatische verlenging minstens 24 uur voor het einde van de lopende periode wordt uitgezet. Je kunt je abonnement altijd beheren of opzeggen in de instellingen van je Apple-account; opzeggen geeft geen recht op terugbetaling van de lopende periode. Alle in-app-aankopen en abonnementen worden door Apple verwerkt en vallen onder de voorwaarden van Apple."
         },
         {
           "t": "h2",
@@ -1689,7 +1683,7 @@
     "privacy": {
       "title": "Polityka prywatności",
       "description": "Jak Dozify postępuje z twoimi danymi: dane zdrowotne zostają na twoim urządzeniu i nie trafiają na nasze serwery.",
-      "updated": "Ostatnia aktualizacja: 2 listopada 2026 · Obowiązuje od 2 listopada 2026",
+      "updated": "Ostatnia aktualizacja: 5 listopada 2026 · Obowiązuje od 2 listopada 2026",
       "blocks": [
         {
           "t": "h2",
@@ -1734,7 +1728,7 @@
         },
         {
           "t": "p",
-          "v": "Aplikacja zapisuje poniższe informacje wyłącznie na twoim urządzeniu, w lokalnej bazie SQLite i w zaszyfrowanym magazynie systemowym:"
+          "v": "Aplikacja zapisuje poniższe informacje wyłącznie na twoim urządzeniu, w lokalnej bazie danych w chronionej piaskownicy aplikacji:"
         },
         {
           "t": "ul",
@@ -1749,7 +1743,7 @@
         },
         {
           "t": "p",
-          "v": "Te dane nigdy nie opuszczają twojego urządzenia, chyba że sam je wyeksportujesz (na przykład tworząc raport PDF i udostępniając go e-mailem albo przez inną wybraną aplikację). Jeśli usuniesz Aplikację, wszystkie dane zostaną trwale skasowane."
+          "v": "Dozify nigdy nie wysyła tych danych. Opuszczają one twoje urządzenie tylko wtedy, gdy sam je wyeksportujesz (na przykład tworząc raport PDF i udostępniając go e-mailem albo przez inną wybraną aplikację) albo gdy twoja własna kopia zapasowa iPhone'a lub iCloud obejmuje Aplikację. Usuń Aplikację, a dane na tym telefonie znikną razem z nią. Wyeksportowane pliki, wszystko, co zapisałeś w Apple Zdrowie, i twoje własne kopie zapasowe iPhone'a to osobna sprawa."
         },
         {
           "t": "p",
@@ -1764,8 +1758,7 @@
           "v": [
             "Powiadomienia: do przypomnień o dawkach i alertów o terminie ważności fiolek. Są planowane na Twoim urządzeniu; możesz je w każdej chwili wyłączyć w ustawieniach urządzenia.",
             "Aparat i biblioteka zdjęć (opcjonalnie): tylko gdy dołączasz zdjęcie postępów (zostaje na urządzeniu) lub fotografujesz posiłek do opcjonalnej analizy AI (sekcja 5).",
-            "Apple Zdrowie (opcjonalnie): tylko jeśli włączysz synchronizację wagi w ustawieniach. Dozify odczytuje i zapisuje twoją wagę, żeby zgadzała się z innymi aplikacjami Zdrowia.",
-            "Pamięć (tylko Android): żeby zapisywać tworzone przez ciebie raporty PDF."
+            "Apple Zdrowie (opcjonalnie): tylko kategorie, które włączysz. Dozify może odczytywać wagę, procent tkanki tłuszczowej i krwawienie miesiączkowe; krwawienie jest używane wyłącznie na urządzeniu. Wagę zapisuje tylko wtedy, gdy włączysz to osobno."
           ]
         },
         {
@@ -1790,7 +1783,7 @@
         },
         {
           "t": "p",
-          "v": "Aplikacja korzysta z RevenueCat do obsługi subskrypcji. RevenueCat otrzymuje anonimowy identyfikator użytkownika i status twojego zakupu; płatności obsługują Apple albo Google, a my nigdy nie widzimy twoich danych płatniczych."
+          "v": "Aplikacja korzysta z RevenueCat do obsługi subskrypcji. RevenueCat otrzymuje anonimowy identyfikator użytkownika i status twojego zakupu; płatności obsługuje Apple, a my nigdy nie widzimy twoich danych płatniczych."
         },
         {
           "t": "p",
@@ -1798,7 +1791,7 @@
         },
         {
           "t": "p",
-          "v": "Ta strona internetowa (dozify.app), niezależna od Aplikacji, wczytuje tag konwersji Google Ads. Zapisuje on jedną rzecz: że odwiedzający kliknął przycisk App Store lub Google Play, i na której stronie. Jest skonfigurowany wyłącznie do pomiaru: personalizacja reklam i sygnały Google są wyłączone, więc twoja wizyta nie trafia do żadnego profilu zainteresowań reklamowych, a żadne informacje o zdrowiu, które tu czytasz lub wpisujesz, nie są wysyłane do Google. Sama Aplikacja nie używa tego tagu."
+          "v": "Ta strona internetowa (dozify.app), niezależna od Aplikacji, wczytuje tag konwersji Google Ads. Zapisuje on jedną rzecz: że odwiedzający kliknął przycisk App Store, i na której stronie. Jest skonfigurowany wyłącznie do pomiaru: personalizacja reklam i sygnały Google są wyłączone, więc twoja wizyta nie trafia do żadnego profilu zainteresowań reklamowych, a żadne informacje o zdrowiu, które tu czytasz lub wpisujesz, nie są wysyłane do Google. Sama Aplikacja nie używa tego tagu."
         },
         {
           "t": "h2",
@@ -1806,7 +1799,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify nie jest przeznaczone dla małych dzieci: nasze warunki świadczenia usług wymagają ukończenia 13 lat, a Aplikacja prosi o potwierdzenie, że masz co najmniej 13 lat, zanim będzie można z niej korzystać. Świadomie nie zbieramy danych osób poniżej 13. roku życia. W Polsce samodzielną zgodę na przetwarzanie danych zdrowotnych można wyrazić dopiero od 16. roku życia; jeśli jesteś młodszy, korzystaj z Aplikacji wyłącznie za zgodą rodzica lub opiekuna. W każdym przypadku twoje dane zostają na twoim urządzeniu: żadne dane osobowe nie są nam przesyłane, a usunięcie Aplikacji kasuje wszystko, co zapisano lokalnie."
+          "v": "Dozify nie jest przeznaczone dla małych dzieci: nasze warunki świadczenia usług wymagają ukończenia 13 lat, a Aplikacja prosi o potwierdzenie, że masz co najmniej 13 lat, zanim będzie można z niej korzystać. Świadomie nie zbieramy danych osób poniżej 13. roku życia. W Polsce samodzielną zgodę na przetwarzanie danych zdrowotnych można wyrazić dopiero od 16. roku życia; jeśli jesteś młodszy, korzystaj z Aplikacji wyłącznie za zgodą rodzica lub opiekuna. W każdym przypadku twoje dane zostają na twoim urządzeniu: żadne dane osobowe nie są nam przesyłane, a usunięcie Aplikacji kasuje dane na tym telefonie."
         },
         {
           "t": "h2",
@@ -1821,7 +1814,7 @@
           "v": [
             "Dostęp: wszystkie twoje dane są dla ciebie widoczne wewnątrz Aplikacji.",
             "Przenoszenie: w każdej chwili możesz wygenerować raporty PDF ze swoimi danymi.",
-            "Usunięcie: w Ustawieniach → Usuń moje dane możesz skasować część albo wszystko. Odinstalowanie Aplikacji również usuwa wszystkie dane lokalne."
+            "Usunięcie: w Ustawieniach → Usuń moje dane możesz skasować część albo wszystko. Odinstalowanie Aplikacji również usuwa dane na tym telefonie."
           ]
         },
         {
@@ -1842,7 +1835,7 @@
         },
         {
           "t": "p",
-          "v": "Dane lokalne znajdują się w chronionym obszarze, który urządzenie rezerwuje dla aplikacji. Zalecamy włączenie kodu dostępu, blokady biometrycznej i pełnego szyfrowania pamięci (na obecnych urządzeniach iOS i Android jest ono włączone domyślnie)."
+          "v": "Dane lokalne znajdują się w chronionym obszarze, który urządzenie rezerwuje dla aplikacji. Zalecamy włączenie kodu dostępu, blokady biometrycznej i pełnego szyfrowania pamięci (na obecnych urządzeniach iOS jest ono włączone domyślnie)."
         },
         {
           "t": "h2",
@@ -1865,7 +1858,7 @@
     "terms": {
       "title": "Warunki świadczenia usług",
       "description": "Warunki korzystania z aplikacji Dozify, w tym z subskrypcji Dozify Premium.",
-      "updated": "Ostatnia aktualizacja: 2 listopada 2026",
+      "updated": "Ostatnia aktualizacja: 5 listopada 2026",
       "blocks": [
         {
           "t": "note",
@@ -1929,7 +1922,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify oferuje opcjonalną subskrypcję odnawialną automatycznie («Dozify Premium», w wariancie miesięcznym lub rocznym), która odblokowuje dodatkowe funkcje, takie jak analizy AI zdjęć posiłków po pierwszej, drugi aktywny lek, krzywa szacowanego poziomu leku, wykresy trendów i prognoza wagi, raporty na wizytę lekarską, zarządzanie fiolkami oraz nowe zdjęcia postępów. Subskrypcje mogą obejmować bezpłatny okres próbny, o którym informujemy przy zakupie. Płatność jest pobierana z twojego konta Apple lub Google w chwili potwierdzenia zakupu. Subskrypcje odnawiają się automatycznie na ten sam okres i po cenie podanej przy zakupie, chyba że automatyczne odnawianie zostanie wyłączone co najmniej 24 godziny przed końcem bieżącego okresu. Subskrypcją możesz zarządzać i anulować ją w każdej chwili w ustawieniach swojego konta Apple lub Google Play; anulowanie nie uprawnia do zwrotu za bieżący okres. Wszystkie zakupy w aplikacji i subskrypcje obsługują Apple lub Google i podlegają ich własnym warunkom."
+          "v": "Dozify oferuje opcjonalną subskrypcję odnawialną automatycznie («Dozify Premium», w wariancie miesięcznym lub rocznym), która odblokowuje dodatkowe funkcje, takie jak analizy AI zdjęć posiłków po pierwszej, drugi aktywny lek, krzywa szacowanego poziomu leku, wykresy trendów i prognoza wagi, raporty na wizytę lekarską, zarządzanie fiolkami oraz nowe zdjęcia postępów. Subskrypcje mogą obejmować bezpłatny okres próbny, o którym informujemy przy zakupie. Płatność jest pobierana z twojego Apple ID w chwili potwierdzenia zakupu. Subskrypcje odnawiają się automatycznie na ten sam okres i po cenie podanej przy zakupie, chyba że automatyczne odnawianie zostanie wyłączone co najmniej 24 godziny przed końcem bieżącego okresu. Subskrypcją możesz zarządzać i anulować ją w każdej chwili w ustawieniach swojego Apple ID; anulowanie nie uprawnia do zwrotu za bieżący okres. Wszystkie zakupy w aplikacji i subskrypcje obsługuje Apple i podlegają one warunkom Apple."
         },
         {
           "t": "h2",
@@ -1970,7 +1963,7 @@
     "privacy": {
       "title": "Integritetspolicy",
       "description": "Så hanterar Dozify dina uppgifter: dina hälsouppgifter stannar på din enhet och skickas inte till våra servrar.",
-      "updated": "Senast uppdaterad: 2 november 2026 · Gäller från 2 november 2026",
+      "updated": "Senast uppdaterad: 5 november 2026 · Gäller från 2 november 2026",
       "blocks": [
         {
           "t": "h2",
@@ -2015,7 +2008,7 @@
         },
         {
           "t": "p",
-          "v": "Appen sparar följande information enbart på din enhet, i en lokal SQLite-databas och i systemets krypterade lagring:"
+          "v": "Appen sparar följande information enbart på din enhet, i en lokal databas i Appens skyddade sandlåda:"
         },
         {
           "t": "ul",
@@ -2030,7 +2023,7 @@
         },
         {
           "t": "p",
-          "v": "Dessa uppgifter lämnar aldrig din enhet, om du inte själv exporterar dem (till exempel genom att skapa en PDF-rapport och dela den via e-post eller en annan app du väljer). Raderar du Appen tas alla uppgifter bort permanent."
+          "v": "Dozify laddar aldrig upp dessa uppgifter. De lämnar din enhet bara om du själv exporterar dem (till exempel genom att skapa en PDF-rapport och dela den via e-post eller en annan app du väljer) eller om din egen säkerhetskopia i iPhone eller iCloud omfattar Appen. Tar du bort Appen försvinner uppgifterna på den här telefonen. Exporterade filer, allt du har skrivit till Apple Hälsa och dina egna iPhone-säkerhetskopior är separata."
         },
         {
           "t": "p",
@@ -2045,8 +2038,7 @@
           "v": [
             "Notiser: för dospåminnelser och varningar om flaskors utgångsdatum. De schemaläggs på din enhet; du kan stänga av dem när som helst i enhetens inställningar.",
             "Kamera och bildbibliotek (valfritt): bara när du bifogar en framstegsbild (sparas på din enhet) eller fotograferar en måltid för den valfria AI-analysen (avsnitt 5).",
-            "Apple Hälsa (valfritt): bara om du slår på viktsynkroniseringen i inställningarna. Dozify läser och skriver din vikt så att den stämmer med dina andra Hälsa-appar.",
-            "Lagring (endast Android): för att spara de PDF-rapporter du skapar."
+            "Apple Hälsa (valfritt): bara de kategorier du slår på. Dozify kan läsa vikt, kroppsfettprocent och menstruationsflöde; flödet används bara på enheten. Den skriver vikt bara om du slår på det separat."
           ]
         },
         {
@@ -2071,7 +2063,7 @@
         },
         {
           "t": "p",
-          "v": "Appen använder RevenueCat för att hantera prenumerationer. RevenueCat tar emot en anonym användaridentifierare och status för ditt köp; betalningarna hanteras av Apple eller Google, och vi ser aldrig dina betaluppgifter."
+          "v": "Appen använder RevenueCat för att hantera prenumerationer. RevenueCat tar emot en anonym användaridentifierare och status för ditt köp; betalningarna hanteras av Apple, och vi ser aldrig dina betaluppgifter."
         },
         {
           "t": "p",
@@ -2079,7 +2071,7 @@
         },
         {
           "t": "p",
-          "v": "Den här webbplatsen (dozify.app), skild från Appen, laddar en konverteringstagg från Google Ads. Den registrerar en enda sak: att en besökare klickade på en knapp för App Store eller Google Play, och på vilken sida. Den är inställd enbart för mätning: annonsanpassning och Google-signaler är avstängda, så ditt besök läggs inte till någon intresseprofil för annonser, och ingen hälsoinformation som du läser eller skriver in här skickas till Google. Appen själv använder inte den här taggen."
+          "v": "Den här webbplatsen (dozify.app), skild från Appen, laddar en konverteringstagg från Google Ads. Den registrerar en enda sak: att en besökare klickade på en knapp för App Store, och på vilken sida. Den är inställd enbart för mätning: annonsanpassning och Google-signaler är avstängda, så ditt besök läggs inte till någon intresseprofil för annonser, och ingen hälsoinformation som du läser eller skriver in här skickas till Google. Appen själv använder inte den här taggen."
         },
         {
           "t": "h2",
@@ -2087,7 +2079,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify är inte till för små barn: våra användarvillkor kräver att du har fyllt 13 år, och Appen ber dig bekräfta att du har fyllt 13 år innan du kan använda den. Vi samlar inte medvetet in uppgifter om någon under 13 år. I Sverige kan du själv lämna samtycke till behandling av hälsouppgifter först från 13 års ålder, men i flera andra länder går gränsen högre — 16 år i Tyskland och Nederländerna, 15 i Frankrike. Är du under gränsen där du bor, använd Appen bara med samtycke från en vårdnadshavare. Oavsett vilket stannar dina uppgifter på din enhet: inga personuppgifter skickas till oss, och raderar du Appen försvinner allt som sparats lokalt."
+          "v": "Dozify är inte till för små barn: våra användarvillkor kräver att du har fyllt 13 år, och Appen ber dig bekräfta att du har fyllt 13 år innan du kan använda den. Vi samlar inte medvetet in uppgifter om någon under 13 år. I Sverige kan du själv lämna samtycke till behandling av hälsouppgifter först från 13 års ålder, men i flera andra länder går gränsen högre — 16 år i Tyskland och Nederländerna, 15 i Frankrike. Är du under gränsen där du bor, använd Appen bara med samtycke från en vårdnadshavare. Oavsett vilket stannar dina uppgifter på din enhet: inga personuppgifter skickas till oss, och raderar du Appen försvinner uppgifterna på den här telefonen."
         },
         {
           "t": "h2",
@@ -2102,7 +2094,7 @@
           "v": [
             "Tillgång: alla dina uppgifter är synliga för dig inne i Appen.",
             "Dataportabilitet: du kan när som helst skapa PDF-rapporter med dina uppgifter.",
-            "Radering: under Inställningar → Radera mina uppgifter kan du ta bort delar eller allt. Avinstallerar du Appen försvinner också alla lokala uppgifter."
+            "Radering: under Inställningar → Radera mina uppgifter kan du ta bort delar eller allt. Avinstallerar du Appen försvinner också uppgifterna på den här telefonen."
           ]
         },
         {
@@ -2123,7 +2115,7 @@
         },
         {
           "t": "p",
-          "v": "De lokala uppgifterna ligger i det skyddade utrymme som enheten reserverar för appen. Vi rekommenderar att du slår på en kod, biometriskt lås och full kryptering av lagringen (på dagens iOS- och Android-enheter är den påslagen som standard)."
+          "v": "De lokala uppgifterna ligger i det skyddade utrymme som enheten reserverar för appen. Vi rekommenderar att du slår på en kod, biometriskt lås och full kryptering av lagringen (på dagens iOS-enheter är den påslagen som standard)."
         },
         {
           "t": "h2",
@@ -2146,7 +2138,7 @@
     "terms": {
       "title": "Användarvillkor",
       "description": "Villkoren för att använda appen Dozify, inklusive prenumerationen Dozify Premium.",
-      "updated": "Senast uppdaterad: 2 november 2026",
+      "updated": "Senast uppdaterad: 5 november 2026",
       "blocks": [
         {
           "t": "note",
@@ -2210,7 +2202,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify erbjuder en valfri prenumeration som förnyas automatiskt («Dozify Premium», per månad eller per år) och som låser upp extra funktioner som AI-analyser av måltidsfoton efter den första, ett andra aktivt läkemedel, kurvan över uppskattad läkemedelsnivå, trenddiagram och viktprognos, rapporter inför läkarbesök, hantering av flaskor och nya framstegsbilder. Prenumerationer kan innehålla en kostnadsfri provperiod, som anges vid köpet. Betalningen dras från ditt Apple- eller Google-konto när du bekräftar köpet. Prenumerationer förnyas automatiskt för samma period och till det pris som angavs vid köpet, om inte den automatiska förnyelsen stängs av minst 24 timmar innan den pågående perioden tar slut. Du kan när som helst hantera eller säga upp din prenumeration i inställningarna för ditt Apple- eller Google Play-konto; en uppsägning ger inte rätt till återbetalning för den pågående perioden. Alla köp i appen och alla prenumerationer hanteras av Apple eller Google och omfattas av deras egna villkor."
+          "v": "Dozify erbjuder en valfri prenumeration som förnyas automatiskt («Dozify Premium», per månad eller per år) och som låser upp extra funktioner som AI-analyser av måltidsfoton efter den första, ett andra aktivt läkemedel, kurvan över uppskattad läkemedelsnivå, trenddiagram och viktprognos, rapporter inför läkarbesök, hantering av flaskor och nya framstegsbilder. Prenumerationer kan innehålla en kostnadsfri provperiod, som anges vid köpet. Betalningen dras från ditt Apple-konto när du bekräftar köpet. Prenumerationer förnyas automatiskt för samma period och till det pris som angavs vid köpet, om inte den automatiska förnyelsen stängs av minst 24 timmar innan den pågående perioden tar slut. Du kan när som helst hantera eller säga upp din prenumeration i inställningarna för ditt Apple-konto; en uppsägning ger inte rätt till återbetalning för den pågående perioden. Alla köp i appen och alla prenumerationer hanteras av Apple och omfattas av Apples villkor."
         },
         {
           "t": "h2",
@@ -2251,7 +2243,7 @@
     "privacy": {
       "title": "Privatlivspolitik",
       "description": "Sådan håndterer Dozify dine data: dine helbredsdata bliver på din enhed og sendes ikke til vores servere.",
-      "updated": "Senest opdateret: 2. november 2026 · Gælder fra 2. november 2026",
+      "updated": "Senest opdateret: 5. november 2026 · Gælder fra 2. november 2026",
       "blocks": [
         {
           "t": "h2",
@@ -2296,7 +2288,7 @@
         },
         {
           "t": "p",
-          "v": "Appen gemmer følgende oplysninger udelukkende på din enhed, i en lokal SQLite-database og i systemets krypterede lager:"
+          "v": "Appen gemmer følgende oplysninger udelukkende på din enhed, i en lokal database i Appens beskyttede sandkasse:"
         },
         {
           "t": "ul",
@@ -2311,7 +2303,7 @@
         },
         {
           "t": "p",
-          "v": "Disse data forlader aldrig din enhed, medmindre du selv eksporterer dem (for eksempel ved at lave en PDF-rapport og dele den via e-mail eller en anden app, du vælger). Sletter du Appen, fjernes alle data permanent."
+          "v": "Dozify uploader aldrig disse data. De forlader kun din enhed, hvis du selv eksporterer dem (for eksempel ved at lave en PDF-rapport og dele den via e-mail eller en anden app, du vælger), eller hvis din egen iPhone- eller iCloud-sikkerhedskopi omfatter Appen. Slet Appen, og dataene på denne telefon forsvinder med den. Filer, du har eksporteret, alt, hvad du har skrevet til Apple Health, og dine egne iPhone-sikkerhedskopier er adskilt fra det."
         },
         {
           "t": "p",
@@ -2326,8 +2318,7 @@
           "v": [
             "Notifikationer: til dosispåmindelser og advarsler om hætteglas, der udløber. De planlægges på din enhed; du kan til enhver tid slå dem fra i enhedens indstillinger.",
             "Kamera og fotobibliotek (valgfrit): kun når du vedhæfter et fremgangsbillede (gemmes på din enhed) eller fotograferer et måltid til den valgfri AI-analyse (afsnit 5).",
-            "Apple Health (valgfrit): kun hvis du slår vægtsynkroniseringen til i indstillingerne. Dozify læser og skriver din vægt, så den passer med dine andre Health-apps.",
-            "Lagring (kun Android): for at gemme de PDF-rapporter, du laver."
+            "Apple Health (valgfrit): kun de kategorier, du slår til. Dozify kan læse vægt, kropsfedtprocent og menstruationsblødning; blødningen bruges kun på enheden. Den skriver kun vægt, hvis du slår det særskilt til."
           ]
         },
         {
@@ -2352,7 +2343,7 @@
         },
         {
           "t": "p",
-          "v": "Appen bruger RevenueCat til at håndtere abonnementer. RevenueCat modtager et anonymt bruger-id og status på dit køb; betalingerne håndteres af Apple eller Google, og vi ser aldrig dine betalingsoplysninger."
+          "v": "Appen bruger RevenueCat til at håndtere abonnementer. RevenueCat modtager et anonymt bruger-id og status på dit køb; betalingerne håndteres af Apple, og vi ser aldrig dine betalingsoplysninger."
         },
         {
           "t": "p",
@@ -2360,7 +2351,7 @@
         },
         {
           "t": "p",
-          "v": "Dette website (dozify.app), adskilt fra Appen, indlæser et Google Ads-konverteringstag. Det registrerer én ting: at en besøgende klikkede på en knap til App Store eller Google Play, og på hvilken side. Det er kun sat op til måling: annoncetilpasning og Google-signaler er slået fra, så dit besøg føjes ikke til en annonceinteresseprofil, og ingen sundhedsoplysninger, du læser eller indtaster her, sendes til Google. Appen selv bruger ikke dette tag."
+          "v": "Dette website (dozify.app), adskilt fra Appen, indlæser et Google Ads-konverteringstag. Det registrerer én ting: at en besøgende klikkede på en knap til App Store, og på hvilken side. Det er kun sat op til måling: annoncetilpasning og Google-signaler er slået fra, så dit besøg føjes ikke til en annonceinteresseprofil, og ingen sundhedsoplysninger, du læser eller indtaster her, sendes til Google. Appen selv bruger ikke dette tag."
         },
         {
           "t": "h2",
@@ -2368,7 +2359,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify er ikke til små børn: vores servicevilkår kræver, at du er fyldt 13 år, og Appen beder dig bekræfte, at du er fyldt 13 år, før du kan bruge den. Vi indsamler ikke bevidst oplysninger om nogen under 13 år. I Danmark kan du selv give samtykke til behandling af helbredsdata fra du er 13 år, men i flere andre lande ligger grænsen højere — 16 år i Tyskland og Holland, 15 i Frankrig. Er du under grænsen dér, hvor du bor, så brug kun Appen med samtykke fra en forælder eller værge. Under alle omstændigheder bliver dine data på din enhed: der sendes ingen personoplysninger til os, og sletter du Appen, forsvinder alt det, der er gemt lokalt."
+          "v": "Dozify er ikke til små børn: vores servicevilkår kræver, at du er fyldt 13 år, og Appen beder dig bekræfte, at du er fyldt 13 år, før du kan bruge den. Vi indsamler ikke bevidst oplysninger om nogen under 13 år. I Danmark kan du selv give samtykke til behandling af helbredsdata fra du er 13 år, men i flere andre lande ligger grænsen højere — 16 år i Tyskland og Holland, 15 i Frankrig. Er du under grænsen dér, hvor du bor, så brug kun Appen med samtykke fra en forælder eller værge. Under alle omstændigheder bliver dine data på din enhed: der sendes ingen personoplysninger til os, og sletter du Appen, forsvinder dataene på denne telefon."
         },
         {
           "t": "h2",
@@ -2383,7 +2374,7 @@
           "v": [
             "Indsigt: alle dine data er synlige for dig inde i Appen.",
             "Dataportabilitet: du kan altid lave PDF-rapporter med dine data.",
-            "Sletning: under Indstillinger → Slet mine data kan du slette dele eller det hele. Afinstallerer du Appen, forsvinder alle lokale data også."
+            "Sletning: under Indstillinger → Slet mine data kan du slette dele eller det hele. Afinstallerer du Appen, forsvinder dataene på denne telefon også."
           ]
         },
         {
@@ -2404,7 +2395,7 @@
         },
         {
           "t": "p",
-          "v": "De lokale data ligger i det beskyttede område, enheden reserverer til appen. Vi anbefaler, at du slår adgangskode, biometrisk lås og fuld kryptering af lageret til (på nuværende iOS- og Android-enheder er det slået til som standard)."
+          "v": "De lokale data ligger i det beskyttede område, enheden reserverer til appen. Vi anbefaler, at du slår adgangskode, biometrisk lås og fuld kryptering af lageret til (på nuværende iOS-enheder er det slået til som standard)."
         },
         {
           "t": "h2",
@@ -2427,7 +2418,7 @@
     "terms": {
       "title": "Servicevilkår",
       "description": "Vilkårene for at bruge appen Dozify, herunder abonnementet Dozify Premium.",
-      "updated": "Senest opdateret: 2. november 2026",
+      "updated": "Senest opdateret: 5. november 2026",
       "blocks": [
         {
           "t": "note",
@@ -2491,7 +2482,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify tilbyder et valgfrit abonnement, der fornyes automatisk («Dozify Premium», månedligt eller årligt), og som låser op for ekstra funktioner som AI-analyser af måltidsbilleder efter den første, en anden aktiv medicin, kurven over anslået medicinniveau, tendensdiagrammer og vægtprognose, rapporter til lægebesøg, håndtering af hætteglas og nye fremgangsbilleder. Abonnementer kan indeholde en gratis prøveperiode, som oplyses ved købet. Betalingen trækkes fra din Apple- eller Google-konto, når du bekræfter købet. Abonnementer fornyes automatisk for den samme periode og til den pris, der blev oplyst ved købet, medmindre den automatiske fornyelse slås fra mindst 24 timer før den igangværende periode udløber. Du kan altid administrere eller opsige dit abonnement i indstillingerne for din Apple- eller Google Play-konto; en opsigelse giver ikke ret til refusion for den igangværende periode. Alle køb i appen og alle abonnementer håndteres af Apple eller Google og er omfattet af deres egne vilkår."
+          "v": "Dozify tilbyder et valgfrit abonnement, der fornyes automatisk («Dozify Premium», månedligt eller årligt), og som låser op for ekstra funktioner som AI-analyser af måltidsbilleder efter den første, en anden aktiv medicin, kurven over anslået medicinniveau, tendensdiagrammer og vægtprognose, rapporter til lægebesøg, håndtering af hætteglas og nye fremgangsbilleder. Abonnementer kan indeholde en gratis prøveperiode, som oplyses ved købet. Betalingen trækkes fra din Apple-konto, når du bekræfter købet. Abonnementer fornyes automatisk for den samme periode og til den pris, der blev oplyst ved købet, medmindre den automatiske fornyelse slås fra mindst 24 timer før den igangværende periode udløber. Du kan altid administrere eller opsige dit abonnement i indstillingerne for din Apple-konto; en opsigelse giver ikke ret til refusion for den igangværende periode. Alle køb i appen og alle abonnementer håndteres af Apple og er omfattet af Apples vilkår."
         },
         {
           "t": "h2",
@@ -2532,7 +2523,7 @@
     "privacy": {
       "title": "Personvernerklæring",
       "description": "Slik håndterer Dozify dataene dine: helsedataene dine blir på enheten din og sendes ikke til serverne våre.",
-      "updated": "Sist oppdatert: 2. november 2026 · Gjelder fra 2. november 2026",
+      "updated": "Sist oppdatert: 5. november 2026 · Gjelder fra 2. november 2026",
       "blocks": [
         {
           "t": "h2",
@@ -2577,7 +2568,7 @@
         },
         {
           "t": "p",
-          "v": "Appen lagrer følgende opplysninger utelukkende på enheten din, i en lokal SQLite-database og i systemets krypterte lager:"
+          "v": "Appen lagrer følgende opplysninger utelukkende på enheten din, i en lokal database i appens beskyttede sandkasse:"
         },
         {
           "t": "ul",
@@ -2592,7 +2583,7 @@
         },
         {
           "t": "p",
-          "v": "Disse dataene forlater aldri enheten din, med mindre du selv eksporterer dem (for eksempel ved å lage en PDF-rapport og dele den på e-post eller via en annen app du velger). Sletter du Appen, fjernes alle data permanent."
+          "v": "Dozify laster aldri opp disse dataene. De forlater enheten din bare hvis du selv eksporterer dem (for eksempel ved å lage en PDF-rapport og dele den på e-post eller via en annen app du velger), eller hvis din egen iPhone- eller iCloud-sikkerhetskopi inkluderer Appen. Slett Appen, så forsvinner registreringene på denne telefonen med den. Filer du har eksportert, alt du har skrevet til Apple Helse og dine egne iPhone-sikkerhetskopier er separate."
         },
         {
           "t": "p",
@@ -2607,8 +2598,7 @@
           "v": [
             "Varsler: for dosepåminnelser og varsler om hetteglass som går ut. De planlegges på enheten din; du kan slå dem av når som helst i enhetens innstillinger.",
             "Kamera og bildebibliotek (valgfritt): bare når du legger ved et framgangsbilde (lagres på enheten din) eller tar bilde av et måltid til den valgfrie AI-analysen (avsnitt 5).",
-            "Apple Helse (valgfritt): bare hvis du slår på vektsynkroniseringen i innstillingene. Dozify leser og skriver vekten din, slik at den stemmer med de andre Helse-appene dine.",
-            "Lagring (kun Android): for å lagre PDF-rapportene du lager."
+            "Apple Helse (valgfritt): bare de kategoriene du slår på. Dozify kan lese vekt, kroppsfettprosent og menstruasjonsblødning; blødningen brukes bare på enheten. Den skriver vekt bare hvis du slår det på separat."
           ]
         },
         {
@@ -2633,7 +2623,7 @@
         },
         {
           "t": "p",
-          "v": "Appen bruker RevenueCat til å håndtere abonnementer. RevenueCat mottar en anonym bruker-ID og status på kjøpet ditt; betalingene håndteres av Apple eller Google, og vi ser aldri betalingsopplysningene dine."
+          "v": "Appen bruker RevenueCat til å håndtere abonnementer. RevenueCat mottar en anonym bruker-ID og status på kjøpet ditt; betalingene håndteres av Apple, og vi ser aldri betalingsopplysningene dine."
         },
         {
           "t": "p",
@@ -2641,7 +2631,7 @@
         },
         {
           "t": "p",
-          "v": "Dette nettstedet (dozify.app), atskilt fra Appen, laster inn en konverteringstagg fra Google Ads. Den registrerer én ting: at en besøkende klikket på en knapp for App Store eller Google Play, og på hvilken side. Den er satt opp kun for måling: annonsetilpasning og Google-signaler er slått av, så besøket ditt legges ikke til noen annonseinteresseprofil, og ingen helseopplysninger du leser eller skriver inn her, sendes til Google. Appen selv bruker ikke denne taggen."
+          "v": "Dette nettstedet (dozify.app), atskilt fra Appen, laster inn en konverteringstagg fra Google Ads. Den registrerer én ting: at en besøkende klikket på en knapp for App Store, og på hvilken side. Den er satt opp kun for måling: annonsetilpasning og Google-signaler er slått av, så besøket ditt legges ikke til noen annonseinteresseprofil, og ingen helseopplysninger du leser eller skriver inn her, sendes til Google. Appen selv bruker ikke denne taggen."
         },
         {
           "t": "h2",
@@ -2649,7 +2639,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify er ikke for små barn: bruksvilkårene våre krever at du har fylt 13 år, og Appen ber deg bekrefte at du har fylt 13 år før du kan bruke den. Vi samler ikke bevisst inn opplysninger om noen under 13 år. I Norge kan du selv samtykke til behandling av helsedata fra du er 13 år, men i flere andre land ligger grensen høyere — 16 år i Tyskland og Nederland, 15 i Frankrike. Er du under grensen der du bor, bruk Appen bare med samtykke fra en forelder eller foresatt. Uansett blir dataene dine på enheten din: ingen personopplysninger sendes til oss, og sletter du Appen, forsvinner alt som er lagret lokalt."
+          "v": "Dozify er ikke for små barn: bruksvilkårene våre krever at du har fylt 13 år, og Appen ber deg bekrefte at du har fylt 13 år før du kan bruke den. Vi samler ikke bevisst inn opplysninger om noen under 13 år. I Norge kan du selv samtykke til behandling av helsedata fra du er 13 år, men i flere andre land ligger grensen høyere — 16 år i Tyskland og Nederland, 15 i Frankrike. Er du under grensen der du bor, bruk Appen bare med samtykke fra en forelder eller foresatt. Uansett blir dataene dine på enheten din: ingen personopplysninger sendes til oss, og sletter du Appen, forsvinner registreringene på denne telefonen."
         },
         {
           "t": "h2",
@@ -2664,7 +2654,7 @@
           "v": [
             "Innsyn: alle dataene dine er synlige for deg inne i Appen.",
             "Dataportabilitet: du kan når som helst lage PDF-rapporter med dataene dine.",
-            "Sletting: under Innstillinger → Slett dataene mine kan du slette deler eller alt. Avinstallerer du Appen, forsvinner også alle lokale data."
+            "Sletting: under Innstillinger → Slett dataene mine kan du slette deler eller alt. Avinstallerer du Appen, forsvinner også registreringene på denne telefonen."
           ]
         },
         {
@@ -2685,7 +2675,7 @@
         },
         {
           "t": "p",
-          "v": "De lokale dataene ligger i det beskyttede området enheten setter av til appen. Vi anbefaler at du slår på kode, biometrisk lås og full kryptering av lageret (på dagens iOS- og Android-enheter er det på som standard)."
+          "v": "De lokale dataene ligger i det beskyttede området enheten setter av til appen. Vi anbefaler at du slår på kode, biometrisk lås og full kryptering av lageret (på dagens iOS-enheter er det på som standard)."
         },
         {
           "t": "h2",
@@ -2708,7 +2698,7 @@
     "terms": {
       "title": "Bruksvilkår",
       "description": "Vilkårene for å bruke appen Dozify, inkludert abonnementet Dozify Premium.",
-      "updated": "Sist oppdatert: 2. november 2026",
+      "updated": "Sist oppdatert: 5. november 2026",
       "blocks": [
         {
           "t": "note",
@@ -2772,7 +2762,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify tilbyr et valgfritt abonnement som fornyes automatisk («Dozify Premium», månedlig eller årlig), og som låser opp ekstra funksjoner som AI-analyser av måltidsbilder etter den første, en andre aktiv medisin, kurven over anslått legemiddelnivå, trenddiagrammer og vektprognose, rapporter til legetimer, håndtering av hetteglass og nye framgangsbilder. Abonnementer kan inneholde en gratis prøveperiode, som opplyses ved kjøpet. Betalingen trekkes fra Apple- eller Google-kontoen din når du bekrefter kjøpet. Abonnementer fornyes automatisk for samme periode og til prisen som ble oppgitt ved kjøpet, med mindre den automatiske fornyelsen slås av minst 24 timer før den pågående perioden er over. Du kan når som helst håndtere eller si opp abonnementet ditt i innstillingene for Apple- eller Google Play-kontoen din; en oppsigelse gir ikke rett til refusjon for den pågående perioden. Alle kjøp i appen og alle abonnementer håndteres av Apple eller Google og omfattes av deres egne vilkår."
+          "v": "Dozify tilbyr et valgfritt abonnement som fornyes automatisk («Dozify Premium», månedlig eller årlig), og som låser opp ekstra funksjoner som AI-analyser av måltidsbilder etter den første, en andre aktiv medisin, kurven over anslått legemiddelnivå, trenddiagrammer og vektprognose, rapporter til legetimer, håndtering av hetteglass og nye framgangsbilder. Abonnementer kan inneholde en gratis prøveperiode, som opplyses ved kjøpet. Betalingen trekkes fra Apple-ID-en din når du bekrefter kjøpet. Abonnementer fornyes automatisk for samme periode og til prisen som ble oppgitt ved kjøpet, med mindre den automatiske fornyelsen slås av minst 24 timer før den pågående perioden er over. Du kan når som helst håndtere eller si opp abonnementet ditt i innstillingene for Apple-ID-en din; en oppsigelse gir ikke rett til refusjon for den pågående perioden. Alle kjøp i appen og alle abonnementer håndteres av Apple og omfattes av Apples vilkår."
         },
         {
           "t": "h2",
@@ -2813,7 +2803,7 @@
     "privacy": {
       "title": "Tietosuojaseloste",
       "description": "Näin Dozify käsittelee tietojasi: terveystietosi pysyvät laitteellasi eivätkä päädy palvelimillemme.",
-      "updated": "Viimeksi päivitetty: 2. marraskuuta 2026 · Voimassa 2.11.2026 alkaen",
+      "updated": "Viimeksi päivitetty: 5. marraskuuta 2026 · Voimassa 2.11.2026 alkaen",
       "blocks": [
         {
           "t": "h2",
@@ -2858,7 +2848,7 @@
         },
         {
           "t": "p",
-          "v": "Sovellus tallentaa seuraavat tiedot ainoastaan laitteellesi, paikalliseen SQLite-tietokantaan ja järjestelmän salattuun tallennustilaan:"
+          "v": "Sovellus tallentaa seuraavat tiedot ainoastaan laitteellesi, paikalliseen tietokantaan sovelluksen suojatussa hiekkalaatikossa:"
         },
         {
           "t": "ul",
@@ -2873,7 +2863,7 @@
         },
         {
           "t": "p",
-          "v": "Nämä tiedot eivät koskaan poistu laitteeltasi, ellet vie niitä itse (esimerkiksi luomalla PDF-raportin ja jakamalla sen sähköpostilla tai valitsemallasi muulla sovelluksella). Jos poistat Sovelluksen, kaikki tiedot poistuvat pysyvästi."
+          "v": "Dozify ei koskaan lataa näitä tietoja palvelimelle. Ne poistuvat laitteeltasi vain, jos viet ne itse (esimerkiksi luomalla PDF-raportin ja jakamalla sen sähköpostilla tai valitsemallasi muulla sovelluksella) tai jos oma iPhone- tai iCloud-varmuuskopiosi sisältää Sovelluksen. Poista Sovellus, niin tämän puhelimen merkinnät lähtevät sen mukana. Viemäsi tiedostot, kaikki Apple Terveys -sovellukseen kirjoittamasi ja omat iPhone-varmuuskopiosi ovat erillisiä."
         },
         {
           "t": "p",
@@ -2888,8 +2878,7 @@
           "v": [
             "Ilmoitukset: annosmuistutuksiin ja injektiopullojen vanhenemisvaroituksiin. Ne ajastetaan laitteellasi; voit poistaa ne käytöstä milloin tahansa laitteen asetuksista.",
             "Kamera ja kuvakirjasto (valinnainen): vain kun liität edistymiskuvan (pysyy laitteellasi) tai kuvaat aterian valinnaista tekoälyanalyysiä varten (kohta 5).",
-            "Apple Terveys (valinnainen): vain jos otat painon synkronoinnin käyttöön asetuksista. Dozify lukee ja kirjoittaa painosi, jotta se vastaa muita Terveys-sovelluksiasi.",
-            "Tallennustila (vain Android): luomiesi PDF-raporttien tallentamiseen."
+            "Apple Terveys (valinnainen): vain ne luokat, jotka otat käyttöön. Dozify voi lukea painon, kehon rasvaprosentin ja kuukautisvuodon; vuototietoa käytetään vain laitteella. Se kirjoittaa painon vain, jos otat sen erikseen käyttöön."
           ]
         },
         {
@@ -2914,7 +2903,7 @@
         },
         {
           "t": "p",
-          "v": "Sovellus käyttää RevenueCatia tilausten hallintaan. RevenueCat saa nimettömän käyttäjätunnisteen ja ostosi tilan; maksut käsittelee Apple tai Google, emmekä me koskaan näe maksutietojasi."
+          "v": "Sovellus käyttää RevenueCatia tilausten hallintaan. RevenueCat saa nimettömän käyttäjätunnisteen ja ostosi tilan; maksut käsittelee Apple, emmekä me koskaan näe maksutietojasi."
         },
         {
           "t": "p",
@@ -2922,7 +2911,7 @@
         },
         {
           "t": "p",
-          "v": "Tämä verkkosivusto (dozify.app), joka on erillinen Sovelluksesta, lataa Google Ads -konversiotagin. Se kirjaa yhden asian: että kävijä napsautti App Storen tai Google Playn painiketta, ja millä sivulla. Se on määritetty vain mittaamiseen: mainosten personointi ja Google-signaalit ovat pois päältä, joten käyntiäsi ei lisätä mihinkään mainonnan kiinnostusprofiiliin, eikä mitään täällä lukemaasi tai syöttämääsi terveystietoa lähetetä Googlelle. Sovellus itse ei käytä tätä tagia."
+          "v": "Tämä verkkosivusto (dozify.app), joka on erillinen Sovelluksesta, lataa Google Ads -konversiotagin. Se kirjaa yhden asian: että kävijä napsautti App Storen painiketta, ja millä sivulla. Se on määritetty vain mittaamiseen: mainosten personointi ja Google-signaalit ovat pois päältä, joten käyntiäsi ei lisätä mihinkään mainonnan kiinnostusprofiiliin, eikä mitään täällä lukemaasi tai syöttämääsi terveystietoa lähetetä Googlelle. Sovellus itse ei käytä tätä tagia."
         },
         {
           "t": "h2",
@@ -2930,7 +2919,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify ei ole pienille lapsille: käyttöehtomme edellyttävät, että olet täyttänyt 13 vuotta, ja Sovellus pyytää sinua vahvistamaan ennen käyttöä, että olet täyttänyt 13 vuotta. Emme kerää tietoisesti tietoja alle 13-vuotiaista. Suomessa voit antaa itse suostumuksen terveystietojen käsittelyyn 13 vuotta täytettyäsi, mutta useissa muissa maissa raja on korkeampi — 16 vuotta Saksassa ja Alankomaissa, 15 Ranskassa. Jos olet asuinmaasi rajan alapuolella, käytä Sovellusta vain huoltajan suostumuksella. Joka tapauksessa tietosi pysyvät laitteellasi: meille ei lähetetä henkilötietoja, ja Sovelluksen poistaminen pyyhkii kaiken paikallisesti tallennetun."
+          "v": "Dozify ei ole pienille lapsille: käyttöehtomme edellyttävät, että olet täyttänyt 13 vuotta, ja Sovellus pyytää sinua vahvistamaan ennen käyttöä, että olet täyttänyt 13 vuotta. Emme kerää tietoisesti tietoja alle 13-vuotiaista. Suomessa voit antaa itse suostumuksen terveystietojen käsittelyyn 13 vuotta täytettyäsi, mutta useissa muissa maissa raja on korkeampi — 16 vuotta Saksassa ja Alankomaissa, 15 Ranskassa. Jos olet asuinmaasi rajan alapuolella, käytä Sovellusta vain huoltajan suostumuksella. Joka tapauksessa tietosi pysyvät laitteellasi: meille ei lähetetä henkilötietoja, ja Sovelluksen poistaminen pyyhkii tämän puhelimen merkinnät."
         },
         {
           "t": "h2",
@@ -2945,7 +2934,7 @@
           "v": [
             "Pääsy: kaikki tietosi ovat nähtävissäsi Sovelluksen sisällä.",
             "Siirrettävyys: voit luoda tiedoistasi PDF-raportteja milloin tahansa.",
-            "Poistaminen: kohdassa Asetukset → Poista tietoni voit poistaa osan tai kaiken. Sovelluksen poistaminen poistaa myös kaikki paikalliset tiedot."
+            "Poistaminen: kohdassa Asetukset → Poista tietoni voit poistaa osan tai kaiken. Sovelluksen poistaminen poistaa myös tämän puhelimen merkinnät."
           ]
         },
         {
@@ -2966,7 +2955,7 @@
         },
         {
           "t": "p",
-          "v": "Paikalliset tiedot ovat suojatussa tilassa, jonka laite varaa sovellukselle. Suosittelemme ottamaan käyttöön pääsykoodin, biometrisen lukituksen ja tallennustilan täyden salauksen (nykyisissä iOS- ja Android-laitteissa se on oletuksena päällä)."
+          "v": "Paikalliset tiedot ovat suojatussa tilassa, jonka laite varaa sovellukselle. Suosittelemme ottamaan käyttöön pääsykoodin, biometrisen lukituksen ja tallennustilan täyden salauksen (nykyisissä iOS-laitteissa se on oletuksena päällä)."
         },
         {
           "t": "h2",
@@ -2989,7 +2978,7 @@
     "terms": {
       "title": "Käyttöehdot",
       "description": "Dozify-sovelluksen käyttöehdot, mukaan lukien Dozify Premium -tilaus.",
-      "updated": "Viimeksi päivitetty: 2. marraskuuta 2026",
+      "updated": "Viimeksi päivitetty: 5. marraskuuta 2026",
       "blocks": [
         {
           "t": "note",
@@ -3053,7 +3042,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify tarjoaa valinnaisen automaattisesti uusiutuvan tilauksen («Dozify Premium», kuukausittain tai vuosittain), joka avaa lisätoimintoja, kuten ateriakuvien tekoälyanalyysit ensimmäisen jälkeen, toisen aktiivisen lääkkeen, arvioidun lääkeainetason käyrän, kehityskaaviot ja painoennusteen, lääkärikäyntien raportit, injektiopullojen hallinnan ja uudet edistymiskuvat. Tilauksiin voi sisältyä maksuton kokeilujakso, joka ilmoitetaan oston yhteydessä. Maksu veloitetaan Apple- tai Google-tililtäsi, kun vahvistat oston. Tilaukset uusiutuvat automaattisesti samalle jaksolle ja oston yhteydessä ilmoitettuun hintaan, ellei automaattista uusiutumista kytketä pois vähintään 24 tuntia ennen käynnissä olevan jakson päättymistä. Voit hallita tai peruuttaa tilauksesi milloin tahansa Apple- tai Google Play -tilisi asetuksista; peruuttaminen ei oikeuta käynnissä olevan jakson hyvitykseen. Kaikki sovelluksen sisäiset ostot ja tilaukset käsittelee Apple tai Google, ja niihin sovelletaan niiden omia ehtoja."
+          "v": "Dozify tarjoaa valinnaisen automaattisesti uusiutuvan tilauksen («Dozify Premium», kuukausittain tai vuosittain), joka avaa lisätoimintoja, kuten ateriakuvien tekoälyanalyysit ensimmäisen jälkeen, toisen aktiivisen lääkkeen, arvioidun lääkeainetason käyrän, kehityskaaviot ja painoennusteen, lääkärikäyntien raportit, injektiopullojen hallinnan ja uudet edistymiskuvat. Tilauksiin voi sisältyä maksuton kokeilujakso, joka ilmoitetaan oston yhteydessä. Maksu veloitetaan Apple ID:ltäsi, kun vahvistat oston. Tilaukset uusiutuvat automaattisesti samalle jaksolle ja oston yhteydessä ilmoitettuun hintaan, ellei automaattista uusiutumista kytketä pois vähintään 24 tuntia ennen käynnissä olevan jakson päättymistä. Voit hallita tai peruuttaa tilauksesi milloin tahansa Apple ID -tilisi asetuksista; peruuttaminen ei oikeuta käynnissä olevan jakson hyvitykseen. Kaikki sovelluksen sisäiset ostot ja tilaukset käsittelee Apple, ja niihin sovelletaan Applen ehtoja."
         },
         {
           "t": "h2",
@@ -3094,7 +3083,7 @@
     "privacy": {
       "title": "Πολιτική απορρήτου",
       "description": "Πώς χειρίζεται το Dozify τα δεδομένα σου: τα δεδομένα υγείας σου μένουν στη συσκευή σου και δεν φτάνουν στους διακομιστές μας.",
-      "updated": "Τελευταία ενημέρωση: 2 Νοεμβρίου 2026 · Σε ισχύ από 2 Νοεμβρίου 2026",
+      "updated": "Τελευταία ενημέρωση: 5 Νοεμβρίου 2026 · Σε ισχύ από 2 Νοεμβρίου 2026",
       "blocks": [
         {
           "t": "h2",
@@ -3139,7 +3128,7 @@
         },
         {
           "t": "p",
-          "v": "Η Εφαρμογή αποθηκεύει τις παρακάτω πληροφορίες αποκλειστικά στη συσκευή σου, σε τοπική βάση δεδομένων SQLite και στον κρυπτογραφημένο χώρο του συστήματος:"
+          "v": "Η Εφαρμογή αποθηκεύει τις παρακάτω πληροφορίες αποκλειστικά στη συσκευή σου, σε τοπική βάση δεδομένων στο προστατευμένο sandbox της εφαρμογής:"
         },
         {
           "t": "ul",
@@ -3154,7 +3143,7 @@
         },
         {
           "t": "p",
-          "v": "Αυτά τα δεδομένα δεν φεύγουν ποτέ από τη συσκευή σου, εκτός αν τα εξάγεις εσύ (για παράδειγμα δημιουργώντας μια αναφορά PDF και μοιράζοντάς την με e-mail ή με άλλη εφαρμογή της επιλογής σου). Αν διαγράψεις την Εφαρμογή, όλα τα δεδομένα σβήνονται οριστικά."
+          "v": "Το Dozify δεν ανεβάζει ποτέ αυτά τα δεδομένα. Φεύγουν από τη συσκευή σου μόνο αν τα εξάγεις εσύ (για παράδειγμα δημιουργώντας μια αναφορά PDF και μοιράζοντάς την με e-mail ή με άλλη εφαρμογή της επιλογής σου) ή αν το δικό σου αντίγραφο ασφαλείας iPhone ή iCloud περιλαμβάνει την Εφαρμογή. Διέγραψε την Εφαρμογή και οι καταγραφές σε αυτό το κινητό φεύγουν μαζί της. Τα αρχεία που εξήγαγες, ό,τι έγραψες στο Apple Health και τα δικά σου αντίγραφα ασφαλείας του iPhone είναι ξεχωριστά."
         },
         {
           "t": "p",
@@ -3169,8 +3158,7 @@
           "v": [
             "Ειδοποιήσεις: για υπενθυμίσεις δόσεων και ειδοποιήσεις λήξης φιαλιδίων. Προγραμματίζονται στη συσκευή σου· μπορείς να τις απενεργοποιήσεις οποτεδήποτε στις ρυθμίσεις της συσκευής.",
             "Κάμερα και βιβλιοθήκη φωτογραφιών (προαιρετικά): μόνο όταν επισυνάπτεις φωτογραφία προόδου (μένει στη συσκευή σου) ή φωτογραφίζεις ένα γεύμα για την προαιρετική ανάλυση ΤΝ (ενότητα 5).",
-            "Apple Health (προαιρετικά): μόνο αν ενεργοποιήσεις τον συγχρονισμό βάρους στις ρυθμίσεις. Το Dozify διαβάζει και γράφει το βάρος σου ώστε να συμφωνεί με τις άλλες εφαρμογές Health.",
-            "Αποθηκευτικός χώρος (μόνο Android): για να αποθηκεύονται οι αναφορές PDF που δημιουργείς."
+            "Apple Health (προαιρετικά): μόνο οι κατηγορίες που ενεργοποιείς. Το Dozify μπορεί να διαβάζει το βάρος, το ποσοστό σωματικού λίπους και τη ροή της περιόδου· η ροή χρησιμοποιείται μόνο στη συσκευή. Γράφει το βάρος μόνο αν το ενεργοποιήσεις ξεχωριστά."
           ]
         },
         {
@@ -3195,7 +3183,7 @@
         },
         {
           "t": "p",
-          "v": "Η Εφαρμογή χρησιμοποιεί το RevenueCat για τη διαχείριση των συνδρομών. Το RevenueCat λαμβάνει ένα ανώνυμο αναγνωριστικό χρήστη και την κατάσταση της αγοράς σου· οι πληρωμές διεκπεραιώνονται από την Apple ή την Google, και εμείς δεν βλέπουμε ποτέ τα στοιχεία πληρωμής σου."
+          "v": "Η Εφαρμογή χρησιμοποιεί το RevenueCat για τη διαχείριση των συνδρομών. Το RevenueCat λαμβάνει ένα ανώνυμο αναγνωριστικό χρήστη και την κατάσταση της αγοράς σου· οι πληρωμές διεκπεραιώνονται από την Apple, και εμείς δεν βλέπουμε ποτέ τα στοιχεία πληρωμής σου."
         },
         {
           "t": "p",
@@ -3203,7 +3191,7 @@
         },
         {
           "t": "p",
-          "v": "Αυτός ο ιστότοπος (dozify.app), ξεχωριστός από την Εφαρμογή, φορτώνει μια ετικέτα μετατροπών του Google Ads. Καταγράφει ένα μόνο πράγμα: ότι ένας επισκέπτης πάτησε ένα κουμπί του App Store ή του Google Play, και σε ποια σελίδα. Είναι ρυθμισμένη μόνο για μέτρηση: η εξατομίκευση διαφημίσεων και τα σήματα Google είναι απενεργοποιημένα, οπότε η επίσκεψή σου δεν προστίθεται σε κανένα διαφημιστικό προφίλ ενδιαφερόντων, και καμία πληροφορία υγείας που διαβάζεις ή εισάγεις εδώ δεν στέλνεται στην Google. Η ίδια η Εφαρμογή δεν χρησιμοποιεί αυτή την ετικέτα."
+          "v": "Αυτός ο ιστότοπος (dozify.app), ξεχωριστός από την Εφαρμογή, φορτώνει μια ετικέτα μετατροπών του Google Ads. Καταγράφει ένα μόνο πράγμα: ότι ένας επισκέπτης πάτησε ένα κουμπί του App Store, και σε ποια σελίδα. Είναι ρυθμισμένη μόνο για μέτρηση: η εξατομίκευση διαφημίσεων και τα σήματα Google είναι απενεργοποιημένα, οπότε η επίσκεψή σου δεν προστίθεται σε κανένα διαφημιστικό προφίλ ενδιαφερόντων, και καμία πληροφορία υγείας που διαβάζεις ή εισάγεις εδώ δεν στέλνεται στην Google. Η ίδια η Εφαρμογή δεν χρησιμοποιεί αυτή την ετικέτα."
         },
         {
           "t": "h2",
@@ -3211,7 +3199,7 @@
         },
         {
           "t": "p",
-          "v": "Το Dozify δεν απευθύνεται σε μικρά παιδιά: οι όροι χρήσης μας απαιτούν να είσαι τουλάχιστον 13 ετών, και η Εφαρμογή σού ζητά να επιβεβαιώσεις ότι είσαι τουλάχιστον 13 ετών πριν τη χρησιμοποιήσεις. Δεν συλλέγουμε εν γνώσει μας δεδομένα ατόμων κάτω των 13 ετών. Στην Ελλάδα μπορείς να δώσεις μόνος σου συγκατάθεση για την επεξεργασία δεδομένων υγείας από τα 15 σου· στην Κύπρο το όριο είναι τα 14. Αν είσαι κάτω από το όριο που ισχύει εκεί που ζεις, χρησιμοποίησε την Εφαρμογή μόνο με τη συγκατάθεση γονέα ή κηδεμόνα. Σε κάθε περίπτωση τα δεδομένα σου μένουν στη συσκευή σου: κανένα προσωπικό δεδομένο δεν μεταδίδεται σε εμάς, και η διαγραφή της Εφαρμογής σβήνει ό,τι είναι αποθηκευμένο τοπικά."
+          "v": "Το Dozify δεν απευθύνεται σε μικρά παιδιά: οι όροι χρήσης μας απαιτούν να είσαι τουλάχιστον 13 ετών, και η Εφαρμογή σού ζητά να επιβεβαιώσεις ότι είσαι τουλάχιστον 13 ετών πριν τη χρησιμοποιήσεις. Δεν συλλέγουμε εν γνώσει μας δεδομένα ατόμων κάτω των 13 ετών. Στην Ελλάδα μπορείς να δώσεις μόνος σου συγκατάθεση για την επεξεργασία δεδομένων υγείας από τα 15 σου· στην Κύπρο το όριο είναι τα 14. Αν είσαι κάτω από το όριο που ισχύει εκεί που ζεις, χρησιμοποίησε την Εφαρμογή μόνο με τη συγκατάθεση γονέα ή κηδεμόνα. Σε κάθε περίπτωση τα δεδομένα σου μένουν στη συσκευή σου: κανένα προσωπικό δεδομένο δεν μεταδίδεται σε εμάς, και η διαγραφή της Εφαρμογής σβήνει τις καταγραφές σε αυτό το κινητό."
         },
         {
           "t": "h2",
@@ -3226,7 +3214,7 @@
           "v": [
             "Πρόσβαση: όλα τα δεδομένα σου είναι ορατά σε σένα μέσα στην Εφαρμογή.",
             "Φορητότητα: μπορείς να δημιουργείς αναφορές PDF των δεδομένων σου όποτε θέλεις.",
-            "Διαγραφή: στις Ρυθμίσεις → Διαγραφή των δεδομένων μου μπορείς να σβήσεις μέρος ή το σύνολο. Η απεγκατάσταση της Εφαρμογής διαγράφει επίσης όλα τα τοπικά δεδομένα."
+            "Διαγραφή: στις Ρυθμίσεις → Διαγραφή των δεδομένων μου μπορείς να σβήσεις μέρος ή το σύνολο. Η απεγκατάσταση της Εφαρμογής διαγράφει επίσης τις καταγραφές σε αυτό το κινητό."
           ]
         },
         {
@@ -3247,7 +3235,7 @@
         },
         {
           "t": "p",
-          "v": "Τα τοπικά δεδομένα βρίσκονται στον προστατευμένο χώρο που η συσκευή δεσμεύει για την εφαρμογή. Συνιστούμε να ενεργοποιήσεις κωδικό πρόσβασης, βιομετρικό κλείδωμα και πλήρη κρυπτογράφηση του αποθηκευτικού χώρου (στις σημερινές συσκευές iOS και Android είναι ενεργή από προεπιλογή)."
+          "v": "Τα τοπικά δεδομένα βρίσκονται στον προστατευμένο χώρο που η συσκευή δεσμεύει για την εφαρμογή. Συνιστούμε να ενεργοποιήσεις κωδικό πρόσβασης, βιομετρικό κλείδωμα και πλήρη κρυπτογράφηση του αποθηκευτικού χώρου (στις σημερινές συσκευές iOS είναι ενεργή από προεπιλογή)."
         },
         {
           "t": "h2",
@@ -3270,7 +3258,7 @@
     "terms": {
       "title": "Όροι χρήσης",
       "description": "Οι όροι χρήσης της εφαρμογής Dozify, μαζί με αυτούς της συνδρομής Dozify Premium.",
-      "updated": "Τελευταία ενημέρωση: 2 Νοεμβρίου 2026",
+      "updated": "Τελευταία ενημέρωση: 5 Νοεμβρίου 2026",
       "blocks": [
         {
           "t": "note",
@@ -3334,7 +3322,7 @@
         },
         {
           "t": "p",
-          "v": "Το Dozify προσφέρει προαιρετική συνδρομή με αυτόματη ανανέωση («Dozify Premium», μηνιαία ή ετήσια) που ξεκλειδώνει επιπλέον λειτουργίες, όπως αναλύσεις φωτογραφιών γεύματος με ΤΝ μετά την πρώτη, δεύτερο ενεργό φάρμακο, την καμπύλη εκτιμώμενου επιπέδου φαρμάκου, γραφήματα τάσης και πρόβλεψη βάρους, αναφορές για την ιατρική επίσκεψη, διαχείριση φιαλιδίων και νέες φωτογραφίες προόδου. Οι συνδρομές μπορεί να περιλαμβάνουν δωρεάν δοκιμαστική περίοδο, η οποία δηλώνεται κατά την αγορά. Η πληρωμή χρεώνεται στον λογαριασμό σου Apple ή Google με την επιβεβαίωση της αγοράς. Οι συνδρομές ανανεώνονται αυτόματα για την ίδια περίοδο και στην τιμή που αναφέρθηκε κατά την αγορά, εκτός αν η αυτόματη ανανέωση απενεργοποιηθεί τουλάχιστον 24 ώρες πριν το τέλος της τρέχουσας περιόδου. Μπορείς να διαχειριστείς ή να ακυρώσεις τη συνδρομή σου όποτε θέλεις από τις ρυθμίσεις του λογαριασμού σου Apple ή Google Play· η ακύρωση δεν δίνει δικαίωμα επιστροφής χρημάτων για την τρέχουσα περίοδο. Όλες οι αγορές εντός εφαρμογής και οι συνδρομές διεκπεραιώνονται από την Apple ή την Google και διέπονται από τους δικούς τους όρους."
+          "v": "Το Dozify προσφέρει προαιρετική συνδρομή με αυτόματη ανανέωση («Dozify Premium», μηνιαία ή ετήσια) που ξεκλειδώνει επιπλέον λειτουργίες, όπως αναλύσεις φωτογραφιών γεύματος με ΤΝ μετά την πρώτη, δεύτερο ενεργό φάρμακο, την καμπύλη εκτιμώμενου επιπέδου φαρμάκου, γραφήματα τάσης και πρόβλεψη βάρους, αναφορές για την ιατρική επίσκεψη, διαχείριση φιαλιδίων και νέες φωτογραφίες προόδου. Οι συνδρομές μπορεί να περιλαμβάνουν δωρεάν δοκιμαστική περίοδο, η οποία δηλώνεται κατά την αγορά. Η πληρωμή χρεώνεται στον λογαριασμό σου Apple με την επιβεβαίωση της αγοράς. Οι συνδρομές ανανεώνονται αυτόματα για την ίδια περίοδο και στην τιμή που αναφέρθηκε κατά την αγορά, εκτός αν η αυτόματη ανανέωση απενεργοποιηθεί τουλάχιστον 24 ώρες πριν το τέλος της τρέχουσας περιόδου. Μπορείς να διαχειριστείς ή να ακυρώσεις τη συνδρομή σου όποτε θέλεις από τις ρυθμίσεις του λογαριασμού σου Apple· η ακύρωση δεν δίνει δικαίωμα επιστροφής χρημάτων για την τρέχουσα περίοδο. Όλες οι αγορές εντός εφαρμογής και οι συνδρομές διεκπεραιώνονται από την Apple και διέπονται από τους όρους της Apple."
         },
         {
           "t": "h2",
@@ -3375,7 +3363,7 @@
     "privacy": {
       "title": "Политика конфиденциальности",
       "description": "Как Dozify обращается с твоими данными: данные о здоровье остаются на твоём устройстве и не попадают на наши серверы.",
-      "updated": "Последнее обновление: 2 ноября 2026 г. · Действует с 2 ноября 2026 г.",
+      "updated": "Последнее обновление: 5 ноября 2026 г. · Действует с 2 ноября 2026 г.",
       "blocks": [
         {
           "t": "h2",
@@ -3420,7 +3408,7 @@
         },
         {
           "t": "p",
-          "v": "Приложение сохраняет следующую информацию исключительно на твоём устройстве, в локальной базе данных SQLite и в зашифрованном хранилище системы:"
+          "v": "Приложение сохраняет следующую информацию исключительно на твоём устройстве, в локальной базе данных в защищённой песочнице приложения:"
         },
         {
           "t": "ul",
@@ -3435,7 +3423,7 @@
         },
         {
           "t": "p",
-          "v": "Эти данные никогда не покидают твоё устройство, если только ты сам их не экспортируешь (например, создав PDF-отчёт и отправив его по почте или через другое выбранное тобой приложение). Если ты удалишь Приложение, все данные будут стёрты безвозвратно."
+          "v": "Dozify никогда не загружает эти данные. Они покидают твоё устройство, только если ты сам их экспортируешь (например, создав PDF-отчёт и отправив его по почте или через другое выбранное тобой приложение) или если твоя собственная резервная копия iPhone или iCloud включает Приложение. Удали Приложение, и записи на этом телефоне уйдут вместе с ним. Экспортированные файлы, всё, что ты записал в Apple Здоровье, и твои собственные резервные копии iPhone существуют отдельно."
         },
         {
           "t": "p",
@@ -3450,8 +3438,7 @@
           "v": [
             "Уведомления: для напоминаний о дозах и предупреждений об истечении срока флаконов. Они планируются на твоём устройстве; их можно отключить в любой момент в настройках устройства.",
             "Камера и медиатека (необязательно): только когда ты прикрепляешь фото прогресса (остаётся на устройстве) или фотографируешь блюдо для необязательного ИИ-анализа (раздел 5).",
-            "Apple Здоровье (необязательно): только если ты включишь синхронизацию веса в настройках. Dozify читает и записывает твой вес, чтобы он совпадал с другими приложениями Здоровья.",
-            "Хранилище (только Android): чтобы сохранять создаваемые тобой PDF-отчёты."
+            "Apple Здоровье (необязательно): только те категории, которые ты включишь. Dozify может читать вес, процент жира в организме и менструальные выделения; данные о выделениях используются только на устройстве. Вес записывается, только если ты отдельно включишь это."
           ]
         },
         {
@@ -3476,7 +3463,7 @@
         },
         {
           "t": "p",
-          "v": "Приложение использует RevenueCat для управления подписками. RevenueCat получает анонимный идентификатор пользователя и статус твоей покупки; платежи обрабатывают Apple или Google, и мы никогда не видим твои платёжные данные."
+          "v": "Приложение использует RevenueCat для управления подписками. RevenueCat получает анонимный идентификатор пользователя и статус твоей покупки; платежи обрабатывает Apple, и мы никогда не видим твои платёжные данные."
         },
         {
           "t": "p",
@@ -3484,7 +3471,7 @@
         },
         {
           "t": "p",
-          "v": "Этот сайт (dozify.app), отдельный от Приложения, загружает тег конверсий Google Ads. Он фиксирует только одно: что посетитель нажал кнопку App Store или Google Play, и на какой странице. Он настроен только для измерения: персонализация рекламы и сигналы Google отключены, поэтому твой визит не попадает ни в какой рекламный профиль интересов, и никакая информация о здоровье, которую ты здесь читаешь или вводишь, не отправляется в Google. Само Приложение этот тег не использует."
+          "v": "Этот сайт (dozify.app), отдельный от Приложения, загружает тег конверсий Google Ads. Он фиксирует только одно: что посетитель нажал кнопку App Store, и на какой странице. Он настроен только для измерения: персонализация рекламы и сигналы Google отключены, поэтому твой визит не попадает ни в какой рекламный профиль интересов, и никакая информация о здоровье, которую ты здесь читаешь или вводишь, не отправляется в Google. Само Приложение этот тег не использует."
         },
         {
           "t": "h2",
@@ -3492,7 +3479,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify не предназначено для маленьких детей: наши условия использования требуют, чтобы тебе было не менее 13 лет, и Приложение просит подтвердить, что тебе не меньше 13 лет, прежде чем им пользоваться. Мы сознательно не собираем данные лиц младше 13 лет. Во многих странах самостоятельно дать согласие на обработку данных о здоровье можно только позже 13 лет — в Германии и Нидерландах с 16, во Франции с 15, в Испании и Италии с 14. Если ты младше этого порога там, где живёшь, пользуйся Приложением только с согласия родителя или опекуна. В любом случае твои данные остаются на твоём устройстве: нам не передаются никакие персональные данные, а удаление Приложения стирает всё, что сохранено локально."
+          "v": "Dozify не предназначено для маленьких детей: наши условия использования требуют, чтобы тебе было не менее 13 лет, и Приложение просит подтвердить, что тебе не меньше 13 лет, прежде чем им пользоваться. Мы сознательно не собираем данные лиц младше 13 лет. Во многих странах самостоятельно дать согласие на обработку данных о здоровье можно только позже 13 лет — в Германии и Нидерландах с 16, во Франции с 15, в Испании и Италии с 14. Если ты младше этого порога там, где живёшь, пользуйся Приложением только с согласия родителя или опекуна. В любом случае твои данные остаются на твоём устройстве: нам не передаются никакие персональные данные, а удаление Приложения стирает записи на этом телефоне."
         },
         {
           "t": "h2",
@@ -3507,7 +3494,7 @@
           "v": [
             "Доступ: все твои данные видны тебе внутри Приложения.",
             "Переносимость: ты можешь в любой момент создать PDF-отчёты со своими данными.",
-            "Удаление: в Настройках → Удалить мои данные можно стереть часть или всё. Удаление Приложения также убирает все локальные данные."
+            "Удаление: в Настройках → Удалить мои данные можно стереть часть или всё. Удаление Приложения также убирает записи на этом телефоне."
           ]
         },
         {
@@ -3528,7 +3515,7 @@
         },
         {
           "t": "p",
-          "v": "Локальные данные находятся в защищённой области, которую устройство выделяет приложению. Рекомендуем включить код доступа, биометрическую блокировку и полное шифрование хранилища (на современных устройствах iOS и Android оно включено по умолчанию)."
+          "v": "Локальные данные находятся в защищённой области, которую устройство выделяет приложению. Рекомендуем включить код доступа, биометрическую блокировку и полное шифрование хранилища (на современных устройствах iOS оно включено по умолчанию)."
         },
         {
           "t": "h2",
@@ -3551,7 +3538,7 @@
     "terms": {
       "title": "Условия использования",
       "description": "Условия использования приложения Dozify, включая подписку Dozify Premium.",
-      "updated": "Последнее обновление: 2 ноября 2026 г.",
+      "updated": "Последнее обновление: 5 ноября 2026 г.",
       "blocks": [
         {
           "t": "note",
@@ -3615,7 +3602,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify предлагает необязательную подписку с автопродлением («Dozify Premium», ежемесячную или годовую), которая открывает дополнительные возможности: ИИ-анализ фото блюд после первого, второй активный препарат, кривую расчётного уровня препарата, графики трендов и прогноз веса, отчёты к визиту врача, управление флаконами и новые фото прогресса. Подписки могут включать бесплатный пробный период, о котором сообщается при покупке. Оплата списывается с твоего аккаунта Apple или Google при подтверждении покупки. Подписки продлеваются автоматически на тот же срок и по цене, указанной при покупке, если автопродление не отключено не менее чем за 24 часа до окончания текущего периода. Управлять подпиской или отменить её можно в любой момент в настройках аккаунта Apple или Google Play; отмена не даёт права на возврат средств за текущий период. Все покупки внутри приложения и подписки обрабатываются Apple или Google и подчиняются их собственным условиям."
+          "v": "Dozify предлагает необязательную подписку с автопродлением («Dozify Premium», ежемесячную или годовую), которая открывает дополнительные возможности: ИИ-анализ фото блюд после первого, второй активный препарат, кривую расчётного уровня препарата, графики трендов и прогноз веса, отчёты к визиту врача, управление флаконами и новые фото прогресса. Подписки могут включать бесплатный пробный период, о котором сообщается при покупке. Оплата списывается с твоего аккаунта Apple при подтверждении покупки. Подписки продлеваются автоматически на тот же срок и по цене, указанной при покупке, если автопродление не отключено не менее чем за 24 часа до окончания текущего периода. Управлять подпиской или отменить её можно в любой момент в настройках аккаунта Apple; отмена не даёт права на возврат средств за текущий период. Все покупки внутри приложения и подписки обрабатываются Apple и подчиняются условиям Apple."
         },
         {
           "t": "h2",
@@ -3656,7 +3643,7 @@
     "privacy": {
       "title": "Політика приватності",
       "description": "Як Dozify поводиться з твоїми даними: дані про здоров'я лишаються на твоєму пристрої й не потрапляють на наші сервери.",
-      "updated": "Останнє оновлення: 2 листопада 2026 р. · Чинна з 2 листопада 2026 р.",
+      "updated": "Останнє оновлення: 5 листопада 2026 р. · Чинна з 2 листопада 2026 р.",
       "blocks": [
         {
           "t": "h2",
@@ -3701,7 +3688,7 @@
         },
         {
           "t": "p",
-          "v": "Застосунок зберігає таку інформацію виключно на твоєму пристрої, у локальній базі даних SQLite і в зашифрованому сховищі системи:"
+          "v": "Застосунок зберігає таку інформацію виключно на твоєму пристрої, у локальній базі даних у захищеній пісочниці застосунку:"
         },
         {
           "t": "ul",
@@ -3716,7 +3703,7 @@
         },
         {
           "t": "p",
-          "v": "Ці дані ніколи не покидають твій пристрій, якщо тільки ти сам їх не експортуєш (наприклад, створивши PDF-звіт і надіславши його поштою чи через інший обраний тобою застосунок). Якщо ти видалиш Застосунок, усі дані буде стерто безповоротно."
+          "v": "Dozify ніколи не завантажує ці дані на сервер. Вони покидають твій пристрій, лише якщо ти сам їх експортуєш (наприклад, створивши PDF-звіт і надіславши його поштою чи через інший обраний тобою застосунок) або якщо твоя власна резервна копія iPhone чи iCloud містить Застосунок. Видали Застосунок, і записи на цьому телефоні зникнуть разом із ним. Експортовані файли, усе, що ти записав в Apple Здоров'я, і твої власні резервні копії iPhone існують окремо."
         },
         {
           "t": "p",
@@ -3731,8 +3718,7 @@
           "v": [
             "Сповіщення: для нагадувань про дози та попереджень про закінчення терміну флаконів. Вони плануються на твоєму пристрої; їх можна вимкнути будь-коли в налаштуваннях пристрою.",
             "Камера й медіатека (необов'язково): лише коли ти додаєш фото прогресу (залишається на пристрої) або фотографуєш страву для необов'язкового ШІ-аналізу (розділ 5).",
-            "Apple Здоров'я (необов'язково): лише якщо ти увімкнеш синхронізацію ваги в налаштуваннях. Dozify читає й записує твою вагу, щоб вона збігалася з іншими застосунками Здоров'я.",
-            "Сховище (лише Android): щоб зберігати створювані тобою PDF-звіти."
+            "Apple Здоров'я (необов'язково): лише ті категорії, які ти ввімкнеш. Dozify може читати вагу, відсоток жиру в тілі й менструальні виділення; дані про виділення використовуються лише на пристрої. Вагу він записує, лише якщо ти окремо це ввімкнеш."
           ]
         },
         {
@@ -3757,7 +3743,7 @@
         },
         {
           "t": "p",
-          "v": "Застосунок використовує RevenueCat для керування підписками. RevenueCat отримує анонімний ідентифікатор користувача й статус твоєї покупки; платежі обробляють Apple або Google, і ми ніколи не бачимо твоїх платіжних даних."
+          "v": "Застосунок використовує RevenueCat для керування підписками. RevenueCat отримує анонімний ідентифікатор користувача й статус твоєї покупки; платежі обробляє Apple, і ми ніколи не бачимо твоїх платіжних даних."
         },
         {
           "t": "p",
@@ -3765,7 +3751,7 @@
         },
         {
           "t": "p",
-          "v": "Цей сайт (dozify.app), окремий від Застосунку, завантажує тег конверсій Google Ads. Він фіксує лише одне: що відвідувач натиснув кнопку App Store або Google Play, і на якій сторінці. Його налаштовано лише для вимірювання: персоналізацію реклами та сигнали Google вимкнено, тож твій візит не додається до жодного рекламного профілю інтересів, і жодна інформація про здоров'я, яку ти тут читаєш чи вводиш, не надсилається до Google. Сам Застосунок цей тег не використовує."
+          "v": "Цей сайт (dozify.app), окремий від Застосунку, завантажує тег конверсій Google Ads. Він фіксує лише одне: що відвідувач натиснув кнопку App Store, і на якій сторінці. Його налаштовано лише для вимірювання: персоналізацію реклами та сигнали Google вимкнено, тож твій візит не додається до жодного рекламного профілю інтересів, і жодна інформація про здоров'я, яку ти тут читаєш чи вводиш, не надсилається до Google. Сам Застосунок цей тег не використовує."
         },
         {
           "t": "h2",
@@ -3773,7 +3759,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify не призначено для маленьких дітей: наші умови використання вимагають, щоб тобі було щонайменше 13 років, і Застосунок просить підтвердити, що тобі щонайменше 13 років, перш ніж ним користуватися. Ми свідомо не збираємо дані осіб молодших за 13 років. У багатьох країнах самостійно дати згоду на обробку даних про здоров'я можна лише пізніше 13 років — у Німеччині та Нідерландах із 16, у Франції з 15, в Іспанії та Італії з 14. Якщо ти молодший за цей поріг там, де живеш, користуйся Застосунком лише за згодою батьків або опікуна. У будь-якому разі твої дані лишаються на твоєму пристрої: нам не передаються жодні персональні дані, а видалення Застосунку стирає все, що збережено локально."
+          "v": "Dozify не призначено для маленьких дітей: наші умови використання вимагають, щоб тобі було щонайменше 13 років, і Застосунок просить підтвердити, що тобі щонайменше 13 років, перш ніж ним користуватися. Ми свідомо не збираємо дані осіб молодших за 13 років. У багатьох країнах самостійно дати згоду на обробку даних про здоров'я можна лише пізніше 13 років — у Німеччині та Нідерландах із 16, у Франції з 15, в Іспанії та Італії з 14. Якщо ти молодший за цей поріг там, де живеш, користуйся Застосунком лише за згодою батьків або опікуна. У будь-якому разі твої дані лишаються на твоєму пристрої: нам не передаються жодні персональні дані, а видалення Застосунку стирає записи на цьому телефоні."
         },
         {
           "t": "h2",
@@ -3788,7 +3774,7 @@
           "v": [
             "Доступ: усі твої дані видно тобі всередині Застосунку.",
             "Перенесення: ти можеш будь-коли створити PDF-звіти зі своїми даними.",
-            "Видалення: у Налаштуваннях → Видалити мої дані можна стерти частину або все. Видалення Застосунку також прибирає всі локальні дані."
+            "Видалення: у Налаштуваннях → Видалити мої дані можна стерти частину або все. Видалення Застосунку також прибирає записи на цьому телефоні."
           ]
         },
         {
@@ -3809,7 +3795,7 @@
         },
         {
           "t": "p",
-          "v": "Локальні дані перебувають у захищеній області, яку пристрій виділяє застосунку. Радимо увімкнути код доступу, біометричне блокування й повне шифрування сховища (на сучасних пристроях iOS та Android воно увімкнене за замовчуванням)."
+          "v": "Локальні дані перебувають у захищеній області, яку пристрій виділяє застосунку. Радимо увімкнути код доступу, біометричне блокування й повне шифрування сховища (на сучасних пристроях iOS воно увімкнене за замовчуванням)."
         },
         {
           "t": "h2",
@@ -3832,7 +3818,7 @@
     "terms": {
       "title": "Умови використання",
       "description": "Умови використання застосунку Dozify, зокрема підписки Dozify Premium.",
-      "updated": "Останнє оновлення: 2 листопада 2026 р.",
+      "updated": "Останнє оновлення: 5 листопада 2026 р.",
       "blocks": [
         {
           "t": "note",
@@ -3896,7 +3882,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify пропонує необов'язкову підписку з автоматичним продовженням («Dozify Premium», щомісячну або річну), яка відкриває додаткові можливості: ШІ-аналіз фото страв після першого, другий активний препарат, криву розрахункового рівня препарату, графіки трендів і прогноз ваги, звіти до візиту лікаря, керування флаконами та нові фото прогресу. Підписки можуть містити безкоштовний пробний період, про який повідомляється під час покупки. Оплата списується з твого облікового запису Apple або Google при підтвердженні покупки. Підписки продовжуються автоматично на той самий строк і за ціною, вказаною під час покупки, якщо автопродовження не вимкнено щонайменше за 24 години до закінчення поточного періоду. Керувати підпискою або скасувати її можна будь-коли в налаштуваннях облікового запису Apple або Google Play; скасування не дає права на повернення коштів за поточний період. Усі покупки в застосунку та підписки обробляються Apple або Google і підпорядковуються їхнім власним умовам."
+          "v": "Dozify пропонує необов'язкову підписку з автоматичним продовженням («Dozify Premium», щомісячну або річну), яка відкриває додаткові можливості: ШІ-аналіз фото страв після першого, другий активний препарат, криву розрахункового рівня препарату, графіки трендів і прогноз ваги, звіти до візиту лікаря, керування флаконами та нові фото прогресу. Підписки можуть містити безкоштовний пробний період, про який повідомляється під час покупки. Оплата списується з твого облікового запису Apple при підтвердженні покупки. Підписки продовжуються автоматично на той самий строк і за ціною, вказаною під час покупки, якщо автопродовження не вимкнено щонайменше за 24 години до закінчення поточного періоду. Керувати підпискою або скасувати її можна будь-коли в налаштуваннях облікового запису Apple; скасування не дає права на повернення коштів за поточний період. Усі покупки в застосунку та підписки обробляються Apple і підпорядковуються умовам Apple."
         },
         {
           "t": "h2",
@@ -3937,7 +3923,7 @@
     "privacy": {
       "title": "Zásady ochrany soukromí",
       "description": "Jak Dozify nakládá s tvými daty: zdravotní údaje zůstávají ve tvém zařízení a neposílají se na naše servery.",
-      "updated": "Poslední aktualizace: 2. listopadu 2026 · Účinnost: 2. listopadu 2026",
+      "updated": "Poslední aktualizace: 5. listopadu 2026 · Účinnost: 2. listopadu 2026",
       "blocks": [
         {
           "t": "h2",
@@ -3982,7 +3968,7 @@
         },
         {
           "t": "p",
-          "v": "Aplikace ukládá následující informace jen ve tvém zařízení, do místní databáze SQLite a do šifrovaného systémového úložiště:"
+          "v": "Aplikace ukládá následující informace jen ve tvém zařízení, do místní databáze v chráněném sandboxu aplikace:"
         },
         {
           "t": "ul",
@@ -3997,7 +3983,7 @@
         },
         {
           "t": "p",
-          "v": "Tahle data nikdy neopustí tvoje zařízení, pokud je sám nevyexportuješ (například vytvořením PDF zprávy a jejím sdílením e-mailem nebo jinou aplikací podle tvé volby). Smazáním Aplikace se všechna data trvale odstraní."
+          "v": "Dozify tahle data nikdy nenahrává. Tvoje zařízení opustí, jen pokud je sám vyexportuješ (například vytvořením PDF zprávy a jejím sdílením e-mailem nebo jinou aplikací podle tvé volby) nebo pokud Aplikaci zahrnuje tvoje vlastní záloha iPhonu nebo iCloudu. Smažeš Aplikaci a záznamy v tomto telefonu zmizí s ní. Exportované soubory, cokoli, co jsi zapsal do Apple Health, a tvoje vlastní zálohy iPhonu jsou oddělené."
         },
         {
           "t": "p",
@@ -4012,8 +3998,7 @@
           "v": [
             "Oznámení: pro připomínky dávek a upozornění na expiraci lahviček. Plánují se v tvém zařízení; kdykoli je můžeš vypnout v nastavení zařízení.",
             "Fotoaparát a knihovna fotek (volitelné): jen když přikládáš fotku pokroku (zůstává v zařízení) nebo fotíš jídlo pro volitelnou analýzu AI (oddíl 5).",
-            "Apple Health (nepovinné): jen pokud si v Nastavení zapneš synchronizaci váhy. Dozify tvoji váhu čte a zapisuje, aby zůstala v souladu s tvými ostatními aplikacemi Health.",
-            "Úložiště (jen Android): kvůli uložení PDF zpráv, které vytvoříš."
+            "Apple Health (nepovinné): jen kategorie, které zapneš. Dozify může číst hmotnost, procento tělesného tuku a menstruační krvácení; krvácení se používá jen v zařízení. Hmotnost zapisuje, jen pokud to zapneš zvlášť."
           ]
         },
         {
@@ -4038,7 +4023,7 @@
         },
         {
           "t": "p",
-          "v": "Aplikace používá ke správě předplatného RevenueCat. RevenueCat dostává anonymní ID uživatele a stav tvého nákupu; platby zpracovává Apple nebo Google a my tvoje platební údaje nikdy nevidíme."
+          "v": "Aplikace používá ke správě předplatného RevenueCat. RevenueCat dostává anonymní ID uživatele a stav tvého nákupu; platby zpracovává Apple a my tvoje platební údaje nikdy nevidíme."
         },
         {
           "t": "p",
@@ -4046,7 +4031,7 @@
         },
         {
           "t": "p",
-          "v": "Tento web (dozify.app), oddělený od Aplikace, načítá konverzní značku Google Ads. Zaznamenává jedinou věc: že návštěvník klikl na tlačítko App Store nebo Google Play, a na které stránce. Je nastavená pouze pro měření: personalizace reklam a signály Google jsou vypnuté, takže tvoje návštěva se nepřidává do žádného reklamního profilu zájmů a žádné zdravotní informace, které tu čteš nebo zadáváš, se do Googlu neposílají. Samotná Aplikace tuto značku nepoužívá."
+          "v": "Tento web (dozify.app), oddělený od Aplikace, načítá konverzní značku Google Ads. Zaznamenává jedinou věc: že návštěvník klikl na tlačítko App Store, a na které stránce. Je nastavená pouze pro měření: personalizace reklam a signály Google jsou vypnuté, takže tvoje návštěva se nepřidává do žádného reklamního profilu zájmů a žádné zdravotní informace, které tu čteš nebo zadáváš, se do Googlu neposílají. Samotná Aplikace tuto značku nepoužívá."
         },
         {
           "t": "h2",
@@ -4054,7 +4039,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify není pro malé děti: naše podmínky služby vyžadují, aby ti bylo aspoň 13 let, a Aplikace tě před použitím požádá o potvrzení, že ti je aspoň 13 let. Vědomě nesbíráme žádná data od nikoho mladšího 13 let. V Česku můžeš sám dát souhlas se zpracováním osobních údajů až od 15 let; v jiných zemích je hranice jinde — 16 v Německu a Nizozemsku, 15 ve Francii, 14 ve Španělsku a Itálii. Pokud jsi mladší, než je tahle hranice tam, kde žiješ, používej Aplikaci jen se souhlasem rodiče nebo zákonného zástupce. V každém případě tvoje záznamy zůstávají ve tvém zařízení: žádné osobní údaje se k nám nepřenášejí a smazáním aplikace se odstraní všechno, co je uložené lokálně."
+          "v": "Dozify není pro malé děti: naše podmínky služby vyžadují, aby ti bylo aspoň 13 let, a Aplikace tě před použitím požádá o potvrzení, že ti je aspoň 13 let. Vědomě nesbíráme žádná data od nikoho mladšího 13 let. V Česku můžeš sám dát souhlas se zpracováním osobních údajů až od 15 let; v jiných zemích je hranice jinde — 16 v Německu a Nizozemsku, 15 ve Francii, 14 ve Španělsku a Itálii. Pokud jsi mladší, než je tahle hranice tam, kde žiješ, používej Aplikaci jen se souhlasem rodiče nebo zákonného zástupce. V každém případě tvoje záznamy zůstávají ve tvém zařízení: žádné osobní údaje se k nám nepřenášejí a smazáním aplikace se odstraní záznamy v tomto telefonu."
         },
         {
           "t": "h2",
@@ -4069,7 +4054,7 @@
           "v": [
             "Přístup: všechna tvoje data vidíš přímo v Aplikaci.",
             "Export: PDF zprávy ze svých dat si můžeš vytvořit kdykoli.",
-            "Výmaz: v Nastavení → Smazat moje data můžeš data vymazat vybraně nebo úplně. Odinstalováním Aplikace se rovněž smažou všechna lokální data."
+            "Výmaz: v Nastavení → Smazat moje data můžeš data vymazat vybraně nebo úplně. Odinstalováním Aplikace se rovněž smažou záznamy v tomto telefonu."
           ]
         },
         {
@@ -4090,7 +4075,7 @@
         },
         {
           "t": "p",
-          "v": "Lokální data se ukládají do chráněné sandbox oblasti aplikace ve tvém zařízení. Doporučujeme mít zapnutý kód zařízení, biometrické odemykání a šifrování celého disku (na dnešních iOS a Android zařízeních je zapnuté ve výchozím stavu)."
+          "v": "Lokální data se ukládají do chráněné sandbox oblasti aplikace ve tvém zařízení. Doporučujeme mít zapnutý kód zařízení, biometrické odemykání a šifrování celého disku (na dnešních iOS zařízeních je zapnuté ve výchozím stavu)."
         },
         {
           "t": "h2",
@@ -4113,7 +4098,7 @@
     "terms": {
       "title": "Podmínky služby",
       "description": "Podmínky používání Dozify: věková hranice, licence, předplatné a odpovědnost.",
-      "updated": "Poslední aktualizace: 2. listopadu 2026",
+      "updated": "Poslední aktualizace: 5. listopadu 2026",
       "blocks": [
         {
           "t": "note",
@@ -4177,7 +4162,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify nabízí nepovinné automaticky obnovované předplatné („Dozify Premium“, dostupné jako měsíční nebo roční plán), které odemyká další funkce, jako jsou analýzy fotek jídla pomocí AI po první, druhý aktivní lék, křivka odhadované hladiny léku, grafy trendů a předpověď váhy, zprávy k návštěvě lékaře, správa lahviček a nové fotky pokroku. Předplatné může zahrnovat bezplatné zkušební období, které se ukáže při nákupu. Platba se strhne z tvého Apple ID nebo účtu Google při potvrzení nákupu. Předplatné se automaticky obnovuje na stejné období a za stejnou cenu, jaká byla uvedena při nákupu, pokud automatické obnovování nevypneš aspoň 24 hodin před koncem probíhajícího období. Předplatné můžeš kdykoli spravovat nebo zrušit v nastavení účtu Apple ID nebo Google Play: zrušení nevrací peníze za probíhající období. Všechny nákupy v aplikaci a předplatné zpracovává Apple nebo Google a řídí se jejich příslušnými podmínkami."
+          "v": "Dozify nabízí nepovinné automaticky obnovované předplatné („Dozify Premium“, dostupné jako měsíční nebo roční plán), které odemyká další funkce, jako jsou analýzy fotek jídla pomocí AI po první, druhý aktivní lék, křivka odhadované hladiny léku, grafy trendů a předpověď váhy, zprávy k návštěvě lékaře, správa lahviček a nové fotky pokroku. Předplatné může zahrnovat bezplatné zkušební období, které se ukáže při nákupu. Platba se strhne z tvého Apple ID při potvrzení nákupu. Předplatné se automaticky obnovuje na stejné období a za stejnou cenu, jaká byla uvedena při nákupu, pokud automatické obnovování nevypneš aspoň 24 hodin před koncem probíhajícího období. Předplatné můžeš kdykoli spravovat nebo zrušit v nastavení účtu Apple ID: zrušení nevrací peníze za probíhající období. Všechny nákupy v aplikaci a předplatné zpracovává Apple a řídí se podmínkami Applu."
         },
         {
           "t": "h2",
@@ -4218,7 +4203,7 @@
     "privacy": {
       "title": "プライバシーポリシー",
       "description": "Dozify がデータをどう扱うか：健康に関するデータは端末の中に残り、当方のサーバーには送られません。",
-      "updated": "最終更新日：2026年11月2日 ・ 施行日：2026年11月2日",
+      "updated": "最終更新日：2026年11月5日 ・ 施行日：2026年11月2日",
       "blocks": [
         {
           "t": "h2",
@@ -4263,7 +4248,7 @@
         },
         {
           "t": "p",
-          "v": "本アプリは、以下の情報をお使いの端末の中だけに、ローカルの SQLite データベースおよび暗号化されたシステム領域に保存します："
+          "v": "本アプリは、以下の情報をお使いの端末の中だけに、アプリの保護されたサンドボックス内のローカルデータベースに保存します："
         },
         {
           "t": "ul",
@@ -4278,7 +4263,7 @@
         },
         {
           "t": "p",
-          "v": "これらのデータは、ご自身で書き出さないかぎり（たとえば PDF レポートを作成してメールなどで共有する場合など）、端末の外に出ることはありません。本アプリを削除すると、すべてのデータは完全に消去されます。"
+          "v": "Dozify がこれらのデータをアップロードすることはありません。端末の外に出るのは、ご自身で書き出した場合（たとえば PDF レポートを作成してメールなどで共有する場合など）、またはご自身の iPhone や iCloud のバックアップに本アプリが含まれている場合だけです。本アプリを削除すると、このスマートフォン上の記録も一緒に消えます。書き出したファイル、Apple ヘルスケアに書き込んだ内容、ご自身の iPhone バックアップは別です。"
         },
         {
           "t": "p",
@@ -4293,8 +4278,7 @@
           "v": [
             "通知：投与のリマインダーとバイアルの期限アラートのため。通知は端末上で予約され、端末の設定からいつでもオフにできます。",
             "カメラと写真ライブラリ（任意）：経過の写真を添付するとき（端末に保存）、または任意の AI 分析のために食事を撮影するとき（第5項）のみ。",
-            "Apple ヘルスケア（任意）：設定で体重の同期をオンにした場合にのみ使います。他のヘルスケア対応アプリと内容がそろうよう、Dozify が体重を読み書きします。",
-            "ストレージ（Android のみ）：作成した PDF レポートを保存するために使います。"
+            "Apple ヘルスケア（任意）：オンにしたカテゴリのみ使います。Dozify は体重、体脂肪率、月経の出血量を読み取ることができ、月経の出血量は端末上でのみ使用します。体重の書き込みは、別途オンにした場合にのみ行います。"
           ]
         },
         {
@@ -4319,7 +4303,7 @@
         },
         {
           "t": "p",
-          "v": "本アプリは、購読の管理に RevenueCat を利用しています。RevenueCat が受け取るのは匿名のユーザー ID と購入の状態だけです。決済は Apple または Google が処理し、当方がお支払い情報を見ることはありません。"
+          "v": "本アプリは、購読の管理に RevenueCat を利用しています。RevenueCat が受け取るのは匿名のユーザー ID と購入の状態だけです。決済は Apple が処理し、当方がお支払い情報を見ることはありません。"
         },
         {
           "t": "p",
@@ -4327,7 +4311,7 @@
         },
         {
           "t": "p",
-          "v": "このウェブサイト（dozify.app）は本アプリとは別のもので、Google 広告のコンバージョンタグを読み込んでいます。記録するのは、訪問者が App Store または Google Play のボタンをクリックしたことと、どのページでクリックしたかの一点だけです。計測専用に設定されており、広告のパーソナライズと Google シグナルは無効になっています。そのため、ご訪問が広告の興味関心プロフィールに加えられることはなく、ここで読んだり入力したりした健康情報が Google に送られることもありません。本アプリ自体はこのタグを使用していません。"
+          "v": "このウェブサイト（dozify.app）は本アプリとは別のもので、Google 広告のコンバージョンタグを読み込んでいます。記録するのは、訪問者が App Store のボタンをクリックしたことと、どのページでクリックしたかの一点だけです。計測専用に設定されており、広告のパーソナライズと Google シグナルは無効になっています。そのため、ご訪問が広告の興味関心プロフィールに加えられることはなく、ここで読んだり入力したりした健康情報が Google に送られることもありません。本アプリ自体はこのタグを使用していません。"
         },
         {
           "t": "h2",
@@ -4335,7 +4319,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify は小さなお子さま向けではありません。当方の利用規約では 13 歳以上であることを条件としており、本アプリはご利用の前に 13 歳以上であることの確認をお願いしています。13 歳未満の方から意図的にデータを収集することはありません。日本では、個人情報保護委員会のガイドラインにより、おおむね 12〜15 歳未満の方については法定代理人（保護者）の同意を得ることが求められています。国によって基準は異なり、ドイツとオランダでは 16 歳、フランスでは 15 歳、スペインとイタリアでは 14 歳です。お住まいの国の基準に満たない場合は、保護者の同意を得たうえで本アプリをご利用ください。いずれの場合も、入力された内容は端末の中に残ります：個人データが当方に送られることはなく、アプリを削除すれば端末に保存されたものはすべて消えます。"
+          "v": "Dozify は小さなお子さま向けではありません。当方の利用規約では 13 歳以上であることを条件としており、本アプリはご利用の前に 13 歳以上であることの確認をお願いしています。13 歳未満の方から意図的にデータを収集することはありません。日本では、個人情報保護委員会のガイドラインにより、おおむね 12〜15 歳未満の方については法定代理人（保護者）の同意を得ることが求められています。国によって基準は異なり、ドイツとオランダでは 16 歳、フランスでは 15 歳、スペインとイタリアでは 14 歳です。お住まいの国の基準に満たない場合は、保護者の同意を得たうえで本アプリをご利用ください。いずれの場合も、入力された内容は端末の中に残ります：個人データが当方に送られることはなく、アプリを削除すればこのスマートフォン上の記録は消えます。"
         },
         {
           "t": "h2",
@@ -4350,7 +4334,7 @@
           "v": [
             "アクセス：すべてのデータは本アプリの中でご覧いただけます。",
             "書き出し：データの PDF レポートをいつでも作成できます。",
-            "削除：設定 → データを削除 から、選んだデータまたはすべてのデータを消去できます。本アプリをアンインストールしても、端末内のデータはすべて削除されます。"
+            "削除：設定 → データを削除 から、選んだデータまたはすべてのデータを消去できます。本アプリをアンインストールしても、このスマートフォン上の記録は削除されます。"
           ]
         },
         {
@@ -4371,7 +4355,7 @@
         },
         {
           "t": "p",
-          "v": "端末内のデータは、端末が保護しているアプリ専用の領域に保存されます。端末のパスコード、生体認証によるロック、ディスク全体の暗号化（最近の iOS・Android 端末では初期状態で有効）を有効にしておくことをおすすめします。"
+          "v": "端末内のデータは、端末が保護しているアプリ専用の領域に保存されます。端末のパスコード、生体認証によるロック、ディスク全体の暗号化（最近の iOS 端末では初期状態で有効）を有効にしておくことをおすすめします。"
         },
         {
           "t": "h2",
@@ -4394,7 +4378,7 @@
     "terms": {
       "title": "利用規約",
       "description": "Dozify の利用条件：年齢の条件、ライセンス、購読、責任について。",
-      "updated": "最終更新日：2026年11月2日",
+      "updated": "最終更新日：2026年11月5日",
       "blocks": [
         {
           "t": "note",
@@ -4499,7 +4483,7 @@
     "privacy": {
       "title": "개인정보 처리방침",
       "description": "Dozify가 데이터를 다루는 방식: 건강 데이터는 기기 안에 남고 저희 서버로 보내지 않아요.",
-      "updated": "최종 업데이트: 2026년 11월 2일 · 시행: 2026년 11월 2일",
+      "updated": "최종 업데이트: 2026년 11월 5일 · 시행: 2026년 11월 2일",
       "blocks": [
         {
           "t": "h2",
@@ -4544,7 +4528,7 @@
         },
         {
           "t": "p",
-          "v": "앱은 다음 정보를 오직 기기 안에만, 로컬 SQLite 데이터베이스와 암호화된 시스템 저장소에 보관해요:"
+          "v": "앱은 다음 정보를 오직 기기 안에만, 앱의 보호된 샌드박스 안에 있는 로컬 데이터베이스에 보관해요:"
         },
         {
           "t": "ul",
@@ -4559,7 +4543,7 @@
         },
         {
           "t": "p",
-          "v": "이 데이터는 직접 내보내지 않는 한（예를 들어 PDF 보고서를 만들어 이메일이나 다른 앱으로 공유하는 경우） 기기를 벗어나지 않아요. 앱을 삭제하면 모든 데이터가 완전히 지워져요."
+          "v": "Dozify는 이 데이터를 절대 업로드하지 않아요. 직접 내보내시는 경우（예를 들어 PDF 보고서를 만들어 이메일이나 다른 앱으로 공유하는 경우）, 또는 본인의 iPhone이나 iCloud 백업에 앱이 포함되는 경우에만 기기를 벗어나요. 앱을 삭제하면 이 휴대폰의 기록도 함께 사라져요. 내보낸 파일, Apple 건강에 기록한 내용, 본인의 iPhone 백업은 별개예요."
         },
         {
           "t": "p",
@@ -4574,8 +4558,7 @@
           "v": [
             "알림: 투약 알림과 바이알 유효기간 알림을 위해 사용해요. 알림은 기기에서 예약되며, 기기 설정에서 언제든지 끌 수 있어요.",
             "카메라 및 사진 보관함(선택): 경과 사진을 첨부하실 때(기기에 저장) 또는 선택 사항인 AI 분석을 위해 식사를 촬영하실 때(5항)만 사용해요.",
-            "Apple 건강（선택）: 설정에서 체중 동기화를 켜신 경우에만 써요. 다른 건강 앱과 내용이 맞도록 Dozify가 체중을 읽고 써요.",
-            "저장소（Android만）: 만드신 PDF 보고서를 저장하기 위해서예요."
+            "Apple 건강（선택）: 켜신 항목에 대해서만 써요. Dozify는 체중, 체지방률, 생리 양을 읽을 수 있으며, 생리 양은 기기 안에서만 사용해요. 체중 쓰기는 따로 켜신 경우에만 이뤄져요."
           ]
         },
         {
@@ -4600,7 +4583,7 @@
         },
         {
           "t": "p",
-          "v": "앱은 구독 관리를 위해 RevenueCat을 씁니다. RevenueCat은 익명 사용자 ID와 구매 상태만 받아요. 결제는 Apple 또는 Google이 처리하며, 저희가 결제 정보를 보는 일은 없어요."
+          "v": "앱은 구독 관리를 위해 RevenueCat을 씁니다. RevenueCat은 익명 사용자 ID와 구매 상태만 받아요. 결제는 Apple이 처리하며, 저희가 결제 정보를 보는 일은 없어요."
         },
         {
           "t": "p",
@@ -4608,7 +4591,7 @@
         },
         {
           "t": "p",
-          "v": "이 웹사이트(dozify.app)는 앱과 별개이며, Google Ads 전환 태그를 불러와요. 이 태그가 기록하는 건 한 가지뿐이에요. 방문자가 App Store나 Google Play 버튼을 눌렀다는 사실과, 어느 페이지에서 눌렀는지예요. 측정 전용으로만 설정돼 있어 광고 개인 맞춤과 Google 신호는 꺼져 있어요. 그래서 방문 기록이 광고 관심사 프로필에 추가되지 않고, 여기서 읽거나 입력한 건강 정보도 Google로 전송되지 않아요. 앱 자체는 이 태그를 쓰지 않아요."
+          "v": "이 웹사이트(dozify.app)는 앱과 별개이며, Google Ads 전환 태그를 불러와요. 이 태그가 기록하는 건 한 가지뿐이에요. 방문자가 App Store 버튼을 눌렀다는 사실과, 어느 페이지에서 눌렀는지예요. 측정 전용으로만 설정돼 있어 광고 개인 맞춤과 Google 신호는 꺼져 있어요. 그래서 방문 기록이 광고 관심사 프로필에 추가되지 않고, 여기서 읽거나 입력한 건강 정보도 Google로 전송되지 않아요. 앱 자체는 이 태그를 쓰지 않아요."
         },
         {
           "t": "h2",
@@ -4616,7 +4599,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify는 어린 아이를 위한 앱이 아니에요. 저희 이용약관은 만 13세 이상일 것을 요구하며, 앱은 사용 전에 만 13세 이상인지 확인을 요청해요. 만 13세 미만인 분에게서 의도적으로 데이터를 수집하지 않아요. 한국에서는 개인정보 보호법에 따라 만 14세 미만 아동의 개인정보를 처리하려면 법정대리인의 동의가 필요해요. 나라마다 기준이 달라서 독일과 네덜란드는 16세, 프랑스는 15세, 스페인과 이탈리아는 14세예요. 거주하시는 나라의 기준에 미치지 않으시면 보호자의 동의를 받고 앱을 써 주세요. 어느 경우든 입력하신 내용은 기기 안에 남아요: 개인정보가 저희에게 전송되지 않으며, 앱을 삭제하면 기기에 저장된 모든 것이 사라져요."
+          "v": "Dozify는 어린 아이를 위한 앱이 아니에요. 저희 이용약관은 만 13세 이상일 것을 요구하며, 앱은 사용 전에 만 13세 이상인지 확인을 요청해요. 만 13세 미만인 분에게서 의도적으로 데이터를 수집하지 않아요. 한국에서는 개인정보 보호법에 따라 만 14세 미만 아동의 개인정보를 처리하려면 법정대리인의 동의가 필요해요. 나라마다 기준이 달라서 독일과 네덜란드는 16세, 프랑스는 15세, 스페인과 이탈리아는 14세예요. 거주하시는 나라의 기준에 미치지 않으시면 보호자의 동의를 받고 앱을 써 주세요. 어느 경우든 입력하신 내용은 기기 안에 남아요: 개인정보가 저희에게 전송되지 않으며, 앱을 삭제하면 이 휴대폰의 기록이 사라져요."
         },
         {
           "t": "h2",
@@ -4631,7 +4614,7 @@
           "v": [
             "열람: 모든 데이터를 앱 안에서 보실 수 있어요.",
             "내보내기: 데이터의 PDF 보고서를 언제든 만들 수 있어요.",
-            "삭제: 설정 → 내 데이터 삭제에서 선택한 데이터나 모든 데이터를 지울 수 있어요. 앱을 삭제해도 기기 안의 데이터가 모두 지워져요."
+            "삭제: 설정 → 내 데이터 삭제에서 선택한 데이터나 모든 데이터를 지울 수 있어요. 앱을 삭제해도 이 휴대폰의 기록이 지워져요."
           ]
         },
         {
@@ -4652,7 +4635,7 @@
         },
         {
           "t": "p",
-          "v": "기기 안의 데이터는 기기가 보호하는 앱 전용 영역에 저장돼요. 기기 잠금 암호, 생체 인증 잠금, 전체 디스크 암호화（최근 iOS·Android 기기에서는 기본으로 켜져 있어요）를 켜 두시기를 권해요."
+          "v": "기기 안의 데이터는 기기가 보호하는 앱 전용 영역에 저장돼요. 기기 잠금 암호, 생체 인증 잠금, 전체 디스크 암호화（최근 iOS 기기에서는 기본으로 켜져 있어요）를 켜 두시기를 권해요."
         },
         {
           "t": "h2",
@@ -4675,7 +4658,7 @@
     "terms": {
       "title": "이용약관",
       "description": "Dozify 이용 조건: 나이 기준, 라이선스, 구독, 책임에 대해.",
-      "updated": "최종 업데이트: 2026년 11월 2일",
+      "updated": "최종 업데이트: 2026년 11월 5일",
       "blocks": [
         {
           "t": "note",
@@ -4739,7 +4722,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify는 두 번째부터의 식사 사진 AI 분석, 두 번째 활성 약, 예상 약물 수치 곡선, 추이 차트와 체중 예측, 진료용 보고서, 바이알 관리, 새 경과 사진 같은 추가 기능을 여는 선택적 자동 갱신 구독（「Dozify 프리미엄」, 월간 또는 연간 요금제）을 제공해요. 구독에는 무료 체험 기간이 포함될 수 있으며, 그 내용은 구매 시 표시돼요. 요금은 구매 확정 시 Apple ID 또는 Google 계정으로 청구돼요. 현재 기간이 끝나기 최소 24시간 전에 자동 갱신을 끄지 않으면, 구매 시 표시된 것과 같은 기간·같은 금액으로 자동 갱신돼요. 구독은 Apple ID 또는 Google Play 계정 설정에서 언제든 관리하거나 해지할 수 있어요. 해지해도 현재 기간에 대한 환불은 없어요. 모든 인앱 구매와 구독은 Apple 또는 Google이 처리하며 각각의 약관을 따라요."
+          "v": "Dozify는 두 번째부터의 식사 사진 AI 분석, 두 번째 활성 약, 예상 약물 수치 곡선, 추이 차트와 체중 예측, 진료용 보고서, 바이알 관리, 새 경과 사진 같은 추가 기능을 여는 선택적 자동 갱신 구독（「Dozify 프리미엄」, 월간 또는 연간 요금제）을 제공해요. 구독에는 무료 체험 기간이 포함될 수 있으며, 그 내용은 구매 시 표시돼요. 요금은 구매 확정 시 Apple ID로 청구돼요. 현재 기간이 끝나기 최소 24시간 전에 자동 갱신을 끄지 않으면, 구매 시 표시된 것과 같은 기간·같은 금액으로 자동 갱신돼요. 구독은 Apple ID 계정 설정에서 언제든 관리하거나 해지할 수 있어요. 해지해도 현재 기간에 대한 환불은 없어요. 모든 인앱 구매와 구독은 Apple이 처리하며 Apple의 약관을 따라요."
         },
         {
           "t": "h2",
@@ -4780,7 +4763,7 @@
     "privacy": {
       "title": "隐私政策",
       "description": "Dozify 如何处理你的数据：健康数据留在你的设备上，不会发送到我们的服务器。",
-      "updated": "最后更新：2026 年 11 月 2 日 · 生效：2026 年 11 月 2 日",
+      "updated": "最后更新：2026 年 11 月 5 日 · 生效：2026 年 11 月 2 日",
       "blocks": [
         {
           "t": "h2",
@@ -4825,7 +4808,7 @@
         },
         {
           "t": "p",
-          "v": "本应用只在你的设备上保存以下信息，存放于本地 SQLite 数据库和加密的系统存储中："
+          "v": "本应用只在你的设备上保存以下信息，存放于应用受保护沙盒内的本地数据库中："
         },
         {
           "t": "ul",
@@ -4840,7 +4823,7 @@
         },
         {
           "t": "p",
-          "v": "除非你自己主动导出（例如生成 PDF 报告并通过邮件或你选择的其他应用分享），这些数据不会离开你的设备。删除本应用会永久清除全部数据。"
+          "v": "Dozify 从不上传这些数据。只有当你自己主动导出（例如生成 PDF 报告并通过邮件或你选择的其他应用分享），或者你自己的 iPhone 或 iCloud 备份包含本应用时，这些数据才会离开你的设备。删除本应用，这部手机上的记录也随之删除。你导出的文件、写入 Apple 健康的任何内容以及你自己的 iPhone 备份都是独立的。"
         },
         {
           "t": "p",
@@ -4855,8 +4838,7 @@
           "v": [
             "通知：用于用药提醒和药瓶过期提醒。通知在你的设备上安排，你可以随时在设备设置中关闭。",
             "相机和照片图库（可选）：仅在你附加进展照片（保存在设备上）或为可选 AI 分析拍摄餐食（第 5 条）时使用。",
-            "Apple 健康（可选）：只有当你在设置里打开体重同步时才会用到。Dozify 会读取和写入你的体重，让它与你其他的健康类应用保持一致。",
-            "存储（仅限 Android）：用于保存你生成的 PDF 报告。"
+            "Apple 健康（可选）：只使用你开启的类别。Dozify 可以读取体重、体脂率和月经流量；月经流量仅在设备上使用。只有当你另外开启时，它才会写入体重。"
           ]
         },
         {
@@ -4881,7 +4863,7 @@
         },
         {
           "t": "p",
-          "v": "本应用使用 RevenueCat 管理订阅。RevenueCat 只会收到一个匿名的用户标识和你的购买状态；付款由 Apple 或 Google 处理，我们从不接触你的付款信息。"
+          "v": "本应用使用 RevenueCat 管理订阅。RevenueCat 只会收到一个匿名的用户标识和你的购买状态；付款由 Apple 处理，我们从不接触你的付款信息。"
         },
         {
           "t": "p",
@@ -4889,7 +4871,7 @@
         },
         {
           "t": "p",
-          "v": "本网站（dozify.app）与本应用相互独立，加载了一个 Google Ads 转化代码。它只记录一件事：访客点击了 App Store 或 Google Play 按钮，以及是在哪个页面点击的。它仅用于衡量：广告个性化和 Google 信号均已关闭，因此你的访问不会被加入任何广告兴趣画像，你在这里阅读或输入的任何健康信息也不会发送给 Google。本应用本身不使用这段代码。"
+          "v": "本网站（dozify.app）与本应用相互独立，加载了一个 Google Ads 转化代码。它只记录一件事：访客点击了 App Store 按钮，以及是在哪个页面点击的。它仅用于衡量：广告个性化和 Google 信号均已关闭，因此你的访问不会被加入任何广告兴趣画像，你在这里阅读或输入的任何健康信息也不会发送给 Google。本应用本身不使用这段代码。"
         },
         {
           "t": "h2",
@@ -4897,7 +4879,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify 不适合幼童：我们的服务条款要求你至少年满 13 岁，本应用会在你开始使用前请你确认已年满 13 岁。我们不会有意收集任何 13 岁以下人士的数据。在中国，《个人信息保护法》把不满 14 周岁未成年人的个人信息列为敏感个人信息，处理这类信息需要取得父母或其他监护人的同意。各国门槛不同：德国和荷兰是 16 岁，法国是 15 岁，西班牙和意大利是 14 岁。如果你所在国家的门槛高于你的年龄，请在父母或监护人同意的前提下使用本应用。无论哪种情况，你填写的内容都留在你的设备上：没有任何个人数据传输给我们，删除应用会清除本地保存的一切。"
+          "v": "Dozify 不适合幼童：我们的服务条款要求你至少年满 13 岁，本应用会在你开始使用前请你确认已年满 13 岁。我们不会有意收集任何 13 岁以下人士的数据。在中国，《个人信息保护法》把不满 14 周岁未成年人的个人信息列为敏感个人信息，处理这类信息需要取得父母或其他监护人的同意。各国门槛不同：德国和荷兰是 16 岁，法国是 15 岁，西班牙和意大利是 14 岁。如果你所在国家的门槛高于你的年龄，请在父母或监护人同意的前提下使用本应用。无论哪种情况，你填写的内容都留在你的设备上：没有任何个人数据传输给我们，删除应用会清除这部手机上的记录。"
         },
         {
           "t": "h2",
@@ -4912,7 +4894,7 @@
           "v": [
             "查阅：你的全部数据都能在本应用内查看。",
             "导出：你随时可以生成数据的 PDF 报告。",
-            "删除：在设置 → 删除我的数据里，可以选择性地或全部清除数据。卸载本应用同样会删除所有本地数据。"
+            "删除：在设置 → 删除我的数据里，可以选择性地或全部清除数据。卸载本应用同样会删除这部手机上的记录。"
           ]
         },
         {
@@ -4933,7 +4915,7 @@
         },
         {
           "t": "p",
-          "v": "本地数据保存在设备为应用划出的受保护沙盒中。我们建议启用设备密码、生物识别锁定和全盘加密（较新的 iOS 和 Android 设备默认已开启）。"
+          "v": "本地数据保存在设备为应用划出的受保护沙盒中。我们建议启用设备密码、生物识别锁定和全盘加密（较新的 iOS 设备默认已开启）。"
         },
         {
           "t": "h2",
@@ -4956,7 +4938,7 @@
     "terms": {
       "title": "服务条款",
       "description": "使用 Dozify 的条款：年龄要求、许可、订阅与责任。",
-      "updated": "最后更新：2026 年 11 月 2 日",
+      "updated": "最后更新：2026 年 11 月 5 日",
       "blocks": [
         {
           "t": "note",
@@ -5061,7 +5043,7 @@
     "privacy": {
       "title": "سياسة الخصوصية",
       "description": "كيف يتعامل Dozify مع بياناتك: البيانات الصحية تبقى على جهازك ولا تُرسل إلى خوادمنا.",
-      "updated": "آخر تحديث: 2 نوفمبر 2026 · سريان: 2 نوفمبر 2026",
+      "updated": "آخر تحديث: 5 نوفمبر 2026 · سريان: 2 نوفمبر 2026",
       "blocks": [
         {
           "t": "h2",
@@ -5106,7 +5088,7 @@
         },
         {
           "t": "p",
-          "v": "يخزّن التطبيق المعلومات التالية على جهازك وحده، في قاعدة بيانات SQLite محلية وفي مساحة نظام مشفّرة:"
+          "v": "يخزّن التطبيق المعلومات التالية على جهازك وحده، في قاعدة بيانات محلية داخل البيئة المعزولة المحمية للتطبيق (sandbox):"
         },
         {
           "t": "ul",
@@ -5121,7 +5103,7 @@
         },
         {
           "t": "p",
-          "v": "لا تغادر هذه البيانات جهازك إطلاقًا ما لم تصدّرها أنت صراحةً (كأن تُنشئ تقرير PDF وتشاركه عبر البريد أو أي تطبيق تختاره). وحذف التطبيق يزيل كل البيانات نهائيًا."
+          "v": "لا يرفع Dozify هذه البيانات أبدًا. ولا تغادر جهازك إلا إذا صدّرتها أنت صراحةً (كأن تُنشئ تقرير PDF وتشاركه عبر البريد أو أي تطبيق تختاره) أو إذا تضمّنت نسخة iPhone أو iCloud الاحتياطية الخاصة بك التطبيق. احذف التطبيق وتذهب السجلات الموجودة على هذا الهاتف معه. أما الملفات التي صدّرتها، وأي شيء كتبته في Apple Health، ونسخ iPhone الاحتياطية الخاصة بك فهي منفصلة."
         },
         {
           "t": "p",
@@ -5136,8 +5118,7 @@
           "v": [
             "الإشعارات: لتذكيرات الجرعات وتنبيهات انتهاء صلاحية القوارير. تُجدوَل على جهازك، ويمكنك إيقافها في أي وقت من إعدادات الجهاز.",
             "الكاميرا ومكتبة الصور (اختياري): فقط عند إرفاق صورة تقدّم (تبقى على جهازك) أو تصوير وجبة للتحليل الاختياري بالذكاء الاصطناعي (القسم 5).",
-            "Apple Health (اختياري): فقط إن فعّلت مزامنة الوزن في الإعدادات. عندها يقرأ Dozify وزنك ويكتبه ليبقى متوافقًا مع تطبيقات الصحة الأخرى لديك.",
-            "التخزين (على Android فقط): لحفظ تقارير PDF التي تُنشئها."
+            "Apple Health (اختياري): الفئات التي تفعّلها فقط. يمكن لـ Dozify قراءة الوزن ونسبة دهون الجسم وتدفّق الدورة الشهرية؛ ويُستخدم تدفّق الدورة على الجهاز فقط. ولا يكتب الوزن إلا إذا فعّلت ذلك بشكل منفصل."
           ]
         },
         {
@@ -5162,7 +5143,7 @@
         },
         {
           "t": "p",
-          "v": "يستخدم التطبيق RevenueCat لإدارة الاشتراكات. ويتلقّى RevenueCat معرّف مستخدم مجهولًا وحالة شرائك فقط؛ أما المدفوعات فتعالجها Apple أو Google، ولا نطّلع نحن على بيانات دفعك إطلاقًا."
+          "v": "يستخدم التطبيق RevenueCat لإدارة الاشتراكات. ويتلقّى RevenueCat معرّف مستخدم مجهولًا وحالة شرائك فقط؛ أما المدفوعات فتعالجها Apple، ولا نطّلع نحن على بيانات دفعك إطلاقًا."
         },
         {
           "t": "p",
@@ -5170,7 +5151,7 @@
         },
         {
           "t": "p",
-          "v": "هذا الموقع (dozify.app)، وهو منفصل عن التطبيق، يحمّل وسم تحويل من Google Ads. وهو يسجّل أمرًا واحدًا فقط: أن زائرًا نقر زرّ App Store أو Google Play، وفي أيّ صفحة. وقد ضُبط للقياس فقط: تخصيص الإعلانات وإشارات Google معطّلة، فلا تُضاف زيارتك إلى أيّ ملفّ اهتمامات إعلانية، ولا تُرسَل إلى Google أيّ معلومات صحية تقرؤها أو تُدخلها هنا. أما التطبيق نفسه فلا يستخدم هذا الوسم."
+          "v": "هذا الموقع (dozify.app)، وهو منفصل عن التطبيق، يحمّل وسم تحويل من Google Ads. وهو يسجّل أمرًا واحدًا فقط: أن زائرًا نقر زرّ App Store، وفي أيّ صفحة. وقد ضُبط للقياس فقط: تخصيص الإعلانات وإشارات Google معطّلة، فلا تُضاف زيارتك إلى أيّ ملفّ اهتمامات إعلانية، ولا تُرسَل إلى Google أيّ معلومات صحية تقرؤها أو تُدخلها هنا. أما التطبيق نفسه فلا يستخدم هذا الوسم."
         },
         {
           "t": "h2",
@@ -5178,7 +5159,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify ليس للأطفال الصغار: تشترط شروط الخدمة لدينا أن يكون عمرك 13 عامًا على الأقل، ويطلب التطبيق تأكيد أن عمرك 13 عامًا على الأقل قبل أن تتمكّن من استخدامه. ولا نجمع عن علم أي بيانات ممن هم دون الثالثة عشرة. وفي بعض الدول يلزم أن يكون الشخص أكبر من 13 عامًا ليوافق بنفسه على معالجة بياناته الصحية — 16 في ألمانيا وهولندا، و15 في فرنسا، و14 في إسبانيا وإيطاليا. أما في معظم الدول العربية فلا يوجد سنّ رقمي محدّد في القانون، والقاعدة العامة أن يوافق وليّ الأمر عن القاصر. فإن كنت دون هذا السنّ حيث تعيش، فاستخدم التطبيق بموافقة أحد الوالدين أو الوصيّ. وفي كل الأحوال تبقى مدخلاتك على جهازك: لا تُنقل إلينا أي بيانات شخصية، وحذف التطبيق يزيل كل ما هو مخزّن محليًا."
+          "v": "Dozify ليس للأطفال الصغار: تشترط شروط الخدمة لدينا أن يكون عمرك 13 عامًا على الأقل، ويطلب التطبيق تأكيد أن عمرك 13 عامًا على الأقل قبل أن تتمكّن من استخدامه. ولا نجمع عن علم أي بيانات ممن هم دون الثالثة عشرة. وفي بعض الدول يلزم أن يكون الشخص أكبر من 13 عامًا ليوافق بنفسه على معالجة بياناته الصحية — 16 في ألمانيا وهولندا، و15 في فرنسا، و14 في إسبانيا وإيطاليا. أما في معظم الدول العربية فلا يوجد سنّ رقمي محدّد في القانون، والقاعدة العامة أن يوافق وليّ الأمر عن القاصر. فإن كنت دون هذا السنّ حيث تعيش، فاستخدم التطبيق بموافقة أحد الوالدين أو الوصيّ. وفي كل الأحوال تبقى مدخلاتك على جهازك: لا تُنقل إلينا أي بيانات شخصية، وحذف التطبيق يزيل السجلات الموجودة على هذا الهاتف."
         },
         {
           "t": "h2",
@@ -5193,7 +5174,7 @@
           "v": [
             "الاطّلاع: كل بياناتك ظاهرة لك داخل التطبيق.",
             "التصدير: يمكنك إنشاء تقارير PDF لبياناتك في أي وقت.",
-            "الحذف: استخدم الإعدادات ← حذف بياناتي لمحو بيانات محدّدة أو محوها كلها. وإلغاء تثبيت التطبيق يحذف أيضًا كل البيانات المحلية."
+            "الحذف: استخدم الإعدادات ← حذف بياناتي لمحو بيانات محدّدة أو محوها كلها. وإلغاء تثبيت التطبيق يحذف أيضًا السجلات الموجودة على هذا الهاتف."
           ]
         },
         {
@@ -5214,7 +5195,7 @@
         },
         {
           "t": "p",
-          "v": "تُخزَّن البيانات المحلية في مساحة التطبيق المحمية على جهازك. ونوصي بتفعيل رمز قفل الجهاز والقفل بالبصمة أو الوجه وتشفير القرص الكامل (وهو مفعّل افتراضيًا في أجهزة iOS وAndroid الحديثة)."
+          "v": "تُخزَّن البيانات المحلية في مساحة التطبيق المحمية على جهازك. ونوصي بتفعيل رمز قفل الجهاز والقفل بالبصمة أو الوجه وتشفير القرص الكامل (وهو مفعّل افتراضيًا في أجهزة iOS الحديثة)."
         },
         {
           "t": "h2",
@@ -5237,7 +5218,7 @@
     "terms": {
       "title": "شروط الخدمة",
       "description": "شروط استخدام Dozify: السنّ والترخيص والاشتراكات والمسؤولية.",
-      "updated": "آخر تحديث: 2 نوفمبر 2026",
+      "updated": "آخر تحديث: 5 نوفمبر 2026",
       "blocks": [
         {
           "t": "note",
@@ -5301,7 +5282,7 @@
         },
         {
           "t": "p",
-          "v": "يوفّر Dozify اشتراكًا اختياريًا يتجدّد تلقائيًا («Dozify المميّز»، متاح بخطة شهرية أو سنوية) يفتح ميزات إضافية مثل تحليلات صور الوجبات بالذكاء الاصطناعي بعد الأول، ودواء نشط ثانٍ، ومنحنى مستوى الدواء التقديري، ومخطّطات الاتجاه وتوقّع الوزن، وتقارير زيارة الطبيب، وإدارة القوارير، وصور التقدّم الجديدة. وقد يتضمّن الاشتراك فترة تجربة مجانية تُعرض عند الشراء. وتُخصم الرسوم من حساب Apple ID أو حساب Google عند تأكيد الشراء. ويتجدّد الاشتراك تلقائيًا للمدة نفسها والسعر نفسه المعروضَين عند الشراء ما لم يُوقَف التجديد التلقائي قبل نهاية الفترة الجارية بأربع وعشرين ساعة على الأقل. ويمكنك إدارة اشتراكك أو إلغاؤه في أي وقت من إعدادات حساب Apple ID أو Google Play؛ والإلغاء لا يعيد رسوم الفترة الجارية. وتُعالِج Apple أو Google كل المشتريات والاشتراكات داخل التطبيق، وتخضع لشروط كلٍّ منهما."
+          "v": "يوفّر Dozify اشتراكًا اختياريًا يتجدّد تلقائيًا («Dozify المميّز»، متاح بخطة شهرية أو سنوية) يفتح ميزات إضافية مثل تحليلات صور الوجبات بالذكاء الاصطناعي بعد الأول، ودواء نشط ثانٍ، ومنحنى مستوى الدواء التقديري، ومخطّطات الاتجاه وتوقّع الوزن، وتقارير زيارة الطبيب، وإدارة القوارير، وصور التقدّم الجديدة. وقد يتضمّن الاشتراك فترة تجربة مجانية تُعرض عند الشراء. وتُخصم الرسوم من حساب Apple ID عند تأكيد الشراء. ويتجدّد الاشتراك تلقائيًا للمدة نفسها والسعر نفسه المعروضَين عند الشراء ما لم يُوقَف التجديد التلقائي قبل نهاية الفترة الجارية بأربع وعشرين ساعة على الأقل. ويمكنك إدارة اشتراكك أو إلغاؤه في أي وقت من إعدادات حساب Apple ID؛ والإلغاء لا يعيد رسوم الفترة الجارية. وتُعالِج Apple كل المشتريات والاشتراكات داخل التطبيق، وتخضع لشروط Apple."
         },
         {
           "t": "h2",
@@ -5342,7 +5323,7 @@
     "privacy": {
       "title": "गोपनीयता नीति",
       "description": "Dozify आपके डेटा को कैसे संभालता है: स्वास्थ्य डेटा आपके डिवाइस पर रहता है और हमारे सर्वर पर नहीं भेजा जाता।",
-      "updated": "आख़िरी अपडेट: 2 नवंबर 2026 · प्रभावी: 2 नवंबर 2026",
+      "updated": "आख़िरी अपडेट: 5 नवंबर 2026 · प्रभावी: 2 नवंबर 2026",
       "blocks": [
         {
           "t": "h2",
@@ -5387,7 +5368,7 @@
         },
         {
           "t": "p",
-          "v": "ऐप नीचे दी गई जानकारी सिर्फ़ आपके डिवाइस पर, एक स्थानीय SQLite डेटाबेस और एन्क्रिप्टेड सिस्टम स्टोरेज में रखता है:"
+          "v": "ऐप नीचे दी गई जानकारी सिर्फ़ आपके डिवाइस पर, ऐप के सुरक्षित सैंडबॉक्स में एक स्थानीय डेटाबेस में रखता है:"
         },
         {
           "t": "ul",
@@ -5402,7 +5383,7 @@
         },
         {
           "t": "p",
-          "v": "यह डेटा आपके डिवाइस से तब तक बाहर नहीं जाता, जब तक आप इसे स्पष्ट रूप से एक्सपोर्ट न करें (जैसे PDF रिपोर्ट बनाकर उसे ईमेल या अपनी पसंद के किसी दूसरे ऐप से शेयर करना)। ऐप हटाने से सारा डेटा हमेशा के लिए मिट जाता है।"
+          "v": "Dozify यह डेटा कभी अपलोड नहीं करता। यह आपके डिवाइस से सिर्फ़ तब बाहर जाता है जब आप इसे स्पष्ट रूप से एक्सपोर्ट करें (जैसे PDF रिपोर्ट बनाकर उसे ईमेल या अपनी पसंद के किसी दूसरे ऐप से शेयर करना) या जब आपके अपने iPhone या iCloud बैकअप में ऐप शामिल हो। ऐप डिलीट करें और इस फ़ोन के रिकॉर्ड उसके साथ चले जाते हैं। आपकी एक्सपोर्ट की हुई फ़ाइलें, Apple Health में लिखी गई कोई भी चीज़ और आपके अपने iPhone बैकअप अलग हैं।"
         },
         {
           "t": "p",
@@ -5417,8 +5398,7 @@
           "v": [
             "सूचनाएँ: खुराक रिमाइंडर और वायल की समाप्ति के अलर्ट के लिए। ये आपके डिवाइस पर शेड्यूल होती हैं; आप इन्हें कभी भी डिवाइस सेटिंग्स में बंद कर सकते हैं।",
             "कैमरा और फ़ोटो लाइब्रेरी (वैकल्पिक): केवल तब, जब आप प्रगति की फ़ोटो जोड़ते हैं (डिवाइस पर ही रहती है) या वैकल्पिक AI विश्लेषण के लिए भोजन की फ़ोटो लेते हैं (धारा 5)।",
-            "Apple Health (वैकल्पिक): सिर्फ़ तब, जब आप सेटिंग में वज़न सिंक चालू करें। तब Dozify आपका वज़न पढ़ता और लिखता है, ताकि वह आपके दूसरे Health ऐप के साथ मेल खाता रहे।",
-            "स्टोरेज (सिर्फ़ Android): आपकी बनाई PDF रिपोर्ट सहेजने के लिए।"
+            "Apple Health (वैकल्पिक): सिर्फ़ वे श्रेणियाँ जिन्हें आप चालू करें। Dozify वज़न, शरीर में वसा का प्रतिशत और मासिक धर्म का प्रवाह पढ़ सकता है; प्रवाह का उपयोग सिर्फ़ डिवाइस पर होता है। यह वज़न तभी लिखता है जब आप उसे अलग से चालू करें।"
           ]
         },
         {
@@ -5443,7 +5423,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify Premium एक वैकल्पिक, अपने आप नवीनीकृत होने वाली सदस्यता है, जिसे Apple App Store या Google Play प्रोसेस करते हैं। ये लेन-देन Apple और Google की अपनी-अपनी गोपनीयता नीतियों के अधीन हैं; हमें (हमारी सदस्यता-प्रबंधन सेवा RevenueCat के ज़रिए) सिर्फ़ आपकी ख़रीद और सदस्यता की स्थिति (प्रीमियम चालू है या नहीं) मिलती है, जो एक गुमनाम ऐप उपयोगकर्ता ID से जुड़ी होती है, आपके नाम या भुगतान विवरण से नहीं। Dozify कभी भी भुगतान कार्ड की कोई जानकारी नहीं संभालता।"
+          "v": "Dozify Premium एक वैकल्पिक, अपने आप नवीनीकृत होने वाली सदस्यता है, जिसे Apple App Store प्रोसेस करता है। ये लेन-देन Apple की गोपनीयता नीति के अधीन हैं; हमें (हमारी सदस्यता-प्रबंधन सेवा RevenueCat के ज़रिए) सिर्फ़ आपकी ख़रीद और सदस्यता की स्थिति (प्रीमियम चालू है या नहीं) मिलती है, जो एक गुमनाम ऐप उपयोगकर्ता ID से जुड़ी होती है, आपके नाम या भुगतान विवरण से नहीं। Dozify कभी भी भुगतान कार्ड की कोई जानकारी नहीं संभालता।"
         },
         {
           "t": "p",
@@ -5451,7 +5431,7 @@
         },
         {
           "t": "p",
-          "v": "यह वेबसाइट (dozify.app), जो ऐप से अलग है, एक Google Ads कन्वर्ज़न टैग लोड करती है। यह सिर्फ़ एक बात दर्ज करता है: कि किसी विज़िटर ने App Store या Google Play के बटन पर क्लिक किया, और किस पेज पर। इसे सिर्फ़ मापने के लिए सेट किया गया है: विज्ञापन निजीकरण और Google सिग्नल बंद हैं, इसलिए आपकी विज़िट किसी विज्ञापन रुचि प्रोफ़ाइल में नहीं जोड़ी जाती, और यहाँ आप जो भी स्वास्थ्य जानकारी पढ़ते या दर्ज करते हैं वह Google को नहीं भेजी जाती। ऐप ख़ुद इस टैग का उपयोग नहीं करता।"
+          "v": "यह वेबसाइट (dozify.app), जो ऐप से अलग है, एक Google Ads कन्वर्ज़न टैग लोड करती है। यह सिर्फ़ एक बात दर्ज करता है: कि किसी विज़िटर ने App Store के बटन पर क्लिक किया, और किस पेज पर। इसे सिर्फ़ मापने के लिए सेट किया गया है: विज्ञापन निजीकरण और Google सिग्नल बंद हैं, इसलिए आपकी विज़िट किसी विज्ञापन रुचि प्रोफ़ाइल में नहीं जोड़ी जाती, और यहाँ आप जो भी स्वास्थ्य जानकारी पढ़ते या दर्ज करते हैं वह Google को नहीं भेजी जाती। ऐप ख़ुद इस टैग का उपयोग नहीं करता।"
         },
         {
           "t": "h2",
@@ -5459,7 +5439,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify छोटे बच्चों के लिए नहीं है: हमारी सेवा की शर्तों के अनुसार आपकी उम्र कम से कम 13 साल होनी चाहिए, और ऐप इस्तेमाल करने से पहले आपसे यह पुष्टि करने को कहता है कि आपकी उम्र कम से कम 13 साल है। हम जानबूझकर 13 साल से कम उम्र के किसी व्यक्ति से कोई डेटा इकट्ठा नहीं करते। कुछ देशों में स्वास्थ्य डेटा के प्रोसेसिंग के लिए ख़ुद सहमति देने की उम्र 13 से ज़्यादा है — जर्मनी और नीदरलैंड में 16, फ़्रांस में 15, स्पेन और इटली में 14। अगर आप जहाँ रहते हैं वहाँ आपकी उम्र उस सीमा से कम है, तो ऐप सिर्फ़ माता-पिता या अभिभावक की सहमति से इस्तेमाल करें। हर हाल में आपकी एंट्री आपके डिवाइस पर ही रहती हैं: कोई व्यक्तिगत डेटा हमें नहीं भेजा जाता, और ऐप हटाने से स्थानीय रूप से रखा सब कुछ मिट जाता है।"
+          "v": "Dozify छोटे बच्चों के लिए नहीं है: हमारी सेवा की शर्तों के अनुसार आपकी उम्र कम से कम 13 साल होनी चाहिए, और ऐप इस्तेमाल करने से पहले आपसे यह पुष्टि करने को कहता है कि आपकी उम्र कम से कम 13 साल है। हम जानबूझकर 13 साल से कम उम्र के किसी व्यक्ति से कोई डेटा इकट्ठा नहीं करते। कुछ देशों में स्वास्थ्य डेटा के प्रोसेसिंग के लिए ख़ुद सहमति देने की उम्र 13 से ज़्यादा है — जर्मनी और नीदरलैंड में 16, फ़्रांस में 15, स्पेन और इटली में 14। अगर आप जहाँ रहते हैं वहाँ आपकी उम्र उस सीमा से कम है, तो ऐप सिर्फ़ माता-पिता या अभिभावक की सहमति से इस्तेमाल करें। हर हाल में आपकी एंट्री आपके डिवाइस पर ही रहती हैं: कोई व्यक्तिगत डेटा हमें नहीं भेजा जाता, और ऐप हटाने से इस फ़ोन के रिकॉर्ड मिट जाते हैं।"
         },
         {
           "t": "h2",
@@ -5474,7 +5454,7 @@
           "v": [
             "पहुँच: आपका सारा डेटा ऐप के अंदर आपको दिखता है।",
             "एक्सपोर्ट: आप कभी भी अपने डेटा की PDF रिपोर्ट बना सकते हैं।",
-            "हटाना: सेटिंग → मेरा डेटा हटाएँ से डेटा चुनकर या पूरा मिटाएँ। ऐप अनइंस्टॉल करने से भी सारा स्थानीय डेटा हट जाता है।"
+            "हटाना: सेटिंग → मेरा डेटा हटाएँ से डेटा चुनकर या पूरा मिटाएँ। ऐप अनइंस्टॉल करने से भी इस फ़ोन के रिकॉर्ड हट जाते हैं।"
           ]
         },
         {
@@ -5495,7 +5475,7 @@
         },
         {
           "t": "p",
-          "v": "स्थानीय डेटा आपके डिवाइस के सुरक्षित ऐप सैंडबॉक्स में रखा जाता है। हमारी सलाह है कि आप डिवाइस पासकोड, बायोमेट्रिक लॉक और फ़ुल-डिस्क एन्क्रिप्शन चालू रखें (आधुनिक iOS और Android डिवाइस पर यह पहले से चालू होता है)।"
+          "v": "स्थानीय डेटा आपके डिवाइस के सुरक्षित ऐप सैंडबॉक्स में रखा जाता है। हमारी सलाह है कि आप डिवाइस पासकोड, बायोमेट्रिक लॉक और फ़ुल-डिस्क एन्क्रिप्शन चालू रखें (आधुनिक iOS डिवाइस पर यह पहले से चालू होता है)।"
         },
         {
           "t": "h2",
@@ -5518,7 +5498,7 @@
     "terms": {
       "title": "सेवा की शर्तें",
       "description": "Dozify ऐप के उपयोग की शर्तें, जिनमें Dozify Premium सदस्यता की शर्तें भी शामिल हैं।",
-      "updated": "आख़िरी अपडेट: 2 नवंबर 2026",
+      "updated": "आख़िरी अपडेट: 5 नवंबर 2026",
       "blocks": [
         {
           "t": "note",
@@ -5582,7 +5562,7 @@
         },
         {
           "t": "p",
-          "v": "Dozify एक वैकल्पिक, अपने आप नवीनीकृत होने वाली सदस्यता (\"Dozify Premium\", मासिक या सालाना प्लान के रूप में उपलब्ध) देता है, जो पहले के बाद भोजन की फ़ोटो के AI विश्लेषण, दूसरी सक्रिय दवा, अनुमानित दवा स्तर का कर्व, रुझान चार्ट और वज़न का अनुमान, डॉक्टर विज़िट रिपोर्ट, वायल प्रबंधन और प्रगति की नई फ़ोटो जैसे अतिरिक्त फ़ीचर अनलॉक करती है। सदस्यताओं में एक मुफ़्त ट्रायल अवधि शामिल हो सकती है, जो ख़रीद के समय दिखाई जाती है। ख़रीद की पुष्टि होने पर भुगतान आपकी Apple ID या Google खाते से लिया जाता है। सदस्यताएँ ख़रीद के समय दिखाई गई उसी अवधि और क़ीमत पर अपने आप नवीनीकृत होती हैं, जब तक कि मौजूदा अवधि ख़त्म होने से कम से कम 24 घंटे पहले ऑटो-रिन्यू बंद न कर दिया जाए। आप अपनी सदस्यता कभी भी अपनी Apple ID या Google Play खाते की सेटिंग में प्रबंधित या रद्द कर सकते हैं: रद्द करने पर मौजूदा अवधि का पैसा वापस नहीं होता। सभी इन-ऐप ख़रीदारियाँ और सदस्यताएँ Apple या Google द्वारा प्रोसेस की जाती हैं और उनकी अपनी-अपनी शर्तों के अधीन होती हैं।"
+          "v": "Dozify एक वैकल्पिक, अपने आप नवीनीकृत होने वाली सदस्यता (\"Dozify Premium\", मासिक या सालाना प्लान के रूप में उपलब्ध) देता है, जो पहले के बाद भोजन की फ़ोटो के AI विश्लेषण, दूसरी सक्रिय दवा, अनुमानित दवा स्तर का कर्व, रुझान चार्ट और वज़न का अनुमान, डॉक्टर विज़िट रिपोर्ट, वायल प्रबंधन और प्रगति की नई फ़ोटो जैसे अतिरिक्त फ़ीचर अनलॉक करती है। सदस्यताओं में एक मुफ़्त ट्रायल अवधि शामिल हो सकती है, जो ख़रीद के समय दिखाई जाती है। ख़रीद की पुष्टि होने पर भुगतान आपकी Apple ID से लिया जाता है। सदस्यताएँ ख़रीद के समय दिखाई गई उसी अवधि और क़ीमत पर अपने आप नवीनीकृत होती हैं, जब तक कि मौजूदा अवधि ख़त्म होने से कम से कम 24 घंटे पहले ऑटो-रिन्यू बंद न कर दिया जाए। आप अपनी सदस्यता कभी भी अपनी Apple ID खाते की सेटिंग में प्रबंधित या रद्द कर सकते हैं: रद्द करने पर मौजूदा अवधि का पैसा वापस नहीं होता। सभी इन-ऐप ख़रीदारियाँ और सदस्यताएँ Apple द्वारा प्रोसेस की जाती हैं और Apple की शर्तों के अधीन होती हैं।"
         },
         {
           "t": "h2",

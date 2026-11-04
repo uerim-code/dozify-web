@@ -21,16 +21,13 @@
   "<strong>Time</strong>": "<strong>Час</strong>",
   "<strong>Weight</strong>": "<strong>Вага</strong>",
   "Articles": "Статті",
-  "By Ümit Can Erim · Published 18 August 2026 · Updated 18 August 2026 · Sources checked 18 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Автор: Ümit Can Erim · Опубліковано 18 серпня 2026 · Оновлено 18 серпня 2026 · Джерела перевірено 18 серпня 2026 · <a href=\"/en/editorial-policy\">Як пишуться ці посібники</a>",
   "By Ümit Can Erim · Published 19 August 2026 · Updated 19 August 2026 · Sources checked 19 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Автор: Ümit Can Erim · Опубліковано 19 серпня 2026 · Оновлено 19 серпня 2026 · Джерела перевірено 19 серпня 2026 · <a href=\"/en/editorial-policy\">Як пишуться ці посібники</a>",
   "By Ümit Can Erim · Published 20 August 2026 · Updated 20 August 2026 · Sources checked 20 August 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Автор: Ümit Can Erim · Опубліковано 20 серпня 2026 · Оновлено 20 серпня 2026 · Джерела перевірено 20 серпня 2026 · <a href=\"/en/editorial-policy\">Як пишуться ці посібники</a>",
   "By Ümit Can Erim · Published 9 October 2026 · Updated 9 October 2026 · Sources checked 9 October 2026 · <a href=\"/en/editorial-policy\">How these guides are written</a>": "Автор: Ümit Can Erim · Опубліковано 9 жовтня 2026 · Оновлено 9 жовтня 2026 · Джерела перевірено 9 жовтня 2026 · <a href=\"/en/editorial-policy\">Як пишуться ці посібники</a>",
   "Doctor report": "Звіт для лікаря",
   "Download the app": "Завантажити застосунок",
   "Dozify": "Dozify",
-  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders: fully offline, with your data staying on your device.": "Dozify допомагає відстежувати ін’єкції GLP-1, чергувати місця уколів, записувати вагу й отримувати нагадування: повністю офлайн, а ваші дані залишаються на вашому пристрої.",
   "Dozify is a tracking tool, not a medical device. It does not recommend doses and does not provide medical advice. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® and Rybelsus® are trademarks of their respective owners; Dozify is not affiliated with these companies.": "Dozify — це інструмент для відстеження, а не медичний виріб. Він не рекомендує дози й не надає медичних порад. Ozempic®, Wegovy®, Mounjaro®, Saxenda®, Zepbound®, Trulicity®, Victoza® і Rybelsus® є товарними знаками відповідних власників; Dozify не пов’язаний із цими компаніями.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify прямо про це скаже, а не імпортує мовчки нуль рядків. Прочитати можна будь-який CSV зі стовпцем дати. Якщо ваш не читається, надішліть його через Налаштування → Запропонувати функцію, і формат додадуть: файл, який ми не можемо прочитати, — це наша прогалина, а не ваша.",
   "Editorial policy": "Редакційна політика",
   "Features": "Функції",
   "Field": "Поле",
@@ -48,7 +45,6 @@
   "Months of injections, weigh-ins and side effects are the reason people stay in an app they have stopped liking. Nobody retypes a year of shots, so the record becomes the lock. Moving it across is the only part that matters.": "Місяці записів про ін’єкції, зважування й побічні ефекти — ось чому люди залишаються в застосунку, який їм уже не подобається. Ніхто не передруковує рік ін’єкцій, тож історія стає замком. Перенести її — єдине, що насправді важливо.",
   "New in Dozify: snap a meal and the app drafts calories and protein per item for you to edit — <a href=\"/en/ai-calorie-tracker\">AI calorie tracking</a> (Premium) — and daily GLP-1 tablets have their own <a href=\"/en/glp1-pill-tracker\">pill tracker</a>.": "Нове в Dozify: сфотографуйте страву, і застосунок підготує чернетку калорій і білка для кожного продукту, яку ви можете відредагувати, — <a href=\"/en/ai-calorie-tracker\">підрахунок калорій з AI</a> (Premium), — а для щоденних таблеток GLP-1 тепер є окремий <a href=\"/en/glp1-pill-tracker\">трекер таблеток</a>.",
   "Nothing is written until you say so": "Нічого не записується, доки ви не підтвердите",
-  "Open your exported file and compare the header row. Dozify matches a column by any of these names, and it does not mind capitalisation or a unit written in brackets. Anything it cannot place is listed on the preview screen by name, so you can see what was left out rather than wondering.": "Відкрийте експортований файл і порівняйте рядок заголовків. Dozify зіставляє стовпець за будь-якою з цих назв і не зважає на великі чи малі літери або одиницю в дужках. Усе, що не вдалося зіставити, перелічено на екрані попереднього перегляду за назвою, тож ви бачите, що залишилося поза імпортом, а не гадаєте.",
   "Privacy": "Конфіденційність",
   "Privacy Policy": "Політика конфіденційності",
   "Private GLP-1 tracker": "Приватний трекер GLP-1",
@@ -77,6 +73,8 @@
   "privacy@dozify.app": "privacy@dozify.app",
   "support@dozify.app": "support@dozify.app",
   "© 2026 UCE": "© 2026 UCE",
-  "See the GLP-1 dosage chart →": "Дивіться таблицю дозування GLP-1 →"
+  "See the GLP-1 dosage chart →": "Дивіться таблицю дозування GLP-1 →",
+  "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify допомагає відстежувати ін’єкції GLP-1, чергувати місця уколів, записувати вагу й отримувати нагадування; усе це працює офлайн, а ваші записи зберігаються на вашому пристрої.",
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify прямо про це скаже, а не імпортує мовчки нуль рядків. Прочитати можна будь-який CSV зі стовпцем дати та стовпцем ваги, дози чи симптому. Якщо ваш не читається, надішліть його через Налаштування → Запропонувати функцію, і формат додадуть: файл, який ми не можемо прочитати, — це наша прогалина, а не ваша."
  }
 }

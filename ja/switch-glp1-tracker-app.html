@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dozifyに乗り換える｜GLP-1の記録を取り込む</title>
-  <meta name="description" content="Shotsy、Glapp、GLPzy、GlucoPal、または一般的なCSVから取り込めます。何かが書き込まれる前に何が書き込まれるかを正確に確認でき、費用はかかりません。">
+  <meta name="description" content="Shotsy、GLPzy、GlucoPalの書き出しファイル、または一般的なCSVから取り込めます。何かが書き込まれる前に見つかった記録の件数を確認でき、費用はかかりません。">
   <meta property="og:url" content="https://dozify.app/ja/switch-glp1-tracker-app">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -24,7 +24,7 @@
   </script>
   <script src="/assets/store-click.js" defer></script>
   <meta property="og:title" content="Dozifyに乗り換える｜GLP-1の記録を取り込む">
-  <meta property="og:description" content="Shotsy、Glapp、GLPzy、GlucoPal、または一般的なCSVから取り込めます。何かが書き込まれる前に何が書き込まれるかを正確に確認でき、費用はかかりません。">
+  <meta property="og:description" content="Shotsy、GLPzy、GlucoPalの書き出しファイル、または一般的なCSVから取り込めます。何かが書き込まれる前に見つかった記録の件数を確認でき、費用はかかりません。">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Dozify">
   <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Dozify — iPhone向けのプライベートなGLP-1注射・体重記録アプリ">
   <meta name="twitter:title" content="Dozifyに乗り換える｜GLP-1の記録を取り込む">
-  <meta name="twitter:description" content="Shotsy、Glapp、GLPzy、GlucoPal、または一般的なCSVから取り込めます。何かが書き込まれる前に何が書き込まれるかを正確に確認でき、費用はかかりません。">
+  <meta name="twitter:description" content="Shotsy、GLPzy、GlucoPalの書き出しファイル、または一般的なCSVから取り込めます。何かが書き込まれる前に見つかった記録の件数を確認でき、費用はかかりません。">
   <meta name="twitter:image" content="https://dozify.app/og-image.png">
   <meta name="twitter:image:alt" content="Dozify — iPhone向けのプライベートなGLP-1注射・体重記録アプリ">
   <meta name="theme-color" content="#0D9488">
@@ -119,7 +119,7 @@
         "@id": "https://dozify.app/ja/switch-glp1-tracker-app#webpage",
         "url": "https://dozify.app/ja/switch-glp1-tracker-app",
         "name": "Dozifyに乗り換える｜GLP-1の記録を取り込む",
-        "description": "Shotsy、Glapp、GLPzy、GlucoPal、または一般的なCSVから取り込めます。何かが書き込まれる前に何が書き込まれるかを正確に確認でき、費用はかかりません。",
+        "description": "Shotsy、GLPzy、GlucoPalの書き出しファイル、または一般的なCSVから取り込めます。何かが書き込まれる前に見つかった記録の件数を確認でき、費用はかかりません。",
         "isPartOf": {
           "@id": "https://dozify.app/#website"
         },
@@ -133,7 +133,7 @@
             "name": "どのアプリから取り込めますか？",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Shotsy、Glapp、GLPzy、GlucoPalの書き出しファイルに加え、Dozify自身のバックアップファイルと、日付の列があるすべてのCSVを認識します。"
+              "text": "Dozifyは、公開されている形式にもとづいて、Shotsy、GLPzy、GlucoPalの書き出しファイルを認識できるように作られています。Dozify自身のバックアップファイルや、日付の列に加えて、体重、用量、症状のいずれかの列があるCSVも認識します。GlappのデータのCSVも、入手できれば読み込めます。すべての形式を実際の書き出しファイルで検証したわけではありません。"
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "使っているアプリがリストにありません。どうすればいいですか？",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "そのアプリからCSVを書き出して試してみてください。必要なのは日付の列だけです。ファイルが認識されない場合、Dozifyは黙って何も取り込まないのではなくそのことを伝え、「設定 → 機能を提案する」からファイルを私たちに送ることができます。"
+              "text": "そのアプリからCSVを書き出して試してみてください。日付の列に加えて、体重、用量、症状のいずれかの列が必要です。ファイルが認識されない場合、Dozifyは黙って何も取り込まないのではなくそのことを伝え、「設定 → 機能を提案する」からファイルを私たちに送ることができます。"
             }
           },
           {
@@ -223,7 +223,7 @@
     </div>
     <h1>履歴を一緒に持ってこられます</h1>
     
-    <p class="meta">Shotsy、Glapp、GLPzy、GlucoPal、または一般的なCSVから取り込めます。何かが書き込まれる前に、これから何が起きるかを正確に確認でき、無料です。</p>
+    <p class="meta">Shotsy、GLPzy、GlucoPalの書き出しファイル、または一般的なCSVから取り込めます。入手できればGlappのデータのCSVも取り込めます。何かが書き込まれる前に、見つかった記録の件数を確認でき、無料です。</p>
     
 
     <h2>課題</h2>
@@ -234,14 +234,14 @@
 
     <h2>Dozifyにできること</h2>
     <h3>前のアプリが書き出したファイルを読み込みます</h3>
-    <p>ほかのアプリから書き出し、「Dozify → 設定 → 履歴を読み込む」を開いてファイルを選びます。DozifyはShotsy、Glapp、GLPzy、GlucoPalの書き出しファイル、Dozify自身のJSONバックアップ、そして日付の列があるすべてのCSVを認識します。どれなのかをあなたに聞くのではなく、自分で判別します。</p>
+    <p>ほかのアプリから書き出し、「Dozify → 設定 → 履歴を読み込む」を開いてファイルを選びます。Dozifyは、公開されている形式にもとづいて、Shotsy、GLPzy、GlucoPalの書き出しファイルを認識できるように作られており、Dozify自身のJSONバックアップや、日付の列に加えて、体重、用量、症状のいずれかの列があるCSVも認識します。GlappのデータのCSVを入手できれば、Dozifyで読み込めます。すべての形式を実際の書き出しファイルで検証したわけではありません。何かが書き込まれる前に、読み取られた内容がプレビューに表示されます。どれなのかをあなたに聞くのではなく、自分で判別します。</p>
     <h3>何かを書き込む前に件数を表示します</h3>
     <p>見つかった体重・注射・副作用の件数、その期間、すでにDozifyにある件数、そして読み込めなかった行の数。確定をタップするまで何も書き込まれません。</p>
     <h3>同じファイルを2回取り込んでも何も起きません</h3>
     <p>すでにある記録と一致するものは重複としてカウントされて飛ばされるので、2回目の実行も安全です。数週間後にもう一度書き出したときに便利です。</p>
     <h3>まずバックアップ、そして「すべてか無か」の書き込み</h3>
     <p>Dozifyは取り込みの直前に、デバイスに自動バックアップを作成します。取り込み自体は1つのトランザクションです：何か失敗すればすべて元に戻されます。中途半端に取り込まれた履歴は、何もないよりも悪いからです：どの半分が自分のものなのかわからなくなります。</p>
-    <h3>ファイルがスマートフォンから出ることはありません</h3>
+    <h3>Dozifyがファイルをアップロードすることはありません</h3>
     <p>デバイス上で読み込まれます。何もアップロードされず、アカウントもなく、あなたの記録を見るサーバーもありません。</p>
 
     
@@ -284,7 +284,7 @@
     
 
     <h2>ファイルが認識されない場合</h2>
-    <p>その場合、Dozifyは0件のまま黙って取り込むのではなく、そのことをお知らせします。日付の列があるCSVなら読み込めます。読み込めない場合は、「設定 → 機能を提案する」からファイルを送ってください。その形式に対応します：読み込めないファイルは、あなたではなく私たちの課題です。</p>
+    <p>その場合、Dozifyは0件のまま黙って取り込むのではなく、そのことをお知らせします。日付の列に加えて、体重、用量、症状のいずれかの列があるCSVなら読み込めます。読み込めない場合は、「設定 → 機能を提案する」からファイルを送ってください。その形式に対応します：読み込めないファイルは、あなたではなく私たちの課題です。</p>
 
     
     
@@ -317,13 +317,13 @@
       <div class="faq-item">
         <h3>どのアプリから取り込めますか？</h3>
         
-        <p>Shotsy、Glapp、GLPzy、GlucoPalの書き出しファイルに加え、Dozify自身のバックアップファイルと、日付の列があるすべてのCSVを認識します。</p>
+        <p>Dozifyは、公開されている形式にもとづいて、Shotsy、GLPzy、GlucoPalの書き出しファイルを認識できるように作られています。Dozify自身のバックアップファイルや、日付の列に加えて、体重、用量、症状のいずれかの列があるCSVも認識します。GlappのデータのCSVも、入手できれば読み込めます。すべての形式を実際の書き出しファイルで検証したわけではありません。</p>
         
       </div>
       <div class="faq-item">
         <h3>使っているアプリがリストにありません。どうすればいいですか？</h3>
         
-        <p>そのアプリからCSVを書き出して試してみてください。必要なのは日付の列だけです。ファイルが認識されない場合、Dozifyは黙って何も取り込まないのではなくそのことを伝え、「設定 → 機能を提案する」からファイルを私たちに送ることができます。</p>
+        <p>そのアプリからCSVを書き出して試してみてください。日付の列に加えて、体重、用量、症状のいずれかの列が必要です。ファイルが認識されない場合、Dozifyは黙って何も取り込まないのではなくそのことを伝え、「設定 → 機能を提案する」からファイルを私たちに送ることができます。</p>
         
       </div>
       <div class="faq-item">
@@ -356,7 +356,7 @@
     
     
 
-    <p class="meta">Dozifyは記録用のツールであり、医療機器ではありません。用量を推奨することはなく、医学的な助言も行いません。Shotsy、Glapp、GLPzy、GlucoPalは各所有者の商標であり、ここではDozifyが読み込めるファイル形式を説明するためだけに名前を挙げています。Dozifyはこれらと提携していません。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza®、Rybelsus®は各所有者の商標です。Dozifyはこれらの企業と提携していません。</p>
+    <p class="meta">Dozifyは記録用のツールであり、医療機器ではありません。用量を推奨することはなく、医学的な助言も行いません。Shotsy、Glapp、GLPzy、GlucoPalは各所有者の商標であり、ここではDozifyが読み込めるように作られたファイル形式を説明するためだけに名前を挙げています。Dozifyはこれらと提携していません。Ozempic®、Wegovy®、Mounjaro®、Saxenda®、Zepbound®、Trulicity®、Victoza®、Rybelsus®は各所有者の商標です。Dozifyはこれらの企業と提携していません。</p>
 
     
   </main>
