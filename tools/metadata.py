@@ -41,6 +41,8 @@ INTENT: dict[str, dict[str, tuple[str, str]]] = {
                                      "tr": ("uygulama değiştirme", "glucopal alternatifi")},
     "articles/wegovy-pill":         {"en": ("information", "wegovy pill"),
                                      "tr": ("bilgi", "wegovy hap")},
+    "articles/kwikpen-doses-left":  {"en": ("information", "mounjaro kwikpen how many doses left"),
+                                     "tr": ("bilgi", "mounjaro kwikpen kaç doz kaldı")},
     "articles/glp1-dose-schedule":  {"en": ("information", "semaglutide dosage chart"),
                                      "tr": ("bilgi", "glp1 doz takvimi")},
     "articles/food-noise":          {"en": ("information", "food noise glp-1"),
@@ -326,6 +328,12 @@ META: dict[str, dict[str, tuple[str, str]]] = {
                "How the Wegovy pill (oral semaglutide 25 mg) is taken per its label: empty stomach, a little water, 30-minute wait. Missed doses, storage and pen switching."),
         "tr": ("Wegovy Hap: Günlük Tablet Nasıl Alınır, Prospektüs Ne Der",
                "Wegovy hap (ağızdan semaglutid) prospektüse göre nasıl alınır: aç karnına, az suyla, 30 dakika bekleyerek. Kaçırılan doz, saklama ve kalemden geçiş."),
+    },
+    "articles/kwikpen-doses-left": {
+        "en": ("Mounjaro KwikPen: How to Count the Doses Left",
+               "A Mounjaro KwikPen holds 4 weekly doses and has no counter. How to keep count, when the pen ends, and why the medicine left inside is not a fifth dose."),
+        "tr": ("Mounjaro KwikPen'de Kalan Doz Nasıl Sayılır",
+               "Mounjaro KwikPen 4 haftalık doz içerir ve sayacı yoktur. Sayım nasıl tutulur, kalem ne zaman biter ve içinde kalan ilaç neden beşinci doz değildir."),
     },
     "articles/glp1-dose-schedule": {
         "en": ("GLP-1 Dosage Chart: Semaglutide & Tirzepatide Steps by Label",

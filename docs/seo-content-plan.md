@@ -292,3 +292,10 @@ prospektüs farkı gerçekten anlatıldığı yerde geçiyor — 1. ve 2. hafta
 yazılarındaki ürün başına tablolar bunun için var. Marka adına özel bir sayfa
 ancak o markaya dair, kaynaklandırılabilir ve başka yerde olmayan bir fark
 anlatılabiliyorsa açılır.
+
+**İstisna (4 Kas 2026):** `/en/articles/kwikpen-doses-left` ·
+`/tr/makaleler/kwikpen-kalan-doz`. Marka adıyla açılan ilk sayfa, çünkü yukarıdaki
+koşulu karşılıyor: 4 doz, sayaç yokluğu, 30 gün sınırı ve kalan ilaç bu cihaza özgü
+ve kaynaklandırılabilir. Tetikleyen şey YouTube'daki B05 videosuna gelen soru oldu
+("kalemde kalanı nasıl sayacağım"). Şimdilik yalnız EN + TR; 20 dildeki makale
+listelerinde kart çevrildi, kart İngilizce sayfaya gidiyor.

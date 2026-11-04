@@ -5725,6 +5725,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/injection-site-lumps"/>
   </url>
   <url>
+    <loc>https://dozify.app/en/articles/kwikpen-doses-left</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/kwikpen-doses-left"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/kwikpen-kalan-doz"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/kwikpen-doses-left"/>
+  </url>
+  <url>
     <loc>https://dozify.app/en/articles/measurements-vs-scale</loc>
     <lastmod>2026-08-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/measurements-vs-scale"/>
@@ -21344,6 +21351,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://dozify.app/uk/articles/reading-a-weight-trend"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dozify.app/zh/articles/reading-a-weight-trend"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/reading-a-weight-trend"/>
+  </url>
+  <url>
+    <loc>https://dozify.app/tr/makaleler/kwikpen-kalan-doz</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dozify.app/en/articles/kwikpen-doses-left"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://dozify.app/tr/makaleler/kwikpen-kalan-doz"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dozify.app/en/articles/kwikpen-doses-left"/>
   </url>
   <url>
     <loc>https://dozify.app/tr/makaleler/olcu-mu-tarti-mi</loc>
