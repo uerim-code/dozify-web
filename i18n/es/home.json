@@ -53,7 +53,6 @@
   "Weight trend &amp; projection": "Tendencia y proyección de peso",
   "See your weight on clear charts with a time-to-goal projection based on your own data.": "Ve tu peso en gráficos claros, con una proyección del tiempo hasta tu objetivo basada en tus propios datos.",
   "Smart reminders": "Recordatorios inteligentes",
-  "Weekly or daily reminders that match your medication's schedule.": "Recordatorios semanales o diarios que se ajustan a la pauta de tu medicamento.",
   "Vial stock": "Stock de viales",
   "Open dates, expiry countdown, and remaining doses for every vial.": "Fecha de apertura, cuenta atrás hasta la caducidad y dosis restantes de cada vial.",
   "Progress charts": "Gráficos de progreso",
@@ -68,7 +67,6 @@
   "Any schedule, and your doctor&#39;s plan": "Cualquier pauta, y la que te indicó tu médico",
   "Education library": "Biblioteca educativa",
   "Injection site rotation": "Rotación de zonas de inyección",
-  "A body diagram tracks each site and suggests where to inject next.": "Un diagrama del cuerpo registra cada zona y te sugiere dónde inyectarte la próxima vez.",
   "Body measurements": "Medidas corporales",
   "Track waist, hip, body-fat and more: the progress the scale alone misses.": "Registra cintura, cadera, grasa corporal y más: el progreso que la báscula sola no ve.",
   "Milestones &amp; streaks": "Hitos y rachas",
@@ -181,6 +179,8 @@
   "Yes, and it is free. If the app you are leaving offers an export, export from it, open Settings &rarr; Import in Dozify and pick the file. It is built to read Shotsy, GLPzy and GlucoPal exports from their published formats, and any CSV with a date column and a weight, dose or symptom column; if you can get a CSV of your Glapp data, Dozify can read it. Not every format has been tested with a real export. It shows you what it found (how many injections, weights and side effects) before writing anything, skips records you already have, and backs up your existing data first. <a href=\"/en/switch-glp1-tracker-app\">More on the switching page</a>.": "Sí, y es gratis. Si la app que dejas ofrece una exportación, exporta desde ella, abre Ajustes &rarr; Importar tu historial en Dozify y elige el archivo. Está diseñada para leer exportaciones de Shotsy, GLPzy y GlucoPal a partir de sus formatos publicados, y cualquier CSV con una columna de fecha y una columna de peso, dosis o síntoma; si puedes conseguir un CSV de tus datos de Glapp, Dozify puede leerlo. No todos los formatos se han probado con una exportación real. Te muestra lo que ha encontrado (cuántas inyecciones, pesos y efectos secundarios) antes de guardar nada, omite los registros que ya tienes y antes hace una copia de seguridad de tus datos actuales. <a href=\"/en/switch-glp1-tracker-app\">Más información en la página sobre el cambio</a>.",
   "Theme picker with six themes: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee": "Selector de temas con seis temas: Clásico, Delfín, Panda, Búho, Flamenco y Abeja",
   "The Dozify home screen in the Dolphin theme: ocean-blue accent and the AI meal card": "La pantalla de inicio de Dozify con el tema Delfín: acento azul océano y la tarjeta de comida con IA",
-  "Appearance screen: light, dark or system mode and six themes": "Pantalla Apariencia: modo claro, oscuro o del sistema y seis temas"
+  "Appearance screen: light, dark or system mode and six themes": "Pantalla Apariencia: modo claro, oscuro o del sistema y seis temas",
+  "Weekly or daily reminders that match your medication's schedule. Each injection reminder names your next site, and you can log the dose right from the notification.": "Recordatorios semanales o diarios que se ajustan a la pauta de tu medicamento. Cada recordatorio de inyección indica tu próxima zona, y puedes registrar la dosis desde la propia notificación.",
+  "A body diagram tracks each site and suggests where to inject next. Your next site also shows on the home screen.": "Un diagrama del cuerpo registra cada zona y te sugiere dónde inyectarte la próxima vez. Tu próxima zona también aparece en la pantalla de inicio."
  }
 }

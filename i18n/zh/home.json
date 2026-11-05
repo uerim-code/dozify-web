@@ -53,7 +53,6 @@
   "Weight trend &amp; projection": "体重趋势与预测",
   "See your weight on clear charts with a time-to-goal projection based on your own data.": "在清晰的图表上查看体重，并根据你自己的数据预测达成目标所需的时间。",
   "Smart reminders": "智能提醒",
-  "Weekly or daily reminders that match your medication's schedule.": "与你的用药时间表相匹配的每周或每日提醒。",
   "Vial stock": "药瓶库存",
   "Open dates, expiry countdown, and remaining doses for every vial.": "每个药瓶的开封日期、有效期倒计时和剩余剂量。",
   "Progress charts": "进度图表",
@@ -68,7 +67,6 @@
   "Any schedule, and your doctor&#39;s plan": "任意时间表，以及医生给你的方案",
   "Education library": "知识库",
   "Injection site rotation": "注射部位轮换",
-  "A body diagram tracks each site and suggests where to inject next.": "人体示意图记录每个部位，并建议下一次在哪里注射。",
   "Body measurements": "身体围度",
   "Track waist, hip, body-fat and more: the progress the scale alone misses.": "记录腰围、臀围、体脂率等：这些是单看体重秤会错过的进步。",
   "Milestones &amp; streaks": "里程碑与连续记录",
@@ -181,6 +179,8 @@
   "Yes, and it is free. If the app you are leaving offers an export, export from it, open Settings &rarr; Import in Dozify and pick the file. It is built to read Shotsy, GLPzy and GlucoPal exports from their published formats, and any CSV with a date column and a weight, dose or symptom column; if you can get a CSV of your Glapp data, Dozify can read it. Not every format has been tested with a real export. It shows you what it found (how many injections, weights and side effects) before writing anything, skips records you already have, and backs up your existing data first. <a href=\"/en/switch-glp1-tracker-app\">More on the switching page</a>.": "可以，而且免费。如果你要离开的应用提供导出功能，就从中导出，然后在 Dozify 中打开“设置 &rarr; 导入你的历史记录”并选择文件。Dozify 按照公开的格式设计，可读取 Shotsy、GLPzy 和 GlucoPal 的导出文件，以及任何带有日期列以及体重、剂量或症状列的 CSV。如果你能拿到 Glapp 数据的 CSV，也可以读取。并非每种格式都用真实的导出文件测试过。它会在写入任何内容之前先告诉你找到了什么（多少次注射、多少条体重和副作用），跳过你已有的记录，并先备份你现有的数据。<a href=\"/en/switch-glp1-tracker-app\">详见迁移页面</a>。",
   "Theme picker with six themes: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee": "有六种主题的主题选择器：经典、海豚、熊猫、猫头鹰、火烈鸟和蜜蜂",
   "The Dozify home screen in the Dolphin theme: ocean-blue accent and the AI meal card": "海豚主题下的 Dozify 主屏幕：海洋蓝强调色和 AI 餐食卡片",
-  "Appearance screen: light, dark or system mode and six themes": "外观界面：浅色、深色或跟随系统模式，以及六种主题"
+  "Appearance screen: light, dark or system mode and six themes": "外观界面：浅色、深色或跟随系统模式，以及六种主题",
+  "Weekly or daily reminders that match your medication's schedule. Each injection reminder names your next site, and you can log the dose right from the notification.": "与你的用药时间表相匹配的每周或每日提醒。 每条注射提醒都会写明下一部位，你也可以直接在通知里记录这一剂。",
+  "A body diagram tracks each site and suggests where to inject next. Your next site also shows on the home screen.": "人体示意图记录每个部位，并建议下一次在哪里注射。 下一部位也会显示在主屏幕上。"
  }
 }

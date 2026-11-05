@@ -53,7 +53,6 @@
   "Weight trend &amp; projection": "체중 추세 &amp; 예측",
   "See your weight on clear charts with a time-to-goal projection based on your own data.": "깔끔한 차트로 체중을 확인하고, 내 데이터를 바탕으로 목표까지 걸리는 기간 예측을 볼 수 있어요.",
   "Smart reminders": "스마트 알림",
-  "Weekly or daily reminders that match your medication's schedule.": "약물 일정에 맞춘 주간 또는 매일 알림.",
   "Vial stock": "바이알 재고",
   "Open dates, expiry countdown, and remaining doses for every vial.": "바이알마다 개봉일, 유효기간 카운트다운, 남은 투여 횟수를 보여 줘요.",
   "Progress charts": "진행 차트",
@@ -68,7 +67,6 @@
   "Any schedule, and your doctor&#39;s plan": "어떤 일정이든, 의사의 계획대로",
   "Education library": "교육 자료실",
   "Injection site rotation": "주사 부위 순환",
-  "A body diagram tracks each site and suggests where to inject next.": "인체 그림이 부위별 기록을 관리하고 다음 주사 위치를 제안해요.",
   "Body measurements": "신체 치수",
   "Track waist, hip, body-fat and more: the progress the scale alone misses.": "허리, 엉덩이, 체지방 등을 기록하세요. 체중계만으로는 놓치는 변화예요.",
   "Milestones &amp; streaks": "마일스톤 &amp; 연속 기록",
@@ -181,6 +179,8 @@
   "Yes, and it is free. If the app you are leaving offers an export, export from it, open Settings &rarr; Import in Dozify and pick the file. It is built to read Shotsy, GLPzy and GlucoPal exports from their published formats, and any CSV with a date column and a weight, dose or symptom column; if you can get a CSV of your Glapp data, Dozify can read it. Not every format has been tested with a real export. It shows you what it found (how many injections, weights and side effects) before writing anything, skips records you already have, and backs up your existing data first. <a href=\"/en/switch-glp1-tracker-app\">More on the switching page</a>.": "네, 무료예요. 사용하던 앱에서 내보내기를 제공한다면 내보낸 다음, Dozify에서 설정 &rarr; 기록 가져오기를 열고 파일을 선택하세요. 공개된 형식을 바탕으로 Shotsy, GLPzy, GlucoPal 내보내기 파일을 읽도록 만들어졌고, 날짜 열과 체중, 용량 또는 증상 열이 있는 CSV도 읽어요. Glapp 데이터의 CSV를 구할 수 있다면 Dozify가 읽을 수 있어요. 모든 형식을 실제 내보내기 파일로 테스트한 것은 아니에요. 저장하기 전에 찾은 내용(주사, 체중, 부작용 건수)을 보여 주고, 이미 있는 기록은 건너뛰며, 기존 데이터를 먼저 백업해요. <a href=\"/en/switch-glp1-tracker-app\">옮겨 오기 페이지에서 자세히 보기</a>.",
   "Theme picker with six themes: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee": "여섯 가지 테마 선택: 클래식, 돌고래, 판다, 올빼미, 플라밍고, 꿀벌",
   "The Dozify home screen in the Dolphin theme: ocean-blue accent and the AI meal card": "돌고래 테마의 Dozify 홈 화면: 바다색 강조색과 AI 식사 카드",
-  "Appearance screen: light, dark or system mode and six themes": "화면 설정: 라이트, 다크, 시스템 모드와 여섯 가지 테마"
+  "Appearance screen: light, dark or system mode and six themes": "화면 설정: 라이트, 다크, 시스템 모드와 여섯 가지 테마",
+  "Weekly or daily reminders that match your medication's schedule. Each injection reminder names your next site, and you can log the dose right from the notification.": "약물 일정에 맞춘 주간 또는 매일 알림. 주사 알림마다 다음 부위를 알려 주고, 알림에서 바로 기록할 수 있어요.",
+  "A body diagram tracks each site and suggests where to inject next. Your next site also shows on the home screen.": "인체 그림이 부위별 기록을 관리하고 다음 주사 위치를 제안해요. 다음 부위는 홈 화면에도 표시돼요."
  }
 }

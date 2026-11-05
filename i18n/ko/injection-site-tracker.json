@@ -20,7 +20,6 @@
   "Which sites can I choose from?": "어떤 부위를 고를 수 있나요?",
   "The abdomen, the thigh and the upper arm, split into left and right and into the areas within each. Those are the areas the manufacturers' instructions describe for subcutaneous GLP-1 injections.": "복부, 허벅지, 위팔을 왼쪽과 오른쪽, 그리고 각 부위 안의 구역으로 나눠요. 제조사 지침이 피하 GLP-1 주사 부위로 설명하는 곳들이에요.",
   "How does the suggestion work?": "제안은 어떻게 작동하나요?",
-  "It looks at where your recent injections went and points at the area you have used least recently. It is a suggestion on the screen, not a rule: you can log anywhere you actually injected.": "최근 주사 위치를 보고 가장 오래전에 쓴 부위를 가리켜요. 화면의 제안일 뿐 규칙이 아니에요. 실제로 주사한 곳이라면 어디든 기록할 수 있어요.",
   "Does it warn me if I use the same spot again?": "같은 자리를 다시 쓰면 알려 주나요?",
   "It shows you what you have used recently, so a repeat is visible before you log it. It does not block anything; you may have a reason, and the app does not overrule you.": "최근에 쓴 곳을 보여 줘서, 기록하기 전에 반복이 눈에 보여요. 아무것도 막지 않아요. 이유가 있을 수 있고, 앱은 내 결정을 뒤집지 않아요.",
   "I inject in the same area every time. Is that a problem?": "매번 같은 부위에 주사해요. 문제가 되나요?",
@@ -28,6 +27,7 @@
   "Does this replace the leaflet that came with my pen?": "펜과 함께 받은 설명서를 대신하나요?",
   "No. The leaflet is the instruction; this is a record of what you did. Where the two disagree, the leaflet is right.": "아니요. 설명서는 지침이고, 이건 내가 한 일의 기록이에요. 둘이 다르다면 설명서가 맞아요.",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a> and <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/injection-site-lumps\">what the labels report about lumps at a site</a>.": "출처를 밝힌 가이드: <a href=\"/en/articles/glp1-injection-sites\">어디에 주사하고 어떻게 순환할까</a>, <a href=\"/en/articles/how-to-inject-glp1\">펜 주사 방법 단계별 안내</a>, <a href=\"/en/articles/glp1-side-effects\">흔한 부작용 관리하기</a>, <a href=\"/en/articles/injection-site-lumps\">주사 부위 멍울에 대해 허가사항이 보고하는 것</a>.",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a>.": "Dozify의 다른 기능: <a href=\"/en/glp1-shot-tracker\">주사 기록</a>과 <a href=\"/en/glp1-side-effect-journal\">부작용 일지</a>."
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a>.": "Dozify의 다른 기능: <a href=\"/en/glp1-shot-tracker\">주사 기록</a>과 <a href=\"/en/glp1-side-effect-journal\">부작용 일지</a>.",
+  "It looks at where your recent injections went and points at the area you have used least recently. It is a suggestion on the screen, not a rule: you can log anywhere you actually injected. The next site also shows on the home screen and in the dose reminder, and logging from the notification records it.": "최근 주사 위치를 보고 가장 오래전에 쓴 부위를 가리켜요. 화면의 제안일 뿐 규칙이 아니에요. 실제로 주사한 곳이라면 어디든 기록할 수 있어요. 다음 부위는 홈 화면과 용량 알림에도 표시되고, 알림에서 기록하면 그 부위가 저장돼요."
  }
 }

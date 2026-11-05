@@ -53,7 +53,6 @@
   "Weight trend &amp; projection": "Тренд і прогноз ваги",
   "See your weight on clear charts with a time-to-goal projection based on your own data.": "Дивіться свою вагу на зрозумілих графіках із прогнозом досягнення мети на основі ваших власних даних.",
   "Smart reminders": "Розумні нагадування",
-  "Weekly or daily reminders that match your medication's schedule.": "Щотижневі або щоденні нагадування за графіком вашого препарату.",
   "Vial stock": "Запас флаконів",
   "Open dates, expiry countdown, and remaining doses for every vial.": "Дата відкриття, відлік до кінця терміну придатності та залишок доз для кожного флакона.",
   "Progress charts": "Графіки прогресу",
@@ -68,7 +67,6 @@
   "Any schedule, and your doctor&#39;s plan": "Будь-який графік — і план вашого лікаря",
   "Education library": "Бібліотека знань",
   "Injection site rotation": "Чергування місць ін’єкцій",
-  "A body diagram tracks each site and suggests where to inject next.": "Схема тіла відстежує кожне місце й підказує, куди колоти наступного разу.",
   "Body measurements": "Виміри тіла",
   "Track waist, hip, body-fat and more: the progress the scale alone misses.": "Відстежуйте талію, стегна, відсоток жиру та інше: прогрес, якого самі ваги не помічають.",
   "Milestones &amp; streaks": "Досягнення й серії",
@@ -181,6 +179,8 @@
   "Yes, and it is free. If the app you are leaving offers an export, export from it, open Settings &rarr; Import in Dozify and pick the file. It is built to read Shotsy, GLPzy and GlucoPal exports from their published formats, and any CSV with a date column and a weight, dose or symptom column; if you can get a CSV of your Glapp data, Dozify can read it. Not every format has been tested with a real export. It shows you what it found (how many injections, weights and side effects) before writing anything, skips records you already have, and backs up your existing data first. <a href=\"/en/switch-glp1-tracker-app\">More on the switching page</a>.": "Так, і безкоштовно. Якщо застосунок, з якого ви йдете, пропонує експорт, експортуйте дані, відкрийте в Dozify Налаштування &rarr; Імпорт твоєї історії і виберіть файл. Dozify створено для читання експортів із Shotsy, GLPzy і GlucoPal на основі їхніх опублікованих форматів, а також будь-якого CSV зі стовпцем дати та стовпцем ваги, дози чи симптому; якщо ви зможете отримати CSV зі своїми даними Glapp, Dozify зможе його прочитати. Не кожен формат перевірено на реальному експорті. Він показує, що знайдено (скільки ін’єкцій, записів ваги й побічних ефектів), ще до запису, пропускає записи, які у вас уже є, і спершу робить резервну копію ваших наявних даних. <a href=\"/en/switch-glp1-tracker-app\">Докладніше на сторінці про перехід</a>.",
   "Theme picker with six themes: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee": "Вибір із шести тем: «Класика», «Дельфін», «Панда», «Сова», «Фламінго» і «Бджола»",
   "The Dozify home screen in the Dolphin theme: ocean-blue accent and the AI meal card": "Головний екран Dozify у темі «Дельфін»: океанічно-синій акцент і картка страви з AI",
-  "Appearance screen: light, dark or system mode and six themes": "Екран «Оформлення»: світлий, темний чи системний режим і шість тем"
+  "Appearance screen: light, dark or system mode and six themes": "Екран «Оформлення»: світлий, темний чи системний режим і шість тем",
+  "Weekly or daily reminders that match your medication's schedule. Each injection reminder names your next site, and you can log the dose right from the notification.": "Щотижневі або щоденні нагадування за графіком вашого препарату. Кожне нагадування про ін’єкцію називає наступне місце, а дозу можна записати прямо зі сповіщення.",
+  "A body diagram tracks each site and suggests where to inject next. Your next site also shows on the home screen.": "Схема тіла відстежує кожне місце й підказує, куди колоти наступного разу. Наступне місце видно і на головному екрані."
  }
 }

@@ -53,7 +53,6 @@
   "Weight trend &amp; projection": "Tendance &amp; projection du poids",
   "See your weight on clear charts with a time-to-goal projection based on your own data.": "Suivez votre poids sur des graphiques clairs, avec une projection du temps restant jusqu’à l’objectif basée sur vos propres données.",
   "Smart reminders": "Rappels intelligents",
-  "Weekly or daily reminders that match your medication's schedule.": "Des rappels hebdomadaires ou quotidiens adaptés au calendrier de votre médicament.",
   "Vial stock": "Stock de flacons",
   "Open dates, expiry countdown, and remaining doses for every vial.": "Date d’ouverture, compte à rebours avant péremption et doses restantes pour chaque flacon.",
   "Progress charts": "Graphiques de progression",
@@ -68,7 +67,6 @@
   "Any schedule, and your doctor&#39;s plan": "Tous les calendriers, et le plan de votre médecin",
   "Education library": "Bibliothèque de guides",
   "Injection site rotation": "Rotation des sites d’injection",
-  "A body diagram tracks each site and suggests where to inject next.": "Un schéma du corps suit chaque site et vous suggère où injecter la prochaine fois.",
   "Body measurements": "Mensurations",
   "Track waist, hip, body-fat and more: the progress the scale alone misses.": "Suivez tour de taille, tour de hanches, masse grasse et plus encore : les progrès que la balance seule ne montre pas.",
   "Milestones &amp; streaks": "Étapes &amp; séries",
@@ -181,6 +179,8 @@
   "Yes, and it is free. If the app you are leaving offers an export, export from it, open Settings &rarr; Import in Dozify and pick the file. It is built to read Shotsy, GLPzy and GlucoPal exports from their published formats, and any CSV with a date column and a weight, dose or symptom column; if you can get a CSV of your Glapp data, Dozify can read it. Not every format has been tested with a real export. It shows you what it found (how many injections, weights and side effects) before writing anything, skips records you already have, and backs up your existing data first. <a href=\"/en/switch-glp1-tracker-app\">More on the switching page</a>.": "Oui, et c’est gratuit. Si l’app que vous quittez propose un export, exportez depuis celle-ci, ouvrez Réglages &rarr; Importer ton historique dans Dozify et choisissez le fichier. Il est conçu pour lire les exports de Shotsy, GLPzy et GlucoPal à partir de leurs formats publiés, ainsi que tout CSV comportant une colonne de date et une colonne de poids, de dose ou de symptôme ; si vous pouvez obtenir un CSV de vos données Glapp, Dozify peut le lire. Tous les formats n’ont pas été testés avec un véritable export. Il vous montre ce qu’il a trouvé (combien d’injections, de pesées et d’effets secondaires) avant d’enregistrer quoi que ce soit, ignore les données que vous avez déjà, et sauvegarde d’abord vos données existantes. <a href=\"/en/switch-glp1-tracker-app\">Plus de détails sur la page dédiée au changement d’app</a>.",
   "Theme picker with six themes: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee": "Sélecteur de thème avec six thèmes : Classique, Dauphin, Panda, Chouette, Flamant et Abeille",
   "The Dozify home screen in the Dolphin theme: ocean-blue accent and the AI meal card": "L’écran d’accueil de Dozify avec le thème Dauphin : accent bleu océan et carte repas IA",
-  "Appearance screen: light, dark or system mode and six themes": "Écran Apparence : mode clair, sombre ou système et six thèmes"
+  "Appearance screen: light, dark or system mode and six themes": "Écran Apparence : mode clair, sombre ou système et six thèmes",
+  "Weekly or daily reminders that match your medication's schedule. Each injection reminder names your next site, and you can log the dose right from the notification.": "Des rappels hebdomadaires ou quotidiens adaptés au calendrier de votre médicament. Chaque rappel d’injection indique votre prochain site, et vous pouvez enregistrer la dose directement depuis la notification.",
+  "A body diagram tracks each site and suggests where to inject next. Your next site also shows on the home screen.": "Un schéma du corps suit chaque site et vous suggère où injecter la prochaine fois. Votre prochain site s’affiche aussi sur l’écran d’accueil."
  }
 }

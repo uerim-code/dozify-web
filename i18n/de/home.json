@@ -53,7 +53,6 @@
   "Weight trend &amp; projection": "Gewichtstrend &amp; Prognose",
   "See your weight on clear charts with a time-to-goal projection based on your own data.": "Sieh dein Gewicht in übersichtlichen Diagrammen, mit einer Prognose bis zum Ziel auf Basis deiner eigenen Daten.",
   "Smart reminders": "Smarte Erinnerungen",
-  "Weekly or daily reminders that match your medication's schedule.": "Wöchentliche oder tägliche Erinnerungen, passend zum Zeitplan deines Medikaments.",
   "Vial stock": "Vial-Vorrat",
   "Open dates, expiry countdown, and remaining doses for every vial.": "Öffnungsdatum, Countdown bis zum Ablauf und verbleibende Dosen für jedes Vial.",
   "Progress charts": "Fortschrittsdiagramme",
@@ -68,7 +67,6 @@
   "Any schedule, and your doctor&#39;s plan": "Jeder Zeitplan, und der Plan deiner Ärztin oder deines Arztes",
   "Education library": "Wissensbibliothek",
   "Injection site rotation": "Rotation der Einstichstellen",
-  "A body diagram tracks each site and suggests where to inject next.": "Eine Körperkarte erfasst jede Stelle und schlägt vor, wo du als Nächstes spritzt.",
   "Body measurements": "Körpermaße",
   "Track waist, hip, body-fat and more: the progress the scale alone misses.": "Tracke Taille, Hüfte, Körperfett und mehr: den Fortschritt, den die Waage allein übersieht.",
   "Milestones &amp; streaks": "Meilensteine &amp; Serien",
@@ -181,6 +179,8 @@
   "Yes, and it is free. If the app you are leaving offers an export, export from it, open Settings &rarr; Import in Dozify and pick the file. It is built to read Shotsy, GLPzy and GlucoPal exports from their published formats, and any CSV with a date column and a weight, dose or symptom column; if you can get a CSV of your Glapp data, Dozify can read it. Not every format has been tested with a real export. It shows you what it found (how many injections, weights and side effects) before writing anything, skips records you already have, and backs up your existing data first. <a href=\"/en/switch-glp1-tracker-app\">More on the switching page</a>.": "Ja, und zwar kostenlos. Wenn die App, die du verlässt, einen Export anbietet, exportiere daraus, öffne in Dozify Einstellungen &rarr; Deinen Verlauf importieren und wähle die Datei. Dozify ist dafür gebaut, Exporte aus Shotsy, GLPzy und GlucoPal anhand ihrer veröffentlichten Formate zu lesen, sowie jede CSV-Datei mit einer Datumsspalte und einer Spalte für Gewicht, Dosis oder Symptome; wenn du eine CSV-Datei deiner Glapp-Daten bekommen kannst, kann Dozify sie lesen. Nicht jedes Format wurde mit einem echten Export getestet. Dozify zeigt dir vor dem Speichern, was es gefunden hat (wie viele Spritzen, Gewichte und Nebenwirkungen), überspringt Einträge, die du schon hast, und sichert vorher deine vorhandenen Daten. <a href=\"/en/switch-glp1-tracker-app\">Mehr dazu auf der Wechsel-Seite</a>.",
   "Theme picker with six themes: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee": "Theme-Auswahl mit sechs Themes: Classic, Delfin, Panda, Nachteule, Flamingo und Honigbiene",
   "The Dozify home screen in the Dolphin theme: ocean-blue accent and the AI meal card": "Der Dozify-Startbildschirm im Delfin-Theme: ozeanblauer Akzent und die KI-Mahlzeitenkarte",
-  "Appearance screen: light, dark or system mode and six themes": "Bildschirm „Darstellung“: Modus Hell, Dunkel oder System und sechs Themes"
+  "Appearance screen: light, dark or system mode and six themes": "Bildschirm „Darstellung“: Modus Hell, Dunkel oder System und sechs Themes",
+  "Weekly or daily reminders that match your medication's schedule. Each injection reminder names your next site, and you can log the dose right from the notification.": "Wöchentliche oder tägliche Erinnerungen, passend zum Zeitplan deines Medikaments. Jede Injektions-Erinnerung nennt deine nächste Stelle, und du kannst die Dosis direkt in der Mitteilung erfassen.",
+  "A body diagram tracks each site and suggests where to inject next. Your next site also shows on the home screen.": "Eine Körperkarte erfasst jede Stelle und schlägt vor, wo du als Nächstes spritzt. Deine nächste Stelle steht auch auf dem Startbildschirm."
  }
 }

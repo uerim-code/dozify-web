@@ -53,7 +53,6 @@
   "Weight trend &amp; projection": "Τάση &amp; πρόβλεψη βάρους",
   "See your weight on clear charts with a time-to-goal projection based on your own data.": "Δείτε το βάρος σας σε καθαρά γραφήματα, με πρόβλεψη χρόνου μέχρι τον στόχο βασισμένη στα δικά σας δεδομένα.",
   "Smart reminders": "Έξυπνες υπενθυμίσεις",
-  "Weekly or daily reminders that match your medication's schedule.": "Εβδομαδιαίες ή καθημερινές υπενθυμίσεις που ταιριάζουν με το πρόγραμμα του φαρμάκου σας.",
   "Vial stock": "Απόθεμα φιαλιδίων",
   "Open dates, expiry countdown, and remaining doses for every vial.": "Ημερομηνίες ανοίγματος, αντίστροφη μέτρηση λήξης και δόσεις που απομένουν για κάθε φιαλίδιο.",
   "Progress charts": "Γραφήματα προόδου",
@@ -68,7 +67,6 @@
   "Any schedule, and your doctor&#39;s plan": "Οποιοδήποτε πρόγραμμα, και το πλάνο του γιατρού σας",
   "Education library": "Βιβλιοθήκη γνώσεων",
   "Injection site rotation": "Εναλλαγή σημείων ένεσης",
-  "A body diagram tracks each site and suggests where to inject next.": "Ένα διάγραμμα του σώματος καταγράφει κάθε σημείο και προτείνει πού να γίνει η επόμενη ένεση.",
   "Body measurements": "Σωματικές μετρήσεις",
   "Track waist, hip, body-fat and more: the progress the scale alone misses.": "Καταγράψτε μέση, γοφούς, λίπος σώματος και άλλα: την πρόοδο που η ζυγαριά μόνη της δεν δείχνει.",
   "Milestones &amp; streaks": "Ορόσημα &amp; σερί",
@@ -181,6 +179,8 @@
   "Yes, and it is free. If the app you are leaving offers an export, export from it, open Settings &rarr; Import in Dozify and pick the file. It is built to read Shotsy, GLPzy and GlucoPal exports from their published formats, and any CSV with a date column and a weight, dose or symptom column; if you can get a CSV of your Glapp data, Dozify can read it. Not every format has been tested with a real export. It shows you what it found (how many injections, weights and side effects) before writing anything, skips records you already have, and backs up your existing data first. <a href=\"/en/switch-glp1-tracker-app\">More on the switching page</a>.": "Ναι, και είναι δωρεάν. Αν η εφαρμογή που αφήνετε προσφέρει εξαγωγή, κάντε εξαγωγή από αυτήν, ανοίξτε Ρυθμίσεις &rarr; «Εισαγωγή του ιστορικού σου» στο Dozify και επιλέξτε το αρχείο. Είναι φτιαγμένο για να διαβάζει αρχεία εξαγωγής από Shotsy, GLPzy και GlucoPal με βάση τις δημοσιευμένες μορφές τους, καθώς και οποιοδήποτε CSV με στήλη ημερομηνίας και στήλη βάρους, δόσης ή συμπτώματος· αν μπορείτε να αποκτήσετε ένα CSV με τα δεδομένα σας από το Glapp, το Dozify μπορεί να το διαβάσει. Δεν έχει δοκιμαστεί κάθε μορφή με πραγματικό αρχείο εξαγωγής. Σας δείχνει τι βρήκε (πόσες ενέσεις, βάρη και παρενέργειες) πριν αποθηκεύσει οτιδήποτε, παραλείπει εγγραφές που έχετε ήδη και κρατά πρώτα αντίγραφο ασφαλείας των υπαρχόντων δεδομένων σας. <a href=\"/en/switch-glp1-tracker-app\">Περισσότερα στη σελίδα μεταφοράς</a>.",
   "Theme picker with six themes: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee": "Επιλογή ανάμεσα σε έξι θέματα: Κλασικό, Δελφίνι, Πάντα, Κουκουβάγια, Φλαμίνγκο και Μέλισσα",
   "The Dozify home screen in the Dolphin theme: ocean-blue accent and the AI meal card": "Η αρχική οθόνη του Dozify με το θέμα Δελφίνι: μπλε του ωκεανού και η κάρτα γεύματος AI",
-  "Appearance screen: light, dark or system mode and six themes": "Η οθόνη «Εμφάνιση»: Ανοιχτό, Σκούρο ή Σύστημα και έξι θέματα"
+  "Appearance screen: light, dark or system mode and six themes": "Η οθόνη «Εμφάνιση»: Ανοιχτό, Σκούρο ή Σύστημα και έξι θέματα",
+  "Weekly or daily reminders that match your medication's schedule. Each injection reminder names your next site, and you can log the dose right from the notification.": "Εβδομαδιαίες ή καθημερινές υπενθυμίσεις που ταιριάζουν με το πρόγραμμα του φαρμάκου σας. Κάθε υπενθύμιση ένεσης αναφέρει το επόμενο σημείο και μπορείτε να καταγράψετε τη δόση απευθείας από την ειδοποίηση.",
+  "A body diagram tracks each site and suggests where to inject next. Your next site also shows on the home screen.": "Ένα διάγραμμα του σώματος καταγράφει κάθε σημείο και προτείνει πού να γίνει η επόμενη ένεση. Το επόμενο σημείο φαίνεται και στην αρχική οθόνη."
  }
 }

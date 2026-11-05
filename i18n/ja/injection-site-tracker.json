@@ -20,7 +20,6 @@
   "Which sites can I choose from?": "どの部位から選べますか？",
   "The abdomen, the thigh and the upper arm, split into left and right and into the areas within each. Those are the areas the manufacturers' instructions describe for subcutaneous GLP-1 injections.": "腹部、太もも、上腕を、左右に、さらにそれぞれの中のエリアに分けています。これらはメーカーの説明書が皮下へのGLP-1注射について示している部位です。",
   "How does the suggestion work?": "提案はどのようなしくみですか？",
-  "It looks at where your recent injections went and points at the area you have used least recently. It is a suggestion on the screen, not a rule: you can log anywhere you actually injected.": "最近の注射がどこに打たれたかを見て、最も長く使っていない部位を示します。画面上の提案であってルールではありません。実際に注射した場所なら、どこでも記録できます。",
   "Does it warn me if I use the same spot again?": "同じ場所をまた使うと注意してくれますか？",
   "It shows you what you have used recently, so a repeat is visible before you log it. It does not block anything; you may have a reason, and the app does not overrule you.": "最近使った場所を表示するので、記録する前に繰り返しが目に見えます。何かをブロックすることはしません。理由があるのかもしれず、アプリがあなたの判断を覆すことはありません。",
   "I inject in the same area every time. Is that a problem?": "毎回同じエリアに注射しています。問題ですか？",
@@ -28,6 +27,7 @@
   "Does this replace the leaflet that came with my pen?": "ペンに付属の添付文書の代わりになりますか？",
   "No. The leaflet is the instruction; this is a record of what you did. Where the two disagree, the leaflet is right.": "いいえ。添付文書は指示で、これはあなたがしたことの記録です。両者が食い違う場合は、添付文書が正しいものです。",
   "Guides, with their sources named: <a href=\"/en/articles/glp1-injection-sites\">where to inject and how to rotate</a>, <a href=\"/en/articles/how-to-inject-glp1\">how to inject a pen, step by step</a> and <a href=\"/en/articles/glp1-side-effects\">managing common side effects</a> and <a href=\"/en/articles/injection-site-lumps\">what the labels report about lumps at a site</a>.": "出典を明記したガイド：<a href=\"/en/articles/glp1-injection-sites\">どこに注射し、どうローテーションするか</a>、<a href=\"/en/articles/how-to-inject-glp1\">ペンの注射のしかた（ステップごと）</a>、<a href=\"/en/articles/glp1-side-effects\">よくある副作用への対処</a>、<a href=\"/en/articles/injection-site-lumps\">注射部位のしこりについて添付文書が報告していること</a>。",
-  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a>.": "Dozifyのそのほかの機能：<a href=\"/en/glp1-shot-tracker\">注射トラッカー</a>と<a href=\"/en/glp1-side-effect-journal\">副作用日記</a>。"
+  "Elsewhere in Dozify: <a href=\"/en/glp1-shot-tracker\">the shot tracker</a> and <a href=\"/en/glp1-side-effect-journal\">the side-effect journal</a>.": "Dozifyのそのほかの機能：<a href=\"/en/glp1-shot-tracker\">注射トラッカー</a>と<a href=\"/en/glp1-side-effect-journal\">副作用日記</a>。",
+  "It looks at where your recent injections went and points at the area you have used least recently. It is a suggestion on the screen, not a rule: you can log anywhere you actually injected. The next site also shows on the home screen and in the dose reminder, and logging from the notification records it.": "最近の注射がどこに打たれたかを見て、最も長く使っていない部位を示します。画面上の提案であってルールではありません。実際に注射した場所なら、どこでも記録できます。 次の部位はホーム画面と服用リマインダーにも表示され、通知から記録するとその部位が保存されます。"
  }
 }

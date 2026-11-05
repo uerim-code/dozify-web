@@ -53,7 +53,6 @@
   "Weight trend &amp; projection": "Andamento e proiezione del peso",
   "See your weight on clear charts with a time-to-goal projection based on your own data.": "Guarda il tuo peso su grafici chiari, con una proiezione del tempo necessario per raggiungere l’obiettivo basata sui tuoi dati.",
   "Smart reminders": "Promemoria intelligenti",
-  "Weekly or daily reminders that match your medication's schedule.": "Promemoria settimanali o giornalieri in linea con il calendario del tuo farmaco.",
   "Vial stock": "Scorta dei flaconcini",
   "Open dates, expiry countdown, and remaining doses for every vial.": "Data di apertura, conto alla rovescia per la scadenza e dosi rimanenti per ogni flaconcino.",
   "Progress charts": "Grafici dei progressi",
@@ -68,7 +67,6 @@
   "Any schedule, and your doctor&#39;s plan": "Qualsiasi calendario, e il piano del tuo medico",
   "Education library": "Biblioteca informativa",
   "Injection site rotation": "Rotazione delle sedi di iniezione",
-  "A body diagram tracks each site and suggests where to inject next.": "Una mappa del corpo tiene traccia di ogni sede e suggerisce dove fare la prossima iniezione.",
   "Body measurements": "Misure corporee",
   "Track waist, hip, body-fat and more: the progress the scale alone misses.": "Monitora vita, fianchi, massa grassa e altro: i progressi che la sola bilancia non vede.",
   "Milestones &amp; streaks": "Traguardi e serie di giorni",
@@ -181,6 +179,8 @@
   "Yes, and it is free. If the app you are leaving offers an export, export from it, open Settings &rarr; Import in Dozify and pick the file. It is built to read Shotsy, GLPzy and GlucoPal exports from their published formats, and any CSV with a date column and a weight, dose or symptom column; if you can get a CSV of your Glapp data, Dozify can read it. Not every format has been tested with a real export. It shows you what it found (how many injections, weights and side effects) before writing anything, skips records you already have, and backs up your existing data first. <a href=\"/en/switch-glp1-tracker-app\">More on the switching page</a>.": "Sì, ed è gratis. Se l’app che stai lasciando offre un export, esporta i dati da lì, apri Impostazioni &rarr; Importa il tuo storico in Dozify e scegli il file. È pensata per leggere gli export di Shotsy, GLPzy e GlucoPal a partire dai loro formati pubblicati e qualsiasi CSV con una colonna data e una colonna di peso, dose o sintomi; se riesci a ottenere un CSV dei tuoi dati di Glapp, Dozify può leggerlo. Non tutti i formati sono stati provati con un export reale. Ti mostra cosa ha trovato (quante iniezioni, pesi ed effetti collaterali) prima di salvare qualcosa, salta i dati che hai già e fa prima un backup dei dati esistenti. <a href=\"/en/switch-glp1-tracker-app\">Maggiori dettagli nella pagina sul passaggio</a>.",
   "Theme picker with six themes: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee": "Selettore con sei temi: Classico, Delfino, Panda, Gufo, Fenicottero e Ape",
   "The Dozify home screen in the Dolphin theme: ocean-blue accent and the AI meal card": "La schermata home di Dozify con il tema Delfino: accento blu oceano e scheda del pasto AI",
-  "Appearance screen: light, dark or system mode and six themes": "Schermata Aspetto: modalità chiara, scura o di sistema e sei temi"
+  "Appearance screen: light, dark or system mode and six themes": "Schermata Aspetto: modalità chiara, scura o di sistema e sei temi",
+  "Weekly or daily reminders that match your medication's schedule. Each injection reminder names your next site, and you can log the dose right from the notification.": "Promemoria settimanali o giornalieri in linea con il calendario del tuo farmaco. Ogni promemoria di iniezione indica la prossima sede e puoi registrare la dose direttamente dalla notifica.",
+  "A body diagram tracks each site and suggests where to inject next. Your next site also shows on the home screen.": "Una mappa del corpo tiene traccia di ogni sede e suggerisce dove fare la prossima iniezione. La prossima sede compare anche nella schermata iniziale."
  }
 }

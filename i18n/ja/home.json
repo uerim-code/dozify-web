@@ -53,7 +53,6 @@
   "Weight trend &amp; projection": "体重の推移と予測",
   "See your weight on clear charts with a time-to-goal projection based on your own data.": "わかりやすいグラフで体重を確認でき、あなた自身のデータにもとづいて目標までの期間を予測します。",
   "Smart reminders": "スマートリマインダー",
-  "Weekly or daily reminders that match your medication's schedule.": "お薬のスケジュールに合わせた、週1回または毎日のリマインダー。",
   "Vial stock": "バイアルの在庫",
   "Open dates, expiry countdown, and remaining doses for every vial.": "すべてのバイアルの開封日、使用期限までのカウントダウン、残りの回数。",
   "Progress charts": "経過グラフ",
@@ -68,7 +67,6 @@
   "Any schedule, and your doctor&#39;s plan": "どんなスケジュールにも、医師の計画にも",
   "Education library": "学習ライブラリ",
   "Injection site rotation": "注射部位のローテーション",
-  "A body diagram tracks each site and suggests where to inject next.": "人体図で各部位を記録し、次に注射する場所を提案します。",
   "Body measurements": "体のサイズ",
   "Track waist, hip, body-fat and more: the progress the scale alone misses.": "ウエスト、ヒップ、体脂肪率などを記録：体重計だけでは見落とす進歩を。",
   "Milestones &amp; streaks": "目標達成と連続記録",
@@ -181,6 +179,8 @@
   "Yes, and it is free. If the app you are leaving offers an export, export from it, open Settings &rarr; Import in Dozify and pick the file. It is built to read Shotsy, GLPzy and GlucoPal exports from their published formats, and any CSV with a date column and a weight, dose or symptom column; if you can get a CSV of your Glapp data, Dozify can read it. Not every format has been tested with a real export. It shows you what it found (how many injections, weights and side effects) before writing anything, skips records you already have, and backs up your existing data first. <a href=\"/en/switch-glp1-tracker-app\">More on the switching page</a>.": "はい、無料です。今使っているアプリに書き出し機能があれば書き出し、Dozifyで「設定 &rarr; 履歴を読み込む」を開いてファイルを選んでください。Shotsy、GLPzy、GlucoPalの書き出しファイルを公開されている形式にもとづいて読み込めるように作られており、日付の列に加えて、体重、用量、症状のいずれかの列があるCSVにも対応します。GlappのデータのCSVを入手できれば、Dozifyで読み込めます。すべての形式を実際の書き出しファイルで検証したわけではありません。何かを書き込む前に見つかった内容（注射・体重・副作用の件数）を表示します。すでにある記録は飛ばし、既存データのバックアップも先に作成します。<a href=\"/en/switch-glp1-tracker-app\">詳しくは乗り換えページへ</a>。",
   "Theme picker with six themes: Classic, Dolphin, Panda, Night Owl, Flamingo and Honeybee": "6つのテーマから選べるテーマ選択：クラシック、イルカ、パンダ、フクロウ、フラミンゴ、ミツバチ",
   "The Dozify home screen in the Dolphin theme: ocean-blue accent and the AI meal card": "イルカテーマのDozifyホーム画面：オーシャンブルーのアクセントとAI食事カード",
-  "Appearance screen: light, dark or system mode and six themes": "外観の画面：ライト・ダーク・システムに合わせるの切り替えと6つのテーマ"
+  "Appearance screen: light, dark or system mode and six themes": "外観の画面：ライト・ダーク・システムに合わせるの切り替えと6つのテーマ",
+  "Weekly or daily reminders that match your medication's schedule. Each injection reminder names your next site, and you can log the dose right from the notification.": "お薬のスケジュールに合わせた、週1回または毎日のリマインダー。 注射のリマインダーには次の部位が表示され、通知から直接記録できます。",
+  "A body diagram tracks each site and suggests where to inject next. Your next site also shows on the home screen.": "人体図で各部位を記録し、次に注射する場所を提案します。 次の部位はホーム画面にも表示されます。"
  }
 }
