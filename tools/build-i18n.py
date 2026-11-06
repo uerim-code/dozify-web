@@ -223,7 +223,7 @@ def render(lang: str, en_slug: str, html: str, page_t: dict, common_t: dict) -> 
     def shot(m: re.Match) -> str:
         local = f"screenshots/{lang}/{m.group(1)}"
         return "/" + local if (ROOT / local).exists() else m.group(0)
-    html = re.sub(r"/screenshots/en/([\w.-]+\.webp)", shot, html)
+    html = bl.version_shots(re.sub(r"/screenshots/en/([\w.-]+\.webp)(\?v=\w+)?", shot, html))
 
     # In right-to-left text a trademark sign is neutral, so "Ozempic®" shows it on
     # the wrong side of the word. A left-to-right mark keeps it with the name.

@@ -37,6 +37,19 @@ from structured_data import build_graph, strip_jsonld  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CSS_VERSION = hashlib.sha1((ROOT / "styles.css").read_bytes()).hexdigest()[:8]
+
+
+def version_shots(html: str) -> str:
+    """Give every screenshot URL its file's content hash. Cloudflare keeps an
+    image for a week under its URL, so the 1.3.8 screenshots, saved under the
+    old names, kept showing the previous app to most visitors (Nov 2026)."""
+    def tag(m: re.Match) -> str:
+        path = m.group(1)
+        f = ROOT / path.lstrip("/")
+        if not f.exists():
+            return m.group(0)
+        return f"{path}?v={hashlib.sha1(f.read_bytes()).hexdigest()[:8]}"
+    return re.sub(r"(/screenshots/[\w/.-]+?\.webp)(\?v=\w+)?", tag, html)
 SITE = "https://dozify.app"
 APP_STORE_URL = "https://apps.apple.com/app/dozify/id6764325653"
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -268,6 +281,7 @@ def build_page(src: str, lang: str, en_slug: str, tr_slug: str) -> str:
         )
 
     html = re.sub(r'<img[^>]+src="(/screenshots/[^"]+\.webp)"[^>]*>', responsive, html)
+    html = version_shots(html)
 
     # styles.css is cached for a week; a content hash in the URL makes a new
     # stylesheet reach returning visitors on their next page view instead of
