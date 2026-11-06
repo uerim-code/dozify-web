@@ -19,6 +19,8 @@ on:
 
 jobs:
   gate:
+    # Fork PR'lari VPS runner'inda kod calistiramaz (public repo guvenligi).
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     # On the VPS runner (unv-vps-runner-dozify-web), never GitHub-hosted
     # (Ümit, 2026-10-19). The runner has Python 3.12; check.sh needs only the
     # standard library, so there is no setup-python step.
