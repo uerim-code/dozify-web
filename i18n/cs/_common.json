@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Podívej se na tabulku dávkování GLP-1 →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify ti pomáhá sledovat injekce GLP-1, střídat místa vpichu, zapisovat hmotnost a dostávat připomínky, a to vše funguje offline, se záznamy uloženými ve tvém zařízení.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify ti to řekne, místo aby potichu naimportovalo nula řádků. Načíst lze jakýkoli CSV soubor se sloupcem s datem a sloupcem s hmotností, dávkou nebo příznakem. Pokud ten tvůj nejde, pošli ho přes Nastavení → Navrhni funkci a formát doplníme: soubor, který neumíme přečíst, je naše mezera, ne tvoje."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify ti to řekne, místo aby potichu naimportovalo nula řádků. Načíst lze jakýkoli CSV soubor se sloupcem s datem a sloupcem s hmotností, dávkou nebo příznakem. Pokud ten tvůj nejde, pošli ho přes Nastavení → Navrhni funkci a formát doplníme: soubor, který neumíme přečíst, je naše mezera, ne tvoje.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Ještě vybíráš? Srovnání nejhodnocenějších aplikací pro sledování GLP-1 →</a>",
+  "Account": "Účet",
+  "Is Dozify free?": "Je Dozify zdarma?",
+  "Medication levels": "Hladina léku",
+  "None yet": "Zatím žádná",
+  "Not mentioned": "Neuvedeno",
+  "Sources": "Zdroje",
+  "US ratings": "Hodnocení v USA",
+  "Yes": "Ano"
  }
 }

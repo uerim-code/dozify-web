@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Se GLP-1-doseringstabellen →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify hjälper dig att hålla koll på GLP-1-injektioner, rotera injektionsställen, logga vikten och få påminnelser; allt detta fungerar offline, och dina data sparas på din enhet.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Då säger Dozify det i stället för att i tysthet importera noll rader. Alla CSV-filer med en datumkolumn och en kolumn för vikt, dos eller symtom går att läsa. Om din inte gör det kan du skicka den via Inställningar → Föreslå en funktion, så läggs formatet till: en fil vi inte kan läsa är vår brist, inte din."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Då säger Dozify det i stället för att i tysthet importera noll rader. Alla CSV-filer med en datumkolumn och en kolumn för vikt, dos eller symtom går att läsa. Om din inte gör det kan du skicka den via Inställningar → Föreslå en funktion, så läggs formatet till: en fil vi inte kan läsa är vår brist, inte din.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Har du inte bestämt dig? De mest betygsatta GLP-1-apparna jämförda →</a>",
+  "Account": "Konto",
+  "Is Dozify free?": "Är Dozify gratis?",
+  "Medication levels": "Läkemedelsnivå",
+  "None yet": "Inga än",
+  "Not mentioned": "Nämns inte",
+  "Sources": "Källor",
+  "US ratings": "Betyg i USA",
+  "Yes": "Ja"
  }
 }

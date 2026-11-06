@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Se GLP-1-doseringstabellen →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify hjælper dig med at holde styr på GLP-1-injektioner, skifte injektionssted, registrere din vægt og få påmindelser; alt dette virker offline, og dine data gemmes på din enhed.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify siger det i stedet for stille og roligt at importere nul rækker. Enhver CSV-fil med en datokolonne og en kolonne for vægt, dosis eller symptomer kan læses. Kan din ikke, så send den via Indstillinger → Foreslå en funktion, så bliver formatet tilføjet: en fil, vi ikke kan læse, er vores mangel, ikke din."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify siger det i stedet for stille og roligt at importere nul rækker. Enhver CSV-fil med en datokolonne og en kolonne for vægt, dosis eller symptomer kan læses. Kan din ikke, så send den via Indstillinger → Foreslå en funktion, så bliver formatet tilføjet: en fil, vi ikke kan læse, er vores mangel, ikke din.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Har du ikke valgt endnu? De mest bedømte GLP-1-apps sammenlignet →</a>",
+  "Account": "Konto",
+  "Is Dozify free?": "Er Dozify gratis?",
+  "Medication levels": "Lægemiddelniveau",
+  "None yet": "Ingen endnu",
+  "Not mentioned": "Ikke nævnt",
+  "Sources": "Kilder",
+  "US ratings": "Bedømmelser i USA",
+  "Yes": "Ja"
  }
 }

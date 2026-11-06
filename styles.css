@@ -362,6 +362,98 @@ footer {
 .compare { border-collapse: collapse; width: 100%; margin-block: 16px; }
 .compare th, .compare td { padding: 8px 16px 8px 0; padding-inline: 0 16px; text-align: start; vertical-align: top; font-size: 16px; line-height: 1.45; overflow-wrap: anywhere; }
 
+/* COMPARISON PAGES (best-glp1-tracker-apps, meagain-alternative, pep-alternative)
+   Facts copied from other apps' listings, so the page has to make the date and
+   the "not mentioned" cells as easy to read as the yes cells. The wide table
+   scrolls inside its own box on a phone, with the app column and the header
+   corner pinned; the two- and three-app tables stack into cards instead, so the
+   Dozify column is never off-screen. */
+.compare-page h1 { text-wrap: balance; }
+.compare-page h2 { font-size: 24px; line-height: 1.25; letter-spacing: -0.01em; margin-top: 44px; }
+.compare-page h3 { font-size: 18px; color: var(--slate-900); margin-top: 28px; }
+.compare-page > p, .compare-page > ul, .compare-page .ours p, .compare-page .faq-item p { max-width: 68ch; }
+.compare-page .lede { font-size: 18px; line-height: 1.6; color: var(--slate-600); margin-block: 4px 16px; }
+.compare-page .checked {
+  display: inline-block; font-size: 14px; line-height: 1.5; color: var(--teal-900);
+  background: var(--teal-50); border: 1px solid var(--teal-100); border-radius: var(--radius-sm);
+  padding: 8px 12px; margin-block-end: 8px;
+}
+.table-scroll {
+  overflow-x: auto; margin-block: 16px 8px; border: 1px solid var(--slate-200);
+  border-radius: var(--radius-md);
+  /* Scroll cue that also shows where iOS hides scrollbars: a shade on the
+     right edge that the white "local" layer covers once you reach the end. */
+  background:
+    linear-gradient(to left, #fff 30%, rgb(255 255 255 / 0)) right / 32px 100% no-repeat local,
+    radial-gradient(farthest-side at 100% 50%, rgb(15 23 42 / .14), transparent) right / 12px 100% no-repeat scroll,
+    #fff;
+}
+.table-scroll:focus-visible { outline: 2px solid var(--teal-600); outline-offset: 2px; }
+[dir="rtl"] .table-scroll {
+  background:
+    linear-gradient(to right, #fff 30%, rgb(255 255 255 / 0)) left / 32px 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgb(15 23 42 / .14), transparent) left / 12px 100% no-repeat scroll,
+    #fff;
+}
+.compare-grid { margin: 0; min-width: 640px; font-variant-numeric: tabular-nums; }
+.compare-grid th, .compare-grid td {
+  padding: 12px 14px; font-size: 15px; line-height: 1.45; border-bottom: 1px solid var(--slate-100);
+  overflow-wrap: normal; background-clip: padding-box;
+}
+.compare-grid td { color: var(--slate-700); background: #fff; }
+.compare-grid .num { white-space: nowrap; }
+.compare-grid thead th {
+  font-size: 13px; font-weight: 600; color: var(--slate-600); background: var(--slate-50);
+  border-bottom: 1px solid var(--slate-200); vertical-align: bottom;
+}
+.compare-grid thead th small { display: block; font-weight: 400; color: var(--slate-500); }
+.compare-grid tbody th { font-weight: 600; color: var(--slate-900); background: #fff; }
+.compare-grid tbody th a { color: inherit; text-decoration: underline; text-decoration-color: var(--slate-200); text-underline-offset: 3px; }
+.compare-grid thead th:first-child, .compare-grid tbody th[scope="row"] {
+  position: sticky; left: 0; z-index: 1; box-shadow: inset -1px 0 0 var(--slate-200);
+}
+.compare-grid thead th:first-child { z-index: 2; }
+[dir="rtl"] .compare-grid thead th:first-child, [dir="rtl"] .compare-grid tbody th[scope="row"] {
+  left: auto; right: 0; box-shadow: inset 1px 0 0 var(--slate-200);
+}
+.compare-grid tbody tr:last-child > * { border-bottom: 0; }
+.compare-grid td.muted { color: var(--slate-600); font-style: italic; }
+.compare-grid tbody tr.is-ours > * { background: var(--teal-50); }
+.compare-grid tr.is-ours th { color: var(--teal-900); }
+.compare-stack { min-width: 560px; }
+.compare-stack tbody th { width: 11em; }
+@media (max-width: 600px) {
+  .compare-page { padding-top: 24px; }
+  .compare-page .breadcrumb { margin-top: 0; }
+  .compare-page h2 { font-size: 22px; }
+  .table-scroll:has(.compare-stack) { overflow: visible; background: #fff; }
+  .compare-stack { min-width: 0; width: 100%; }
+  .compare-stack thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .compare-stack, .compare-stack tbody, .compare-stack tr, .compare-stack th, .compare-stack td { display: block; }
+  .compare-stack tr { padding: 12px 14px; border-bottom: 1px solid var(--slate-100); }
+  .compare-stack tbody tr:last-child { border-bottom: 0; }
+  .compare-stack tbody th[scope="row"] {
+    position: static; width: auto; padding: 0 0 6px; border: 0; box-shadow: none;
+    font-size: 13px; text-transform: none; color: var(--slate-600);
+  }
+  .compare-stack td { display: grid; grid-template-columns: 5.5em 1fr; gap: 10px; padding: 3px 0; border: 0; }
+  .compare-stack td::before { content: attr(data-app); font-weight: 600; color: var(--slate-900); }
+  .compare-stack td[data-app="Dozify"]::before { color: var(--teal-700); }
+}
+.compare-page .table-note { font-size: 14px; line-height: 1.55; color: var(--slate-600); }
+.compare-page .ours {
+  background: var(--teal-50); border: 1px solid var(--teal-100); border-radius: var(--radius-md);
+  padding: 4px 20px 20px; margin-top: 28px;
+}
+.compare-page .ours h3 { color: var(--teal-900); }
+.compare-page .ours .behind { border-inline-start: 3px solid var(--teal-600); padding-inline-start: 12px; margin-top: 16px; }
+.compare-page .cta-row { text-align: center; margin: 36px 0; }
+.compare-page .next-links { text-align: center; margin-top: 24px; }
+.compare-page .sources { padding-left: 20px; margin-top: 12px; }
+.compare-page .sources li { font-size: 15px; line-height: 1.6; color: var(--slate-600); overflow-wrap: anywhere; margin-bottom: 2px; }
+.compare-page .sources a { display: inline-block; padding-block: 8px; }
+.compare-page .sources a, .compare-page p a:not(.btn):not(.link-arrow), .compare-page li a { color: var(--teal-700); text-underline-offset: 2px; }
+
 /* LANGUAGE */
 html[lang="en"] [data-lang="tr"],
 html[lang="tr"] [data-lang="en"] {

@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Смотрите таблицу дозировок GLP-1 →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify помогает отмечать уколы GLP-1, чередовать места инъекций, записывать вес и получать напоминания; всё это работает офлайн, а ваши записи хранятся на вашем устройстве.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify прямо сообщит об этом, а не импортирует молча ноль строк. Прочитать можно любой CSV со столбцом даты и столбцом веса, дозы или симптома. Если ваш файл не читается, отправьте его через «Настройки → Предложить функцию», и мы добавим этот формат: файл, который мы не можем прочитать, — это наш недочёт, а не ваш."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify прямо сообщит об этом, а не импортирует молча ноль строк. Прочитать можно любой CSV со столбцом даты и столбцом веса, дозы или симптома. Если ваш файл не читается, отправьте его через «Настройки → Предложить функцию», и мы добавим этот формат: файл, который мы не можем прочитать, — это наш недочёт, а не ваш.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Ещё выбираете? Сравнение трекеров GLP-1 с наибольшим числом оценок →</a>",
+  "Account": "Аккаунт",
+  "Is Dozify free?": "Dozify бесплатный?",
+  "Medication levels": "Уровень препарата",
+  "None yet": "Пока нет",
+  "Not mentioned": "Не указано",
+  "Sources": "Источники",
+  "US ratings": "Оценки в США",
+  "Yes": "Да"
  }
 }

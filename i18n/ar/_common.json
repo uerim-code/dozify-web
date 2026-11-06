@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "عرض جدول جرعات GLP-1 ←",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "يساعدك Dozify على تتبّع حقن GLP-1، وتبديل مواضع الحقن، وتسجيل الوزن، وتلقّي التذكيرات، وكل ذلك يعمل دون إنترنت، مع حفظ سجلاتك على جهازك.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "يخبرك Dozify بذلك بدلاً من أن يستورد صفر سجلات بصمت. أي ملف CSV فيه عمود للتاريخ وعمود للوزن أو الجرعة أو العَرَض يمكن قراءته. وإن لم يُقرأ ملفك، فأرسله من الإعدادات ← اقترح ميزة وستُضاف صيغته: الملف الذي لا نستطيع قراءته تقصيرٌ منّا لا منك."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "يخبرك Dozify بذلك بدلاً من أن يستورد صفر سجلات بصمت. أي ملف CSV فيه عمود للتاريخ وعمود للوزن أو الجرعة أو العَرَض يمكن قراءته. وإن لم يُقرأ ملفك، فأرسله من الإعدادات ← اقترح ميزة وستُضاف صيغته: الملف الذي لا نستطيع قراءته تقصيرٌ منّا لا منك.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">ما زلت تختار؟ مقارنة تطبيقات تتبّع GLP-1 الأكثر تقييماً ←</a>",
+  "Account": "الحساب",
+  "Is Dozify free?": "هل Dozify مجاني؟",
+  "Medication levels": "مستويات الدواء",
+  "None yet": "لا يوجد بعد",
+  "Not mentioned": "غير مذكور",
+  "Sources": "المصادر",
+  "US ratings": "التقييمات في الولايات المتحدة",
+  "Yes": "نعم"
  }
 }

@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "GLP-1用量表を見る →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozifyは、GLP-1注射の記録、注射部位のローテーション、体重の記録、リマインダーに役立つアプリです。これらはすべてオフラインで動作し、記録はお使いのデバイスに保存されます。",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "その場合、Dozifyは0件のまま黙って取り込むのではなく、そのことをお知らせします。日付の列に加えて、体重、用量、症状のいずれかの列があるCSVなら読み込めます。読み込めない場合は、「設定 → 機能を提案する」からファイルを送ってください。その形式に対応します。読み込めないファイルは、あなたではなく私たちの課題です。"
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "その場合、Dozifyは0件のまま黙って取り込むのではなく、そのことをお知らせします。日付の列に加えて、体重、用量、症状のいずれかの列があるCSVなら読み込めます。読み込めない場合は、「設定 → 機能を提案する」からファイルを送ってください。その形式に対応します。読み込めないファイルは、あなたではなく私たちの課題です。",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">まだ迷っていますか？ 評価数の多いGLP-1トラッカーを比較 →</a>",
+  "Account": "アカウント",
+  "Is Dozify free?": "Dozifyは無料ですか？",
+  "Medication levels": "お薬の濃度",
+  "None yet": "まだなし",
+  "Not mentioned": "記載なし",
+  "Sources": "出典",
+  "US ratings": "米国での評価",
+  "Yes": "はい"
  }
 }

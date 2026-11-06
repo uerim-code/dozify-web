@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Дивіться таблицю дозування GLP-1 →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify допомагає відстежувати ін’єкції GLP-1, чергувати місця уколів, записувати вагу й отримувати нагадування; усе це працює офлайн, а ваші записи зберігаються на вашому пристрої.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify прямо про це скаже, а не імпортує мовчки нуль рядків. Прочитати можна будь-який CSV зі стовпцем дати та стовпцем ваги, дози чи симптому. Якщо ваш не читається, надішліть його через Налаштування → Запропонувати функцію, і формат додадуть: файл, який ми не можемо прочитати, — це наша прогалина, а не ваша."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify прямо про це скаже, а не імпортує мовчки нуль рядків. Прочитати можна будь-який CSV зі стовпцем дати та стовпцем ваги, дози чи симптому. Якщо ваш не читається, надішліть його через Налаштування → Запропонувати функцію, і формат додадуть: файл, який ми не можемо прочитати, — це наша прогалина, а не ваша.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Ще обираєте? Порівняння трекерів GLP-1 з найбільшою кількістю оцінок →</a>",
+  "Account": "Обліковий запис",
+  "Is Dozify free?": "Чи Dozify безкоштовний?",
+  "Medication levels": "Рівень препарату",
+  "None yet": "Поки немає",
+  "Not mentioned": "Не зазначено",
+  "Sources": "Джерела",
+  "US ratings": "Оцінки в США",
+  "Yes": "Так"
  }
 }

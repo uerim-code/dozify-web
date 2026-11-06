@@ -116,6 +116,21 @@
       "permanent": true
     },
     {
+      "source": "/best-glp1-tracker-apps",
+      "destination": "/en/best-glp1-tracker-apps",
+      "permanent": true
+    },
+    {
+      "source": "/meagain-alternative",
+      "destination": "/en/meagain-alternative",
+      "permanent": true
+    },
+    {
+      "source": "/pep-alternative",
+      "destination": "/en/pep-alternative",
+      "permanent": true
+    },
+    {
       "source": "/shotsy-alternative",
       "destination": "/en/shotsy-alternative",
       "permanent": true

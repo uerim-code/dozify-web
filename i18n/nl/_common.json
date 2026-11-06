@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Bekijk de GLP-1-doseringstabel →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Met Dozify houd je GLP-1-injecties bij, wissel je van prikplek, log je je gewicht en krijg je herinneringen; dat werkt allemaal offline, en je gegevens worden op je apparaat opgeslagen.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify zegt dat eerlijk in plaats van stilletjes nul rijen te importeren. Elke CSV met een datumkolom en een kolom voor gewicht, dosis of klachten wordt gelezen. Lukt dat bij jouw bestand niet, stuur het dan via Instellingen → Een functie voorstellen en het formaat wordt toegevoegd: een bestand dat wij niet kunnen lezen is ons gat, niet het jouwe."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify zegt dat eerlijk in plaats van stilletjes nul rijen te importeren. Elke CSV met een datumkolom en een kolom voor gewicht, dosis of klachten wordt gelezen. Lukt dat bij jouw bestand niet, stuur het dan via Instellingen → Een functie voorstellen en het formaat wordt toegevoegd: een bestand dat wij niet kunnen lezen is ons gat, niet het jouwe.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Twijfel je nog? De meest beoordeelde GLP-1-trackers vergeleken →</a>",
+  "Account": "Account",
+  "Is Dozify free?": "Is Dozify gratis?",
+  "Medication levels": "Medicijnspiegel",
+  "None yet": "Nog geen",
+  "Not mentioned": "Niet vermeld",
+  "Sources": "Bronnen",
+  "US ratings": "Beoordelingen (VS)",
+  "Yes": "Ja"
  }
 }

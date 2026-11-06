@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Δείτε τον πίνακα δόσεων GLP-1 →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Το Dozify σάς βοηθά να καταγράφετε τις ενέσεις GLP-1, να εναλλάσσετε τα σημεία ένεσης, να σημειώνετε το βάρος σας και να λαμβάνετε υπενθυμίσεις· όλα αυτά λειτουργούν offline, με τις καταγραφές σας αποθηκευμένες στη συσκευή σας.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Το Dozify σάς το λέει, αντί να εισαγάγει σιωπηλά μηδέν γραμμές. Οποιοδήποτε CSV με στήλη ημερομηνίας και στήλη βάρους, δόσης ή συμπτώματος μπορεί να διαβαστεί. Αν το δικό σας δεν διαβάζεται, στείλτε το από Ρυθμίσεις → «Πρότεινε μια λειτουργία» και η μορφή θα προστεθεί: ένα αρχείο που δεν μπορούμε να διαβάσουμε είναι δικό μας κενό, όχι δικό σας."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Το Dozify σάς το λέει, αντί να εισαγάγει σιωπηλά μηδέν γραμμές. Οποιοδήποτε CSV με στήλη ημερομηνίας και στήλη βάρους, δόσης ή συμπτώματος μπορεί να διαβαστεί. Αν το δικό σας δεν διαβάζεται, στείλτε το από Ρυθμίσεις → «Πρότεινε μια λειτουργία» και η μορφή θα προστεθεί: ένα αρχείο που δεν μπορούμε να διαβάσουμε είναι δικό μας κενό, όχι δικό σας.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Ακόμη διαλέγετε; Σύγκριση των εφαρμογών GLP-1 με τις περισσότερες βαθμολογίες →</a>",
+  "Account": "Λογαριασμός",
+  "Is Dozify free?": "Είναι το Dozify δωρεάν;",
+  "Medication levels": "Επίπεδο φαρμάκου",
+  "None yet": "Καμία ακόμη",
+  "Not mentioned": "Δεν αναφέρεται",
+  "Sources": "Πηγές",
+  "US ratings": "Βαθμολογίες ΗΠΑ",
+  "Yes": "Ναι"
  }
 }

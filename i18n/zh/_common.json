@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "查看 GLP-1 剂量表 →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify 帮你记录 GLP-1 注射、轮换注射部位、记录体重并接收提醒，这些功能都可离线使用，记录保存在你的设备上。",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify 会明确告诉你，而不是悄悄导入零行。任何带有日期列以及体重、剂量或症状列的 CSV都能读取。如果你的文件读不了，请在“设置 → 提个功能建议”中发送给我们，我们会添加该格式：读不了的文件是我们的不足，不是你的问题。"
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify 会明确告诉你，而不是悄悄导入零行。任何带有日期列以及体重、剂量或症状列的 CSV都能读取。如果你的文件读不了，请在“设置 → 提个功能建议”中发送给我们，我们会添加该格式：读不了的文件是我们的不足，不是你的问题。",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">还在挑选？看看评分最多的 GLP-1 记录应用对比 →</a>",
+  "Account": "账户",
+  "Is Dozify free?": "Dozify 免费吗？",
+  "Medication levels": "药物水平",
+  "None yet": "暂无",
+  "Not mentioned": "未提及",
+  "Sources": "参考来源",
+  "US ratings": "美国评分",
+  "Yes": "是"
  }
 }

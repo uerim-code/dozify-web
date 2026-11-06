@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Katso GLP-1-annostaulukko →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozifyn avulla seuraat GLP-1-pistoksia, vaihtelet pistoskohtia, kirjaat painosi ja saat muistutuksia. Kaikki tämä toimii offline-tilassa, ja merkintäsi tallennetaan laitteellesi.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify kertoo sen sen sijaan, että toisi hiljaa nolla riviä. Mikä tahansa CSV-tiedosto, jossa on päivämääräsarake ja paino-, annos- tai oiresarake, voidaan lukea. Jos omasi ei toimi, lähetä se kohdasta Asetukset → Ehdota ominaisuutta, niin muoto lisätään: tiedosto, jota emme osaa lukea, on meidän puutteemme, ei sinun."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify kertoo sen sen sijaan, että toisi hiljaa nolla riviä. Mikä tahansa CSV-tiedosto, jossa on päivämääräsarake ja paino-, annos- tai oiresarake, voidaan lukea. Jos omasi ei toimi, lähetä se kohdasta Asetukset → Ehdota ominaisuutta, niin muoto lisätään: tiedosto, jota emme osaa lukea, on meidän puutteemme, ei sinun.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Vieläkö valitset? Arvioiduimmat GLP-1-seurantasovellukset vertailussa →</a>",
+  "Account": "Tili",
+  "Is Dozify free?": "Onko Dozify ilmainen?",
+  "Medication levels": "Lääkepitoisuus",
+  "None yet": "Ei vielä",
+  "Not mentioned": "Ei mainita",
+  "Sources": "Lähteet",
+  "US ratings": "Arviot (USA)",
+  "Yes": "Kyllä"
  }
 }

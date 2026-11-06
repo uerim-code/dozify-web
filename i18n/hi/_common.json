@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "GLP-1 डोज़ चार्ट देखें →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify आपको GLP-1 इंजेक्शन ट्रैक करने, इंजेक्शन की जगह बदलते रहने, वज़न दर्ज करने और रिमाइंडर पाने में मदद करता है; यह सब ऑफ़लाइन काम करता है, और आपके रिकॉर्ड आपके डिवाइस पर सेव रहते हैं।",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify चुपचाप शून्य पंक्तियाँ इम्पोर्ट करने की बजाय साफ़ बता देता है। तारीख वाले कॉलम और वज़न, डोज़ या लक्षण वाले कॉलम वाली कोई भी CSV पढ़ी जा सकती है। अगर आपकी फ़ाइल नहीं पढ़ी जाती, तो उसे सेटिंग → कोई फ़ीचर सुझाएँ से भेजें और वह फ़ॉर्मेट जोड़ दिया जाएगा: जो फ़ाइल हम नहीं पढ़ पाते, वह हमारी कमी है, आपकी नहीं।"
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify चुपचाप शून्य पंक्तियाँ इम्पोर्ट करने की बजाय साफ़ बता देता है। तारीख वाले कॉलम और वज़न, डोज़ या लक्षण वाले कॉलम वाली कोई भी CSV पढ़ी जा सकती है। अगर आपकी फ़ाइल नहीं पढ़ी जाती, तो उसे सेटिंग → कोई फ़ीचर सुझाएँ से भेजें और वह फ़ॉर्मेट जोड़ दिया जाएगा: जो फ़ाइल हम नहीं पढ़ पाते, वह हमारी कमी है, आपकी नहीं।",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">अभी भी चुन रहे हैं? सबसे ज़्यादा रेटिंग वाले GLP-1 ट्रैकर की तुलना →</a>",
+  "Account": "अकाउंट",
+  "Is Dozify free?": "क्या Dozify मुफ़्त है?",
+  "Medication levels": "दवा-लेवल",
+  "None yet": "अभी नहीं",
+  "Not mentioned": "ज़िक्र नहीं",
+  "Sources": "स्रोत",
+  "US ratings": "US रेटिंग",
+  "Yes": "हाँ"
  }
 }

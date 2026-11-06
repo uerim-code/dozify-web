@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Zobacz tabelę dawkowania GLP-1 →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify pomaga śledzić zastrzyki GLP-1, zmieniać miejsca wkłuć, zapisywać wagę i dostawać przypomnienia, a wszystko to działa offline, z Twoimi danymi zapisanymi na Twoim urządzeniu.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify mówi o tym wprost, zamiast po cichu zaimportować zero wierszy. Odczytany zostanie każdy plik CSV z kolumną daty i kolumną wagi, dawki lub objawu. Jeśli Twój nie działa, wyślij go przez Ustawienia → Zaproponuj funkcję, a format zostanie dodany: plik, którego nie umiemy odczytać, to nasza luka, nie Twoja."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify mówi o tym wprost, zamiast po cichu zaimportować zero wierszy. Odczytany zostanie każdy plik CSV z kolumną daty i kolumną wagi, dawki lub objawu. Jeśli Twój nie działa, wyślij go przez Ustawienia → Zaproponuj funkcję, a format zostanie dodany: plik, którego nie umiemy odczytać, to nasza luka, nie Twoja.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Nadal wybierasz? Porównanie najczęściej ocenianych trackerów GLP-1 →</a>",
+  "Account": "Konto",
+  "Is Dozify free?": "Czy Dozify jest darmowe?",
+  "Medication levels": "Poziom leku",
+  "None yet": "Jeszcze brak",
+  "Not mentioned": "Nie podano",
+  "Sources": "Źródła",
+  "US ratings": "Oceny w USA",
+  "Yes": "Tak"
  }
 }

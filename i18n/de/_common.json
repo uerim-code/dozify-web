@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Zur GLP-1-Dosierungstabelle →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Mit Dozify protokollierst du GLP-1-Spritzen, wechselst die Einstichstellen, trackst dein Gewicht und bekommst Erinnerungen – all das funktioniert offline, und deine Daten werden auf deinem Gerät gespeichert.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify sagt es dir, statt stillschweigend null Zeilen zu importieren. Jede CSV-Datei mit einer Datumsspalte und einer Spalte für Gewicht, Dosis oder Symptome kann gelesen werden. Wenn deine nicht klappt, schick sie über Einstellungen → Funktion vorschlagen, und das Format wird ergänzt: Eine Datei, die wir nicht lesen können, ist unsere Lücke, nicht deine."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify sagt es dir, statt stillschweigend null Zeilen zu importieren. Jede CSV-Datei mit einer Datumsspalte und einer Spalte für Gewicht, Dosis oder Symptome kann gelesen werden. Wenn deine nicht klappt, schick sie über Einstellungen → Funktion vorschlagen, und das Format wird ergänzt: Eine Datei, die wir nicht lesen können, ist unsere Lücke, nicht deine.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Noch unentschieden? Die meistbewerteten GLP-1-Tracker im Vergleich →</a>",
+  "Account": "Konto",
+  "Is Dozify free?": "Ist Dozify kostenlos?",
+  "Medication levels": "Medikamentenspiegel",
+  "None yet": "Noch keine",
+  "Not mentioned": "Nicht erwähnt",
+  "Sources": "Quellen",
+  "US ratings": "US-Bewertungen",
+  "Yes": "Ja"
  }
 }

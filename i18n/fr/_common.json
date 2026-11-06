@@ -75,6 +75,15 @@
   "© 2026 UCE": "© 2026 UCE",
   "See the GLP-1 dosage chart →": "Voir le tableau des doses GLP-1 →",
   "Dozify helps you track GLP-1 injections, rotate sites, log weight, and get reminders, all of which work offline, with your records stored on your device.": "Dozify vous aide à suivre vos injections GLP-1, alterner les sites, noter votre poids et recevoir des rappels, le tout fonctionnant hors ligne, avec vos données stockées sur votre appareil.",
-  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify vous le dit au lieu d’importer zéro ligne en silence. Tout CSV comportant une colonne de date et une colonne de poids, de dose ou de symptôme peut être lu. Si le vôtre ne l’est pas, envoyez-le depuis Réglages → Proposer une fonctionnalité et le format sera ajouté : un fichier que nous ne savons pas lire, c’est notre lacune, pas la vôtre."
+  "Dozify says so rather than importing zero rows quietly. Any CSV with a date column and a weight, dose or symptom column will read. If yours does not, send it from Settings → Suggest a feature and the format gets added: a file we cannot read is our gap, not yours.": "Dozify vous le dit au lieu d’importer zéro ligne en silence. Tout CSV comportant une colonne de date et une colonne de poids, de dose ou de symptôme peut être lu. Si le vôtre ne l’est pas, envoyez-le depuis Réglages → Proposer une fonctionnalité et le format sera ajouté : un fichier que nous ne savons pas lire, c’est notre lacune, pas la vôtre.",
+  "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Still choosing? The most-rated GLP-1 trackers compared →</a>": "<a href=\"/en/best-glp1-tracker-apps\" class=\"link-arrow\">Vous hésitez encore ? Les apps de suivi GLP-1 les plus notées, comparées →</a>",
+  "Account": "Compte",
+  "Is Dozify free?": "Dozify est-il gratuit ?",
+  "Medication levels": "Niveaux du médicament",
+  "None yet": "Pas encore",
+  "Not mentioned": "Non mentionné",
+  "Sources": "Sources",
+  "US ratings": "Notes aux États-Unis",
+  "Yes": "Oui"
  }
 }
